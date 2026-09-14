@@ -1,16 +1,19 @@
-# Prototype validation
+# Sequential prototype validation
 
-Checked 2026-09-14 against the local served version.
+Checked 2026-09-14.
 
-- JavaScript syntax check passed; static references resolve locally.
-- Browser: incorrect and correct evidence-map answers produce distinct explanatory feedback, and the successful answer advances to the model lab.
-- Browser: the model condition changes the interpretation while retaining human uncertainty. The experiment note and worked comparison are usable.
-- Browser: exposure controls work by keyboard; reset restores F = 0.5 and half-life = 4 h. At F = 1 and half-life = 8 h, initial concentration is 100 units, AUC is approximately 1154 unit·h, and 24-hour concentration is 12.5 units.
-- Browser: visual-lesson play/pause, scene selection, next, replay state, and transcript are available; closing stops the playback timer.
-- Browser: all four briefing cards and their next links work; the course outline contains 16 entries.
-- Browser: the contextual AI prompt copies successfully. It explicitly states that no live model is connected.
-- Browser: phone (320 px), tablet (768 px), and desktop (1440 px) layouts were inspected. No horizontal document overflow was observed at these widths. Keyboard focus and native modal labeling were checked. These checks do not constitute a full accessibility audit.
-- Native WebMCP context: all four tools registered with the expected schemas and annotations. Valid calls updated the same visible state as the interface. Invalid model settings, half-life, navigation, and read parameters were rejected without changing valid state.
-- No browser console errors were observed in the final local session.
+Seven automated checks passed:
 
-Scientific review covered the US small-molecule scope, phase-appropriate CMC, PK/PD terminology, the limits of model-to-human inference, and keeping guidance distinct from regulations. This is a sourced educational prototype, not specialist sign-off on a complete curriculum or an IND package.
+1. Overview → concept → worked example → exercise → saved completion; reload resumes a partially completed next level.
+2. All seven levels have three separate steps, one main heading per active screen, and exactly one supported answer.
+3. Exposure inputs preserve correct calculations and reject invalid settings; model condition validation does not change valid state on failure.
+4. Saved place survives reads; an incorrect answer cannot complete a level; revisiting a completed level preserves completion.
+5. All seven server-side answer keys record their corresponding level.
+6. Progress is isolated by authenticated user; missing authentication and client identity overrides are rejected.
+7. Invalid input and cross-origin writes do not change progress. Storage failure produces an explicit error.
+
+The frontend state tests use a minimal DOM boundary, not a browser. API tests execute the generated schema against SQLite. JavaScript syntax and the Worker build passed; generated SQL is a bounded schema-only migration with a composite user/lesson primary key. Local HTTP readiness passed.
+
+No browser automation was performed for this revision. The user-facing preview was reopened for review. Hosted deployment success is verified separately through Sites.
+
+Scientific content retains the sourced US small-molecule foundation. The four new worked examples were reviewed for phase-appropriate CMC, actionable protocols, sponsor obligations, and separate IND/IRB/consent conditions. All examples are explicitly hypothetical. This is not specialist sign-off on a full curriculum or an IND package.
