@@ -1,0 +1,127 @@
+{
+  "id": "evidence-before-claims",
+  "title": "A promising molecule. What does the evidence actually support?",
+  "durationMinutes": 8,
+  "audience": "Early R&D scientists who understand biology and discovery but do not yet understand how a candidate becomes a clinical-stage drug.",
+  "identity": "High-agency mechanistic, experimental, and computational biology, with AI as a tool for inspecting evidence.",
+  "checkedDate": "2026-09-14",
+  "jurisdiction": "US FDA",
+  "scopeNote": "The five-question map is a teaching device, not five official IND sections. Advanced-cancer guidance is not universal across populations or medicines.",
+  "objective": "Separate a measured observation from an inference, locate an important gap, and propose evidence that addresses it.",
+  "opening": "A tumor shrank. What have we learned?",
+  "evidenceQuestions": [
+    {"id": "biology", "label": "What does it do?", "meaning": "Biological activity and mechanism", "document": "Pharmacology reports"},
+    {"id": "exposure", "label": "Where does it go, and for how long?", "meaning": "Drug exposure over time; PK means pharmacokinetics", "document": "PK and toxicokinetic reports"},
+    {"id": "safety", "label": "What can it harm?", "meaning": "Adverse effects and the conditions in which they occur", "document": "Toxicology reports"},
+    {"id": "quality", "label": "What exactly are we giving?", "meaning": "Identity, strength, purity, manufacturing controls, and stability", "document": "Chemistry, manufacturing, and controls: CMC"},
+    {"id": "clinical", "label": "How will we test it in people?", "meaning": "Participants, dosing, measurements, monitoring, and stopping rules", "document": "Clinical protocol"}
+  ],
+  "microtasks": [
+    {
+      "id": "map-evidence",
+      "type": "match",
+      "title": "Put the evidence to work",
+      "instruction": "Match each card to the question it most directly addresses. Evidence can matter to other questions too.",
+      "cards": [
+        {"id": "pd", "text": "Target-pathway activity decreased in treated tumor tissue", "answer": "biology", "feedback": "This is evidence of a biological effect. Keep tumor growth and safety as separate outcomes.", "hint": "Ask what changed in the cells, rather than how much drug was present."},
+        {"id": "pk", "text": "Plasma drug concentration measured repeatedly after dosing", "answer": "exposure", "feedback": "The time course helps interpret exposure. Plasma measurements alone do not give every tissue's concentration.", "hint": "A concentration-time curve describes exposure. Which question asks about exposure?"},
+        {"id": "tox", "text": "Intestinal tissue examined for treatment-related injury", "answer": "safety", "feedback": "Injury is a safety observation. Interpret it with exposure, target relevance, duration, and the assessment method.", "hint": "This card asks whether a tissue was harmed."},
+        {"id": "cmc", "text": "Batch identity, active content, impurities, and storage data", "answer": "quality", "feedback": "These address quality. Controlled material helps connect the administered product to the evidence.", "hint": "These measurements characterize the material being administered."},
+        {"id": "protocol", "text": "Rules for dose escalation and treatment interruption", "answer": "clinical", "feedback": "These specify clinical decisions. Their rationale should connect to the available evidence.", "hint": "These rules guide what the clinical team does during a study."}
+      ],
+      "debrief": "One strong result cannot answer every question.",
+      "sourceIds": ["FDA-IND", "CFR-31223", "FDA-CMC"]
+    },
+    {
+      "id": "repair-claim",
+      "type": "write-and-compare",
+      "title": "Repair the claim",
+      "label": "Invented teaching example; no real drug or FDA decision",
+      "facts": [
+        "A human tumor is grown in a mouse: a xenograft.",
+        "The drug suppresses the human tumor's XYZ1 pathway, and tumor growth slows relative to the control.",
+        "No intestinal injury is detected by the assessments used.",
+        "The corresponding pathway in the mouse's normal intestine is not suppressed at the achieved exposure.",
+        "For this example, assume human normal intestinal cells also need XYZ1 function."
+      ],
+      "claim": "The drug suppresses human tumors while sparing normal human intestine.",
+      "instruction": "Cross out the unsupported part and write one sentence to replace it.",
+      "hint": "The tumor is human; the normal intestine is mouse. Which compartment actually experienced the relevant pathway inhibition?",
+      "workedAnswer": "The study supports antitumor activity in this model. It does not establish that inhibiting XYZ1 will spare normal human intestine, because the mouse intestine did not experience the relevant pathway inhibition.",
+      "feedbackCases": [
+        {"reasoning": "Human intestine declared safe", "feedback": "Locate the evidence that normal human intestine was tested. There is none in these findings. Narrow the claim to what was observed in this mouse experiment."},
+        {"reasoning": "Human toxicity declared certain", "feedback": "You identified a gap. A gap does not establish injury. Keep the risk unresolved and name the evidence needed."},
+        {"reasoning": "Whole experiment dismissed", "feedback": "Retain the result it can support: activity in this tumor model. Limit the extrapolation rather than deleting valid observations."},
+        {"reasoning": "Species and target mismatch identified", "feedback": "You separated the measured effect from the untested human risk. Now specify how you would investigate that risk."}
+      ],
+      "sourceIds": ["FDA-IB-2024"],
+      "evidenceType": "Scientific inference from explicitly invented conditions"
+    },
+    {
+      "id": "design-next-evidence",
+      "type": "structured-sketch",
+      "title": "Design evidence that addresses the gap",
+      "fields": ["I would use a model where…", "I would measure both… and…", "A result that would change my next decision is…"],
+      "workedAnswer": "I would use a justified model of normal human intestinal function in which the drug engages XYZ1. I would measure pathway suppression together with tissue function or injury across measured exposure and time. If injury tracks pathway suppression, I would investigate the usable exposure and schedule further; if injury is absent, I would first check engagement, assay sensitivity, duration, and model limitations.",
+      "feedbackCases": [
+        {"proposal": "More mice in the same xenograft experiment", "feedback": "More observations may improve precision, but do not introduce the missing normal-tissue target perturbation. Change the model or evidence source to address that gap."},
+        {"proposal": "Increase the oral dose", "feedback": "First establish achieved exposure and whether the mouse target can be meaningfully inhibited. A larger administered dose alone does not show either."},
+        {"proposal": "Human intestinal organoids", "feedback": "A useful hypothesis-driven option. Add target engagement, measured exposure, a functional or injury readout, and limitations. One model is not a complete safety package."},
+        {"proposal": "A relevant animal species", "feedback": "Justify relevance with the target, PK/metabolism, and achievable exposure; another species is not a sufficient rationale by itself."}
+      ],
+      "scopeNote": "An experimental reasoning exercise, not a universal FDA assay requirement. More than one next experiment can be defensible.",
+      "sourceIds": ["ICH-S9", "FDA-IB-2024"]
+    }
+  ],
+  "computationalLens": {
+    "label": "Analogy, not a regulatory rule",
+    "text": "Imagine validating a model on examples that never contain the mechanism you need it to detect. More examples from that same distribution cannot demonstrate detection of the missing mechanism. Here, the normal mouse intestine never experienced the relevant target inhibition. A clean observation there cannot establish what happens when normal human intestine does experience it.",
+    "question": "Which biological condition changed between the tested system and the claim?",
+    "limit": "Biological systems are not merely rows in a dataset. Exposure, tissue context, metabolism, and time can change together."
+  },
+  "transfer": {
+    "title": "Same dose. New formulation.",
+    "label": "Invented teaching example",
+    "scenario": "A new oral formulation produces higher exposure than the previous formulation at the same administered dose. The team claims that the unchanged dose means the previous safety interpretation is unchanged.",
+    "instruction": "Write two sentences: identify the faulty assumption and name evidence to review before accepting the claim.",
+    "rubric": [
+      "Distinguishes dose from achieved exposure.",
+      "Compares the new exposure with exposures and findings in the existing safety evidence.",
+      "Identifies relevant PK, schedule, product differences, and uncertainties.",
+      "Requests an assessment of whether additional support is needed, without assuming every study must be repeated."
+    ],
+    "workedAnswer": "The unchanged dose does not imply unchanged exposure or risk. I would review the new PK and product differences against the exposure, schedule, and findings covered by the existing safety studies, then determine whether the proposed clinical use needs additional support."
+  },
+  "animation": {
+    "title": "Watch the evidence split",
+    "durationSeconds": 55,
+    "style": "Original line drawings and restrained movement; captions, transcript, pause, replay, and static alternative",
+    "frames": [
+      {"start": 0, "end": 8, "visual": "Human tumor-cell cluster inside a labeled mouse outline; growth curve flattens.", "narration": "A tumor grows more slowly after treatment. That is an encouraging result. But which claim does it support?"},
+      {"start": 8, "end": 17, "visual": "Zoom into human tumor. A molecule touches XYZ1; the pathway dims.", "narration": "Inside this mouse is a human tumor. The drug suppresses the human target, and the tumor responds."},
+      {"start": 17, "end": 27, "visual": "Pan to normal mouse intestine. Molecule passes; pathway remains active.", "narration": "Now look at the intestine. In this example, the mouse target stays active. No injury appears."},
+      {"start": 27, "end": 39, "visual": "An inference arrow stops before the unsupported human-intestinal-safety label.", "narration": "That observation does not establish that normal human intestine would be spared. We have not tested the same biological condition."},
+      {"start": 39, "end": 49, "visual": "Five labeled question nodes: biology, exposure, safety, quality, clinical plan.", "narration": "An IND connects several kinds of evidence: biological effects, drug exposure, potential harm, product quality, and the clinical plan."},
+      {"start": 49, "end": 55, "visual": "Two labels: What it supports; What remains unknown.", "narration": "Your task is to keep the useful result, locate the gap, and choose evidence that addresses it."}
+    ]
+  },
+  "creatorQuote": {
+    "text": "not necessarily, more selective for XYZ1 may still have toxicity for intestinal functions",
+    "provenance": "Exact user line from the learning conversation",
+    "editorialNote": "Optional scientist's-objection margin note. Do not imply a clinical conclusion about a real drug or target."
+  },
+  "aiImplementation": {
+    "prototypeLabel": "Guided feedback and worked examples",
+    "rule": "Do not label prewritten feedback as AI analysis of a learner's answer.",
+    "futureTutorPrompt": "Separate observation, inference, and missing evidence. Ask at most one focused follow-up. Cite the supplied source excerpt for a regulatory claim. State uncertainty when the supplied material does not settle the question. Do not infer regulatory approval or invent study requirements."
+  },
+  "completion": "I can now separate an observation, an inference, and an unanswered question.",
+  "completionNote": "Exercise completion is not mastery or readiness to submit an IND.",
+  "sources": [
+    {"id": "FDA-IND", "title": "FDA: Investigational New Drug application", "type": "FDA overview", "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"},
+    {"id": "CFR-31223", "title": "21 CFR 312.23: IND content and format", "type": "Regulation", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"},
+    {"id": "FDA-CMC", "title": "FDA: CMC information", "type": "FDA overview", "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"},
+    {"id": "FDA-IB-2024", "title": "FDA: Pharmacology and Toxicology in the Investigator's Brochure, slide 13", "type": "FDA training", "published": "2024-12-11", "url": "https://www.fda.gov/media/185123/download"},
+    {"id": "ICH-S9", "title": "FDA-adopted ICH S9", "type": "Guidance", "published": "2010-03", "scope": "Advanced cancer with limited therapeutic options", "url": "https://www.fda.gov/media/73161/download"}
+  ]
+}
