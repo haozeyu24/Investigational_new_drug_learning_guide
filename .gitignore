@@ -1,7 +1,0 @@
-.DS_Store
-learning/
-*.tar.gz
-
-node_modules/
-.local/
-dist/server/
