@@ -1,19 +1,23 @@
-# Sequential prototype validation
+# Portal and 32-level course validation
 
 Checked 2026-09-14.
 
-Seven automated checks passed:
+Nine automated checks passed:
 
-1. Overview → concept → worked example → exercise → saved completion; reload resumes a partially completed next level.
-2. All seven levels have three separate steps, one main heading per active screen, and exactly one supported answer.
-3. Exposure inputs preserve correct calculations and reject invalid settings; model condition validation does not change valid state on failure.
-4. Saved place survives reads; an incorrect answer cannot complete a level; revisiting a completed level preserves completion.
-5. All seven server-side answer keys record their corresponding level.
-6. Progress is isolated by authenticated user; missing authentication and client identity overrides are rejected.
-7. Invalid input and cross-origin writes do not change progress. Storage failure produces an explicit error.
+1. Portal → eight-category map → concept → worked example → exercise → saved completion star; reload resumes a partially completed lesson.
+2. All 32 levels render three distinct screens, exactly one main heading per screen, one supported answer, sources, and an AI practice prompt.
+3. Deep links and legacy links resolve. Back returns from a lesson to the map and portal. Invalid routes fall back to the portal.
+4. Model and navigation tool inputs reject invalid settings without altering valid state. Navigation does not complete exercises.
+5. Saved place survives reads; incorrect answers cannot complete a level; replay preserves completion.
+6. All 32 correct catalog answers pass server validation. Every incorrect option is rejected.
+7. Progress is isolated by authenticated user; missing authentication and client identity overrides are rejected.
+8. Invalid requests and cross-origin writes cannot change progress; storage failure is explicit.
+9. The seven prior lesson IDs and answer positions remain compatible. There are eight categories with exactly four levels each.
 
-The frontend state tests use a minimal DOM boundary, not a browser. API tests execute the generated schema against SQLite. JavaScript syntax and the Worker build passed; generated SQL is a bounded schema-only migration with a composite user/lesson primary key. Local HTTP readiness passed.
+State tests use a minimal DOM boundary, not a browser. API tests execute the existing schema against SQLite. JavaScript syntax and the Worker build passed. No database schema or applied migrations changed.
 
-No browser automation was performed for this revision. The user-facing preview was reopened for review. Hosted deployment success is verified separately through Sites.
+No browser automation or visual browser inspection was performed for this revision. Local HTTP readiness and generated Worker assets are checked separately. Deployment success is verified through Sites.
 
-Scientific content retains the sourced US small-molecule foundation. The four new worked examples were reviewed for phase-appropriate CMC, actionable protocols, sponsor obligations, and separate IND/IRB/consent conditions. All examples are explicitly hypothetical. This is not specialist sign-off on a full curriculum or an IND package.
+Content was reviewed for evidence versus inference, phase-appropriate CMC, clinical-plan-dependent nonclinical support, context-specific starting-dose frameworks, sponsor obligations, and separate IND/IRB/consent requirements. Primary references are attached to lessons. FDA's first-in-human small-molecule CMC clarification was added to distinguish initial IND stability support from registration expectations.
+
+This validates an introductory prototype and its functionality; it is not specialist sign-off on an IND package or a claim of comprehensive professional training.

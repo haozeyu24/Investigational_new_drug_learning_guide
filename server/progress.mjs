@@ -1,4 +1,4 @@
-const ANSWERS = Object.freeze({ map: 0, model: 2, exposure: 1, cmc: 1, clinical: 0, people: 2, review: 1 });
+import { ANSWERS } from './answers.mjs';
 const json = (data, status = 200) => new Response(JSON.stringify(data), {
   status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' },
 });

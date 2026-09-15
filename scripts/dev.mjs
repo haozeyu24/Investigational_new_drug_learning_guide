@@ -22,7 +22,7 @@ const server = createServer(async(req,res)=>{
       const response = await handleProgress(new Request(url,{method:req.method,headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)}),{DB:d1Adapter(database)});
       res.writeHead(response.status,Object.fromEntries(response.headers));res.end(await response.text());return;
     }
-    const files={'/':'index.html','/index.html':'index.html','/styles.css':'styles.css','/app.js':'app.js','/content.js':'content.js'};
+    const files={'/':'index.html','/index.html':'index.html','/styles.css':'styles.css','/app.js':'app.js','/content.js':'content.js','/catalog.js':'catalog.js'};
     if(!files[url.pathname]){res.writeHead(404);res.end('Not found');return;}
     const types={html:'text/html',css:'text/css',js:'text/javascript'};
     res.writeHead(200,{'Content-Type':types[files[url.pathname].split('.').pop()]+'; charset=utf-8','Cache-Control':'no-store'});
