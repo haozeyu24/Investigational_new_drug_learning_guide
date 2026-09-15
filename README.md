@@ -18,6 +18,8 @@ The frontend is plain HTML/CSS/JavaScript in `dist/`. The canonical 32-lesson ca
 
 `npm run dev` serves the site and a local progress database at http://127.0.0.1:4173/.
 
+For a no-server local copy, open `dist/index.html` directly. When opened with a `file:` URL, progress is stored in that browser's local storage instead of the hosted progress API. The HTML file should stay beside `styles.css`, `content.js`, `catalog.js`, `app.js`, and the `assets/` folder.
+
 `npm test` validates the catalog, all lesson screens, routing, saved progress, and authenticated API with a real SQLite database and a minimal DOM boundary. `npm run build` creates the Cloudflare Worker in `dist/server/index.js`, embedding the text assets and progress API. The deployed runtime has no third-party dependencies.
 
 The routes are `#portal`, `#small-molecule`, and `#small-molecule/LESSON/STEP`. Existing lesson links still resolve. Browser Back returns through the portal/map/lesson hierarchy; lesson steps replace the current lesson route.
