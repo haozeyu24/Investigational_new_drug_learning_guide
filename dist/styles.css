@@ -13,3 +13,5 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 /* Compact, factual molecule lockup used on the Small Molecule path card. */
 .molecule-lockup{display:flex;align-items:flex-start;gap:9px;flex-shrink:0;color:#1a5368}.molecule-item{display:flex;flex-direction:column;align-items:center;gap:4px}.molecule-item img{display:block;width:74px;height:74px;object-fit:contain;mix-blend-mode:multiply}.molecule-item span{font-family:'Space Grotesk',sans-serif;font-size:.62rem;line-height:1.2;color:#42636d;white-space:nowrap}
 @media(max-width:650px){.molecule-lockup{gap:5px}.molecule-item img{width:54px;height:54px}.molecule-item span{font-size:.53rem}}
+.path-card-heading .molecule-lockup{width:48%;justify-content:flex-end;align-items:center}.path-card-heading .molecule-lockup>img{display:block;width:min(100%,220px);height:180px;object-fit:contain;mix-blend-mode:multiply}.path-card-heading .molecule-item{display:none}
+@media(max-width:650px){.path-card-heading .molecule-lockup{width:42%}.path-card-heading .molecule-lockup>img{width:100%;height:115px}}
