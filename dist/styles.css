@@ -15,3 +15,5 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 @media(max-width:650px){.molecule-lockup{gap:5px}.molecule-item img{width:54px;height:54px}.molecule-item span{font-size:.53rem}}
 .path-card-heading .molecule-lockup{width:48%;justify-content:flex-end;align-items:center}.path-card-heading .molecule-lockup>img{display:block;width:min(100%,220px);height:180px;object-fit:contain;mix-blend-mode:multiply}.path-card-heading .molecule-item{display:none}
 @media(max-width:650px){.path-card-heading .molecule-lockup{width:42%}.path-card-heading .molecule-lockup>img{width:100%;height:115px}}
+.path-card-heading>div:first-child{padding-left:10px}.path-card-heading .molecule-lockup{width:40%}
+@media(max-width:650px){.path-card-heading>div:first-child{padding-left:4px}.path-card-heading .molecule-lockup{width:40%}}
