@@ -1,4 +1,4 @@
-<!-- Local bundle: bb6ab587fb57; refresh with python3 dist/refresh-local-html.py -->
+<!-- Local bundle: cf72749723e9; refresh with python3 dist/refresh-local-html.py -->
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>First-In-Class.ai — From discovery to humans</title><meta name="description" content="How a development candidate becomes a clinical-stage drug. Interactive learning for experimental and computational scientists."><style data-local-bundle>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
@@ -1351,6 +1351,126 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .nomination-next .button{flex-shrink:0}
 @media(max-width:760px){.nomination-outcomes{grid-template-columns:1fr;gap:14px}.nomination-outcome{padding:18px}.nomination-next{align-items:flex-start;flex-direction:column}}
 
+.transition-tabs{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 28px}
+.transition-tabs button{display:flex;align-items:center;gap:10px;padding:12px 18px;border:1px solid #c4d8e2;border-radius:9px;background:#f4f8fa;color:#345565;font-size:.9rem}
+.transition-tabs button>span{display:grid;place-items:center;width:23px;height:23px;border:1px solid currentColor;border-radius:50%;font-size:.75rem}
+.transition-tabs button[aria-pressed=true]{background:#24596d;border-color:#24596d;color:white}
+.transition-guide h3{color:#244658;font-size:1.4rem;margin:0 0 16px}
+.transition-guide p{color:#4c6275;font-size:.96rem;line-height:1.75}
+.transition-streams{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:26px 0}
+.transition-streams article{padding:22px;border:1px solid #d3e2e8;border-radius:10px;background:#f5f9fb}
+.transition-guide h4{color:#244658;font-size:1.05rem;margin:0 0 12px}
+.transition-streams p{font-size:.9rem;margin:0}
+.transition-guide .transition-note,.transition-workstreams figcaption{color:#62798a;font-size:.8rem;line-height:1.7}
+.transition-workstreams{margin:28px 0}
+.transition-study{display:flex;flex-direction:column;gap:8px;align-items:center;text-align:center;max-width:470px;padding:20px;margin:0 auto;background:#24596d;color:#fff;border-radius:12px;position:relative}
+.transition-study strong{font-size:1.15rem}
+.transition-study span{font-size:.83rem;color:#d5e6ed}
+.transition-study:after{content:'';position:absolute;bottom:-26px;height:26px;border-left:1px solid #b0cbd6;left:50%}
+.transition-streams{gap:0;border-top:1px solid #b0cbd6;margin-top:26px}
+.transition-streams article{position:relative;margin:24px 10px 0;display:flex;flex-direction:column}
+.transition-streams article:before{content:'';position:absolute;top:-25px;left:50%;height:24px;border-left:1px solid #b0cbd6}
+.transition-streams .text-button{font-size:.82rem;text-align:left;align-self:flex-start;margin-top:auto;padding-top:18px}
+@media(max-width:760px){.transition-streams{grid-template-columns:1fr;gap:14px}.transition-streams{border-top:0}.transition-study:after,.transition-streams article:before{display:none}.transition-streams article{margin:0}.transition-tabs{gap:8px}.transition-tabs button{font-size:.82rem;padding:10px 12px}}
+
+/* One consistent map layout for every part, including the IND introduction. */
+.simple-learning-map .map-titlebar{padding:18px 28px;background:#f1f6f8;gap:18px}
+.map-summary{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 20px}
+.map-summary .map-count{color:#617986;font-size:.8rem;font-weight:400}
+.map-part{padding:28px 0 30px;border-bottom:1px solid #d9e4e9}
+.map-part:last-child{border-bottom:0}
+.map-part h2{margin:0 0 9px;color:#244658;font-size:1.28rem;font-weight:600;line-height:1.4}
+.map-part h2>span{color:#66818e;font-weight:500}
+.map-part-description{margin:0 0 20px;color:#526d7b;font-size:.85rem;line-height:1.65}
+.simple-learning-map .topic-card{min-height:120px;box-shadow:none}
+.map-bottom{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 28px;border-top:1px solid #d9e4e9;color:#617986;font-size:.76rem}
+.map-bottom .map-reset{flex-shrink:0;border-color:transparent;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.simple-learning-map .map-titlebar{padding:16px 17px;flex-wrap:nowrap;align-items:center}.map-summary{flex-direction:column;gap:5px}.map-part{padding:23px 0}.map-part h2{font-size:1.13rem}.map-bottom{align-items:flex-start;flex-direction:column;padding:16px 17px;gap:8px}.map-bottom .map-reset{padding-left:0}}
+
+/* Part 3: one evidence question at a time. */
+.development-evidence{color:#244658}
+.development-evidence .evidence-intro{font-size:1.02rem;line-height:1.75;max-width:1050px;margin:0 0 26px;color:#405e70}
+.evidence-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:26px 0}
+.evidence-flow button{position:relative;display:flex;align-items:center;gap:12px;padding:16px 20px;text-align:left;background:#f3f8fa;color:#345d70;border:1px solid #c6dce5;border-radius:10px;min-width:0}
+.evidence-flow button:not(:last-child):after{content:'→';position:absolute;right:-21px;color:#799eae}
+.evidence-flow button>span{display:grid;place-items:center;flex-shrink:0;width:25px;height:25px;border:1px solid #8eb0bf;border-radius:50%;font-size:.75rem}
+.evidence-flow button>strong{font-size:.94rem;line-height:1.4}
+.evidence-flow button[aria-pressed=true]{background:#24596d;color:#fff;border-color:#24596d}
+.evidence-flow button[aria-pressed=true]>span{border-color:#adcbd8}
+#evidence-step-panel{padding:28px;border:1px solid #cfdee6;border-radius:12px;background:#fff}
+#evidence-step-panel h3{font-size:1.35rem;line-height:1.4;margin:0 0 24px;color:#244658}
+.evidence-step-columns{display:grid;grid-template-columns:1.2fr 1fr;gap:30px}
+.evidence-step-columns>div+div{border-left:2px solid #b9d2db;padding-left:25px}
+.evidence-label{font-size:.75rem;font-weight:600;color:#4b7e92}
+.evidence-step-columns p{font-size:.96rem;line-height:1.8;margin:9px 0 0;color:#405e70}
+.evidence-step-controls{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-top:24px;font-size:.79rem;color:#687f8c}
+.evidence-step-controls .text-button{font-size:.83rem}
+.evidence-keep{margin:26px 0 16px;border-left:3px solid #408098;padding:13px 20px;background:#eff6f8;border-radius:0 8px 8px 0;line-height:1.7}
+.evidence-scope{font-size:.82rem;line-height:1.75;color:#667c8c;margin:14px 0 20px}
+.evidence-terms{font-size:.87rem;color:#526c7d;border-top:1px solid #dbe5ea;padding-top:15px}
+.evidence-terms summary{cursor:pointer;color:#345d70}
+.evidence-terms dl{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:20px 0 0}
+.evidence-terms dt{font-weight:600;color:#2b5468;margin-bottom:6px}
+.evidence-terms dd{margin:0;line-height:1.7}
+.evidence-provenance{display:inline-block;margin:0 0 20px;border-radius:5px;padding:6px 10px;background:#edf3f6;color:#547386;font-size:.75rem;font-weight:500}
+.evidence-case h2{color:#244658;font-size:1.6rem;line-height:1.4}
+.evidence-records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:26px 0}
+.evidence-records article{padding:22px;border:1px solid #cbdee5;border-radius:10px;background:#fff}
+.evidence-record-heading{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.evidence-record-heading h3{font-size:1rem;font-weight:600;line-height:1.5;margin:0;color:#244658}
+.evidence-status{font-size:.63rem;letter-spacing:.045em;background:#eaf2f5;color:#416e84;padding:4px 7px;border-radius:4px}
+.evidence-status-measured{background:#e8f4ee;color:#3d715b}
+.evidence-status-interpretation{background:#eef0fa;color:#626889}
+.evidence-status-limitation{background:#fff1d5;color:#906c21}
+.evidence-records p{font-size:.94rem;line-height:1.75;color:#405e70;margin:16px 0 0}
+.evidence-boundary{border-left:3px solid #ba9a51;background:#fcf8ee;padding:17px 22px;border-radius:0 8px 8px 0}
+.evidence-boundary .evidence-label{color:#8b713d}
+.evidence-boundary p{font-size:.9rem;line-height:1.75;margin:9px 0 0;color:#536370}
+.evidence-case-sources{display:flex;flex-direction:column;align-items:flex-end;gap:9px;margin:20px 0 0;font-size:.78rem;line-height:1.6}
+.evidence-duration{margin:28px 0;padding:24px;background:#f1f7f9;border:1px solid #d6e4e9;border-radius:12px}
+.duration-scale{display:flex;justify-content:space-between;margin-left:110px;font-size:.73rem;color:#688695}
+.duration-lane{display:grid;grid-template-columns:95px minmax(0,1fr);gap:15px;align-items:center;margin-top:22px;font-size:.82rem;color:#365e71}
+.duration-track{position:relative;height:38px;border-radius:5px;background:#dfeaf0}
+.duration-half{position:absolute;left:10%;width:3px;top:0;bottom:0;background:#5686a1}
+.duration-half-label{position:absolute;left:calc(10% + 13px);top:9px;font-size:.83rem}
+.duration-pd{background:#d4e8dc;border-right:3px solid #6b9a7d;height:100%;display:flex;align-items:center;padding:0 14px;border-radius:5px;color:#3c6a50}
+.duration-pd strong{font-size:.83rem;font-weight:500}
+.evidence-duration figcaption{font-size:.74rem;line-height:1.65;color:#617d8d;margin-top:20px}
+.evidence-salt{display:grid;grid-template-columns:1fr auto 1fr;gap:25px;align-items:center;text-align:center;padding:24px;background:#f3f8fa;border:1px solid #d5e3e9;border-radius:12px;margin:28px 0}
+.evidence-salt>div{padding:10px}
+.evidence-salt>div>span{display:block;font-size:.7rem;color:#577b8f;letter-spacing:.04em}
+.evidence-salt strong{display:block;font-size:2.1rem;font-weight:500;color:#27586e;margin:10px 0}
+.evidence-salt p{font-size:.91rem;margin:0;color:#4c6b7c}
+.salt-equals{font-size:1.8rem;color:#89a8b8}
+.evidence-salt figcaption{grid-column:1/-1;font-size:.78rem;color:#617d8d;line-height:1.6}
+
+@media(max-width:760px){.evidence-flow{gap:12px}.evidence-flow button{padding:12px;gap:8px;flex-direction:column;align-items:flex-start}.evidence-flow button:not(:last-child):after{display:none}.evidence-flow button>strong{font-size:.82rem}.evidence-step-columns{grid-template-columns:1fr;gap:22px}.evidence-step-columns>div+div{border-left:0;border-top:1px solid #d4e2e8;padding:18px 0 0}.evidence-records{grid-template-columns:1fr;gap:14px}.evidence-record-heading{flex-direction:row;align-items:center;justify-content:space-between;gap:15px}.evidence-terms dl{grid-template-columns:1fr}#evidence-step-panel{padding:20px}.duration-lane{grid-template-columns:70px minmax(0,1fr);gap:10px}.duration-scale{margin-left:80px}.duration-pd strong{font-size:.72rem}.evidence-duration{padding:17px}.evidence-salt{gap:8px;padding:14px}.evidence-salt strong{font-size:1.7rem}}
+@media(max-width:480px){.duration-lane{grid-template-columns:1fr;gap:6px}.duration-scale{margin-left:0}.evidence-flow{gap:8px}.evidence-flow button{padding:11px 8px}.evidence-step-controls{align-items:flex-start;flex-wrap:wrap}.evidence-case-sources{align-items:flex-start}.evidence-record-heading{flex-direction:column;align-items:flex-start}}
+
+/* Candidate nomination: a conceptual comparison, separate from the published case. */
+.candidate-transition-flow{display:grid;grid-template-columns:minmax(0,1fr) 104px minmax(0,1fr);align-items:stretch;margin:28px 0}
+.candidate-transition-flow article{display:flex;flex-direction:column;border:1px solid #c7dce5;border-radius:12px;padding:26px;background:#f6f9fb}
+.candidate-transition-flow article:last-child{background:#edf6f7;border-color:#99bbc6}
+.candidate-stage-name{font-size:.82rem;color:#456b7c;font-weight:650;margin-bottom:16px}
+.transition-guide .candidate-transition-flow h4{font-size:1.25rem;line-height:1.4;margin:0 0 12px}
+.transition-guide .candidate-transition-flow p{margin:0 0 24px;font-size:.94rem}
+.candidate-stage-output{margin-top:auto;border-top:1px solid #cadde5;padding-top:16px}
+.candidate-stage-output>span{display:block;font-size:.75rem;color:#577185;margin-bottom:6px}
+.candidate-stage-output>strong{display:block;font-size:.95rem;line-height:1.6;font-weight:600;color:#244658}
+.candidate-transition-gate{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:0 8px;text-align:center;color:#466d7e}
+.candidate-transition-gate span{font-size:.76rem;line-height:1.5}
+.candidate-transition-gate b{font-size:2rem;font-weight:400}
+.candidate-evidence-table{margin:24px 0;overflow-x:auto;border:1px solid #cadde5;border-radius:10px}
+.candidate-evidence-table table{width:100%;border-collapse:collapse;table-layout:fixed;min-width:650px;color:#38576a;text-align:left;font-size:.91rem;line-height:1.65}
+.candidate-evidence-table th,.candidate-evidence-table td{padding:18px 20px;vertical-align:top;border-bottom:1px solid #dae6eb}
+.candidate-evidence-table thead th{background:#eaf3f6;color:#254c5d;font-size:.87rem;font-weight:650}
+.candidate-evidence-table thead th:first-child{width:18%}
+.candidate-evidence-table thead th:nth-child(2){width:33%}
+.candidate-evidence-table tbody th{color:#244658;font-weight:650;background:#fafcfd}
+.candidate-evidence-table td:last-child{background:#f3f8fa}
+.candidate-evidence-table tbody tr:last-child>*{border-bottom:0}
+@media(max-width:760px){.candidate-transition-flow{grid-template-columns:1fr}.candidate-transition-flow article{padding:22px}.candidate-transition-gate{padding:14px;gap:0}.candidate-transition-gate b{transform:rotate(90deg)}.candidate-evidence-table th,.candidate-evidence-table td{padding:14px}}
+
 </style></head>
 <body><a class="skip" href="#lesson">Skip to lesson</a><header class="topbar"><a class="brand brand-attribution" href="#portal"><span class="powered-by">Powered by</span><span>First-in-Class.ai</span></a><button class="overview-link" data-action="portal">Learning paths</button></header><main id="lesson" tabindex="-1"></main><footer class="site-footer"><button class="text-button" data-action="about">About this guide</button></footer><dialog id="modal" aria-labelledby="dialog-title"><div class="modal-top"><p class="eyebrow" id="modal-kicker"></p><button class="icon-button" id="close-modal" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog><div id="announcement" class="sr-only" aria-live="polite"></div><script data-local-bundle>
 const SOURCES=[{label:'FDA: what an IND contains',url:'https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23'},{label:'FDA: purpose of IND review',url:'https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22'},{label:'ICH S9: advanced cancer with limited treatment options',url:'https://www.fda.gov/media/73161/download'},{label:'FDA: Phase 1 small-molecule CMC clarifications',url:'https://www.fda.gov/media/193163/download?attachment='},{label:'FDA: clinical protocols',url:'https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols'},{label:'FDA: exposure–response',url:'https://www.fda.gov/media/71277/download'}];
@@ -1403,23 +1523,60 @@ const CLIP=[
 ];
 
 ;
-// Small Molecule learning guide: seven sections of four levels.
+// Small Molecule guide: four connected learning parts.
 const CATALOG = {
+  "parts": [
+    {
+      "id": "purpose",
+      "title": "The purpose of an IND",
+      "description": "Purpose, marketing approval, clinical phases, and the history behind the safeguards.",
+      "categories": [
+        "start"
+      ]
+    },
+    {
+      "id": "discovery",
+      "title": "Can we make a good drug candidate?",
+      "categories": [
+        "discovery"
+      ],
+      "description": "Target identification and validation, hit identification, hit to lead, and lead optimization."
+    },
+    {
+      "id": "development",
+      "title": "Can we build the evidence for human testing?",
+      "categories": [
+        "candidate",
+        "nonclinical",
+        "cmc"
+      ],
+      "description": "Candidate planning, nonclinical evidence, and chemistry, manufacturing & controls."
+    },
+    {
+      "id": "clinical-entry",
+      "title": "Can we begin the first human study?",
+      "categories": [
+        "clinical",
+        "ind"
+      ],
+      "description": "Clinical and regulatory planning, IND submission, and review."
+    }
+  ],
   "categories": [
     {
       "id": "start",
-      "title": "Start here: the purpose of an IND",
+      "title": "The purpose of an IND",
       "description": "Purpose, marketing approval, clinical phases, and the history behind the safeguards."
     },
     {
       "id": "discovery",
-      "title": "Discovery refresher",
+      "title": "Can we make a good drug candidate?",
       "description": "Four short steps from a biological hypothesis to an optimized lead."
     },
     {
       "id": "candidate",
-      "title": "Selecting a development candidate",
-      "description": "Assess the evidence, make the decision, and plan the work toward an IND."
+      "title": "From candidate to development plan",
+      "description": "What nomination means, what remains unresolved, and how the work fits together."
     },
     {
       "id": "nonclinical",
@@ -6643,66 +6800,1498 @@ const CATALOG = {
     {
       "id": "candidate-nomination",
       "category": "candidate",
-      "title": "Development Candidate (DC) Nomination",
-      "goal": "Explain candidate nomination as an internal decision with an evidence rationale and a plan.",
-      "concept": "Candidate nomination is an internal decision to advance a specific molecule into a defined development program. It integrates the available biology, exposure, safety signals, product feasibility, and intended clinical use. The decision should make unresolved questions and the work needed to address them explicit. Nomination does not itself mean that an IND is ready, that FDA has agreed, or that people may receive the drug.",
-      "takeaway": "Nomination selects the molecule and commits to the next evidence-building plan.",
-      "exampleTitle": "A nomination with visible unknowns",
-      "example": "Invented example: a team nominates compound C after reproducible oral exposure, model efficacy, and an initial safety assessment. A 20-gram synthesis is reproducible, but longer stability work and the planned repeat-dose safety studies remain unfinished. The nomination memo records why C was selected, what could overturn the choice, and who owns each next study. The decision authorizes internal development work, not human dosing.",
-      "worked": "A useful nomination record connects the selected molecule to its rationale, unresolved risks, and accountable next steps.",
+      "title": "From candidate to development plan",
+      "goal": "Distinguish lead optimization from candidate development, explain why laboratory work continues, and turn remaining questions into a study-specific development plan.",
+      "concept": "Lead optimization establishes a molecule worth developing. Candidate development builds the evidence and product needed to support a proposed human study.",
+      "takeaway": "A promising molecule is the starting point. Readiness for human testing depends on the evidence for a defined product and proposed study.",
+      "exampleTitle": "Follow one program across different kinds of evidence.",
+      "example": "Osimertinib provides a published oncology case for Part 3. The discovery paper describes biological activity and PK/PD; the public FDA review includes material from the IND review and later NDA assessments. Keep those sources and stages distinct.",
+      "worked": "Use a source for the claim it actually supports. The case illustrates development reasoning; the collection of public documents is not a reconstruction of the full initial IND.",
       "diagram": [
         [
-          "Internal decision",
-          "Advance compound C with a documented rationale"
+          "Selected molecule",
+          "A documented development candidate"
         ],
         [
-          "Separate later decision",
-          "Assess whether the package supports a proposed human study"
+          "Development commitment",
+          "Build evidence for the proposed study"
         ]
       ],
       "exampleSteps": [
         [
-          "Integrate current evidence",
-          "Review activity, exposure, safety signals and product feasibility."
+          "Nonclinical rationale",
+          "Connect mutant-EGFR activity to disease-model responses and exposure."
         ],
         [
-          "Name the gaps",
-          "Record unfinished studies, uncertainty and criteria for reconsideration."
+          "Safety support",
+          "Inspect the study design, organ findings, and quantitative limits of exposure measurements."
         ],
         [
-          "Assign the next work",
-          "Define responsibilities without representing nomination as FDA authorization."
+          "Product quality",
+          "Connect the active ingredient to its formulation, controls, and stability support."
         ]
       ],
       "question": {
-        "title": "What has nomination accomplished?",
-        "prompt": "The team selects compound C while some development studies remain unfinished. What does that decision mean?",
+        "title": "Why does laboratory work continue?",
+        "prompt": "The selected candidate meets the team’s lead-optimization goals. What should determine the next laboratory work?",
         "options": [
           [
-            "FDA has accepted C as sufficiently safe for human dosing.",
-            "No. An internal nomination is not an FDA action and does not satisfy the conditions for clinical investigation.",
+            "Repeat every discovery assay under GLP before planning a study.",
+            "No. Reuse suitable evidence and identify specific gaps. GLP does not apply to every discovery or development experiment.",
             false
           ],
           [
-            "Every uncertainty about the molecule has been resolved.",
-            "No. Development decisions often proceed with explicit remaining questions and plans to address them.",
-            false
-          ],
-          [
-            "The team has chosen a molecule and a justified plan for the next development work.",
-            "Correct. Nomination makes an internal choice and its rationale explicit; clinical readiness is a separate assessment.",
+            "Compare existing evidence with the proposed human study, then address the important gaps.",
+            "Correct. The next work characterizes risks and exposure, controls the material, and supports the proposed study. It builds on the selection evidence.",
             true
+          ],
+          [
+            "Keep making analogs until there are no remaining uncertainties.",
+            "No. Development usually concentrates on the chosen molecule. New findings may justify revisiting the choice, but uncertainty cannot be eliminated before human testing.",
+            false
           ]
         ],
-        "hint": "Separate an internal program milestone from a regulatory status."
+        "hint": "Ask what the current evidence supports—and what the proposed study still requires."
       },
       "sources": [
         {
-          "label": "FDA: candidate development and the IND's purpose",
-          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"
+          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+        },
+        {
+          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+        },
+        {
+          "label": "FDA quality review (2015): drug product summary, printed p. 6 (PDF p. 7)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=7"
+        },
+        {
+          "label": "FDA: the evidence and clinical plan in an IND",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        }
+      ],
+      "transitionGuide": {
+        "tabs": [
+          {
+            "id": "nomination",
+            "label": "Why lab work continues"
+          },
+          {
+            "id": "questions",
+            "label": "What remains to establish"
+          },
+          {
+            "id": "plan",
+            "label": "Plan the work"
+          }
+        ],
+        "nomination": {
+          "title": "The molecule is selected. The question changes.",
+          "intro": "Potency, selectivity, and acceptable PK/PD can justify selecting a candidate. Each finding still has a boundary: the assay, model, exposure, dosing duration, and material tested.",
+          "stages": [
+            {
+              "title": "Lead optimization",
+              "question": "Which molecule should we develop?",
+              "action": "Use SAR and profiling to improve and compare molecules.",
+              "output": "A selected molecule with a promising overall profile."
+            },
+            {
+              "title": "Candidate development",
+              "question": "What can this candidate support in humans?",
+              "action": "Characterize the selected molecule, control its material, and address the risks relevant to the proposed study.",
+              "output": "An evidence package and product that can support the planned clinical investigation."
+            }
+          ],
+          "bridge": "DC nomination",
+          "keep": "Selecting a candidate commits the team to development. It does not establish readiness to dose people.",
+          "note": "The molecule’s structure usually remains fixed while synthesis, formulation, and analytical controls develop. New findings can still require revisiting the candidate. Work often begins before nomination; this is a change in emphasis, not a sharp experimental boundary."
+        },
+        "questions": {
+          "title": "Carry the evidence forward. Resolve what it does not yet answer.",
+          "intro": "The same disciplines remain involved. The depth and purpose of the work change: a result useful for choosing an analog may not answer the questions needed for a human study.",
+          "columns": [
+            "Evidence from lead optimization",
+            "Question for candidate development"
+          ],
+          "rows": [
+            {
+              "area": "Activity & selectivity",
+              "before": "Reproducible activity, selectivity, and efficacy in relevant models.",
+              "after": "How strong is the rationale for the intended patient population? Which on-target and off-target effects could matter at the planned exposures?"
+            },
+            {
+              "area": "Exposure & effect",
+              "before": "PK and PD at selected doses, schedules, and in selected models.",
+              "after": "What supports human dose and schedule selection? Assess species relevance, accumulation, metabolites, and the connection between exposure and effect as needed."
+            },
+            {
+              "area": "Safety",
+              "before": "Early screens and tolerability findings that helped rank candidates.",
+              "after": "Which organs or functions are at risk, at what exposures, and with what reversibility? Design the safety assessment around the proposed clinical study."
+            },
+            {
+              "area": "Drug material",
+              "before": "A workable synthesis and material suitable for discovery experiments.",
+              "after": "Can controlled material be supplied for toxicology and clinical use? Establish appropriate identity, purity, strength, and stability; assess relevant differences between study materials."
+            }
+          ],
+          "keep": "Reuse suitable evidence. Add or confirm studies where a decision-critical gap remains.",
+          "note": "An existing study may already address a question. Its design, material, exposure measurements, and records determine how it can be used. Not every experiment needs repeating or GLP; applicable pivotal safety studies require the appropriate quality standard."
+        },
+        "plan": {
+          "title": "Turn the remaining questions into a development plan.",
+          "intro": "Begin with a proposed study: who will receive the drug, by which route, for how long, and on what schedule? Use that context to prioritize the remaining evidence and coordinate the work.",
+          "streams": [
+            {
+              "title": "Nonclinical evidence",
+              "text": "Select the pharmacology, exposure, and safety work needed to address the study’s remaining risks.",
+              "lesson": "nonclinical-pharmacology",
+              "link": "Explore nonclinical evidence"
+            },
+            {
+              "title": "Drug material · CMC",
+              "text": "Coordinate chemistry, manufacturing, and controls: supply suitable material, characterize it, and support its formulation and storage.",
+              "lesson": "cmc-material",
+              "link": "Explore CMC"
+            },
+            {
+              "title": "Clinical & regulatory planning",
+              "text": "Translate the evidence into dose selection, monitoring, a protocol, and a regulatory strategy.",
+              "lesson": "clinical",
+              "link": "Explore clinical planning"
+            }
+          ],
+          "keep": "For each gap: define the evidence needed → assign an owner and dependencies → set the decision the result will inform.",
+          "note": "Plan these streams together. Material must be ready for studies, and new exposure or safety findings may change the formulation or clinical plan. The initial IND supports the proposed investigation; later studies require further evidence."
+        },
+        "sources": [
+          {
+            "label": "FDA: pharmacology and toxicology evidence for the proposed study",
+            "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+          },
+          {
+            "label": "FDA: phase-appropriate chemistry, manufacturing, and controls",
+            "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+          },
+          {
+            "label": "ICH M3(R2): timing and scope of nonclinical safety studies",
+            "url": "https://www.fda.gov/media/71542/download"
+          }
+        ]
+      },
+      "exampleLabel": "OSIMERTINIB · EVIDENCE PLANNING",
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-pharmacology",
+      "category": "nonclinical",
+      "title": "Connect mechanism to disease benefit",
+      "goal": "Carry a specific, bounded rationale into the development plan.",
+      "concept": "A candidate needs a biological rationale for the intended patients. Connect target modulation to a useful effect in relevant systems, and make the limits of those systems explicit.",
+      "takeaway": "Target modulation, disease-model activity, and human benefit are different claims.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Choose the context",
+            "question": "Does the model represent the intended disease?",
+            "evidence": "Check the target, disease driver, relevant resistance mechanisms, and whether the compound acts on the model’s target.",
+            "decision": "Choose complementary models that address the clinical hypothesis and its main limitations."
+          },
+          {
+            "label": "Test the mechanism",
+            "question": "Did the compound produce the intended biological effect?",
+            "evidence": "Measure target or pathway modulation alongside concentration. Use controls and independent evidence to challenge alternative explanations.",
+            "decision": "Decide whether the observed activity supports the proposed mechanism."
+          },
+          {
+            "label": "Test disease benefit",
+            "question": "Does the biological effect change a relevant disease outcome?",
+            "evidence": "Read disease endpoints with controls, exposure, dose schedule, and variability. A tumor response in one model does not establish a human response.",
+            "decision": "Carry a specific, bounded rationale into the development plan."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: resistance defines the biological question.",
+          "intro": "AZD9291 was developed to inhibit sensitizing EGFR mutants and the T790M resistance mutant with less activity against wild-type EGFR. Read the models in the context of that original development question.",
+          "rows": [
+            {
+              "label": "PC-9 xenografts",
+              "value": "EGFR exon 19 deletion: a sensitizing-mutant model.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "H1975 xenografts",
+              "value": "EGFR L858R/T790M: a resistance-mutant model.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Tumor response",
+              "value": "Regression occurred in both models with oral treatment.",
+              "status": "MEASURED"
+            }
+          ],
+          "limit": "These findings support the rationale in the tested models. They do not establish human efficacy or normal-tissue safety. Wild-type EGFR cancer cells are not a substitute for normal human tissue.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "Pharmacology",
+            "definition": "The drug’s biological actions."
+          },
+          {
+            "term": "Model relevance",
+            "definition": "How well a system addresses the particular disease and intervention question."
+          }
+        ],
+        "scope": "The oncology example illustrates the reasoning. Model selection must follow each program’s target, mechanism, and proposed use."
+      },
+      "question": {
+        "title": "Which claim does the model support?",
+        "prompt": "A resistant-tumor model shows pathway suppression and tumor regression. Which conclusion is defensible?",
+        "options": [
+          [
+            "The drug has demonstrated clinical benefit in resistant lung cancer.",
+            "A nonclinical tumor response does not establish benefit in patients.",
+            false
+          ],
+          [
+            "The findings support the mechanism and activity in that model; translation and safety remain to be assessed.",
+            "Correct. Keep the positive finding and its model boundaries visible.",
+            true
+          ],
+          [
+            "A tumor response makes normal-tissue safety studies unnecessary.",
+            "A tumor model does not provide a complete assessment of potential harm.",
+            false
+          ]
+        ],
+        "hint": "Keep the conclusion at the level of the evidence."
+      },
+      "sources": [
+        {
+          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+        },
+        {
+          "label": "FDA: pharmacology and toxicology supporting the proposed study",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+        },
+        {
+          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-pkpd",
+      "category": "nonclinical",
+      "title": "Connect dose, exposure, and effect",
+      "goal": "Use the relationship to plan informative dosing studies and cautious human predictions.",
+      "concept": "Administered dose starts the experiment. Concentration over time and the resulting biological effect help explain what that dose actually did.",
+      "takeaway": "A short plasma half-life does not automatically mean a short biological effect.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Follow the drug",
+            "question": "What concentrations were achieved, where, and for how long?",
+            "evidence": "Examine PK, unbound fraction where relevant, target-site distribution, active metabolites, and assay reliability. Distinguish measured concentrations from modeled estimates.",
+            "decision": "Identify which exposure measure is informative for this mechanism."
+          },
+          {
+            "label": "Follow the response",
+            "question": "How does the biological effect change over time?",
+            "evidence": "Measure target engagement or pathway response at informative times. Effects can lag behind concentration or persist after plasma levels fall.",
+            "decision": "Check whether the dose schedule produces the intended duration of biological activity."
+          },
+          {
+            "label": "Connect the evidence",
+            "question": "Does exposure explain the desired effect and potential harm?",
+            "evidence": "Compare exposure, PD, disease endpoints, and tolerability. Align species, compartments, assay conditions, and timing before comparing values.",
+            "decision": "Use the relationship to plan informative dosing studies and cautious human predictions."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: concentration and response run on different clocks.",
+          "intro": "The 2014 paper reported an irreversible inhibitor. After a single 5 mg/kg dose in H1975-bearing mice, tumor samples were collected through 30 hours.",
+          "rows": [
+            {
+              "label": "Mouse plasma half-life",
+              "value": "Approximately 3 hours.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Tumor phospho-EGFR",
+              "value": "Suppression was still observed at 30 hours.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Interpretation",
+              "value": "Persistent target inhibition is consistent with irreversible binding.",
+              "status": "INTERPRETATION"
+            }
+          ],
+          "limit": "Downstream markers recovered sooner than phospho-EGFR. These observations do not define a human dose or prove sustained tumor control from every short exposure.",
+          "sources": [
+            0
+          ],
+          "visual": {
+            "kind": "duration"
+          }
+        },
+        "terms": [
+          {
+            "term": "ADME",
+            "definition": "Absorption, distribution, metabolism, and excretion: processes shaping drug disposition."
+          },
+          {
+            "term": "PK",
+            "definition": "Pharmacokinetics: drug concentrations over time."
+          },
+          {
+            "term": "PD",
+            "definition": "Pharmacodynamics: biological effects of the drug."
+          },
+          {
+            "term": "DMPK",
+            "definition": "Drug metabolism and pharmacokinetics: a discipline studying disposition and exposure, working with pharmacology on PK/PD."
+          }
+        ],
+        "scope": "The graphic compares reported time points; it is not a fitted PK curve or a dosing recommendation."
+      },
+      "question": {
+        "title": "What should guide the schedule?",
+        "prompt": "Mouse plasma half-life is about 3 hours, but tumor phospho-EGFR remains suppressed at 30 hours. What is the best next step?",
+        "options": [
+          [
+            "Use a dosing interval of exactly three hours.",
+            "Half-life alone does not establish the dosing interval for an irreversible inhibitor.",
+            false
+          ],
+          [
+            "Assume the tumor will remain controlled for thirty hours in humans.",
+            "A mouse biomarker observation does not establish a human efficacy duration.",
+            false
+          ],
+          [
+            "Examine downstream PD, tumor response, active metabolites, and tolerability alongside the concentration profile.",
+            "Correct. Integrate the biological time course with exposure and relevant outcomes.",
+            true
+          ]
+        ],
+        "hint": "The concentration clock and the effect clock need not match."
+      },
+      "sources": [
+        {
+          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+        },
+        {
+          "label": "FDA: exposure–response relationships",
+          "url": "https://www.fda.gov/media/71277/download"
+        },
+        {
+          "label": "ICH S3A: exposure measurement within toxicity studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s3a-toxicokinetics-assessment-systemic-exposure-toxicity-studies"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-safety",
+      "category": "nonclinical",
+      "title": "Identify and interpret potential harm",
+      "goal": "Decide what further investigation and potential clinical safeguards the findings call for.",
+      "concept": "Safety work asks what can be harmed, at what exposure, and under which conditions. Findings guide risk assessment; a single negative assay does not establish that a candidate is safe.",
+      "takeaway": "Interpret the finding together with severity, exposure, duration, reversibility, and human relevance.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Anticipate the risks",
+            "question": "What could the drug do beyond the intended disease effect?",
+            "evidence": "Consider normal-tissue target biology, off-target activity, metabolites, and known class effects. Examine vital functions as well as tissue injury.",
+            "decision": "Select focused investigations and meaningful endpoints instead of relying on one safety screen."
+          },
+          {
+            "label": "Read the findings",
+            "question": "What changed during dosing?",
+            "evidence": "Combine clinical observations, laboratory measurements, organ findings, and histopathology with toxicokinetic exposure. Survival alone is not a safety conclusion.",
+            "decision": "Identify target organs and exposure-associated findings that could constrain development."
+          },
+          {
+            "label": "Assess recovery",
+            "question": "What improves, persists, or progresses after dosing stops?",
+            "evidence": "Examine the affected tissue, function, severity, and follow-up time. Improvement in one endpoint does not establish full recovery.",
+            "decision": "Decide what further investigation and potential clinical safeguards the findings call for."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: no deaths did not mean no injury.",
+          "intro": "The FDA’s later public review reproduces a one-month rat study from IND 117879. Its record separates survival from organ findings.",
+          "rows": [
+            {
+              "label": "Survival",
+              "value": "No preterm deaths.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Tissue findings",
+              "value": "Target organs included the gastrointestinal tract, eyes, skin, and reproductive organs.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Decision to investigate",
+              "value": "Evaluate which findings matter for the intended participants and exposure.",
+              "status": "INTERPRETATION"
+            }
+          ],
+          "limit": "This is a specific study summary, not an overall safety verdict. Recovery and human relevance require their own evidence.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "Safety pharmacology",
+            "definition": "Assessment of potentially undesirable effects on physiological functions, including cardiovascular, respiratory, and central nervous system function."
+          },
+          {
+            "term": "General toxicology",
+            "definition": "Assessment of adverse effects across tissues and systems during specified exposure conditions."
+          },
+          {
+            "term": "Histopathology",
+            "definition": "Microscopic examination of tissues for structural changes."
+          }
+        ],
+        "scope": "Study choices and timing depend on the clinical context. ICH S9 applies within its defined advanced-cancer scope; it is not a universal small-molecule checklist."
+      },
+      "question": {
+        "title": "What does survival tell us?",
+        "prompt": "All animals survived, but histopathology identifies treatment-related tissue injury. What should the team do?",
+        "options": [
+          [
+            "Integrate injury, exposure, severity, and recovery evidence before deciding what the study supports.",
+            "Correct. Safety interpretation depends on the complete pattern of findings.",
+            true
+          ],
+          [
+            "Mark the candidate safe because no animals died.",
+            "Survival does not exclude clinically important harm.",
+            false
+          ],
+          [
+            "Discard the histopathology because it was not accompanied by mortality.",
+            "Tissue injury may matter even without deaths.",
+            false
+          ]
+        ],
+        "hint": "Look beyond mortality."
+      },
+      "sources": [
+        {
+          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+        },
+        {
+          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        },
+        {
+          "label": "ICH M3(R2): nonclinical support and study timing",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization"
+        },
+        {
+          "label": "FDA: pharmacology and toxicology supporting the proposed study",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-package",
+      "category": "nonclinical",
+      "title": "Build a credible safety package",
+      "goal": "Address gaps in reliability or interpretation before using the study to support a clinical plan.",
+      "concept": "A safety finding is useful only when the study design, test material, exposure measurements, and records allow the team to interpret it for the proposed investigation.",
+      "takeaway": "Study quality, exposure coverage, and biological relevance answer different questions.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Match the study",
+            "question": "Does the design support the proposed human investigation?",
+            "evidence": "Relate population, route, schedule, duration, and prior evidence to the supporting studies. Use relevant species and justify the study strategy.",
+            "decision": "Identify which evidence is needed before the proposed study and which work can occur later."
+          },
+          {
+            "label": "Measure exposure",
+            "question": "Do the TK measurements actually quantify the relevant analytes?",
+            "evidence": "Check sensitivity, selectivity, sample stability, time points, metabolites, and the relationship to the toxicity findings. A detected peak is not always a quantitative result.",
+            "decision": "Decide whether exposure comparisons are reliable enough for the intended conclusion."
+          },
+          {
+            "label": "Check integrity",
+            "question": "Can the study and its interpretation be reconstructed?",
+            "evidence": "Review the applicable GLP status, protocol, quality assurance, raw records, deviations, test-item characterization, and final report.",
+            "decision": "Address gaps in reliability or interpretation before using the study to support a clinical plan."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: a metabolite was detected, but not quantified.",
+          "intro": "In the rat study reproduced from the IND review, FDA examined the analytical evidence alongside the reported study status.",
+          "rows": [
+            {
+              "label": "Study conduct",
+              "value": "GLP compliance and a QA statement were recorded.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Exposure sampling",
+              "value": "TK was assessed on dosing Days 1 and 28.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Analytical limitation",
+              "value": "A co-eluting peak prevented quantitative assessment of AZ5104; results were present/absent.",
+              "status": "LIMITATION"
+            }
+          ],
+          "limit": "GLP status did not remove this analytical limitation. A binary detection result cannot establish a metabolite AUC or a quantitative exposure margin.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "TK",
+            "definition": "Toxicokinetics: exposure measurements within toxicity studies."
+          },
+          {
+            "term": "GLP",
+            "definition": "Good Laboratory Practice: requirements for organization, conduct, documentation, and quality assurance of covered nonclinical studies."
+          },
+          {
+            "term": "Exposure margin",
+            "definition": "A comparison between relevant animal and human exposures; its interpretation depends on the endpoint, analyte, and uncertainty."
+          }
+        ],
+        "scope": "Before human data exist, clinical exposure may be predicted. Label the prediction and its uncertainty; do not present it as measured."
+      },
+      "question": {
+        "title": "Can this result support an exposure margin?",
+        "prompt": "A metabolite was reported as present/absent because an interfering peak prevented quantification. Can the team calculate its exposure margin from that result?",
+        "options": [
+          [
+            "Yes, because the study was GLP-compliant.",
+            "GLP does not turn a non-quantitative measurement into a concentration.",
+            false
+          ],
+          [
+            "No. Reliable quantitative exposure data or other justified evidence are needed for that comparison.",
+            "Correct. Resolve the analytical limitation or justify an appropriate alternative evidence strategy.",
+            true
+          ],
+          [
+            "Yes, by assigning the parent drug’s AUC to the metabolite.",
+            "Parent and metabolite exposures are not interchangeable.",
+            false
+          ]
+        ],
+        "hint": "Separate confidence in study conduct from the capability of a particular assay."
+      },
+      "sources": [
+        {
+          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+        },
+        {
+          "label": "ICH S3A: exposure measurement within toxicity studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s3a-toxicokinetics-assessment-systemic-exposure-toxicity-studies"
+        },
+        {
+          "label": "21 CFR Part 58: Good Laboratory Practice for nonclinical laboratory studies",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-58"
+        },
+        {
+          "label": "ICH M3(R2): nonclinical support and study timing",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization"
+        },
+        {
+          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "cmc-material",
+      "category": "cmc",
+      "title": "Define the drug people will receive",
+      "goal": "Determine whether existing support is adequate or additional bridging work is needed.",
+      "concept": "The molecular structure does not fully define the administered product. Specify the active ingredient, its form, the formulation, the dose basis, and the material used in each supporting study.",
+      "takeaway": "Connect the molecule, the drug substance, and the finished product before comparing doses or study results.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Define the substance",
+            "question": "Which chemical material is being made and tested?",
+            "evidence": "Establish identity and the relevant salt, solid form, composition, and purity. Track the batch used in each study.",
+            "decision": "Make the test item unambiguous."
+          },
+          {
+            "label": "Define the product",
+            "question": "What formulation and dose will actually be administered?",
+            "evidence": "Specify the active content, excipients, dosage form, route, and relevant package. Distinguish mass of salt from mass of active moiety.",
+            "decision": "Make the dose and product composition interpretable."
+          },
+          {
+            "label": "Connect study materials",
+            "question": "Does existing evidence apply to the proposed clinical material?",
+            "evidence": "Compare nonclinical and clinical batches and formulations. Assess differences in impurities, stability, delivered dose, or exposure.",
+            "decision": "Determine whether existing support is adequate or additional bridging work is needed."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: 95.4 mg of salt is not 95.4 mg of active drug.",
+          "intro": "The 2015 FDA quality review describes the mesylate salt and the dose basis of the film-coated tablet.",
+          "rows": [
+            {
+              "label": "Drug substance",
+              "value": "95.4 mg osimertinib mesylate.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Active-moiety equivalent",
+              "value": "80 mg osimertinib free base.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Drug product",
+              "value": "The formulated film-coated tablet also contains excipients.",
+              "status": "REPORTED"
+            }
+          ],
+          "limit": "This is the later NDA product, not a reconstruction of the first clinical formulation. The 80 mg value is not the total tablet mass.",
+          "sources": [
+            0
+          ],
+          "visual": {
+            "kind": "salt"
+          }
+        },
+        "terms": [
+          {
+            "term": "Drug substance",
+            "definition": "The active ingredient material used to formulate the product."
+          },
+          {
+            "term": "Drug product",
+            "definition": "The dosage form prepared for administration."
+          },
+          {
+            "term": "Bridging",
+            "definition": "Evidence used to assess whether findings with one material or formulation support another."
+          }
+        ],
+        "scope": "Early clinical products can differ from the final marketed form. The supporting comparison is specific to the changes and proposed use."
+      },
+      "question": {
+        "title": "Which dose basis should be compared?",
+        "prompt": "One record gives the mass of osimertinib mesylate and another gives the free-base equivalent. What comes first?",
+        "options": [
+          [
+            "Treat both numbers as the same chemical mass.",
+            "Salt and free-base masses are not numerically interchangeable.",
+            false
+          ],
+          [
+            "Compare total tablet mass with drug concentration.",
+            "Tablet mass includes excipients and is not the active dose.",
+            false
+          ],
+          [
+            "Identify the dose basis and convert to the same active-moiety basis where appropriate.",
+            "Correct. First make the dose definitions comparable, then assess the materials and exposure.",
+            true
+          ]
+        ],
+        "hint": "A counterion contributes mass without being the same as the active moiety."
+      },
+      "sources": [
+        {
+          "label": "FDA quality review (2015): drug product summary, printed p. 6 (PDF p. 7)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=7"
+        },
+        {
+          "label": "FDA: CMC information for investigational drugs",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+        },
+        {
+          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "url": "https://www.fda.gov/media/193163/download?attachment="
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "cmc-controls",
+      "category": "cmc",
+      "title": "Make and control consistent material",
+      "goal": "Release, investigate, or hold the batch through the responsible quality process.",
+      "concept": "A reliable supply depends on understanding what the process can change and using tests that answer the relevant quality questions. A high purity value alone is not a batch-release decision.",
+      "takeaway": "Choose controls for identity, dose, impurities, and performance—not a single reassuring number.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Understand the process",
+            "question": "What can introduce variability or unwanted material?",
+            "evidence": "Trace starting materials, reaction by-products, solvents, purification, and formulation steps. Focus on differences that can affect product safety or performance.",
+            "decision": "Identify where the process needs controls and what a process change could invalidate."
+          },
+          {
+            "label": "Choose the tests",
+            "question": "Does each measurement answer the right question?",
+            "evidence": "Distinguish identity, active content, impurity profile, dose uniformity, and drug release where relevant. Use methods fit for their intended purpose.",
+            "decision": "Set appropriate tests and acceptance criteria for this product and stage."
+          },
+          {
+            "label": "Review the batch",
+            "question": "Do results and records support use of this material?",
+            "evidence": "Read the relevant test results together with batch records and deviations. Investigate an unexpected result rather than averaging it away.",
+            "decision": "Release, investigate, or hold the batch through the responsible quality process."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: a tablet breaking apart did not establish drug release.",
+          "intro": "The FDA quality review distinguishes disintegration from dissolution in evaluating the tablet control strategy.",
+          "rows": [
+            {
+              "label": "Disintegration",
+              "value": "Tablet breakup was not a reliable substitute for dissolution in this product.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Dissolution",
+              "value": "The review supported a method to assess drug release across batches and during stability testing.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "General lesson",
+              "value": "A convenient test must demonstrate that it answers the intended quality question.",
+              "status": "INTERPRETATION"
+            }
+          ],
+          "limit": "This was an NDA-stage assessment. Early-phase controls should be appropriate to the product, risks, and development stage; do not copy a commercial specification wholesale.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "Specification",
+            "definition": "Tests, methods, and acceptance criteria used to assess quality."
+          },
+          {
+            "term": "Assay",
+            "definition": "A measurement of active content; it is distinct from a chromatographic purity percentage."
+          },
+          {
+            "term": "Dissolution",
+            "definition": "Measurement of drug entering solution from a dosage form."
+          },
+          {
+            "term": "CGMP",
+            "definition": "Current good manufacturing practice; manufacturing controls are appropriate to the development stage."
+          }
+        ],
+        "scope": "CMC develops during lead optimization and continues after nomination. An established commercial synthesis is not a prerequisite for every first-in-human study."
+      },
+      "question": {
+        "title": "Does matching purity settle the question?",
+        "prompt": "A changed synthesis gives the same overall chromatographic purity but introduces a different impurity. What is the sound next step?",
+        "options": [
+          [
+            "Assess the new impurity and the process change before deciding whether the material is supported.",
+            "Correct. Consider identity, amount, safety significance, existing qualification, and appropriate controls.",
+            true
+          ],
+          [
+            "Release the batch because the total purity is unchanged.",
+            "The same aggregate purity can conceal a different risk.",
+            false
+          ],
+          [
+            "Ignore the impurity if the active compound is potent.",
+            "Biological potency does not qualify an impurity.",
+            false
+          ]
+        ],
+        "hint": "The identity of the impurity matters, not just the total area."
+      },
+      "sources": [
+        {
+          "label": "FDA quality review: dissolution assessment, printed pp. 144–145 (PDF pp. 63–64)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=63"
+        },
+        {
+          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "url": "https://www.fda.gov/media/193163/download?attachment="
+        },
+        {
+          "label": "FDA: CGMP for Phase 1 investigational drugs",
+          "url": "https://www.fda.gov/media/70975/download"
+        },
+        {
+          "label": "FDA: CMC information for investigational drugs",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "cmc-stability",
+      "category": "cmc",
+      "title": "Keep the product suitable through dosing",
+      "goal": "Set supported handling and use limits, or obtain additional evidence before extending them.",
+      "concept": "A batch that is suitable today must remain suitable during storage, shipment, preparation, and use. Stability support belongs to a defined material, package, and set of conditions.",
+      "takeaway": "A stability conclusion travels with its material, packaging, conditions, and supported period.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Define the conditions",
+            "question": "Which storage and use conditions need support?",
+            "evidence": "Identify the formulation, container, temperature, light exposure, shipment, and any preparation or in-use period that can affect quality.",
+            "decision": "Specify the conditions under which the clinical supply will be managed."
+          },
+          {
+            "label": "Follow the changes",
+            "question": "Which quality attributes could change with time?",
+            "evidence": "Track relevant active content, degradation products, physical changes, and product performance using suitable methods. Read trends as well as pass/fail results.",
+            "decision": "Determine what the available data support over the proposed period of use."
+          },
+          {
+            "label": "Reassess changes",
+            "question": "Does the conclusion still apply after a change?",
+            "evidence": "Review new formulation, packaging, storage, or use conditions against existing data. Plan proportionate ongoing stability work.",
+            "decision": "Set supported handling and use limits, or obtain additional evidence before extending them."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: stability support had a defined boundary.",
+          "intro": "At the 2015 NDA review, the available evidence supported an initial product shelf life under specified conditions.",
+          "rows": [
+            {
+              "label": "Supported period",
+              "value": "12 months in the finished package.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Conditions",
+              "value": "USP controlled room temperature; the reviewed product used an HDPE bottle.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Continuing work",
+              "value": "Stability studies continued, with later reassessment as evidence accumulated.",
+              "status": "REPORTED"
+            }
+          ],
+          "limit": "This is a historical commercial-product decision, not a 12-month requirement for an initial IND. FDA’s first-in-human CMC framework scales support to the proposed study.",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        "terms": [
+          {
+            "term": "Stability",
+            "definition": "How product quality changes over time under specified conditions."
+          },
+          {
+            "term": "In-use stability",
+            "definition": "Support for the period after opening, reconstitution, dilution, or other preparation, where relevant."
+          }
+        ],
+        "scope": "For an initial Phase 1 IND, evidence and the ongoing stability plan should support the intended use. A final commercial shelf life is not the starting requirement."
+      },
+      "question": {
+        "title": "Can we carry the old conclusion forward?",
+        "prompt": "The team changes the bottle and storage conditions. Existing stability data cover the earlier package and conditions. What should happen?",
+        "options": [
+          [
+            "Keep the same supported period because the molecular structure is unchanged.",
+            "Packaging and conditions can affect product quality even when the molecule is unchanged.",
+            false
+          ],
+          [
+            "Assess whether the existing data support the changes and obtain additional evidence where needed.",
+            "Correct. Carry forward supported conclusions, not assumptions about unchanged performance.",
+            true
+          ],
+          [
+            "Assume an earlier passing release test establishes stability for any storage condition.",
+            "Release testing describes a point in time; stability addresses change during storage and use.",
+            false
+          ]
+        ],
+        "hint": "Ask exactly what material and conditions the evidence covers."
+      },
+      "sources": [
+        {
+          "label": "FDA quality review: stability decision, printed p. 93 (PDF p. 40)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=40"
+        },
+        {
+          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "url": "https://www.fda.gov/media/193163/download?attachment="
+        },
+        {
+          "label": "FDA: CMC information for investigational drugs",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "clinical",
+      "title": "The first clinical study",
+      "goal": "Turn a recognized safety concern into clear study instructions.",
+      "concept": "The clinical protocol defines objectives, participants, dose and schedule, measurements, and decision rules. Its safety plan should explain what to monitor, when, who reviews the findings, and what actions follow. The specific plan depends on the drug and proposed study.",
+      "takeaway": "A concern becomes actionable when the protocol says what the team will do.",
+      "exampleTitle": "“Monitor kidney safety” needs a plan.",
+      "example": "An animal study identifies kidney injury at higher exposures. The clinical team uses this finding with the rest of the evidence to plan relevant assessments, their timing, who reviews them, and findings that trigger interruption or further evaluation. The program determines the appropriate measures.",
+      "worked": "A safety observation informs a plan that investigators can apply consistently. No single assay, threshold, or schedule is universal.",
+      "category": "clinical",
+      "question": {
+        "title": "Make a vague safety plan actionable.",
+        "prompt": "A draft protocol says “watch closely for liver toxicity,” with no assessment schedule or action rules. What addresses the gap?",
+        "options": [
+          [
+            "Specify relevant assessments, timing, review responsibilities, and justified action rules.",
+            "These instructions tell the team what to measure and how to act on the findings.",
+            true
+          ],
+          [
+            "Add a longer description of the target’s molecular biology.",
+            "Mechanism can inform risk, but a longer explanation does not supply the missing study instructions.",
+            false
+          ],
+          [
+            "Let each site invent its own monitoring plan after enrollment.",
+            "That leaves safety-critical decisions unspecified. Define the plan before conducting the study.",
+            false
+          ]
+        ],
+        "hint": "Could two sites read that sentence and make different safety decisions?"
+      },
+      "diagram": [
+        [
+          "Safety concern",
+          "What could happen?"
+        ],
+        [
+          "Protocol",
+          "What will the team do?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Finding",
+          "Kidney injury at higher exposures"
+        ],
+        [
+          "Plan",
+          "Assessments, timing, reviewer"
+        ],
+        [
+          "Action",
+          "Justified interruption or evaluation rules"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "FDA: clinical protocols",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols"
         }
       ]
     },
+    {
+      "id": "clinical-dose",
+      "category": "clinical",
+      "title": "Justifying a first dose",
+      "goal": "Explain why a starting dose needs a context-specific rationale.",
+      "concept": "A first human dose is a justified starting point for learning. Its rationale integrates relevant toxicology, pharmacology, and exposure information with the proposed population and regimen. The applicable framework matters: FDA’s adult healthy-volunteer guidance has a defined scope; it is not a universal recipe for patients with advanced cancer.",
+      "takeaway": "Choose the dosing framework for the study context before interpreting the calculations.",
+      "exampleTitle": "A mouse efficacy dose is not a human starting dose.",
+      "example": "A discovery team proposes the same milligrams per kilogram in humans that slowed tumor growth in mice. The development team asks how that relates to toxicity findings, pharmacology, predicted human exposure, and the intended participants. A direct dose match supplies none of those connections. The first-dose rationale must address them together.",
+      "worked": "An activity dose is useful evidence, but it does not independently establish a defensible human starting dose.",
+      "diagram": [
+        [
+          "Animal activity",
+          "A biological observation"
+        ],
+        [
+          "Human starting dose",
+          "A context-specific justification"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Identify context",
+          "Healthy volunteers or patients?"
+        ],
+        [
+          "Integrate evidence",
+          "Toxicology, exposure, pharmacology"
+        ],
+        [
+          "Justify the plan",
+          "Starting dose and safeguards"
+        ]
+      ],
+      "question": {
+        "title": "Which argument is incomplete?",
+        "prompt": "A proposed starting dose is justified only by matching the mouse efficacy dose in mg/kg. What should the team do?",
+        "options": [
+          [
+            "Accept it because mg/kg adjusts for species differences.",
+            "Weight adjustment alone does not resolve differences in pharmacology, kinetics, or risk.",
+            false
+          ],
+          [
+            "Assume a lower dose must be effective.",
+            "A lower starting dose does not guarantee activity or define later dose optimization.",
+            false
+          ],
+          [
+            "Develop a rationale using the relevant safety, pharmacology, exposure, and population context.",
+            "The rationale needs to connect the evidence to the actual human study.",
+            true
+          ]
+        ],
+        "hint": "Which human-relevant assumptions are missing from the dose match?"
+      },
+      "sources": [
+        {
+          "label": "FDA starting-dose guidance: adult healthy volunteers, final 2005",
+          "url": "https://www.fda.gov/media/72309/download"
+        },
+        {
+          "label": "ICH S9: defined advanced-cancer context",
+          "url": "https://www.fda.gov/media/73161/download"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": "Who prepares the IND",
+      "goal": "Distinguish contracted work from transferred sponsor obligations.",
+      "concept": "An IND is a team effort. Scientific specialists generate and interpret evidence; a regulatory lead often coordinates strategy and submission; writers and publishing specialists may help prepare the documents. The sponsor has regulatory responsibilities. Hiring a vendor does not automatically transfer them.",
+      "takeaway": "Who performs a task and who holds an obligation are different questions.",
+      "exampleTitle": "A startup works with a CRO.",
+      "example": "A biotech hires a contract research organization (CRO) for a toxicology study. Toxicology and drug metabolism/pharmacokinetics specialists interpret findings and exposure; the clinical lead considers implications for the protocol. A regulatory lead coordinates the presentation. This is one possible team arrangement. Any transfer of sponsor obligations under the IND regulation must be described in writing.",
+      "worked": "Contracting a task does not automatically transfer obligations. Those not covered by a written transfer remain with the sponsor.",
+      "category": "clinical",
+      "question": {
+        "title": "Who retains the responsibility?",
+        "prompt": "A biotech hires a vendor to assemble the electronic submission. No sponsor obligations are transferred in writing. Who retains those obligations?",
+        "options": [
+          [
+            "The vendor, automatically, because it handles the files.",
+            "Performing a service does not automatically transfer sponsor obligations.",
+            false
+          ],
+          [
+            "FDA, once it receives the submission.",
+            "FDA reviews the application; receipt does not transfer the sponsor’s duties to FDA.",
+            false
+          ],
+          [
+            "The biotech sponsor.",
+            "Obligations not covered by a written transfer remain with the sponsor.",
+            true
+          ]
+        ],
+        "hint": "Separate who did the task from which obligations were transferred."
+      },
+      "diagram": [
+        [
+          "Contracted task",
+          "Who performs the work?"
+        ],
+        [
+          "Sponsor obligation",
+          "Who is responsible?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "CRO",
+          "Performs an agreed task"
+        ],
+        [
+          "Team",
+          "Interprets and integrates evidence"
+        ],
+        [
+          "Sponsor",
+          "Retains obligations not transferred"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "21 CFR 312.50 and 312.52: sponsor responsibilities and CRO transfers",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-D"
+        }
+      ]
+    },
+    {
+      "id": "pre-ind",
+      "category": "clinical",
+      "title": "Ask a useful pre-IND question",
+      "goal": "Turn an uncertainty into a focused question with evidence and a proposed approach.",
+      "concept": "A pre-IND interaction can help a team discuss development questions with FDA before submission. A useful question identifies the decision, explains the evidence, and presents a proposed approach with its rationale. General requests for reassurance are harder to resolve than questions about a defined program. Feedback informs development; it is not permission to begin a trial.",
+      "takeaway": "Bring a proposed approach and the uncertainty that needs resolving.",
+      "exampleTitle": "Replace “Is our package enough?”",
+      "example": "A team has data supporting a short oral study and is considering a longer regimen. Instead of asking FDA whether the program looks good, it summarizes the proposed population and schedule, relevant existing studies, and its plan for additional support. It then asks whether that approach addresses the identified duration question.",
+      "worked": "The question is answerable because the study, supporting evidence, and proposed next step are explicit.",
+      "diagram": [
+        [
+          "Broad reassurance",
+          "Is our program good?"
+        ],
+        [
+          "Focused question",
+          "Does this approach address this gap?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Decision",
+          "Support a longer regimen"
+        ],
+        [
+          "Evidence",
+          "What current studies cover"
+        ],
+        [
+          "Proposal",
+          "Additional support and rationale"
+        ]
+      ],
+      "question": {
+        "title": "Which question is more useful?",
+        "prompt": "You are preparing a pre-IND briefing package. Which question best supports a focused discussion?",
+        "options": [
+          [
+            "Given this population, regimen, evidence, and proposed study, does the approach address the identified safety gap?",
+            "A specific proposal gives the discussion a concrete decision and rationale.",
+            true
+          ],
+          [
+            "Can FDA confirm that the drug will succeed?",
+            "FDA cannot establish future development success from a briefing package.",
+            false
+          ],
+          [
+            "Can we omit the proposed clinical plan and discuss the data alone?",
+            "The intended study gives the data their development context.",
+            false
+          ]
+        ],
+        "hint": "Can the reviewer see both the decision and the evidence behind your proposal?"
+      },
+      "sources": [
+        {
+          "label": "FDA pre-IND consultation overview",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"
+        },
+        {
+          "label": "FDA formal meetings guidance, final August 2026",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-pdufa-products"
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "title": "What the IND supports",
+      "goal": "Explain what an IND supports—and what an activity result cannot establish.",
+      "concept": "A development candidate is a molecule your team chooses to advance. An Investigational New Drug (IND) application brings together evidence supporting a specific proposed human study. It connects biological activity, exposure, potential harms, product quality, and the clinical plan.",
+      "takeaway": "The question is: does this evidence support this proposed study?",
+      "exampleTitle": "A tumor response is one piece of the argument.",
+      "example": "Suppose a candidate slows tumor growth in mice. That gives the team a reason to investigate further. Before proposing a human study, the team also needs to understand achieved exposure, potential harms, the material to be administered, and the study design.",
+      "worked": "Keep the useful activity result. Then identify the questions it leaves unanswered.",
+      "category": "ind",
+      "question": {
+        "title": "A stronger result. A narrower claim.",
+        "prompt": "A candidate produces convincing tumor growth inhibition in mice. What does that result most directly support?",
+        "options": [
+          [
+            "A biological rationale to investigate the candidate further.",
+            "Yes. Retain the activity result and define its limits. It does not answer product quality, human risk, or clinical benefit by itself.",
+            true
+          ],
+          [
+            "That the candidate is ready to dose in humans.",
+            "Activity is one part of the argument. Exposure, safety, product quality, and the proposed study still need support.",
+            false
+          ],
+          [
+            "That the same dose will work in humans.",
+            "A dose in one species does not establish human exposure, target effects, or a useful human regimen.",
+            false
+          ]
+        ]
+      },
+      "diagram": [
+        [
+          "Discovery result",
+          "A reason to develop"
+        ],
+        [
+          "IND",
+          "Support a proposed study"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Biology",
+          "Why investigate this drug?"
+        ],
+        [
+          "Support",
+          "Exposure, safety, product quality"
+        ],
+        [
+          "Proposed study",
+          "Dose, schedule, population, safeguards"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "FDA: what an IND contains",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        },
+        {
+          "label": "FDA: purpose of IND review",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
+        }
+      ]
+    },
+    {
+      "id": "submission",
+      "category": "ind",
+      "title": "Assemble a traceable submission",
+      "goal": "Connect a summary claim to its source report and proposed clinical use.",
+      "concept": "An IND joins scientific and administrative material into a reviewable submission. In the eCTD, Module 1 holds regional material, Module 2 summaries, Module 3 quality, Module 4 nonclinical reports, and Module 5 clinical material. The summaries should accurately connect source findings to the proposed study. File organization supports review; it does not establish scientific adequacy.",
+      "takeaway": "Every important summary claim should be traceable to the right evidence.",
+      "exampleTitle": "A reassuring sentence loses its context.",
+      "example": "An IND summary says that a candidate was tolerated. The source report shows that exposure was low in the high-dose group. A reviewer needs the exposure result alongside the injury observations to interpret the statement. The team revises the summary to describe the actual study conditions and the remaining uncertainty, with a reference to the source report.",
+      "worked": "Traceability means preserving the meaning of the evidence, not merely placing a file in the correct folder.",
+      "diagram": [
+        [
+          "Source report",
+          "Observations and conditions"
+        ],
+        [
+          "Summary claim",
+          "Accurate, qualified interpretation"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Find the claim",
+          "Candidate was tolerated"
+        ],
+        [
+          "Check its support",
+          "Exposure and observed findings"
+        ],
+        [
+          "Preserve context",
+          "Conditions, limits, source reference"
+        ]
+      ],
+      "question": {
+        "title": "What should be corrected?",
+        "prompt": "A summary describes a high dose as reassuring, but the study report shows little systemic exposure. Which revision best preserves the evidence?",
+        "options": [
+          [
+            "Delete the exposure result because it complicates the story.",
+            "The exposure result is important to interpreting the observations.",
+            false
+          ],
+          [
+            "State the observed findings and achieved exposure, explain the limitation, and reference the report.",
+            "This lets the reviewer assess the claim in its actual experimental context.",
+            true
+          ],
+          [
+            "Keep the sentence because the file is in the correct eCTD module.",
+            "Correct organization does not make an unsupported inference adequate.",
+            false
+          ]
+        ],
+        "hint": "What information changes the meaning of the absence of observed injury?"
+      },
+      "sources": [
+        {
+          "label": "FDA eCTD overview",
+          "url": "https://www.fda.gov/drugs/electronic-regulatory-submission-and-review/electronic-common-technical-document-ectd"
+        },
+        {
+          "label": "21 CFR 312.23: IND content and format",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
+    },
+    {
+      "id": "fda-review",
+      "category": "ind",
+      "title": "Review, questions, and holds",
+      "goal": "Distinguish submission receipt, an effective IND, and a clinical hold.",
+      "concept": "The IND goes into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. Other trial-start requirements still apply. A hold delays or suspends the affected investigation. Responding to a hold means addressing the identified issues; sending a response does not itself lift the hold.",
+      "takeaway": "Track the actual regulatory status, not simply whether documents were sent.",
+      "exampleTitle": "A response is not a release from hold.",
+      "example": "FDA places a proposed study on clinical hold because the information is insufficient to assess risk. The sponsor submits additional evidence and a revised explanation. The team still must receive the relevant FDA notification that the investigation may proceed. It cannot treat uploading the response as an automatic end to the hold.",
+      "worked": "The response is an action by the sponsor; permission to resume the held investigation requires the applicable FDA decision.",
+      "diagram": [
+        [
+          "Sponsor action",
+          "Submit the hold response"
+        ],
+        [
+          "Regulatory status",
+          "Await FDA permission to proceed"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Identify issue",
+          "What led to the hold?"
+        ],
+        [
+          "Respond",
+          "Evidence and justified revisions"
+        ],
+        [
+          "Track status",
+          "FDA notification is still needed"
+        ]
+      ],
+      "question": {
+        "title": "Can the held study proceed?",
+        "prompt": "The sponsor has submitted a complete response to a clinical hold. FDA has not notified the sponsor that the study may proceed. What is the correct interpretation?",
+        "options": [
+          [
+            "The hold is automatically lifted on upload.",
+            "Submission of a response is not an automatic lifting of the hold.",
+            false
+          ],
+          [
+            "A favorable animal result independently lifts the hold.",
+            "An individual study result does not change the regulatory status by itself.",
+            false
+          ],
+          [
+            "The affected investigation remains on hold pending the relevant FDA notification.",
+            "Responding and being permitted to proceed are distinct events.",
+            true
+          ]
+        ],
+        "hint": "Who determines whether the identified hold issues have been resolved?"
+      },
+      "sources": [
+        {
+          "label": "21 CFR 312.40: beginning an investigation",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
+        },
+        {
+          "label": "21 CFR 312.42: clinical holds",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.42"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Ready for the first participant",
+      "goal": "Distinguish an effective IND from trial and participant readiness.",
+      "concept": "An IND may go into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. That is one condition for starting. Institutional review board (IRB) approval, informed consent, and applicable participant and site requirements also matter. An effective IND is not marketing approval. The IND remains active during clinical development; safety reporting, amendments, and annual reporting continue as applicable.",
+      "takeaway": "FDA status, ethical review, and participant readiness are separate conditions.",
+      "exampleTitle": "The IND is effective. The IRB review is pending.",
+      "example": "Thirty days have elapsed since FDA received an initial IND, with no clinical hold. The IND is in effect, but the IRB has not approved the protocol. The team cannot begin this ordinary first-in-human trial while that approval is missing. The effective IND does not establish efficacy or permit marketing.",
+      "worked": "Resolve the missing IRB approval and other applicable requirements. Passage of the IND review period does not replace them.",
+      "category": "ind",
+      "question": {
+        "title": "Check the participant’s readiness.",
+        "prompt": "The IND is effective and the IRB has approved this ordinary first-in-human study. A prospective participant has not completed informed consent. May the team give the study drug now?",
+        "options": [
+          [
+            "Yes. IRB approval substitutes for the participant’s decision.",
+            "IRB review and individual informed consent serve different purposes. One does not replace the other.",
+            false
+          ],
+          [
+            "No. Legally effective informed consent is still needed before participation.",
+            "Consent is a separate prerequisite in this ordinary study. Other participant and site conditions must also be satisfied.",
+            true
+          ],
+          [
+            "No. Every effective IND requires another 30-day wait.",
+            "There is no automatic second 30-day wait. The missing condition here is consent.",
+            false
+          ]
+        ],
+        "hint": "Which decision belongs to the prospective participant?"
+      },
+      "diagram": [
+        [
+          "IND status",
+          "May investigation proceed?"
+        ],
+        [
+          "Trial readiness",
+          "Can this participant start?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "IND status",
+          "Effective"
+        ],
+        [
+          "IRB approval",
+          "Pending"
+        ],
+        [
+          "First participant",
+          "Cannot start yet"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "21 CFR 312.40: conditions for beginning an investigation",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
+        },
+        {
+          "label": "21 CFR 56.103: IRB review requirements",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-56/subpart-A/section-56.103"
+        },
+        {
+          "label": "21 CFR 50.20: informed consent",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.20"
+        },
+        {
+          "label": "FDA: IND annual reports and continuing responsibilities",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-annual-reports"
+        }
+      ]
+    }
+  ],
+  "supplementalLevels": [
     {
       "id": "exposure",
       "category": "candidate",
@@ -7451,541 +9040,6 @@ const CATALOG = {
           "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1ar2-stability-testing-new-drug-substances-and-products"
         }
       ]
-    },
-    {
-      "id": "clinical",
-      "title": "The first clinical study",
-      "goal": "Turn a recognized safety concern into clear study instructions.",
-      "concept": "The clinical protocol defines objectives, participants, dose and schedule, measurements, and decision rules. Its safety plan should explain what to monitor, when, who reviews the findings, and what actions follow. The specific plan depends on the drug and proposed study.",
-      "takeaway": "A concern becomes actionable when the protocol says what the team will do.",
-      "exampleTitle": "“Monitor kidney safety” needs a plan.",
-      "example": "An animal study identifies kidney injury at higher exposures. The clinical team uses this finding with the rest of the evidence to plan relevant assessments, their timing, who reviews them, and findings that trigger interruption or further evaluation. The program determines the appropriate measures.",
-      "worked": "A safety observation informs a plan that investigators can apply consistently. No single assay, threshold, or schedule is universal.",
-      "category": "clinical",
-      "question": {
-        "title": "Make a vague safety plan actionable.",
-        "prompt": "A draft protocol says “watch closely for liver toxicity,” with no assessment schedule or action rules. What addresses the gap?",
-        "options": [
-          [
-            "Specify relevant assessments, timing, review responsibilities, and justified action rules.",
-            "These instructions tell the team what to measure and how to act on the findings.",
-            true
-          ],
-          [
-            "Add a longer description of the target’s molecular biology.",
-            "Mechanism can inform risk, but a longer explanation does not supply the missing study instructions.",
-            false
-          ],
-          [
-            "Let each site invent its own monitoring plan after enrollment.",
-            "That leaves safety-critical decisions unspecified. Define the plan before conducting the study.",
-            false
-          ]
-        ],
-        "hint": "Could two sites read that sentence and make different safety decisions?"
-      },
-      "diagram": [
-        [
-          "Safety concern",
-          "What could happen?"
-        ],
-        [
-          "Protocol",
-          "What will the team do?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Finding",
-          "Kidney injury at higher exposures"
-        ],
-        [
-          "Plan",
-          "Assessments, timing, reviewer"
-        ],
-        [
-          "Action",
-          "Justified interruption or evaluation rules"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "FDA: clinical protocols",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols"
-        }
-      ]
-    },
-    {
-      "id": "clinical-dose",
-      "category": "clinical",
-      "title": "Justifying a first dose",
-      "goal": "Explain why a starting dose needs a context-specific rationale.",
-      "concept": "A first human dose is a justified starting point for learning. Its rationale integrates relevant toxicology, pharmacology, and exposure information with the proposed population and regimen. The applicable framework matters: FDA’s adult healthy-volunteer guidance has a defined scope; it is not a universal recipe for patients with advanced cancer.",
-      "takeaway": "Choose the dosing framework for the study context before interpreting the calculations.",
-      "exampleTitle": "A mouse efficacy dose is not a human starting dose.",
-      "example": "A discovery team proposes the same milligrams per kilogram in humans that slowed tumor growth in mice. The development team asks how that relates to toxicity findings, pharmacology, predicted human exposure, and the intended participants. A direct dose match supplies none of those connections. The first-dose rationale must address them together.",
-      "worked": "An activity dose is useful evidence, but it does not independently establish a defensible human starting dose.",
-      "diagram": [
-        [
-          "Animal activity",
-          "A biological observation"
-        ],
-        [
-          "Human starting dose",
-          "A context-specific justification"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Identify context",
-          "Healthy volunteers or patients?"
-        ],
-        [
-          "Integrate evidence",
-          "Toxicology, exposure, pharmacology"
-        ],
-        [
-          "Justify the plan",
-          "Starting dose and safeguards"
-        ]
-      ],
-      "question": {
-        "title": "Which argument is incomplete?",
-        "prompt": "A proposed starting dose is justified only by matching the mouse efficacy dose in mg/kg. What should the team do?",
-        "options": [
-          [
-            "Accept it because mg/kg adjusts for species differences.",
-            "Weight adjustment alone does not resolve differences in pharmacology, kinetics, or risk.",
-            false
-          ],
-          [
-            "Assume a lower dose must be effective.",
-            "A lower starting dose does not guarantee activity or define later dose optimization.",
-            false
-          ],
-          [
-            "Develop a rationale using the relevant safety, pharmacology, exposure, and population context.",
-            "The rationale needs to connect the evidence to the actual human study.",
-            true
-          ]
-        ],
-        "hint": "Which human-relevant assumptions are missing from the dose match?"
-      },
-      "sources": [
-        {
-          "label": "FDA starting-dose guidance: adult healthy volunteers, final 2005",
-          "url": "https://www.fda.gov/media/72309/download"
-        },
-        {
-          "label": "ICH S9: defined advanced-cancer context",
-          "url": "https://www.fda.gov/media/73161/download"
-        }
-      ]
-    },
-    {
-      "id": "people",
-      "title": "Who prepares the IND",
-      "goal": "Distinguish contracted work from transferred sponsor obligations.",
-      "concept": "An IND is a team effort. Scientific specialists generate and interpret evidence; a regulatory lead often coordinates strategy and submission; writers and publishing specialists may help prepare the documents. The sponsor has regulatory responsibilities. Hiring a vendor does not automatically transfer them.",
-      "takeaway": "Who performs a task and who holds an obligation are different questions.",
-      "exampleTitle": "A startup works with a CRO.",
-      "example": "A biotech hires a contract research organization (CRO) for a toxicology study. Toxicology and drug metabolism/pharmacokinetics specialists interpret findings and exposure; the clinical lead considers implications for the protocol. A regulatory lead coordinates the presentation. This is one possible team arrangement. Any transfer of sponsor obligations under the IND regulation must be described in writing.",
-      "worked": "Contracting a task does not automatically transfer obligations. Those not covered by a written transfer remain with the sponsor.",
-      "category": "clinical",
-      "question": {
-        "title": "Who retains the responsibility?",
-        "prompt": "A biotech hires a vendor to assemble the electronic submission. No sponsor obligations are transferred in writing. Who retains those obligations?",
-        "options": [
-          [
-            "The vendor, automatically, because it handles the files.",
-            "Performing a service does not automatically transfer sponsor obligations.",
-            false
-          ],
-          [
-            "FDA, once it receives the submission.",
-            "FDA reviews the application; receipt does not transfer the sponsor’s duties to FDA.",
-            false
-          ],
-          [
-            "The biotech sponsor.",
-            "Obligations not covered by a written transfer remain with the sponsor.",
-            true
-          ]
-        ],
-        "hint": "Separate who did the task from which obligations were transferred."
-      },
-      "diagram": [
-        [
-          "Contracted task",
-          "Who performs the work?"
-        ],
-        [
-          "Sponsor obligation",
-          "Who is responsible?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "CRO",
-          "Performs an agreed task"
-        ],
-        [
-          "Team",
-          "Interprets and integrates evidence"
-        ],
-        [
-          "Sponsor",
-          "Retains obligations not transferred"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "21 CFR 312.50 and 312.52: sponsor responsibilities and CRO transfers",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-D"
-        }
-      ]
-    },
-    {
-      "id": "pre-ind",
-      "category": "clinical",
-      "title": "Ask a useful pre-IND question",
-      "goal": "Turn an uncertainty into a focused question with evidence and a proposed approach.",
-      "concept": "A pre-IND interaction can help a team discuss development questions with FDA before submission. A useful question identifies the decision, explains the evidence, and presents a proposed approach with its rationale. General requests for reassurance are harder to resolve than questions about a defined program. Feedback informs development; it is not permission to begin a trial.",
-      "takeaway": "Bring a proposed approach and the uncertainty that needs resolving.",
-      "exampleTitle": "Replace “Is our package enough?”",
-      "example": "A team has data supporting a short oral study and is considering a longer regimen. Instead of asking FDA whether the program looks good, it summarizes the proposed population and schedule, relevant existing studies, and its plan for additional support. It then asks whether that approach addresses the identified duration question.",
-      "worked": "The question is answerable because the study, supporting evidence, and proposed next step are explicit.",
-      "diagram": [
-        [
-          "Broad reassurance",
-          "Is our program good?"
-        ],
-        [
-          "Focused question",
-          "Does this approach address this gap?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Decision",
-          "Support a longer regimen"
-        ],
-        [
-          "Evidence",
-          "What current studies cover"
-        ],
-        [
-          "Proposal",
-          "Additional support and rationale"
-        ]
-      ],
-      "question": {
-        "title": "Which question is more useful?",
-        "prompt": "You are preparing a pre-IND briefing package. Which question best supports a focused discussion?",
-        "options": [
-          [
-            "Given this population, regimen, evidence, and proposed study, does the approach address the identified safety gap?",
-            "A specific proposal gives the discussion a concrete decision and rationale.",
-            true
-          ],
-          [
-            "Can FDA confirm that the drug will succeed?",
-            "FDA cannot establish future development success from a briefing package.",
-            false
-          ],
-          [
-            "Can we omit the proposed clinical plan and discuss the data alone?",
-            "The intended study gives the data their development context.",
-            false
-          ]
-        ],
-        "hint": "Can the reviewer see both the decision and the evidence behind your proposal?"
-      },
-      "sources": [
-        {
-          "label": "FDA pre-IND consultation overview",
-          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"
-        },
-        {
-          "label": "FDA formal meetings guidance, final August 2026",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-pdufa-products"
-        }
-      ]
-    },
-    {
-      "id": "map",
-      "title": "What the IND supports",
-      "goal": "Explain what an IND supports—and what an activity result cannot establish.",
-      "concept": "A development candidate is a molecule your team chooses to advance. An Investigational New Drug (IND) application brings together evidence supporting a specific proposed human study. It connects biological activity, exposure, potential harms, product quality, and the clinical plan.",
-      "takeaway": "The question is: does this evidence support this proposed study?",
-      "exampleTitle": "A tumor response is one piece of the argument.",
-      "example": "Suppose a candidate slows tumor growth in mice. That gives the team a reason to investigate further. Before proposing a human study, the team also needs to understand achieved exposure, potential harms, the material to be administered, and the study design.",
-      "worked": "Keep the useful activity result. Then identify the questions it leaves unanswered.",
-      "category": "ind",
-      "question": {
-        "title": "A stronger result. A narrower claim.",
-        "prompt": "A candidate produces convincing tumor growth inhibition in mice. What does that result most directly support?",
-        "options": [
-          [
-            "A biological rationale to investigate the candidate further.",
-            "Yes. Retain the activity result and define its limits. It does not answer product quality, human risk, or clinical benefit by itself.",
-            true
-          ],
-          [
-            "That the candidate is ready to dose in humans.",
-            "Activity is one part of the argument. Exposure, safety, product quality, and the proposed study still need support.",
-            false
-          ],
-          [
-            "That the same dose will work in humans.",
-            "A dose in one species does not establish human exposure, target effects, or a useful human regimen.",
-            false
-          ]
-        ]
-      },
-      "diagram": [
-        [
-          "Discovery result",
-          "A reason to develop"
-        ],
-        [
-          "IND",
-          "Support a proposed study"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Biology",
-          "Why investigate this drug?"
-        ],
-        [
-          "Support",
-          "Exposure, safety, product quality"
-        ],
-        [
-          "Proposed study",
-          "Dose, schedule, population, safeguards"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "FDA: what an IND contains",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
-        },
-        {
-          "label": "FDA: purpose of IND review",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
-        }
-      ]
-    },
-    {
-      "id": "submission",
-      "category": "ind",
-      "title": "Assemble a traceable submission",
-      "goal": "Connect a summary claim to its source report and proposed clinical use.",
-      "concept": "An IND joins scientific and administrative material into a reviewable submission. In the eCTD, Module 1 holds regional material, Module 2 summaries, Module 3 quality, Module 4 nonclinical reports, and Module 5 clinical material. The summaries should accurately connect source findings to the proposed study. File organization supports review; it does not establish scientific adequacy.",
-      "takeaway": "Every important summary claim should be traceable to the right evidence.",
-      "exampleTitle": "A reassuring sentence loses its context.",
-      "example": "An IND summary says that a candidate was tolerated. The source report shows that exposure was low in the high-dose group. A reviewer needs the exposure result alongside the injury observations to interpret the statement. The team revises the summary to describe the actual study conditions and the remaining uncertainty, with a reference to the source report.",
-      "worked": "Traceability means preserving the meaning of the evidence, not merely placing a file in the correct folder.",
-      "diagram": [
-        [
-          "Source report",
-          "Observations and conditions"
-        ],
-        [
-          "Summary claim",
-          "Accurate, qualified interpretation"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Find the claim",
-          "Candidate was tolerated"
-        ],
-        [
-          "Check its support",
-          "Exposure and observed findings"
-        ],
-        [
-          "Preserve context",
-          "Conditions, limits, source reference"
-        ]
-      ],
-      "question": {
-        "title": "What should be corrected?",
-        "prompt": "A summary describes a high dose as reassuring, but the study report shows little systemic exposure. Which revision best preserves the evidence?",
-        "options": [
-          [
-            "Delete the exposure result because it complicates the story.",
-            "The exposure result is important to interpreting the observations.",
-            false
-          ],
-          [
-            "State the observed findings and achieved exposure, explain the limitation, and reference the report.",
-            "This lets the reviewer assess the claim in its actual experimental context.",
-            true
-          ],
-          [
-            "Keep the sentence because the file is in the correct eCTD module.",
-            "Correct organization does not make an unsupported inference adequate.",
-            false
-          ]
-        ],
-        "hint": "What information changes the meaning of the absence of observed injury?"
-      },
-      "sources": [
-        {
-          "label": "FDA eCTD overview",
-          "url": "https://www.fda.gov/drugs/electronic-regulatory-submission-and-review/electronic-common-technical-document-ectd"
-        },
-        {
-          "label": "21 CFR 312.23: IND content and format",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
-        }
-      ]
-    },
-    {
-      "id": "fda-review",
-      "category": "ind",
-      "title": "Review, questions, and holds",
-      "goal": "Distinguish submission receipt, an effective IND, and a clinical hold.",
-      "concept": "The IND goes into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. Other trial-start requirements still apply. A hold delays or suspends the affected investigation. Responding to a hold means addressing the identified issues; sending a response does not itself lift the hold.",
-      "takeaway": "Track the actual regulatory status, not simply whether documents were sent.",
-      "exampleTitle": "A response is not a release from hold.",
-      "example": "FDA places a proposed study on clinical hold because the information is insufficient to assess risk. The sponsor submits additional evidence and a revised explanation. The team still must receive the relevant FDA notification that the investigation may proceed. It cannot treat uploading the response as an automatic end to the hold.",
-      "worked": "The response is an action by the sponsor; permission to resume the held investigation requires the applicable FDA decision.",
-      "diagram": [
-        [
-          "Sponsor action",
-          "Submit the hold response"
-        ],
-        [
-          "Regulatory status",
-          "Await FDA permission to proceed"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Identify issue",
-          "What led to the hold?"
-        ],
-        [
-          "Respond",
-          "Evidence and justified revisions"
-        ],
-        [
-          "Track status",
-          "FDA notification is still needed"
-        ]
-      ],
-      "question": {
-        "title": "Can the held study proceed?",
-        "prompt": "The sponsor has submitted a complete response to a clinical hold. FDA has not notified the sponsor that the study may proceed. What is the correct interpretation?",
-        "options": [
-          [
-            "The hold is automatically lifted on upload.",
-            "Submission of a response is not an automatic lifting of the hold.",
-            false
-          ],
-          [
-            "A favorable animal result independently lifts the hold.",
-            "An individual study result does not change the regulatory status by itself.",
-            false
-          ],
-          [
-            "The affected investigation remains on hold pending the relevant FDA notification.",
-            "Responding and being permitted to proceed are distinct events.",
-            true
-          ]
-        ],
-        "hint": "Who determines whether the identified hold issues have been resolved?"
-      },
-      "sources": [
-        {
-          "label": "21 CFR 312.40: beginning an investigation",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
-        },
-        {
-          "label": "21 CFR 312.42: clinical holds",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.42"
-        }
-      ]
-    },
-    {
-      "id": "review",
-      "title": "Ready for the first participant",
-      "goal": "Distinguish an effective IND from trial and participant readiness.",
-      "concept": "An IND may go into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. That is one condition for starting. Institutional review board (IRB) approval, informed consent, and applicable participant and site requirements also matter. An effective IND is not marketing approval. The IND remains active during clinical development; safety reporting, amendments, and annual reporting continue as applicable.",
-      "takeaway": "FDA status, ethical review, and participant readiness are separate conditions.",
-      "exampleTitle": "The IND is effective. The IRB review is pending.",
-      "example": "Thirty days have elapsed since FDA received an initial IND, with no clinical hold. The IND is in effect, but the IRB has not approved the protocol. The team cannot begin this ordinary first-in-human trial while that approval is missing. The effective IND does not establish efficacy or permit marketing.",
-      "worked": "Resolve the missing IRB approval and other applicable requirements. Passage of the IND review period does not replace them.",
-      "category": "ind",
-      "question": {
-        "title": "Check the participant’s readiness.",
-        "prompt": "The IND is effective and the IRB has approved this ordinary first-in-human study. A prospective participant has not completed informed consent. May the team give the study drug now?",
-        "options": [
-          [
-            "Yes. IRB approval substitutes for the participant’s decision.",
-            "IRB review and individual informed consent serve different purposes. One does not replace the other.",
-            false
-          ],
-          [
-            "No. Legally effective informed consent is still needed before participation.",
-            "Consent is a separate prerequisite in this ordinary study. Other participant and site conditions must also be satisfied.",
-            true
-          ],
-          [
-            "No. Every effective IND requires another 30-day wait.",
-            "There is no automatic second 30-day wait. The missing condition here is consent.",
-            false
-          ]
-        ],
-        "hint": "Which decision belongs to the prospective participant?"
-      },
-      "diagram": [
-        [
-          "IND status",
-          "May investigation proceed?"
-        ],
-        [
-          "Trial readiness",
-          "Can this participant start?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "IND status",
-          "Effective"
-        ],
-        [
-          "IRB approval",
-          "Pending"
-        ],
-        [
-          "First participant",
-          "Cannot start yet"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "21 CFR 312.40: conditions for beginning an investigation",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
-        },
-        {
-          "label": "21 CFR 56.103: IRB review requirements",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-56/subpart-A/section-56.103"
-        },
-        {
-          "label": "21 CFR 50.20: informed consent",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.20"
-        },
-        {
-          "label": "FDA: IND annual reports and continuing responsibilities",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-annual-reports"
-        }
-      ]
     }
   ]
 };
@@ -7994,43 +9048,74 @@ const CATALOG = {
 const $=s=>document.querySelector(s);
 const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const LEVELS=CATALOG.levels;
+const ALL_LEVELS=[...LEVELS,...(CATALOG.supplementalLevels||[])];
 const CATEGORIES=CATALOG.categories;
-Object.assign(QUESTIONS,Object.fromEntries(LEVELS.map(l=>[l.id,l.question])));
+Object.assign(QUESTIONS,Object.fromEntries(ALL_LEVELS.map(l=>[l.id,l.question])));
 const state={screen:'portal',lesson:LEVELS[0].id,step:0,clinicalPhase:'phase1',progress:{},loading:true,saveStatus:'',saveError:false,selected:null,feedback:false,saving:false,stream:'biology',modelEngaged:false,bioavailability:.5,halfLife:4,clipStep:0,clipPlaying:false};
 let saveQueue=Promise.resolve(),clipTimer,resettingProgress=false;
-const ids=LEVELS.map(l=>l.id);
-const level=()=>LEVELS.find(l=>l.id===state.lesson);
+const ids=LEVELS.map(l=>l.id),allIds=ALL_LEVELS.map(l=>l.id);
+const level=()=>ALL_LEVELS.find(l=>l.id===state.lesson);
 const done=id=>Boolean(state.progress[id]?.completed);
 const countDone=()=>ids.filter(done).length;
 const button=(label,action,kind='primary')=>`<button class="button ${kind}" data-action="${action}">${label}</button>`;
 function announce(s){$('#announcement').textContent=s;}
 function readState(){return {screen:state.screen,lesson:state.lesson,step:state.step,stepName:['Understand',level().presentation==='approval'?'See examples':'See an example','Try it'][state.step],completedLevels:ids.filter(done),progressLoaded:!state.loading,saveStatus:state.saveStatus,modelEngaged:state.modelEngaged,exposure:{bioavailability:state.bioavailability,halfLife:state.halfLife,...exposureMetrics()}};}
-function localFile(){return typeof location!=='undefined'&&location.protocol==='file:';}
-function localLessons(){try{return JSON.parse(window.localStorage?.getItem('first-in-class-progress')||'[]');}catch{return [];}}
-function localRequest(path,body){const lessons=Object.fromEntries(localLessons().map(x=>[x.lesson,x]));if(body){const previous=lessons[body.lesson]||{lesson:body.lesson,step:0,completed:false,updatedAt:0};if(path==='/api/progress'){lessons[body.lesson]={...previous,step:body.step,updatedAt:Date.now()};}else if(path==='/api/complete'){const answer=QUESTIONS[body.lesson].options[body.answer]?.[2];if(!answer)throw new Error('Check the exercise before completing this level.');lessons[body.lesson]={...previous,step:2,completed:true,updatedAt:Date.now()};}try{window.localStorage?.setItem('first-in-class-progress',JSON.stringify(Object.values(lessons)));}catch{}}return {lessons:Object.values(lessons)};}
-async function request(path,body){if(localFile())return localRequest(path,body);const response=await fetch(path,{method:body?'POST':'GET',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});let data;try{data=await response.json();}catch{throw new Error('Progress could not be reached. Your lesson is still available.');}if(!response.ok)throw new Error(data.error||'Progress could not be saved.');return data;}
-function applyProgress(data){state.progress=Object.fromEntries((data.lessons||[]).filter(x=>ids.includes(x.lesson)).map(x=>[x.lesson,x]));}
-async function loadProgress(){state.loading=true;try{applyProgress(await request('/api/progress'));state.saveStatus='Progress saved to your account';state.saveError=false;}catch(e){state.saveStatus=e.message;state.saveError=true;}state.loading=false;render(false);}
+const PROGRESS_KEY='first-in-class-progress';
+function progressStorage(){
+ try{const storage=window.localStorage;if(storage)return storage;}catch{}
+ throw new Error('Browser storage is unavailable. Progress cannot be saved in this browser.');
+}
+function localLessons(){
+ let raw;
+ try{raw=progressStorage().getItem(PROGRESS_KEY);}catch{throw new Error('Browser storage is unavailable. Progress cannot be loaded or saved.');}
+ if(raw===null)return [];
+ try{
+  const lessons=JSON.parse(raw);
+  if(!Array.isArray(lessons)||lessons.some(x=>!x||typeof x.lesson!=='string'))throw new Error();
+  return lessons;
+ }catch{throw new Error('Saved progress could not be read. It has been kept unchanged. Reset progress to start over.');}
+}
+function localRequest(path,body){
+ const lessons=Object.fromEntries(localLessons().map(x=>[x.lesson,x]));
+ if(body){
+  const previous=lessons[body.lesson]||{lesson:body.lesson,step:0,completed:false,updatedAt:0};
+  if(path==='/api/progress')lessons[body.lesson]={...previous,step:body.step,updatedAt:Date.now()};
+  else if(path==='/api/complete'){
+   if(!QUESTIONS[body.lesson].options[body.answer]?.[2])throw new Error('Check the exercise before completing this level.');
+   lessons[body.lesson]={...previous,step:2,completed:true,updatedAt:Date.now()};
+  }
+  try{progressStorage().setItem(PROGRESS_KEY,JSON.stringify(Object.values(lessons)));}
+  catch{throw new Error('Progress could not be saved in this browser. Check browser storage settings or available space, then try again.');}
+ }
+ return {lessons:Object.values(lessons)};
+}
+// This static guide uses browser storage on both hosted URLs and local files.
+async function request(path,body){return localRequest(path,body);}
+function applyProgress(data){state.progress=Object.fromEntries((data.lessons||[]).filter(x=>allIds.includes(x.lesson)).map(x=>[x.lesson,x]));}
+async function loadProgress(){state.loading=true;try{applyProgress(await request('/api/progress'));state.saveStatus='Progress saved in this browser';state.saveError=false;}catch(e){state.saveStatus=e.message;state.saveError=true;}state.loading=false;render(false);}
 function updateSaveLabel(){const el=$('#save-status');if(el){el.textContent=state.saveStatus;el.classList.toggle('error',state.saveError);}}
-function queueStepSave(id,step){state.saveStatus='Saving your place…';state.saveError=false;updateSaveLabel();saveQueue=saveQueue.then(async()=>{try{const data=await request('/api/progress',{lesson:id,step});applyProgress(data);state.saveStatus='Progress saved to your account';state.saveError=false;}catch(e){state.saveStatus=e.message;state.saveError=true;}updateSaveLabel();});return saveQueue;}
+function queueStepSave(id,step){state.saveStatus='Saving your place…';state.saveError=false;updateSaveLabel();saveQueue=saveQueue.then(async()=>{try{const data=await request('/api/progress',{lesson:id,step});applyProgress(data);state.saveStatus='Progress saved in this browser';state.saveError=false;}catch(e){state.saveStatus=e.message;state.saveError=true;}updateSaveLabel();});return saveQueue;}
 function resumeId(){return LEVELS.filter(l=>state.progress[l.id]&&!done(l.id)).sort((a,b)=>(state.progress[b.id].updatedAt||0)-(state.progress[a.id].updatedAt||0))[0]?.id||ids.find(id=>!done(id))||ids[0];}
 function overview(){
- const current=resumeId(),completed=countDone(),started=Boolean(state.progress[current]),allDone=completed===ids.length;
- return `<section class="course-intro"><button class="text-button" data-action="portal">← Learning paths</button><h1>Small Molecule</h1><p>Start with the purpose of an IND, then follow the path from discovery to human testing.</p></section>
- <section class="level-map" aria-label="Small Molecule level selection">
- <div class="map-titlebar"><span>Your learning map</span><div class="map-progress-actions"><span class="map-count">${completed} / ${ids.length} completed</span><button class="map-reset" data-action="reset-progress" ${state.loading?'disabled':''}>Reset learning progress</button></div></div>
- <div class="map-toolbar"><p>${allDone?'All introductory levels completed.':started?'Pick up where you left off.':'Begin with the purpose of an IND, or choose a topic.'}</p><button class="map-resume" data-level="${current}">${allDone?'Review':started?'Continue':'Start learning'} <span aria-hidden="true">→</span></button></div>
- <div class="map-categories">${CATEGORIES.map(c=>{
- const group=LEVELS.filter(l=>l.category===c.id),groupCompleted=group.filter(l=>done(l.id)).length;
- return `<section class="map-category" aria-labelledby="category-${c.id}"><div class="map-category-heading"><h2 id="category-${c.id}">${escapeHtml(c.title)}</h2><span class="category-count">${groupCompleted} / ${group.length} completed</span></div><p class="category-description">${escapeHtml(c.description)}</p><div class="topic-grid">${group.map(l=>{
- const complete=done(l.id),partial=Boolean(state.progress[l.id])&&!complete,recommended=l.id===current&&!allDone;
- const status=complete?'Completed':partial?'In progress':recommended?'Start here':'Not started';
- return `<button class="topic-card ${complete?'complete':''} ${partial?'in-progress':''} ${recommended?'recommended':''}" data-level="${l.id}" aria-label="${escapeHtml(l.title)} — ${status}"><span class="topic-title">${escapeHtml(l.title)}</span><span class="topic-card-footer"><span class="topic-status"><span class="topic-status-icon" aria-hidden="true">${complete?'✓':partial?'◐':recommended?'→':'○'}</span>${status}</span><span class="topic-open" aria-hidden="true">↗</span></span></button>`;
- }).join('')}</div></section>`;
- }).join('')}</div>
- <div class="map-legend"><span>All topics are open. Follow the path or explore what you need.</span></div></section>
- <div class="map-footnote"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${state.loading?'Loading saved progress…':escapeHtml(state.saveStatus)}</p>${state.saveError?button('Retry progress sync','retry','quiet'):''}<p>${ids.length} introductory lessons across ${CATEGORIES.length} sections. The order guides learning.</p></div>`;
+ const current=resumeId(),completed=countDone(),allDone=completed===ids.length,started=Boolean(state.progress[current]);
+ return `<section class="course-intro"><button class="text-button" data-action="portal">← Learning paths</button><h1>Small Molecule</h1><p>From the purpose of an IND to the first human study.</p></section>
+ <section class="level-map simple-learning-map" aria-label="Small Molecule learning map">
+ <div class="map-titlebar"><div class="map-summary"><span>Your learning map</span><span class="map-count">${completed} / ${ids.length} completed</span></div><button class="map-resume" data-level="${current}">${allDone?'Review':started?'Continue':'Begin'} <span aria-hidden="true">→</span></button></div>
+ <div class="map-categories">${learningMapSections(current,allDone)}</div>
+ <div class="map-bottom"><span>Choose any topic. Your progress is saved as you learn.</span><button class="map-reset" data-action="reset-progress" ${state.loading?'disabled':''}>Reset learning progress</button></div></section>
+ <div class="map-footnote"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${state.loading?'Loading saved progress…':escapeHtml(state.saveStatus)}</p>${state.saveError?button('Retry loading progress','retry','quiet'):''}</div>`;
 }
+function learningMapCard(l,current,allDone){
+ const complete=done(l.id),partial=Boolean(state.progress[l.id])&&!complete,recommended=l.id===current&&!allDone,status=complete?'Completed':partial?'In progress':recommended?'Up next':'Not started';
+ return '<button class="topic-card '+(complete?'complete':'')+' '+(partial?'in-progress':'')+' '+(recommended?'recommended':'')+'" data-level="'+l.id+'" aria-label="'+escapeHtml(l.title)+' — '+status+'"><span class="topic-title">'+escapeHtml(l.title)+'</span><span class="topic-card-footer"><span class="topic-status"><span class="topic-status-icon" aria-hidden="true">'+(complete?'✓':partial?'◐':recommended?'→':'○')+'</span>'+status+'</span><span class="topic-open" aria-hidden="true">↗</span></span></button>';
+}
+function learningMapSections(current,allDone){
+ return CATALOG.parts.map((part,i)=>{
+  const group=LEVELS.filter(l=>part.categories.includes(l.category));
+  return '<section class="map-part" aria-labelledby="part-'+part.id+'"><h2 id="part-'+part.id+'"><span>Part '+(i+1)+':</span> '+escapeHtml(part.title)+'</h2><p class="map-part-description">'+escapeHtml(part.description)+'</p><div class="topic-grid">'+group.map(l=>learningMapCard(l,current,allDone)).join('')+'</div></section>';
+ }).join('');
+}
+
 function confirmProgressReset(){
  if(state.loading||resettingProgress)return;
  modal('LEARNING PROGRESS',`<h2>Reset your learning progress?</h2><p>This clears completed levels and saved lesson positions for this guide in this browser. Your learning map will return to the beginning. This cannot be undone.</p><div class="modal-actions">${button('Keep my progress','cancel-reset','quiet')}<button id="reset-progress-confirm" class="button primary" data-action="confirm-reset">Reset progress</button></div><p id="reset-progress-status" role="status"></p>`);
@@ -8045,8 +9130,8 @@ async function resetLearningProgress(){
   await saveQueue;
   const storage=window.localStorage;
   if(!storage)throw new Error('Browser storage is unavailable.');
-  storage.removeItem('first-in-class-progress');
-  if(storage.getItem('first-in-class-progress')!==null)throw new Error('Saved progress could not be removed.');
+  storage.removeItem(PROGRESS_KEY);
+  if(storage.getItem(PROGRESS_KEY)!==null)throw new Error('Saved progress could not be removed.');
   state.progress={};state.lesson=ids[0];state.step=0;state.selected=null;state.feedback=false;state.saving=false;
   state.saveError=false;state.saveStatus='Learning progress reset. Choose a topic to begin.';
   showOverview();
@@ -8056,7 +9141,50 @@ async function resetLearningProgress(){
   if($('#reset-progress-confirm'))$('#reset-progress-confirm').disabled=false;
  }finally{resettingProgress=false;}
 }
-function understanding(){const l=level();if(l.targetGuide)return targetUnderstanding();if(l.leadGuide)return leadUnderstanding();if(l.hitGuide)return hitUnderstanding();if(l.category==='start'&&l.presentation)return orientationUnderstanding();return `<p class="eyebrow">THE CONCEPT</p><h2>${l.title}</h2><p>${l.concept}</p>${conceptDiagram()}<div class="takeaway"><span>Keep this idea</span><strong>${l.takeaway}</strong></div>`;}
+function understanding(){const l=level();if(l.evidenceGuide)return evidenceUnderstanding();if(l.transitionGuide)return transitionUnderstanding();if(l.targetGuide)return targetUnderstanding();if(l.leadGuide)return leadUnderstanding();if(l.hitGuide)return hitUnderstanding();if(l.category==='start'&&l.presentation)return orientationUnderstanding();return `<p class="eyebrow">THE CONCEPT</p><h2>${l.title}</h2><p>${l.concept}</p>${conceptDiagram()}<div class="takeaway"><span>Keep this idea</span><strong>${l.takeaway}</strong></div>`;}
+function evidenceUnderstanding(){
+ const l=level(),g=l.evidenceGuide,index=Number.isInteger(state.evidenceStep)&&g.steps[state.evidenceStep]?state.evidenceStep:0;
+ return '<div class="development-evidence"><p class="evidence-intro">'+escapeHtml(l.concept)+'</p><nav class="evidence-flow" aria-label="Explore the evidence questions">'+g.steps.map((step,i)=>'<button data-evidence-step="'+i+'" aria-pressed="'+(i===index)+'" aria-controls="evidence-step-panel"><span>'+(i+1)+'</span><strong>'+escapeHtml(step.label)+'</strong></button>').join('')+'</nav><section id="evidence-step-panel" aria-live="polite">'+evidenceStepPanel(index)+'</section><div class="evidence-keep"><strong>'+escapeHtml(l.takeaway)+'</strong></div><p class="evidence-scope">'+escapeHtml(g.scope)+'</p><details class="evidence-terms"><summary>Useful terms</summary><dl>'+g.terms.map(t=>'<div><dt>'+escapeHtml(t.term)+'</dt><dd>'+escapeHtml(t.definition)+'</dd></div>').join('')+'</dl></details></div>';
+}
+function evidenceStepPanel(index){
+ const g=level().evidenceGuide,t=g.steps[index];
+ return '<h3>'+escapeHtml(t.question)+'</h3><div class="evidence-step-columns"><div><span class="evidence-label">Evidence to examine</span><p>'+escapeHtml(t.evidence)+'</p></div><div><span class="evidence-label">Decision it informs</span><p>'+escapeHtml(t.decision)+'</p></div></div><div class="evidence-step-controls">'+(index>0?'<button class="text-button" data-evidence-step="'+(index-1)+'">← Previous question</button>':'<span></span>')+(index<g.steps.length-1?'<button class="text-button" data-evidence-step="'+(index+1)+'">Next question →</button>':'<span>Next: inspect the published example below</span>')+'</div>';
+}
+function selectEvidenceStep(value){
+ if(state.screen!=='lesson'||state.step!==0||!level().evidenceGuide)return;
+ const index=Number(value);if(!Number.isInteger(index)||index<0||index>=level().evidenceGuide.steps.length)return;
+ state.evidenceStep=index;render(false);$('[data-evidence-step="'+index+'"]').focus({preventScroll:true});
+}
+function evidenceCaseVisual(c){
+ if(c.visual?.kind==='duration')return '<figure class="evidence-duration"><div class="duration-scale"><span>0 h</span><span>30 h</span></div><div class="duration-lane"><span>Plasma PK</span><div class="duration-track"><i class="duration-half" aria-hidden="true"></i><strong class="duration-half-label">~3 h half-life</strong></div></div><div class="duration-lane"><span>Tumor PD</span><div class="duration-track"><div class="duration-pd"><strong>Phospho-EGFR still suppressed at 30 h</strong></div></div></div><figcaption>Selected observations from the mouse study. The bands compare times; they do not plot concentrations or prove continuous inhibition between samples.</figcaption></figure>';
+ if(c.visual?.kind==='salt')return '<figure class="evidence-salt"><div><span>SALT MASS</span><strong>95.4 mg</strong><p>osimertinib mesylate</p></div><span class="salt-equals" aria-label="corresponds to">↔</span><div><span>ACTIVE-MOIETY EQUIVALENT</span><strong>80 mg</strong><p>osimertinib</p></div><figcaption>The formulation adds excipients. Neither number is the total tablet mass.</figcaption></figure>';
+ return '';
+}
+function evidenceCase(){
+ const l=level(),c=l.evidenceGuide.case,source=l.sources[c.sources[0]],stage=source.url.includes('PharmR')?'IND review excerpt · reproduced in FDA’s 2015 review':source.url.includes('ChemR')?'Later NDA quality evidence · 2015':'Published preclinical evidence · 2014';
+ return '<section class="development-evidence evidence-case"><p class="evidence-provenance">'+escapeHtml(stage)+'</p><h2>'+escapeHtml(c.title)+'</h2><p class="evidence-intro">'+escapeHtml(c.intro)+'</p>'+evidenceCaseVisual(c)+'<div class="evidence-records" role="list">'+c.rows.map(row=>'<article role="listitem"><div class="evidence-record-heading"><h3>'+escapeHtml(row.label)+'</h3><span class="evidence-status evidence-status-'+row.status.toLowerCase()+'">'+escapeHtml(row.status)+'</span></div><p>'+escapeHtml(row.value)+'</p></article>').join('')+'</div><div class="evidence-boundary"><span class="evidence-label">Keep the claim within the evidence</span><p>'+escapeHtml(c.limit)+'</p></div><div class="evidence-case-sources">'+c.sources.map(i=>indSourceLink(l.sources[i])).join('')+'</div></section>';
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-evidence-step]');if(b)selectEvidenceStep(b.dataset.evidenceStep);});
+
+function transitionUnderstanding(){
+ const g=level().transitionGuide,t=g.tabs.find(t=>t.id===state.transitionTab)||g.tabs[0];
+ return '<div class="transition-guide"><nav class="transition-tabs" aria-label="Candidate-to-development topics">'+g.tabs.map((tab,i)=>'<button data-transition-tab="'+tab.id+'" aria-pressed="'+(tab.id===t.id)+'" aria-controls="transition-panel"><span>'+(i+1)+'</span>'+escapeHtml(tab.label)+'</button>').join('')+'</nav><section id="transition-panel" aria-live="polite">'+transitionPanel(t.id)+'</section></div>';
+}
+function transitionPanel(id){
+ const g=level().transitionGuide,t=g[id],i=g.tabs.findIndex(tab=>tab.id===id);
+ let body='';
+ if(id==='nomination')body='<h3>'+escapeHtml(t.title)+'</h3><p>'+escapeHtml(t.intro)+'</p><div class="candidate-transition-flow">'+t.stages.map((stage,j)=>(j?'<div class="candidate-transition-gate"><span>'+escapeHtml(t.bridge)+'</span><b aria-hidden="true">→</b></div>':'')+'<article><span class="candidate-stage-name">'+escapeHtml(stage.title)+'</span><h4>'+escapeHtml(stage.question)+'</h4><p>'+escapeHtml(stage.action)+'</p><div class="candidate-stage-output"><span>Outcome</span><strong>'+escapeHtml(stage.output)+'</strong></div></article>').join('')+'</div><div class="takeaway"><strong>'+escapeHtml(t.keep)+'</strong></div><p class="transition-note">'+escapeHtml(t.note)+'</p>';
+ if(id==='questions')body='<h3>'+escapeHtml(t.title)+'</h3><p>'+escapeHtml(t.intro)+'</p><div class="candidate-evidence-table" role="region" tabindex="0" aria-label="Evidence carried forward and remaining development questions"><table><thead><tr><th scope="col">Area</th>'+t.columns.map(c=>'<th scope="col">'+escapeHtml(c)+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(row=>'<tr><th scope="row">'+escapeHtml(row.area)+'</th><td>'+escapeHtml(row.before)+'</td><td>'+escapeHtml(row.after)+'</td></tr>').join('')+'</tbody></table></div><div class="takeaway"><strong>'+escapeHtml(t.keep)+'</strong></div><p class="transition-note">'+escapeHtml(t.note)+'</p>';
+ if(id==='plan')body='<h3>'+escapeHtml(t.title)+'</h3><p>'+escapeHtml(t.intro)+'</p><figure class="transition-workstreams"><div class="transition-study"><strong>Proposed human study</strong><span>Participants · route · duration · schedule</span></div><div class="transition-streams">'+t.streams.map(stream=>'<article><h4>'+escapeHtml(stream.title)+'</h4><p>'+escapeHtml(stream.text)+'</p><button class="text-button" data-level="'+stream.lesson+'">'+escapeHtml(stream.link)+' →</button></article>').join('')+'</div><figcaption>'+escapeHtml(t.note)+'</figcaption></figure><div class="takeaway"><strong>'+escapeHtml(t.keep)+'</strong></div>';
+ const controls='<div class="hit-stage-controls">'+(i?'<button class="text-button" data-transition-tab="'+g.tabs[i-1].id+'">← Previous topic</button>':'<span></span>')+'<span>'+(i+1)+' / '+g.tabs.length+'</span>'+(i<g.tabs.length-1?'<button class="text-button" data-transition-tab="'+g.tabs[i+1].id+'">'+escapeHtml(g.tabs[i+1].label)+' →</button>':'<span>Next: See an example</span>')+'</div>';
+ return body+'<details class="hit-reading"><summary>Sources for these principles</summary><ul>'+g.sources.map(source=>'<li>'+indSourceLink(source)+'</li>').join('')+'</ul></details>'+controls;
+}
+function selectTransitionTab(id){
+ if(state.screen!=='lesson'||state.step!==0||!level().transitionGuide?.tabs.some(t=>t.id===id))return;
+ state.transitionTab=id;render(false);$('[data-transition-tab="'+id+'"]').focus({preventScroll:true});
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-transition-tab]');if(b)selectTransitionTab(b.dataset.transitionTab);});
+
 function leadUnderstanding(){
  const l=level(),topics=l.leadGuide.topics,current=topics.find(t=>t.id===state.leadTopic)||topics[0];
  return '<p class="eyebrow">THE CONCEPT</p><h2>'+escapeHtml(l.title)+'</h2><p class="target-objective">'+escapeHtml(l.leadGuide.objective)+'</p><div class="hit-stage-nav lead-topic-nav'+(l.leadGuide.strategicOverview?' strategy-topic-nav':'')+'" role="group" aria-label="'+escapeHtml(l.leadGuide.navigationLabel||'Hit-to-lead learning topics')+'">'+topics.map((t,i)=>'<button data-lead-topic="'+t.id+'" aria-pressed="'+(t.id===current.id)+'" aria-controls="lead-topic-panel"><span>'+(i+1)+'</span> '+escapeHtml(t.label)+'</button>').join('')+'</div><section id="lead-topic-panel" aria-live="polite">'+leadTopicContent(current)+'</section>';
@@ -8660,7 +9788,7 @@ function orientationUnderstanding(){
 }
 function boxes(items){return `<div class="concept-diagram">${items.map((x,i)=>`${i?'<b aria-hidden="true">→</b>':''}<div><small>${x[0]}</small><strong>${x[1]}</strong></div>`).join('')}</div>`;}
 function conceptDiagram(){const l=level();return (l.diagramTitle?`<h3>${escapeHtml(l.diagramTitle)}</h3>`:'')+boxes(l.diagram)+(l.diagramSource?`<p class="fine-print"><a href="${escapeHtml(l.diagramSource.url)}" data-new-tab target="_blank" rel="noopener noreferrer">${escapeHtml(l.diagramSource.label)} ↗</a></p>`:'');}
-function example(){const l=level();return `<p class="eyebrow">WORKED EXAMPLE · ${escapeHtml(l.exampleLabel||'INVENTED')}</p><h2>${l.exampleTitle}</h2><p>${l.example}</p>${l.hitExample?hitExampleView():l.pi3kExample?pi3kExampleView():l.presentation==='approval'?indFailureExamples():state.lesson==='model'?modelExample():state.lesson==='exposure'?exposureExample():simpleExample()}${l.pi3kExample||l.hitExample?'':`<div class="worked-answer"><span>How to reason through it</span><p>${l.worked}</p></div>`}`;}
+function example(){const l=level();if(l.evidenceGuide)return evidenceCase();return `<p class="eyebrow">WORKED EXAMPLE · ${escapeHtml(l.exampleLabel||'INVENTED')}</p><h2>${l.exampleTitle}</h2><p>${l.example}</p>${l.hitExample?hitExampleView():l.pi3kExample?pi3kExampleView():l.presentation==='approval'?indFailureExamples():state.lesson==='model'?modelExample():state.lesson==='exposure'?exposureExample():simpleExample()}${l.pi3kExample||l.hitExample?'':`<div class="worked-answer"><span>How to reason through it</span><p>${l.worked}</p></div>`}`;}
 function evidenceExample(){const s=STREAMS.find(x=>x.id===state.stream);return `<div class="example-board"><div class="evidence-tabs" aria-label="Explore an IND workstream">${STREAMS.map(x=>`<button data-stream="${x.id}" aria-pressed="${x.id===s.id}" class="${x.id===s.id?'active':''}">${x.name}</button>`).join('')}</div><div class="evidence-detail" aria-live="polite"><h3>${s.title}</h3><p>${s.text}</p></div></div>`;}
 function modelExample(){return `<div class="example-board"><div class="model-pair"><div><span>Human tumor</span><strong>Pathway suppressed</strong><p>Growth slows</p></div><div class="${state.modelEngaged?'engaged':''}"><span>Mouse intestine</span><strong>${state.modelEngaged?'Pathway suppressed':'Pathway remains active'}</strong><p>No injury detected</p></div></div><label class="toggle"><input type="checkbox" id="model-engaged" ${state.modelEngaged?'checked':''}><span>What if the mouse intestinal pathway were also suppressed?</span></label><p class="model-result" aria-live="polite">${state.modelEngaged?'Holding the injury observation constant, the negative finding becomes more informative. Human risk still depends on exposure, duration, assessments, and biological differences.':'The mouse intestine did not experience the relevant pathway inhibition. This leaves the human on-target risk unresolved.'}</p></div>`;}
 function exposureMetrics(){const f=state.bioavailability,h=state.halfLife,k=Math.log(2)/h;return {initial:100*f,auc:100*f/k,residual:100*f*Math.exp(-k*24)};}
@@ -8669,31 +9797,30 @@ function exposureExample(){const m=exposureMetrics();return `<div class="example
 function simpleExample(){return `<div class="worked-steps">${level().exampleSteps.map((x,i)=>`<div><span>${i+1}</span><p><strong>${x[0]}</strong>${x[1]}</p></div>`).join('')}</div>`;}
 function practice(){const q=QUESTIONS[state.lesson];const selected=Number.isInteger(state.selected)?q.options[state.selected]:null;return `<p class="eyebrow">YOUR TURN</p><h2>${q.title}</h2><p>${q.prompt}</p><fieldset class="choices"><legend class="sr-only">Choose one answer</legend>${q.options.map((o,i)=>`<label class="choice ${state.selected===i?'selected':''}"><input type="radio" name="answer" value="${i}" ${state.selected===i?'checked':''}><span class="choice-letter">${String.fromCharCode(65+i)}</span><span>${o[0]}</span></label>`).join('')}</fieldset><div id="feedback" aria-live="polite">${state.feedback&&selected?`<div class="feedback ${selected[2]?'correct':''}"><strong>${selected[2]?'That conclusion is supported.':'Revisit the reasoning.'}</strong><p>${selected[1]}</p></div>`:''}</div><details class="hint"><summary>Show a hint</summary><p>${q.hint||'Separate the measured observation from the human or safety conclusion. Which extra assumption would that conclusion need?'}</p></details>`;}
 function lessonView(){
- const l=level(),group=LEVELS.filter(x=>x.category===l.category),n=group.indexOf(l)+1,category=CATEGORIES.find(c=>c.id===l.category).title;
+ const l=level(),group=ids.includes(l.id)?LEVELS.filter(x=>x.category===l.category):[l],n=group.indexOf(l)+1,category=CATEGORIES.find(c=>c.id===l.category).title;
  const correct=state.feedback&&QUESTIONS[l.id].options[state.selected]?.[2];
  const labels=['Understand',l.presentation==='approval'?'See examples':'See an example','Try it'];
  let content=state.step===0?understanding():state.step===1?example():practice();
  content=content.replace('<p class="eyebrow">THE CONCEPT</p>','');
  if(state.step===0)content=content.replace('<h2>'+escapeHtml(l.title)+'</h2>','').replace('<h2>'+l.title+'</h2>','');
  return `<header class="lesson-header"><div class="lesson-heading"><button class="lesson-map-back" data-action="overview" aria-label="Back to all levels" title="All levels">←</button><h1>${escapeHtml(l.title)}</h1></div><div class="lesson-header-tools"><span class="lesson-position" title="${escapeHtml(category)}" aria-label="${escapeHtml(category)}, lesson ${n} of ${group.length}">${n} / ${group.length}${done(l.id)?' · ✓':''}</span><button class="text-button lesson-goal" data-action="goal">Goal</button></div></header><nav class="lesson-step-nav" aria-label="Lesson steps">${labels.map((label,i)=>`<button type="button" data-lesson-step="${i}" ${state.step===i?'aria-current="step"':''}>${label}</button>`).join('')}</nav><section class="lesson-card">${content}</section><div class="lesson-controls">${state.step?button('← Back','back','quiet'):'<span></span>'}${state.step<2?button(state.step===0?(l.presentation==='approval'?'See examples →':'See an example →'):'Your turn →','next'):correct?`<button class="button primary" data-action="complete" ${state.saving?'disabled':''}>${state.saving?'Saving…':'Complete level ✓'}</button>`:`<button class="button primary" data-action="check" ${state.selected===null?'disabled':''}>Check my answer</button>`}</div><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${escapeHtml(state.saveStatus)}</p><details class="extra-help"><summary>Sources & optional tools</summary><div class="extra-links">${button('Sources for this level','sources','quiet')}${button('Use with AI','ai','quiet')}${state.lesson==='model'?button('Visual recap','clip','quiet')+button('Design an experiment','experiment','quiet'):''}${state.lesson==='review'?button('Inside the submission','dossier','quiet'):''}</div></details>`;}
-function completionView(){const l=level(),index=ids.indexOf(l.id),next=ids[index+1];return `<section class="completion"><span class="completion-mark" aria-hidden="true">✓</span><p class="eyebrow">LEVEL ${LEVELS.filter(x=>x.category===l.category).indexOf(l)+1} COMPLETE</p><h1>${l.title}</h1><p>${l.takeaway}</p><span class="completion-count">${countDone()} of ${ids.length} levels completed</span><div class="completion-actions">${next?`<button class="button primary" data-level="${next}">Next: ${LEVELS[index+1].title} →</button>`:button('Return to all levels','overview')}<button class="text-button" data-action="overview">See your progress</button></div></section>`;}
+function completionView(){const l=level(),index=ids.indexOf(l.id),next=index>=0?ids[index+1]:null;return `<section class="completion"><span class="completion-mark" aria-hidden="true">✓</span><p class="eyebrow">LEVEL ${ids.includes(l.id)?LEVELS.filter(x=>x.category===l.category).indexOf(l)+1:1} COMPLETE</p><h1>${l.title}</h1><p>${l.takeaway}</p><span class="completion-count">${countDone()} of ${ids.length} levels completed</span><div class="completion-actions">${next?`<button class="button primary" data-level="${next}">Next: ${LEVELS[index+1].title} →</button>`:button('Return to all levels','overview')}<button class="text-button" data-action="overview">See your progress</button></div></section>`;}
 function portal(){return `<section class="portal"><p class="eyebrow portal-kicker">DISCOVERY → DEVELOPMENT → INVESTIGATIONAL NEW DRUG (IND)</p><h1>Choose your learning path.</h1><p class="portal-lede">From the first biological question to a proposed human study.</p><div class="portal-paths"><button class="path-card available" data-action="overview"><div class="path-card-heading"><div><h2>Small Molecule</h2><p>Target identification, discovery, development, and the Investigational New Drug (IND) application.</p></div><div class="molecule-lockup" aria-label="Small molecule structure"><img src="assets/small-molecule.png" alt="Small molecule structure"></div></div></button><div class="path-card unavailable" aria-label="Biologics, under construction"><h2>Biologics</h2><p class="construction">Under construction</p><span>Antibodies, proteins, vaccines, and other biological therapies.</span></div></div></section>`;}
 function showPortal(){stopClip();if($('#modal').open)$('#modal').close();state.screen='portal';navigateHash('#portal');render();return readState();}
-function render(focus=true){document.body.classList.toggle('is-ind-intro',state.screen==='lesson'&&level().category==='start'&&(state.step===0||(level().presentation==='approval'&&state.step===1)));document.body.classList.toggle('is-target-lesson',state.screen==='lesson'&&Boolean(level().targetGuide)&&state.step<=1);document.body.classList.toggle('is-target-understand',state.screen==='lesson'&&Boolean(level().targetGuide)&&state.step===0);document.body.classList.toggle('is-hit-lesson',state.screen==='lesson'&&Boolean(level().hitGuide||level().leadGuide)&&state.step<=1);document.body.classList.toggle('is-overview',state.screen==='overview');document.body.classList.toggle('is-portal',state.screen==='portal');$('#lesson').innerHTML=state.screen==='portal'?portal():state.screen==='overview'?overview():state.screen==='complete'?completionView():lessonView();document.title=(state.screen==='portal'?'Choose a learning path':state.screen==='overview'?'Small Molecule':level().title)+' · First-In-Class.ai';if(focus){$('#lesson').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}}
+function render(focus=true){document.body.classList.toggle('is-ind-intro',state.screen==='lesson'&&level().category==='start'&&(state.step===0||(level().presentation==='approval'&&state.step===1)));document.body.classList.toggle('is-target-lesson',state.screen==='lesson'&&Boolean(level().targetGuide)&&state.step<=1);document.body.classList.toggle('is-target-understand',state.screen==='lesson'&&Boolean(level().targetGuide)&&state.step===0);document.body.classList.toggle('is-hit-lesson',state.screen==='lesson'&&Boolean(level().hitGuide||level().leadGuide||level().transitionGuide||level().evidenceGuide)&&state.step<=1);document.body.classList.toggle('is-overview',state.screen==='overview');document.body.classList.toggle('is-portal',state.screen==='portal');$('#lesson').innerHTML=state.screen==='portal'?portal():state.screen==='overview'?overview():state.screen==='complete'?completionView():lessonView();document.title=(state.screen==='portal'?'Choose a learning path':state.screen==='overview'?'Small Molecule':level().title)+' · First-In-Class.ai';if(focus){$('#lesson').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}}
 function showOverview(){stopClip();if($('#modal').open)$('#modal').close();state.screen='overview';navigateHash('#small-molecule');render();return readState();}
-function startLevel(id,step){if(!ids.includes(id))throw new Error('Unknown level');if(step!==undefined&&(!Number.isInteger(step)||step<0||step>2))throw new Error('Step must be 0, 1, or 2');stopClip();if($('#modal').open)$('#modal').close();if(state.lesson!==id){state.leadTopic=undefined;state.leadTier=undefined;state.hitStage=undefined;state.hitProgram=undefined;state.vertexMapNode=undefined;state.vertexExampleTab=undefined;}state.lesson=id;state.step=step??(done(id)?0:state.progress[id]?.step??0);state.selected=null;state.feedback=false;state.screen='lesson';navigateHash(`#small-molecule/${id}/${state.step}`);render();queueStepSave(id,state.step);return readState();}
+function startLevel(id,step){if(!allIds.includes(id))throw new Error('Unknown level');if(step!==undefined&&(!Number.isInteger(step)||step<0||step>2))throw new Error('Step must be 0, 1, or 2');stopClip();if($('#modal').open)$('#modal').close();if(state.lesson!==id){state.evidenceStep=undefined;state.transitionTab=undefined;state.leadTopic=undefined;state.leadTier=undefined;state.hitStage=undefined;state.hitProgram=undefined;state.vertexMapNode=undefined;state.vertexExampleTab=undefined;}state.lesson=id;state.step=step??(done(id)?0:state.progress[id]?.step??0);state.selected=null;state.feedback=false;state.screen='lesson';navigateHash(`#small-molecule/${id}/${state.step}`);render();queueStepSave(id,state.step);return readState();}
 function moveStep(delta){if(state.screen!=='lesson'||![-1,1].includes(delta))return;state.step=Math.min(2,Math.max(0,state.step+delta));state.selected=null;state.feedback=false;navigateHash(`#small-molecule/${state.lesson}/${state.step}`,true);render();queueStepSave(state.lesson,state.step);}
 function checkAnswer(){if(state.selected===null)return;state.feedback=true;render(false);announce(QUESTIONS[state.lesson].options[state.selected][1]);$('#feedback').scrollIntoView({block:'nearest',behavior:'smooth'});}
-async function completeLevel(){if(state.saving||state.screen!=='lesson'||state.step!==2||!state.feedback||!QUESTIONS[state.lesson].options[state.selected]?.[2])return;const lesson=state.lesson,answer=state.selected;state.saving=true;render(false);saveQueue=saveQueue.then(async()=>{try{applyProgress(await request('/api/complete',{lesson,answer}));state.saveStatus='Progress saved to your account';state.saveError=false;if(state.screen==='lesson'&&state.lesson===lesson&&state.step===2){state.screen='complete';announce('Level completed and progress saved.');}}catch(e){state.saveStatus=e.message;state.saveError=true;}state.saving=false;render();});return saveQueue;}
+async function completeLevel(){if(state.saving||state.screen!=='lesson'||state.step!==2||!state.feedback||!QUESTIONS[state.lesson].options[state.selected]?.[2])return;const lesson=state.lesson,answer=state.selected;state.saving=true;render(false);saveQueue=saveQueue.then(async()=>{try{applyProgress(await request('/api/complete',{lesson,answer}));state.saveStatus='Progress saved in this browser';state.saveError=false;if(state.screen==='lesson'&&state.lesson===lesson&&state.step===2){state.screen='complete';announce('Level completed and progress saved.');}}catch(e){state.saveStatus=e.message;state.saveError=true;}state.saving=false;render();});return saveQueue;}
 function updateExposure(){if(!$('#exposure-chart'))return;const m=exposureMetrics();$('#exposure-chart').innerHTML=exposureChart();$('#f-value').textContent=Math.round(state.bioavailability*100)+'%';$('#h-value').textContent=state.halfLife+' h';$('#exposure-metrics').innerHTML=`<span>Initial concentration <strong>${m.initial.toFixed(0)} units</strong></span><span>Total exposure (AUC₀–∞) <strong>${m.auc.toFixed(0)} unit·h</strong></span>`;}
 function setExposure(f,h){if(typeof f!=='number'||!Number.isFinite(f)||f<.1||f>1||Math.abs(f*20-Math.round(f*20))>1e-8)throw new Error('Bioavailability must be 0.10–1.00 in 0.05 increments');if(!Number.isInteger(h)||h<1||h>12)throw new Error('Half-life must be 1–12 hours');state.bioavailability=f;state.halfLife=h;if($('#bioavailability')){$('#bioavailability').value=f*100;$('#half-life').value=h;updateExposure();}return readState();}
 function setModel(value){if(typeof value!=='boolean')throw new Error('engaged must be a boolean');state.modelEngaged=value;if(state.lesson==='model'&&state.step===1)render(false);return readState();}
 function modal(kicker,html){stopClip();$('#modal').classList.remove?.('welcome-dialog');$('#modal-kicker').textContent=kicker;$('#modal-body').innerHTML=html;const title=$('#modal-body h2');if(title)title.id='dialog-title';if(!$('#modal').open)$('#modal').showModal();$('#modal').scrollTop=0;}
 let welcomeOffered=false;
-function welcomeSeen(){if(localFile())return false;try{return window.sessionStorage?.getItem('first-in-class-welcome')==='1';}catch{return false;}}
-function welcome(){if(welcomeOffered||welcomeSeen())return;welcomeOffered=true;modal('FIRST-IN-CLASS.AI',`<div class="welcome-copy"><h2>Welcome to Learn the IND-Enabling Process.</h2><p>This interactive learning guide is designed for early R&amp;D scientists across drug discovery disciplines. Learn how a development candidate becomes a clinical-stage drug through the evidence and decisions that support an Investigational New Drug (IND) application.</p><p>The learning flow takes inspiration from <a href="https://learngitbranching.js.org/" data-new-tab aria-label="Learn Git Branching (opens in a new tab)" target="_blank" rel="noopener noreferrer">Learn Git Branching</a> <a class="github-link" href="https://github.com/pcottle/learnGitBranching" data-new-tab aria-label="Learn Git Branching on GitHub (opens in a new tab)" title="View on GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></a>.</p><p>Start with the Small Molecule path. Each level gives you one concept, one worked example, and one short decision exercise. Your progress is saved as you learn.</p><p class="welcome-scope">The sequence is a learning map, not a universal regulatory checklist.</p><button class="welcome-enter" data-action="dismiss-welcome" aria-label="Start learning">✓</button></div>`);$('#modal').classList.add?.('welcome-dialog');}
-function dismissWelcome(){try{window.sessionStorage?.setItem('first-in-class-welcome','1');}catch{}if($('#modal').open)$('#modal').close();}
-function sources(){modal('SOURCES & ASSUMPTIONS',`<h2>${level().title}</h2><ul class="source-list">${level().sources.map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.label} ↗</a></li>`).join('')}</ul><p>US FDA pathway. Source check: 14 September 2026. Regulations set requirements; guidance explains agency thinking within its stated context.</p><p>Examples labeled invented are teaching scenarios. Documented cases link to their sources. Illustrative model values do not predict human outcomes or define universal study requirements.</p>`);}
+function welcome(){if(welcomeOffered)return;welcomeOffered=true;modal('FIRST-IN-CLASS.AI',`<div class="welcome-copy"><h2>Welcome to Learn the IND-Enabling Process.</h2><p>This interactive learning guide is designed for early R&amp;D scientists across drug discovery disciplines. Learn how a development candidate becomes a clinical-stage drug through the evidence and decisions that support an Investigational New Drug (IND) application.</p><p>The learning flow takes inspiration from <a href="https://learngitbranching.js.org/" data-new-tab aria-label="Learn Git Branching (opens in a new tab)" target="_blank" rel="noopener noreferrer">Learn Git Branching</a> <a class="github-link" href="https://github.com/pcottle/learnGitBranching" data-new-tab aria-label="Learn Git Branching on GitHub (opens in a new tab)" title="View on GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></a>.</p><p>Start with the Small Molecule path. Each level gives you one concept, one worked example, and one short decision exercise. Your progress is saved as you learn.</p><p class="welcome-scope">The sequence is a learning map, not a universal regulatory checklist.</p><button class="welcome-enter" data-action="dismiss-welcome" aria-label="Start learning">✓</button></div>`);$('#modal').classList.add?.('welcome-dialog');}
+function dismissWelcome(){if($('#modal').open)$('#modal').close();}
+function sources(){modal('SOURCES & ASSUMPTIONS',`<h2>${level().title}</h2><ul class="source-list">${level().sources.map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.label} ↗</a></li>`).join('')}</ul><p>US FDA pathway. Source check: ${escapeHtml(level().sourceChecked||'14 September 2026')}. Regulations set requirements; guidance explains agency thinking within its stated context.</p><p>Examples labeled invented are teaching scenarios. Documented cases link to their sources. Illustrative model values do not predict human outcomes or define universal study requirements.</p>`);}
 function about(){modal('ABOUT THIS GUIDE',"<h2 class=\"sr-only\">About this guide</h2><p>This interactive learning guide is designed for early R&amp;D scientists across drug discovery disciplines. Learn how a development candidate becomes a clinical-stage drug through the evidence and decisions that support an Investigational New Drug (IND) application.</p><p>The learning flow takes inspiration from <a href=\"https://learngitbranching.js.org/\" data-new-tab aria-label=\"Learn Git Branching (opens in a new tab)\" target=\"_blank\" rel=\"noopener noreferrer\">Learn Git Branching</a> <a class=\"github-link\" href=\"https://github.com/pcottle/learnGitBranching\" data-new-tab aria-label=\"Learn Git Branching on GitHub (opens in a new tab)\" title=\"View on GitHub\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 16 16\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\" fill=\"currentColor\"><path d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z\"/></svg></a>.</p><p>Start with the Small Molecule path. Each level gives you one concept, one worked example, and one short decision exercise. Your progress is saved as you learn.</p><p class=\"welcome-scope\">The sequence is a learning map, not a universal regulatory checklist.</p><h3>Author’s note</h3><p>My background is in mechanistic biology and functional genomics and early drug discovery. I have not yet worked directly on an IND application. I am developing this guide as I deepen my understanding of drug development, and will revise and expand it as I gain experience, review new evidence, and receive feedback from practitioners.</p>");}
 function curriculum(){modal('THE LONGER LEARNING PATH','<h2>Build the foundation, then go deeper.</h2><p>The '+ids.length+' levels cover selected introductory concepts. Future lessons will expand the following topics.</p><ol class="source-list">'+COURSE.map(c=>`<li><strong>${c[0]}</strong><br>${c[1]}</li>`).join('')+'</ol>');}
 function dossier(){modal('OPTIONAL REFERENCE','<h2>Where the evidence goes.</h2><p>The electronic common technical document (eCTD) organizes material into five modules.</p><ol><li>Regional administrative material, including the US investigator’s brochure.</li><li>Summaries.</li><li>Quality / CMC.</li><li>Nonclinical study reports.</li><li>Clinical material, including protocols.</li></ol><p>An initial IND need not populate every later-stage section. Technical file acceptance is distinct from scientific review.</p><a href="'+SOURCES[8].url+'" target="_blank" rel="noopener noreferrer">FDA eCTD reference ↗</a>');}
@@ -8724,7 +9851,7 @@ function applyRoute(){
   const parts=location.hash.slice(1).split('/');
   if(!parts[0]||parts[0]==='portal')showPortal();
   else if(['overview','small-molecule'].includes(parts[0])&&!parts[1])showOverview();
-  else {const id=parts[0]==='small-molecule'?parts[1]:parts[0],raw=parts[0]==='small-molecule'?parts[2]:parts[1],step=raw===undefined?undefined:Number(raw);if(ids.includes(id)&& (step===undefined||(Number.isInteger(step)&&step>=0&&step<=2)))startLevel(id,step);else showPortal();}
+  else {const id=parts[0]==='small-molecule'?parts[1]:parts[0],raw=parts[0]==='small-molecule'?parts[2]:parts[1],step=raw===undefined?undefined:Number(raw);if(allIds.includes(id)&& (step===undefined||(Number.isInteger(step)&&step>=0&&step<=2)))startLevel(id,step);else showPortal();}
  }finally{applyingRoute=false;}
 }
 window.addEventListener('hashchange',applyRoute);

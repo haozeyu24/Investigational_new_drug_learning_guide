@@ -1,20 +1,57 @@
-// Small Molecule learning guide: seven sections of four levels.
+// Small Molecule guide: four connected learning parts.
 const CATALOG = {
+  "parts": [
+    {
+      "id": "purpose",
+      "title": "The purpose of an IND",
+      "description": "Purpose, marketing approval, clinical phases, and the history behind the safeguards.",
+      "categories": [
+        "start"
+      ]
+    },
+    {
+      "id": "discovery",
+      "title": "Can we make a good drug candidate?",
+      "categories": [
+        "discovery"
+      ],
+      "description": "Target identification and validation, hit identification, hit to lead, and lead optimization."
+    },
+    {
+      "id": "development",
+      "title": "Can we build the evidence for human testing?",
+      "categories": [
+        "candidate",
+        "nonclinical",
+        "cmc"
+      ],
+      "description": "Candidate planning, nonclinical evidence, and chemistry, manufacturing & controls."
+    },
+    {
+      "id": "clinical-entry",
+      "title": "Can we begin the first human study?",
+      "categories": [
+        "clinical",
+        "ind"
+      ],
+      "description": "Clinical and regulatory planning, IND submission, and review."
+    }
+  ],
   "categories": [
     {
       "id": "start",
-      "title": "Start here: the purpose of an IND",
+      "title": "The purpose of an IND",
       "description": "Purpose, marketing approval, clinical phases, and the history behind the safeguards."
     },
     {
       "id": "discovery",
-      "title": "Discovery refresher",
+      "title": "Can we make a good drug candidate?",
       "description": "Four short steps from a biological hypothesis to an optimized lead."
     },
     {
       "id": "candidate",
-      "title": "Selecting a development candidate",
-      "description": "Assess the evidence, make the decision, and plan the work toward an IND."
+      "title": "From candidate to development plan",
+      "description": "What nomination means, what remains unresolved, and how the work fits together."
     },
     {
       "id": "nonclinical",
@@ -5238,66 +5275,1498 @@ const CATALOG = {
     {
       "id": "candidate-nomination",
       "category": "candidate",
-      "title": "Development Candidate (DC) Nomination",
-      "goal": "Explain candidate nomination as an internal decision with an evidence rationale and a plan.",
-      "concept": "Candidate nomination is an internal decision to advance a specific molecule into a defined development program. It integrates the available biology, exposure, safety signals, product feasibility, and intended clinical use. The decision should make unresolved questions and the work needed to address them explicit. Nomination does not itself mean that an IND is ready, that FDA has agreed, or that people may receive the drug.",
-      "takeaway": "Nomination selects the molecule and commits to the next evidence-building plan.",
-      "exampleTitle": "A nomination with visible unknowns",
-      "example": "Invented example: a team nominates compound C after reproducible oral exposure, model efficacy, and an initial safety assessment. A 20-gram synthesis is reproducible, but longer stability work and the planned repeat-dose safety studies remain unfinished. The nomination memo records why C was selected, what could overturn the choice, and who owns each next study. The decision authorizes internal development work, not human dosing.",
-      "worked": "A useful nomination record connects the selected molecule to its rationale, unresolved risks, and accountable next steps.",
+      "title": "From candidate to development plan",
+      "goal": "Distinguish lead optimization from candidate development, explain why laboratory work continues, and turn remaining questions into a study-specific development plan.",
+      "concept": "Lead optimization establishes a molecule worth developing. Candidate development builds the evidence and product needed to support a proposed human study.",
+      "takeaway": "A promising molecule is the starting point. Readiness for human testing depends on the evidence for a defined product and proposed study.",
+      "exampleTitle": "Follow one program across different kinds of evidence.",
+      "example": "Osimertinib provides a published oncology case for Part 3. The discovery paper describes biological activity and PK/PD; the public FDA review includes material from the IND review and later NDA assessments. Keep those sources and stages distinct.",
+      "worked": "Use a source for the claim it actually supports. The case illustrates development reasoning; the collection of public documents is not a reconstruction of the full initial IND.",
       "diagram": [
         [
-          "Internal decision",
-          "Advance compound C with a documented rationale"
+          "Selected molecule",
+          "A documented development candidate"
         ],
         [
-          "Separate later decision",
-          "Assess whether the package supports a proposed human study"
+          "Development commitment",
+          "Build evidence for the proposed study"
         ]
       ],
       "exampleSteps": [
         [
-          "Integrate current evidence",
-          "Review activity, exposure, safety signals and product feasibility."
+          "Nonclinical rationale",
+          "Connect mutant-EGFR activity to disease-model responses and exposure."
         ],
         [
-          "Name the gaps",
-          "Record unfinished studies, uncertainty and criteria for reconsideration."
+          "Safety support",
+          "Inspect the study design, organ findings, and quantitative limits of exposure measurements."
         ],
         [
-          "Assign the next work",
-          "Define responsibilities without representing nomination as FDA authorization."
+          "Product quality",
+          "Connect the active ingredient to its formulation, controls, and stability support."
         ]
       ],
       "question": {
-        "title": "What has nomination accomplished?",
-        "prompt": "The team selects compound C while some development studies remain unfinished. What does that decision mean?",
+        "title": "Why does laboratory work continue?",
+        "prompt": "The selected candidate meets the team’s lead-optimization goals. What should determine the next laboratory work?",
         "options": [
           [
-            "FDA has accepted C as sufficiently safe for human dosing.",
-            "No. An internal nomination is not an FDA action and does not satisfy the conditions for clinical investigation.",
+            "Repeat every discovery assay under GLP before planning a study.",
+            "No. Reuse suitable evidence and identify specific gaps. GLP does not apply to every discovery or development experiment.",
             false
           ],
           [
-            "Every uncertainty about the molecule has been resolved.",
-            "No. Development decisions often proceed with explicit remaining questions and plans to address them.",
-            false
-          ],
-          [
-            "The team has chosen a molecule and a justified plan for the next development work.",
-            "Correct. Nomination makes an internal choice and its rationale explicit; clinical readiness is a separate assessment.",
+            "Compare existing evidence with the proposed human study, then address the important gaps.",
+            "Correct. The next work characterizes risks and exposure, controls the material, and supports the proposed study. It builds on the selection evidence.",
             true
+          ],
+          [
+            "Keep making analogs until there are no remaining uncertainties.",
+            "No. Development usually concentrates on the chosen molecule. New findings may justify revisiting the choice, but uncertainty cannot be eliminated before human testing.",
+            false
           ]
         ],
-        "hint": "Separate an internal program milestone from a regulatory status."
+        "hint": "Ask what the current evidence supports—and what the proposed study still requires."
       },
       "sources": [
         {
-          "label": "FDA: candidate development and the IND's purpose",
-          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"
+          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+        },
+        {
+          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+        },
+        {
+          "label": "FDA quality review (2015): drug product summary, printed p. 6 (PDF p. 7)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=7"
+        },
+        {
+          "label": "FDA: the evidence and clinical plan in an IND",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        }
+      ],
+      "transitionGuide": {
+        "tabs": [
+          {
+            "id": "nomination",
+            "label": "Why lab work continues"
+          },
+          {
+            "id": "questions",
+            "label": "What remains to establish"
+          },
+          {
+            "id": "plan",
+            "label": "Plan the work"
+          }
+        ],
+        "nomination": {
+          "title": "The molecule is selected. The question changes.",
+          "intro": "Potency, selectivity, and acceptable PK/PD can justify selecting a candidate. Each finding still has a boundary: the assay, model, exposure, dosing duration, and material tested.",
+          "stages": [
+            {
+              "title": "Lead optimization",
+              "question": "Which molecule should we develop?",
+              "action": "Use SAR and profiling to improve and compare molecules.",
+              "output": "A selected molecule with a promising overall profile."
+            },
+            {
+              "title": "Candidate development",
+              "question": "What can this candidate support in humans?",
+              "action": "Characterize the selected molecule, control its material, and address the risks relevant to the proposed study.",
+              "output": "An evidence package and product that can support the planned clinical investigation."
+            }
+          ],
+          "bridge": "DC nomination",
+          "keep": "Selecting a candidate commits the team to development. It does not establish readiness to dose people.",
+          "note": "The molecule’s structure usually remains fixed while synthesis, formulation, and analytical controls develop. New findings can still require revisiting the candidate. Work often begins before nomination; this is a change in emphasis, not a sharp experimental boundary."
+        },
+        "questions": {
+          "title": "Carry the evidence forward. Resolve what it does not yet answer.",
+          "intro": "The same disciplines remain involved. The depth and purpose of the work change: a result useful for choosing an analog may not answer the questions needed for a human study.",
+          "columns": [
+            "Evidence from lead optimization",
+            "Question for candidate development"
+          ],
+          "rows": [
+            {
+              "area": "Activity & selectivity",
+              "before": "Reproducible activity, selectivity, and efficacy in relevant models.",
+              "after": "How strong is the rationale for the intended patient population? Which on-target and off-target effects could matter at the planned exposures?"
+            },
+            {
+              "area": "Exposure & effect",
+              "before": "PK and PD at selected doses, schedules, and in selected models.",
+              "after": "What supports human dose and schedule selection? Assess species relevance, accumulation, metabolites, and the connection between exposure and effect as needed."
+            },
+            {
+              "area": "Safety",
+              "before": "Early screens and tolerability findings that helped rank candidates.",
+              "after": "Which organs or functions are at risk, at what exposures, and with what reversibility? Design the safety assessment around the proposed clinical study."
+            },
+            {
+              "area": "Drug material",
+              "before": "A workable synthesis and material suitable for discovery experiments.",
+              "after": "Can controlled material be supplied for toxicology and clinical use? Establish appropriate identity, purity, strength, and stability; assess relevant differences between study materials."
+            }
+          ],
+          "keep": "Reuse suitable evidence. Add or confirm studies where a decision-critical gap remains.",
+          "note": "An existing study may already address a question. Its design, material, exposure measurements, and records determine how it can be used. Not every experiment needs repeating or GLP; applicable pivotal safety studies require the appropriate quality standard."
+        },
+        "plan": {
+          "title": "Turn the remaining questions into a development plan.",
+          "intro": "Begin with a proposed study: who will receive the drug, by which route, for how long, and on what schedule? Use that context to prioritize the remaining evidence and coordinate the work.",
+          "streams": [
+            {
+              "title": "Nonclinical evidence",
+              "text": "Select the pharmacology, exposure, and safety work needed to address the study’s remaining risks.",
+              "lesson": "nonclinical-pharmacology",
+              "link": "Explore nonclinical evidence"
+            },
+            {
+              "title": "Drug material · CMC",
+              "text": "Coordinate chemistry, manufacturing, and controls: supply suitable material, characterize it, and support its formulation and storage.",
+              "lesson": "cmc-material",
+              "link": "Explore CMC"
+            },
+            {
+              "title": "Clinical & regulatory planning",
+              "text": "Translate the evidence into dose selection, monitoring, a protocol, and a regulatory strategy.",
+              "lesson": "clinical",
+              "link": "Explore clinical planning"
+            }
+          ],
+          "keep": "For each gap: define the evidence needed → assign an owner and dependencies → set the decision the result will inform.",
+          "note": "Plan these streams together. Material must be ready for studies, and new exposure or safety findings may change the formulation or clinical plan. The initial IND supports the proposed investigation; later studies require further evidence."
+        },
+        "sources": [
+          {
+            "label": "FDA: pharmacology and toxicology evidence for the proposed study",
+            "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+          },
+          {
+            "label": "FDA: phase-appropriate chemistry, manufacturing, and controls",
+            "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+          },
+          {
+            "label": "ICH M3(R2): timing and scope of nonclinical safety studies",
+            "url": "https://www.fda.gov/media/71542/download"
+          }
+        ]
+      },
+      "exampleLabel": "OSIMERTINIB · EVIDENCE PLANNING",
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-pharmacology",
+      "category": "nonclinical",
+      "title": "Connect mechanism to disease benefit",
+      "goal": "Carry a specific, bounded rationale into the development plan.",
+      "concept": "A candidate needs a biological rationale for the intended patients. Connect target modulation to a useful effect in relevant systems, and make the limits of those systems explicit.",
+      "takeaway": "Target modulation, disease-model activity, and human benefit are different claims.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Choose the context",
+            "question": "Does the model represent the intended disease?",
+            "evidence": "Check the target, disease driver, relevant resistance mechanisms, and whether the compound acts on the model’s target.",
+            "decision": "Choose complementary models that address the clinical hypothesis and its main limitations."
+          },
+          {
+            "label": "Test the mechanism",
+            "question": "Did the compound produce the intended biological effect?",
+            "evidence": "Measure target or pathway modulation alongside concentration. Use controls and independent evidence to challenge alternative explanations.",
+            "decision": "Decide whether the observed activity supports the proposed mechanism."
+          },
+          {
+            "label": "Test disease benefit",
+            "question": "Does the biological effect change a relevant disease outcome?",
+            "evidence": "Read disease endpoints with controls, exposure, dose schedule, and variability. A tumor response in one model does not establish a human response.",
+            "decision": "Carry a specific, bounded rationale into the development plan."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: resistance defines the biological question.",
+          "intro": "AZD9291 was developed to inhibit sensitizing EGFR mutants and the T790M resistance mutant with less activity against wild-type EGFR. Read the models in the context of that original development question.",
+          "rows": [
+            {
+              "label": "PC-9 xenografts",
+              "value": "EGFR exon 19 deletion: a sensitizing-mutant model.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "H1975 xenografts",
+              "value": "EGFR L858R/T790M: a resistance-mutant model.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Tumor response",
+              "value": "Regression occurred in both models with oral treatment.",
+              "status": "MEASURED"
+            }
+          ],
+          "limit": "These findings support the rationale in the tested models. They do not establish human efficacy or normal-tissue safety. Wild-type EGFR cancer cells are not a substitute for normal human tissue.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "Pharmacology",
+            "definition": "The drug’s biological actions."
+          },
+          {
+            "term": "Model relevance",
+            "definition": "How well a system addresses the particular disease and intervention question."
+          }
+        ],
+        "scope": "The oncology example illustrates the reasoning. Model selection must follow each program’s target, mechanism, and proposed use."
+      },
+      "question": {
+        "title": "Which claim does the model support?",
+        "prompt": "A resistant-tumor model shows pathway suppression and tumor regression. Which conclusion is defensible?",
+        "options": [
+          [
+            "The drug has demonstrated clinical benefit in resistant lung cancer.",
+            "A nonclinical tumor response does not establish benefit in patients.",
+            false
+          ],
+          [
+            "The findings support the mechanism and activity in that model; translation and safety remain to be assessed.",
+            "Correct. Keep the positive finding and its model boundaries visible.",
+            true
+          ],
+          [
+            "A tumor response makes normal-tissue safety studies unnecessary.",
+            "A tumor model does not provide a complete assessment of potential harm.",
+            false
+          ]
+        ],
+        "hint": "Keep the conclusion at the level of the evidence."
+      },
+      "sources": [
+        {
+          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+        },
+        {
+          "label": "FDA: pharmacology and toxicology supporting the proposed study",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+        },
+        {
+          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-pkpd",
+      "category": "nonclinical",
+      "title": "Connect dose, exposure, and effect",
+      "goal": "Use the relationship to plan informative dosing studies and cautious human predictions.",
+      "concept": "Administered dose starts the experiment. Concentration over time and the resulting biological effect help explain what that dose actually did.",
+      "takeaway": "A short plasma half-life does not automatically mean a short biological effect.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Follow the drug",
+            "question": "What concentrations were achieved, where, and for how long?",
+            "evidence": "Examine PK, unbound fraction where relevant, target-site distribution, active metabolites, and assay reliability. Distinguish measured concentrations from modeled estimates.",
+            "decision": "Identify which exposure measure is informative for this mechanism."
+          },
+          {
+            "label": "Follow the response",
+            "question": "How does the biological effect change over time?",
+            "evidence": "Measure target engagement or pathway response at informative times. Effects can lag behind concentration or persist after plasma levels fall.",
+            "decision": "Check whether the dose schedule produces the intended duration of biological activity."
+          },
+          {
+            "label": "Connect the evidence",
+            "question": "Does exposure explain the desired effect and potential harm?",
+            "evidence": "Compare exposure, PD, disease endpoints, and tolerability. Align species, compartments, assay conditions, and timing before comparing values.",
+            "decision": "Use the relationship to plan informative dosing studies and cautious human predictions."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: concentration and response run on different clocks.",
+          "intro": "The 2014 paper reported an irreversible inhibitor. After a single 5 mg/kg dose in H1975-bearing mice, tumor samples were collected through 30 hours.",
+          "rows": [
+            {
+              "label": "Mouse plasma half-life",
+              "value": "Approximately 3 hours.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Tumor phospho-EGFR",
+              "value": "Suppression was still observed at 30 hours.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Interpretation",
+              "value": "Persistent target inhibition is consistent with irreversible binding.",
+              "status": "INTERPRETATION"
+            }
+          ],
+          "limit": "Downstream markers recovered sooner than phospho-EGFR. These observations do not define a human dose or prove sustained tumor control from every short exposure.",
+          "sources": [
+            0
+          ],
+          "visual": {
+            "kind": "duration"
+          }
+        },
+        "terms": [
+          {
+            "term": "ADME",
+            "definition": "Absorption, distribution, metabolism, and excretion: processes shaping drug disposition."
+          },
+          {
+            "term": "PK",
+            "definition": "Pharmacokinetics: drug concentrations over time."
+          },
+          {
+            "term": "PD",
+            "definition": "Pharmacodynamics: biological effects of the drug."
+          },
+          {
+            "term": "DMPK",
+            "definition": "Drug metabolism and pharmacokinetics: a discipline studying disposition and exposure, working with pharmacology on PK/PD."
+          }
+        ],
+        "scope": "The graphic compares reported time points; it is not a fitted PK curve or a dosing recommendation."
+      },
+      "question": {
+        "title": "What should guide the schedule?",
+        "prompt": "Mouse plasma half-life is about 3 hours, but tumor phospho-EGFR remains suppressed at 30 hours. What is the best next step?",
+        "options": [
+          [
+            "Use a dosing interval of exactly three hours.",
+            "Half-life alone does not establish the dosing interval for an irreversible inhibitor.",
+            false
+          ],
+          [
+            "Assume the tumor will remain controlled for thirty hours in humans.",
+            "A mouse biomarker observation does not establish a human efficacy duration.",
+            false
+          ],
+          [
+            "Examine downstream PD, tumor response, active metabolites, and tolerability alongside the concentration profile.",
+            "Correct. Integrate the biological time course with exposure and relevant outcomes.",
+            true
+          ]
+        ],
+        "hint": "The concentration clock and the effect clock need not match."
+      },
+      "sources": [
+        {
+          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+        },
+        {
+          "label": "FDA: exposure–response relationships",
+          "url": "https://www.fda.gov/media/71277/download"
+        },
+        {
+          "label": "ICH S3A: exposure measurement within toxicity studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s3a-toxicokinetics-assessment-systemic-exposure-toxicity-studies"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-safety",
+      "category": "nonclinical",
+      "title": "Identify and interpret potential harm",
+      "goal": "Decide what further investigation and potential clinical safeguards the findings call for.",
+      "concept": "Safety work asks what can be harmed, at what exposure, and under which conditions. Findings guide risk assessment; a single negative assay does not establish that a candidate is safe.",
+      "takeaway": "Interpret the finding together with severity, exposure, duration, reversibility, and human relevance.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Anticipate the risks",
+            "question": "What could the drug do beyond the intended disease effect?",
+            "evidence": "Consider normal-tissue target biology, off-target activity, metabolites, and known class effects. Examine vital functions as well as tissue injury.",
+            "decision": "Select focused investigations and meaningful endpoints instead of relying on one safety screen."
+          },
+          {
+            "label": "Read the findings",
+            "question": "What changed during dosing?",
+            "evidence": "Combine clinical observations, laboratory measurements, organ findings, and histopathology with toxicokinetic exposure. Survival alone is not a safety conclusion.",
+            "decision": "Identify target organs and exposure-associated findings that could constrain development."
+          },
+          {
+            "label": "Assess recovery",
+            "question": "What improves, persists, or progresses after dosing stops?",
+            "evidence": "Examine the affected tissue, function, severity, and follow-up time. Improvement in one endpoint does not establish full recovery.",
+            "decision": "Decide what further investigation and potential clinical safeguards the findings call for."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: no deaths did not mean no injury.",
+          "intro": "The FDA’s later public review reproduces a one-month rat study from IND 117879. Its record separates survival from organ findings.",
+          "rows": [
+            {
+              "label": "Survival",
+              "value": "No preterm deaths.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Tissue findings",
+              "value": "Target organs included the gastrointestinal tract, eyes, skin, and reproductive organs.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Decision to investigate",
+              "value": "Evaluate which findings matter for the intended participants and exposure.",
+              "status": "INTERPRETATION"
+            }
+          ],
+          "limit": "This is a specific study summary, not an overall safety verdict. Recovery and human relevance require their own evidence.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "Safety pharmacology",
+            "definition": "Assessment of potentially undesirable effects on physiological functions, including cardiovascular, respiratory, and central nervous system function."
+          },
+          {
+            "term": "General toxicology",
+            "definition": "Assessment of adverse effects across tissues and systems during specified exposure conditions."
+          },
+          {
+            "term": "Histopathology",
+            "definition": "Microscopic examination of tissues for structural changes."
+          }
+        ],
+        "scope": "Study choices and timing depend on the clinical context. ICH S9 applies within its defined advanced-cancer scope; it is not a universal small-molecule checklist."
+      },
+      "question": {
+        "title": "What does survival tell us?",
+        "prompt": "All animals survived, but histopathology identifies treatment-related tissue injury. What should the team do?",
+        "options": [
+          [
+            "Integrate injury, exposure, severity, and recovery evidence before deciding what the study supports.",
+            "Correct. Safety interpretation depends on the complete pattern of findings.",
+            true
+          ],
+          [
+            "Mark the candidate safe because no animals died.",
+            "Survival does not exclude clinically important harm.",
+            false
+          ],
+          [
+            "Discard the histopathology because it was not accompanied by mortality.",
+            "Tissue injury may matter even without deaths.",
+            false
+          ]
+        ],
+        "hint": "Look beyond mortality."
+      },
+      "sources": [
+        {
+          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+        },
+        {
+          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        },
+        {
+          "label": "ICH M3(R2): nonclinical support and study timing",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization"
+        },
+        {
+          "label": "FDA: pharmacology and toxicology supporting the proposed study",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "nonclinical-package",
+      "category": "nonclinical",
+      "title": "Build a credible safety package",
+      "goal": "Address gaps in reliability or interpretation before using the study to support a clinical plan.",
+      "concept": "A safety finding is useful only when the study design, test material, exposure measurements, and records allow the team to interpret it for the proposed investigation.",
+      "takeaway": "Study quality, exposure coverage, and biological relevance answer different questions.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Match the study",
+            "question": "Does the design support the proposed human investigation?",
+            "evidence": "Relate population, route, schedule, duration, and prior evidence to the supporting studies. Use relevant species and justify the study strategy.",
+            "decision": "Identify which evidence is needed before the proposed study and which work can occur later."
+          },
+          {
+            "label": "Measure exposure",
+            "question": "Do the TK measurements actually quantify the relevant analytes?",
+            "evidence": "Check sensitivity, selectivity, sample stability, time points, metabolites, and the relationship to the toxicity findings. A detected peak is not always a quantitative result.",
+            "decision": "Decide whether exposure comparisons are reliable enough for the intended conclusion."
+          },
+          {
+            "label": "Check integrity",
+            "question": "Can the study and its interpretation be reconstructed?",
+            "evidence": "Review the applicable GLP status, protocol, quality assurance, raw records, deviations, test-item characterization, and final report.",
+            "decision": "Address gaps in reliability or interpretation before using the study to support a clinical plan."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: a metabolite was detected, but not quantified.",
+          "intro": "In the rat study reproduced from the IND review, FDA examined the analytical evidence alongside the reported study status.",
+          "rows": [
+            {
+              "label": "Study conduct",
+              "value": "GLP compliance and a QA statement were recorded.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Exposure sampling",
+              "value": "TK was assessed on dosing Days 1 and 28.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Analytical limitation",
+              "value": "A co-eluting peak prevented quantitative assessment of AZ5104; results were present/absent.",
+              "status": "LIMITATION"
+            }
+          ],
+          "limit": "GLP status did not remove this analytical limitation. A binary detection result cannot establish a metabolite AUC or a quantitative exposure margin.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "TK",
+            "definition": "Toxicokinetics: exposure measurements within toxicity studies."
+          },
+          {
+            "term": "GLP",
+            "definition": "Good Laboratory Practice: requirements for organization, conduct, documentation, and quality assurance of covered nonclinical studies."
+          },
+          {
+            "term": "Exposure margin",
+            "definition": "A comparison between relevant animal and human exposures; its interpretation depends on the endpoint, analyte, and uncertainty."
+          }
+        ],
+        "scope": "Before human data exist, clinical exposure may be predicted. Label the prediction and its uncertainty; do not present it as measured."
+      },
+      "question": {
+        "title": "Can this result support an exposure margin?",
+        "prompt": "A metabolite was reported as present/absent because an interfering peak prevented quantification. Can the team calculate its exposure margin from that result?",
+        "options": [
+          [
+            "Yes, because the study was GLP-compliant.",
+            "GLP does not turn a non-quantitative measurement into a concentration.",
+            false
+          ],
+          [
+            "No. Reliable quantitative exposure data or other justified evidence are needed for that comparison.",
+            "Correct. Resolve the analytical limitation or justify an appropriate alternative evidence strategy.",
+            true
+          ],
+          [
+            "Yes, by assigning the parent drug’s AUC to the metabolite.",
+            "Parent and metabolite exposures are not interchangeable.",
+            false
+          ]
+        ],
+        "hint": "Separate confidence in study conduct from the capability of a particular assay."
+      },
+      "sources": [
+        {
+          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+        },
+        {
+          "label": "ICH S3A: exposure measurement within toxicity studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s3a-toxicokinetics-assessment-systemic-exposure-toxicity-studies"
+        },
+        {
+          "label": "21 CFR Part 58: Good Laboratory Practice for nonclinical laboratory studies",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-58"
+        },
+        {
+          "label": "ICH M3(R2): nonclinical support and study timing",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization"
+        },
+        {
+          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "cmc-material",
+      "category": "cmc",
+      "title": "Define the drug people will receive",
+      "goal": "Determine whether existing support is adequate or additional bridging work is needed.",
+      "concept": "The molecular structure does not fully define the administered product. Specify the active ingredient, its form, the formulation, the dose basis, and the material used in each supporting study.",
+      "takeaway": "Connect the molecule, the drug substance, and the finished product before comparing doses or study results.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Define the substance",
+            "question": "Which chemical material is being made and tested?",
+            "evidence": "Establish identity and the relevant salt, solid form, composition, and purity. Track the batch used in each study.",
+            "decision": "Make the test item unambiguous."
+          },
+          {
+            "label": "Define the product",
+            "question": "What formulation and dose will actually be administered?",
+            "evidence": "Specify the active content, excipients, dosage form, route, and relevant package. Distinguish mass of salt from mass of active moiety.",
+            "decision": "Make the dose and product composition interpretable."
+          },
+          {
+            "label": "Connect study materials",
+            "question": "Does existing evidence apply to the proposed clinical material?",
+            "evidence": "Compare nonclinical and clinical batches and formulations. Assess differences in impurities, stability, delivered dose, or exposure.",
+            "decision": "Determine whether existing support is adequate or additional bridging work is needed."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: 95.4 mg of salt is not 95.4 mg of active drug.",
+          "intro": "The 2015 FDA quality review describes the mesylate salt and the dose basis of the film-coated tablet.",
+          "rows": [
+            {
+              "label": "Drug substance",
+              "value": "95.4 mg osimertinib mesylate.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Active-moiety equivalent",
+              "value": "80 mg osimertinib free base.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Drug product",
+              "value": "The formulated film-coated tablet also contains excipients.",
+              "status": "REPORTED"
+            }
+          ],
+          "limit": "This is the later NDA product, not a reconstruction of the first clinical formulation. The 80 mg value is not the total tablet mass.",
+          "sources": [
+            0
+          ],
+          "visual": {
+            "kind": "salt"
+          }
+        },
+        "terms": [
+          {
+            "term": "Drug substance",
+            "definition": "The active ingredient material used to formulate the product."
+          },
+          {
+            "term": "Drug product",
+            "definition": "The dosage form prepared for administration."
+          },
+          {
+            "term": "Bridging",
+            "definition": "Evidence used to assess whether findings with one material or formulation support another."
+          }
+        ],
+        "scope": "Early clinical products can differ from the final marketed form. The supporting comparison is specific to the changes and proposed use."
+      },
+      "question": {
+        "title": "Which dose basis should be compared?",
+        "prompt": "One record gives the mass of osimertinib mesylate and another gives the free-base equivalent. What comes first?",
+        "options": [
+          [
+            "Treat both numbers as the same chemical mass.",
+            "Salt and free-base masses are not numerically interchangeable.",
+            false
+          ],
+          [
+            "Compare total tablet mass with drug concentration.",
+            "Tablet mass includes excipients and is not the active dose.",
+            false
+          ],
+          [
+            "Identify the dose basis and convert to the same active-moiety basis where appropriate.",
+            "Correct. First make the dose definitions comparable, then assess the materials and exposure.",
+            true
+          ]
+        ],
+        "hint": "A counterion contributes mass without being the same as the active moiety."
+      },
+      "sources": [
+        {
+          "label": "FDA quality review (2015): drug product summary, printed p. 6 (PDF p. 7)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=7"
+        },
+        {
+          "label": "FDA: CMC information for investigational drugs",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+        },
+        {
+          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "url": "https://www.fda.gov/media/193163/download?attachment="
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "cmc-controls",
+      "category": "cmc",
+      "title": "Make and control consistent material",
+      "goal": "Release, investigate, or hold the batch through the responsible quality process.",
+      "concept": "A reliable supply depends on understanding what the process can change and using tests that answer the relevant quality questions. A high purity value alone is not a batch-release decision.",
+      "takeaway": "Choose controls for identity, dose, impurities, and performance—not a single reassuring number.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Understand the process",
+            "question": "What can introduce variability or unwanted material?",
+            "evidence": "Trace starting materials, reaction by-products, solvents, purification, and formulation steps. Focus on differences that can affect product safety or performance.",
+            "decision": "Identify where the process needs controls and what a process change could invalidate."
+          },
+          {
+            "label": "Choose the tests",
+            "question": "Does each measurement answer the right question?",
+            "evidence": "Distinguish identity, active content, impurity profile, dose uniformity, and drug release where relevant. Use methods fit for their intended purpose.",
+            "decision": "Set appropriate tests and acceptance criteria for this product and stage."
+          },
+          {
+            "label": "Review the batch",
+            "question": "Do results and records support use of this material?",
+            "evidence": "Read the relevant test results together with batch records and deviations. Investigate an unexpected result rather than averaging it away.",
+            "decision": "Release, investigate, or hold the batch through the responsible quality process."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: a tablet breaking apart did not establish drug release.",
+          "intro": "The FDA quality review distinguishes disintegration from dissolution in evaluating the tablet control strategy.",
+          "rows": [
+            {
+              "label": "Disintegration",
+              "value": "Tablet breakup was not a reliable substitute for dissolution in this product.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Dissolution",
+              "value": "The review supported a method to assess drug release across batches and during stability testing.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "General lesson",
+              "value": "A convenient test must demonstrate that it answers the intended quality question.",
+              "status": "INTERPRETATION"
+            }
+          ],
+          "limit": "This was an NDA-stage assessment. Early-phase controls should be appropriate to the product, risks, and development stage; do not copy a commercial specification wholesale.",
+          "sources": [
+            0
+          ]
+        },
+        "terms": [
+          {
+            "term": "Specification",
+            "definition": "Tests, methods, and acceptance criteria used to assess quality."
+          },
+          {
+            "term": "Assay",
+            "definition": "A measurement of active content; it is distinct from a chromatographic purity percentage."
+          },
+          {
+            "term": "Dissolution",
+            "definition": "Measurement of drug entering solution from a dosage form."
+          },
+          {
+            "term": "CGMP",
+            "definition": "Current good manufacturing practice; manufacturing controls are appropriate to the development stage."
+          }
+        ],
+        "scope": "CMC develops during lead optimization and continues after nomination. An established commercial synthesis is not a prerequisite for every first-in-human study."
+      },
+      "question": {
+        "title": "Does matching purity settle the question?",
+        "prompt": "A changed synthesis gives the same overall chromatographic purity but introduces a different impurity. What is the sound next step?",
+        "options": [
+          [
+            "Assess the new impurity and the process change before deciding whether the material is supported.",
+            "Correct. Consider identity, amount, safety significance, existing qualification, and appropriate controls.",
+            true
+          ],
+          [
+            "Release the batch because the total purity is unchanged.",
+            "The same aggregate purity can conceal a different risk.",
+            false
+          ],
+          [
+            "Ignore the impurity if the active compound is potent.",
+            "Biological potency does not qualify an impurity.",
+            false
+          ]
+        ],
+        "hint": "The identity of the impurity matters, not just the total area."
+      },
+      "sources": [
+        {
+          "label": "FDA quality review: dissolution assessment, printed pp. 144–145 (PDF pp. 63–64)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=63"
+        },
+        {
+          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "url": "https://www.fda.gov/media/193163/download?attachment="
+        },
+        {
+          "label": "FDA: CGMP for Phase 1 investigational drugs",
+          "url": "https://www.fda.gov/media/70975/download"
+        },
+        {
+          "label": "FDA: CMC information for investigational drugs",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "cmc-stability",
+      "category": "cmc",
+      "title": "Keep the product suitable through dosing",
+      "goal": "Set supported handling and use limits, or obtain additional evidence before extending them.",
+      "concept": "A batch that is suitable today must remain suitable during storage, shipment, preparation, and use. Stability support belongs to a defined material, package, and set of conditions.",
+      "takeaway": "A stability conclusion travels with its material, packaging, conditions, and supported period.",
+      "evidenceGuide": {
+        "steps": [
+          {
+            "label": "Define the conditions",
+            "question": "Which storage and use conditions need support?",
+            "evidence": "Identify the formulation, container, temperature, light exposure, shipment, and any preparation or in-use period that can affect quality.",
+            "decision": "Specify the conditions under which the clinical supply will be managed."
+          },
+          {
+            "label": "Follow the changes",
+            "question": "Which quality attributes could change with time?",
+            "evidence": "Track relevant active content, degradation products, physical changes, and product performance using suitable methods. Read trends as well as pass/fail results.",
+            "decision": "Determine what the available data support over the proposed period of use."
+          },
+          {
+            "label": "Reassess changes",
+            "question": "Does the conclusion still apply after a change?",
+            "evidence": "Review new formulation, packaging, storage, or use conditions against existing data. Plan proportionate ongoing stability work.",
+            "decision": "Set supported handling and use limits, or obtain additional evidence before extending them."
+          }
+        ],
+        "case": {
+          "title": "Osimertinib: stability support had a defined boundary.",
+          "intro": "At the 2015 NDA review, the available evidence supported an initial product shelf life under specified conditions.",
+          "rows": [
+            {
+              "label": "Supported period",
+              "value": "12 months in the finished package.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Conditions",
+              "value": "USP controlled room temperature; the reviewed product used an HDPE bottle.",
+              "status": "REPORTED"
+            },
+            {
+              "label": "Continuing work",
+              "value": "Stability studies continued, with later reassessment as evidence accumulated.",
+              "status": "REPORTED"
+            }
+          ],
+          "limit": "This is a historical commercial-product decision, not a 12-month requirement for an initial IND. FDA’s first-in-human CMC framework scales support to the proposed study.",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        "terms": [
+          {
+            "term": "Stability",
+            "definition": "How product quality changes over time under specified conditions."
+          },
+          {
+            "term": "In-use stability",
+            "definition": "Support for the period after opening, reconstitution, dilution, or other preparation, where relevant."
+          }
+        ],
+        "scope": "For an initial Phase 1 IND, evidence and the ongoing stability plan should support the intended use. A final commercial shelf life is not the starting requirement."
+      },
+      "question": {
+        "title": "Can we carry the old conclusion forward?",
+        "prompt": "The team changes the bottle and storage conditions. Existing stability data cover the earlier package and conditions. What should happen?",
+        "options": [
+          [
+            "Keep the same supported period because the molecular structure is unchanged.",
+            "Packaging and conditions can affect product quality even when the molecule is unchanged.",
+            false
+          ],
+          [
+            "Assess whether the existing data support the changes and obtain additional evidence where needed.",
+            "Correct. Carry forward supported conclusions, not assumptions about unchanged performance.",
+            true
+          ],
+          [
+            "Assume an earlier passing release test establishes stability for any storage condition.",
+            "Release testing describes a point in time; stability addresses change during storage and use.",
+            false
+          ]
+        ],
+        "hint": "Ask exactly what material and conditions the evidence covers."
+      },
+      "sources": [
+        {
+          "label": "FDA quality review: stability decision, printed p. 93 (PDF p. 40)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=40"
+        },
+        {
+          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "url": "https://www.fda.gov/media/193163/download?attachment="
+        },
+        {
+          "label": "FDA: CMC information for investigational drugs",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
+    },
+    {
+      "id": "clinical",
+      "title": "The first clinical study",
+      "goal": "Turn a recognized safety concern into clear study instructions.",
+      "concept": "The clinical protocol defines objectives, participants, dose and schedule, measurements, and decision rules. Its safety plan should explain what to monitor, when, who reviews the findings, and what actions follow. The specific plan depends on the drug and proposed study.",
+      "takeaway": "A concern becomes actionable when the protocol says what the team will do.",
+      "exampleTitle": "“Monitor kidney safety” needs a plan.",
+      "example": "An animal study identifies kidney injury at higher exposures. The clinical team uses this finding with the rest of the evidence to plan relevant assessments, their timing, who reviews them, and findings that trigger interruption or further evaluation. The program determines the appropriate measures.",
+      "worked": "A safety observation informs a plan that investigators can apply consistently. No single assay, threshold, or schedule is universal.",
+      "category": "clinical",
+      "question": {
+        "title": "Make a vague safety plan actionable.",
+        "prompt": "A draft protocol says “watch closely for liver toxicity,” with no assessment schedule or action rules. What addresses the gap?",
+        "options": [
+          [
+            "Specify relevant assessments, timing, review responsibilities, and justified action rules.",
+            "These instructions tell the team what to measure and how to act on the findings.",
+            true
+          ],
+          [
+            "Add a longer description of the target’s molecular biology.",
+            "Mechanism can inform risk, but a longer explanation does not supply the missing study instructions.",
+            false
+          ],
+          [
+            "Let each site invent its own monitoring plan after enrollment.",
+            "That leaves safety-critical decisions unspecified. Define the plan before conducting the study.",
+            false
+          ]
+        ],
+        "hint": "Could two sites read that sentence and make different safety decisions?"
+      },
+      "diagram": [
+        [
+          "Safety concern",
+          "What could happen?"
+        ],
+        [
+          "Protocol",
+          "What will the team do?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Finding",
+          "Kidney injury at higher exposures"
+        ],
+        [
+          "Plan",
+          "Assessments, timing, reviewer"
+        ],
+        [
+          "Action",
+          "Justified interruption or evaluation rules"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "FDA: clinical protocols",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols"
         }
       ]
     },
+    {
+      "id": "clinical-dose",
+      "category": "clinical",
+      "title": "Justifying a first dose",
+      "goal": "Explain why a starting dose needs a context-specific rationale.",
+      "concept": "A first human dose is a justified starting point for learning. Its rationale integrates relevant toxicology, pharmacology, and exposure information with the proposed population and regimen. The applicable framework matters: FDA’s adult healthy-volunteer guidance has a defined scope; it is not a universal recipe for patients with advanced cancer.",
+      "takeaway": "Choose the dosing framework for the study context before interpreting the calculations.",
+      "exampleTitle": "A mouse efficacy dose is not a human starting dose.",
+      "example": "A discovery team proposes the same milligrams per kilogram in humans that slowed tumor growth in mice. The development team asks how that relates to toxicity findings, pharmacology, predicted human exposure, and the intended participants. A direct dose match supplies none of those connections. The first-dose rationale must address them together.",
+      "worked": "An activity dose is useful evidence, but it does not independently establish a defensible human starting dose.",
+      "diagram": [
+        [
+          "Animal activity",
+          "A biological observation"
+        ],
+        [
+          "Human starting dose",
+          "A context-specific justification"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Identify context",
+          "Healthy volunteers or patients?"
+        ],
+        [
+          "Integrate evidence",
+          "Toxicology, exposure, pharmacology"
+        ],
+        [
+          "Justify the plan",
+          "Starting dose and safeguards"
+        ]
+      ],
+      "question": {
+        "title": "Which argument is incomplete?",
+        "prompt": "A proposed starting dose is justified only by matching the mouse efficacy dose in mg/kg. What should the team do?",
+        "options": [
+          [
+            "Accept it because mg/kg adjusts for species differences.",
+            "Weight adjustment alone does not resolve differences in pharmacology, kinetics, or risk.",
+            false
+          ],
+          [
+            "Assume a lower dose must be effective.",
+            "A lower starting dose does not guarantee activity or define later dose optimization.",
+            false
+          ],
+          [
+            "Develop a rationale using the relevant safety, pharmacology, exposure, and population context.",
+            "The rationale needs to connect the evidence to the actual human study.",
+            true
+          ]
+        ],
+        "hint": "Which human-relevant assumptions are missing from the dose match?"
+      },
+      "sources": [
+        {
+          "label": "FDA starting-dose guidance: adult healthy volunteers, final 2005",
+          "url": "https://www.fda.gov/media/72309/download"
+        },
+        {
+          "label": "ICH S9: defined advanced-cancer context",
+          "url": "https://www.fda.gov/media/73161/download"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": "Who prepares the IND",
+      "goal": "Distinguish contracted work from transferred sponsor obligations.",
+      "concept": "An IND is a team effort. Scientific specialists generate and interpret evidence; a regulatory lead often coordinates strategy and submission; writers and publishing specialists may help prepare the documents. The sponsor has regulatory responsibilities. Hiring a vendor does not automatically transfer them.",
+      "takeaway": "Who performs a task and who holds an obligation are different questions.",
+      "exampleTitle": "A startup works with a CRO.",
+      "example": "A biotech hires a contract research organization (CRO) for a toxicology study. Toxicology and drug metabolism/pharmacokinetics specialists interpret findings and exposure; the clinical lead considers implications for the protocol. A regulatory lead coordinates the presentation. This is one possible team arrangement. Any transfer of sponsor obligations under the IND regulation must be described in writing.",
+      "worked": "Contracting a task does not automatically transfer obligations. Those not covered by a written transfer remain with the sponsor.",
+      "category": "clinical",
+      "question": {
+        "title": "Who retains the responsibility?",
+        "prompt": "A biotech hires a vendor to assemble the electronic submission. No sponsor obligations are transferred in writing. Who retains those obligations?",
+        "options": [
+          [
+            "The vendor, automatically, because it handles the files.",
+            "Performing a service does not automatically transfer sponsor obligations.",
+            false
+          ],
+          [
+            "FDA, once it receives the submission.",
+            "FDA reviews the application; receipt does not transfer the sponsor’s duties to FDA.",
+            false
+          ],
+          [
+            "The biotech sponsor.",
+            "Obligations not covered by a written transfer remain with the sponsor.",
+            true
+          ]
+        ],
+        "hint": "Separate who did the task from which obligations were transferred."
+      },
+      "diagram": [
+        [
+          "Contracted task",
+          "Who performs the work?"
+        ],
+        [
+          "Sponsor obligation",
+          "Who is responsible?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "CRO",
+          "Performs an agreed task"
+        ],
+        [
+          "Team",
+          "Interprets and integrates evidence"
+        ],
+        [
+          "Sponsor",
+          "Retains obligations not transferred"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "21 CFR 312.50 and 312.52: sponsor responsibilities and CRO transfers",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-D"
+        }
+      ]
+    },
+    {
+      "id": "pre-ind",
+      "category": "clinical",
+      "title": "Ask a useful pre-IND question",
+      "goal": "Turn an uncertainty into a focused question with evidence and a proposed approach.",
+      "concept": "A pre-IND interaction can help a team discuss development questions with FDA before submission. A useful question identifies the decision, explains the evidence, and presents a proposed approach with its rationale. General requests for reassurance are harder to resolve than questions about a defined program. Feedback informs development; it is not permission to begin a trial.",
+      "takeaway": "Bring a proposed approach and the uncertainty that needs resolving.",
+      "exampleTitle": "Replace “Is our package enough?”",
+      "example": "A team has data supporting a short oral study and is considering a longer regimen. Instead of asking FDA whether the program looks good, it summarizes the proposed population and schedule, relevant existing studies, and its plan for additional support. It then asks whether that approach addresses the identified duration question.",
+      "worked": "The question is answerable because the study, supporting evidence, and proposed next step are explicit.",
+      "diagram": [
+        [
+          "Broad reassurance",
+          "Is our program good?"
+        ],
+        [
+          "Focused question",
+          "Does this approach address this gap?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Decision",
+          "Support a longer regimen"
+        ],
+        [
+          "Evidence",
+          "What current studies cover"
+        ],
+        [
+          "Proposal",
+          "Additional support and rationale"
+        ]
+      ],
+      "question": {
+        "title": "Which question is more useful?",
+        "prompt": "You are preparing a pre-IND briefing package. Which question best supports a focused discussion?",
+        "options": [
+          [
+            "Given this population, regimen, evidence, and proposed study, does the approach address the identified safety gap?",
+            "A specific proposal gives the discussion a concrete decision and rationale.",
+            true
+          ],
+          [
+            "Can FDA confirm that the drug will succeed?",
+            "FDA cannot establish future development success from a briefing package.",
+            false
+          ],
+          [
+            "Can we omit the proposed clinical plan and discuss the data alone?",
+            "The intended study gives the data their development context.",
+            false
+          ]
+        ],
+        "hint": "Can the reviewer see both the decision and the evidence behind your proposal?"
+      },
+      "sources": [
+        {
+          "label": "FDA pre-IND consultation overview",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"
+        },
+        {
+          "label": "FDA formal meetings guidance, final August 2026",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-pdufa-products"
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "title": "What the IND supports",
+      "goal": "Explain what an IND supports—and what an activity result cannot establish.",
+      "concept": "A development candidate is a molecule your team chooses to advance. An Investigational New Drug (IND) application brings together evidence supporting a specific proposed human study. It connects biological activity, exposure, potential harms, product quality, and the clinical plan.",
+      "takeaway": "The question is: does this evidence support this proposed study?",
+      "exampleTitle": "A tumor response is one piece of the argument.",
+      "example": "Suppose a candidate slows tumor growth in mice. That gives the team a reason to investigate further. Before proposing a human study, the team also needs to understand achieved exposure, potential harms, the material to be administered, and the study design.",
+      "worked": "Keep the useful activity result. Then identify the questions it leaves unanswered.",
+      "category": "ind",
+      "question": {
+        "title": "A stronger result. A narrower claim.",
+        "prompt": "A candidate produces convincing tumor growth inhibition in mice. What does that result most directly support?",
+        "options": [
+          [
+            "A biological rationale to investigate the candidate further.",
+            "Yes. Retain the activity result and define its limits. It does not answer product quality, human risk, or clinical benefit by itself.",
+            true
+          ],
+          [
+            "That the candidate is ready to dose in humans.",
+            "Activity is one part of the argument. Exposure, safety, product quality, and the proposed study still need support.",
+            false
+          ],
+          [
+            "That the same dose will work in humans.",
+            "A dose in one species does not establish human exposure, target effects, or a useful human regimen.",
+            false
+          ]
+        ]
+      },
+      "diagram": [
+        [
+          "Discovery result",
+          "A reason to develop"
+        ],
+        [
+          "IND",
+          "Support a proposed study"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Biology",
+          "Why investigate this drug?"
+        ],
+        [
+          "Support",
+          "Exposure, safety, product quality"
+        ],
+        [
+          "Proposed study",
+          "Dose, schedule, population, safeguards"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "FDA: what an IND contains",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        },
+        {
+          "label": "FDA: purpose of IND review",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
+        }
+      ]
+    },
+    {
+      "id": "submission",
+      "category": "ind",
+      "title": "Assemble a traceable submission",
+      "goal": "Connect a summary claim to its source report and proposed clinical use.",
+      "concept": "An IND joins scientific and administrative material into a reviewable submission. In the eCTD, Module 1 holds regional material, Module 2 summaries, Module 3 quality, Module 4 nonclinical reports, and Module 5 clinical material. The summaries should accurately connect source findings to the proposed study. File organization supports review; it does not establish scientific adequacy.",
+      "takeaway": "Every important summary claim should be traceable to the right evidence.",
+      "exampleTitle": "A reassuring sentence loses its context.",
+      "example": "An IND summary says that a candidate was tolerated. The source report shows that exposure was low in the high-dose group. A reviewer needs the exposure result alongside the injury observations to interpret the statement. The team revises the summary to describe the actual study conditions and the remaining uncertainty, with a reference to the source report.",
+      "worked": "Traceability means preserving the meaning of the evidence, not merely placing a file in the correct folder.",
+      "diagram": [
+        [
+          "Source report",
+          "Observations and conditions"
+        ],
+        [
+          "Summary claim",
+          "Accurate, qualified interpretation"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Find the claim",
+          "Candidate was tolerated"
+        ],
+        [
+          "Check its support",
+          "Exposure and observed findings"
+        ],
+        [
+          "Preserve context",
+          "Conditions, limits, source reference"
+        ]
+      ],
+      "question": {
+        "title": "What should be corrected?",
+        "prompt": "A summary describes a high dose as reassuring, but the study report shows little systemic exposure. Which revision best preserves the evidence?",
+        "options": [
+          [
+            "Delete the exposure result because it complicates the story.",
+            "The exposure result is important to interpreting the observations.",
+            false
+          ],
+          [
+            "State the observed findings and achieved exposure, explain the limitation, and reference the report.",
+            "This lets the reviewer assess the claim in its actual experimental context.",
+            true
+          ],
+          [
+            "Keep the sentence because the file is in the correct eCTD module.",
+            "Correct organization does not make an unsupported inference adequate.",
+            false
+          ]
+        ],
+        "hint": "What information changes the meaning of the absence of observed injury?"
+      },
+      "sources": [
+        {
+          "label": "FDA eCTD overview",
+          "url": "https://www.fda.gov/drugs/electronic-regulatory-submission-and-review/electronic-common-technical-document-ectd"
+        },
+        {
+          "label": "21 CFR 312.23: IND content and format",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
+    },
+    {
+      "id": "fda-review",
+      "category": "ind",
+      "title": "Review, questions, and holds",
+      "goal": "Distinguish submission receipt, an effective IND, and a clinical hold.",
+      "concept": "The IND goes into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. Other trial-start requirements still apply. A hold delays or suspends the affected investigation. Responding to a hold means addressing the identified issues; sending a response does not itself lift the hold.",
+      "takeaway": "Track the actual regulatory status, not simply whether documents were sent.",
+      "exampleTitle": "A response is not a release from hold.",
+      "example": "FDA places a proposed study on clinical hold because the information is insufficient to assess risk. The sponsor submits additional evidence and a revised explanation. The team still must receive the relevant FDA notification that the investigation may proceed. It cannot treat uploading the response as an automatic end to the hold.",
+      "worked": "The response is an action by the sponsor; permission to resume the held investigation requires the applicable FDA decision.",
+      "diagram": [
+        [
+          "Sponsor action",
+          "Submit the hold response"
+        ],
+        [
+          "Regulatory status",
+          "Await FDA permission to proceed"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "Identify issue",
+          "What led to the hold?"
+        ],
+        [
+          "Respond",
+          "Evidence and justified revisions"
+        ],
+        [
+          "Track status",
+          "FDA notification is still needed"
+        ]
+      ],
+      "question": {
+        "title": "Can the held study proceed?",
+        "prompt": "The sponsor has submitted a complete response to a clinical hold. FDA has not notified the sponsor that the study may proceed. What is the correct interpretation?",
+        "options": [
+          [
+            "The hold is automatically lifted on upload.",
+            "Submission of a response is not an automatic lifting of the hold.",
+            false
+          ],
+          [
+            "A favorable animal result independently lifts the hold.",
+            "An individual study result does not change the regulatory status by itself.",
+            false
+          ],
+          [
+            "The affected investigation remains on hold pending the relevant FDA notification.",
+            "Responding and being permitted to proceed are distinct events.",
+            true
+          ]
+        ],
+        "hint": "Who determines whether the identified hold issues have been resolved?"
+      },
+      "sources": [
+        {
+          "label": "21 CFR 312.40: beginning an investigation",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
+        },
+        {
+          "label": "21 CFR 312.42: clinical holds",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.42"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Ready for the first participant",
+      "goal": "Distinguish an effective IND from trial and participant readiness.",
+      "concept": "An IND may go into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. That is one condition for starting. Institutional review board (IRB) approval, informed consent, and applicable participant and site requirements also matter. An effective IND is not marketing approval. The IND remains active during clinical development; safety reporting, amendments, and annual reporting continue as applicable.",
+      "takeaway": "FDA status, ethical review, and participant readiness are separate conditions.",
+      "exampleTitle": "The IND is effective. The IRB review is pending.",
+      "example": "Thirty days have elapsed since FDA received an initial IND, with no clinical hold. The IND is in effect, but the IRB has not approved the protocol. The team cannot begin this ordinary first-in-human trial while that approval is missing. The effective IND does not establish efficacy or permit marketing.",
+      "worked": "Resolve the missing IRB approval and other applicable requirements. Passage of the IND review period does not replace them.",
+      "category": "ind",
+      "question": {
+        "title": "Check the participant’s readiness.",
+        "prompt": "The IND is effective and the IRB has approved this ordinary first-in-human study. A prospective participant has not completed informed consent. May the team give the study drug now?",
+        "options": [
+          [
+            "Yes. IRB approval substitutes for the participant’s decision.",
+            "IRB review and individual informed consent serve different purposes. One does not replace the other.",
+            false
+          ],
+          [
+            "No. Legally effective informed consent is still needed before participation.",
+            "Consent is a separate prerequisite in this ordinary study. Other participant and site conditions must also be satisfied.",
+            true
+          ],
+          [
+            "No. Every effective IND requires another 30-day wait.",
+            "There is no automatic second 30-day wait. The missing condition here is consent.",
+            false
+          ]
+        ],
+        "hint": "Which decision belongs to the prospective participant?"
+      },
+      "diagram": [
+        [
+          "IND status",
+          "May investigation proceed?"
+        ],
+        [
+          "Trial readiness",
+          "Can this participant start?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "IND status",
+          "Effective"
+        ],
+        [
+          "IRB approval",
+          "Pending"
+        ],
+        [
+          "First participant",
+          "Cannot start yet"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "21 CFR 312.40: conditions for beginning an investigation",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
+        },
+        {
+          "label": "21 CFR 56.103: IRB review requirements",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-56/subpart-A/section-56.103"
+        },
+        {
+          "label": "21 CFR 50.20: informed consent",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.20"
+        },
+        {
+          "label": "FDA: IND annual reports and continuing responsibilities",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-annual-reports"
+        }
+      ]
+    }
+  ],
+  "supplementalLevels": [
     {
       "id": "exposure",
       "category": "candidate",
@@ -6044,541 +7513,6 @@ const CATALOG = {
         {
           "label": "ICH Q1A(R2): background stability principles; registration context",
           "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1ar2-stability-testing-new-drug-substances-and-products"
-        }
-      ]
-    },
-    {
-      "id": "clinical",
-      "title": "The first clinical study",
-      "goal": "Turn a recognized safety concern into clear study instructions.",
-      "concept": "The clinical protocol defines objectives, participants, dose and schedule, measurements, and decision rules. Its safety plan should explain what to monitor, when, who reviews the findings, and what actions follow. The specific plan depends on the drug and proposed study.",
-      "takeaway": "A concern becomes actionable when the protocol says what the team will do.",
-      "exampleTitle": "“Monitor kidney safety” needs a plan.",
-      "example": "An animal study identifies kidney injury at higher exposures. The clinical team uses this finding with the rest of the evidence to plan relevant assessments, their timing, who reviews them, and findings that trigger interruption or further evaluation. The program determines the appropriate measures.",
-      "worked": "A safety observation informs a plan that investigators can apply consistently. No single assay, threshold, or schedule is universal.",
-      "category": "clinical",
-      "question": {
-        "title": "Make a vague safety plan actionable.",
-        "prompt": "A draft protocol says “watch closely for liver toxicity,” with no assessment schedule or action rules. What addresses the gap?",
-        "options": [
-          [
-            "Specify relevant assessments, timing, review responsibilities, and justified action rules.",
-            "These instructions tell the team what to measure and how to act on the findings.",
-            true
-          ],
-          [
-            "Add a longer description of the target’s molecular biology.",
-            "Mechanism can inform risk, but a longer explanation does not supply the missing study instructions.",
-            false
-          ],
-          [
-            "Let each site invent its own monitoring plan after enrollment.",
-            "That leaves safety-critical decisions unspecified. Define the plan before conducting the study.",
-            false
-          ]
-        ],
-        "hint": "Could two sites read that sentence and make different safety decisions?"
-      },
-      "diagram": [
-        [
-          "Safety concern",
-          "What could happen?"
-        ],
-        [
-          "Protocol",
-          "What will the team do?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Finding",
-          "Kidney injury at higher exposures"
-        ],
-        [
-          "Plan",
-          "Assessments, timing, reviewer"
-        ],
-        [
-          "Action",
-          "Justified interruption or evaluation rules"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "FDA: clinical protocols",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols"
-        }
-      ]
-    },
-    {
-      "id": "clinical-dose",
-      "category": "clinical",
-      "title": "Justifying a first dose",
-      "goal": "Explain why a starting dose needs a context-specific rationale.",
-      "concept": "A first human dose is a justified starting point for learning. Its rationale integrates relevant toxicology, pharmacology, and exposure information with the proposed population and regimen. The applicable framework matters: FDA’s adult healthy-volunteer guidance has a defined scope; it is not a universal recipe for patients with advanced cancer.",
-      "takeaway": "Choose the dosing framework for the study context before interpreting the calculations.",
-      "exampleTitle": "A mouse efficacy dose is not a human starting dose.",
-      "example": "A discovery team proposes the same milligrams per kilogram in humans that slowed tumor growth in mice. The development team asks how that relates to toxicity findings, pharmacology, predicted human exposure, and the intended participants. A direct dose match supplies none of those connections. The first-dose rationale must address them together.",
-      "worked": "An activity dose is useful evidence, but it does not independently establish a defensible human starting dose.",
-      "diagram": [
-        [
-          "Animal activity",
-          "A biological observation"
-        ],
-        [
-          "Human starting dose",
-          "A context-specific justification"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Identify context",
-          "Healthy volunteers or patients?"
-        ],
-        [
-          "Integrate evidence",
-          "Toxicology, exposure, pharmacology"
-        ],
-        [
-          "Justify the plan",
-          "Starting dose and safeguards"
-        ]
-      ],
-      "question": {
-        "title": "Which argument is incomplete?",
-        "prompt": "A proposed starting dose is justified only by matching the mouse efficacy dose in mg/kg. What should the team do?",
-        "options": [
-          [
-            "Accept it because mg/kg adjusts for species differences.",
-            "Weight adjustment alone does not resolve differences in pharmacology, kinetics, or risk.",
-            false
-          ],
-          [
-            "Assume a lower dose must be effective.",
-            "A lower starting dose does not guarantee activity or define later dose optimization.",
-            false
-          ],
-          [
-            "Develop a rationale using the relevant safety, pharmacology, exposure, and population context.",
-            "The rationale needs to connect the evidence to the actual human study.",
-            true
-          ]
-        ],
-        "hint": "Which human-relevant assumptions are missing from the dose match?"
-      },
-      "sources": [
-        {
-          "label": "FDA starting-dose guidance: adult healthy volunteers, final 2005",
-          "url": "https://www.fda.gov/media/72309/download"
-        },
-        {
-          "label": "ICH S9: defined advanced-cancer context",
-          "url": "https://www.fda.gov/media/73161/download"
-        }
-      ]
-    },
-    {
-      "id": "people",
-      "title": "Who prepares the IND",
-      "goal": "Distinguish contracted work from transferred sponsor obligations.",
-      "concept": "An IND is a team effort. Scientific specialists generate and interpret evidence; a regulatory lead often coordinates strategy and submission; writers and publishing specialists may help prepare the documents. The sponsor has regulatory responsibilities. Hiring a vendor does not automatically transfer them.",
-      "takeaway": "Who performs a task and who holds an obligation are different questions.",
-      "exampleTitle": "A startup works with a CRO.",
-      "example": "A biotech hires a contract research organization (CRO) for a toxicology study. Toxicology and drug metabolism/pharmacokinetics specialists interpret findings and exposure; the clinical lead considers implications for the protocol. A regulatory lead coordinates the presentation. This is one possible team arrangement. Any transfer of sponsor obligations under the IND regulation must be described in writing.",
-      "worked": "Contracting a task does not automatically transfer obligations. Those not covered by a written transfer remain with the sponsor.",
-      "category": "clinical",
-      "question": {
-        "title": "Who retains the responsibility?",
-        "prompt": "A biotech hires a vendor to assemble the electronic submission. No sponsor obligations are transferred in writing. Who retains those obligations?",
-        "options": [
-          [
-            "The vendor, automatically, because it handles the files.",
-            "Performing a service does not automatically transfer sponsor obligations.",
-            false
-          ],
-          [
-            "FDA, once it receives the submission.",
-            "FDA reviews the application; receipt does not transfer the sponsor’s duties to FDA.",
-            false
-          ],
-          [
-            "The biotech sponsor.",
-            "Obligations not covered by a written transfer remain with the sponsor.",
-            true
-          ]
-        ],
-        "hint": "Separate who did the task from which obligations were transferred."
-      },
-      "diagram": [
-        [
-          "Contracted task",
-          "Who performs the work?"
-        ],
-        [
-          "Sponsor obligation",
-          "Who is responsible?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "CRO",
-          "Performs an agreed task"
-        ],
-        [
-          "Team",
-          "Interprets and integrates evidence"
-        ],
-        [
-          "Sponsor",
-          "Retains obligations not transferred"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "21 CFR 312.50 and 312.52: sponsor responsibilities and CRO transfers",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-D"
-        }
-      ]
-    },
-    {
-      "id": "pre-ind",
-      "category": "clinical",
-      "title": "Ask a useful pre-IND question",
-      "goal": "Turn an uncertainty into a focused question with evidence and a proposed approach.",
-      "concept": "A pre-IND interaction can help a team discuss development questions with FDA before submission. A useful question identifies the decision, explains the evidence, and presents a proposed approach with its rationale. General requests for reassurance are harder to resolve than questions about a defined program. Feedback informs development; it is not permission to begin a trial.",
-      "takeaway": "Bring a proposed approach and the uncertainty that needs resolving.",
-      "exampleTitle": "Replace “Is our package enough?”",
-      "example": "A team has data supporting a short oral study and is considering a longer regimen. Instead of asking FDA whether the program looks good, it summarizes the proposed population and schedule, relevant existing studies, and its plan for additional support. It then asks whether that approach addresses the identified duration question.",
-      "worked": "The question is answerable because the study, supporting evidence, and proposed next step are explicit.",
-      "diagram": [
-        [
-          "Broad reassurance",
-          "Is our program good?"
-        ],
-        [
-          "Focused question",
-          "Does this approach address this gap?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Decision",
-          "Support a longer regimen"
-        ],
-        [
-          "Evidence",
-          "What current studies cover"
-        ],
-        [
-          "Proposal",
-          "Additional support and rationale"
-        ]
-      ],
-      "question": {
-        "title": "Which question is more useful?",
-        "prompt": "You are preparing a pre-IND briefing package. Which question best supports a focused discussion?",
-        "options": [
-          [
-            "Given this population, regimen, evidence, and proposed study, does the approach address the identified safety gap?",
-            "A specific proposal gives the discussion a concrete decision and rationale.",
-            true
-          ],
-          [
-            "Can FDA confirm that the drug will succeed?",
-            "FDA cannot establish future development success from a briefing package.",
-            false
-          ],
-          [
-            "Can we omit the proposed clinical plan and discuss the data alone?",
-            "The intended study gives the data their development context.",
-            false
-          ]
-        ],
-        "hint": "Can the reviewer see both the decision and the evidence behind your proposal?"
-      },
-      "sources": [
-        {
-          "label": "FDA pre-IND consultation overview",
-          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-ind-application"
-        },
-        {
-          "label": "FDA formal meetings guidance, final August 2026",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-pdufa-products"
-        }
-      ]
-    },
-    {
-      "id": "map",
-      "title": "What the IND supports",
-      "goal": "Explain what an IND supports—and what an activity result cannot establish.",
-      "concept": "A development candidate is a molecule your team chooses to advance. An Investigational New Drug (IND) application brings together evidence supporting a specific proposed human study. It connects biological activity, exposure, potential harms, product quality, and the clinical plan.",
-      "takeaway": "The question is: does this evidence support this proposed study?",
-      "exampleTitle": "A tumor response is one piece of the argument.",
-      "example": "Suppose a candidate slows tumor growth in mice. That gives the team a reason to investigate further. Before proposing a human study, the team also needs to understand achieved exposure, potential harms, the material to be administered, and the study design.",
-      "worked": "Keep the useful activity result. Then identify the questions it leaves unanswered.",
-      "category": "ind",
-      "question": {
-        "title": "A stronger result. A narrower claim.",
-        "prompt": "A candidate produces convincing tumor growth inhibition in mice. What does that result most directly support?",
-        "options": [
-          [
-            "A biological rationale to investigate the candidate further.",
-            "Yes. Retain the activity result and define its limits. It does not answer product quality, human risk, or clinical benefit by itself.",
-            true
-          ],
-          [
-            "That the candidate is ready to dose in humans.",
-            "Activity is one part of the argument. Exposure, safety, product quality, and the proposed study still need support.",
-            false
-          ],
-          [
-            "That the same dose will work in humans.",
-            "A dose in one species does not establish human exposure, target effects, or a useful human regimen.",
-            false
-          ]
-        ]
-      },
-      "diagram": [
-        [
-          "Discovery result",
-          "A reason to develop"
-        ],
-        [
-          "IND",
-          "Support a proposed study"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Biology",
-          "Why investigate this drug?"
-        ],
-        [
-          "Support",
-          "Exposure, safety, product quality"
-        ],
-        [
-          "Proposed study",
-          "Dose, schedule, population, safeguards"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "FDA: what an IND contains",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
-        },
-        {
-          "label": "FDA: purpose of IND review",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
-        }
-      ]
-    },
-    {
-      "id": "submission",
-      "category": "ind",
-      "title": "Assemble a traceable submission",
-      "goal": "Connect a summary claim to its source report and proposed clinical use.",
-      "concept": "An IND joins scientific and administrative material into a reviewable submission. In the eCTD, Module 1 holds regional material, Module 2 summaries, Module 3 quality, Module 4 nonclinical reports, and Module 5 clinical material. The summaries should accurately connect source findings to the proposed study. File organization supports review; it does not establish scientific adequacy.",
-      "takeaway": "Every important summary claim should be traceable to the right evidence.",
-      "exampleTitle": "A reassuring sentence loses its context.",
-      "example": "An IND summary says that a candidate was tolerated. The source report shows that exposure was low in the high-dose group. A reviewer needs the exposure result alongside the injury observations to interpret the statement. The team revises the summary to describe the actual study conditions and the remaining uncertainty, with a reference to the source report.",
-      "worked": "Traceability means preserving the meaning of the evidence, not merely placing a file in the correct folder.",
-      "diagram": [
-        [
-          "Source report",
-          "Observations and conditions"
-        ],
-        [
-          "Summary claim",
-          "Accurate, qualified interpretation"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Find the claim",
-          "Candidate was tolerated"
-        ],
-        [
-          "Check its support",
-          "Exposure and observed findings"
-        ],
-        [
-          "Preserve context",
-          "Conditions, limits, source reference"
-        ]
-      ],
-      "question": {
-        "title": "What should be corrected?",
-        "prompt": "A summary describes a high dose as reassuring, but the study report shows little systemic exposure. Which revision best preserves the evidence?",
-        "options": [
-          [
-            "Delete the exposure result because it complicates the story.",
-            "The exposure result is important to interpreting the observations.",
-            false
-          ],
-          [
-            "State the observed findings and achieved exposure, explain the limitation, and reference the report.",
-            "This lets the reviewer assess the claim in its actual experimental context.",
-            true
-          ],
-          [
-            "Keep the sentence because the file is in the correct eCTD module.",
-            "Correct organization does not make an unsupported inference adequate.",
-            false
-          ]
-        ],
-        "hint": "What information changes the meaning of the absence of observed injury?"
-      },
-      "sources": [
-        {
-          "label": "FDA eCTD overview",
-          "url": "https://www.fda.gov/drugs/electronic-regulatory-submission-and-review/electronic-common-technical-document-ectd"
-        },
-        {
-          "label": "21 CFR 312.23: IND content and format",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
-        }
-      ]
-    },
-    {
-      "id": "fda-review",
-      "category": "ind",
-      "title": "Review, questions, and holds",
-      "goal": "Distinguish submission receipt, an effective IND, and a clinical hold.",
-      "concept": "The IND goes into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. Other trial-start requirements still apply. A hold delays or suspends the affected investigation. Responding to a hold means addressing the identified issues; sending a response does not itself lift the hold.",
-      "takeaway": "Track the actual regulatory status, not simply whether documents were sent.",
-      "exampleTitle": "A response is not a release from hold.",
-      "example": "FDA places a proposed study on clinical hold because the information is insufficient to assess risk. The sponsor submits additional evidence and a revised explanation. The team still must receive the relevant FDA notification that the investigation may proceed. It cannot treat uploading the response as an automatic end to the hold.",
-      "worked": "The response is an action by the sponsor; permission to resume the held investigation requires the applicable FDA decision.",
-      "diagram": [
-        [
-          "Sponsor action",
-          "Submit the hold response"
-        ],
-        [
-          "Regulatory status",
-          "Await FDA permission to proceed"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Identify issue",
-          "What led to the hold?"
-        ],
-        [
-          "Respond",
-          "Evidence and justified revisions"
-        ],
-        [
-          "Track status",
-          "FDA notification is still needed"
-        ]
-      ],
-      "question": {
-        "title": "Can the held study proceed?",
-        "prompt": "The sponsor has submitted a complete response to a clinical hold. FDA has not notified the sponsor that the study may proceed. What is the correct interpretation?",
-        "options": [
-          [
-            "The hold is automatically lifted on upload.",
-            "Submission of a response is not an automatic lifting of the hold.",
-            false
-          ],
-          [
-            "A favorable animal result independently lifts the hold.",
-            "An individual study result does not change the regulatory status by itself.",
-            false
-          ],
-          [
-            "The affected investigation remains on hold pending the relevant FDA notification.",
-            "Responding and being permitted to proceed are distinct events.",
-            true
-          ]
-        ],
-        "hint": "Who determines whether the identified hold issues have been resolved?"
-      },
-      "sources": [
-        {
-          "label": "21 CFR 312.40: beginning an investigation",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
-        },
-        {
-          "label": "21 CFR 312.42: clinical holds",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.42"
-        }
-      ]
-    },
-    {
-      "id": "review",
-      "title": "Ready for the first participant",
-      "goal": "Distinguish an effective IND from trial and participant readiness.",
-      "concept": "An IND may go into effect 30 days after FDA receipt unless a clinical hold applies, or earlier on FDA notification. That is one condition for starting. Institutional review board (IRB) approval, informed consent, and applicable participant and site requirements also matter. An effective IND is not marketing approval. The IND remains active during clinical development; safety reporting, amendments, and annual reporting continue as applicable.",
-      "takeaway": "FDA status, ethical review, and participant readiness are separate conditions.",
-      "exampleTitle": "The IND is effective. The IRB review is pending.",
-      "example": "Thirty days have elapsed since FDA received an initial IND, with no clinical hold. The IND is in effect, but the IRB has not approved the protocol. The team cannot begin this ordinary first-in-human trial while that approval is missing. The effective IND does not establish efficacy or permit marketing.",
-      "worked": "Resolve the missing IRB approval and other applicable requirements. Passage of the IND review period does not replace them.",
-      "category": "ind",
-      "question": {
-        "title": "Check the participant’s readiness.",
-        "prompt": "The IND is effective and the IRB has approved this ordinary first-in-human study. A prospective participant has not completed informed consent. May the team give the study drug now?",
-        "options": [
-          [
-            "Yes. IRB approval substitutes for the participant’s decision.",
-            "IRB review and individual informed consent serve different purposes. One does not replace the other.",
-            false
-          ],
-          [
-            "No. Legally effective informed consent is still needed before participation.",
-            "Consent is a separate prerequisite in this ordinary study. Other participant and site conditions must also be satisfied.",
-            true
-          ],
-          [
-            "No. Every effective IND requires another 30-day wait.",
-            "There is no automatic second 30-day wait. The missing condition here is consent.",
-            false
-          ]
-        ],
-        "hint": "Which decision belongs to the prospective participant?"
-      },
-      "diagram": [
-        [
-          "IND status",
-          "May investigation proceed?"
-        ],
-        [
-          "Trial readiness",
-          "Can this participant start?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "IND status",
-          "Effective"
-        ],
-        [
-          "IRB approval",
-          "Pending"
-        ],
-        [
-          "First participant",
-          "Cannot start yet"
-        ]
-      ],
-      "sources": [
-        {
-          "label": "21 CFR 312.40: conditions for beginning an investigation",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40"
-        },
-        {
-          "label": "21 CFR 56.103: IRB review requirements",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-56/subpart-A/section-56.103"
-        },
-        {
-          "label": "21 CFR 50.20: informed consent",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.20"
-        },
-        {
-          "label": "FDA: IND annual reports and continuing responsibilities",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-annual-reports"
         }
       ]
     }
