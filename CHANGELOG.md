@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-16 — Learning map and Vertex navigation
+
+- Replaced numbered level boxes with named topic cards and visible completion states.
+- Added a polished, interactive overview of the Vertex lead-to-candidate routes, linked to the matching example tabs.
+- Reordered linker exploration before indole exploration while preserving the tab content.
+
 ## v0.1.0 — 2026-09-16
 
 Saved the reviewed local HTML guide as a versioned milestone.

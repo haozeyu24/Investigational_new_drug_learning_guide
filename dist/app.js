@@ -26,18 +26,18 @@ function overview(){
  return `<section class="course-intro"><button class="text-button" data-action="portal">← Learning paths</button><h1>Small Molecule</h1><p>Start with the purpose of an IND, then follow the path from discovery to human testing.</p></section>
  <section class="level-map" aria-label="Small Molecule level selection">
  <div class="map-titlebar"><span>Your learning map</span><div class="map-progress-actions"><span class="map-count">${completed} / ${ids.length} completed</span><button class="map-reset" data-action="reset-progress" ${state.loading?'disabled':''}>Reset learning progress</button></div></div>
- <div class="map-toolbar"><p>${allDone?'All introductory levels completed.':started?'Pick up where you left off.':'Start at 1, or choose a topic.'}</p><button class="map-resume" data-level="${current}">${allDone?'Review':started?'Continue':'Start learning'} <span aria-hidden="true">→</span></button></div>
- <div class="map-categories">${CATEGORIES.map((c,ci)=>{
- const group=LEVELS.filter(l=>l.category===c.id),preview=group.find(l=>l.id===current)||group.find(l=>!done(l.id))||group[0];
- return `<section class="map-category" aria-labelledby="category-${c.id}"><h2 id="category-${c.id}">${c.title}</h2><p class="category-description">${c.description}</p><p class="level-preview" id="preview-${c.id}" aria-live="polite">${group.indexOf(preview)+1}: ${preview.title}</p><div class="numbered-levels">${group.map((l,i)=>{
- const complete=done(l.id),partial=Boolean(state.progress[l.id])&&!complete,status=complete?'Completed':partial?'In progress':'Not started';
- return `<button class="level-box ${complete?'complete':''} ${partial?'in-progress':''} ${l.id===current&&!allDone?'recommended':''}" data-level="${l.id}" data-preview="${l.id}" aria-label="${i+1}. ${escapeHtml(l.title)} — ${status}" title="${escapeHtml(l.title)} · ${status}"><span aria-hidden="true">${complete?'★':i+1}</span></button>`;
- }).join('')}<span class="category-count">${group.filter(l=>done(l.id)).length} / ${group.length}</span></div></section>`;
+ <div class="map-toolbar"><p>${allDone?'All introductory levels completed.':started?'Pick up where you left off.':'Begin with the purpose of an IND, or choose a topic.'}</p><button class="map-resume" data-level="${current}">${allDone?'Review':started?'Continue':'Start learning'} <span aria-hidden="true">→</span></button></div>
+ <div class="map-categories">${CATEGORIES.map(c=>{
+ const group=LEVELS.filter(l=>l.category===c.id),groupCompleted=group.filter(l=>done(l.id)).length;
+ return `<section class="map-category" aria-labelledby="category-${c.id}"><div class="map-category-heading"><h2 id="category-${c.id}">${escapeHtml(c.title)}</h2><span class="category-count">${groupCompleted} / ${group.length} completed</span></div><p class="category-description">${escapeHtml(c.description)}</p><div class="topic-grid">${group.map(l=>{
+ const complete=done(l.id),partial=Boolean(state.progress[l.id])&&!complete,recommended=l.id===current&&!allDone;
+ const status=complete?'Completed':partial?'In progress':recommended?'Start here':'Not started';
+ return `<button class="topic-card ${complete?'complete':''} ${partial?'in-progress':''} ${recommended?'recommended':''}" data-level="${l.id}" aria-label="${escapeHtml(l.title)} — ${status}"><span class="topic-title">${escapeHtml(l.title)}</span><span class="topic-card-footer"><span class="topic-status"><span class="topic-status-icon" aria-hidden="true">${complete?'✓':partial?'◐':recommended?'→':'○'}</span>${status}</span><span class="topic-open" aria-hidden="true">↗</span></span></button>`;
+ }).join('')}</div></section>`;
  }).join('')}</div>
- <div class="map-legend"><span><b class="legend-star" aria-hidden="true">★</b> Completed</span><span><i class="legend-progress" aria-hidden="true"></i> In progress</span><span>All levels are open</span></div></section>
+ <div class="map-legend"><span>All topics are open. Follow the path or explore what you need.</span></div></section>
  <div class="map-footnote"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${state.loading?'Loading saved progress…':escapeHtml(state.saveStatus)}</p>${state.saveError?button('Retry progress sync','retry','quiet'):''}<p>${ids.length} introductory lessons across ${CATEGORIES.length} sections. The order guides learning.</p></div>`;
 }
-function previewLevel(event){const el=event.target.closest('[data-preview]');if(!el)return;const l=LEVELS.find(x=>x.id===el.dataset.preview);if(!l)return;const row=$('#preview-'+l.category);if(row)row.textContent=(LEVELS.filter(x=>x.category===l.category).indexOf(l)+1)+': '+l.title;}
 function confirmProgressReset(){
  if(state.loading||resettingProgress)return;
  modal('LEARNING PROGRESS',`<h2>Reset your learning progress?</h2><p>This clears completed levels and saved lesson positions for this guide in this browser. Your learning map will return to the beginning. This cannot be undone.</p><div class="modal-actions">${button('Keep my progress','cancel-reset','quiet')}<button id="reset-progress-confirm" class="button primary" data-action="confirm-reset">Reset progress</button></div><p id="reset-progress-status" role="status"></p>`);
@@ -55,7 +55,7 @@ async function resetLearningProgress(){
   storage.removeItem('first-in-class-progress');
   if(storage.getItem('first-in-class-progress')!==null)throw new Error('Saved progress could not be removed.');
   state.progress={};state.lesson=ids[0];state.step=0;state.selected=null;state.feedback=false;state.saving=false;
-  state.saveError=false;state.saveStatus='Learning progress reset. Start at level 1.';
+  state.saveError=false;state.saveStatus='Learning progress reset. Choose a topic to begin.';
   showOverview();
   announce('Learning progress reset. No levels completed.');
  }catch{
@@ -397,7 +397,7 @@ function hitStageContent(s){
  return '<div class="target-layout hit-example-layout'+(hasEvidence?' has-figures':'')+'"><section class="target-principles"><p class="eyebrow">PUBLISHED EXPERIMENT · '+(i+1)+' / '+e.stages.length+'</p><h3>'+escapeHtml(s.title)+'</h3><p>'+escapeHtml(s.observation)+'</p>'+(s.reading?'<dl class="hit-reading-notes">'+s.reading.map(([title,text])=>'<div><dt>'+escapeHtml(title)+'</dt><dd>'+escapeHtml(text)+'</dd></div>').join('')+'</dl>':'')+(s.hideSummaryDiagram?'':'<div class="hit-evidence-flow">'+s.diagram.map(([label,detail])=>'<div><small>'+escapeHtml(label)+'</small><strong>'+escapeHtml(detail)+'</strong></div>').join('')+'</div>')+(hasEvidence?interpretation:'')+'<div class="hit-source">'+(s.sources||e.sources).map(indSourceLink).join('')+'</div></section>'+right+'</div>'+hitStageControls(e.stages,i);
 }
 
-const VERTEX_EXAMPLE_TABS=[['baseline','Profile lead 16'],['rings','Explore the indole ring'],['core','Explore the amide linker'],['substitutions','Substitute the indole'],['ringopen','Open the ring'],['phenol','Build the phenol series'],['compare','Both branches meet'],['confirm','Lead 16 → DC 48']];
+const VERTEX_EXAMPLE_TABS=[['baseline','Profile lead 16'],['core','Explore the amide linker'],['rings','Explore the indole ring'],['substitutions','Substitute the indole'],['ringopen','Open the ring'],['phenol','Build the phenol series'],['compare','Both branches meet'],['confirm','Lead 16 → DC 48']];
 function vertexCurrentExampleTab(){if(state.vertexExampleTab==='branches')return 'compare';return VERTEX_EXAMPLE_TABS.some(([id])=>id===state.vertexExampleTab)?state.vertexExampleTab:'baseline';}
 function vertexProgramMap(){
  const tab=vertexCurrentExampleTab(),nodes=hitProgram().decisionMap.nodes;
@@ -408,7 +408,26 @@ function vertexProgramMap(){
  const content=tab==='branches'?vertexProgramTree():tab==='baseline'?vertexLeadProfileTab(n):tab==='rings'?vertexIndoleTab(n):tab==='core'?vertexLinkerTab(n):tab==='substitutions'?vertexIndoleSubstitutionTab(n):tab==='ringopen'?vertexRingOpenTab(n):tab==='phenol'?vertexPhenolTab(n):tab==='compare'?vertexBranchesMeet():tab==='confirm'?vertexLeadToDC():vertexProgramMapDetail(n);
  const i=VERTEX_EXAMPLE_TABS.findIndex(([id])=>id===tab);
  const footer='<div class="vertex-example-tab-controls">'+(i?'<button type="button" class="text-button" data-vertex-example-tab="'+VERTEX_EXAMPLE_TABS[i-1][0]+'">← '+VERTEX_EXAMPLE_TABS[i-1][1]+'</button>':'<span></span>')+(i<VERTEX_EXAMPLE_TABS.length-1?'<button type="button" class="button primary" data-vertex-example-tab="'+VERTEX_EXAMPLE_TABS[i+1][0]+'">Next: '+VERTEX_EXAMPLE_TABS[i+1][1]+' →</button>':'<span class="vertex-example-end">End of the published example</span>')+'</div>';
- return nav+'<section id="vertex-example-tabpanel" role="tabpanel" aria-labelledby="vertex-tab-'+tab+'">'+(tab==='branches'?content:'<section id="hit-example-panel" aria-live="polite">'+content+'</section>')+'</section>'+footer;
+ return vertexOverviewDiagram()+nav+'<section id="vertex-example-tabpanel" role="tabpanel" aria-labelledby="vertex-tab-'+tab+'">'+(tab==='branches'?content:'<section id="hit-example-panel" aria-live="polite">'+content+'</section>')+'</section>'+footer;
+}
+const VERTEX_OVERVIEW_NODES=[
+ {id:'lead16',tab:'baseline',part:'Lead compound 16',x:28,y:139,w:156,h:70},
+ {id:'linker',tab:'core',part:'Amide linker side branch, compounds 23–26',x:224,y:20,w:268,h:56},
+ {id:'indole16',tab:'rings',part:'Indole 16 at the branch point',x:280,y:101,w:116,h:50},
+ {id:'indoline17',tab:'rings',part:'Indoline 17 at the branch point',x:280,y:221,w:116,h:50},
+ {id:'indoles',tab:'substitutions',part:'Substituted indoles 28 and 30',x:455,y:101,w:140,h:50},
+ {id:'opened',tab:'ringopen',part:'Ring-opened series leading to 36',x:455,y:221,w:116,h:50},
+ {id:'phenols',tab:'phenol',part:'Phenol series 45–48',x:632,y:221,w:142,h:50},
+ {id:'meeting',tab:'compare',part:'Compare 28, 30 and 45–48',x:871,y:139,w:218,h:70},
+ {id:'dc48',tab:'confirm',part:'Development candidate 48',x:1145,y:139,w:145,h:70}
+];
+function vertexOverviewDiagram(){
+ const active=vertexCurrentExampleTab();
+ const buttons=VERTEX_OVERVIEW_NODES.map(n=>{
+  const i=VERTEX_EXAMPLE_TABS.findIndex(([id])=>id===n.tab),label=(i+1)+'. '+VERTEX_EXAMPLE_TABS[i][1]+' — '+n.part;
+  return '<button type="button" class="vertex-overview-node" data-vertex-diagram-node="'+n.id+'" data-vertex-example-tab="'+n.tab+'" aria-pressed="'+(active===n.tab)+'" aria-controls="vertex-example-tabpanel" aria-label="'+escapeHtml(label)+'" title="'+escapeHtml(label)+'" style="left:'+n.x/1320*100+'%;top:'+n.y/300*100+'%;width:'+n.w/1320*100+'%;height:'+n.h/300*100+'%"><span class="vertex-overview-number" aria-hidden="true">'+(i+1)+'</span></button>';
+ }).join('');
+ return '<figure class="vertex-overview-diagram" aria-label="Select a numbered node to open its learning tab"><div class="vertex-overview-stage"><img src="assets/vertex-lead-dc-overview.svg" width="1320" height="300" alt="Lead 16 has an amide-linker side branch testing 23–26. The main path splits: indole 16 leads to 28 and 30; indoline 17 leads to 36, then 45–48. Both branches meet to compare 28, 30 and 45–48 before nomination of DC 48.">'+buttons+'</div></figure>';
 }
 function vertexLeadProfileTab(n){
  const p=n.simpleProfile;
@@ -716,8 +735,6 @@ function applyRoute(){
 window.addEventListener('hashchange',applyRoute);
 document.addEventListener('click',e=>{const adme=e.target.closest('[data-adme-principle]');if(adme){selectAdmePrinciple(adme.dataset.admePrinciple);return;}const sar=e.target.closest('[data-sar-principle]');if(sar){selectSarPrinciple(sar.dataset.sarPrinciple);return;}const tier=e.target.closest('[data-lead-tier]');if(tier){selectLeadTier(tier.dataset.leadTier);return;}const leadTopic=e.target.closest('[data-lead-topic]');if(leadTopic){selectLeadTopic(leadTopic.dataset.leadTopic);return;}const hitChoice=e.target.closest('[data-hit-program]');if(hitChoice){selectHitProgram(hitChoice.dataset.hitProgram);return;}const hitStage=e.target.closest('[data-hit-stage]');if(hitStage){selectHitStage(hitStage.dataset.hitStage);return;}const category=e.target.closest('[data-pi3k-category]');if(category){selectPi3kCategory(category.dataset.pi3kCategory);return;}const milestone=e.target.closest('[data-pi3k-milestone]');if(milestone)selectPi3kMilestone(milestone.dataset.pi3kMilestone);});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-clinical-phase]');if(b)selectClinicalPhase(b.dataset.clinicalPhase);});
-document.addEventListener('pointerover',previewLevel);
-document.addEventListener('focusin',previewLevel);
 window.matchMedia('(max-width:600px)').addEventListener('change',updateExposure);
 async function registerAgentTools(){const context=document.modelContext;if(!context?.registerTool)return;const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});const schema=(properties,required=[])=>({type:'object',properties,required,additionalProperties:false});const validate=(input,keys)=>{if(!input||typeof input!=='object'||Array.isArray(input)||Object.keys(input).some(k=>!keys.includes(k)))throw new Error('Invalid tool input');};const definitions=[{name:'read_learning_state',description:'Read current level, lesson step, saved completion, and model settings.',inputSchema:schema({}),annotations:{readOnlyHint:true},execute(input){validate(input,[]);return readState();}},{name:'navigate_learning_lesson',description:'Open the overview or a level. Navigation does not complete an exercise.',inputSchema:schema({lesson:{type:'string',enum:['portal','overview','small-molecule',...ids]},step:{type:'integer',minimum:0,maximum:2}},['lesson']),execute(input){validate(input,['lesson','step']);if(input.step!==undefined&&(!Number.isInteger(input.step)||input.step<0||input.step>2))throw new Error('Invalid step');if(input.lesson==='portal')return showPortal();if(['overview','small-molecule'].includes(input.lesson))return showOverview();return startLevel(input.lesson,input.step);}},{name:'configure_model_condition',description:'Set hypothetical mouse intestinal pathway suppression and open its worked example.',inputSchema:schema({engaged:{type:'boolean'}},['engaged']),execute(input){validate(input,['engaged']);setModel(input.engaged);return startLevel('model',1);}},{name:'configure_exposure_model',description:'Configure the illustrative PK model and open its worked example. Does not select clinical doses.',inputSchema:schema({bioavailability:{type:'number',minimum:.1,maximum:1,multipleOf:.05},halfLife:{type:'integer',minimum:1,maximum:12}},['bioavailability','halfLife']),execute(input){validate(input,['bioavailability','halfLife']);setExposure(input.bioavailability,input.halfLife);return startLevel('exposure',1);}}];for(const t of definitions)try{await context.registerTool({...t,annotations:{readOnlyHint:false,untrustedContentHint:false,...t.annotations}},{signal:lifecycle.signal});}catch{console.warn('Optional learning tool unavailable.');}}
 render(false);const ready=loadProgress().then(()=>{applyRoute();welcome();});registerAgentTools();

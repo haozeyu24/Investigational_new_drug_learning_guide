@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="300" viewBox="0 0 1320 300" role="img" aria-labelledby="title description">
+<title id="title">Vertex: from lead 16 to development candidate 48</title>
+<desc id="description">An amide-linker side branch tests compounds 23–26 and retains the original linker. Indole 16 leads to 28 and 30. Indoline 17 leads to 36 and then 45–48. Both branches meet to compare 28, 30 and 45–48 before nomination of development candidate 48.</desc>
+
+<!-- Subtle route backgrounds keep the two chemistry branches easy to follow. -->
+<rect x="262" y="98" width="530" height="62" rx="22" fill="#eaf2f8" opacity=".65"/>
+<rect x="262" y="218" width="530" height="62" rx="22" fill="#eaf3ed" opacity=".75"/>
+<g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M106 137V65Q106 51 120 51H213" stroke="#c1a36a" stroke-dasharray="4 5"/>
+ <path d="M207 47L213 51L207 55" stroke="#c1a36a"/>
+ <path d="M184 174H235" stroke="#9bb3c0"/>
+ <path d="M235 174V140Q235 126 249 126H270 M264 122L270 126L264 130" stroke="#7fabc4"/>
+ <path d="M235 174V232Q235 246 249 246H270 M264 242L270 246L264 250" stroke="#8bb09a"/>
+ <path d="M396 126H445 M439 122L445 126L439 130" stroke="#7fabc4"/>
+ <path d="M396 246H445 M439 242L445 246L439 250" stroke="#8bb09a"/>
+ <path d="M571 246H622 M616 242L622 246L616 250" stroke="#8bb09a"/>
+ <path d="M595 126H802Q816 126 816 140V174" stroke="#7fabc4"/>
+ <path d="M774 246H802Q816 246 816 232V174" stroke="#8bb09a"/>
+ <path d="M816 174H861 M855 170L861 174L855 178" stroke="#91aab8"/>
+ <path d="M1089 174H1135 M1129 170L1135 174L1129 178" stroke="#bb8791"/>
+</g>
+<circle cx="235" cy="174" r="3.5" fill="#91aab8" stroke="#fff" stroke-width="1.5"/>
+<circle cx="816" cy="174" r="3.5" fill="#91aab8" stroke="#fff" stroke-width="1.5"/>
+
+<rect x="28" y="142" width="156" height="70" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="28" y="139" width="156" height="70" rx="13" fill="#24596d"/>
+<text x="106" y="164" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#dbeaf1">Lead compound</text>
+<text x="106" y="193" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#fff">16</text>
+<rect x="224" y="23" width="268" height="56" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="224" y="20" width="268" height="56" rx="13" fill="#fffbf2" stroke="#e1d1ab" stroke-width="1"/>
+<text x="358" y="44" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#7d6437">Explore the amide linker</text>
+<text x="358" y="64" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#97815b">23–26 · retain the original linker</text>
+<circle cx="288" cy="85" r="3" fill="#8db0c7"/>
+<text x="301" y="90" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#6288a0" letter-spacing=".9">INDOLE ROUTE</text>
+<circle cx="288" cy="205" r="3" fill="#94b7a1"/>
+<text x="301" y="210" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#668b74" letter-spacing=".9">RING-OPENED ROUTE</text>
+<rect x="280" y="104" width="116" height="50" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="280" y="101" width="116" height="50" rx="13" fill="#fff" stroke="#cfdee8" stroke-width="1"/>
+<text x="338.0" y="134" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#2b637e">16</text>
+<rect x="455" y="104" width="140" height="50" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="455" y="101" width="140" height="50" rx="13" fill="#fff" stroke="#cfdee8" stroke-width="1"/>
+<text x="525.0" y="134" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#2b637e">28 / 30</text>
+<rect x="280" y="224" width="116" height="50" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="280" y="221" width="116" height="50" rx="13" fill="#fff" stroke="#d0e0d4" stroke-width="1"/>
+<text x="338.0" y="254" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#456d55">17</text>
+<rect x="455" y="224" width="116" height="50" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="455" y="221" width="116" height="50" rx="13" fill="#fff" stroke="#d0e0d4" stroke-width="1"/>
+<text x="513.0" y="254" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#456d55">36</text>
+<rect x="632" y="224" width="142" height="50" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="632" y="221" width="142" height="50" rx="13" fill="#fff" stroke="#d0e0d4" stroke-width="1"/>
+<text x="703.0" y="254" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#456d55">45–48</text>
+<rect x="871" y="142" width="218" height="70" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="871" y="139" width="218" height="70" rx="13" fill="#f0f7f5" stroke="#cbdde1" stroke-width="1"/>
+<text x="980" y="164" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#6b8792">Both branches meet</text>
+<text x="980" y="192" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#285968">28, 30, 45–48</text>
+<rect x="1145" y="142" width="145" height="70" rx="13" fill="#1a4255" opacity=".055"/>
+<rect x="1145" y="139" width="145" height="70" rx="13" fill="#944658"/>
+<text x="1217.5" y="164" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f1dce2" letter-spacing="1.1">DC</text>
+<text x="1217.5" y="194" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">48</text>
+</svg>
