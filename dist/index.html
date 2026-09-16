@@ -1,4 +1,4 @@
-<!-- Local bundle: cf72749723e9; refresh with python3 dist/refresh-local-html.py -->
+<!-- Local bundle: 6eb38ca0a064; refresh with python3 dist/refresh-local-html.py -->
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>First-In-Class.ai — From discovery to humans</title><meta name="description" content="How a development candidate becomes a clinical-stage drug. Interactive learning for experimental and computational scientists."><style data-local-bundle>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
@@ -1447,19 +1447,54 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 @media(max-width:760px){.evidence-flow{gap:12px}.evidence-flow button{padding:12px;gap:8px;flex-direction:column;align-items:flex-start}.evidence-flow button:not(:last-child):after{display:none}.evidence-flow button>strong{font-size:.82rem}.evidence-step-columns{grid-template-columns:1fr;gap:22px}.evidence-step-columns>div+div{border-left:0;border-top:1px solid #d4e2e8;padding:18px 0 0}.evidence-records{grid-template-columns:1fr;gap:14px}.evidence-record-heading{flex-direction:row;align-items:center;justify-content:space-between;gap:15px}.evidence-terms dl{grid-template-columns:1fr}#evidence-step-panel{padding:20px}.duration-lane{grid-template-columns:70px minmax(0,1fr);gap:10px}.duration-scale{margin-left:80px}.duration-pd strong{font-size:.72rem}.evidence-duration{padding:17px}.evidence-salt{gap:8px;padding:14px}.evidence-salt strong{font-size:1.7rem}}
 @media(max-width:480px){.duration-lane{grid-template-columns:1fr;gap:6px}.duration-scale{margin-left:0}.evidence-flow{gap:8px}.evidence-flow button{padding:11px 8px}.evidence-step-controls{align-items:flex-start;flex-wrap:wrap}.evidence-case-sources{align-items:flex-start}.evidence-record-heading{flex-direction:column;align-items:flex-start}}
 
-/* Candidate nomination: a conceptual comparison, separate from the published case. */
-.candidate-transition-flow{display:grid;grid-template-columns:minmax(0,1fr) 104px minmax(0,1fr);align-items:stretch;margin:28px 0}
-.candidate-transition-flow article{display:flex;flex-direction:column;border:1px solid #c7dce5;border-radius:12px;padding:26px;background:#f6f9fb}
-.candidate-transition-flow article:last-child{background:#edf6f7;border-color:#99bbc6}
-.candidate-stage-name{font-size:.82rem;color:#456b7c;font-weight:650;margin-bottom:16px}
-.transition-guide .candidate-transition-flow h4{font-size:1.25rem;line-height:1.4;margin:0 0 12px}
-.transition-guide .candidate-transition-flow p{margin:0 0 24px;font-size:.94rem}
-.candidate-stage-output{margin-top:auto;border-top:1px solid #cadde5;padding-top:16px}
-.candidate-stage-output>span{display:block;font-size:.75rem;color:#577185;margin-bottom:6px}
-.candidate-stage-output>strong{display:block;font-size:.95rem;line-height:1.6;font-weight:600;color:#244658}
-.candidate-transition-gate{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:0 8px;text-align:center;color:#466d7e}
-.candidate-transition-gate span{font-size:.76rem;line-height:1.5}
-.candidate-transition-gate b{font-size:2rem;font-weight:400}
+/* A single landscape scene for the change in purpose after nomination. */
+.candidate-transition-scene{padding:4px 0 0}
+.transition-guide .candidate-transition-scene>h3{font-size:1.8rem;letter-spacing:-.04em;line-height:1.3;margin-bottom:8px}
+.transition-guide .candidate-scene-intro{margin:0;color:#607889;font-size:1rem}
+.candidate-transition-flow{display:grid;grid-template-columns:minmax(0,30fr) minmax(0,17fr) minmax(0,53fr);margin:36px 0 30px;gap:0}
+.candidate-scene-stage{position:relative;min-width:0;padding:0 24px}
+.candidate-scene-stage:first-child{padding-left:0}
+.candidate-scene-stage:last-child{padding-right:0}
+.candidate-scene-marker{position:relative;border-top:2px solid #cedfe6;padding-top:20px;margin:0 -24px 20px;color:#4b6b7c;font-size:.84rem;font-weight:650;letter-spacing:.01em}
+.candidate-scene-stage:first-child .candidate-scene-marker{margin-left:0}
+.candidate-scene-stage:last-child .candidate-scene-marker{margin-right:0;border-color:#2b7084;color:#24596d}
+.candidate-scene-marker:before{content:'';position:absolute;top:-6px;left:24px;width:10px;height:10px;border-radius:50%;background:#8ba9b7;box-shadow:0 0 0 5px #fff}
+.candidate-scene-stage:first-child .candidate-scene-marker:before{left:0}
+.candidate-scene-marker>span{display:block;margin-left:24px}
+.candidate-scene-stage:first-child .candidate-scene-marker>span{margin-left:0}
+.candidate-scene-development .candidate-scene-marker:before{background:#2b7084}
+.transition-guide .candidate-scene-stage h4{font-size:1.25rem;line-height:1.4;letter-spacing:-.025em;max-width:340px;min-height:3em;margin:0 0 12px}
+.candidate-analog-family{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:8px 4px;margin:12px 0 18px}
+.candidate-analog-family img{display:block;width:100%;height:auto}
+.candidate-selected-molecule a:focus-visible{outline:2px solid #317c9a;outline-offset:3px}
+.candidate-scene-verb{display:block;font-size:.95rem;line-height:1.5;color:#284e61;font-weight:650}
+.transition-guide .candidate-scene-stage>p{font-size:.88rem;line-height:1.65;margin:7px 0 0;max-width:300px;color:#627a8b}
+.candidate-scene-selected{text-align:center}
+.candidate-scene-selected .candidate-scene-marker{color:#906019}
+.candidate-scene-selected .candidate-scene-marker:before{left:50%;background:#d59c3d}
+.candidate-scene-selected .candidate-scene-marker>span{margin-left:0}
+.candidate-selected-molecule{width:100%;max-width:210px;display:grid;place-items:center;margin:30px auto 20px;padding:12px 0;border-radius:12px;background:#fff8ea;border:1px solid #eed6a8}
+.candidate-selected-molecule a{display:block;width:100%;border-radius:5px}
+.candidate-selected-molecule img{display:block;width:100%;height:auto}
+.candidate-scene-development{padding-left:34px}
+.transition-guide .candidate-scene-development h4{font-size:1.55rem;line-height:1.4;max-width:490px;min-height:0;margin-bottom:22px}
+.candidate-scene-development .candidate-evidence-lanes li{padding:16px 18px}
+.candidate-scene-development .candidate-evidence-lanes strong{font-size:1rem}
+.candidate-scene-development .candidate-evidence-lanes div>span{font-size:.88rem}
+.candidate-evidence-lanes{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.candidate-evidence-lanes li{display:flex;align-items:center;gap:13px;padding:12px 15px;background:#f0f6f8;border-radius:8px;border-left:3px solid #6d9ba9}
+.candidate-lane-mark{display:grid;place-items:center;width:27px;height:27px;color:#397287;font-size:1.4rem;flex-shrink:0}
+.candidate-evidence-lanes strong{display:block;font-size:.93rem;color:#285365}
+.candidate-evidence-lanes div>span{display:block;font-size:.8rem;line-height:1.5;color:#597485;margin-top:3px}
+.candidate-scene-message{display:grid;grid-template-columns:minmax(110px,.6fr) minmax(0,1.3fr) minmax(0,1.1fr);align-items:center;gap:26px;padding:24px 28px;border-radius:10px;background:#24566a;color:#fff}
+.candidate-message-label{font-size:.79rem;line-height:1.6;color:#c8e0e9;max-width:120px}
+.candidate-scene-message>strong{font-size:1.12rem;line-height:1.65;font-weight:550;letter-spacing:-.02em}
+.transition-guide .candidate-scene-message>p{font-size:.85rem;line-height:1.65;color:#daebf1;margin:0;border-left:1px solid #5b8090;padding-left:24px}
+.candidate-scene-detail{margin:20px 0 8px;color:#587585;font-size:.85rem}
+.candidate-scene-detail summary{cursor:pointer;padding:8px 0;font-weight:550}
+.transition-guide .candidate-scene-detail p{font-size:.88rem;max-width:1000px;margin:12px 0}
+@media(max-width:1000px){.candidate-scene-stage{padding-left:16px;padding-right:16px}.candidate-scene-marker{margin-left:-16px;margin-right:-16px}.candidate-scene-marker:before{left:16px}.candidate-scene-marker>span{margin-left:16px}.candidate-scene-message{grid-template-columns:1fr 2fr}.transition-guide .candidate-scene-message>p{grid-column:1/-1;border-left:0;border-top:1px solid #5b8090;padding:15px 0 0}.candidate-evidence-lanes li{padding:10px;gap:8px}}
+@media(max-width:900px){.transition-guide .candidate-transition-scene>h3{font-size:1.5rem}.candidate-transition-flow{grid-template-columns:1fr;margin-top:28px}.candidate-scene-stage,.candidate-scene-stage:first-child,.candidate-scene-stage:last-child{padding:0 0 24px 26px;border-left:2px solid #cedfe6}.candidate-scene-marker,.candidate-scene-stage:first-child .candidate-scene-marker,.candidate-scene-stage:last-child .candidate-scene-marker{border-top:0;margin:0 0 12px;padding:0}.candidate-scene-marker:before,.candidate-scene-stage:first-child .candidate-scene-marker:before,.candidate-scene-selected .candidate-scene-marker:before{left:-32px;top:5px}.candidate-scene-marker>span{margin-left:0}.candidate-scene-selected{text-align:left}.candidate-selected-molecule{margin:18px 0 16px;width:160px;height:auto}.transition-guide .candidate-scene-stage h4{min-height:0;max-width:none}.candidate-analog-family{max-width:420px;gap:8px}.candidate-scene-development .candidate-evidence-lanes li{padding:14px}.candidate-scene-message{grid-template-columns:1fr;gap:12px;padding:22px}.candidate-message-label{max-width:none}.transition-guide .candidate-scene-message>p{grid-column:auto}}
 .candidate-evidence-table{margin:24px 0;overflow-x:auto;border:1px solid #cadde5;border-radius:10px}
 .candidate-evidence-table table{width:100%;border-collapse:collapse;table-layout:fixed;min-width:650px;color:#38576a;text-align:left;font-size:.91rem;line-height:1.65}
 .candidate-evidence-table th,.candidate-evidence-table td{padding:18px 20px;vertical-align:top;border-bottom:1px solid #dae6eb}
@@ -1469,7 +1504,24 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .candidate-evidence-table tbody th{color:#244658;font-weight:650;background:#fafcfd}
 .candidate-evidence-table td:last-child{background:#f3f8fa}
 .candidate-evidence-table tbody tr:last-child>*{border-bottom:0}
-@media(max-width:760px){.candidate-transition-flow{grid-template-columns:1fr}.candidate-transition-flow article{padding:22px}.candidate-transition-gate{padding:14px;gap:0}.candidate-transition-gate b{transform:rotate(90deg)}.candidate-evidence-table th,.candidate-evidence-table td{padding:14px}}
+@media(max-width:760px){.candidate-evidence-table th,.candidate-evidence-table td{padding:14px}}
+
+/* Share the molecule row so the nominated structure centers against the six analogs. */
+@media(min-width:901px){
+ .candidate-transition-flow{grid-template-rows:auto auto auto auto auto}
+ .candidate-scene-discovery,.candidate-scene-selected{display:grid;grid-template-rows:subgrid;grid-row:1 / span 5}
+ .candidate-scene-discovery{grid-column:1}
+ .candidate-scene-selected{grid-column:2}
+ .candidate-scene-development{grid-column:3;grid-row:1 / span 5}
+ .candidate-scene-selected .candidate-scene-marker{grid-row:1}
+ .candidate-analog-family{grid-row:3;margin:12px 0;align-self:center}
+ .candidate-selected-molecule{grid-row:3;align-self:center;margin:0 auto}
+ .candidate-scene-selected>p{grid-row:4;margin-top:0}
+}
+
+.candidate-selected-molecule{position:relative}
+.candidate-dc-label{position:absolute;left:50%;bottom:-12px;transform:translateX(-50%);width:max-content;max-width:calc(100% + 20px);padding:6px 10px;border:1px solid #dbc18c;border-radius:6px;background:#f6e4b9;color:#634814;font-size:.75rem;font-weight:700;line-height:1.35;text-align:center;box-shadow:0 2px 5px #7355200a}
+@media(min-width:901px){.candidate-scene-selected>p{padding-top:15px}}
 
 </style></head>
 <body><a class="skip" href="#lesson">Skip to lesson</a><header class="topbar"><a class="brand brand-attribution" href="#portal"><span class="powered-by">Powered by</span><span>First-in-Class.ai</span></a><button class="overview-link" data-action="portal">Learning paths</button></header><main id="lesson" tabindex="-1"></main><footer class="site-footer"><button class="text-button" data-action="about">About this guide</button></footer><dialog id="modal" aria-labelledby="dialog-title"><div class="modal-top"><p class="eyebrow" id="modal-kicker"></p><button class="icon-button" id="close-modal" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog><div id="announcement" class="sr-only" aria-live="polite"></div><script data-local-bundle>
@@ -6898,7 +6950,7 @@ const CATALOG = {
             },
             {
               "title": "Candidate development",
-              "question": "What can this candidate support in humans?",
+              "question": "What evidence do we need before testing in humans?",
               "action": "Characterize the selected molecule, control its material, and address the risks relevant to the proposed study.",
               "output": "An evidence package and product that can support the planned clinical investigation."
             }
@@ -9170,10 +9222,18 @@ function transitionUnderstanding(){
  const g=level().transitionGuide,t=g.tabs.find(t=>t.id===state.transitionTab)||g.tabs[0];
  return '<div class="transition-guide"><nav class="transition-tabs" aria-label="Candidate-to-development topics">'+g.tabs.map((tab,i)=>'<button data-transition-tab="'+tab.id+'" aria-pressed="'+(tab.id===t.id)+'" aria-controls="transition-panel"><span>'+(i+1)+'</span>'+escapeHtml(tab.label)+'</button>').join('')+'</nav><section id="transition-panel" aria-live="polite">'+transitionPanel(t.id)+'</section></div>';
 }
+function candidateTransitionScene(t){
+ const structure=n=>{
+  const img='<img src="assets/candidate-transition-'+n+'.svg" width="360" height="250" alt="Compound '+n+(n===48?'':'; regions varied across the series highlighted in amber')+'">';
+  return n===48?'<a href="assets/candidate-transition-'+n+'.svg" target="_blank" rel="noopener noreferrer" title="Compound '+n+' · enlarge structure" aria-label="Enlarge compound '+n+' structure">'+img+'</a>':img;
+ };
+ const evidence=[['Exposure & effect','Relate dose and schedule to the response.'],['Safety','Characterize risks and their exposure limits.'],['Drug material','Control what will be given to people.']];
+ return '<section class="candidate-transition-scene"><h3>'+escapeHtml(t.title)+'</h3><p class="candidate-scene-intro">A promising profile starts the next phase of evidence building.</p><div class="candidate-transition-flow" role="group" aria-label="Lead optimization, candidate nomination, then candidate development"><article class="candidate-scene-stage candidate-scene-discovery"><div class="candidate-scene-marker"><span>Lead optimization</span></div><h4>'+escapeHtml(t.stages[0].question)+'</h4><div class="candidate-analog-family" aria-label="Six structures from lead optimization">'+[16,28,30,36,44,45].map(structure).join('')+'</div><strong class="candidate-scene-verb">Compare · improve · select</strong><p>'+escapeHtml(t.stages[0].action)+'</p></article><article class="candidate-scene-stage candidate-scene-selected"><div class="candidate-scene-marker"><span>'+escapeHtml(t.bridge)+'</span></div><div class="candidate-selected-molecule">'+structure(48)+'<strong class="candidate-dc-label">Development Candidate</strong></div><p>A promising overall profile</p></article><article class="candidate-scene-stage candidate-scene-development"><div class="candidate-scene-marker"><span>Candidate development</span></div><h4>'+escapeHtml(t.stages[1].question)+'</h4><ul class="candidate-evidence-lanes">'+evidence.map(([title,detail],i)=>'<li><span class="candidate-lane-mark" aria-hidden="true">'+['↗','◇','≡'][i]+'</span><div><strong>'+title+'</strong><span>'+detail+'</span></div></li>').join('')+'</ul></article></div><div class="candidate-scene-message"><span class="candidate-message-label">Why the lab work continues</span><strong>Selection establishes promise.<br>Further evidence supports human testing.</strong><p>'+escapeHtml(t.keep)+'</p></div><details class="candidate-scene-detail"><summary>What changes—and what carries forward</summary><p>'+escapeHtml(t.intro)+'</p><p>'+escapeHtml(t.note)+'</p><p>Structures: compounds 16, 28, 30, 36, 44, and 45 from the ivacaftor program; compound 48 is the nominated candidate. Amber marks the regions varied around the shared framework. The structures illustrate the transition; the human-testing questions remain general. <a href="https://doi.org/10.1021/jm5012808" target="_blank" rel="noopener noreferrer">Hadida et al. (2014) ↗</a></p></details></section>';
+}
 function transitionPanel(id){
  const g=level().transitionGuide,t=g[id],i=g.tabs.findIndex(tab=>tab.id===id);
  let body='';
- if(id==='nomination')body='<h3>'+escapeHtml(t.title)+'</h3><p>'+escapeHtml(t.intro)+'</p><div class="candidate-transition-flow">'+t.stages.map((stage,j)=>(j?'<div class="candidate-transition-gate"><span>'+escapeHtml(t.bridge)+'</span><b aria-hidden="true">→</b></div>':'')+'<article><span class="candidate-stage-name">'+escapeHtml(stage.title)+'</span><h4>'+escapeHtml(stage.question)+'</h4><p>'+escapeHtml(stage.action)+'</p><div class="candidate-stage-output"><span>Outcome</span><strong>'+escapeHtml(stage.output)+'</strong></div></article>').join('')+'</div><div class="takeaway"><strong>'+escapeHtml(t.keep)+'</strong></div><p class="transition-note">'+escapeHtml(t.note)+'</p>';
+ if(id==='nomination')body=candidateTransitionScene(t);
  if(id==='questions')body='<h3>'+escapeHtml(t.title)+'</h3><p>'+escapeHtml(t.intro)+'</p><div class="candidate-evidence-table" role="region" tabindex="0" aria-label="Evidence carried forward and remaining development questions"><table><thead><tr><th scope="col">Area</th>'+t.columns.map(c=>'<th scope="col">'+escapeHtml(c)+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(row=>'<tr><th scope="row">'+escapeHtml(row.area)+'</th><td>'+escapeHtml(row.before)+'</td><td>'+escapeHtml(row.after)+'</td></tr>').join('')+'</tbody></table></div><div class="takeaway"><strong>'+escapeHtml(t.keep)+'</strong></div><p class="transition-note">'+escapeHtml(t.note)+'</p>';
  if(id==='plan')body='<h3>'+escapeHtml(t.title)+'</h3><p>'+escapeHtml(t.intro)+'</p><figure class="transition-workstreams"><div class="transition-study"><strong>Proposed human study</strong><span>Participants · route · duration · schedule</span></div><div class="transition-streams">'+t.streams.map(stream=>'<article><h4>'+escapeHtml(stream.title)+'</h4><p>'+escapeHtml(stream.text)+'</p><button class="text-button" data-level="'+stream.lesson+'">'+escapeHtml(stream.link)+' →</button></article>').join('')+'</div><figcaption>'+escapeHtml(t.note)+'</figcaption></figure><div class="takeaway"><strong>'+escapeHtml(t.keep)+'</strong></div>';
  const controls='<div class="hit-stage-controls">'+(i?'<button class="text-button" data-transition-tab="'+g.tabs[i-1].id+'">← Previous topic</button>':'<span></span>')+'<span>'+(i+1)+' / '+g.tabs.length+'</span>'+(i<g.tabs.length-1?'<button class="text-button" data-transition-tab="'+g.tabs[i+1].id+'">'+escapeHtml(g.tabs[i+1].label)+' →</button>':'<span>Next: See an example</span>')+'</div>';

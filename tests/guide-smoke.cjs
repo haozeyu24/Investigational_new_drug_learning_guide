@@ -195,9 +195,9 @@ console.log('PASS: five lead-optimization topics and four connected dimensions, 
  run("startLevel('candidate-nomination',0)");
  for(const tab of ['nomination','questions','plan']){
   click('transitionTab',tab);const out=node('#lesson').innerHTML;
-  assert(!/Osimertinib|osimertinib|AZD9291|Vertex|Compound 48/.test(out),'Understand stays conceptual');
+  assert(!/Osimertinib|osimertinib|AZD9291/.test(out),'Osimertinib case narrative stays in the example');
   assert(!/undefined|NaN/.test(out));assert(out.includes('Sources for these principles'));
-  if(tab==='nomination'){assert(out.includes('candidate-transition-flow'));assert(out.includes('Which molecule should we develop?'));assert(out.includes('What can this candidate support in humans?'));}
+  if(tab==='nomination'){assert(out.includes('candidate-transition-flow'));assert(out.includes('Which molecule should we develop?'));assert(out.includes('What evidence do we need before testing in humans?'));for(const n of [16,28,30,36,44,45,48]){const asset='assets/candidate-transition-'+n+'.svg';assert(out.includes(asset));assert(fs.existsSync('dist/'+asset));}assert.equal((out.match(/<img src="assets\/candidate-transition-/g)||[]).length,7);}
   if(tab==='questions'){assert(out.includes('candidate-evidence-table'));assert(out.includes('Reuse suitable evidence'));assert.equal((out.match(/scope="row"/g)||[]).length,4);}
  }
  run('moveStep(1)');assert(node('#lesson').innerHTML.includes('Osimertinib'));

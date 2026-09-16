@@ -5373,7 +5373,7 @@ const CATALOG = {
             },
             {
               "title": "Candidate development",
-              "question": "What can this candidate support in humans?",
+              "question": "What evidence do we need before testing in humans?",
               "action": "Characterize the selected molecule, control its material, and address the risks relevant to the proposed study.",
               "output": "An evidence package and product that can support the planned clinical investigation."
             }
