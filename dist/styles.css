@@ -1321,3 +1321,29 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 @media(max-width:800px){.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topic-card{min-height:116px}.map-category-heading{gap:12px}}
 @media(max-width:480px){.map-category-heading{align-items:flex-start;flex-direction:column;gap:3px}.topic-grid{gap:10px}.topic-card{padding:14px 12px 11px;min-height:130px;gap:18px}.topic-title{font-size:.88rem}.topic-status{font-size:.65rem}.topic-open{display:none}}
 @media(prefers-reduced-motion:reduce){.topic-card{transition:none}.topic-card:hover{transform:none}}
+
+/* Practical development: one readable path instead of parallel checklists. */
+.practical-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;gap:28px;margin:30px 0;padding:0}
+.practical-flow li{position:relative;border-top:2px solid #b6cfd9;padding:18px 0 0;min-width:0}
+.practical-flow li:not(:last-child):after{content:'→';position:absolute;right:-24px;top:-14px;color:#769baa;background:white;padding:0 3px}
+.practical-step{display:grid;place-items:center;width:28px;height:28px;margin-bottom:14px;background:#e9f2f5;color:#2b6479;border-radius:50%;font-size:.78rem}
+.practical-flow h4{font-size:1.16rem;color:#244658;margin:0 0 14px}
+.practical-flow strong{display:block;color:#35596a;font-size:.9rem;font-weight:600;line-height:1.5}
+.practical-flow p{font-size:.9rem;line-height:1.7;color:#526879;margin:8px 0 0}
+.practical-decision{border-left:3px solid #4c8a9b;background:#f0f7f9;border-radius:0 8px 8px 0;padding:18px 22px;color:#244658}
+.practical-decision strong{font-size:.95rem}
+.practical-decision p{margin:8px 0 0;font-size:.92rem;line-height:1.7}
+.practical-development .practical-note{font-size:.83rem;color:#526879;line-height:1.7;margin:20px 0}
+@media(max-width:680px){.practical-flow{grid-template-columns:1fr;gap:22px}.practical-flow li:not(:last-child):after{display:none}.practical-step{float:left;margin:0 12px 0 0}.practical-flow h4{margin-bottom:12px}.practical-decision{padding:16px}}
+
+/* Close lead optimization with three possible outcomes and one chapter link. */
+.nomination-outcomes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}
+.nomination-outcome{border:1px solid #d3e1e7;border-top:3px solid #94b5c5;border-radius:10px;padding:22px;background:#f6f9fb}
+.nomination-advance{border-color:#c9dfd4;border-top-color:#6d9b83;background:#f2f8f4}
+.nomination-redirect{border-color:#e3d9c7;border-top-color:#b7a074;background:#fcf9f3}
+.nomination-outcome h4{margin:0 0 12px;color:#244658;font-size:1.1rem;line-height:1.4}
+.nomination-outcome p{margin:0;color:#4d6373;font-size:.92rem;line-height:1.7}
+.nomination-next{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:22px;border-top:1px solid #dbe5ea}
+.nomination-next p{margin:0;color:#4d6373;font-size:.9rem;line-height:1.65}
+.nomination-next .button{flex-shrink:0}
+@media(max-width:760px){.nomination-outcomes{grid-template-columns:1fr;gap:14px}.nomination-outcome{padding:18px}.nomination-next{align-items:flex-start;flex-direction:column}}

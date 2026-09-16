@@ -1,4 +1,4 @@
-<!-- Local bundle: d0c8588fd86b; refresh with python3 dist/refresh-local-html.py -->
+<!-- Local bundle: bb6ab587fb57; refresh with python3 dist/refresh-local-html.py -->
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>First-In-Class.ai — From discovery to humans</title><meta name="description" content="How a development candidate becomes a clinical-stage drug. Interactive learning for experimental and computational scientists."><style data-local-bundle>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
@@ -1324,6 +1324,32 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 @media(max-width:800px){.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topic-card{min-height:116px}.map-category-heading{gap:12px}}
 @media(max-width:480px){.map-category-heading{align-items:flex-start;flex-direction:column;gap:3px}.topic-grid{gap:10px}.topic-card{padding:14px 12px 11px;min-height:130px;gap:18px}.topic-title{font-size:.88rem}.topic-status{font-size:.65rem}.topic-open{display:none}}
 @media(prefers-reduced-motion:reduce){.topic-card{transition:none}.topic-card:hover{transform:none}}
+
+/* Practical development: one readable path instead of parallel checklists. */
+.practical-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;gap:28px;margin:30px 0;padding:0}
+.practical-flow li{position:relative;border-top:2px solid #b6cfd9;padding:18px 0 0;min-width:0}
+.practical-flow li:not(:last-child):after{content:'→';position:absolute;right:-24px;top:-14px;color:#769baa;background:white;padding:0 3px}
+.practical-step{display:grid;place-items:center;width:28px;height:28px;margin-bottom:14px;background:#e9f2f5;color:#2b6479;border-radius:50%;font-size:.78rem}
+.practical-flow h4{font-size:1.16rem;color:#244658;margin:0 0 14px}
+.practical-flow strong{display:block;color:#35596a;font-size:.9rem;font-weight:600;line-height:1.5}
+.practical-flow p{font-size:.9rem;line-height:1.7;color:#526879;margin:8px 0 0}
+.practical-decision{border-left:3px solid #4c8a9b;background:#f0f7f9;border-radius:0 8px 8px 0;padding:18px 22px;color:#244658}
+.practical-decision strong{font-size:.95rem}
+.practical-decision p{margin:8px 0 0;font-size:.92rem;line-height:1.7}
+.practical-development .practical-note{font-size:.83rem;color:#526879;line-height:1.7;margin:20px 0}
+@media(max-width:680px){.practical-flow{grid-template-columns:1fr;gap:22px}.practical-flow li:not(:last-child):after{display:none}.practical-step{float:left;margin:0 12px 0 0}.practical-flow h4{margin-bottom:12px}.practical-decision{padding:16px}}
+
+/* Close lead optimization with three possible outcomes and one chapter link. */
+.nomination-outcomes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}
+.nomination-outcome{border:1px solid #d3e1e7;border-top:3px solid #94b5c5;border-radius:10px;padding:22px;background:#f6f9fb}
+.nomination-advance{border-color:#c9dfd4;border-top-color:#6d9b83;background:#f2f8f4}
+.nomination-redirect{border-color:#e3d9c7;border-top-color:#b7a074;background:#fcf9f3}
+.nomination-outcome h4{margin:0 0 12px;color:#244658;font-size:1.1rem;line-height:1.4}
+.nomination-outcome p{margin:0;color:#4d6373;font-size:.92rem;line-height:1.7}
+.nomination-next{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:22px;border-top:1px solid #dbe5ea}
+.nomination-next p{margin:0;color:#4d6373;font-size:.9rem;line-height:1.65}
+.nomination-next .button{flex-shrink:0}
+@media(max-width:760px){.nomination-outcomes{grid-template-columns:1fr;gap:14px}.nomination-outcome{padding:18px}.nomination-next{align-items:flex-start;flex-direction:column}}
 
 </style></head>
 <body><a class="skip" href="#lesson">Skip to lesson</a><header class="topbar"><a class="brand brand-attribution" href="#portal"><span class="powered-by">Powered by</span><span>First-in-Class.ai</span></a><button class="overview-link" data-action="portal">Learning paths</button></header><main id="lesson" tabindex="-1"></main><footer class="site-footer"><button class="text-button" data-action="about">About this guide</button></footer><dialog id="modal" aria-labelledby="dialog-title"><div class="modal-top"><p class="eyebrow" id="modal-kicker"></p><button class="icon-button" id="close-modal" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog><div id="announcement" class="sr-only" aria-live="polite"></div><script data-local-bundle>
@@ -4054,112 +4080,73 @@ const CATALOG = {
           {
             "id": "developability",
             "label": "Practical development",
-            "title": "Can the team make, characterize, and deliver the compound?",
-            "intro": "An attractive biological profile must be supported by reliable material and a plausible development path. Chemistry, formulation, and intellectual-property considerations can change which analogs are worth pursuing.",
+            "title": "Can we make it and use it reliably?",
+            "intro": "As activity improves, check that the compound can support the next studies.",
             "strategic": true,
-            "cards": [
-              {
-                "title": "Synthesis and supply",
-                "text": "Evaluate route flexibility, step count, yields, stereochemical control, purification, raw materials, and scalability. Supply must support decision-making studies with reproducible material."
-              },
-              {
-                "title": "Identity and stability",
-                "text": "Characterize purity, impurities, stereoisomers, degradation, and analytical detectability. Understand whether material changes could compromise interpretation across studies."
-              },
-              {
-                "title": "Solid form and formulation",
-                "text": "Explore salt or solid-form options where relevant, dissolution, stability, and workable dose delivery. Avoid relying on an impractical vehicle to hide a persistent molecular liability."
-              },
-              {
-                "title": "IP and differentiation",
-                "text": "Review patentability, existing claims, and freedom to operate with specialists. Novelty alone does not establish patentability; these reviews begin earlier and continue alongside SAR."
-              }
-            ],
-            "sar": [
-              {
-                "title": "Design",
-                "text": "Keep synthetic access and stereochemistry visible when choosing substitutions. An easily varied series can answer questions faster than an inaccessible potency leader."
-              },
-              {
-                "title": "Bridge",
-                "text": "Track which form, purity, and formulation were used in each assay or study. Investigate whether changes in material explain changes in performance."
-              },
-              {
-                "title": "Plan",
-                "text": "Identify chemistry and supply risks before committing to a candidate. Full commercial process optimization is not required to answer every early question."
-              }
-            ],
-            "output": "A feasible material and formulation plan, with synthesis, analytical, and IP risks visible to the program team.",
-            "team": [
-              "Medicinal / process chemistry",
-              "Analytical chemistry",
-              "Formulation",
-              "Development",
-              "IP specialists"
-            ],
             "sources": [
               3,
               15,
               16
             ],
-            "note": ""
+            "practicalFlow": [
+              {
+                "title": "Make it",
+                "question": "Can we supply enough compound?",
+                "text": "Find a repeatable synthesis that gives enough material for the planned studies."
+              },
+              {
+                "title": "Know the material",
+                "question": "Are we testing what we think we are?",
+                "text": "Confirm identity, purity, and stability so results can be compared across batches."
+              },
+              {
+                "title": "Deliver the dose",
+                "question": "Can we give the intended dose?",
+                "text": "Find a workable formulation that keeps the compound stable and delivers it by the planned route."
+              }
+            ],
+            "decision": "If a practical barrier persists, change the chemistry, improve the formulation, or prioritize another analog.",
+            "scope": "During lead optimization, identify these barriers early. A finished commercial manufacturing process is not required.",
+            "ipNote": "Alongside this work, IP specialists assess patentability and freedom to operate."
           },
           {
-            "id": "optimization",
-            "label": "Make the decision",
-            "title": "Use each SAR cycle to reduce the next important uncertainty",
-            "intro": "The team integrates activity, selectivity, properties, exposure, safety, and practical chemistry. A compound is chosen for the decision it can support; no single score or assay establishes readiness for development.",
-            "strategic": true,
-            "cards": [
-              {
-                "title": "Profile a broad set",
-                "text": "Confirm chemistry and activity and run informative, efficient property assays. Preserve matched pairs and useful negative controls; do not test only the most potent analogs."
-              },
-              {
-                "title": "Select informative representatives",
-                "text": "Choose compounds that distinguish hypotheses or reveal trade-offs. Expand cellular, selectivity, ADME, and safety profiling according to each series’ risks."
-              },
-              {
-                "title": "Invest in focused studies",
-                "text": "Use selected analogs for deeper PK, target-site exposure, PD, efficacy, and tolerability studies. Set an explicit question, suitable material, controls, and an interpretation plan."
-              },
-              {
-                "title": "Reassess the program",
-                "text": "Continue, redirect, retain a backup, pause, or stop based on the whole profile. Nominate a development candidate only against agreed criteria and documented remaining risks."
-              }
-            ],
-            "sar": [
-              {
-                "title": "Before synthesis",
-                "text": "State the hypothesis, the feature being changed, the anticipated gain, and the property or activity that must be preserved."
-              },
-              {
-                "title": "After testing",
-                "text": "Compare activity and properties with uncertainty and assay conditions visible. Separate an unmeasured risk from a reassuring result; revisit predictions against experiments."
-              },
-              {
-                "title": "At review",
-                "text": "Choose the next experiment by how much it could change the decision, alongside time, material, cost, and model relevance. Record the rationale and accountable owners."
-              }
-            ],
-            "output": "A ranked analog set, explicit next experiments, a backup strategy, and a defensible continue / redirect / nominate decision.",
-            "team": [
-              "Cross-functional program team"
-            ],
-            "sources": [
-              3,
-              4,
-              6,
-              0
-            ],
-            "note": "These are flexible testing groups, not sequential gates. DC nomination is an internal decision; it does not mean the IND package is complete or human dosing is authorized.",
-            "related": [
-              [
-                "candidate-nomination",
-                "Continue to DC nomination"
+              "id": "optimization",
+              "label": "Ready for DC nomination?",
+              "title": "Ready for DC nomination?",
+              "intro": "Bring the goal, the trade-offs, and practical feasibility together. Does the combined evidence support taking this compound forward?",
+              "strategic": true,
+              "nominationHandoff": true,
+              "outcomes": [
+                {
+                  "id": "advance",
+                  "title": "Advance for nomination",
+                  "text": "The overall profile supports further development. Bring the evidence and remaining risks to the candidate review."
+                },
+                {
+                  "id": "continue",
+                  "title": "Continue optimization",
+                  "text": "Specific gaps remain. Set the next chemistry or testing priority around the gap most likely to change the decision."
+                },
+                {
+                  "id": "redirect",
+                  "title": "Stop or change direction",
+                  "text": "The series cannot meet the intended profile. Reconsider the chemistry or the program strategy."
+                }
+              ],
+              "note": "DC nomination is an internal development decision. It does not mean the IND package is complete or human dosing is authorized.",
+              "related": [
+                [
+                  "candidate-nomination",
+                  "Explore DC nomination"
+                ]
+              ],
+              "sources": [
+                3,
+                4,
+                6,
+                0
               ]
-            ]
-          }
+            }
         ],
         "strategicOverview": true
       },
@@ -8139,6 +8126,8 @@ function showVertexLeadExample(){
 
 function leadStrategyTopic(t,reading,controls){
  const intro=t.introEmphasis?escapeHtml(t.intro).replace(escapeHtml(t.introEmphasis),'<strong>'+escapeHtml(t.introEmphasis)+'</strong>'):escapeHtml(t.intro);
+ if(t.nominationHandoff)return '<section class="stage-overview lead-strategy nomination-handoff"><header><h3>'+escapeHtml(t.title)+'</h3><p>'+intro+'</p></header><div class="nomination-outcomes">'+t.outcomes.map(c=>'<article class="nomination-outcome nomination-'+c.id+'"><h4>'+escapeHtml(c.title)+'</h4><p>'+escapeHtml(c.text)+'</p></article>').join('')+'</div><div class="nomination-next"><p>The next chapter covers the evidence review and the nomination process.</p><button class="button primary" data-level="'+escapeHtml(t.related[0][0])+'">'+escapeHtml(t.related[0][1])+' →</button></div><p class="lead-scope">'+escapeHtml(t.note)+'</p>'+reading+'</section>'+controls;
+ if(t.practicalFlow)return '<section class="stage-overview lead-strategy practical-development"><header><h3>'+escapeHtml(t.title)+'</h3><p>'+intro+'</p></header><ol class="practical-flow" aria-label="Three practical development checks">'+t.practicalFlow.map((c,i)=>'<li><span class="practical-step">'+(i+1)+'</span><h4>'+escapeHtml(c.title)+'</h4><strong>'+escapeHtml(c.question)+'</strong><p>'+escapeHtml(c.text)+'</p></li>').join('')+'</ol><div class="practical-decision"><strong>Use the findings to guide SAR</strong><p>'+escapeHtml(t.decision)+'</p></div><p class="practical-note">'+escapeHtml(t.scope)+'</p><details class="hit-reading"><summary>Where intellectual property fits</summary><p>'+escapeHtml(t.ipNote)+'</p></details>'+reading+'</section>'+controls;
  if(t.profileFlow)return '<section class="stage-overview lead-strategy"><header><h3>'+escapeHtml(t.title)+'</h3><p>'+intro+'</p></header>'+'<div class="profile-example-branch">'+profileDecisionFlow(t)+(t.vertexProfile?'<div class="profile-example-connector" aria-hidden="true"></div>'+vertexProfileExample(t.vertexProfile):'')+'</div>'+reading+'</section>'+controls;
  if(t.stageMap)return '<section class="stage-overview lead-strategy"><header><h3>'+escapeHtml(t.title)+'</h3><p>'+intro+'</p></header>'+leadOptimizationStageMap(t)+reading+'</section>'+controls;
  const cycle=t.cycle?'<div class="strategy-cycle"><ol aria-label="The repeating lead optimization cycle">'+t.cycle.map((label,i)=>'<li><span>'+(i+1)+'</span>'+escapeHtml(label)+'</li>').join('')+'</ol><p>↶ Feed the results into the next chemical hypothesis</p></div>':'';

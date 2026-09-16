@@ -2675,112 +2675,73 @@ const CATALOG = {
           {
             "id": "developability",
             "label": "Practical development",
-            "title": "Can the team make, characterize, and deliver the compound?",
-            "intro": "An attractive biological profile must be supported by reliable material and a plausible development path. Chemistry, formulation, and intellectual-property considerations can change which analogs are worth pursuing.",
+            "title": "Can we make it and use it reliably?",
+            "intro": "As activity improves, check that the compound can support the next studies.",
             "strategic": true,
-            "cards": [
-              {
-                "title": "Synthesis and supply",
-                "text": "Evaluate route flexibility, step count, yields, stereochemical control, purification, raw materials, and scalability. Supply must support decision-making studies with reproducible material."
-              },
-              {
-                "title": "Identity and stability",
-                "text": "Characterize purity, impurities, stereoisomers, degradation, and analytical detectability. Understand whether material changes could compromise interpretation across studies."
-              },
-              {
-                "title": "Solid form and formulation",
-                "text": "Explore salt or solid-form options where relevant, dissolution, stability, and workable dose delivery. Avoid relying on an impractical vehicle to hide a persistent molecular liability."
-              },
-              {
-                "title": "IP and differentiation",
-                "text": "Review patentability, existing claims, and freedom to operate with specialists. Novelty alone does not establish patentability; these reviews begin earlier and continue alongside SAR."
-              }
-            ],
-            "sar": [
-              {
-                "title": "Design",
-                "text": "Keep synthetic access and stereochemistry visible when choosing substitutions. An easily varied series can answer questions faster than an inaccessible potency leader."
-              },
-              {
-                "title": "Bridge",
-                "text": "Track which form, purity, and formulation were used in each assay or study. Investigate whether changes in material explain changes in performance."
-              },
-              {
-                "title": "Plan",
-                "text": "Identify chemistry and supply risks before committing to a candidate. Full commercial process optimization is not required to answer every early question."
-              }
-            ],
-            "output": "A feasible material and formulation plan, with synthesis, analytical, and IP risks visible to the program team.",
-            "team": [
-              "Medicinal / process chemistry",
-              "Analytical chemistry",
-              "Formulation",
-              "Development",
-              "IP specialists"
-            ],
             "sources": [
               3,
               15,
               16
             ],
-            "note": ""
+            "practicalFlow": [
+              {
+                "title": "Make it",
+                "question": "Can we supply enough compound?",
+                "text": "Find a repeatable synthesis that gives enough material for the planned studies."
+              },
+              {
+                "title": "Know the material",
+                "question": "Are we testing what we think we are?",
+                "text": "Confirm identity, purity, and stability so results can be compared across batches."
+              },
+              {
+                "title": "Deliver the dose",
+                "question": "Can we give the intended dose?",
+                "text": "Find a workable formulation that keeps the compound stable and delivers it by the planned route."
+              }
+            ],
+            "decision": "If a practical barrier persists, change the chemistry, improve the formulation, or prioritize another analog.",
+            "scope": "During lead optimization, identify these barriers early. A finished commercial manufacturing process is not required.",
+            "ipNote": "Alongside this work, IP specialists assess patentability and freedom to operate."
           },
           {
-            "id": "optimization",
-            "label": "Make the decision",
-            "title": "Use each SAR cycle to reduce the next important uncertainty",
-            "intro": "The team integrates activity, selectivity, properties, exposure, safety, and practical chemistry. A compound is chosen for the decision it can support; no single score or assay establishes readiness for development.",
-            "strategic": true,
-            "cards": [
-              {
-                "title": "Profile a broad set",
-                "text": "Confirm chemistry and activity and run informative, efficient property assays. Preserve matched pairs and useful negative controls; do not test only the most potent analogs."
-              },
-              {
-                "title": "Select informative representatives",
-                "text": "Choose compounds that distinguish hypotheses or reveal trade-offs. Expand cellular, selectivity, ADME, and safety profiling according to each series’ risks."
-              },
-              {
-                "title": "Invest in focused studies",
-                "text": "Use selected analogs for deeper PK, target-site exposure, PD, efficacy, and tolerability studies. Set an explicit question, suitable material, controls, and an interpretation plan."
-              },
-              {
-                "title": "Reassess the program",
-                "text": "Continue, redirect, retain a backup, pause, or stop based on the whole profile. Nominate a development candidate only against agreed criteria and documented remaining risks."
-              }
-            ],
-            "sar": [
-              {
-                "title": "Before synthesis",
-                "text": "State the hypothesis, the feature being changed, the anticipated gain, and the property or activity that must be preserved."
-              },
-              {
-                "title": "After testing",
-                "text": "Compare activity and properties with uncertainty and assay conditions visible. Separate an unmeasured risk from a reassuring result; revisit predictions against experiments."
-              },
-              {
-                "title": "At review",
-                "text": "Choose the next experiment by how much it could change the decision, alongside time, material, cost, and model relevance. Record the rationale and accountable owners."
-              }
-            ],
-            "output": "A ranked analog set, explicit next experiments, a backup strategy, and a defensible continue / redirect / nominate decision.",
-            "team": [
-              "Cross-functional program team"
-            ],
-            "sources": [
-              3,
-              4,
-              6,
-              0
-            ],
-            "note": "These are flexible testing groups, not sequential gates. DC nomination is an internal decision; it does not mean the IND package is complete or human dosing is authorized.",
-            "related": [
-              [
-                "candidate-nomination",
-                "Continue to DC nomination"
+              "id": "optimization",
+              "label": "Ready for DC nomination?",
+              "title": "Ready for DC nomination?",
+              "intro": "Bring the goal, the trade-offs, and practical feasibility together. Does the combined evidence support taking this compound forward?",
+              "strategic": true,
+              "nominationHandoff": true,
+              "outcomes": [
+                {
+                  "id": "advance",
+                  "title": "Advance for nomination",
+                  "text": "The overall profile supports further development. Bring the evidence and remaining risks to the candidate review."
+                },
+                {
+                  "id": "continue",
+                  "title": "Continue optimization",
+                  "text": "Specific gaps remain. Set the next chemistry or testing priority around the gap most likely to change the decision."
+                },
+                {
+                  "id": "redirect",
+                  "title": "Stop or change direction",
+                  "text": "The series cannot meet the intended profile. Reconsider the chemistry or the program strategy."
+                }
+              ],
+              "note": "DC nomination is an internal development decision. It does not mean the IND package is complete or human dosing is authorized.",
+              "related": [
+                [
+                  "candidate-nomination",
+                  "Explore DC nomination"
+                ]
+              ],
+              "sources": [
+                3,
+                4,
+                6,
+                0
               ]
-            ]
-          }
+            }
         ],
         "strategicOverview": true
       },
