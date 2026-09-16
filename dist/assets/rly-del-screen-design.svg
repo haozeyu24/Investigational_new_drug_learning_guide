@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="610" viewBox="0 0 760 610" role="img" aria-labelledby="title desc">
+  <title id="title">DEL selection with the ATP-binding pocket occupied</title>
+  <desc id="desc">Run separate selections with immobilized full-length mutant and wild-type PI3K alpha. Taselisib (GDC-0032) occupies the ATP-binding pocket. Add DNA-tagged compounds, wash away unretained compounds, recover retained barcodes, and compare enrichment. This binding selection does not measure enzyme inhibition.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9" fill="none" stroke="#557b8b" stroke-width="1.5"/></marker>
+    <g id="protein">
+      <path d="M78 140C78 122 103 119 117 132C131 112 156 126 154 148C179 149 189 169 174 184L159 180L154 192L172 198C185 220 161 240 143 229C124 249 99 238 96 220C72 224 60 207 68 189L83 188L83 174L67 170C60 156 65 145 78 140Z" fill="#dbeaf0" stroke="#49778c" stroke-width="2.5"/>
+      <path d="M72 174h15v13H72Z" fill="#efbd56" stroke="#8c681f" stroke-width="2"/>
+      <path d="M120 238v16" stroke="#678495" stroke-width="3"/>
+      <circle cx="120" cy="269" r="15" fill="#e7dfd1" stroke="#9c8a6b" stroke-width="2"/>
+      <text x="120" y="274" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#65553d">Ni</text>
+    </g>
+    <g id="tag">
+      <path d="M0 0H28M0 8H28M3 0V8M9 0V8M15 0V8M21 0V8M27 0V8" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </g>
+    <g id="bound">
+      <path d="M158 181L170 176L179 186L169 197L157 192Z" fill="#bb6c9b" stroke="#753e63" stroke-width="2"/>
+      <path d="M180 186h12" stroke="#753e63" stroke-width="1.8"/>
+      <use href="#tag" transform="translate(192 182)" color="#753e63"/>
+    </g>
+    <style>text{font-family:Arial,sans-serif}.heading{font-size:18px;font-weight:700;fill:#234b5e}.body{font-size:15px;fill:#425d6b}.small{font-size:13px;fill:#566d79}.num{font-size:14px;font-weight:700;fill:white}</style>
+  </defs>
+  <rect width="760" height="610" rx="12" fill="#fff"/>
+  <text x="380" y="27" text-anchor="middle" class="heading">One selection design. Separate protein variants.</text>
+  <rect x="151" y="43" width="218" height="35" rx="17" fill="#edf3fb" stroke="#b5c9de"/>
+  <text x="260" y="66" text-anchor="middle" class="body">Mutant PI3Kα</text>
+  <text x="388" y="66" text-anchor="middle" class="body">↔</text>
+  <rect x="410" y="43" width="199" height="35" rx="17" fill="#f3f5f6" stroke="#ccd7dc"/>
+  <text x="509" y="66" text-anchor="middle" class="body">Wild-type PI3Kα</text>
+  <text x="380" y="98" text-anchor="middle" class="small">Compare like-for-like selections with Taselisib (GDC-0032) present</text>
+
+  <g transform="translate(18 115)">
+    <rect width="232" height="312" rx="10" fill="#f5f9fb" stroke="#cfdee5"/>
+    <circle cx="25" cy="26" r="12" fill="#235e74"/><text x="25" y="31" text-anchor="middle" class="num">1</text>
+    <text x="47" y="32" class="heading">Occupy ATP site</text>
+    <text x="16" y="60" class="body">Add orthosteric inhibitor</text>
+    <text x="16" y="80" class="body">Taselisib (GDC-0032).</text>
+    <use href="#protein" transform="translate(0 -10)"/>
+    <path d="M27 141L72 170" stroke="#9a7329" stroke-width="1.5" fill="none"/>
+    <text x="17" y="126" class="small">ATP pocket</text>
+    <text x="120" y="297" text-anchor="middle" class="small">His-tag / Ni-NTA support</text>
+  </g>
+  <g transform="translate(264 115)">
+    <rect width="232" height="312" rx="10" fill="#f5f9fb" stroke="#cfdee5"/>
+    <circle cx="25" cy="26" r="12" fill="#235e74"/><text x="25" y="31" text-anchor="middle" class="num">2</text>
+    <text x="47" y="32" class="heading">Incubate library</text>
+    <text x="16" y="60" class="body">Each small molecule has</text>
+    <text x="16" y="80" class="body">an identifying DNA tag.</text>
+    <use href="#protein" transform="translate(0 -10)"/>
+    <use href="#bound" transform="translate(0 -10)"/>
+    <circle cx="36" cy="109" r="7" fill="#7bad99" stroke="#436e5d" stroke-width="1.5"/>
+    <use href="#tag" transform="translate(46 105)" color="#436e5d"/>
+    <path d="M169 100L177 113L161 113Z" fill="#91a4d2" stroke="#576eaa" stroke-width="1.5"/>
+    <use href="#tag" transform="translate(181 104)" color="#576eaa"/>
+    <text x="116" y="297" text-anchor="middle" class="small">Seek binders at other sites</text>
+  </g>
+  <g transform="translate(510 115)">
+    <rect width="232" height="312" rx="10" fill="#f5f9fb" stroke="#cfdee5"/>
+    <circle cx="25" cy="26" r="12" fill="#235e74"/><text x="25" y="31" text-anchor="middle" class="num">3</text>
+    <text x="47" y="32" class="heading">Wash &amp; recover</text>
+    <text x="16" y="60" class="body">Remove unretained</text>
+    <text x="16" y="80" class="body">library compounds.</text>
+    <use href="#protein" transform="translate(0 -10)"/>
+    <use href="#bound" transform="translate(0 -10)"/>
+    <path d="M41 121L20 99M179 115L210 98" stroke="#a2b5be" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+    <text x="116" y="297" text-anchor="middle" class="small">Recover retained DNA tags</text>
+  </g>
+  <path d="M252 308h9" stroke="#557b8b" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <path d="M498 308h9" stroke="#557b8b" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <path d="M626 432v25" stroke="#557b8b" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <rect x="18" y="468" width="724" height="102" rx="10" fill="#edf5f8" stroke="#b8d0dc"/>
+  <circle cx="44" cy="494" r="12" fill="#235e74"/><text x="44" y="499" text-anchor="middle" class="num">4</text>
+  <text x="66" y="500" class="heading">Sequence barcodes &amp; compare enrichment</text>
+  <text x="38" y="526" class="body">Prioritize candidates enriched with mutant protein relative to wild type.</text>
+  <text x="38" y="551" font-size="16" font-weight="700" fill="#234b5e">Then synthesize off-DNA and test binding AND enzyme inhibition.</text>
+  <text x="380" y="595" text-anchor="middle" class="small">Teaching schematic: illustrative shapes and binding pose; not measured data.</text>
+</svg>

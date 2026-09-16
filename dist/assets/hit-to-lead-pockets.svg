@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+<title id="title">Productive growth opportunities depend on the hit and its binding pose</title>
+<desc id="desc">Illustrative binding poses. On the left, an irregular enclosed pocket offers three proposed growth directions toward protein features. On the right, a shallow indentation places most proposed extensions in solvent, without additional protein contacts. The headings describe opportunities in these poses, not a universal rule about pocket depth or whether a series can progress.</desc>
+<defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#244658}.heading{font-size:28px;font-weight:700}.body{font-size:21px}.small{font-size:18px}.label{font-size:20px;font-weight:700}.protein{fill:#dce6ee;stroke:#91aab9;stroke-width:2.5}.growth{stroke:#338978;stroke-width:5;fill:none;stroke-linecap:round;marker-end:url(#growthArrow)}.group{fill:#c5e6da;stroke:#338978;stroke-width:2.5}.contact{stroke:#b78328;stroke-width:3;stroke-dasharray:5 5}.site{fill:#e7bb66;stroke:#a97b2e;stroke-width:2}
+</style>
+<marker id="growthArrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6Z" fill="#338978"/></marker>
+<g id="hit"><path d="M-35-20 L0-40 L35-20 L35 20 L0 40 L-35 20Z" fill="#285d76" stroke="#173e52" stroke-width="3"/><text x="0" y="7" text-anchor="middle" style="fill:white;font-size:21px;font-weight:700">HIT</text></g>
+</defs>
+<rect width="960" height="640" fill="white"/>
+<g transform="translate(12 12)">
+<rect width="456" height="550" rx="16" fill="#fbfdfd" stroke="#c6dae3"/>
+<text x="24" y="39" class="heading" style="font-size:25px">Several productive</text>
+<text x="24" y="71" class="heading" style="font-size:25px">growth opportunities</text>
+<text x="24" y="104" class="small">Useful features align with the proposed edits.</text>
+<text x="195" y="143" class="small" style="fill:#6d8591">Solvent</text>
+<path class="protein" d="M20 168 C36 151 49 177 65 165 C77 155 89 154 94 170 C98 184 119 184 117 201 C115 215 94 215 98 228 Q99 234 103 237 C111 247 123 251 119 266 C115 279 100 280 108 295 C114 307 137 304 140 320 C142 334 128 341 142 354 C151 363 171 356 177 372 C182 387 174 397 191 400 C205 403 214 398 230 409 C243 419 256 410 262 400 C270 386 290 397 300 381 C307 368 292 357 309 347 C328 337 342 344 342 325 C341 311 329 304 342 292 C358 279 343 266 347 252 Q350 244 357 237 C366 225 349 216 355 202 C361 190 378 194 378 178 C378 166 389 157 402 167 C414 177 426 156 436 168 V449 H20Z"/>
+<text x="38" y="429" class="small">Protein</text>
+<use href="#hit" x="230" y="284"/>
+<path class="growth" d="M195 264 L151 243"/>
+<path class="growth" d="M265 264 L309 243"/>
+<path class="growth" d="M230 324 V350"/>
+<circle class="group" cx="138" cy="237" r="16"/>
+<circle class="group" cx="322" cy="237" r="16"/>
+<circle class="group" cx="230" cy="373" r="16"/>
+<path class="contact" d="M122 237 H104 M338 237 H357 M230 389 V407"/>
+<circle class="site" cx="103" cy="237" r="6"/>
+<circle class="site" cx="357" cy="237" r="6"/>
+<circle class="site" cx="230" cy="409" r="6"/>
+<text x="230" y="194" text-anchor="middle" class="label">Several growth directions</text>
+<text x="230" y="486" text-anchor="middle" class="body">Extensions can reach distinct</text>
+<text x="230" y="518" text-anchor="middle" class="body">features of the pocket.</text>
+</g>
+<g transform="translate(492 12)">
+<rect width="456" height="550" rx="16" fill="#fbfdfd" stroke="#c6dae3"/>
+<text x="24" y="39" class="heading" style="font-size:25px">Few productive</text>
+<text x="24" y="71" class="heading" style="font-size:25px">growth opportunities</text>
+<text x="24" y="104" class="small">For the proposed edits in this binding pose.</text>
+<g transform="translate(0 30)">
+<path class="protein" d="M20 168 C34 152 49 179 63 167 C78 154 91 175 106 164 C121 151 135 177 149 165 C161 155 174 161 174 176 C173 188 189 190 185 203 C181 215 173 218 187 229 C198 237 208 231 215 241 Q221 249 230 246 C241 241 247 252 258 242 C267 232 281 241 283 227 C286 213 271 206 284 194 C296 183 280 171 297 164 C311 157 319 179 335 166 C348 155 361 175 377 164 C391 153 402 176 417 166 Q428 159 436 168 V419 H20Z"/>
+<use href="#hit" x="230" y="193"/>
+<path class="growth" d="M195 173 L155 142"/>
+<path class="growth" d="M265 173 L305 142"/>
+<path class="growth" d="M230 153 V128"/>
+<circle class="group" cx="139" cy="130" r="16"/>
+<circle class="group" cx="321" cy="130" r="16"/>
+<circle class="group" cx="230" cy="109" r="16"/>
+<path class="contact" d="M230 233 V244"/>
+<circle class="site" cx="230" cy="246" r="6"/>
+<text x="51" y="111" class="small" style="fill:#6d8591">Solvent</text>
+</g>
+<text x="38" y="429" class="small">Protein</text>
+<rect x="73" y="324" width="310" height="72" rx="8" fill="#eef3f6"/>
+<text x="228" y="354" text-anchor="middle" class="label">Added groups face solvent</text>
+<text x="228" y="380" text-anchor="middle" class="small">No new contact in these directions</text>
+<text x="230" y="486" text-anchor="middle" class="body">Most extensions shown add size</text>
+<text x="230" y="518" text-anchor="middle" class="body">without new protein interactions.</text>
+</g>
+<g transform="translate(96 590)">
+<path d="M0 0 H34" class="growth"/><text x="51" y="7" class="small">Proposed extension</text>
+<path d="M279 0 H320" class="contact"/><text x="334" y="7" class="small">Possible contact</text>
+<circle class="group" cx="597" cy="0" r="11"/><text x="620" y="7" class="small">Added group</text>
+</g>
+<text x="480" y="630" text-anchor="middle" class="small">Pocket features can enable—or constrain—further chemical optimization.</text>
+</svg>

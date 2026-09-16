@@ -1,0 +1,19 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# Generated caches and temporary files
+__pycache__/
+*.py[cod]
+*.tmp
+node_modules/
+
+# dist is intentionally tracked: each version includes the ready-to-open guide.
