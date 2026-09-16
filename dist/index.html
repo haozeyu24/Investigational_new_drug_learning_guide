@@ -1,4 +1,4 @@
-<!-- Local bundle: bb486aac2028; refresh with python3 dist/refresh-local-html.py -->
+<!-- Local bundle: d35312de9aec; refresh with python3 dist/refresh-local-html.py -->
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>First-In-Class.ai — From discovery to humans</title><meta name="description" content="How a development candidate becomes a clinical-stage drug. Interactive learning for experimental and computational scientists."><style data-local-bundle>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
@@ -1478,14 +1478,12 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .candidate-selected-molecule img{display:block;width:100%;height:auto}
 .candidate-scene-development{padding-left:34px}
 .transition-guide .candidate-scene-development h4{font-size:1.55rem;line-height:1.4;max-width:490px;min-height:0;margin-bottom:22px}
-.candidate-scene-development .candidate-evidence-lanes li{padding:16px 18px}
-.candidate-scene-development .candidate-evidence-lanes strong{font-size:1rem}
-.candidate-scene-development .candidate-evidence-lanes div>span{font-size:.88rem}
-.candidate-evidence-lanes{list-style:none;padding:0;margin:0;display:grid;gap:9px}
-.candidate-evidence-lanes li{display:flex;align-items:center;gap:13px;padding:12px 15px;background:#f0f6f8;border-radius:8px;border-left:3px solid #6d9ba9}
-.candidate-lane-mark{display:grid;place-items:center;width:27px;height:27px;color:#397287;font-size:1.4rem;flex-shrink:0}
-.candidate-evidence-lanes strong{display:block;font-size:.93rem;color:#285365}
-.candidate-evidence-lanes div>span{display:block;font-size:.8rem;line-height:1.5;color:#597485;margin-top:3px}
+/* Three evidence decisions, separated by quiet rules instead of icon cards. */
+.candidate-development-questions{list-style:none;margin:0;padding:0}
+.candidate-development-questions li{padding:19px 0;border-top:1px solid #cfdee6}
+.candidate-development-questions li:last-child{padding-bottom:0}
+.transition-guide .candidate-development-questions h5{font-size:1.06rem;line-height:1.45;font-weight:650;color:#285365;margin:0 0 7px;letter-spacing:-.015em}
+.transition-guide .candidate-development-questions p{font-size:.93rem;line-height:1.7;color:#506b7d;margin:0;max-width:590px}
 .candidate-scene-message{display:grid;grid-template-columns:minmax(110px,.6fr) minmax(0,1.3fr) minmax(0,1.1fr);align-items:center;gap:26px;padding:24px 28px;border-radius:10px;background:#24566a;color:#fff}
 .candidate-message-label{font-size:.79rem;line-height:1.6;color:#c8e0e9;max-width:120px}
 .candidate-scene-message>strong{font-size:1.12rem;line-height:1.65;font-weight:550;letter-spacing:-.02em}
@@ -1493,8 +1491,8 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .candidate-scene-detail{margin:20px 0 8px;color:#587585;font-size:.85rem}
 .candidate-scene-detail summary{cursor:pointer;padding:8px 0;font-weight:550}
 .transition-guide .candidate-scene-detail p{font-size:.88rem;max-width:1000px;margin:12px 0}
-@media(max-width:1000px){.candidate-scene-stage{padding-left:16px;padding-right:16px}.candidate-scene-marker{margin-left:-16px;margin-right:-16px}.candidate-scene-marker:before{left:16px}.candidate-scene-marker>span{margin-left:16px}.candidate-scene-message{grid-template-columns:1fr 2fr}.transition-guide .candidate-scene-message>p{grid-column:1/-1;border-left:0;border-top:1px solid #5b8090;padding:15px 0 0}.candidate-evidence-lanes li{padding:10px;gap:8px}}
-@media(max-width:900px){.transition-guide .candidate-transition-scene>h3{font-size:1.5rem}.candidate-transition-flow{grid-template-columns:1fr;margin-top:28px}.candidate-scene-stage,.candidate-scene-stage:first-child,.candidate-scene-stage:last-child{padding:0 0 24px 26px;border-left:2px solid #cedfe6}.candidate-scene-marker,.candidate-scene-stage:first-child .candidate-scene-marker,.candidate-scene-stage:last-child .candidate-scene-marker{border-top:0;margin:0 0 12px;padding:0}.candidate-scene-marker:before,.candidate-scene-stage:first-child .candidate-scene-marker:before,.candidate-scene-selected .candidate-scene-marker:before{left:-32px;top:5px}.candidate-scene-marker>span{margin-left:0}.candidate-scene-selected{text-align:left}.candidate-selected-molecule{margin:18px 0 16px;width:160px;height:auto}.transition-guide .candidate-scene-stage h4{min-height:0;max-width:none}.candidate-analog-family{max-width:420px;gap:8px}.candidate-scene-development .candidate-evidence-lanes li{padding:14px}.candidate-scene-message{grid-template-columns:1fr;gap:12px;padding:22px}.candidate-message-label{max-width:none}.transition-guide .candidate-scene-message>p{grid-column:auto}}
+@media(max-width:1000px){.candidate-scene-stage{padding-left:16px;padding-right:16px}.candidate-scene-marker{margin-left:-16px;margin-right:-16px}.candidate-scene-marker:before{left:16px}.candidate-scene-marker>span{margin-left:16px}.candidate-scene-message{grid-template-columns:1fr 2fr}.transition-guide .candidate-scene-message>p{grid-column:1/-1;border-left:0;border-top:1px solid #5b8090;padding:15px 0 0}}
+@media(max-width:900px){.transition-guide .candidate-transition-scene>h3{font-size:1.5rem}.candidate-transition-flow{grid-template-columns:1fr;margin-top:28px}.candidate-scene-stage,.candidate-scene-stage:first-child,.candidate-scene-stage:last-child{padding:0 0 24px 26px;border-left:2px solid #cedfe6}.candidate-scene-marker,.candidate-scene-stage:first-child .candidate-scene-marker,.candidate-scene-stage:last-child .candidate-scene-marker{border-top:0;margin:0 0 12px;padding:0}.candidate-scene-marker:before,.candidate-scene-stage:first-child .candidate-scene-marker:before,.candidate-scene-selected .candidate-scene-marker:before{left:-32px;top:5px}.candidate-scene-marker>span{margin-left:0}.candidate-scene-selected{text-align:left}.candidate-selected-molecule{margin:18px 0 16px;width:160px;height:auto}.transition-guide .candidate-scene-stage h4{min-height:0;max-width:none}.candidate-analog-family{max-width:420px;gap:8px}.candidate-scene-message{grid-template-columns:1fr;gap:12px;padding:22px}.candidate-message-label{max-width:none}.transition-guide .candidate-scene-message>p{grid-column:auto}}
 .candidate-evidence-table{margin:24px 0;overflow-x:auto;border:1px solid #cadde5;border-radius:10px}
 .candidate-evidence-table table{width:100%;border-collapse:collapse;table-layout:fixed;min-width:650px;color:#38576a;text-align:left;font-size:.91rem;line-height:1.65}
 .candidate-evidence-table th,.candidate-evidence-table td{padding:18px 20px;vertical-align:top;border-bottom:1px solid #dae6eb}
@@ -1506,7 +1504,7 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .candidate-evidence-table tbody tr:last-child>*{border-bottom:0}
 @media(max-width:760px){.candidate-evidence-table th,.candidate-evidence-table td{padding:14px}}
 
-/* Share the molecule row so the nominated structure centers against the six analogs. */
+/* Align the nominated structure with the center of the full selection box. */
 @media(min-width:901px){
  .candidate-transition-flow{grid-template-rows:auto auto auto auto auto}
  .candidate-scene-discovery,.candidate-scene-selected{display:grid;grid-template-rows:subgrid;grid-row:1 / span 5}
@@ -1515,7 +1513,7 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
  .candidate-scene-development{grid-column:3;grid-row:1 / span 5}
  .candidate-scene-selected .candidate-scene-marker{grid-row:1}
  .candidate-analog-family{grid-row:3;margin:12px 0;align-self:center}
- .candidate-selected-molecule{grid-row:3;align-self:center;margin:0 auto}
+ .candidate-selected-molecule{grid-row:2 / span 2;align-self:center;margin:0 auto}
  .candidate-scene-selected>p{grid-row:4;margin-top:0}
 }
 
@@ -1525,6 +1523,32 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 
 button.brand-attribution{border:0;background:transparent;padding:0;text-align:left}
 button.brand-attribution:focus-visible{outline:2px solid currentColor;outline-offset:6px;border-radius:3px}
+
+.transition-guide .candidate-discovery-copy h4{min-height:0;margin-bottom:14px}
+.transition-guide .candidate-discovery-copy p{font-size:.88rem;line-height:1.65;margin:7px 0 0;max-width:300px;color:#627a8b}
+
+
+/* Group the selection question and analogs, with a quiet connector between box centers. */
+.candidate-transition-flow{--candidate-stage-gap:24px}
+.candidate-discovery-box{position:relative;padding:20px 14px 14px;border:1px solid #ccdee6;border-radius:12px;background:linear-gradient(180deg,#f2f7fa 0%,#fff 100%);box-shadow:0 3px 12px #254c6007}
+.candidate-discovery-copy{text-align:center}
+.transition-guide .candidate-discovery-copy h4{max-width:none;margin:0 0 14px}
+.transition-guide .candidate-discovery-copy p{max-width:none;margin:7px 0 0}
+.candidate-discovery-box .candidate-analog-family{position:relative;max-width:none}
+@media(min-width:901px){
+ .candidate-discovery-box{display:grid;grid-template-rows:subgrid;grid-row:2 / span 2}
+ .candidate-discovery-copy{grid-row:1}
+ .candidate-discovery-box .candidate-analog-family{grid-row:2}
+ .candidate-discovery-box:before{content:'';position:absolute;left:calc(100% + var(--candidate-stage-gap) - 8px);top:50%;width:16px;height:1px;background:#86a2af}
+ .candidate-discovery-box:after{content:'';position:absolute;left:calc(100% + var(--candidate-stage-gap) + 3px);top:50%;width:5px;height:5px;border-top:1px solid #86a2af;border-right:1px solid #86a2af;transform:translateY(-50%) rotate(45deg)}
+}
+@media(min-width:901px) and (max-width:1000px){.candidate-transition-flow{--candidate-stage-gap:16px}}
+@media(max-width:900px){
+ .candidate-discovery-box{margin-bottom:16px}
+ .candidate-discovery-box:after{content:'↓';position:absolute;left:50%;bottom:-31px;transform:translateX(-50%);color:#6890a1;font-size:24px;line-height:1}
+ .candidate-scene-selected .candidate-selected-molecule{margin-left:auto;margin-right:auto}
+ .candidate-scene-selected>p{text-align:center;max-width:none}
+}
 
 </style></head>
 <body><a class="skip" href="#lesson">Skip to lesson</a><header class="topbar"><button type="button" class="brand brand-attribution" data-action="welcome" aria-haspopup="dialog" aria-label="Powered by First-in-Class.ai — open welcome"><span class="powered-by">Powered by</span><span>First-in-Class.ai</span></button><button class="overview-link" data-action="portal">Learning paths</button></header><main id="lesson" tabindex="-1"></main><footer class="site-footer"><button class="text-button" data-action="about">About this guide</button></footer><dialog id="modal" aria-labelledby="dialog-title"><div class="modal-top"><p class="eyebrow" id="modal-kicker"></p><button class="icon-button" id="close-modal" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog><div id="announcement" class="sr-only" aria-live="polite"></div><script data-local-bundle>
@@ -6960,7 +6984,21 @@ const CATALOG = {
           ],
           "bridge": "DC nomination",
           "keep": "Selecting a candidate commits the team to development. It does not establish readiness to dose people.",
-          "note": "The molecule’s structure usually remains fixed while synthesis, formulation, and analytical controls develop. New findings can still require revisiting the candidate. Work often begins before nomination; this is a change in emphasis, not a sharp experimental boundary."
+          "note": "The molecule’s structure usually remains fixed while synthesis, formulation, and analytical controls develop. New findings can still require revisiting the candidate. Work often begins before nomination; this is a change in emphasis, not a sharp experimental boundary.",
+          "evidence": [
+            [
+              "Justify a first dose and dosing schedule",
+              "Integrate pharmacology, PK/PD, predicted human exposure, and safety findings to support dose selection and escalation."
+            ],
+            [
+              "Identify hazards and how to manage them",
+              "Assess which organs or functions are affected, at what exposure, and whether effects recover. Use the findings to guide monitoring and dose limits."
+            ],
+            [
+              "Establish a suitable clinical product",
+              "Define the formulation and controls for identity, strength, purity, and stability. Assess relevant differences between toxicology and clinical material."
+            ]
+          ]
         },
         "questions": {
           "title": "Carry the evidence forward. Resolve what it does not yet answer.",
@@ -9230,8 +9268,8 @@ function candidateTransitionScene(t){
   const img='<img src="assets/candidate-transition-'+n+'.svg" width="360" height="250" alt="Compound '+n+(n===48?'':'; regions varied across the series highlighted in amber')+'">';
   return n===48?'<a href="assets/candidate-transition-'+n+'.svg" target="_blank" rel="noopener noreferrer" title="Compound '+n+' · enlarge structure" aria-label="Enlarge compound '+n+' structure">'+img+'</a>':img;
  };
- const evidence=[['Exposure & effect','Relate dose and schedule to the response.'],['Safety','Characterize risks and their exposure limits.'],['Drug material','Control what will be given to people.']];
- return '<section class="candidate-transition-scene"><h3>'+escapeHtml(t.title)+'</h3><p class="candidate-scene-intro">A promising profile starts the next phase of evidence building.</p><div class="candidate-transition-flow" role="group" aria-label="Lead optimization, candidate nomination, then candidate development"><article class="candidate-scene-stage candidate-scene-discovery"><div class="candidate-scene-marker"><span>Lead optimization</span></div><h4>'+escapeHtml(t.stages[0].question)+'</h4><div class="candidate-analog-family" aria-label="Six structures from lead optimization">'+[16,28,30,36,44,45].map(structure).join('')+'</div><strong class="candidate-scene-verb">Compare · improve · select</strong><p>'+escapeHtml(t.stages[0].action)+'</p></article><article class="candidate-scene-stage candidate-scene-selected"><div class="candidate-scene-marker"><span>'+escapeHtml(t.bridge)+'</span></div><div class="candidate-selected-molecule">'+structure(48)+'<strong class="candidate-dc-label">Development Candidate</strong></div><p>A promising overall profile</p></article><article class="candidate-scene-stage candidate-scene-development"><div class="candidate-scene-marker"><span>Candidate development</span></div><h4>'+escapeHtml(t.stages[1].question)+'</h4><ul class="candidate-evidence-lanes">'+evidence.map(([title,detail],i)=>'<li><span class="candidate-lane-mark" aria-hidden="true">'+['↗','◇','≡'][i]+'</span><div><strong>'+title+'</strong><span>'+detail+'</span></div></li>').join('')+'</ul></article></div><div class="candidate-scene-message"><span class="candidate-message-label">Why the lab work continues</span><strong>Selection establishes promise.<br>Further evidence supports human testing.</strong><p>'+escapeHtml(t.keep)+'</p></div><details class="candidate-scene-detail"><summary>What changes—and what carries forward</summary><p>'+escapeHtml(t.intro)+'</p><p>'+escapeHtml(t.note)+'</p><p>Structures: compounds 16, 28, 30, 36, 44, and 45 from the ivacaftor program; compound 48 is the nominated candidate. Amber marks the regions varied around the shared framework. The structures illustrate the transition; the human-testing questions remain general. <a href="https://doi.org/10.1021/jm5012808" target="_blank" rel="noopener noreferrer">Hadida et al. (2014) ↗</a></p></details></section>';
+ const evidence=t.evidence;
+ return '<section class="candidate-transition-scene"><h3>'+escapeHtml(t.title)+'</h3><p class="candidate-scene-intro">A promising profile starts the next phase of evidence building.</p><div class="candidate-transition-flow" role="group" aria-label="Lead optimization, candidate nomination, then candidate development"><article class="candidate-scene-stage candidate-scene-discovery"><div class="candidate-scene-marker"><span>Lead optimization</span></div><div class="candidate-discovery-box"><div class="candidate-discovery-copy"><h4>'+escapeHtml(t.stages[0].question)+'</h4><strong class="candidate-scene-verb">Compare · improve · select</strong><p>'+escapeHtml(t.stages[0].action)+'</p></div><div class="candidate-analog-family" aria-label="Six structures from lead optimization">'+[16,28,30,36,44,45].map(structure).join('')+'</div></div></article><article class="candidate-scene-stage candidate-scene-selected"><div class="candidate-scene-marker"><span>'+escapeHtml(t.bridge)+'</span></div><div class="candidate-selected-molecule">'+structure(48)+'<strong class="candidate-dc-label">Development Candidate</strong></div><p>A promising overall profile</p></article><article class="candidate-scene-stage candidate-scene-development"><div class="candidate-scene-marker"><span>Candidate development</span></div><h4>'+escapeHtml(t.stages[1].question)+'</h4><ul class="candidate-development-questions">'+evidence.map(([title,detail])=>'<li><h5>'+escapeHtml(title)+'</h5><p>'+escapeHtml(detail)+'</p></li>').join('')+'</ul></article></div><details class="candidate-scene-detail"><summary>What changes—and what carries forward</summary><p>'+escapeHtml(t.intro)+'</p><p>'+escapeHtml(t.note)+'</p><p>Structures: compounds 16, 28, 30, 36, 44, and 45 from the ivacaftor program; compound 48 is the nominated candidate. Amber marks the regions varied around the shared framework. The structures illustrate the transition; the human-testing questions remain general. <a href="https://doi.org/10.1021/jm5012808" target="_blank" rel="noopener noreferrer">Hadida et al. (2014) ↗</a></p></details></section>';
 }
 function transitionPanel(id){
  const g=level().transitionGuide,t=g[id],i=g.tabs.findIndex(tab=>tab.id===id);

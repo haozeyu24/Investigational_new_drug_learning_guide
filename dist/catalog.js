@@ -5380,7 +5380,21 @@ const CATALOG = {
           ],
           "bridge": "DC nomination",
           "keep": "Selecting a candidate commits the team to development. It does not establish readiness to dose people.",
-          "note": "The molecule’s structure usually remains fixed while synthesis, formulation, and analytical controls develop. New findings can still require revisiting the candidate. Work often begins before nomination; this is a change in emphasis, not a sharp experimental boundary."
+          "note": "The molecule’s structure usually remains fixed while synthesis, formulation, and analytical controls develop. New findings can still require revisiting the candidate. Work often begins before nomination; this is a change in emphasis, not a sharp experimental boundary.",
+          "evidence": [
+            [
+              "Justify a first dose and dosing schedule",
+              "Integrate pharmacology, PK/PD, predicted human exposure, and safety findings to support dose selection and escalation."
+            ],
+            [
+              "Identify hazards and how to manage them",
+              "Assess which organs or functions are affected, at what exposure, and whether effects recover. Use the findings to guide monitoring and dose limits."
+            ],
+            [
+              "Establish a suitable clinical product",
+              "Define the formulation and controls for identity, strength, purity, and stability. Assess relevant differences between toxicology and clinical material."
+            ]
+          ]
         },
         "questions": {
           "title": "Carry the evidence forward. Resolve what it does not yet answer.",
