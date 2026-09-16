@@ -13,8 +13,10 @@ function click(key,id){const btn={dataset:{[key]:id}},selector='[data-'+key.repl
 (async()=>{
  vm.runInContext(script,ctx);await run('ready');assert(node('#modal').open,'Welcome opens');
  run('dismissWelcome()');assert(!node('#modal').open);
- const beforeWelcome=run('JSON.stringify(readState())');click('action','welcome');
- assert(node('#modal').open,'Brand reopens welcome');assert.equal(run('JSON.stringify(readState())'),beforeWelcome,'Reopening welcome preserves the lesson and progress');
+ run("startLevel('discovery-leads',1)");await run('saveQueue');
+ const beforeWelcome=run('JSON.stringify(state.progress)');click('action','welcome');
+ assert.equal(run('state.screen'),'portal','Brand returns to the main landing page');assert.equal(location.hash,'#portal');
+ assert(node('#modal').open,'Brand reopens welcome over the landing page');assert.equal(run('JSON.stringify(state.progress)'),beforeWelcome,'Returning home preserves progress');
  assert(html.includes('data-action="welcome" aria-haspopup="dialog"'));run('dismissWelcome()');
  run("startLevel('discovery-leads',0)");await run('saveQueue');assert(node('#lesson').innerHTML.includes('id="lead-topic-panel"'));
  assert.equal(run('level().leadGuide.topics.length'),6);assert(!node('#lesson').innerHTML.includes('Where tool compounds fit'));click('leadTopic','tool-compound');assert.equal(run('state.leadTopic'),'tool-compound');assert(node('#lead-topic-panel').innerHTML.includes('Where tool compounds fit'));assert(node('#lead-topic-panel').innerHTML.includes('Choosing probe controls'));assert(node('#lead-topic-panel').innerHTML.includes('Requirements for animal studies'));
