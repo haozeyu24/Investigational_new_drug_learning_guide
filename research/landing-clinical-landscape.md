@@ -1,6 +1,6 @@
 # Landing page: why IND development matters now
 
-Added September 17, 2026, below the two learning-path cards. This is introductory context, not a new lesson or a change to completion requirements.
+Added September 17, 2026, above the two learning-path cards. The landing page reads: why this matters now → figure and context → early R&D responsibilities → learning paths. This is introductory context, not a new lesson or a change to completion requirements.
 
 ## Figure provenance
 
