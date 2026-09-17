@@ -1,7 +1,7 @@
 {
   "id": "ivacaftor-ind",
   "label": "Ivacaftor: follow the evidence",
-  "title": "What does the initial IND review add to the discovery account?",
+  "title": "What does the initial IND review add to the discovery paper?",
   "stage": "2014 discovery paper compared with the reproduced 2006 initial IND review",
   "drug": "Ivacaftor · VX-770",
   "identity": "Compound 48 in the discovery chapter; VRT-813077 in the FDA review.",
@@ -12,29 +12,111 @@
   "timing": "This is a comparison of sources, not a timeline of new experiments. The discovery paper is retrospective; neither source dates each study relative to candidate nomination.",
   "discovery": {
     "title": "What lead optimization contributes",
-    "claims": [
-      {
-        "label": "The actual candidate was active",
-        "text": "Compound 48 increased CFTR activity in engineered cells. Table 8 reports an EC₅₀ of 3 ± 1 nM in the F508del assay."
-      },
-      {
-        "label": "Human CF cells were already studied",
-        "text": "The paper reports chloride-transport responses in patient-derived bronchial cells, including F508del-homozygous and G551D/F508del cells. Human-tissue testing was part of this account."
-      },
-      {
-        "label": "A mechanism and patient hypothesis existed",
-        "text": "The authors describe compound 48 as a CFTR potentiator and say its G551D-cell activity guided their choice of a CF patient population to study."
-      }
-    ],
     "limit": "The discovery paper was published in 2014, after ivacaftor received FDA marketing approval in 2012. It looks back across discovery and later development, so we cannot assume every reported result was available by the end of lead optimization or identify exactly which studies were added after candidate nomination.",
     "source": {
-      "label": "Hadida et al., 2014 · pp. 9780–9781, Tables 8–9",
+      "label": "Hadida et al., 2014 · Assays and profiling, pp. 9777–9781, 9793–9794",
       "url": "https://doi.org/10.1021/jm5012808"
     },
     "approvalSource": {
       "label": "FDA marketing approval · January 31, 2012",
       "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000Approv.pdf"
-    }
+    },
+    "intro": "The F508del potency assay was cell-based. F508del names the CFTR variant—a deletion of phenylalanine at position 508—not the assay format. Vertex ranked analogs by functional responses in engineered cells, then examined selected compounds in human airway cultures and broader profiling assays.",
+    "assayMap": [
+      {
+        "label": "Rank analogs",
+        "text": "Engineered cells · functional potency"
+      },
+      {
+        "label": "Test disease-relevant function",
+        "text": "Patient-derived airway cultures"
+      },
+      {
+        "label": "Challenge the explanation",
+        "text": "Mechanism and off-target checks"
+      }
+    ],
+    "assays": [
+      {
+        "id": "engineered-potency",
+        "label": "CFTR potentiator potency",
+        "format": "Intact-cell fluorescence",
+        "system": "Mouse NIH-3T3 fibroblasts expressing human F508del-CFTR. Incubation at 27 °C for 16–24 hours helped channel trafficking before compound treatment and forskolin stimulation.",
+        "readout": "Voltage-sensitive dyes on a FLIPR plate reader detected membrane-potential changes caused by chloride efflux.",
+        "result": "Compound 48: EC₅₀ = 3 ± 1 nM (Table 8). The paper used this assay for SAR unless stated otherwise.",
+        "meaning": "Ranks functional potency under defined cellular conditions. It does not measure binding affinity or show that the compound itself corrects F508del trafficking.",
+        "source": {
+          "label": "pp. 9777, 9780, 9793 · Table 8 and optical-assay method",
+          "url": "https://doi.org/10.1021/jm5012808"
+        }
+      },
+      {
+        "id": "f508del-airway",
+        "label": "Activity in human CF airway cells",
+        "format": "Cultured human cells · electrophysiology",
+        "system": "Primary human bronchial epithelial (HBE) cells from F508del/F508del CF donors, grown as epithelial layers on permeable supports.",
+        "readout": "An Ussing chamber system recorded short-circuit current—an electrical measure of ion transport across the epithelial cell layer—with a chloride gradient and forskolin stimulation.",
+        "result": "Compound 48: EC₅₀ = 22 ± 10 nM. Table 9 compares compounds 28, 30 and 45–48 in this HBE assay.",
+        "meaning": "Tests whether activity extends to disease-relevant human cells using an electrical readout. These are cultured cells, not a clinical measurement of lung function.",
+        "source": {
+          "label": "pp. 9777, 9781, 9793 · Table 9 and Ussing-chamber method",
+          "url": "https://doi.org/10.1021/jm5012808"
+        }
+      },
+      {
+        "id": "g551d-airway",
+        "label": "Response in a second CF genotype",
+        "format": "Cultured human cells · electrophysiology",
+        "system": "HBE cultures from G551D/F508del CF donors. G551D substitutes aspartate for glycine at position 551 and impairs CFTR gating.",
+        "readout": "Ussing-chamber chloride secretion: both concentration–response potency and the maximum response relative to non-CF airway cultures.",
+        "result": "Compound 48: EC₅₀ = 0.236 ± 0.200 μM; maximum chloride secretion approached 50% of the non-CF level.",
+        "meaning": "Adds a patient-population hypothesis and a measure of response size. The authors say G551D activity guided their choice of patients to study; it did not prove clinical benefit.",
+        "source": {
+          "label": "pp. 9780–9781 · G551D activity and patient-population rationale",
+          "url": "https://doi.org/10.1021/jm5012808"
+        }
+      },
+      {
+        "id": "camp-mechanism",
+        "label": "Check upstream cAMP signaling",
+        "format": "Cell treatment → biochemical measurement",
+        "system": "Fischer rat thyroid (FRT) cells were exposed to test compound for 15 minutes, then lysed for a cAMP immunoassay.",
+        "readout": "Total cAMP, including cellular and secreted cAMP, quantified against a standard curve.",
+        "result": "The paper describes the method on p. 9793 but does not present a corresponding compound-48 cAMP result in its main results.",
+        "meaning": "Asks whether increased chloride transport could follow an upstream signaling change. The result summarized in the IND review is compared in the next section.",
+        "source": {
+          "label": "p. 9793 · cAMP-measurement method",
+          "url": "https://doi.org/10.1021/jm5012808"
+        }
+      },
+      {
+        "id": "gabaa-selectivity",
+        "label": "Follow a known off-target liability",
+        "format": "GABAₐ receptor binding assay",
+        "system": "A Ricerca assay for the GABAₐ benzodiazepine binding site. The paper does not specify the ligand or receptor preparation.",
+        "readout": "Binding-assay IC₅₀ for lead 16; a fixed-concentration “percent activity” readout for selected later compounds.",
+        "result": "Lead 16: IC₅₀ ≈ 0.1 μM. At 10 μM, compounds 36, 45 and 48 gave 47%, 52% and 18% activity, respectively (footnote 17).",
+        "meaning": "Tracks an off-target interaction alongside CFTR potency. A binding result does not tell us whether GABAₐ channel function is activated or inhibited; a single-point percentage is not an IC₅₀.",
+        "source": {
+          "label": "pp. 9778, 9794 · Lead 16 profiling and footnote 17",
+          "url": "https://doi.org/10.1021/jm5012808"
+        }
+      },
+      {
+        "id": "broader-profiling",
+        "label": "Check a wider set of unwanted effects",
+        "format": "Target, channel and enzyme profiling",
+        "system": "Compound 48 was tested in a 160-target Ricerca panel, an hERG assay and assays for six CYP enzymes. Individual assay platforms are not specified in the paper.",
+        "readout": "Panel activity and inhibitory potency against hERG and CYP1A2, 2C9, 2C19, 2E1, 3A4 and 2D6.",
+        "result": "No significant activity reported in the 160-target panel; hERG IC₅₀ > 10 μM; all six CYP IC₅₀ values > 20 μM.",
+        "meaning": "Broadens the selectivity profile and checks early cardiac and metabolic interaction liabilities. These measurements do not establish clinical safety or replace the later safety package.",
+        "source": {
+          "label": "p. 9780 · Further profiling of compound 48",
+          "url": "https://doi.org/10.1021/jm5012808"
+        }
+      }
+    ],
+    "note": "Read the numbers within their assay. Cellular EC₅₀, receptor-binding IC₅₀ and a response at one fixed concentration answer different questions. The 3 nM engineered-cell result, 22 nM F508del-HBE result and 236 nM G551D/F508del-HBE result also come from different biological systems. Forskolin stimulates cAMP signaling to activate CFTR; potentiation is measured on top of that stimulation."
   },
   "comparison": {
     "title": "What the initial IND review adds",
@@ -58,8 +140,8 @@
           }
         },
         "addition": {
-          "label": "More detail about the experimental systems",
-          "text": "The same activity question was tested across cell backgrounds and CFTR variants. The assay system matters when comparing potency values."
+          "label": "Check that activity survives a different assay",
+          "text": "An electrical readout and another cell background help test whether activity extends beyond one fluorescence assay. Comparing CFTR variants also shows how potency depends on the biological system. This strengthens the evidence for candidate function without proving binding affinity or patient benefit."
         }
       },
       {
@@ -80,8 +162,8 @@
           }
         },
         "addition": {
-          "label": "More detail supporting the mechanism",
-          "text": "Single-channel behavior and upstream-signaling assays help distinguish channel potentiation from an indirect increase in cAMP."
+          "label": "Distinguish channel action from upstream signaling",
+          "text": "More chloride transport could result from increased cAMP rather than an effect on CFTR gating. Single-channel measurements, together with cAMP and phosphodiesterase assays, help distinguish these explanations and support the proposed mechanism of the candidate."
         }
       },
       {
@@ -102,12 +184,13 @@
           }
         },
         "addition": {
-          "label": "Different tissue details and controls",
-          "text": "This excerpt documents F508del patient tissue, not G551D patient-derived bronchial cells. The stimulation, corrector and inhibitor conditions matter when interpreting what it showed."
+          "label": "Understand the conditions needed for a tissue response",
+          "text": "Human-airway activity was already reported in the paper. The review adds stimulation, corrector and control details that help explain the observed response. These conditions matter when judging whether a CFTR potentiator could work alone or might depend on restoring channels to the cell surface."
         }
       }
     ],
-    "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes."
+    "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes.",
+    "rationaleNote": "The last column explains the scientific value of the evidence. The reviewed passages do not establish that FDA requested these experiments or that they were newly performed after candidate nomination."
   },
   "assessment": {
     "title": "How FDA assessed the evidence",

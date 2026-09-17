@@ -1,4 +1,4 @@
-<!-- Local bundle: 8962eda2e7e5; refresh with python3 dist/refresh-local-html.py -->
+<!-- Local bundle: 09e6260a9441; refresh with python3 dist/refresh-local-html.py -->
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>First-In-Class.ai — From discovery to humans</title><meta name="description" content="How a development candidate becomes a clinical-stage drug. Interactive learning for experimental and computational scientists."><style data-local-bundle>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
@@ -2147,10 +2147,8 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-case-part-body{padding:25px;min-width:0}
 .reasoning-case-part-heading>span{font-size:.78rem;font-weight:650;color:#6b8f9b;min-width:22px}
 .reasoning-case-part-heading h3{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.04rem,1.5vw,1.22rem);line-height:1.4;letter-spacing:-.025em;color:var(--r-ink);margin:0}
-.reasoning-discovery-claims{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
-.reasoning-discovery-claims>div+div{border-left:1px solid var(--r-line);padding-left:26px}
-.reasoning-discovery-claims h4,.reasoning-assessment-items h4{font-size:.96rem;line-height:1.5;color:var(--r-teal);margin:0 0 10px}
-.reasoning-discovery-claims p,.reasoning-assessment-items p{font-size:.9rem;line-height:1.8;color:#486775;margin:0}
+.reasoning-assessment-items h4{font-size:.96rem;line-height:1.5;color:var(--r-teal);margin:0 0 10px}
+.reasoning-assessment-items p{font-size:.9rem;line-height:1.8;color:#486775;margin:0}
 .reasoning-discovery-evidence>.reasoning-case-part-body>footer{margin-top:22px;display:flex;align-items:baseline;gap:24px;justify-content:space-between}
 .reasoning-discovery-evidence>.reasoning-case-part-body>footer p{font-size:.79rem;line-height:1.75;color:#637c88;max-width:790px;margin:0}
 .reasoning-publication-caveat{border-left:3px solid #c39a54;padding-left:15px;min-width:0}
@@ -2159,9 +2157,11 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-part-intro{font-size:.92rem;line-height:1.8;color:#4f6f7d;max-width:990px;margin:-8px 0 22px}
 .reasoning-comparison-scroll{width:100%;overflow-x:auto;border:1px solid #c7dbe3;border-radius:10px;background:#fff;scrollbar-width:thin}
 .reasoning-comparison-scroll:focus-visible{outline:3px solid #b7852f;outline-offset:4px}
-.reasoning-source-comparison{width:100%;min-width:730px;border-collapse:collapse;table-layout:fixed;margin:0;text-align:left}
-.reasoning-source-comparison .comparison-question-column{width:22%}
-.reasoning-source-comparison th,.reasoning-source-comparison td{padding:23px 24px;text-align:left;vertical-align:top;overflow-wrap:break-word;border:0}
+.reasoning-source-comparison{width:100%;min-width:1060px;border-collapse:collapse;table-layout:fixed;margin:0;text-align:left}
+.reasoning-source-comparison .comparison-question-column{width:17%}
+.reasoning-source-comparison .comparison-paper-column,.reasoning-source-comparison .comparison-ind-column{width:27%}
+.reasoning-source-comparison .comparison-rationale-column{width:29%}
+.reasoning-source-comparison th,.reasoning-source-comparison td{padding:23px 18px;text-align:left;vertical-align:top;overflow-wrap:break-word;border:0}
 .reasoning-source-comparison thead th{background:#eaf2f5;color:var(--r-teal);font-size:.93rem;font-weight:650;border-bottom:1px solid #c7dbe3}
 .reasoning-source-comparison thead span{display:block;margin-top:6px;font-size:.72rem;font-weight:400;color:#557582;line-height:1.5}
 .reasoning-source-comparison thead th+th,.reasoning-source-comparison .comparison-evidence td{border-left:1px solid #e0e9ed}
@@ -2169,10 +2169,11 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-source-comparison .comparison-evidence td{background:#fff}
 .reasoning-source-comparison td p{font-size:.88rem;line-height:1.85;color:#425f6e;margin:0 0 15px}
 .reasoning-source-comparison tbody+tbody .comparison-evidence>*{border-top:1px solid #c7dbe3}
-.reasoning-source-comparison .comparison-interpretation td{padding:15px 24px;background:#f1f6f8;border-top:1px solid #e0e9ed}
-.reasoning-source-comparison .comparison-interpretation div{display:grid;grid-template-columns:22% minmax(0,1fr);gap:24px;align-items:baseline}
-.reasoning-source-comparison .comparison-interpretation strong{font-size:.77rem;line-height:1.65;color:#315e70;font-weight:600}
-.reasoning-source-comparison .comparison-interpretation p{font-size:.81rem;line-height:1.75;color:#527382;margin:0}
+.reasoning-source-comparison thead th.comparison-rationale{background:#deedf2}
+.reasoning-source-comparison .comparison-evidence td.comparison-rationale{background:#f0f6f8;border-left:2px solid #bad2dd}
+.reasoning-source-comparison .comparison-rationale strong{display:block;font-size:.94rem;line-height:1.55;color:#25596d;margin-bottom:12px;font-weight:650}
+.reasoning-source-comparison .comparison-rationale p{margin:0;color:#3c6273}
+.reasoning-rationale-note{padding-left:14px;border-left:2px solid #aac9d6}
 .reasoning-source-note{font-size:.78rem;line-height:1.8;color:#657f8b;max-width:1040px;margin:16px 0 0}
 .reasoning-assessment-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:27px;padding:26px 28px;background:#edf3f5;border:1px solid #d7e4e9;border-radius:10px}
 .reasoning-assessment-items>div+div{border-left:1px solid #cbdee6;padding-left:27px}
@@ -2189,10 +2190,37 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-past-content{padding:0 0 27px 51px}
 .reasoning-past-principle{font-size:.97rem;line-height:1.8;color:#486b7b;max-width:900px;margin:0 0 23px}
 .reasoning-past-topic>summary:focus-visible{outline:3px solid #b7852f;outline-offset:-3px}
-@media(max-width:1100px){.reasoning-reading-tabs button{flex-basis:230px}.reasoning-ind-start{grid-template-columns:180px 1fr;gap:26px}.reasoning-past-content{padding-left:25px}.reasoning-source-comparison th,.reasoning-source-comparison td{padding:20px 18px}.reasoning-discovery-claims{gap:20px}.reasoning-discovery-claims>div+div{padding-left:20px}.reasoning-assessment-items{gap:20px;padding:24px}.reasoning-assessment-items>div+div{padding-left:20px}}
-@media(max-width:760px){.reasoning-ind-start{padding:22px;gap:22px;grid-template-columns:145px 1fr}.reasoning-ind-start figure{padding-right:18px}.reasoning-ind-start img{height:90px}.reasoning-past-content{padding-left:0}.reasoning-discovery-claims,.reasoning-assessment-items{grid-template-columns:1fr;gap:19px}.reasoning-discovery-claims>div+div,.reasoning-assessment-items>div+div{border-left:0;padding:19px 0 0;border-top:1px solid var(--r-line)}.reasoning-discovery-evidence>.reasoning-case-part-body>footer{display:block}.reasoning-discovery-sources{text-align:left;margin-top:13px}.reasoning-case-part-heading{gap:9px;padding:18px}.reasoning-case-part-body{padding:20px 18px}.reasoning-source-comparison .comparison-interpretation div{grid-template-columns:155px 1fr;gap:18px}.reasoning-case-takeaway{font-size:.95rem}}
+@media(max-width:1100px){.reasoning-reading-tabs button{flex-basis:230px}.reasoning-ind-start{grid-template-columns:180px 1fr;gap:26px}.reasoning-past-content{padding-left:25px}.reasoning-source-comparison th,.reasoning-source-comparison td{padding:20px 18px}.reasoning-assessment-items{gap:20px;padding:24px}.reasoning-assessment-items>div+div{padding-left:20px}}
+@media(max-width:760px){.reasoning-ind-start{padding:22px;gap:22px;grid-template-columns:145px 1fr}.reasoning-ind-start figure{padding-right:18px}.reasoning-ind-start img{height:90px}.reasoning-past-content{padding-left:0}.reasoning-assessment-items{grid-template-columns:1fr;gap:19px}.reasoning-assessment-items>div+div{border-left:0;padding:19px 0 0;border-top:1px solid var(--r-line)}.reasoning-discovery-evidence>.reasoning-case-part-body>footer{display:block}.reasoning-discovery-sources{text-align:left;margin-top:13px}.reasoning-case-part-heading{gap:9px;padding:18px}.reasoning-case-part-body{padding:20px 18px}.reasoning-case-takeaway{font-size:.95rem}}
 @media(max-width:500px){.reasoning-ind-start{grid-template-columns:1fr}.reasoning-ind-start figure{border-right:0;border-bottom:1px solid var(--r-line);padding:0 0 18px;display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;text-align:left}.reasoning-ind-start img{margin:0}.reasoning-ind-start h3{font-size:1.35rem}.reasoning-past-topic>summary{gap:12px}.reasoning-past-topic>summary strong{font-size:1rem}}
 .reasoning-ind-timing{font-size:.79rem;line-height:1.8;color:#68818e;max-width:1040px;margin:-17px 0 30px}
+
+/* Assay identity comes before the number: system, readout, result, interpretation. */
+.reasoning-assay-intro{font-size:1rem;line-height:1.8;color:#355e70;margin:0 0 24px;max-width:1050px}
+.reasoning-assay-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;padding:0;margin:0 0 28px;border-top:2px solid #bed5df}
+.reasoning-assay-map li{position:relative;padding:15px 24px 0 0;min-width:0}
+.reasoning-assay-map li+li{padding-left:22px}
+.reasoning-assay-map li:not(:last-child):after{content:'→';position:absolute;right:0;top:-15px;background:white;color:#608b9b;padding:0 5px;font-size:1rem}
+.reasoning-assay-map strong{display:block;color:var(--r-teal);font-size:.95rem;line-height:1.5;font-weight:650}
+.reasoning-assay-map span{display:block;margin-top:5px;color:#567c8c;font-size:.79rem;line-height:1.6}
+.reasoning-assay-scroll{width:100%;overflow-x:auto;border:1px solid #c7dbe3;border-radius:9px;background:#fff;scrollbar-width:thin}
+.reasoning-assay-scroll:focus-visible{outline:3px solid #b7852f;outline-offset:4px}
+.reasoning-assay-table{width:100%;min-width:1010px;table-layout:fixed;border-collapse:collapse;text-align:left;margin:0}
+.reasoning-assay-table .assay-name-column{width:19%}.reasoning-assay-table .assay-system-column{width:32%}.reasoning-assay-table .assay-result-column{width:23%}
+.reasoning-assay-table th,.reasoning-assay-table td{padding:22px 18px;vertical-align:top;text-align:left;border:0;overflow-wrap:break-word}
+.reasoning-assay-table thead th{background:#eaf2f5;color:var(--r-teal);font-size:.87rem;font-weight:650;border-bottom:1px solid #c7dbe3}
+.reasoning-assay-table tbody tr+tr>*{border-top:1px solid #d6e3e9}
+.reasoning-assay-table tbody th{background:#f6f9fa;font-weight:400}
+.reasoning-assay-table tbody th strong{display:block;color:#254f61;font-size:1rem;line-height:1.5;margin-bottom:14px;font-weight:600}
+.reasoning-assay-format{display:block;font-size:.69rem;line-height:1.6;color:#4e7d90;margin-bottom:9px;font-weight:500}
+.reasoning-assay-table tbody td+td{border-left:1px solid #e0e9ed}
+.reasoning-assay-table p{font-size:.88rem;line-height:1.85;color:#405f6d;margin:0}
+.reasoning-assay-table td:nth-child(3){background:#f4f8fa}
+.reasoning-assay-table td:nth-child(3) p{color:#28596e;font-weight:550}
+.reasoning-assay-table .reasoning-assay-readout{margin-top:15px}
+.reasoning-assay-readout>span{display:block;font-size:.7rem;line-height:1.5;font-weight:650;letter-spacing:.025em;color:#5d8492;margin-bottom:4px}
+.reasoning-assay-table tbody th a{font-size:.69rem;font-weight:400;line-height:1.7}
+@media(max-width:760px){.reasoning-assay-intro{font-size:.94rem}.reasoning-assay-map{gap:14px}.reasoning-assay-map li,.reasoning-assay-map li+li{padding:13px 0 0}.reasoning-assay-map strong{font-size:.84rem}.reasoning-assay-map span{font-size:.73rem}.reasoning-assay-map li:not(:last-child):after{right:-13px}.reasoning-assay-table{min-width:990px}}
 
 </style></head>
 <body><a class="skip" href="#lesson">Skip to lesson</a><header class="topbar"><button type="button" class="brand brand-attribution" data-action="welcome" aria-haspopup="dialog" aria-label="Powered by First-in-Class.ai — open welcome"><span class="powered-by">Powered by</span><span>First-in-Class.ai</span></button><button class="overview-link" data-action="portal">Learning paths</button></header><main id="lesson" tabindex="-1"></main><footer class="site-footer"><button class="text-button" data-action="about">About this guide</button></footer><dialog id="modal" aria-labelledby="dialog-title"><div class="modal-top"><p class="eyebrow" id="modal-kicker"></p><button class="icon-button" id="close-modal" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog><div id="announcement" class="sr-only" aria-live="polite"></div><script data-local-bundle>
@@ -12389,7 +12417,7 @@ const REASONING_GUIDES = {
     "workedCase": {
       "id": "ivacaftor-ind",
       "label": "Ivacaftor: follow the evidence",
-      "title": "What does the initial IND review add to the discovery account?",
+      "title": "What does the initial IND review add to the discovery paper?",
       "stage": "2014 discovery paper compared with the reproduced 2006 initial IND review",
       "drug": "Ivacaftor · VX-770",
       "identity": "Compound 48 in the discovery chapter; VRT-813077 in the FDA review.",
@@ -12400,29 +12428,111 @@ const REASONING_GUIDES = {
       "timing": "This is a comparison of sources, not a timeline of new experiments. The discovery paper is retrospective; neither source dates each study relative to candidate nomination.",
       "discovery": {
         "title": "What lead optimization contributes",
-        "claims": [
-          {
-            "label": "The actual candidate was active",
-            "text": "Compound 48 increased CFTR activity in engineered cells. Table 8 reports an EC₅₀ of 3 ± 1 nM in the F508del assay."
-          },
-          {
-            "label": "Human CF cells were already studied",
-            "text": "The paper reports chloride-transport responses in patient-derived bronchial cells, including F508del-homozygous and G551D/F508del cells. Human-tissue testing was part of this account."
-          },
-          {
-            "label": "A mechanism and patient hypothesis existed",
-            "text": "The authors describe compound 48 as a CFTR potentiator and say its G551D-cell activity guided their choice of a CF patient population to study."
-          }
-        ],
         "limit": "The discovery paper was published in 2014, after ivacaftor received FDA marketing approval in 2012. It looks back across discovery and later development, so we cannot assume every reported result was available by the end of lead optimization or identify exactly which studies were added after candidate nomination.",
         "source": {
-          "label": "Hadida et al., 2014 · pp. 9780–9781, Tables 8–9",
+          "label": "Hadida et al., 2014 · Assays and profiling, pp. 9777–9781, 9793–9794",
           "url": "https://doi.org/10.1021/jm5012808"
         },
         "approvalSource": {
           "label": "FDA marketing approval · January 31, 2012",
           "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000Approv.pdf"
-        }
+        },
+        "intro": "The F508del potency assay was cell-based. F508del names the CFTR variant—a deletion of phenylalanine at position 508—not the assay format. Vertex ranked analogs by functional responses in engineered cells, then examined selected compounds in human airway cultures and broader profiling assays.",
+        "assayMap": [
+          {
+            "label": "Rank analogs",
+            "text": "Engineered cells · functional potency"
+          },
+          {
+            "label": "Test disease-relevant function",
+            "text": "Patient-derived airway cultures"
+          },
+          {
+            "label": "Challenge the explanation",
+            "text": "Mechanism and off-target checks"
+          }
+        ],
+        "assays": [
+          {
+            "id": "engineered-potency",
+            "label": "CFTR potentiator potency",
+            "format": "Intact-cell fluorescence",
+            "system": "Mouse NIH-3T3 fibroblasts expressing human F508del-CFTR. Incubation at 27 °C for 16–24 hours helped channel trafficking before compound treatment and forskolin stimulation.",
+            "readout": "Voltage-sensitive dyes on a FLIPR plate reader detected membrane-potential changes caused by chloride efflux.",
+            "result": "Compound 48: EC₅₀ = 3 ± 1 nM (Table 8). The paper used this assay for SAR unless stated otherwise.",
+            "meaning": "Ranks functional potency under defined cellular conditions. It does not measure binding affinity or show that the compound itself corrects F508del trafficking.",
+            "source": {
+              "label": "pp. 9777, 9780, 9793 · Table 8 and optical-assay method",
+              "url": "https://doi.org/10.1021/jm5012808"
+            }
+          },
+          {
+            "id": "f508del-airway",
+            "label": "Activity in human CF airway cells",
+            "format": "Cultured human cells · electrophysiology",
+            "system": "Primary human bronchial epithelial (HBE) cells from F508del/F508del CF donors, grown as epithelial layers on permeable supports.",
+            "readout": "An Ussing chamber system recorded short-circuit current—an electrical measure of ion transport across the epithelial cell layer—with a chloride gradient and forskolin stimulation.",
+            "result": "Compound 48: EC₅₀ = 22 ± 10 nM. Table 9 compares compounds 28, 30 and 45–48 in this HBE assay.",
+            "meaning": "Tests whether activity extends to disease-relevant human cells using an electrical readout. These are cultured cells, not a clinical measurement of lung function.",
+            "source": {
+              "label": "pp. 9777, 9781, 9793 · Table 9 and Ussing-chamber method",
+              "url": "https://doi.org/10.1021/jm5012808"
+            }
+          },
+          {
+            "id": "g551d-airway",
+            "label": "Response in a second CF genotype",
+            "format": "Cultured human cells · electrophysiology",
+            "system": "HBE cultures from G551D/F508del CF donors. G551D substitutes aspartate for glycine at position 551 and impairs CFTR gating.",
+            "readout": "Ussing-chamber chloride secretion: both concentration–response potency and the maximum response relative to non-CF airway cultures.",
+            "result": "Compound 48: EC₅₀ = 0.236 ± 0.200 μM; maximum chloride secretion approached 50% of the non-CF level.",
+            "meaning": "Adds a patient-population hypothesis and a measure of response size. The authors say G551D activity guided their choice of patients to study; it did not prove clinical benefit.",
+            "source": {
+              "label": "pp. 9780–9781 · G551D activity and patient-population rationale",
+              "url": "https://doi.org/10.1021/jm5012808"
+            }
+          },
+          {
+            "id": "camp-mechanism",
+            "label": "Check upstream cAMP signaling",
+            "format": "Cell treatment → biochemical measurement",
+            "system": "Fischer rat thyroid (FRT) cells were exposed to test compound for 15 minutes, then lysed for a cAMP immunoassay.",
+            "readout": "Total cAMP, including cellular and secreted cAMP, quantified against a standard curve.",
+            "result": "The paper describes the method on p. 9793 but does not present a corresponding compound-48 cAMP result in its main results.",
+            "meaning": "Asks whether increased chloride transport could follow an upstream signaling change. The result summarized in the IND review is compared in the next section.",
+            "source": {
+              "label": "p. 9793 · cAMP-measurement method",
+              "url": "https://doi.org/10.1021/jm5012808"
+            }
+          },
+          {
+            "id": "gabaa-selectivity",
+            "label": "Follow a known off-target liability",
+            "format": "GABAₐ receptor binding assay",
+            "system": "A Ricerca assay for the GABAₐ benzodiazepine binding site. The paper does not specify the ligand or receptor preparation.",
+            "readout": "Binding-assay IC₅₀ for lead 16; a fixed-concentration “percent activity” readout for selected later compounds.",
+            "result": "Lead 16: IC₅₀ ≈ 0.1 μM. At 10 μM, compounds 36, 45 and 48 gave 47%, 52% and 18% activity, respectively (footnote 17).",
+            "meaning": "Tracks an off-target interaction alongside CFTR potency. A binding result does not tell us whether GABAₐ channel function is activated or inhibited; a single-point percentage is not an IC₅₀.",
+            "source": {
+              "label": "pp. 9778, 9794 · Lead 16 profiling and footnote 17",
+              "url": "https://doi.org/10.1021/jm5012808"
+            }
+          },
+          {
+            "id": "broader-profiling",
+            "label": "Check a wider set of unwanted effects",
+            "format": "Target, channel and enzyme profiling",
+            "system": "Compound 48 was tested in a 160-target Ricerca panel, an hERG assay and assays for six CYP enzymes. Individual assay platforms are not specified in the paper.",
+            "readout": "Panel activity and inhibitory potency against hERG and CYP1A2, 2C9, 2C19, 2E1, 3A4 and 2D6.",
+            "result": "No significant activity reported in the 160-target panel; hERG IC₅₀ > 10 μM; all six CYP IC₅₀ values > 20 μM.",
+            "meaning": "Broadens the selectivity profile and checks early cardiac and metabolic interaction liabilities. These measurements do not establish clinical safety or replace the later safety package.",
+            "source": {
+              "label": "p. 9780 · Further profiling of compound 48",
+              "url": "https://doi.org/10.1021/jm5012808"
+            }
+          }
+        ],
+        "note": "Read the numbers within their assay. Cellular EC₅₀, receptor-binding IC₅₀ and a response at one fixed concentration answer different questions. The 3 nM engineered-cell result, 22 nM F508del-HBE result and 236 nM G551D/F508del-HBE result also come from different biological systems. Forskolin stimulates cAMP signaling to activate CFTR; potentiation is measured on top of that stimulation."
       },
       "comparison": {
         "title": "What the initial IND review adds",
@@ -12446,8 +12556,8 @@ const REASONING_GUIDES = {
               }
             },
             "addition": {
-              "label": "More detail about the experimental systems",
-              "text": "The same activity question was tested across cell backgrounds and CFTR variants. The assay system matters when comparing potency values."
+              "label": "Check that activity survives a different assay",
+              "text": "An electrical readout and another cell background help test whether activity extends beyond one fluorescence assay. Comparing CFTR variants also shows how potency depends on the biological system. This strengthens the evidence for candidate function without proving binding affinity or patient benefit."
             }
           },
           {
@@ -12468,8 +12578,8 @@ const REASONING_GUIDES = {
               }
             },
             "addition": {
-              "label": "More detail supporting the mechanism",
-              "text": "Single-channel behavior and upstream-signaling assays help distinguish channel potentiation from an indirect increase in cAMP."
+              "label": "Distinguish channel action from upstream signaling",
+              "text": "More chloride transport could result from increased cAMP rather than an effect on CFTR gating. Single-channel measurements, together with cAMP and phosphodiesterase assays, help distinguish these explanations and support the proposed mechanism of the candidate."
             }
           },
           {
@@ -12490,12 +12600,13 @@ const REASONING_GUIDES = {
               }
             },
             "addition": {
-              "label": "Different tissue details and controls",
-              "text": "This excerpt documents F508del patient tissue, not G551D patient-derived bronchial cells. The stimulation, corrector and inhibitor conditions matter when interpreting what it showed."
+              "label": "Understand the conditions needed for a tissue response",
+              "text": "Human-airway activity was already reported in the paper. The review adds stimulation, corrector and control details that help explain the observed response. These conditions matter when judging whether a CFTR potentiator could work alone or might depend on restoring channels to the cell surface."
             }
           }
         ],
-        "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes."
+        "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes.",
+        "rationaleNote": "The last column explains the scientific value of the evidence. The reviewed passages do not establish that FDA requested these experiments or that they were newly performed after candidate nomination."
       },
       "assessment": {
         "title": "How FDA assessed the evidence",
@@ -14257,7 +14368,7 @@ for (const [id, guide] of Object.entries(REASONING_GUIDES)) {
   options: guide.exercise.options.map(o => [o.label, o.feedback, o.correct])
  };
  const cases = guide.readingTopics ? guide.readingTopics.flatMap(t => [...t.cases, ...t.moreCases]) : guide.cases;
- const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
+ const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
  const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
  lesson.sources = sources.filter((s, i) => sources.findIndex(x => x.url === s.url) === i);
 }
@@ -14300,14 +14411,18 @@ function reasoningPastLessons(){
 }
 function reasoningSourceComparison(c){
  const e=escapeHtml;
- return `<div class="reasoning-comparison-scroll" tabindex="0" role="region" aria-label="Discovery paper and initial IND review comparison"><table class="reasoning-source-comparison" aria-describedby="source-comparison-note"><caption class="sr-only">Compare the same biological questions across the discovery paper and the initial IND review.</caption><colgroup><col class="comparison-question-column"><col><col></colgroup><thead><tr><th scope="col">Scientific question</th><th scope="col">Discovery paper <span>Hadida et al. · 2014</span></th><th scope="col">Initial IND review <span>Written in 2006 · released in 2012</span></th></tr></thead>${c.rows.map(r=>`<tbody><tr class="comparison-evidence"><th scope="row">${e(r.question)}</th><td><p>${e(r.paper.text)}</p>${indSourceLink(r.paper.source)}</td><td><p>${e(r.ind.text)}</p>${indSourceLink(r.ind.source)}</td></tr><tr class="comparison-interpretation"><td colspan="3"><div><strong>${e(r.addition.label)}</strong><p>${e(r.addition.text)}</p></div></td></tr></tbody>`).join('')}</table></div><p class="reasoning-source-note" id="source-comparison-note">${e(c.note)}</p>`;
+ return `<div class="reasoning-comparison-scroll" tabindex="0" role="region" aria-label="Discovery paper, initial IND review and scientific rationale"><table class="reasoning-source-comparison" aria-describedby="source-comparison-rationale source-comparison-note"><caption class="sr-only">Compare biological evidence and why it matters for the IND.</caption><colgroup><col class="comparison-question-column"><col class="comparison-paper-column"><col class="comparison-ind-column"><col class="comparison-rationale-column"></colgroup><thead><tr><th scope="col">Scientific question</th><th scope="col">Discovery paper <span>Hadida et al. · 2014</span></th><th scope="col">Initial IND review <span>Written in 2006 · released in 2012</span></th><th scope="col" class="comparison-rationale">Why this matters for the IND <span>Scientific interpretation</span></th></tr></thead>${c.rows.map(r=>`<tbody><tr class="comparison-evidence"><th scope="row">${e(r.question)}</th><td><p>${e(r.paper.text)}</p>${indSourceLink(r.paper.source)}</td><td><p>${e(r.ind.text)}</p>${indSourceLink(r.ind.source)}</td><td class="comparison-rationale"><strong>${e(r.addition.label)}</strong><p>${e(r.addition.text)}</p></td></tr></tbody>`).join('')}</table></div><p class="reasoning-source-note reasoning-rationale-note" id="source-comparison-rationale">${e(c.rationaleNote)}</p><p class="reasoning-source-note" id="source-comparison-note">${e(c.note)}</p>`;
 }
 function reasoningCasePart(number,title,className,body){
  return `<details class="reasoning-case-part ${className}"><summary class="reasoning-case-part-heading"><span aria-hidden="true">${number}</span><h3>${escapeHtml(title)}</h3></summary><div class="reasoning-case-part-body">${body}</div></details>`;
 }
+function reasoningDiscoveryAssays(d){
+ const e=escapeHtml;
+ return `<p class="reasoning-assay-intro">${e(d.intro)}</p><ol class="reasoning-assay-map" aria-label="Questions addressed by the assay work">${d.assayMap.map(x=>`<li><strong>${e(x.label)}</strong><span>${e(x.text)}</span></li>`).join('')}</ol><div class="reasoning-assay-scroll" tabindex="0" role="region" aria-label="Ivacaftor experiments, assay systems and results"><table class="reasoning-assay-table" aria-describedby="assay-reading-note"><caption class="sr-only">Experimental evidence reported in the ivacaftor discovery paper.</caption><colgroup><col class="assay-name-column"><col class="assay-system-column"><col class="assay-result-column"><col></colgroup><thead><tr><th scope="col">Experiment</th><th scope="col">System and readout</th><th scope="col">Reported result</th><th scope="col">Interpretation</th></tr></thead><tbody>${d.assays.map(a=>`<tr><th scope="row"><span class="reasoning-assay-format">${e(a.format)}</span><strong>${e(a.label)}</strong>${indSourceLink(a.source)}</th><td><p>${e(a.system)}</p><p class="reasoning-assay-readout"><span>Readout</span>${e(a.readout)}</p></td><td><p>${e(a.result)}</p></td><td><p>${e(a.meaning)}</p></td></tr>`).join('')}</tbody></table></div><p class="reasoning-source-note" id="assay-reading-note">${e(d.note)}</p>`;
+}
 function reasoningIndCase(){
  const c=reasoningGuide().workedCase,e=escapeHtml;
- const discovery=`<div class="reasoning-discovery-claims">${c.discovery.claims.map(x=>`<div><h4>${e(x.label)}</h4><p>${e(x.text)}</p></div>`).join('')}</div><footer><div class="reasoning-publication-caveat"><strong>Caveat: publication timing</strong><p>${e(c.discovery.limit)}</p></div><div class="reasoning-discovery-sources">${indSourceLink(c.discovery.source)}${indSourceLink(c.discovery.approvalSource)}</div></footer>`;
+ const discovery=`${reasoningDiscoveryAssays(c.discovery)}<footer><div class="reasoning-publication-caveat"><strong>Caveat: publication timing</strong><p>${e(c.discovery.limit)}</p></div><div class="reasoning-discovery-sources">${indSourceLink(c.discovery.source)}${indSourceLink(c.discovery.approvalSource)}</div></footer>`;
  const comparison=`<p class="reasoning-part-intro">${e(c.comparison.intro)}</p>${reasoningSourceComparison(c.comparison)}`;
  const assessment=`<div class="reasoning-assessment-items">${c.assessment.items.map((x,i)=>`<div${i===1?' class="assessment-request"':''}><h4>${e(x.label)}</h4><p>${e(x.text)}</p></div>`).join('')}</div><footer>${indSourceLink(c.assessment.source)}</footer>`;
  return `<article class="reasoning-ind-case" aria-labelledby="ind-case-title"><header class="reasoning-learning-heading"><span class="reasoning-ind-stage">${e(c.stage)}</span><h2 id="ind-case-title">${e(c.title)}</h2></header><section class="reasoning-ind-start"><figure><img src="${e(c.image)}" alt="${e(c.imageAlt)}"><figcaption><strong>${e(c.drug)}</strong><span>${e(c.identity)}</span></figcaption></figure><div><span class="reasoning-ind-label">The biological question</span><h3>${e(c.question)}</h3><p>${e(c.rationale)}</p></div></section><p class="reasoning-ind-timing">${e(c.timing)}</p>${reasoningCasePart(1,c.discovery.title,'reasoning-discovery-evidence',discovery)}${reasoningCasePart(2,c.comparison.title,'reasoning-compare-evidence',comparison)}${reasoningCasePart(3,c.assessment.title,'reasoning-fda-assessment',assessment)}<p class="reasoning-case-takeaway">${e(c.takeaway)}</p></article>`;

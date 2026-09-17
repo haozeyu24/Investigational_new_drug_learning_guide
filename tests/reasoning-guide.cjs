@@ -74,36 +74,80 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
     assert(where.includes(source.url.replace(/&/g,'&amp;')),'Displays source URL: '+source.url);
     assert(run('level().sources.some(s=>s.url==='+JSON.stringify(source.url)+')'),'Source is available in Sources & reading');
    };
-   const discovery=worked.discovery;assert.equal(discovery.claims.length,3);
-   assert(partBodies[0].includes(escaped(discovery.limit)));
-   for(const claim of discovery.claims){assert(partBodies[0].includes(escaped(claim.label)));assert(partBodies[0].includes(escaped(claim.text)));}
+   const discovery=worked.discovery;assert.equal(discovery.claims,undefined);
+   for(const field of ['intro','note','limit']){
+    assert.equal(typeof discovery[field],'string');assert(discovery[field].trim());
+    assert(partBodies[0].includes(escaped(discovery[field])),'Discovery retains '+field);
+   }
+   assert.equal(discovery.assayMap.length,3);
+   for(const step of discovery.assayMap){assert(partBodies[0].includes(escaped(step.label)));assert(partBodies[0].includes(escaped(step.text)));}
+   assert.equal(discovery.assays.length,6);
+   assert.equal(new Set(discovery.assays.map(a=>a.id)).size,6,'Assays have distinct stable IDs');
+   const assayTableMatch=partBodies[0].match(/<table\b[^>]*class="[^"]*\breasoning-assay-table\b[^"]*"[^>]*>([\s\S]*?)<\/table>/);
+   assert(assayTableMatch,'Discovery assays use a semantic table');
+   const assayHead=assayTableMatch[1].match(/<thead\b[^>]*>([\s\S]*?)<\/thead>/);assert(assayHead);
+   const assayHeaders=[...assayHead[1].matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>/g)];
+   assert.equal(assayHeaders.length,4);
+   for(const [index,label] of ['Experiment','System and readout','Reported result','Interpretation'].entries())assert(assayHeaders[index][1].includes(label),'Assay column '+label);
+   const assayBody=assayTableMatch[1].match(/<tbody\b[^>]*>([\s\S]*?)<\/tbody>/);assert(assayBody);
+   const assayRows=[...assayBody[1].matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/g)];assert.equal(assayRows.length,6);
+   for(const [index,assay] of discovery.assays.entries()){
+    const row=assayRows[index][1],header=row.match(/<th\b[^>]*scope="row"[^>]*>([\s\S]*?)<\/th>/);
+    assert(header,assay.id+' has a scoped experiment row header');
+    const cells=[...row.matchAll(/<td\b[^>]*>([\s\S]*?)<\/td>/g)];assert.equal(cells.length,3);
+    for(const field of ['label','format'])assert(header[1].includes(escaped(assay[field])),assay.id+' shows '+field+' in the experiment cell');
+    for(const field of ['system','readout'])assert(cells[0][1].includes(escaped(assay[field])),assay.id+' shows '+field+' in its system/readout cell');
+    assert(cells[1][1].includes(escaped(assay.result)),assay.id+' retains its exact result and units in its result cell');
+    assert(cells[2][1].includes(escaped(assay.meaning)),assay.id+' shows its interpretation in its interpretation cell');
+    sourceShown(assay.source,row);
+   }
+   const assayById=Object.fromEntries(discovery.assays.map(a=>[a.id,a]));
+   assert.match(assayById['engineered-potency'].result,/3 ± 1 nM/);
+   assert.match(assayById['engineered-potency'].readout,/membrane-potential.*chloride efflux/);
+   assert.match(assayById['f508del-airway'].result,/22 ± 10 nM/);
+   assert.match(assayById['f508del-airway'].readout,/short-circuit current/);
+   assert.match(assayById['g551d-airway'].result,/0\.236 ± 0\.200 μM/);
+   assert.match(assayById['g551d-airway'].result,/50%/);
+   assert.match(assayById['gabaa-selectivity'].result,/47%, 52% and 18%/);
+   assert.match(assayById['broader-profiling'].result,/hERG IC₅₀ > 10 μM/);
+   assert.match(assayById['broader-profiling'].result,/CYP IC₅₀ values > 20 μM/);
+   const camp=assayById['camp-mechanism'];assert(camp,'cAMP method has its own row');
+   assert.match(camp.readout,/cAMP.*standard curve/);
+   assert.match(camp.result,/describes the method.*does not present.*cAMP result/,'The discovery paper supplies a method, not a reported compound-48 cAMP result');
+   assert(!/\d\s*(?:±|%|[nμu]M\b|pmol\b|nmol\b)|no (?:change|increase)|unchanged|did not increase/i.test(camp.result),'Do not invent a numerical or negative cAMP result in the discovery account');
    sourceShown(discovery.source,partBodies[0]);
+   sourceShown(discovery.approvalSource,partBodies[0]);
    const comparison=worked.comparison;assert.equal(comparison.rows.length,3);
    assert(partBodies[1].includes(escaped(comparison.intro)));assert(partBodies[1].includes(escaped(comparison.note)));
+   assert.equal(typeof comparison.rationaleNote,'string');assert(comparison.rationaleNote.trim());
+   assert(partBodies[1].includes(escaped(comparison.rationaleNote)),'Scientific rationale retains its explicit provenance caveat');
    const tableMatch=partBodies[1].match(/<table\b[^>]*class="[^"]*reasoning-source-comparison[^"]*"[^>]*>([\s\S]*?)<\/table>/);
    assert(tableMatch,'Scientific comparison uses a semantic table');
    const table=tableMatch[1],head=table.match(/<thead\b[^>]*>([\s\S]*?)<\/thead>/);assert(head,'Comparison table has a header');
-   assert.equal((head[1].match(/<th\b/g)||[]).length,3,'Question, discovery paper, initial IND review');
+   const comparisonHeaders=[...head[1].matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>/g)];
+   assert.equal(comparisonHeaders.length,4,'Question, discovery paper, initial IND review, scientific rationale');
+   for(const [index,label] of ['Scientific question','Discovery paper','Initial IND review','Why this matters for the IND'].entries())assert(comparisonHeaders[index][1].includes(label),'Comparison column '+label);
+   assert(comparisonHeaders[3][1].includes('Scientific interpretation'),'Fourth column labels rationale as interpretation');
    const bodies=[...table.matchAll(/<tbody\b[^>]*>([\s\S]*?)<\/tbody>/g)];
    assert.equal(bodies.length,3,'Each scientific question and interpretation form one row group');
    for(const body of bodies){
-    assert.equal((body[1].match(/<tr\b/g)||[]).length,2,'Evidence row followed by its interpretation');
+    assert.equal((body[1].match(/<tr\b/g)||[]).length,1,'Each question has one comparison row');
     assert.equal((body[1].match(/<th\b[^>]*scope="row"/g)||[]).length,1,'Scientific question is a row header');
-    assert.equal((body[1].match(/<td\b(?![^>]*colspan)/g)||[]).length,2,'Paper and IND evidence have separate cells');
-    assert.equal((body[1].match(/<td\b[^>]*colspan="3"/g)||[]).length,1,'Interpretation spans the comparison row');
+    assert.equal((body[1].match(/<td\b/g)||[]).length,3,'Paper, IND evidence and rationale have separate cells');
+    assert(!/colspan=|comparison-interpretation/.test(body[1]),'No extra spanning interpretation band');
    }
    for(const [rowIndex,row] of comparison.rows.entries()){
-    const rowGroup=bodies[rowIndex][1];
+    const rowGroup=bodies[rowIndex][1],cells=[...rowGroup.matchAll(/<td\b[^>]*>([\s\S]*?)<\/td>/g)];
     assert(rowGroup.includes(escaped(row.question)),row.id+' shows the scientific question in its row group');
     assert.match(row.paper.source.url,/doi\.org\/10\.1021\/jm5012808$/);
     assert.match(row.ind.source.url,/accessdata\.fda\.gov.*#page=(85|86)$/);
-    for(const side of ['paper','ind']){
-     assert(rowGroup.includes(escaped(row[side].text)),row.id+' shows '+side+' evidence in its row group');
-     sourceShown(row[side].source,rowGroup);
+    for(const [cellIndex,side] of ['paper','ind'].entries()){
+     assert(cells[cellIndex][1].includes(escaped(row[side].text)),row.id+' shows '+side+' evidence in its correct cell');
+     sourceShown(row[side].source,cells[cellIndex][1]);
     }
     assert(rowGroup.indexOf(escaped(row.paper.text))<rowGroup.indexOf(escaped(row.ind.text)),row.id+' keeps paper before IND evidence');
-    assert(rowGroup.includes(escaped(row.addition.label)),row.id+' shows its interpretation label');
-    assert(rowGroup.includes(escaped(row.addition.text)),row.id+' explains what the review adds in the same row group');
+    assert(cells[2][1].includes(escaped(row.addition.label)),row.id+' shows its rationale label in the fourth column');
+    assert(cells[2][1].includes(escaped(row.addition.text)),row.id+' explains scientific relevance in the fourth column');
    }
    const assessment=worked.assessment;assert.equal(assessment.items.length,3);
    for(const item of assessment.items){assert(partBodies[2].includes(escaped(item.label)));assert(partBodies[2].includes(escaped(item.text)));}

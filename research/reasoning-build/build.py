@@ -16,8 +16,13 @@ for name in ('nonclinical', 'cmc', 'clinical'):
             chapter['workedCase'] = json.loads((Path(__file__).parent / 'ivacaftor-ind.json').read_text())
             chapter['lessons'] = {'id': 'lessons-from-the-past', 'label': 'Lessons from the past'}
             worked_case = chapter['workedCase']
-            assert len(worked_case['discovery']['claims']) == 3
+            assert len(worked_case['discovery']['assayMap']) == 3
+            assert len(worked_case['discovery']['assays']) == 6
+            for assay in worked_case['discovery']['assays']:
+                assert all(assay.get(k) for k in ('id', 'label', 'format', 'system', 'readout', 'result', 'meaning'))
+                assert assay['source']['url'].startswith('https://')
             assert len(worked_case['comparison']['rows']) == 3
+            assert worked_case['comparison']['rationaleNote']
             assert len(worked_case['assessment']['items']) == 3
             for row in worked_case['comparison']['rows']:
                 assert row['paper']['source']['url'].startswith('https://')
@@ -60,7 +65,7 @@ for (const [id, guide] of Object.entries(REASONING_GUIDES)) {
   options: guide.exercise.options.map(o => [o.label, o.feedback, o.correct])
  };
  const cases = guide.readingTopics ? guide.readingTopics.flatMap(t => [...t.cases, ...t.moreCases]) : guide.cases;
- const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
+ const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
  const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
  lesson.sources = sources.filter((s, i) => sources.findIndex(x => x.url === s.url) === i);
 }
