@@ -12,23 +12,32 @@ Saved positions and completed exercises persist across refreshes in the same bro
 
 ## Current learning map
 
-The guide now has four parts and 24 main lessons:
+The guide now has four parts and 25 main lessons:
 
 1. The purpose of an IND.
 2. Can we make a good drug candidate?
-3. Can we build the evidence for human testing?
-4. Can we begin the first human study?
+3. IND-enabling development: an overview, followed by nonclinical evidence, drug material and CMC, and the clinical plan.
+4. FDA engagement, IND submission, and review.
 
-Part 3 uses osimertinib to illustrate pharmacology, exposure, safety, and product quality. Its examples identify whether the evidence comes from a published preclinical study, the IND-review appendix reproduced in FDA's public review, or a later NDA quality assessment. They do not reconstruct the full initial IND or treat commercial specifications as universal first-in-human requirements.
+Part 3 has nine chapters: four on nonclinical evidence, three on drug material and CMC, and two on clinical planning. “Connect drug action to potential benefit” has three tabs: FDA requirements, a worked initial-IND case for ivacaftor, and supporting lessons from past programs. The other eight chapters retain their reasoning maps, case comparisons, and decision exercises. Case labels distinguish original IND reviews, later IND discussions, and marketing assessments.
 
 Run the smoke checks from the repository root with Node.js:
 
 ```sh
 node tests/guide-smoke.cjs
+node tests/reasoning-guide.cjs
 node tests/progress-storage.cjs
+node tests/fda-review-library.cjs
+node tests/ind-evidence-map.cjs
 ```
 
 The checks exercise rendering, navigation, decision feedback, and browser-local progress in a mocked DOM. They do not replace visual browser review.
+
+## FDA review source library
+
+Open `dist/fda-review-library.html`, or use the source-library link on the learning map or the candidate-development examples. The library contains 34 verified records from FDA approval packages and complete response letters. It distinguishes reproduced reviews/extracts, later summaries, meeting minutes, and letters, with PDF page links and limits on interpretation.
+
+The library works locally and on a static host. External PDFs open on FDA's website. Verification notes and the inclusion rule are recorded in `research/fda-review-library.md`.
 
 ## Current milestone
 
@@ -49,10 +58,13 @@ The guide is a learning map, not a universal regulatory checklist. Literature ci
 | `dist/content.js` | Supporting guide content |
 | `dist/app.js` | Rendering, navigation, exercises, and progress |
 | `dist/styles.css` | Visual presentation |
+| `dist/reasoning.js` / `dist/reasoning.css` | Shared reasoning maps, case views and exercises |
+| `dist/reasoning-content.js` | Packaged content for the nine IND-enabling chapters |
+| `research/reasoning-build/*.json` | Editable chapter content, cases and source references |
 | `dist/assets/` | Structures, figures, and illustrations |
 | `dist/refresh-local-html.py` | Packages the source files into the local HTML |
 
-After editing the source files, run from the repository root:
+After editing chapter JSON, run `python3 research/reasoning-build/build.py`. After editing the source files, run from the repository root:
 
 ```sh
 python3 dist/refresh-local-html.py
@@ -76,3 +88,13 @@ git worktree add --detach ../ind-guide-v0.1.0 v0.1.0
 ```
 
 The GitHub repository is a backup and version history. Opening the guide remains a local workflow; GitHub Pages is not required.
+
+### Part 3 evidence development
+
+The opening pharmacology chapter compares ivacaftor’s discovery paper with its initial IND review in three initially collapsed sections: evidence relevant to lead optimization, a side-by-side comparison of activity/mechanism/human-tissue findings, and FDA’s assessment. It distinguishes additional detail in the review from experiments necessarily conducted after nomination. The case stays focused on biological rationale; dose escalation belongs to the clinical and safety discussions. Its 26 other cases remain available under five expandable groups in “Lessons from the past.” Its completion button records a reading acknowledgement; it is not an exercise score. Old principle-tab positions migrate into their matching group, and older links and saved completion remain supported.
+
+The other eight IND-enabling chapters contain 31 reasoning steps, 16 cases, and eight exercises. Each exercise reveals a revised claim, its support, remaining uncertainty, and next decision. Reading position and selected case are saved alongside existing lesson progress. The discovery chapters retain their established content and presentation.
+
+Open `dist/ind-evidence-map.html` for the broader verified passage-to-lesson assignments. The focused reviews in `research/minireviews-development/` and `research/minireview-action/` are the editorial foundation for the new chapters. The full FDA search remains incomplete; its latest recorded state is in `research/index-screen/progress.json`.
+
+Rebuild the research map with `python3 research/build-ind-evidence-map.py`; check its offline filters with `node tests/ind-evidence-map.cjs`.

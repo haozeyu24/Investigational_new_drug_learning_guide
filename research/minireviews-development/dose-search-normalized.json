@@ -1,0 +1,231 @@
+{
+  "scope": 7979,
+  "hits": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/021908Orig1s011.pdf",
+      "page": 398,
+      "textFile": "/tmp/ind-full-screen/text/8f6fe874edeea6e5ad7766ff.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/8f6fe874edeea6e5ad7766ff.source",
+      "sha256": "25f07b8648abd2a111d5ef22557b5274edc0e60faf785d926fee633f7c32ba9c",
+      "snippets": [
+        "8 \u03bcg/kg/day. Considering a dose of 50 \u03bcg/kg/day to be LOAEL in juvenile rats, the NOAEL is likely to be 1/10 of LOAEL or 5 \u03bcg/kg/day. The human equivalent dose at NOAEL will be 0.8 \u03bcg/kg/day. Applying a safety factor of 10 for variation in humans, a starting dose of 0.08 \u03bcg/kg/day, or 1/10 of the adult dose, should be reasonably safe for the proposed pediatric study. RECOMMENDATION: The clinical trials with lubiprostone in pediatric patients should start with a dose- escalation study. We recommend the starting dose in pediatric patients to be 1/10 of the adult dose, or 0.08 \u03bcg/kg/day. Heart rate and blood pressure should be monitored during the study. To help further understand the risk for pediatric patients, screening assays for receptor binding and ion channel activities should be performed with lubiprostone. References (1) Sushanta Chakder. 2005. Pharmacology review for NDA021908. http://www.accessdata.fda.gov/drugsatfda_docs/nda/2006/021908s000_Amitiza_PHAR MR.pdf , Assessed on Oct 11, 2012 Re",
+        "g dose of 0.08 \u03bcg/kg/day, or 1/10 of the adult dose, should be reasonably safe for the proposed pediatric study. RECOMMENDATION: The clinical trials with lubiprostone in pediatric patients should start with a dose- escalation study. We recommend the starting dose in pediatric patients to be 1/10 of the adult dose, or 0.08 \u03bcg/kg/day. Heart rate and blood pressure should be monitored during the study. To help further understand the risk for pediatric patients, screening assays for receptor binding and ion channel activities should be performed with lubiprostone. References (1) Sushanta Chakder. 2005. Pharmacology review for NDA021908. http://www.accessdata.fda.gov/drugsatfda_docs/nda/2006/021908s000_Amitiza_PHAR MR.pdf , Assessed on Oct 11, 2012 Reference ID: 3202270 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218139Orig1s000PharmR.pdf",
+      "page": 17,
+      "textFile": "/tmp/ind-full-screen/text/3a84e3d40c5f04a014b86402.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/3a84e3d40c5f04a014b86402.source",
+      "sha256": "b76e9d1616076b8c8ece1ae91eff8a57d2b7b90787fee7609196567ddaf61e92",
+      "snippets": [
+        "d there was no new safety concern raised with Terazosin Oral Solution, 1 mg/mL. The NOAEL for the Terazosin Oral Solution = 20.7 mg/kg (AUC0-24h of 6368.29 ng\uf0b7h/mL in males and 6969.23 ng\uf0b7h/mL in females on Day 28), 21X and 23X the recommended human starting dose of 1 mg Terazosin Oral Solution (Table 1). When compared to an equivalent dose of the reference product, Terazosin Hydrochloride Oral Solution had lower systemic exposure. Additionally, a sex-related difference in systemic exposure was observed for the reference item but was not observed for the Terazosin Oral Solution. A review of information for other alpha-1 adrenoreceptor antagonists (e.g., tamsulosin, doxazosin, silodosin, alfuzosin) did not show consistent sex-related effects on systemic exposure across the nonclinical species tested. Therefore, this sex- related effect on systemic exposure in the Terazosin Capsules reference item does not appear to be an established class effect. Based on the 28-day toxicity rat study and the establ"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/208232Orig1s000ClinPharmR.pdf",
+      "page": 50,
+      "textFile": "/tmp/ind-full-screen/text/2b2884c549e6321a72c10404.json.gz",
+      "sourceFile": null,
+      "sha256": "05651e884f4918cc59a4eaec20ec1fa2821e6e34d344f7549805a8699e163a85",
+      "snippets": [
+        "adverse effect level (NOAEL) in the monkey was the highest dose tested, which was 9.75 mg given twice daily for 28 days. Based on an average human body weight of 70 kg, the human equivalent dose (HED) of the monkey NOAEL is approximately 111 mg. The starting dose, Mycapssa 3 mg, was approximately 33 times lower than the HED of the NOAEL. After safety with 3 mg was established, the 10 mg dose was initiated. Similarly after safety was established with the 10 mg dose, the 20 mg dose was initiated. Reference ID: 3914351 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761113Orig1s000MultidisciplineR.pdf",
+      "page": 6,
+      "textFile": "/tmp/ind-full-screen/text/0b4930010242793f902d5489.json.gz",
+      "sourceFile": null,
+      "sha256": "e81e71eb9f7d0fc79b1eaf0334278f503034303ead45a60410197a9d94bd2e87",
+      "snippets": [
+        "sed Indication ................................ 24 Table 2 \u00ad Isatuximab in vitro activity against MM cell lines .......................................................... 38 Table 3 \u00ad Isatuximab in vitro activity against cell lines used for in vitro MABEL determination .. 39 Table 4. PFS and ORR Summary for All Treated Population in Study TCD14079 Part A. ............. 66 Table 5: Highlights of Clinical Pharmacology for Isatuximab ........................................................ 69 Table 6. Comparison of IRR Profile between TCD14079 Part B and ICARIA. ................................ 77 Table 7. Evaluation of PFS by Ig Type in Study ICARIA (n=154 Isa-Pd). ........................................ 80 Table 8. Evaluation of ORR by Ig Type in Study ICARIA (n=154 Isa-Pd). ....................................... 80 Table 9: Summary of completed company-sponsored studies included in the CTD .................... 83 Table 10 - PFS subgroup analyses: covariates investigated - Study EFC14335 ."
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761113Orig1s000MultidisciplineR.pdf",
+      "page": 40,
+      "textFile": "/tmp/ind-full-screen/text/0b4930010242793f902d5489.json.gz",
+      "sourceFile": null,
+      "sha256": "e81e71eb9f7d0fc79b1eaf0334278f503034303ead45a60410197a9d94bd2e87",
+      "snippets": [
+        "study ( formulation stored at +5\u00b0C ) 3. Maximum percentage of Annexin-V-positive cells 4. Pro-apoptotic activity is considered positive above 10% of Annexin-V-positive cells Table 3 \u00ad Isatuximab in vitro activity against cell lines used for in vitro MABEL determination CD38 expression1 ADCC CDC Pro-apoptotic activity Cell line ABC in 1,000 EC50 in pM Max % lysis EC50 in nM Max % lysis EC50 in nM Max %Ann. V+ 23 Ramos 255 3.24 97 0.17 23 0.01 30 SU-DHL-8 220 2.1 82 1.61 27 0.03 88 DND-41 612 1.5 58 0.11 93 0.1 56 Abbreviations: ABC: antibodies bound per cell, ADCP: antibody-dependent cellular phagocytosis, ADCC: antibody\u00addependent cellular cytotoxicity; CDC: complement\u00addependent cytotoxicity 1. IMV23-012 study 2. Maximum percentage of Annexin-V positive cells 3. Pro-apoptotic activity is considered positive above 10% of Annexin-V-positive cells 4. In bold, data used for in vitro MABEL determination Isatuximab ex vivo activity against primary MM patient cells The applicant evaluated the pro-a",
+        "lular cytotoxicity; CDC: complement\u00addependent cytotoxicity 1. IMV23-012 study 2. Maximum percentage of Annexin-V positive cells 3. Pro-apoptotic activity is considered positive above 10% of Annexin-V-positive cells 4. In bold, data used for in vitro MABEL determination Isatuximab ex vivo activity against primary MM patient cells The applicant evaluated the pro-apoptotic effect of isatuximab using bone marrow aspirates from relapsed and newly diagnosed MM patients in the presence or absence of autologous plasma and/or macrophages. In the absence of autologous plasma and/or macrophages isatuximab demonstrated an anti- MM effect in 4/7 samples tested (28 to 40% increase of Annexin-V+ cells) and a moderate response in the 3 other samples (14 to 16% increase of Annexin-V+ cells). In the presence of autologous plasma and/or macrophages isatuximab and autologous plasma showed increased cell killing in 1 of 2 MM samples. Reference ID: 4568595 (b) (4) "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761196Orig1s000MultidisciplineR.pdf",
+      "page": 49,
+      "textFile": "/tmp/ind-full-screen/text/b94675f7313dbc4800d674f1.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/b94675f7313dbc4800d674f1.source",
+      "sha256": "43d77b2d68cc4347d183cd88e2732201e5d14c9706e06d43b7078956160acdfa",
+      "snippets": [
+        "uximab tesirine, given the greater predictive value of PK data generated in this species for humans, potential for reduced impact of antidrug antibody (ADA) formation on drug exposure, and the proven utility of 1/6th highest non\u2010severely toxic dose (HNSTD) for setting clinical starting doses with ADCs. Furthermore, toxicities that are known class effects associated with pyrrolobenzodiazepine dimer (PBD) warheads (eg, skin toxicity) are observed in this species. Importantly, on\u2010target (ie, CD19\u2010mediated) toxicity cannot be evaluated in this or any other nonclinical species; however, a considerable body of data on the nonclinical and clinical safety of CD19\u2010 and CD20\u2010specific B\u2010cell\u2010depleting agents exists. In repeat\u2010dose toxicity studies in cynomolgus monkeys, loncastuximab tesirine exhibited a safety profile consistent with SG3199\u2010mediated effects on the skin (epidermal hyperpigmentation with hyperplasia/hyperkeratosis), bone marrow (hypocellularity associated with regenerative anemia), kid",
+        "reater predictive value of PK data generated in this species for humans, potential for reduced impact of antidrug antibody (ADA) formation on drug exposure, and the proven utility of 1/6th highest non\u2010severely toxic dose (HNSTD) for setting clinical starting doses with ADCs. Furthermore, toxicities that are known class effects associated with pyrrolobenzodiazepine dimer (PBD) warheads (eg, skin toxicity) are observed in this species. Importantly, on\u2010target (ie, CD19\u2010mediated) toxicity cannot be evaluated in this or any other nonclinical species; however, a considerable body of data on the nonclinical and clinical safety of CD19\u2010 and CD20\u2010specific B\u2010cell\u2010depleting agents exists. In repeat\u2010dose toxicity studies in cynomolgus monkeys, loncastuximab tesirine exhibited a safety profile consistent with SG3199\u2010mediated effects on the skin (epidermal hyperpigmentation with hyperplasia/hyperkeratosis), bone marrow (hypocellularity associated with regenerative anemia), kidney (nephropathy\u2014degeneration and hy"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf",
+      "page": 73,
+      "textFile": "/tmp/ind-full-screen/text/64ddad1171ea0d66a12f3f3a.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/64ddad1171ea0d66a12f3f3a.source",
+      "sha256": "109bce8961b7ed9151a04977625b7aa8219eba071b705e3fd7a94e9ffa58e742",
+      "snippets": [
+        "oncurrent syndromes or diseases x Dose selection: Part 1: During the dose-selection phase of the study, risdiplam dose levels were investigated in a staggered, dose-escalation manner. The first patient enrolled (aged 5 to 7 months) received a single starting dose of 0.00106 mg/kg risdiplam to assess safety and tolerability and pharmacokinetics. This dose was selected based on the most conservative PBPK modelling scenario, plus an additionally applied safety factor of 10. Once this single dose was shown to be safe and well tolerated, and after the pharmacokinetics had been evaluated, this patient continued in the study and, approximately 6 weeks later, started administration of once daily risdiplam at a dose that was selected based on the PK data obtained from the first single dose, targeting an exposure of area under the curve from time 0 to 24 hours at steady state [AUC 0-24h,ss] of 700 ng x h/mL. This exposure, called Dose Level 1, was predicted to result in a doubling of SMN protein levels (i.e.",
+        "ased on all available data from Part 1 and as confirmed by the external iDMC. o A dose that results in a target exposure of mean AUC 0-24h,ss <=2000 ng x h/mL (adjusted for free fraction, if required). On the basis of data from Part 1, the following starting dose levels were selected for Part 2: \u0083 Infants >1 month old and <3 months old at enrollment: 0.04 mg/kg. \u0083 Infants >=3 months old and <5 months old at enrollment: 0.08 mg/kg. \u0083 Infants >=5 months old at enrollment: 0.2 mg/kg. x Study treatments: Study medication (risdiplam) was taken orally once daily. For patients able to swallow, study drug was administered with a syringe inserted between the baby's gum and cheek. Patients who were unable to swallow the study medication and who had a nasogastric or gastrostomy tube in situ received the study medication by bolus via the tube. x Assignment to treatment: This was an open-label study and all subjects received risdiplam. Reference ID: 4646272 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf",
+      "page": 54,
+      "textFile": "/tmp/ind-full-screen/text/9cf25ff1f8021fabe1a2b69c.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/9cf25ff1f8021fabe1a2b69c.source",
+      "sha256": "d4b3e9d17a192df1fb6d7d2aa12e318b162b2a36d2e6476016c018bc56a9d056",
+      "snippets": [
+        "eneral Dosing Data: In the oncology setting, the starting clinical dose and dose regimen to be supported by the nonclinical program was 45 mg/m2 per week, approximately 1/10 of the maximum tolerated repeat-dose in rat (Module 2.4.4.2), which was the starting dose in the first-in-human dose-finding study CA401. The CA401 study established that ABI-009 has a MTD of 100 mg/m2 IV infused over 30 minutes in cycles of once weekly administration for 3 weeks followed by a one-week break. The highest non-severely toxic dose (HNSTD) and the NOAEL were not determined, as serious adverse events occurred at the lowest evaluated dose level in the oncology setting, 45 mg/m2. Adverse events requiring permanent dose reductions were observed at the 10 mg/m2 IV dose in the non-oncology setting in Study PAH-001 (PAH). These were low-grade persistent events in a different patient population (ie, PAH) and with a different risk profile compared to the PEComa population. In Study PEC-001, the planned dose and schedule was",
+        "irst-in-human dose-finding study CA401. The CA401 study established that ABI-009 has a MTD of 100 mg/m2 IV infused over 30 minutes in cycles of once weekly administration for 3 weeks followed by a one-week break. The highest non-severely toxic dose (HNSTD) and the NOAEL were not determined, as serious adverse events occurred at the lowest evaluated dose level in the oncology setting, 45 mg/m2. Adverse events requiring permanent dose reductions were observed at the 10 mg/m2 IV dose in the non-oncology setting in Study PAH-001 (PAH). These were low-grade persistent events in a different patient population (ie, PAH) and with a different risk profile compared to the PEComa population. In Study PEC-001, the planned dose and schedule was 100 mg/m2/week ABI-009 administered via IV infusion over 30 (\u00b110) minutes weekly for 2 weeks, followed by a week of rest (ie, a 21-day cycle). This schedule is different from the one evaluated in Study CA401, which administered ABI-009 weekly for 3 weeks, followe"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+      "page": 35,
+      "textFile": "/tmp/ind-full-screen/text/c35166bdf34894500d007fc2.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/c35166bdf34894500d007fc2.source",
+      "sha256": "3c02a9b9441714181e94d59b7faa24a0e8bfbaf521af0eb10d8f36585a8fc824",
+      "snippets": [
+        "ase 3 clinical trial in patients with LOPD (trial EFC14028) and a phase 2 clinical trial in patients with IOPD (trial ACT14132). 6.1.2. Dose Selection for the Clinical Studies in Patients With LOPD Phase 1/2 First-in-Human Trial TDR12857 (NEO-1) The starting dose (5 mg/kg) for trial TDR12857 in adult patients with LOPD was based on the no observed adverse effect level (NOAEL) determined in a 26-week cynomolgus monkey study (200 mg/kg qow) and the observed pharmacologically active dose (PAD) of avalglucosidase alfa in nonclinical studies. The maximum recommended starting dose was 20 mg/kg qow by applying a safety factor of 10. Based on the Pompe disease mouse model, PAD was defined as the minimum level of avalglucosidase alfa associated with glycogen clearance. Four weekly infusions of avalglucosidase alfa at 4 mg/kg reduced tissue glycogen in the heart by approximately 50%, whereas 12 mg/kg reduced skeletal muscle glycogen by approximately 25% to 70% depending on the muscle evaluated (quadriceps, p",
+        "PD was based on the no observed adverse effect level (NOAEL) determined in a 26-week cynomolgus monkey study (200 mg/kg qow) and the observed pharmacologically active dose (PAD) of avalglucosidase alfa in nonclinical studies. The maximum recommended starting dose was 20 mg/kg qow by applying a safety factor of 10. Based on the Pompe disease mouse model, PAD was defined as the minimum level of avalglucosidase alfa associated with glycogen clearance. Four weekly infusions of avalglucosidase alfa at 4 mg/kg reduced tissue glycogen in the heart by approximately 50%, whereas 12 mg/kg reduced skeletal muscle glycogen by approximately 25% to 70% depending on the muscle evaluated (quadriceps, psoas, triceps, and diaphragm). In addition, two nonclinical studies (study 07-1948 and study 10-00587) demonstrated that Reference ID: 4836879 (b) (4) "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+      "page": 273,
+      "textFile": "/tmp/ind-full-screen/text/c35166bdf34894500d007fc2.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/c35166bdf34894500d007fc2.source",
+      "sha256": "3c02a9b9441714181e94d59b7faa24a0e8bfbaf521af0eb10d8f36585a8fc824",
+      "snippets": [
+        "2400 mg/m2) is considered to be a tolerated dose, given that the observed effects were limited to small reductions in weight gain and organ weights. Based on a body surface area comparison, the tolerated dose provides a 13-fold safety margin for the starting dose of 5 mg/kg (185 mg/m2 given every other week) in the proposed clinical study, and a 3.2-fold safety margin for the proposed maximum dose of 20 mg/kg (740 mg/m2). Therefore, the chronic toxicity study in monkeys provides a reasonable assurance of safety for the proposed clinical study. NeoGAA is produced by conjugating a synthetic glycan (Genz-669342) to oxidized sialic acid residues on rhGAA through a synthetic linker with an aminoxy moiety. The synthetic linker portion of Genz-669342 is structurally similar to hydroxylamine, which has the potential to be genotoxic. However, Genz-669342 was negative in the Ames test and chromosomal aberration assay. The Sponsor measured levels of unconjugated Genz-669342 in two clinical batches, and in fou"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf",
+      "page": 51,
+      "textFile": "/tmp/ind-full-screen/text/d91e045fb87df6f7fd5d20db.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/d91e045fb87df6f7fd5d20db.source",
+      "sha256": "023857da28bb71fca78f0fb7fc3d43a50efcc1ad567f207abf52b61fb971a05e",
+      "snippets": [
+        " Other Pharmacokinetic Studies Pharmacokinetic and pharmacodynamic modeling on Cynomolgus monkey (Macaca fascicularis) data combined with in vitro data of cytokine assays to predict the First in Human dose following RO7082859 administration based on Minimum Anticipated Biological Effect Level (MABEL) / 1072940 / Module 4.2.2.7 Other Pharmacokinetic Studies Study type and methods: PK/PD modeling (EIH dose) PK/PD model used: non-linear PK model (PK data in monkey), indirect response model (cytokine release) Test system: Population compartmental PK parameter estimation in Monolix v433s, simulations of exposure in human by allomeric scaling of monkey parameters in Berkeley Madonna v8.3.18, graphical representation of diagnostic plots or simulations in Matlab R2013b Key results: Proposed EIH dose: 5 \u00b5g flat dose (for 70 kg human) Reference ID: 5192035 ",
+        "c and pharmacodynamic modeling on Cynomolgus monkey (Macaca fascicularis) data combined with in vitro data of cytokine assays to predict the First in Human dose following RO7082859 administration based on Minimum Anticipated Biological Effect Level (MABEL) / 1072940 / Module 4.2.2.7 Other Pharmacokinetic Studies Study type and methods: PK/PD modeling (EIH dose) PK/PD model used: non-linear PK model (PK data in monkey), indirect response model (cytokine release) Test system: Population compartmental PK parameter estimation in Monolix v433s, simulations of exposure in human by allomeric scaling of monkey parameters in Berkeley Madonna v8.3.18, graphical representation of diagnostic plots or simulations in Matlab R2013b Key results: Proposed EIH dose: 5 \u00b5g flat dose (for 70 kg human) Reference ID: 5192035 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+      "page": 93,
+      "textFile": "/tmp/ind-full-screen/text/e8cbaf6f021e5af70afcbcf5.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/e8cbaf6f021e5af70afcbcf5.source",
+      "sha256": "fb8624219a3439fc349a2204874be0f8e407ff7e52efcb1f17ded3ec9ce08928",
+      "snippets": [
+        " IV was evaluated in the first-in-human Trial CAEB1102-101A. Single ascending doses (0.015, 0.03, 0.06, 0.1, and 0.2 mg/kg at two- week intervals [Part 1]) and multiple ascending doses (0.015 to 0.2 mg/kg QW for 8 doses [Part 2]) were evaluated. The starting dose of 0.015 mg/kg was based on the NOAEL (0.3 mg/kg) in cynomolgus monkeys. A single-dose trial in monkeys at doses within the proposed human starting dose characterized mean maximal percent arginine reduction of 30, 38, 70, and 100 at IV pegzilarginase doses of 0.001, 0.005, 0.01, and 0.1 mg/kg, respectively. The predicted safety margin for the 0.015 mg/kg starting dose was 10- to 11-fold in area under the concentration-time curve (AUC) and supported the starting dose in Trial CAEB1101-101A. The starting dose level for Part 2 was based on pegzilarginase PK and plasma arginine levels at the time each subject completed Part 1, with no doses in Part 2 exceeding the highest dose used in any subject in Part 1. The multiple ascending doses of IV p",
+        "]) and multiple ascending doses (0.015 to 0.2 mg/kg QW for 8 doses [Part 2]) were evaluated. The starting dose of 0.015 mg/kg was based on the NOAEL (0.3 mg/kg) in cynomolgus monkeys. A single-dose trial in monkeys at doses within the proposed human starting dose characterized mean maximal percent arginine reduction of 30, 38, 70, and 100 at IV pegzilarginase doses of 0.001, 0.005, 0.01, and 0.1 mg/kg, respectively. The predicted safety margin for the 0.015 mg/kg starting dose was 10- to 11-fold in area under the concentration-time curve (AUC) and supported the starting dose in Trial CAEB1101-101A. The starting dose level for Part 2 was based on pegzilarginase PK and plasma arginine levels at the time each subject completed Part 1, with no doses in Part 2 exceeding the highest dose used in any subject in Part 1. The multiple ascending doses of IV pegzilarginase once-weekly provided an evaluation of whether repeat doses of pegzilarginase could be increased or decreased based on plasma arginine level",
+        "doses within the proposed human starting dose characterized mean maximal percent arginine reduction of 30, 38, 70, and 100 at IV pegzilarginase doses of 0.001, 0.005, 0.01, and 0.1 mg/kg, respectively. The predicted safety margin for the 0.015 mg/kg starting dose was 10- to 11-fold in area under the concentration-time curve (AUC) and supported the starting dose in Trial CAEB1101-101A. The starting dose level for Part 2 was based on pegzilarginase PK and plasma arginine levels at the time each subject completed Part 1, with no doses in Part 2 exceeding the highest dose used in any subject in Part 1. The multiple ascending doses of IV pegzilarginase once-weekly provided an evaluation of whether repeat doses of pegzilarginase could be increased or decreased based on plasma arginine levels at 168 hours postdose to establish a dose regimen that achieved plasma arginine levels between 40 and 115\u00b5M. The starting pegzilarginase dose level and frequency evaluated in Trial CAEB1102-102A was based on the dose",
+        "of 30, 38, 70, and 100 at IV pegzilarginase doses of 0.001, 0.005, 0.01, and 0.1 mg/kg, respectively. The predicted safety margin for the 0.015 mg/kg starting dose was 10- to 11-fold in area under the concentration-time curve (AUC) and supported the starting dose in Trial CAEB1101-101A. The starting dose level for Part 2 was based on pegzilarginase PK and plasma arginine levels at the time each subject completed Part 1, with no doses in Part 2 exceeding the highest dose used in any subject in Part 1. The multiple ascending doses of IV pegzilarginase once-weekly provided an evaluation of whether repeat doses of pegzilarginase could be increased or decreased based on plasma arginine levels at 168 hours postdose to establish a dose regimen that achieved plasma arginine levels between 40 and 115\u00b5M. The starting pegzilarginase dose level and frequency evaluated in Trial CAEB1102-102A was based on the dose the subject was receiving at the end of Trial CAEB1102-101A. Subcutaneous doses of pegzilarginase w",
+        "e doses of 0.001, 0.005, 0.01, and 0.1 mg/kg, respectively. The predicted safety margin for the 0.015 mg/kg starting dose was 10- to 11-fold in area under the concentration-time curve (AUC) and supported the starting dose in Trial CAEB1101-101A. The starting dose level for Part 2 was based on pegzilarginase PK and plasma arginine levels at the time each subject completed Part 1, with no doses in Part 2 exceeding the highest dose used in any subject in Part 1. The multiple ascending doses of IV pegzilarginase once-weekly provided an evaluation of whether repeat doses of pegzilarginase could be increased or decreased based on plasma arginine levels at 168 hours postdose to establish a dose regimen that achieved plasma arginine levels between 40 and 115\u00b5M. The starting pegzilarginase dose level and frequency evaluated in Trial CAEB1102-102A was based on the dose the subject was receiving at the end of Trial CAEB1102-101A. Subcutaneous doses of pegzilarginase were evaluated in Trial CAEB1102-102A. The ",
+        "eys. Based on a 62% bioavailability of the SC administration of the NOAEL in a non-good laboratory practice (GLP) monkey trial, the safety margin to predicted human AUC ranged from 62-fold at 0.015 mg/kg pegzilarginase to 7.9-fold at 0.06 mg/kg. The starting dose of 0.1 mg/kg pegzilarginase administered IV once weekly was selected for evaluation in the pivotal trial, Trial CAEB1102-300A based on the median final dose in Trial CAEB1102-101A, 0.09 mg/kg. 6.1.3. Pharmacodynamics Measurement of Plasma Arginine Plasma samples for the determination of arginine were collected in tubes containing the arginase inhibitor nor-NOHA to inhibit the activity of pegzilarginase in the sample and prevent further degradation of arginine. . Plasma arginine in the presence of pegzilarginase was measured using a validated liquid chromatography with tandem mass spectrometry method. Reference ID: 5637517 (b) (4) "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+      "page": 223,
+      "textFile": "/tmp/ind-full-screen/text/e8cbaf6f021e5af70afcbcf5.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/e8cbaf6f021e5af70afcbcf5.source",
+      "sha256": "fb8624219a3439fc349a2204874be0f8e407ff7e52efcb1f17ded3ec9ce08928",
+      "snippets": [
+        "ecommended initial clinical dose of pegzilarginase at 0.1 mg/kg/week, the NOAEL in male and female rats is considered to be 0.3 mg/kg/dose. Using the human equivalent dose of 0.05 mg/kg for the rat, the safety margin for the proposed administration (starting dose) of 0.1 mg/kg/dose of pegzilarginase is 0.5 times (Table 66). Reference ID: 5637517 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+      "page": 224,
+      "textFile": "/tmp/ind-full-screen/text/e8cbaf6f021e5af70afcbcf5.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/e8cbaf6f021e5af70afcbcf5.source",
+      "sha256": "fb8624219a3439fc349a2204874be0f8e407ff7e52efcb1f17ded3ec9ce08928",
+      "snippets": [
+        "BLA 761211 LOARGYS (pegzilarginase) 161 Integrated Review Template, version 4.0 (11/1/23) Table 66. Margins Based on Doses Used in Rats Species Nonclinical Dose Multiple (Based on BSA) Dose (mg/kg) HED (mg/kg) Starting Dose (0.1 mg/kg/week) MRHD (0.2 mg/kg/week) Rats 0.1 0.02 0.2X 0.1X Rats 0.3 (NOAEL) 0.05 0.5X 0.2X Rats 1.0 0.16 1.6X 0.8X Source: Reviewer\u2019s table prepared with Applicant\u2019s data Abbreviations: BSA, body surface area; HED, human equivalent dose; MRHD, maximum recommended human dose; NOAEL, no-observed-adverse-effect level; X, times Histopathology and TK studies were not conducted for this fertility and early embryonic developmental study in rats. 13.2.6.2. Embryonic and Fetal Development Reviewed by Emmanuel Akinshola, PhD, CDER, OND, ORDPURM, DPTRDPURM Study Title Pegzilarginase: Study for Effects on Embryo-Fetal Development in Rats with a Toxicokinetic Evaluation Study no.: 2461-012 Study report location: EDR Conducting laboratory and locati"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+      "page": 236,
+      "textFile": "/tmp/ind-full-screen/text/e8cbaf6f021e5af70afcbcf5.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/e8cbaf6f021e5af70afcbcf5.source",
+      "sha256": "fb8624219a3439fc349a2204874be0f8e407ff7e52efcb1f17ded3ec9ce08928",
+      "snippets": [
+        "HD (Table 75). Additionally, based on exposure AUC at the NOAEL of 0.3 mg/kg/dose, the safety margin is 2 times NOAEL (Table 76). Table 75. Margins Based on Doses Used in Rats Species Nonclinical Dose Multiple (Based on BSA) Dose (mg/kg) HED (mg/kg) Starting Dose (0.1 mg/kg/week) MRHD (0.2 mg/kg/week) Rats 0.1 0.02 0.2 0.1 Rats 0.3 (NOAEL) 0.05 0.5 0.2 Rats 1.0 0.16 1.6 0.8 Source: Reviewer\u2019s table prepared with Applicant\u2019s data Abbreviations: BSA, body surface area; HED, human equivalent dose; MRHD, maximum recommended human dose; NOAEL, noobserved-adverse-effect level Table 76. Exposure Margins From Toxicity Study in Rats Species/Dose Drug ROA Human Dose (mg) or NOAEL (mg/kg) AUC (hr\u2022\u00b5g/mL) Exposure Margins Rat Pegzilarginase I.V. 0.1 36,200.0 0.3 Rat Pegzilarginase I.V. 0.3 (NOAEL) 216,000.0 2.0 Rat Pegzilarginase I.V. 1.0 887,000.0 8.2 Humans (0.015-0.2) Pegzilarginase I.V. 0.015-0.2 108,000.0 - Source: Reviewer\u2019s table prepared with Applicant\u2019s data The human exposure (AUC) at steady state was"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761363Orig1s000OtherR.pdf",
+      "page": 36,
+      "textFile": "/tmp/ind-full-screen/text/157c86fd31d5b3e36d28d2f1.json.gz",
+      "sourceFile": null,
+      "sha256": "a3a82b5235e07796bf5239949eac483a76885570c044f86f572fbeee467d49d8",
+      "snippets": [
+        " of IgG1 fused to the extracellular domain of the human activin receptor type IIA (ActRIIA) Mechanism of action Inhibits activin signaling with high selectivity for activin A Dosage forms Injection for subcutaneous (SC) use Dosage and Administration Starting dose: 0.3 mg/kg SC Target dose: 0.7 mg/kg SC q3 weeks Titrated based on hemoglobin level and platelet count Molecular weight 78kDa Half-life 21 days % protein bound Not specified Bioavailability 66% Proposed Labeling8 \u2022 The proposed labeling is in the Pregnancy and Lactation Labeling Rule (PLLR) format. \u2022 The Applicant does not propose a boxed warning or a contraindication for pregnancy or lactation. \u2022 The Applicant proposes a W&P for EFT, a pregnancy testing recommendation, and a contraception recommendation. \u2022 Serious adverse reactions o Increased hemoglobin o Severe thrombocytopenia o Embryofetal toxicity o Impaired fertility \u2022 8.1, Pregnancy 6 USPI for ADEMPAS (riociguat). Revised 9/2021. 7 BLA 761363, Annotated USPI, Sequence number 0001, "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000MultidisciplineR.pdf",
+      "page": 40,
+      "textFile": "/tmp/ind-full-screen/text/95a16039af16d9081e191b11.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/95a16039af16d9081e191b11.source",
+      "sha256": "611477cfbd5a2e42dc647eab160517ed2e0270ef848fedf63d01cba747ced816",
+      "snippets": [
+        "lls from 13 tissue types. These studies showed no reactivity of tebentafusp against normal cells at \u2264 1 nM, except for epidermal melanocytes. Tebentafusp demonstrated reactivity against melanocyte lots at concentrations between 10 to 100 pM (10-100\u00d7 MABEL). This activity was deemed to be on-target due to the confirmation of gp100 transcript and protein expression in the reactive cell lots, which is consistent with reports of gp100 expression in melanocytes. Given the low doses required to elicit an on- target on-tumor response, tebentafusp showed a window between normal cells and the reference Reference ID: 4924835 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000MultidisciplineR.pdf",
+      "page": 41,
+      "textFile": "/tmp/ind-full-screen/text/95a16039af16d9081e191b11.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/95a16039af16d9081e191b11.source",
+      "sha256": "611477cfbd5a2e42dc647eab160517ed2e0270ef848fedf63d01cba747ced816",
+      "snippets": [
+        "the FDA. CM or UM cell line tested. This activity against melanocytes was not changed when tebentafusp was combined with durvalumab and/or tremelimumab. Tebentafusp demonstrated broad loss of specificity for the target pHLA complex from 1 nM (1,000\u00d7 MABEL), where consistent evidence of T cell activation (IFN\u03b3 release) and/or redirected killing (GrB release) was observed across the different normal cells tested. \uf0b7 Alloreactivity: Most human TCRs only recognize and bind effectively to self-HLA molecules loaded with peptides. A small proportion (less than 10%) of TCRs have the ability to recognize non-self HLA molecules and can induce allorejection. This phenomenon is termed alloreactivity (Murphy, 2016). Tebentafusp was specifically engineered and selected for high affinity binding to the HLA-A*02:01-gp100 peptide complex. Therefore, binding to a non-HLA- A*02 Class I molecule is unlikely to occur or, if it does, would occur at much reduced affinity than that for the target HLA-A*02 molecule."
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761485Orig1s000IntegratedR.pdf",
+      "page": 45,
+      "textFile": "/tmp/ind-full-screen/text/d8d831d84124d4816ed99dce.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/d8d831d84124d4816ed99dce.source",
+      "sha256": "754e9a1cc4a7e08ccdedf5c056713a264aaaf8aca2135267dd4b9568636359da",
+      "snippets": [
+        "Trial DNLI-E-0002 in Subjects With MPS II DNLI-E-0002 is an open-label, multiple-cohort study in pediatric subjects with MPS II. Refer to Section 6.2.1 for further details on the study design. Trial DNLI-E-0002 includes multiple cohorts that vary in starting dose, dose-escalation scheme, and maximum dose (see Section 14.2.1 for more discussion on dosing scheme across cohorts). The lowest starting dosage was 3 mg/kg once weekly (QW), and the highest dosage was 30 mg/kg QW. The dosage of 15 mg/kg QW was the targeted therapeutic dosage in all cohorts. The dosing regimens in Trial DNLI-E-0002 were selected primarily based on results from nonclinical pharmacology and toxicology studies: the human-relevant no-observed-adverse-effect level (NOAEL) from toxicology studies was established at 150 mg/kg weekly in both the adult mouse and the monkey as well as 40 mg/kg for the juvenile monkey, which supported the selected clinical doses from a safety perspective. From a PD or efficacy perspective, the starting",
+        " toxicology studies was established at 150 mg/kg weekly in both the adult mouse and the monkey as well as 40 mg/kg for the juvenile monkey, which supported the selected clinical doses from a safety perspective. From a PD or efficacy perspective, the starting dose of 3 mg/kg was selected based on data in the MPS II (Ids KO;TfRmu/hu KI) mouse model, which showed that four weekly 3 mg/kg doses of tividenofusp alfa resulted in similar PD effect on liver GAG levels as four weekly 1 mg/kg doses of idursulfase. In addition, 3 mg/kg doses of tividenofusp alfa resulted in reductions in CSF and brain GAGs as well as reductions in CSF and serum NfL levels. The MPS II mouse model showed that four weekly doses of 10 mg/kg tividenofusp alfa resulted in a near-normalization of GAGs and NfL. The higher doses of 15 mg/kg and 30 mg/kg were selected for DNLI-E-0002 for the following considerations: 1) to maximize PD responses in humans and explore PK/PD relationships at a wide dose range; 2) to evaluate the need for ",
+        "at a higher dose in Trial DNLI-E-0002. According to the Applicant, the proposed dose-escalation regimen is intended to reduce the frequency of potential dose reductions due to infusion-related reactions and improve overall tolerability compared to a starting dose of 15 mg/kg QW IV without dose escalation. Reference ID: 5769215 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+      "page": 52,
+      "textFile": "/tmp/ind-full-screen/text/f4f53b86fd5d0d7a5404c621.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/f4f53b86fd5d0d7a5404c621.source",
+      "sha256": "1d6f94dd5c1ca68b52aa3bc3ac57776cc1ac7ac0e5f3eb07fc19e21eb50f898e",
+      "snippets": [
+        "e developed as an ERT for the treatment of patients with ASMD. Olipudase alfa is administered as an intravenous (IV) infusion. The proposed dosage regimens in patients with ASMD are described below: \u2022 For adult patients (\u226518 years old), the proposed starting dose is 0.1 mg/kg once every two weeks (Q2W) and subsequently the dose should be escalated to a maintenance dose of 3 mg/kg. The proposed dose escalation regimen includes 0.1, 0.3, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W over 14 weeks. \u2022 For pediatric patients (0 to <18 years old), the proposed starting dose is 0.03 mg/kg Q2W and subsequently the dose should be escalated to a maintenance dose of 3 mg/kg. The proposed dose escalation regimen includes 0.03, 0.1, 0.3, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W over 16 weeks. The proposed adult and pediatric dosage regimens have been tested in pivotal clinical trials in adult subjects with ASMD (ASCEND trial) and pediatric subjects with ASMD (ASCEND-Peds trial). 6.1.2. Dose Selection for the Cli",
+        "subsequently the dose should be escalated to a maintenance dose of 3 mg/kg. The proposed dose escalation regimen includes 0.1, 0.3, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W over 14 weeks. \u2022 For pediatric patients (0 to <18 years old), the proposed starting dose is 0.03 mg/kg Q2W and subsequently the dose should be escalated to a maintenance dose of 3 mg/kg. The proposed dose escalation regimen includes 0.03, 0.1, 0.3, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W over 16 weeks. The proposed adult and pediatric dosage regimens have been tested in pivotal clinical trials in adult subjects with ASMD (ASCEND trial) and pediatric subjects with ASMD (ASCEND-Peds trial). 6.1.2. Dose Selection for the Clinical Studies In the first-in-human trial (SPHINGO00605), the tolerability and safety of olipudase alfa was evaluated after single, ascending doses of olipudase alfa in 11 adult subjects with ASMD. The initial dose of 0.03 mg/kg (3 subjects) was chosen based on a 10-fold safety factor in comparison to the A",
+        "esponds to the single-dose no observable-effect level, which is three times lower than the ASMKO mouse's single-dose NOAEL. The Q2W dosing frequency was determined based on nonclinical study results to maintain SPM reduction. Following the 0.1 mg/kg starting dose, the within-subject dose escalation was as follows: 0.1, 0.3, 0.3, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W. The maintenance dosage of 3.0 mg/kg Q2W was based on nonclinical results predicted to efficiently reduce SPM in the lungs in adult subjects with ASMD. The overall treatment duration was 26 weeks after Reference ID: 5038752 "
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000OtherR.pdf",
+      "page": 39,
+      "textFile": "/tmp/ind-full-screen/text/f2acedf5298e674e9d3a19f1.json.gz",
+      "sourceFile": "/tmp/ind-full-screen/files/f2acedf5298e674e9d3a19f1.source",
+      "sha256": "2f69dad9e4d11014876f55552c7e6a93a2e4f1f5cc6fac1d6ed3ac078060d52f",
+      "snippets": [
+        "of only mild hepatocellular ballooning degeneration and inflammatory foci at the 3 mg/kg repeated dosing. The toxicity of Olipudase was mitigated, in part, by gradual increases of dose. The single- and multiple-dose NOAEL served as the basis for the starting dose and proposed dose escalation design in the pediatric clinical trials. The Applicant conducted developmental and reproductive toxicity studies in CD-1 mice and New Zealand White Rabbits with no adverse effects noted at the highest 30 mg/kg dose tested. C. Clinical Studies Supporting the Efficacy and Safety of Olipudase in Pediatric Patients: The clinical drug development program for Olipudase included a total of 10 studies in patients with ASMD. Five of these were natural history studies, and 5 were interventional phase 1 to 3 trials. The non-interventional studies included 3 prospective, 1 retrospective and 1 prospective/retrospective multi-center, natural history study of pediatric and adult patients with ASMD. Two natural history studies"
+      ]
+    }
+  ]
+}

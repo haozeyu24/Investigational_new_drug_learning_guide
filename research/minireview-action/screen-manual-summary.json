@@ -1,0 +1,16 @@
+{
+  "snapshotPDFs": 1412,
+  "snapshotPDFPages": 118491,
+  "candidateDocuments": 184,
+  "candidatePages": 420,
+  "manualTriageDocuments": 184,
+  "classificationCounts": {
+    "substantive action-to-benefit": 91,
+    "mostly PK/safety/CMC": 68,
+    "administrative IND mention only": 19,
+    "uncertain/OCR": 6
+  },
+  "detailedCasePrograms": 26,
+  "detailedCaseFDAReviewURLs": 28,
+  "limitations": "Candidate passages and selected context were manually triaged, not every page of every PDF. Substantive triage includes later and NDA-context evidence; it does not verify initial-IND provenance. Detailed cases also draw on the previously verified library and targeted FDA retrieval."
+}

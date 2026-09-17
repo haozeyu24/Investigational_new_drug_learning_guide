@@ -19,22 +19,53 @@ const CATALOG = {
     },
     {
       "id": "development",
-      "title": "Can we build the evidence for human testing?",
+      "title": "IND-enabling development",
       "categories": [
         "candidate",
         "nonclinical",
-        "cmc"
+        "cmc",
+        "clinical"
       ],
-      "description": "Candidate planning, nonclinical evidence, and chemistry, manufacturing & controls."
+      "description": "Begin with the development overview, then explore three connected areas of work.",
+      "overview": "candidate-nomination",
+      "branches": [
+        {
+          "id": "nonclinical",
+          "label": "3A",
+          "title": "Nonclinical evidence",
+          "description": "Mechanism, exposure, and potential harm.",
+          "categories": [
+            "nonclinical"
+          ]
+        },
+        {
+          "id": "cmc",
+          "label": "3B",
+          "title": "Drug material and CMC",
+          "description": "Define, make, and control the product.",
+          "categories": [
+            "cmc"
+          ]
+        },
+        {
+          "id": "clinical",
+          "label": "3C",
+          "title": "Clinical plan",
+          "description": "Design dosing, measurements, and participant protections.",
+          "categories": [
+            "clinical"
+          ]
+        }
+      ]
     },
     {
       "id": "clinical-entry",
-      "title": "Can we begin the first human study?",
+      "title": "FDA engagement, IND submission, and review",
       "categories": [
-        "clinical",
+        "regulatory",
         "ind"
       ],
-      "description": "Clinical and regulatory planning, IND submission, and review."
+      "description": "Engage FDA during development, assemble the application, and navigate review. Includes the Expedited IND Pilot."
     }
   ],
   "categories": [
@@ -65,8 +96,13 @@ const CATALOG = {
     },
     {
       "id": "clinical",
-      "title": "Clinical & regulatory planning",
-      "description": "Develop the first-study plan, assign responsibilities, and engage FDA."
+      "title": "Clinical plan",
+      "description": "Design the first study, justify dosing, and protect participants."
+    },
+    {
+      "id": "regulatory",
+      "title": "FDA engagement and submission planning",
+      "description": "Seek useful FDA feedback and coordinate the sponsor’s submission responsibilities."
     },
     {
       "id": "ind",
@@ -163,7 +199,10 @@ const CATALOG = {
           "sponsor": "Abbisko Therapeutics",
           "mechanism": "Oral pan-KRAS inhibitor",
           "study": "Phase 1 in advanced solid tumors with KRAS alterations; assess safety, tolerability, pharmacokinetics, and activity.",
-          "source": {"label": "Sponsor announcement", "url": "https://www.abbisko.com/newsDetail/253.html"}
+          "source": {
+            "label": "Sponsor announcement",
+            "url": "https://www.abbisko.com/newsDetail/253.html"
+          }
         },
         {
           "date": "June 22, 2026",
@@ -171,7 +210,10 @@ const CATALOG = {
           "sponsor": "Pheno Therapeutics",
           "mechanism": "GPR17 antagonist developed to promote remyelination",
           "study": "First-in-human US study assessing safety and tolerability in healthy volunteers; the program initially focuses on multiple sclerosis.",
-          "source": {"label": "Sponsor announcement via Zyme", "url": "https://www.zymecommunications.com/pheno-therapeutics-granted-fda-ind-clearance-for-lead-multiple-sclerosis-therapeutic-candidate-ptd802/"}
+          "source": {
+            "label": "Sponsor announcement via Zyme",
+            "url": "https://www.zymecommunications.com/pheno-therapeutics-granted-fda-ind-clearance-for-lead-multiple-sclerosis-therapeutic-candidate-ptd802/"
+          }
         },
         {
           "date": "March 5, 2026",
@@ -179,7 +221,10 @@ const CATALOG = {
           "sponsor": "Kestrel Therapeutics",
           "mechanism": "Oral pan-KRAS inhibitor",
           "study": "FALCON Phase 1 dose escalation in advanced or metastatic KRAS-mutant solid tumors; assess safety, tolerability, and preliminary antitumor activity.",
-          "source": {"label": "Sponsor announcement (PDF)", "url": "https://kestreltherapeutics.com/wp-content/uploads/2026/03/FDA-Approves-KST-6051.pdf"}
+          "source": {
+            "label": "Sponsor announcement (PDF)",
+            "url": "https://kestreltherapeutics.com/wp-content/uploads/2026/03/FDA-Approves-KST-6051.pdf"
+          }
         },
         {
           "date": "October 13, 2025",
@@ -187,7 +232,10 @@ const CATALOG = {
           "sponsor": "Vasa Therapeutics",
           "mechanism": "Oral matrix metalloproteinase inhibitor",
           "study": "Phase 1c in heart failure with preserved ejection fraction and elevated endotrophin; assess safety, tolerability, and biomarkers.",
-          "source": {"label": "Sponsor announcement", "url": "https://www.prnewswire.com/news-releases/vasa-therapeutics-receives-fda-ind-clearance-to-advance-novel-small-molecule-vs-041-for-the-treatment-of-heart-failure-with-preserved-ejection-fraction-hfpef-302581657.html"}
+          "source": {
+            "label": "Sponsor announcement",
+            "url": "https://www.prnewswire.com/news-releases/vasa-therapeutics-receives-fda-ind-clearance-to-advance-novel-small-molecule-vs-041-for-the-treatment-of-heart-failure-with-preserved-ejection-fraction-hfpef-302581657.html"
+          }
         },
         {
           "date": "April 23, 2025",
@@ -195,7 +243,10 @@ const CATALOG = {
           "sponsor": "Verastem Oncology",
           "mechanism": "Oral KRAS G12D inhibitor targeting ON and OFF states",
           "study": "US Phase 1/2a in advanced KRAS G12D-mutant solid tumors, with expansion cohorts; assess safety and efficacy.",
-          "source": {"label": "Sponsor announcement", "url": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-us-ind-clearance-vs-7375-oral-kras"}
+          "source": {
+            "label": "Sponsor announcement",
+            "url": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-announces-us-ind-clearance-vs-7375-oral-kras"
+          }
         },
         {
           "date": "October 24, 2024",
@@ -203,7 +254,10 @@ const CATALOG = {
           "sponsor": "Accent Therapeutics",
           "mechanism": "Oral DHX9 inhibitor",
           "study": "Phase 1/2 in selected solid tumors, including BRCA1/2-deficient breast cancer and tumors with microsatellite instability or deficient mismatch repair.",
-          "source": {"label": "Sponsor announcement", "url": "https://www.prnewswire.com/news-releases/accent-therapeutics-announces-fda-clearance-of-ind-application-for-atx-559-a-first-in-class-oral-dhx9-inhibitor-302285845.html"}
+          "source": {
+            "label": "Sponsor announcement",
+            "url": "https://www.prnewswire.com/news-releases/accent-therapeutics-announces-fda-clearance-of-ind-application-for-atx-559-a-first-in-class-oral-dhx9-inhibitor-302285845.html"
+          }
         },
         {
           "date": "June 18, 2024",
@@ -211,7 +265,10 @@ const CATALOG = {
           "sponsor": "NMD Pharma",
           "mechanism": "Skeletal-muscle ClC-1 chloride-channel inhibitor",
           "study": "SYNAPSE-CMT Phase 2 in patients with Charcot–Marie–Tooth disease types 1 and 2.",
-          "source": {"label": "Sponsor announcement", "url": "https://www.nmdpharma.com/news/nmd-pharma-receives-ind-clearance-from-the-fda-to-initiate-a-phase-2-clinical-trial-of-nmd670-in-cmt-disease-in-the-us"}
+          "source": {
+            "label": "Sponsor announcement",
+            "url": "https://www.nmdpharma.com/news/nmd-pharma-receives-ind-clearance-from-the-fda-to-initiate-a-phase-2-clinical-trial-of-nmd670-in-cmt-disease-in-the-us"
+          }
         }
       ],
       "cases": [
@@ -794,16 +851,28 @@ const CATALOG = {
           "mechanism": "Wild-type PI3Kα helps transmit insulin signals in normal tissues. Inhibiting it can disrupt glucose regulation, raising blood glucose and triggering compensatory insulin release. This is on-target toxicity in normal tissue: a drug can inhibit the intended protein and still cause harm.",
           "clinical": "Hyperglycemia was an important adverse effect in SOLAR-1 with alpelisib. Preclinical research also showed that the resulting insulin feedback can reactivate tumor signaling. These findings motivate a more selective intervention, while other adverse effects and resistance mechanisms still require attention.",
           "sources": [
-            {"label": "Hopkins et al. · insulin feedback, Nature, 2018", "url": "https://pubmed.ncbi.nlm.nih.gov/30051890/"},
-            {"label": "SOLAR-1 · clinical efficacy and adverse effects, 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/31091374/"}
+            {
+              "label": "Hopkins et al. · insulin feedback, Nature, 2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30051890/"
+            },
+            {
+              "label": "SOLAR-1 · clinical efficacy and adverse effects, 2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31091374/"
+            }
           ]
         },
         "allostericRationale": {
           "toxicity": "Improve the therapeutic window. Preferential inhibition of mutant PI3Kα aims to preserve more wild-type insulin signaling while suppressing tumor signaling. Sparing normal tissue requires demonstrated mutant selectivity; an allosteric binding site alone does not ensure it.",
           "resistance": "Address some binding-site resistance. Orthosteric inhibitors bind at the ATP site. Certain secondary PIK3CA mutations can weaken their binding; RLY-2608 retained activity against studied resistant variants in preclinical models by using a different pocket. This does not establish that allosteric drugs overcome every resistance mechanism in patients.",
           "sources": [
-            {"label": "Hopkins et al. · metabolic toxicity and insulin feedback", "url": "https://pubmed.ncbi.nlm.nih.gov/30051890/"},
-            {"label": "Varkaris et al. · secondary PIK3CA mutations and allosteric inhibition, 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/37916958/"}
+            {
+              "label": "Hopkins et al. · metabolic toxicity and insulin feedback",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30051890/"
+            },
+            {
+              "label": "Varkaris et al. · secondary PIK3CA mutations and allosteric inhibition, 2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37916958/"
+            }
           ]
         },
         "rationale": "PI3Kα is a lipid kinase whose signaling supports cell growth, survival, and metabolism. Activating mutations in PIK3CA, which encodes its p110α catalytic subunit, can drive tumor biology. Inhibiting that signal is a therapeutic hypothesis—but normal PI3Kα also participates in insulin signaling, creating a reason to seek tumor benefit while limiting disruption of normal physiology.",
@@ -2742,43 +2811,43 @@ const CATALOG = {
             "ipNote": "Alongside this work, IP specialists assess patentability and freedom to operate."
           },
           {
-              "id": "optimization",
-              "label": "Ready for DC nomination?",
-              "title": "Ready for DC nomination?",
-              "intro": "Bring the goal, the trade-offs, and practical feasibility together. Does the combined evidence support taking this compound forward?",
-              "strategic": true,
-              "nominationHandoff": true,
-              "outcomes": [
-                {
-                  "id": "advance",
-                  "title": "Advance for nomination",
-                  "text": "The overall profile supports further development. Bring the evidence and remaining risks to the candidate review."
-                },
-                {
-                  "id": "continue",
-                  "title": "Continue optimization",
-                  "text": "Specific gaps remain. Set the next chemistry or testing priority around the gap most likely to change the decision."
-                },
-                {
-                  "id": "redirect",
-                  "title": "Stop or change direction",
-                  "text": "The series cannot meet the intended profile. Reconsider the chemistry or the program strategy."
-                }
-              ],
-              "note": "DC nomination is an internal development decision. It does not mean the IND package is complete or human dosing is authorized.",
-              "related": [
-                [
-                  "candidate-nomination",
-                  "Explore DC nomination"
-                ]
-              ],
-              "sources": [
-                3,
-                4,
-                6,
-                0
+            "id": "optimization",
+            "label": "Ready for DC nomination?",
+            "title": "Ready for DC nomination?",
+            "intro": "Bring the goal, the trade-offs, and practical feasibility together. Does the combined evidence support taking this compound forward?",
+            "strategic": true,
+            "nominationHandoff": true,
+            "outcomes": [
+              {
+                "id": "advance",
+                "title": "Advance for nomination",
+                "text": "The overall profile supports further development. Bring the evidence and remaining risks to the candidate review."
+              },
+              {
+                "id": "continue",
+                "title": "Continue optimization",
+                "text": "Specific gaps remain. Set the next chemistry or testing priority around the gap most likely to change the decision."
+              },
+              {
+                "id": "redirect",
+                "title": "Stop or change direction",
+                "text": "The series cannot meet the intended profile. Reconsider the chemistry or the program strategy."
+              }
+            ],
+            "note": "DC nomination is an internal development decision. It does not mean the IND package is complete or human dosing is authorized.",
+            "related": [
+              [
+                "candidate-nomination",
+                "Explore DC nomination"
               ]
-            }
+            ],
+            "sources": [
+              3,
+              4,
+              6,
+              0
+            ]
+          }
         ],
         "strategicOverview": true
       },
@@ -5276,12 +5345,12 @@ const CATALOG = {
       "id": "candidate-nomination",
       "category": "candidate",
       "title": "From candidate to development plan",
-      "goal": "Distinguish lead optimization from candidate development, explain why laboratory work continues, and turn remaining questions into a study-specific development plan.",
+      "goal": "Connect existing candidate evidence to a coordinated nonclinical, CMC, and clinical development plan.",
       "concept": "Lead optimization establishes a molecule worth developing. Candidate development builds the evidence and product needed to support a proposed human study.",
       "takeaway": "A promising molecule is the starting point. Readiness for human testing depends on the evidence for a defined product and proposed study.",
-      "exampleTitle": "Follow one program across different kinds of evidence.",
-      "example": "Osimertinib provides a published oncology case for Part 3. The discovery paper describes biological activity and PK/PD; the public FDA review includes material from the IND review and later NDA assessments. Keep those sources and stages distinct.",
-      "worked": "Use a source for the claim it actually supports. The case illustrates development reasoning; the collection of public documents is not a reconstruction of the full initial IND.",
+      "exampleTitle": "From a promising candidate to a first human study",
+      "example": "Two familiar molecules show the connection—and the limits of what the public record reveals.",
+      "worked": "Connect candidate findings to the needs of a defined study. Publicly undisclosed work is not evidence that the work was absent.",
       "diagram": [
         [
           "Selected molecule",
@@ -5290,20 +5359,6 @@ const CATALOG = {
         [
           "Development commitment",
           "Build evidence for the proposed study"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Nonclinical rationale",
-          "Connect mutant-EGFR activity to disease-model responses and exposure."
-        ],
-        [
-          "Safety support",
-          "Inspect the study design, organ findings, and quantitative limits of exposure measurements."
-        ],
-        [
-          "Product quality",
-          "Connect the active ingredient to its formulation, controls, and stability support."
         ]
       ],
       "question": {
@@ -5330,16 +5385,28 @@ const CATALOG = {
       },
       "sources": [
         {
-          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+          "label": "Hadida et al. (2014) · candidate profile, Tables 9–10 and synthesis",
+          "url": "https://doi.org/10.1021/jm5012808"
         },
         {
-          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+          "label": "Vertex (17 May 2006) · first Phase 1 study announcement",
+          "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-pharmaceuticals-initiates-phase-i-development-vx-770"
         },
         {
-          "label": "FDA quality review (2015): drug product summary, printed p. 6 (PDF p. 7)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=7"
+          "label": "FDA · 2006 initial-IND review, PDF pp. 79–122 in the 2012 review bundle",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=79"
+        },
+        {
+          "label": "Varkaris et al. (online 2023; 2024 issue) · Table 1, Figure 4 and methods",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10850943/"
+        },
+        {
+          "label": "Relay Therapeutics (4 January 2022) · first-patient announcement and initial design",
+          "url": "https://www.globenewswire.com/news-release/2022/01/04/2360678/0/en/index.html"
+        },
+        {
+          "label": "Jhaveri et al., ASCO (2022) · ReDiscover trial-in-progress abstract",
+          "url": "https://doi.org/10.1200/JCO.2022.40.16_suppl.TPS1124"
         },
         {
           "label": "FDA: the evidence and clinical plan in an IND",
@@ -5349,6 +5416,10 @@ const CATALOG = {
       "transitionGuide": {
         "tabs": [
           {
+            "id": "plan",
+            "label": "Development overview"
+          },
+          {
             "id": "nomination",
             "label": "Why lab work continues"
           },
@@ -5357,8 +5428,12 @@ const CATALOG = {
             "label": "What remains to establish"
           },
           {
-            "id": "plan",
-            "label": "Plan the work"
+            "id": "contingency",
+            "label": "What can go wrong"
+          },
+          {
+            "id": "backup",
+            "label": "Choose your backup"
           }
         ],
         "nomination": {
@@ -5397,62 +5472,88 @@ const CATALOG = {
           ]
         },
         "questions": {
-          "title": "Carry the evidence forward. Resolve what it does not yet answer.",
-          "intro": "The same disciplines remain involved. The depth and purpose of the work change: a result useful for choosing an analog may not answer the questions needed for a human study.",
+          "title": "Different decisions. Shared evidence.",
+          "intro": "The same disciplines remain involved. The depth and purpose of the work change: a result useful for choosing an analog during discovery may not answer the questions needed for a human study.",
           "columns": [
-            "Evidence from lead optimization",
-            "Question for candidate development"
+            "For DC nomination",
+            "Overlap: evidence we can reuse",
+            "For the IND"
           ],
           "rows": [
             {
               "area": "Activity & selectivity",
-              "before": "Reproducible activity, selectivity, and efficacy in relevant models.",
-              "after": "How strong is the rationale for the intended patient population? Which on-target and off-target effects could matter at the planned exposures?"
+              "before": "Choose a molecule with reproducible activity and useful selectivity.",
+              "overlap": "Target biology, disease-model results, and selectivity findings.",
+              "after": "Explain the rationale for the intended patients. Investigate gaps in patient relevance or effects at expected human exposures where needed."
             },
             {
               "area": "Exposure & effect",
-              "before": "PK and PD at selected doses, schedules, and in selected models.",
-              "after": "What supports human dose and schedule selection? Assess species relevance, accumulation, metabolites, and the connection between exposure and effect as needed."
+              "before": "Select a molecule that achieves exposure sufficient for the desired biological effects.",
+              "overlap": "PK profiles, exposure–response relationships, and the duration of target modulation.",
+              "after": "Integrate exposure and safety findings to justify the initial dose and schedule. Address gaps in repeated dosing, metabolites, or human exposure predictions as needed."
             },
             {
               "area": "Safety",
-              "before": "Early screens and tolerability findings that helped rank candidates.",
-              "after": "Which organs or functions are at risk, at what exposures, and with what reversibility? Design the safety assessment around the proposed clinical study."
+              "before": "Decide whether the known safety liabilities are acceptable for further development.",
+              "overlap": "Available safety screens, tolerability and toxicity findings, and associated exposure measurements.",
+              "after": "Complete safety support for the proposed route, duration, and participants. Characterize important hazards, exposure limits, and reversibility to guide clinical monitoring."
             },
             {
               "area": "Drug material",
-              "before": "A workable synthesis and material suitable for discovery experiments.",
-              "after": "Can controlled material be supplied for toxicology and clinical use? Establish appropriate identity, purity, strength, and stability; assess relevant differences between study materials."
+              "before": "Judge whether the molecule can be made and formulated for development.",
+              "overlap": "Synthesis knowledge, analytical methods, impurity findings, formulation work, and available stability data.",
+              "after": "Establish phase-appropriate controls and suitable clinical supply. Support storage and use, and assess relevant differences from the material used in toxicology."
             }
           ],
-          "keep": "Reuse suitable evidence. Add or confirm studies where a decision-critical gap remains.",
-          "note": "An existing study may already address a question. Its design, material, exposure measurements, and records determine how it can be used. Not every experiment needs repeating or GLP; applicable pivotal safety studies require the appropriate quality standard."
+          "keep": "One study can support both packages. Reuse suitable evidence; add or confirm work where the proposed human study needs more support.",
+          "note": "These columns describe the purpose of the evidence, not a fixed experimental timeline. IND-supporting work may already be complete at nomination. Reuse depends on study design, tested material, exposure measurements, and records. Not every experiment requires GLP; pivotal safety studies generally have applicable GLP expectations.",
+          "decisions": [
+            "Choose a molecule to develop",
+            "Carry forward suitable studies",
+            "Support the proposed human study"
+          ]
         },
         "plan": {
-          "title": "Turn the remaining questions into a development plan.",
-          "intro": "Begin with a proposed study: who will receive the drug, by which route, for how long, and on what schedule? Use that context to prioritize the remaining evidence and coordinate the work.",
+          "title": "One development plan. Three connected areas of work.",
+          "intro": "Start with the candidate and the evidence already in hand. Define the proposed first human study, then coordinate nonclinical evidence, drug material, and clinical planning around the questions that remain.",
           "streams": [
             {
               "title": "Nonclinical evidence",
-              "text": "Select the pharmacology, exposure, and safety work needed to address the study’s remaining risks.",
-              "lesson": "nonclinical-pharmacology",
-              "link": "Explore nonclinical evidence"
+              "text": "Connect the intended benefit, exposure, and safety findings to the proposed study.",
+              "lessons": [
+                "nonclinical-pharmacology",
+                "nonclinical-pkpd",
+                "nonclinical-safety",
+                "nonclinical-package"
+              ],
+              "label": "3A"
             },
             {
-              "title": "Drug material · CMC",
-              "text": "Coordinate chemistry, manufacturing, and controls: supply suitable material, characterize it, and support its formulation and storage.",
-              "lesson": "cmc-material",
-              "link": "Explore CMC"
+              "title": "Drug material and CMC",
+              "text": "Define, make, and control the material needed for the supporting studies and clinical use.",
+              "lessons": [
+                "cmc-material",
+                "cmc-controls",
+                "cmc-stability"
+              ],
+              "label": "3B"
             },
             {
-              "title": "Clinical & regulatory planning",
-              "text": "Translate the evidence into dose selection, monitoring, a protocol, and a regulatory strategy.",
-              "lesson": "clinical",
-              "link": "Explore clinical planning"
+              "label": "3C",
+              "title": "Clinical plan",
+              "text": "Define who receives the drug, how dosing proceeds, what is measured, and how participants are protected.",
+              "lessons": [
+                "clinical",
+                "clinical-dose"
+              ]
             }
           ],
-          "keep": "For each gap: define the evidence needed → assign an owner and dependencies → set the decision the result will inform.",
-          "note": "Plan these streams together. Material must be ready for studies, and new exposure or safety findings may change the formulation or clinical plan. The initial IND supports the proposed investigation; later studies require further evidence."
+          "keep": "Plan these workstreams together. Changes in exposure, safety, or the product can change the proposed study—and the studies needed to support it.",
+          "engagement": {
+            "text": "FDA input can inform this work before studies are finalized.",
+            "lesson": "pre-ind",
+            "link": "When to seek FDA input"
+          }
         },
         "sources": [
           {
@@ -5467,97 +5568,577 @@ const CATALOG = {
             "label": "ICH M3(R2): timing and scope of nonclinical safety studies",
             "url": "https://www.fda.gov/media/71542/download"
           }
-        ]
+        ],
+        "contingency": {
+          "opening": "Development candidate nomination is not “we found the drug.”",
+          "commitment": "It is “this is the molecule we’re willing to spend serious money testing as the drug.”",
+          "title": "What can go wrong after DC nomination?",
+          "intro": "Lead optimization eliminates many liabilities. IND-enabling development can expose the candidate to longer studies, broader characterization, and more demanding manufacturing conditions—revealing problems that earlier profiling did not.",
+          "areas": [
+            {
+              "name": "Toxicology",
+              "subtitle": "How much exposure can be tolerated?",
+              "items": [
+                "Unexpected target-organ toxicity",
+                "An inadequate safety margin",
+                "Cardiovascular or central nervous system effects",
+                "Toxicity emerging with repeat dosing"
+              ]
+            },
+            {
+              "name": "DMPK",
+              "subtitle": "How does the body handle the molecule?",
+              "items": [
+                "Unexpected or concerning metabolites",
+                "Species-specific metabolism",
+                "Nonlinear pharmacokinetics",
+                "Accumulation with repeated dosing",
+                "Drug–drug interaction potential"
+              ]
+            },
+            {
+              "name": "CMC",
+              "subtitle": "Can we reliably make and deliver it?",
+              "items": [
+                "Synthesis that does not scale reliably",
+                "A difficult-to-control impurity",
+                "Polymorph or crystal-form problems",
+                "Poor stability",
+                "Formulation that cannot deliver the required exposure"
+              ]
+            },
+            {
+              "name": "Pharmacology",
+              "subtitle": "Does the benefit still hold up?",
+              "items": [
+                "Efficacy that does not hold up in more informative disease models",
+                "Exposure needed for efficacy too close to toxic exposure",
+                "An emerging selectivity problem"
+              ]
+            }
+          ],
+          "scope": "These findings can also emerge before nomination. The boundary is organizational; the evidence continues to develop."
+        },
+        "backup": {
+          "backupHeading": "Why consider a backup?",
+          "backupText": "The Assay Guidance Manual, hosted by NIH’s NCBI Bookshelf, describes selecting a single development candidate with a designated backup as a common industry practice. An alternative can preserve a route forward if the primary molecule cannot progress.",
+          "backupNote": "The value lies in a meaningfully different profile and a credible path to development. A second molecule can still share the same problem—or reveal a new one.",
+          "backupSource": {
+            "label": "Assay Guidance Manual · Development-candidate selection",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK92015/"
+          },
+          "case": {
+            "label": "A published backup campaign · 2024",
+            "title": "Even the backup can fail.",
+            "intro": "VU6007496 was evaluated as a potential backup to VU319/ACP-319, a muscarinic M₁ positive allosteric modulator program.",
+            "stages": [
+              {
+                "label": "Promising profile",
+                "text": "Selective activity, brain penetration, favorable PK across several species, and efficacy in a rodent cognition task."
+              },
+              {
+                "label": "Deeper profiling",
+                "text": "Species-dependent metabolism, loss of parent compound in human hepatocytes, and cholinergic toxicity in rats complicated the earlier picture. Active and potentially toxic metabolites were investigated."
+              },
+              {
+                "label": "Development stopped",
+                "text": "The compound did not advance as a clinical backup. The authors retained it as a research tool for selected species."
+              }
+            ],
+            "note": "This was late-stage evaluation of a potential backup, not a documented failure after formal DC nomination. It shows why a promising profile cannot guarantee progression.",
+            "source": {
+              "label": "Engers et al. · ACS Chemical Neuroscience (2024)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11413853/"
+            }
+          },
+          "philosophy": "Drug development is not simply maximizing the properties of the lead.",
+          "conclusion": "It is managing uncertainty, optionality, time, and capital.",
+          "principles": [
+            [
+              "Uncertainty",
+              "Which unanswered question could change the program?"
+            ],
+            [
+              "Optionality",
+              "Does an alternative offer a meaningfully different way forward?"
+            ],
+            [
+              "Time",
+              "How much work remains before that alternative could progress?"
+            ],
+            [
+              "Capital",
+              "Which evidence or alternative is worth investing in now?"
+            ]
+          ],
+          "title": "What makes an alternative worth pursuing?",
+          "intro": "A backup is a scientific and investment choice. Its value depends on what it offers if the first candidate cannot progress."
+        }
       },
-      "exampleLabel": "OSIMERTINIB · EVIDENCE PLANNING",
-      "sourceChecked": "16 September 2026"
+      "exampleLabel": "TWO PUBLISHED PROGRAMS",
+      "sourceChecked": "16 September 2026",
+      "candidateBridge": {
+        "intro": "The discovery papers explain why these molecules were promising. The early trial descriptions show what people would receive and what investigators planned to learn. Connect them through the three areas of IND-enabling development.",
+        "scope": "A gap in public information is not proof of missing work. These are selected records, not complete initial INDs. Some supporting work began before candidate nomination; suitable existing evidence carries forward.",
+        "cases": [
+          {
+            "id": "ivacaftor",
+            "label": "Ivacaftor · Compound 48",
+            "name": "Compound 48",
+            "subtitle": "VX-770 · ivacaftor",
+            "image": "assets/candidate-transition-48.svg",
+            "imageAlt": "Chemical structure of ivacaftor, compound 48",
+            "paperDate": "Discovery account · 2014",
+            "findings": [
+              {
+                "label": "Disease-relevant activity",
+                "text": "Potentiated CFTR in human bronchial epithelial cells, including G551D/F508del cells."
+              },
+              {
+                "label": "Exposure and selectivity",
+                "text": "Oral bioavailability: 55% in rat, 43% in dog. hERG IC₅₀ >10 µM; no significant activity in the reported 160-target screen."
+              },
+              {
+                "label": "Material",
+                "text": "A synthetic route and chemical characterization were reported. Organic solubility improved; aqueous solubility remained poor."
+              }
+            ],
+            "trialDate": "First Phase 1 · announced May 2006",
+            "trialTitle": "Start with safety, tolerability, and PK",
+            "trialFacts": [
+              {
+                "label": "Participants",
+                "text": "Healthy volunteers first; patients with cystic fibrosis were also planned."
+              },
+              {
+                "label": "Dosing",
+                "text": "Escalating oral single and multiple doses; up to 14 days in healthy volunteers and single doses in patients."
+              },
+              {
+                "label": "First question",
+                "text": "How is VX-770 tolerated and handled in people? This is earlier than the later G551D proof-of-concept trials."
+              }
+            ],
+            "rows": [
+              {
+                "part": "3A",
+                "title": "Nonclinical evidence",
+                "lesson": "nonclinical-pharmacology",
+                "question": "What supports the proposed human exposure?",
+                "status": "Documented link",
+                "tone": "documented",
+                "text": "The 2006 IND review adds safety pharmacology, ADME, toxicokinetics, 14-day rat/dog toxicity, and genotoxicity studies to the discovery profile.",
+                "source": "review"
+              },
+              {
+                "part": "3B",
+                "title": "Drug material and CMC",
+                "lesson": "cmc-material",
+                "question": "Can suitable material support the studies and dosing?",
+                "status": "Partly disclosed",
+                "tone": "partial",
+                "text": "The chemistry paper describes making 48. It does not establish the complete initial clinical-product specifications, batch controls, or stability support.",
+                "source": "paper"
+              },
+              {
+                "part": "3C",
+                "title": "Clinical plan",
+                "lesson": "clinical",
+                "question": "How should the evidence constrain escalation?",
+                "status": "Documented link",
+                "tone": "documented",
+                "text": "The 2006 review discusses a 25 mg starting dose and accepts a modified maximum escalating dose of 500 mg rather than the proposed 800 mg.",
+                "source": "review"
+              }
+            ],
+            "connection": {
+              "title": "A visible connection: safety evidence changed a dosing decision",
+              "text": "The reviewer noted that target organs of toxicity had not been identified at the tested repeat-dose levels. The accepted escalation limit and request for future higher-dose animal studies show how nonclinical findings shape clinical planning. This was a specific 2006 review decision, not a universal dose rule.",
+              "source": "review"
+            },
+            "timing": "The medicinal-chemistry paper was published in 2014, after ivacaftor’s 2012 approval. It retrospectively describes discovery. The FDA source is a 2012 public review bundle that preserves the 2006 initial-IND review, including subsequent responses and an amendment; the complete bundle also contains later development assessments. The May 2006 announcement reports the planned initial study, not final enrollment or every later protocol change.",
+            "sources": [
+              {
+                "id": "paper",
+                "label": "Hadida et al. (2014) · candidate profile, Tables 9–10 and synthesis",
+                "url": "https://doi.org/10.1021/jm5012808"
+              },
+              {
+                "id": "trial",
+                "label": "Vertex (17 May 2006) · first Phase 1 study announcement",
+                "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-pharmaceuticals-initiates-phase-i-development-vx-770"
+              },
+              {
+                "id": "review",
+                "label": "FDA · 2006 initial-IND review, PDF pp. 79–122 in the 2012 review bundle",
+                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=79"
+              }
+            ],
+            "chronology": "Read by evidence type, not publication date: the 2014 discovery paper looks back on development; the first Phase 1 study began in 2006."
+          },
+          {
+            "id": "rly2608",
+            "label": "RLY-2608",
+            "name": "RLY-2608",
+            "subtitle": "Mutant-selective allosteric PI3Kα inhibitor",
+            "image": "assets/small-molecule.png",
+            "imageAlt": "Chemical structure of RLY-2608",
+            "paperDate": "Discovery + early clinical report · 2023/2024",
+            "findings": [
+              {
+                "label": "Biochemical and cellular activity",
+                "text": "PI3Kα H1047R IC₅₀: 4 nM; wild type: 48 nM. Cellular assays showed preferential inhibition of mutant signaling."
+              },
+              {
+                "label": "Tumor-model activity",
+                "text": "Oral dosing inhibited growth or caused regression in tested PIK3CA-mutant tumor models, including combination experiments with fulvestrant."
+              },
+              {
+                "label": "Metabolic effect",
+                "text": "Insulin and C-peptide changes in tumor-bearing mice were smaller than with alpelisib. This is a focused observation, not a complete safety assessment."
+              }
+            ],
+            "trialDate": "ReDiscover · began December 2021",
+            "trialTitle": "Investigate a mutant-selective strategy in patients",
+            "trialFacts": [
+              {
+                "label": "Participants",
+                "text": "Advanced PIK3CA-mutant solid tumors for monotherapy; a fulvestrant combination arm was planned for HR+/HER2− advanced breast cancer."
+              },
+              {
+                "label": "Design",
+                "text": "Oral dose escalation followed by expansion; the monotherapy arm began first."
+              },
+              {
+                "label": "Measurements",
+                "text": "Safety, tolerability, PK, PD, and preliminary antitumor activity; determine a tolerated and/or recommended Phase 2 dose."
+              }
+            ],
+            "rows": [
+              {
+                "part": "3A",
+                "title": "Nonclinical evidence",
+                "lesson": "nonclinical-pharmacology",
+                "question": "How does mutant selectivity translate into an exposure and safety plan?",
+                "status": "Partly disclosed",
+                "tone": "partial",
+                "text": "The paper connects mechanism, tumor activity, and metabolic readouts. The initial IND toxicology/TK reports and human starting-dose justification are not provided in these selected sources.",
+                "source": "paper"
+              },
+              {
+                "part": "3B",
+                "title": "Drug material and CMC",
+                "lesson": "cmc-material",
+                "question": "What makes the clinical product suitable for repeated oral dosing?",
+                "status": "Not established here",
+                "tone": "undisclosed",
+                "text": "The initial clinical formulation, release specifications, manufacturing controls, and stability package cannot be established from the selected paper and early trial disclosures.",
+                "source": "trial"
+              },
+              {
+                "part": "3C",
+                "title": "Clinical plan",
+                "lesson": "clinical",
+                "question": "How will the study test the strategy while protecting participants?",
+                "status": "Partly disclosed",
+                "tone": "partial",
+                "text": "The early disclosures describe populations, monotherapy/combination arms, escalation, and endpoints. They do not expose the full original protocol or all dose and monitoring rationales.",
+                "source": "trial"
+              }
+            ],
+            "connection": {
+              "title": "A partial connection: the hypothesis is visible; the full support is not",
+              "text": "The public record connects mutant-selective pharmacology to a genetically defined trial. It does not let us reconstruct every study, product control, or decision supporting first dosing. Later patient responses are clinical observations—not evidence available before the first patient was treated.",
+              "source": "paper"
+            },
+            "timing": "ReDiscover began in December 2021; the first-patient announcement was issued on 4 January 2022. The discovery paper appeared online in 2023 and in the 2024 issue, and includes early clinical cases. Its nonclinical findings are separated here from those clinical observations. Later expansion doses and additional combination cohorts are not used as the initial Phase 1 plan.",
+            "sources": [
+              {
+                "id": "paper",
+                "label": "Varkaris et al. (online 2023; 2024 issue) · Table 1, Figure 4 and methods",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10850943/"
+              },
+              {
+                "id": "trial",
+                "label": "Relay Therapeutics (4 January 2022) · first-patient announcement and initial design",
+                "url": "https://www.globenewswire.com/news-release/2022/01/04/2360678/0/en/index.html"
+              },
+              {
+                "id": "design",
+                "label": "Jhaveri et al., ASCO (2022) · ReDiscover trial-in-progress abstract",
+                "url": "https://doi.org/10.1200/JCO.2022.40.16_suppl.TPS1124"
+              }
+            ],
+            "chronology": "Read by evidence type, not publication date: the 2023/2024 paper includes nonclinical findings and early clinical cases; the trial began in 2021."
+          }
+        ]
+      }
     },
     {
       "id": "nonclinical-pharmacology",
       "category": "nonclinical",
-      "title": "Connect mechanism to disease benefit",
-      "goal": "Carry a specific, bounded rationale into the development plan.",
-      "concept": "A candidate needs a biological rationale for the intended patients. Connect target modulation to a useful effect in relevant systems, and make the limits of those systems explicit.",
-      "takeaway": "Target modulation, disease-model activity, and human benefit are different claims.",
+      "title": "Connect drug action to potential benefit",
+      "goal": "Evaluate candidate-specific pharmacology and disease relevance, then distinguish patient-selection requirements from the sponsor’s work to understand response.",
+      "concept": "Build on what discovery established: what this candidate does, why the effect could matter for disease, and what remains uncertain. A credible therapeutic rationale can exist while the mechanism or the determinants of patient response are still being investigated.",
+      "takeaway": "Carry forward a credible rationale for potential benefit and a plan to test the uncertainties that matter.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Choose the context",
-            "question": "Does the model represent the intended disease?",
-            "evidence": "Check the target, disease driver, relevant resistance mechanisms, and whether the compound acts on the model’s target.",
-            "decision": "Choose complementary models that address the clinical hypothesis and its main limitations."
+            "label": "Establish the effect",
+            "question": "What effect is established—and with which molecule?",
+            "evidence": "Start with the evidence already available. Keep the identity of the molecule, the model, the measured effect, and the concentration or exposure attached to every claim.",
+            "evidenceCards": [
+              {
+                "label": "Tool-compound evidence",
+                "title": "What biology is supported?",
+                "points": [
+                  "A tool compound may already alter a disease phenotype or inhibit tumor growth in animals.",
+                  "Its selectivity, exposure, and controls determine how confidently the effect can be attributed to the proposed mechanism."
+                ],
+                "limit": "This supports the biological rationale; it does not automatically establish the development candidate’s effects."
+              },
+              {
+                "label": "Candidate evidence",
+                "title": "Does this molecule deliver that effect?",
+                "points": [
+                  "Use the candidate’s existing activity, mechanistic, and disease-model data, including work completed before nomination.",
+                  "If the crucial evidence comes only from a tool, establish the candidate-specific links that the proposed use relies on."
+                ],
+                "limit": "Do not repeat every tool study by default. Investigate consequential differences in action, selectivity, or exposure."
+              }
+            ],
+            "effectTitle": "Read the effect correctly · oncology",
+            "effects": [
+              {
+                "title": "Lower viability signal",
+                "detail": "May reflect fewer cells, slower growth, cell death, or a change in the assay readout. Confirm what changed."
+              },
+              {
+                "title": "Cytostasis or cell killing",
+                "detail": "Distinguish inhibited proliferation from cell death using time-course cell counts and suitable death measurements."
+              },
+              {
+                "title": "Tumor growth inhibition or regression",
+                "detail": "Slower growth relative to a control differs from shrinkage below baseline. Neither alone establishes patient benefit."
+              }
+            ],
+            "note": "Primary pharmacology commonly begins in discovery; candidate nomination does not reset the evidence.",
+            "sources": [
+              4,
+              3,
+              6
+            ],
+            "decision": "Write a bounded claim: this molecule produced this effect in this system at this exposure. Separate a measured result from its biological interpretation.",
+            "outputLabel": "Establish the finding"
           },
           {
-            "label": "Test the mechanism",
-            "question": "Did the compound produce the intended biological effect?",
-            "evidence": "Measure target or pathway modulation alongside concentration. Use controls and independent evidence to challenge alternative explanations.",
-            "decision": "Decide whether the observed activity supports the proposed mechanism."
+            "label": "Explain the response",
+            "question": "Why does the disease model respond?",
+            "evidence": "A known target and an observed phenotype are different starting points. Both require a credible connection between drug action and the disease-relevant effect.",
+            "mechanismPaths": [
+              {
+                "label": "Target or pathway understood",
+                "title": "Test the proposed causal link",
+                "points": [
+                  "Connect target engagement or pathway modulation to the disease effect.",
+                  "Use independent perturbations, suitable negative controls, or rescue experiments where interpretable.",
+                  "Ask whether off-target activity or nonspecific toxicity offers a better explanation."
+                ]
+              },
+              {
+                "label": "Mechanism incomplete",
+                "title": "Work back from the phenotype",
+                "points": [
+                  "Confirm a reproducible effect with independent readouts and characterize when and where it occurs.",
+                  "Use response patterns, resistance studies, genetics, or target-identification approaches to investigate the mechanism.",
+                  "State what is known about the action and what remains unresolved; do not invent a target-based explanation."
+                ]
+              }
+            ],
+            "checks": [
+              {
+                "title": "Compare sensitive and insensitive models",
+                "detail": "Look for shared dependencies, cell states, or resistance features. Tissue of origin alone may not explain response."
+              },
+              {
+                "title": "Challenge alternative explanations",
+                "detail": "Check growth rate, assay artifacts, intracellular exposure, and general cell stress before attributing sensitivity to disease biology."
+              },
+              {
+                "title": "Test beyond the original observations",
+                "detail": "Challenge the proposed explanation in independent, relevant systems. A correlation generates a hypothesis; causal support strengthens it."
+              }
+            ],
+            "note": "State what the experiments establish and where the mechanism remains uncertain. In its advanced-cancer scope, ICH S9 recommends preliminary characterization of mechanism and antitumor activity before Phase 1.",
+            "sources": [
+              2,
+              7
+            ],
+            "decision": "Build a testable explanation for the candidate’s effect. Use independent observations to challenge it and identify the unresolved questions that could change the program.",
+            "outputLabel": "Build the explanation"
           },
           {
-            "label": "Test disease benefit",
-            "question": "Does the biological effect change a relevant disease outcome?",
-            "evidence": "Read disease endpoints with controls, exposure, dose schedule, and variability. A tumor response in one model does not establish a human response.",
-            "decision": "Carry a specific, bounded rationale into the development plan."
+            "label": "Patient selection",
+            "question": "Whom should we study—and what do we still need to learn?",
+            "evidence": "Programs enter development with different levels of certainty about who will respond. Keep enrollment criteria, predictive biomarkers, and the scientific plan to understand response distinct.",
+            "selectionDistinctions": [
+              {
+                "label": "FDA requires",
+                "title": "Define whom you will study",
+                "points": [
+                  "Describe the study rationale, intended indication, and inclusion and exclusion criteria.",
+                  "Address risks in the proposed participants through appropriate exclusions and safeguards."
+                ],
+                "limit": "Eligibility can reflect diagnosis, disease stage, prior treatment, and safety factors."
+              },
+              {
+                "label": "FDA does not universally require",
+                "title": "A predictive biomarker",
+                "points": [
+                  "There is no blanket IND requirement for a validated predictive biomarker or biomarker-restricted enrollment.",
+                  "A clinically proven responder subgroup need not already be established before initial clinical testing."
+                ],
+                "limit": "A particular program may still need a selection test or restriction for safety or an interpretable study."
+              },
+              {
+                "label": "Sponsor scientific judgment",
+                "title": "Learn why response varies",
+                "points": [
+                  "Test whether the candidate’s effect holds up in relevant systems; compare sensitive and insensitive models when informative.",
+                  "Use disease biology and emerging response patterns to refine the population and plan what to measure in people."
+                ],
+                "limit": "Choose broad enrollment, stratification, or enrichment to fit the evidence. Establish a marker’s suitability for the decision it will support."
+              }
+            ],
+            "note": "A predictive biomarker concerns the likelihood of a treatment effect; a pharmacodynamic readout shows a biological response. Exploratory markers can be measured without determining who is eligible.",
+            "sources": [
+              9,
+              10,
+              11,
+              5,
+              12
+            ],
+            "outputLabel": "Make the study informative",
+            "decision": "Choose a defensible population and a plan to learn about response. Clinical eligibility can be clear while the determinants of benefit remain uncertain."
           }
         ],
         "case": {
-          "title": "Osimertinib: resistance defines the biological question.",
-          "intro": "AZD9291 was developed to inhibit sensitizing EGFR mutants and the T790M resistance mutant with less activity against wild-type EGFR. Read the models in the context of that original development question.",
+          "title": "Ivacaftor: establish what the candidate actually changes.",
+          "stage": "Initial IND 74633 pharmacology review, 2006; reproduced in the 2012 NDA review.",
+          "intro": "The candidate VRT-813077 (VX-770) was examined in recombinant cells, single-channel experiments and patient-derived epithelial tissue. Each system answered a different part of the therapeutic hypothesis.",
           "rows": [
             {
-              "label": "PC-9 xenografts",
-              "value": "EGFR exon 19 deletion: a sensitizing-mutant model.",
-              "status": "REPORTED"
-            },
-            {
-              "label": "H1975 xenografts",
-              "value": "EGFR L858R/T790M: a resistance-mutant model.",
-              "status": "REPORTED"
-            },
-            {
-              "label": "Tumor response",
-              "value": "Regression occurred in both models with oral treatment.",
+              "label": "Candidate action",
+              "value": "Single-channel experiments supported increased CFTR opening rather than an effect through increased cAMP.",
               "status": "MEASURED"
+            },
+            {
+              "label": "Disease-relevant system",
+              "value": "Patient-derived epithelial experiments measured chloride transport under specified mutation and assay conditions.",
+              "status": "MEASURED"
+            },
+            {
+              "label": "Claim boundary",
+              "value": "A channel-gating effect does not by itself establish correction of protein trafficking or benefit in every CF population.",
+              "status": "INTERPRETATION"
             }
           ],
-          "limit": "These findings support the rationale in the tested models. They do not establish human efficacy or normal-tissue safety. Wild-type EGFR cancer cells are not a substitute for normal human tissue.",
           "sources": [
-            0
-          ]
+            8
+          ],
+          "limit": "The initial-IND experiments include delta-F508 and G551D systems. Some epithelial conditions involved a corrector or other stimulation. Preserve those conditions; do not read the eventual approved population back into the early experiments. This genetically defined case illustrates one path to a therapeutic rationale; it is not a universal template for patient selection.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Candidate",
+                "value": "VX-770 / VRT-813077"
+              },
+              {
+                "label": "Question at this stage",
+                "value": "Does candidate-specific pharmacology make the proposed therapeutic hypothesis credible?"
+              }
+            ],
+            "proposal": "Develop a CFTR potentiator by improving channel gating and chloride transport.",
+            "evidenceTable": {
+              "columns": [
+                "Evidence",
+                "What it supports",
+                "What it leaves open"
+              ],
+              "rows": [
+                [
+                  "Recombinant mutant-CFTR cells",
+                  "The candidate changes channel-mediated transport.",
+                  "Dependence on mutation and experimental conditions."
+                ],
+                [
+                  "Single-channel and signaling experiments",
+                  "A gating effect rather than stimulation of cAMP production.",
+                  "Whether that action produces useful benefit in people."
+                ],
+                [
+                  "CF epithelial tissue",
+                  "Activity in a disease-relevant human system.",
+                  "How model response translates to the intended clinical population."
+                ]
+              ]
+            },
+            "concern": "The teaching question is how the candidate’s measured action supports a rationale for potential benefit. This is an interpretation exercise, not a claim that FDA issued a specific deficiency on these pages.",
+            "response": "Combine the complementary experiments, retaining molecule identity, mutation, stimulation and corrector conditions instead of presenting one generic activity claim.",
+            "outcome": "The review records a coherent candidate-specific pharmacology rationale. Separate safety and dose evidence were still needed to support the clinical investigation.",
+            "unresolved": "Which patient context will respond, how much biological change is needed and whether it produces clinical benefit remain questions for translation and clinical testing.",
+            "concernLabel": "The inference to examine",
+            "responseLabel": "Reading the evidence",
+            "outcomeLabel": "What the evidence supports"
+          }
         },
         "terms": [
           {
-            "term": "Pharmacology",
-            "definition": "The drug’s biological actions."
+            "term": "Therapeutic hypothesis",
+            "definition": "A testable explanation of how an intervention could produce useful benefit in a defined disease context."
           },
           {
-            "term": "Model relevance",
-            "definition": "How well a system addresses the particular disease and intervention question."
+            "term": "Primary pharmacology",
+            "definition": "The intended biological actions of the drug, studied in relation to its proposed therapeutic use."
+          },
+          {
+            "term": "Pharmacodynamic biomarker",
+            "definition": "A measured biological response to a treatment. It need not predict clinical benefit."
+          },
+          {
+            "term": "Predictive biomarker",
+            "definition": "A characteristic used to identify people more likely to experience a particular effect from an intervention. A candidate marker from cell models is not yet clinically validated."
           }
         ],
-        "scope": "The oncology example illustrates the reasoning. Model selection must follow each program’s target, mechanism, and proposed use."
+        "scope": "The FDA comparison above concerns patient selection. Expectations depend on the drug and proposed study; the sponsor’s scientific choices should address the uncertainties that could change the development decision.",
+        "kind": "pharmacology",
+        "handoff": {
+          "lesson": "nonclinical-pkpd",
+          "label": "Next: test whether exposure can deliver the effect",
+          "text": "Carry forward the measured effect, relevant disease context, and remaining uncertainty. Next, examine whether a plausible dose and schedule can produce that biology."
+        }
       },
       "question": {
-        "title": "Which claim does the model support?",
-        "prompt": "A resistant-tumor model shows pathway suppression and tumor regression. Which conclusion is defensible?",
+        "title": "Three responding cell lines: what should the sponsor learn next?",
+        "prompt": "Hypothetical program: a chemically well-optimized molecule reduces the viability readout in three cell lines from different tumor types. No predictive biomarker has been established. Which scientific action best strengthens the program’s rationale for studying the candidate?",
         "options": [
           [
-            "The drug has demonstrated clinical benefit in resistant lung cancer.",
-            "A nonclinical tumor response does not establish benefit in patients.",
+            "Select all three tumor types for clinical expansion because each has a responding cell line.",
+            "A responding cell line does not establish benefit in the corresponding patient population. Examine what the candidate changed and how relevant and reproducible that effect is.",
             false
           ],
           [
-            "The findings support the mechanism and activity in that model; translation and safety remain to be assessed.",
-            "Correct. Keep the positive finding and its model boundaries visible.",
+            "Confirm the effect with the candidate, compare sensitive and insensitive models, and develop a disease rationale with a plan to learn about response.",
+            "Correct. This work strengthens the scientific basis for population choice. A predictive biomarker may emerge, but discovering one is not a universal FDA prerequisite; clinical eligibility and participant safeguards still need justification.",
             true
           ],
           [
-            "A tumor response makes normal-tissue safety studies unnecessary.",
-            "A tumor model does not provide a complete assessment of potential harm.",
+            "Require a validated predictive biomarker before the program can submit an IND.",
+            "FDA does not impose that requirement on every IND. Describe a justified study population and its safeguards, and assess whether this particular program needs a selection marker or restriction.",
             false
           ]
         ],
-        "hint": "Keep the conclusion at the level of the evidence."
+        "hint": "Distinguish a regulatory requirement for enrollment criteria from the scientific work needed to understand response."
       },
       "sources": [
         {
@@ -5571,6 +6152,46 @@ const CATALOG = {
         {
           "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
           "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+        },
+        {
+          "label": "Chemical Probes Portal: choosing controls and interpreting probe evidence",
+          "url": "https://www.chemicalprobes.org/info/controls"
+        },
+        {
+          "label": "ICH M3(R2), section 2: primary pharmacodynamic studies usually begin in discovery",
+          "url": "https://www.fda.gov/media/71542/download"
+        },
+        {
+          "label": "FDA: enrichment strategies and selecting populations more likely to respond",
+          "url": "https://www.fda.gov/media/121320/download"
+        },
+        {
+          "label": "Hafner et al., Nature Methods (2016): interpreting growth inhibition and cell death",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/"
+        },
+        {
+          "label": "Barretina et al., Nature (2012): linking cancer-cell response to molecular features",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3320027/"
+        },
+        {
+          "label": "FDA ivacaftor review: initial-IND primary pharmacology, PDF pp. 85–86 (review dated May 18, 2006)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
+        },
+        {
+          "label": "21 CFR 312.23(a)(3), (6): study rationale and patient selection criteria",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        },
+        {
+          "label": "21 CFR 312.22: FDA’s review objectives by clinical phase",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
+        },
+        {
+          "label": "21 CFR 312.42: clinical holds and program-specific concerns",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.42"
+        },
+        {
+          "label": "FDA: predictive and pharmacodynamic biomarker contexts of use",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/context-use"
         }
       ],
       "sourceChecked": "16 September 2026"
@@ -5579,56 +6200,163 @@ const CATALOG = {
       "id": "nonclinical-pkpd",
       "category": "nonclinical",
       "title": "Connect dose, exposure, and effect",
-      "goal": "Use the relationship to plan informative dosing studies and cautious human predictions.",
-      "concept": "Administered dose starts the experiment. Concentration over time and the resulting biological effect help explain what that dose actually did.",
-      "takeaway": "A short plasma half-life does not automatically mean a short biological effect.",
+      "goal": "Build an exposure–response argument that can inform a dose range, sampling plan and safety assessment.",
+      "concept": "A dose is an input. Exposure describes what reached the body or target over time; pharmacodynamics describes what changed. A useful dosing argument connects all three and shows where the connection is measured, predicted or still missing.",
+      "takeaway": "Choose the exposure measure and sampling times that explain the response, then state what makes the human prediction uncertain.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Follow the drug",
-            "question": "What concentrations were achieved, where, and for how long?",
-            "evidence": "Examine PK, unbound fraction where relevant, target-site distribution, active metabolites, and assay reliability. Distinguish measured concentrations from modeled estimates.",
-            "decision": "Identify which exposure measure is informative for this mechanism."
+            "label": "Follow the exposure",
+            "question": "What reached the relevant compartment, and for how long?",
+            "evidence": "Begin with the intended biological effect and the administered material. For each experiment, retain species, route, formulation, dose, schedule and analyte. Then examine concentration over time: peak exposure, overall exposure and relevant tissue measurements answer different questions. A high nominal dose can be uninformative if absorption limits exposure. Conversely, a local tissue effect may not be explained by the plasma concentration alone. Before comparing experiments, check whether values represent total or unbound drug, parent or metabolite, and measured or predicted exposure. Keep uncertainty visible when the human data do not yet exist. The aim is a usable account of what was tested, not the largest possible PK table.",
+            "decision": "Select the exposure measure that is relevant to the proposed effect and flag comparisons that are not yet like-for-like.",
+            "outputLabel": "Exposure map",
+            "sources": [
+              1
+            ],
+            "table": {
+              "columns": [
+                "Record",
+                "Keep attached"
+              ],
+              "rows": [
+                [
+                  "Administration",
+                  "Material, route, formulation and schedule"
+                ],
+                [
+                  "Measurement",
+                  "Analyte, compartment, units and time"
+                ],
+                [
+                  "Comparison",
+                  "Species, binding and measured/predicted status"
+                ]
+              ]
+            }
           },
           {
             "label": "Follow the response",
-            "question": "How does the biological effect change over time?",
-            "evidence": "Measure target engagement or pathway response at informative times. Effects can lag behind concentration or persist after plasma levels fall.",
-            "decision": "Check whether the dose schedule produces the intended duration of biological activity."
+            "question": "Does the biological response move with concentration, or on a different clock?",
+            "evidence": "Place a pharmacodynamic measurement beside the concentration profile at informative times. Ask when the response begins, when it is greatest and how quickly it recovers. A single simultaneous measurement cannot show whether effect lags behind exposure or persists after drug concentrations fall. Target engagement, a pathway marker and a disease outcome also sit at different points in the causal chain. Choose the readout that tests the current question, and explain what a negative result would mean. In a follow-up study, collect the observations needed to distinguish insufficient exposure from a biological hypothesis that did not hold. A dose escalation should buy information as well as increase exposure.",
+            "decision": "Specify the response, time points and alternative explanations that the next dosing study must distinguish.",
+            "outputLabel": "PK/PD sampling plan",
+            "sources": [
+              2
+            ],
+            "flow": [
+              {
+                "title": "Concentration",
+                "detail": "Where and when is the relevant drug present?"
+              },
+              {
+                "title": "Biological response",
+                "detail": "When does the selected effect appear and recover?"
+              },
+              {
+                "title": "Interpretation",
+                "detail": "Does exposure explain the response, or is another link missing?"
+              }
+            ]
           },
           {
-            "label": "Connect the evidence",
-            "question": "Does exposure explain the desired effect and potential harm?",
-            "evidence": "Compare exposure, PD, disease endpoints, and tolerability. Align species, compartments, assay conditions, and timing before comparing values.",
-            "decision": "Use the relationship to plan informative dosing studies and cautious human predictions."
+            "label": "Make the dosing argument",
+            "question": "What range can inform the next study without outrunning the evidence?",
+            "evidence": "Bring the desired effect and potential harm onto the same exposure framework. Identify the endpoint behind each animal value: an exposure without observed adverse effects is different from one associated with an adverse effect. Examine species sensitivity, actual dosing duration and the quality of the measurements before forming a margin. If human exposure is projected, label the projection and show what observation would change it. If earlier human data are available, incorporate them without assuming that a new population or regimen behaves identically. The result should explain why particular doses are worth testing, which observations would support progression and which uncertainty could change the plan. Detailed escalation and stopping rules are developed with the clinical team.",
+            "decision": "Deliver a justified dose-range and measurement proposal, including the exposure assumptions and the information needed before moving higher.",
+            "outputLabel": "Exposure–response argument",
+            "sources": [
+              1,
+              2
+            ],
+            "table": {
+              "columns": [
+                "Claim",
+                "Required distinction"
+              ],
+              "rows": [
+                [
+                  "Potential activity",
+                  "Drug action versus patient benefit"
+                ],
+                [
+                  "Safety comparison",
+                  "NOAEL versus LOAEL; measured versus projected human exposure"
+                ],
+                [
+                  "Next dose",
+                  "Expected information and conditions for progression"
+                ]
+              ]
+            }
           }
         ],
         "case": {
-          "title": "Osimertinib: concentration and response run on different clocks.",
-          "intro": "The 2014 paper reported an irreversible inhibitor. After a single 5 mg/kg dose in H1975-bearing mice, tumor samples were collected through 30 hours.",
+          "title": "Cinacalcet: the same PD effect can inform both activity and risk.",
+          "stage": "Original US IND 56010 review, June 1998. The proposed patient study was Phase 2; earlier healthy-volunteer data already existed.",
+          "intro": "The reviewer connected prior human parathyroid hormone (PTH) and calcium responses with animal toxicology to assess the proposed 75 mg maximum. This was an exposure-based argument with limitations, not simply a conversion from animal dose.",
           "rows": [
             {
-              "label": "Mouse plasma half-life",
-              "value": "Approximately 3 hours.",
+              "label": "Human PD",
+              "value": "Repeated dosing suppressed PTH; higher dosing also lowered serum calcium.",
               "status": "MEASURED"
             },
             {
-              "label": "Tumor phospho-EGFR",
-              "value": "Suppression was still observed at 30 hours.",
-              "status": "MEASURED"
+              "label": "Human exposure at 75 mg",
+              "value": "Approximately 150 ng·h/mL AUC was extrapolated from earlier human studies.",
+              "status": "PREDICTED"
             },
             {
-              "label": "Interpretation",
-              "value": "Persistent target inhibition is consistent with irreversible binding.",
-              "status": "INTERPRETATION"
+              "label": "Animal comparison",
+              "value": "Reported AUC margins at animal LOAELs were 6×, 1× and 4× for rat, dog and monkey.",
+              "status": "REPORTED"
             }
           ],
-          "limit": "Downstream markers recovered sooner than phospho-EGFR. These observations do not define a human dose or prove sustained tumor control from every short exposure.",
           "sources": [
-            0
+            0,
+            3
           ],
-          "visual": {
-            "kind": "duration"
+          "limit": "The denominator was a projected exposure at 75 mg, and the animal reference points were LOAELs. Do not call these NOAEL margins or use the numbers as a universal acceptable-margin rule. Some Cmax values are redacted.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Clinical proposal",
+                "value": "Single and multiple dosing in patients with secondary hyperparathyroidism."
+              },
+              {
+                "label": "Existing human evidence",
+                "value": "Prior single-dose and eight-day repeated-dose studies in healthy volunteers."
+              }
+            ],
+            "proposal": "Use up to 75 mg while measuring PK, PTH, calcium and safety.",
+            "evidenceTable": {
+              "columns": [
+                "Evidence",
+                "Observation",
+                "Role in the decision"
+              ],
+              "rows": [
+                [
+                  "Prior human response",
+                  "PTH suppression and dose-related calcium reduction",
+                  "Shows drug action and a potential consequence to follow."
+                ],
+                [
+                  "Projected exposure",
+                  "AUC about 150 ng·h/mL at 75 mg",
+                  "Connects the proposed patient dose to available exposure data."
+                ],
+                [
+                  "Animal toxicology",
+                  "LOAEL AUC margins: rat 6×; dog 1×; monkey 4×",
+                  "Frames risk with endpoint and species context."
+                ]
+              ]
+            },
+            "concern": "The smallest exposure margin was close to one, and the pharmacology could itself produce undesirable effects. A numerical ratio could not carry the decision alone.",
+            "response": "The reviewer integrated the prior human experience, animal toxicity pattern and proposed exposure, and called for appropriate clinical monitoring.",
+            "outcome": "The review judged the proposed 75 mg maximum reasonably safe in this study context.",
+            "unresolved": "The original US IND was not the first-ever human study. The conclusion does not establish safety for every patient, dose or duration."
           }
         },
         "terms": [
@@ -5649,7 +6377,13 @@ const CATALOG = {
             "definition": "Drug metabolism and pharmacokinetics: a discipline studying disposition and exposure, working with pharmacology on PK/PD."
           }
         ],
-        "scope": "The graphic compares reported time points; it is not a fitted PK curve or a dosing recommendation."
+        "scope": "Exposure–response findings support a study-specific argument. Separate predicted human exposure from measured data, and distinguish a biological response from demonstrated clinical benefit.",
+        "kind": "decision",
+        "handoff": {
+          "lesson": "nonclinical-safety",
+          "label": "Next: interpret what could be harmed",
+          "text": "Carry forward the exposure framework. Now evaluate the severity, time course and relevance of the adverse findings that can constrain the plan."
+        }
       },
       "question": {
         "title": "What should guide the schedule?",
@@ -5675,16 +6409,20 @@ const CATALOG = {
       },
       "sources": [
         {
-          "label": "Cross et al., Cancer Discovery (2014): AZD9291 preclinical and early clinical studies",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4315625/"
+          "label": "FDA cinacalcet original-IND review (1998): human PK/PD and animal exposure comparison, PDF p. 16",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=16"
         },
         {
-          "label": "FDA: exposure–response relationships",
+          "label": "ICH S3A: toxicokinetics and interpretation of systemic exposure",
+          "url": "https://www.fda.gov/media/71990/download"
+        },
+        {
+          "label": "FDA: exposure–response relationships, study design and analysis",
           "url": "https://www.fda.gov/media/71277/download"
         },
         {
-          "label": "ICH S3A: exposure measurement within toxicity studies",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s3a-toxicokinetics-assessment-systemic-exposure-toxicity-studies"
+          "label": "FDA cinacalcet original-IND review: proposed Phase 2 trial and prior human experience, PDF pp. 7–8",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=8"
         }
       ],
       "sourceChecked": "16 September 2026"
@@ -5693,54 +6431,166 @@ const CATALOG = {
       "id": "nonclinical-safety",
       "category": "nonclinical",
       "title": "Identify and interpret potential harm",
-      "goal": "Decide what further investigation and potential clinical safeguards the findings call for.",
-      "concept": "Safety work asks what can be harmed, at what exposure, and under which conditions. Findings guide risk assessment; a single negative assay does not establish that a candidate is safe.",
-      "takeaway": "Interpret the finding together with severity, exposure, duration, reversibility, and human relevance.",
+      "goal": "Translate a pattern of nonclinical findings into a risk judgment, further investigation and specific clinical safeguards.",
+      "concept": "A safety study produces observations. The team must decide which observations represent harm, whether they matter for people and what they change about the proposed investigation. That judgment depends on exposure, severity, time, recovery and the relevance of the model.",
+      "takeaway": "A plausible explanation for an adverse finding is a hypothesis to test; it does not make the finding disappear.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Anticipate the risks",
-            "question": "What could the drug do beyond the intended disease effect?",
-            "evidence": "Consider normal-tissue target biology, off-target activity, metabolites, and known class effects. Examine vital functions as well as tissue injury.",
-            "decision": "Select focused investigations and meaningful endpoints instead of relying on one safety screen."
+            "label": "Anticipate and observe",
+            "question": "What harm is biologically plausible, and what did the studies actually show?",
+            "evidence": "Start with the intended action, normal-tissue biology, other pharmacological activity and the proposed route of administration. These suggest what to investigate, but they should not restrict attention to expected findings. Read physiological measurements together with clinical signs, laboratory changes and tissue observations. A study of cardiac function and a microscopic examination of tissue answer different questions; neither can stand in for the other by default. Keep controls, dose history and achieved exposure attached to the observations. Also ask whether the test system could detect the effect being discussed. An absent finding is informative only within the conditions that were examined. The first output is an organized description of the evidence, before a verdict about human risk.",
+            "decision": "Identify the organs or functions that need interpretation and separate observed findings from proposed mechanisms.",
+            "outputLabel": "Hazard map",
+            "sources": [
+              2,
+              4
+            ],
+            "table": {
+              "columns": [
+                "Layer",
+                "Question"
+              ],
+              "rows": [
+                [
+                  "Observation",
+                  "What changed, in which animals or test system?"
+                ],
+                [
+                  "Context",
+                  "At what exposure, duration and route?"
+                ],
+                [
+                  "Capability",
+                  "Could the design detect the effect of interest?"
+                ]
+              ]
+            }
           },
           {
-            "label": "Read the findings",
-            "question": "What changed during dosing?",
-            "evidence": "Combine clinical observations, laboratory measurements, organ findings, and histopathology with toxicokinetic exposure. Survival alone is not a safety conclusion.",
-            "decision": "Identify target organs and exposure-associated findings that could constrain development."
+            "label": "Interpret the pattern",
+            "question": "How severe is the effect, does it recover, and could it matter in people?",
+            "evidence": "For each important finding, follow its onset, progression and recovery rather than reducing it to present or absent. Partial improvement in a functional measurement does not prove complete recovery of the affected tissue. Then examine competing explanations: intended pharmacology, another molecular interaction, the formulation, the procedure or a model-specific response. State which observations support each explanation and what would distinguish them. Species differences can limit translation, but the reason must be connected to evidence. When relevance remains uncertain, retain that uncertainty in the risk judgment. The practical question is whether the finding can be understood well enough to bound exposure and protect participants, or whether another investigation must come first.",
+            "decision": "Write an endpoint-specific assessment of severity, reversibility and human relevance, with the evidence that would change it.",
+            "outputLabel": "Risk interpretation",
+            "sources": [
+              2,
+              3
+            ],
+            "flow": [
+              {
+                "title": "Observed pattern",
+                "detail": "Severity, exposure and time course."
+              },
+              {
+                "title": "Explanations",
+                "detail": "Evidence for drug, procedure or model effects."
+              },
+              {
+                "title": "Residual concern",
+                "detail": "What remains relevant or uncertain for people?"
+              }
+            ]
           },
           {
-            "label": "Assess recovery",
-            "question": "What improves, persists, or progresses after dosing stops?",
-            "evidence": "Examine the affected tissue, function, severity, and follow-up time. Improvement in one endpoint does not establish full recovery.",
-            "decision": "Decide what further investigation and potential clinical safeguards the findings call for."
+            "label": "Change the plan",
+            "question": "What investigation or safeguard follows from this risk judgment?",
+            "evidence": "Translate the interpretation into a decision that another team can use. A finding may call for a focused study, a lower exposure boundary, a change in schedule, a different eligible population or a defined clinical assessment. Explain why the proposed action addresses the particular risk. Monitoring is useful only when the effect can be detected in time and the resulting action can reasonably limit harm; adding a test to a protocol does not automatically resolve the concern. Separate information needed before dosing from information needed before escalation or longer treatment. Finally, define how new human observations will update the nonclinical interpretation. The safety assessment remains connected to the evolving investigation rather than ending when the first study begins.",
+            "decision": "Give the clinical team a risk-to-action table, including the evidence required before each planned increase in exposure.",
+            "outputLabel": "Safety handoff",
+            "sources": [
+              3,
+              4
+            ],
+            "table": {
+              "columns": [
+                "Risk judgment",
+                "Action to justify"
+              ],
+              "rows": [
+                [
+                  "Unclear mechanism or relevance",
+                  "Focused investigation and a bounded exposure decision"
+                ],
+                [
+                  "Potentially monitorable effect",
+                  "Measurement, timing and a response to an abnormal result"
+                ],
+                [
+                  "Longer or higher exposure",
+                  "Evidence gate before the change"
+                ]
+              ]
+            }
           }
         ],
         "case": {
-          "title": "Osimertinib: no deaths did not mean no injury.",
-          "intro": "The FDA’s later public review reproduces a one-month rat study from IND 117879. Its record separates survival from organ findings.",
+          "title": "Faricimab: an explanation for inflammation was not enough.",
+          "stage": "Initial IND 119225 assessment and 2013 dose discussion, quoted and summarized in the later BLA review.",
+          "intro": "Severe ocular inflammation appeared in animal studies. The sponsor attributed the toxicities to anti-drug antibodies, but the evidence did not establish that explanation in the eye.",
           "rows": [
             {
-              "label": "Survival",
-              "value": "No preterm deaths.",
+              "label": "Observed concern",
+              "value": "Severe ocular inflammation in rabbit and monkey studies.",
               "status": "REPORTED"
             },
             {
-              "label": "Tissue findings",
-              "value": "Target organs included the gastrointestinal tract, eyes, skin, and reproductive organs.",
-              "status": "REPORTED"
+              "label": "Relevance uncertainty",
+              "value": "Immune-complex evidence was provided for the aorta, but comparable evidence was not provided for the eye.",
+              "status": "LIMITATION"
             },
             {
-              "label": "Decision to investigate",
-              "value": "Evaluate which findings matter for the intended participants and exposure.",
-              "status": "INTERPRETATION"
+              "label": "Trial consequence",
+              "value": "The starting dose was supported; higher-dose administration required review of lower-dose human data.",
+              "status": "DECISION"
             }
           ],
-          "limit": "This is a specific study summary, not an overall safety verdict. Recovery and human relevance require their own evidence.",
           "sources": [
-            0
-          ]
+            0,
+            1
+          ],
+          "limit": "This is a historical biologic and intravitreal-route case. It illustrates evidence-based interpretation, not a universal species or dose rule. The reproduced history contains awkward dates; the case uses the documented decision sequence rather than reconstructing an exact timeline.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Administration",
+                "value": "Intravitreal dosing."
+              },
+              {
+                "label": "Central uncertainty",
+                "value": "Direct ocular inflammation versus inflammation associated with anti-drug antibodies."
+              }
+            ],
+            "proposal": "Begin at 0.5 mg/eye and include a high dose of 6.0 mg/eye.",
+            "evidenceTable": {
+              "columns": [
+                "Finding",
+                "Interpretation problem",
+                "Consequence"
+              ],
+              "rows": [
+                [
+                  "Severe ocular inflammation",
+                  "Cause and human relevance remained uncertain.",
+                  "A high-dose safety concern remained."
+                ],
+                [
+                  "Partial improvement with anti-inflammatory treatment",
+                  "Response to treatment did not establish that the underlying risk was irrelevant.",
+                  "Recovery had to be interpreted carefully."
+                ],
+                [
+                  "Evidence for immune complexes in aorta",
+                  "The same evidence was not provided for the eye.",
+                  "One tissue could not settle another tissue’s explanation."
+                ]
+              ]
+            },
+            "concern": "The initial reviewer did not accept the proposed high dose on the available nonclinical evidence.",
+            "response": "The dose discussion established that lower-dose human data would be reviewed before administering the next higher dose.",
+            "outcome": "The initial starting dose was supported, while escalation was tied to further evidence.",
+            "unresolved": "The initial review did not resolve whether ocular inflammation was direct or antibody-mediated. The protocol had to accommodate that uncertainty."
+          }
         },
         "terms": [
           {
@@ -5756,7 +6606,13 @@ const CATALOG = {
             "definition": "Microscopic examination of tissues for structural changes."
           }
         ],
-        "scope": "Study choices and timing depend on the clinical context. ICH S9 applies within its defined advanced-cancer scope; it is not a universal small-molecule checklist."
+        "scope": "Select studies and interpret findings in the appropriate modality and disease setting. ICH S6(R1) informs biotechnology-derived products; other programs may call for different approaches.",
+        "kind": "decision",
+        "handoff": {
+          "lesson": "nonclinical-package",
+          "label": "Next: assemble evidence that supports the actual investigation",
+          "text": "Carry forward the risk questions and safeguards. Check that the studies, material and records support the specific clinical exposure being proposed."
+        }
       },
       "question": {
         "title": "What does survival tell us?",
@@ -5782,20 +6638,24 @@ const CATALOG = {
       },
       "sources": [
         {
-          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+          "label": "FDA faricimab review: quoted initial-IND findings and species assessment, PDF p. 26",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26"
         },
         {
-          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+          "label": "FDA faricimab review: initial-IND dose discussion and review before escalation, PDF p. 15",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15"
+        },
+        {
+          "label": "ICH S7A: safety pharmacology and study selection",
+          "url": "https://www.fda.gov/media/72033/download"
+        },
+        {
+          "label": "ICH S6(R1): safety evaluation of biotechnology-derived pharmaceuticals",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s6r1-preclinical-safety-evaluation-biotechnology-derived-pharmaceuticals"
         },
         {
           "label": "ICH M3(R2): nonclinical support and study timing",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization"
-        },
-        {
-          "label": "FDA: pharmacology and toxicology supporting the proposed study",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
+          "url": "https://www.fda.gov/media/71542/download"
         }
       ],
       "sourceChecked": "16 September 2026"
@@ -5804,54 +6664,167 @@ const CATALOG = {
       "id": "nonclinical-package",
       "category": "nonclinical",
       "title": "Build a credible safety package",
-      "goal": "Address gaps in reliability or interpretation before using the study to support a clinical plan.",
-      "concept": "A safety finding is useful only when the study design, test material, exposure measurements, and records allow the team to interpret it for the proposed investigation.",
-      "takeaway": "Study quality, exposure coverage, and biological relevance answer different questions.",
+      "goal": "Assemble a traceable, trial-specific argument that the proposed investigation has adequate nonclinical support.",
+      "concept": "A credible package is an argument about a particular clinical investigation. It connects the proposed product and exposure to relevant, interpretable evidence, explains justified reliance on prior knowledge and identifies the gaps that must be resolved before the next decision.",
+      "takeaway": "Judge each study by the question it answers, the evidence it contains and the clinical decision it can support.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Match the study",
-            "question": "Does the design support the proposed human investigation?",
-            "evidence": "Relate population, route, schedule, duration, and prior evidence to the supporting studies. Use relevant species and justify the study strategy.",
-            "decision": "Identify which evidence is needed before the proposed study and which work can occur later."
+            "label": "Start with the investigation",
+            "question": "What clinical exposure must the evidence support now?",
+            "evidence": "Write down the proposed product, route, population, dosing schedule and duration before selecting studies. Then ask what is already known and which differences could change the interpretation of that knowledge. Prior information about an active ingredient may address systemic risk while leaving local effects of a new route unresolved. A different formulation can also change exposure or introduce a separate question about the administered material. Assign each gap to a clinical decision: before the first administration, before higher exposure, before longer treatment or later in development. Use the applicable scientific and regulatory context to select the evidence strategy, including justified use of existing knowledge and suitable alternatives. The purpose is to answer consequential questions, not reproduce an inherited study list.",
+            "decision": "Create a trial-to-evidence matrix that shows justified reuse, new questions and the point at which each answer is needed.",
+            "outputLabel": "Support matrix",
+            "sources": [
+              2,
+              3,
+              5
+            ],
+            "table": {
+              "columns": [
+                "Clinical feature",
+                "Evidence question"
+              ],
+              "rows": [
+                [
+                  "Product and route",
+                  "Does prior evidence represent what people will receive?"
+                ],
+                [
+                  "Population and exposure",
+                  "Do the relevant risks and duration have support?"
+                ],
+                [
+                  "Next development step",
+                  "What changes, and what must be reassessed?"
+                ]
+              ]
+            }
           },
           {
-            "label": "Measure exposure",
-            "question": "Do the TK measurements actually quantify the relevant analytes?",
-            "evidence": "Check sensitivity, selectivity, sample stability, time points, metabolites, and the relationship to the toxicity findings. A detected peak is not always a quantitative result.",
-            "decision": "Decide whether exposure comparisons are reliable enough for the intended conclusion."
+            "label": "Test interpretability",
+            "question": "Do the design, material and measurements support the claimed conclusion?",
+            "evidence": "Read the study as an experiment before treating it as a regulatory item. Establish what material was tested, how it relates to the clinical product and whether the model can answer the safety question. Review the achieved exposure and whether the analytical method measures the relevant analytes at the necessary concentrations and times. A GLP statement describes aspects of study conduct; it does not turn an insensitive or nonselective assay into a useful measurement. Likewise, a dose group with no adverse findings may leave uncertainty if it never tested the relevant exposure or biological response. For each major conclusion, identify the weakest supporting link and decide whether it requires clarification, reanalysis, a bridge or additional work.",
+            "decision": "Accept only the conclusions that the study can support; record the specific limitation and the action needed to resolve it.",
+            "outputLabel": "Study adequacy assessment",
+            "sources": [
+              3,
+              4
+            ],
+            "flow": [
+              {
+                "title": "Relevant study",
+                "detail": "Design and model answer the question."
+              },
+              {
+                "title": "Representative material",
+                "detail": "The link to clinical product is explained."
+              },
+              {
+                "title": "Usable measurement",
+                "detail": "Exposure and endpoints can support the inference."
+              }
+            ]
           },
           {
-            "label": "Check integrity",
-            "question": "Can the study and its interpretation be reconstructed?",
-            "evidence": "Review the applicable GLP status, protocol, quality assurance, raw records, deviations, test-item characterization, and final report.",
-            "decision": "Address gaps in reliability or interpretation before using the study to support a clinical plan."
+            "label": "Make the argument reviewable",
+            "question": "Can another reviewer reconstruct why the next clinical step is supported?",
+            "evidence": "Connect each important claim to the study report, results and limitations that support it. Check report status, applicable GLP and quality-assurance information, protocol changes and the location of underlying records. Resolve discrepancies instead of hiding them inside a favorable summary. Where an early decision uses incomplete information, identify exactly what is available, what remains outstanding and the agreed condition for follow-up; do not convert a historical example into a general permission. End with a decision-ready account of what the package supports now and what remains before a change in exposure. This also creates a practical handoff: the clinical team receives the risk boundaries, while CMC receives unresolved questions about product identity, formulation, impurities or delivery.",
+            "decision": "Deliver a concise support statement with traceable evidence, explicit residual gaps and a dated plan for the next decision.",
+            "outputLabel": "Nonclinical support statement",
+            "sources": [
+              2,
+              3
+            ],
+            "table": {
+              "columns": [
+                "Claim",
+                "Reviewable support"
+              ],
+              "rows": [
+                [
+                  "Study supports this exposure",
+                  "Relevant design, actual results and limitations"
+                ],
+                [
+                  "Evidence is reliable",
+                  "Reports, methods, deviations and traceable records"
+                ],
+                [
+                  "Next step can proceed",
+                  "Scope of support and conditions before further expansion"
+                ]
+              ]
+            }
           }
         ],
         "case": {
-          "title": "Osimertinib: a metabolite was detected, but not quantified.",
-          "intro": "In the rat study reproduced from the IND review, FDA examined the analytical evidence alongside the reported study status.",
+          "title": "Glycopyrrolate: reuse systemic knowledge, examine the new route.",
+          "stage": "Actual initial IND 110663 review, May 2011, with a subsequent June 2011 pharmacology/toxicology memo.",
+          "intro": "The sponsor proposed an inhaled product using an eFlow nebulizer. The safety argument combined established systemic knowledge with a new assessment of local respiratory toxicity and questions about the delivered product.",
           "rows": [
             {
-              "label": "Study conduct",
-              "value": "GLP compliance and a QA statement were recorded.",
-              "status": "REPORTED"
+              "label": "Existing support",
+              "value": "Prior approved injection and oral products supplied systemic safety information.",
+              "status": "RELIED ON"
             },
             {
-              "label": "Exposure sampling",
-              "value": "TK was assessed on dosing Days 1 and 28.",
-              "status": "MEASURED"
+              "label": "New evidence",
+              "value": "Draft 28-day inhalation studies in rats and dogs addressed the respiratory route.",
+              "status": "SUBMITTED"
             },
             {
-              "label": "Analytical limitation",
-              "value": "A co-eluting peak prevented quantitative assessment of AZ5104; results were present/absent.",
-              "status": "LIMITATION"
+              "label": "Product-specific handoff",
+              "value": "CMC requested impurity and stability information before and after nebulization.",
+              "status": "REVIEW QUESTION"
             }
           ],
-          "limit": "GLP status did not remove this analytical limitation. A binary detection result cannot establish a metabolite AUC or a quantitative exposure margin.",
           "sources": [
-            0
-          ]
+            0,
+            1
+          ],
+          "limit": "The initial-trial conclusion and report timing were specific to this submission. They do not establish that an approved active ingredient makes a new inhaled product safe or that draft reports are generally sufficient. Important impurity specification values are redacted.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Product change",
+                "value": "An established muscarinic antagonist developed as an inhalation solution with a nebulizer."
+              },
+              {
+                "label": "Immediate question",
+                "value": "Is the proposed inhalation study reasonably safe from the pharmacology/toxicology perspective?"
+              }
+            ],
+            "proposal": "Rely on existing systemic safety findings and provide new inhalation toxicology for local respiratory effects.",
+            "evidenceTable": {
+              "columns": [
+                "Evidence or request",
+                "What it addresses",
+                "Remaining condition"
+              ],
+              "rows": [
+                [
+                  "Prior approved-product findings",
+                  "Systemic safety knowledge",
+                  "Justified applicability to the proposed investigation."
+                ],
+                [
+                  "Draft 28-day rat and dog inhalation reports",
+                  "Local respiratory toxicology for the new route",
+                  "Final reports requested within 120 days of initial submission."
+                ],
+                [
+                  "Pre- and post-nebulization product information",
+                  "Stability and impurity exposure of the delivered material",
+                  "CMC and toxicology review of the product-specific questions."
+                ]
+              ]
+            },
+            "concern": "The new route and delivery system required an argument about local effects and delivered material, even though the active ingredient was familiar.",
+            "response": "The initial review evaluated route-specific toxicology; the later memo addressed the CMC request using impurity exposure and the duration of the initial trial.",
+            "outcome": "The reviewer judged the proposed clinical inhalation study reasonably safe to proceed from a pharmacology/toxicology perspective, with final reports requested as follow-up.",
+            "unresolved": "Longer use and marketing needed their own evidence assessment. The public memo redacts several impurity limits, so it cannot supply a complete quantitative specification example."
+          }
         },
         "terms": [
           {
@@ -5867,50 +6840,64 @@ const CATALOG = {
             "definition": "A comparison between relevant animal and human exposures; its interpretation depends on the endpoint, analyte, and uncertainty."
           }
         ],
-        "scope": "Before human data exist, clinical exposure may be predicted. Label the prediction and its uncertainty; do not present it as measured."
+        "scope": "Match the evidence strategy to the modality, route and proposed investigation. Current approaches can include justified reuse and suitable nonanimal methods; the historical case is not a universal study checklist.",
+        "kind": "decision",
+        "handoff": {
+          "lesson": "cmc-material",
+          "label": "Next: connect the evidence to the product people will receive",
+          "text": "The safety argument depends on the material that was tested and the material that will be administered. Make that connection explicit with CMC."
+        }
       },
       "question": {
-        "title": "Can this result support an exposure margin?",
-        "prompt": "A metabolite was reported as present/absent because an interfering peak prevented quantification. Can the team calculate its exposure margin from that result?",
+        "title": "What does prior safety knowledge cover?",
+        "prompt": "An active ingredient has established systemic safety information. A new inhaled formulation is proposed. What should the team establish?",
         "options": [
           [
-            "Yes, because the study was GLP-compliant.",
-            "GLP does not turn a non-quantitative measurement into a concentration.",
-            false
-          ],
-          [
-            "No. Reliable quantitative exposure data or other justified evidence are needed for that comparison.",
-            "Correct. Resolve the analytical limitation or justify an appropriate alternative evidence strategy.",
+            "Whether the prior findings apply, what local or product-specific gaps remain, and which evidence is needed for the proposed trial.",
+            "Correct. Reuse requires an explained connection; the new route and product may introduce unanswered questions.",
             true
           ],
           [
-            "Yes, by assigning the parent drug’s AUC to the metabolite.",
-            "Parent and metabolite exposures are not interchangeable.",
+            "That no new assessment is needed because the active ingredient is already approved.",
+            "Approval of another product does not establish support for every route, formulation and exposure.",
+            false
+          ],
+          [
+            "That every historical study must be repeated before the first dose.",
+            "Select work to resolve relevant gaps. Existing evidence and justified alternatives may answer some questions.",
             false
           ]
         ],
-        "hint": "Separate confidence in study conduct from the capability of a particular assay."
+        "hint": "Separate the knowledge you can carry forward from the questions introduced by the new investigation."
       },
       "sources": [
         {
-          "label": "FDA pharmacology review (2015), appendix from IND 117879: printed pp. 127–134 (PDF pp. 134–141)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134"
+          "label": "FDA glycopyrrolate initial-IND review (2011): provenance and route-specific safety strategy, PDF pp. 31–33",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31"
         },
         {
-          "label": "ICH S3A: exposure measurement within toxicity studies",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s3a-toxicokinetics-assessment-systemic-exposure-toxicity-studies"
+          "label": "FDA glycopyrrolate initial-IND memo: CMC-to-toxicology impurity/stability review, PDF pp. 70–71",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70"
         },
         {
-          "label": "21 CFR Part 58: Good Laboratory Practice for nonclinical laboratory studies",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-58"
+          "label": "FDA: pharmacology and toxicology information supporting an IND",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-pharmacology-and-toxicology-pt-information"
         },
         {
-          "label": "ICH M3(R2): nonclinical support and study timing",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m3r2-nonclinical-safety-studies-conduct-human-clinical-trials-and-marketing-authorization"
+          "label": "ICH M3(R2): scope and timing of nonclinical support",
+          "url": "https://www.fda.gov/media/71542/download"
         },
         {
-          "label": "ICH S9: nonclinical evaluation in its defined advanced-cancer setting",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s9-nonclinical-evaluation-anticancer-pharmaceuticals"
+          "label": "ICH S3A: exposure measurements and analytical methods",
+          "url": "https://www.fda.gov/media/71990/download"
+        },
+        {
+          "label": "FDA: streamlined nonclinical studies and acceptable new approach methodologies",
+          "url": "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-streamlined-nonclinical-studies-and-acceptable-new-approach-methodologies-nams"
+        },
+        {
+          "label": "FDA osimertinib IND-study appendix: quantitative and nonquantitative TK findings, PDF p. 140",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=140"
         }
       ],
       "sourceChecked": "16 September 2026"
@@ -5919,56 +6906,158 @@ const CATALOG = {
       "id": "cmc-material",
       "category": "cmc",
       "title": "Define the drug people will receive",
-      "goal": "Determine whether existing support is adequate or additional bridging work is needed.",
-      "concept": "The molecular structure does not fully define the administered product. Specify the active ingredient, its form, the formulation, the dose basis, and the material used in each supporting study.",
-      "takeaway": "Connect the molecule, the drug substance, and the finished product before comparing doses or study results.",
+      "goal": "Decide whether the evidence behind one material supports the product proposed for people.",
+      "concept": "A molecule becomes an investigational product through choices about its chemical form, ingredients, strength and delivery. Make those choices explicit, then ask whether the material used to establish safety represents the material in the proposed trial.",
+      "takeaway": "An evidence bridge starts by naming the difference it must explain.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Define the substance",
-            "question": "Which chemical material is being made and tested?",
-            "evidence": "Establish identity and the relevant salt, solid form, composition, and purity. Track the batch used in each study.",
-            "decision": "Make the test item unambiguous."
+            "label": "Name the material",
+            "question": "What, precisely, will a participant receive?",
+            "evidence": "Start with the active ingredient and the form actually supplied. Then identify the formulation, strength, route, relevant package and delivery system. Keep the active dose distinct from total product mass and state the basis used for any comparison. This is a working definition for the planned trial: it need not pretend to be the final marketed formulation. Record what is known, which alternatives remain possible, and which version appears in each study. Otherwise two teams can discuss the same drug name while relying on different materials.",
+            "decision": "Produce one material definition that the CMC, nonclinical and clinical teams can use without translating competing names or dose conventions.",
+            "outputLabel": "A product definition for this trial",
+            "sources": [
+              2,
+              3
+            ],
+            "flow": [
+              {
+                "title": "Substance",
+                "detail": "Identity and chemical form"
+              },
+              {
+                "title": "Product",
+                "detail": "Ingredients, strength and formulation"
+              },
+              {
+                "title": "Administration",
+                "detail": "Route, package and delivery"
+              }
+            ]
           },
           {
-            "label": "Define the product",
-            "question": "What formulation and dose will actually be administered?",
-            "evidence": "Specify the active content, excipients, dosage form, route, and relevant package. Distinguish mass of salt from mass of active moiety.",
-            "decision": "Make the dose and product composition interpretable."
+            "label": "Compare the evidence materials",
+            "question": "Which differences could change the interpretation of a supporting study?",
+            "evidence": "Place the nonclinical material and proposed clinical material side by side. Compare the active form, formulation ingredients, impurity profile and relevant delivery conditions. A difference is a question to assess, not an automatic demand to repeat everything. Identify the specific consequence that could matter: altered exposure, a changed local environment, a different impurity or a delivery difference. An excipient used only in an animal study can change exposure or tolerability and therefore the relevance of that study to people. Identify what comparison would address the concern.",
+            "decision": "Classify each difference as supported, unresolved or requiring a focused comparison, and explain the evidence needed to move it.",
+            "outputLabel": "A material comparison with open questions",
+            "sources": [
+              2
+            ],
+            "table": {
+              "columns": [
+                "Comparison",
+                "Evidence to place beside it"
+              ],
+              "rows": [
+                [
+                  "Chemical form and ingredients",
+                  "What changed, and which studies used each version?"
+                ],
+                [
+                  "Impurity or delivery difference",
+                  "What risk or performance question could change?"
+                ],
+                [
+                  "Exposure relevance",
+                  "Does existing evidence address that particular difference?"
+                ]
+              ]
+            }
           },
           {
-            "label": "Connect study materials",
-            "question": "Does existing evidence apply to the proposed clinical material?",
-            "evidence": "Compare nonclinical and clinical batches and formulations. Assess differences in impurities, stability, delivered dose, or exposure.",
-            "decision": "Determine whether existing support is adequate or additional bridging work is needed."
+            "label": "Decide what carries forward",
+            "question": "What would make the bridge convincing for this use?",
+            "evidence": "Choose evidence that addresses the difference you identified. Comparable PK across formulations can address an exposure question without making every property of the products identical. A bridge may support an immediate study while leaving another question to resolve before longer treatment. State the proposed use, the evidence that applies and the remaining uncertainty in the same conclusion. If the formulation changes again, revisit the affected parts of the argument.",
+            "decision": "Carry forward supported findings, request a targeted bridge where needed, and tell the nonclinical and clinical teams exactly which material each conclusion covers.",
+            "outputLabel": "A justified bridge, with a clear boundary",
+            "sources": [],
+            "flow": [
+              {
+                "title": "Difference",
+                "detail": "Name the possible consequence"
+              },
+              {
+                "title": "Comparison",
+                "detail": "Select evidence that can resolve it"
+              },
+              {
+                "title": "Conclusion",
+                "detail": "State what applies and what remains open"
+              }
+            ]
           }
         ],
         "case": {
-          "title": "Osimertinib: 95.4 mg of salt is not 95.4 mg of active drug.",
-          "intro": "The 2015 FDA quality review describes the mesylate salt and the dose basis of the film-coated tablet.",
+          "title": "Suvorexant: the first trial could proceed, and the formulation question remained.",
+          "stage": "Initial IND in 2008; later IND follow-up in 2009",
+          "intro": "The FDA review preserves a distinction that is easy to lose: adequate support for an immediate trial did not settle the relevance of every later study using the same nonclinical vehicle.",
           "rows": [
             {
-              "label": "Drug substance",
-              "value": "95.4 mg osimertinib mesylate.",
+              "label": "Initial support",
+              "value": "One-month oral rat and dog studies supported the proposed first trial.",
               "status": "REPORTED"
             },
             {
-              "label": "Active-moiety equivalent",
-              "value": "80 mg osimertinib free base.",
+              "label": "Unresolved difference",
+              "value": "The animal formulation contained an excipient absent from the clinical formulation.",
               "status": "REPORTED"
             },
             {
-              "label": "Drug product",
-              "value": "The formulated film-coated tablet also contains excipients.",
+              "label": "Later consequence",
+              "value": "Formulation suitability returned in later study discussions.",
               "status": "REPORTED"
             }
           ],
-          "limit": "This is the later NDA product, not a reconstruction of the first clinical formulation. The 80 mg value is not the total tablet mass.",
           "sources": [
             0
           ],
-          "visual": {
-            "kind": "salt"
+          "limit": "This is a retrospective FDA account of the initial IND and later discussions. Excipient identity and formulation details are redacted. The later repeat studies are not a universal first-in-human requirement.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Source",
+                "value": "2014 FDA pharmacology/toxicology review, PDF 34"
+              },
+              {
+                "label": "Immediate decision",
+                "value": "Support for the first clinical trial"
+              },
+              {
+                "label": "Later decision",
+                "value": "Relevance of longer-term studies"
+              }
+            ],
+            "proposal": "Use the submitted rat and dog toxicity studies to support the first clinical trial, although the animal and human formulations differed.",
+            "evidenceTable": {
+              "columns": [
+                "Evidence",
+                "What it establishes",
+                "What it leaves open"
+              ],
+              "rows": [
+                [
+                  "One-month rat and dog studies",
+                  "FDA considered them adequate for the initial trial.",
+                  "Whether the excipient affected the relevance of later animal safety findings."
+                ],
+                [
+                  "Nonclinical versus clinical formulation",
+                  "The clinical formulation did not contain the excipient at issue.",
+                  "The excipient identity and full composition are not public."
+                ],
+                [
+                  "Later development discussions",
+                  "FDA sought suitable formulations or a justification for retaining the earlier one.",
+                  "The page does not provide a complete quantitative bridge."
+                ]
+              ]
+            },
+            "concern": "The nonclinical excipient might affect suvorexant’s animal safety profile and reduce the relevance of those results to humans.",
+            "response": "In later development, the sponsor undertook additional general and reproductive toxicity work with another formulation; FDA also requested justification where the earlier formulation was retained.",
+            "outcome": "The initial studies supported the first trial. The formulation concern continued into later development and additional work.",
+            "unresolved": "Public readers cannot identify the hidden excipient or reconstruct the complete bridging rationale."
           }
         },
         "terms": [
@@ -5985,42 +7074,52 @@ const CATALOG = {
             "definition": "Evidence used to assess whether findings with one material or formulation support another."
           }
         ],
-        "scope": "Early clinical products can differ from the final marketed form. The supporting comparison is specific to the changes and proposed use."
+        "scope": "The bridge is specific to the material difference and proposed use. A first clinical formulation may evolve; each change needs an assessment of which existing conclusions still apply.",
+        "kind": "decision",
+        "handoff": {
+          "lesson": "nonclinical-package",
+          "label": "Carry the material comparison into the evidence package",
+          "text": "Identify the formulation and batch behind each safety conclusion. Return any unresolved relevance question to CMC before treating the study as support for the proposed product."
+        }
       },
       "question": {
-        "title": "Which dose basis should be compared?",
-        "prompt": "One record gives the mass of osimertinib mesylate and another gives the free-base equivalent. What comes first?",
+        "title": "Does permission to start settle the bridge?",
+        "prompt": "FDA considers the initial toxicity studies adequate for a first trial but raises concern about an excipient absent from the clinical formulation. What should the team conclude?",
         "options": [
           [
-            "Treat both numbers as the same chemical mass.",
-            "Salt and free-base masses are not numerically interchangeable.",
-            false
-          ],
-          [
-            "Compare total tablet mass with drug concentration.",
-            "Tablet mass includes excipients and is not the active dose.",
-            false
-          ],
-          [
-            "Identify the dose basis and convert to the same active-moiety basis where appropriate.",
-            "Correct. First make the dose definitions comparable, then assess the materials and exposure.",
+            "The first-trial decision and the continuing formulation question both need to be preserved.",
+            "Correct. The permitted use is bounded; later evidence may need a stronger formulation bridge.",
             true
+          ],
+          [
+            "All future studies with that vehicle are now accepted.",
+            "The initial trial decision does not settle every later use of the formulation.",
+            false
+          ],
+          [
+            "Every completed study must automatically be repeated.",
+            "A difference calls for a reasoned assessment; the appropriate response depends on the evidence and proposed use.",
+            false
           ]
         ],
-        "hint": "A counterion contributes mass without being the same as the active moiety."
+        "hint": "Separate the immediate decision from the unresolved scientific question."
       },
       "sources": [
         {
-          "label": "FDA quality review (2015): drug product summary, printed p. 6 (PDF p. 7)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=7"
+          "label": "FDA suvorexant review: initial-IND formulation concern and later follow-up, PDF 34",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34"
         },
         {
-          "label": "FDA: CMC information for investigational drugs",
+          "label": "FDA ivacaftor original-IND review: formulation comparison in dog PK, PDF 90",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=90"
+        },
+        {
+          "label": "FDA IND CMC overview: product identity and differences from animal-study material",
           "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
         },
         {
-          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
-          "url": "https://www.fda.gov/media/193163/download?attachment="
+          "label": "FDA first-in-human small-molecule CMC: early formulation flexibility, PDF 4",
+          "url": "https://www.fda.gov/media/193163/download?attachment=#page=4"
         }
       ],
       "sourceChecked": "16 September 2026"
@@ -6029,54 +7128,165 @@ const CATALOG = {
       "id": "cmc-controls",
       "category": "cmc",
       "title": "Make and control consistent material",
-      "goal": "Release, investigate, or hold the batch through the responsible quality process.",
-      "concept": "A reliable supply depends on understanding what the process can change and using tests that answer the relevant quality questions. A high purity value alone is not a batch-release decision.",
-      "takeaway": "Choose controls for identity, dose, impurities, and performance—not a single reassuring number.",
+      "goal": "Connect process and batch evidence to controls justified for the planned exposure.",
+      "concept": "Making the intended material once is only part of the question. Explain where the process can introduce relevant differences, how they are measured, and why the proposed acceptance criteria support the trial.",
+      "takeaway": "A useful control links a measurable property to a decision about the material.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Understand the process",
-            "question": "What can introduce variability or unwanted material?",
-            "evidence": "Trace starting materials, reaction by-products, solvents, purification, and formulation steps. Focus on differences that can affect product safety or performance.",
-            "decision": "Identify where the process needs controls and what a process change could invalidate."
+            "label": "Trace the process",
+            "question": "Where could a material difference enter the evidence chain?",
+            "evidence": "Draw the route from preparation of the active ingredient to formulation, packaging and the batch intended for use. Mark the steps that can affect the product’s safety or interpretation. Then connect each supporting study to the material it used. This makes a process change visible as an evidence question: which earlier conclusions still represent the new material? Compare relevant attributes across process versions and study batches. The work should fit the development stage: a final commercial process and its full validation are not the starting expectation for an original Phase 1 small-molecule IND.",
+            "decision": "Identify the process and batch differences that need control or comparison before relying on previous results.",
+            "outputLabel": "A process diagram linked to study batches",
+            "sources": [
+              3,
+              4
+            ],
+            "flow": [
+              {
+                "title": "Preparation",
+                "detail": "Sources of relevant variability"
+              },
+              {
+                "title": "Formulation and packaging",
+                "detail": "Further material changes"
+              },
+              {
+                "title": "Study and clinical batches",
+                "detail": "Evidence tied to a specific version"
+              }
+            ]
           },
           {
-            "label": "Choose the tests",
-            "question": "Does each measurement answer the right question?",
-            "evidence": "Distinguish identity, active content, impurity profile, dose uniformity, and drug release where relevant. Use methods fit for their intended purpose.",
-            "decision": "Set appropriate tests and acceptance criteria for this product and stage."
+            "label": "Justify the limits",
+            "question": "Why is this measured result acceptable for this trial?",
+            "evidence": "For each important attribute, connect the test to an acceptance criterion and the reason behind it. For impurities, name the impurity where known, its amount, the resulting exposure and the evidence addressing its safety significance. Keep the proposed route and treatment duration in view. An impurity percentage needs to be connected to the administered dose and resulting exposure. Analytical and toxicological assessments work together; a limit for a short trial may not settle the question for longer treatment. Specifications can develop as knowledge grows.",
+            "decision": "Use criteria supported for the proposed exposure, and make any missing qualification evidence an explicit action.",
+            "outputLabel": "A control and impurity justification table",
+            "sources": [
+              3
+            ],
+            "table": {
+              "columns": [
+                "Control question",
+                "Evidence needed"
+              ],
+              "rows": [
+                [
+                  "What is present?",
+                  "Identity and impurity profile"
+                ],
+                [
+                  "How much reaches the participant?",
+                  "Measured amount linked to dose and use"
+                ],
+                [
+                  "Why is that acceptable here?",
+                  "Qualification evidence and treatment boundary"
+                ]
+              ]
+            }
           },
           {
-            "label": "Review the batch",
-            "question": "Do results and records support use of this material?",
-            "evidence": "Read the relevant test results together with batch records and deviations. Investigate an unexpected result rather than averaging it away.",
-            "decision": "Release, investigate, or hold the batch through the responsible quality process."
+            "label": "Read results in context",
+            "question": "Do the actual material and its records support the proposed use?",
+            "evidence": "Compare the available batch evidence with the defined criteria, then check whether the batch and manufacturing history match the argument. An aggregate purity number cannot tell you whether the impurity profile stayed the same. Use batch-specific analytical results and, when needed, exposure or biological comparisons to assess the change. Keep the conclusion attached to the actual material and proposed use. Keep an unexpected profile or unresolved difference visible rather than allowing a passing headline value to answer a different question. The responsible quality process makes the disposition decision.",
+            "decision": "Document the supported use, investigate a material discrepancy, or obtain the evidence needed to resolve it before use.",
+            "outputLabel": "A batch assessment with a recorded rationale",
+            "sources": [],
+            "flow": [
+              {
+                "title": "Results",
+                "detail": "What was actually measured?"
+              },
+              {
+                "title": "Applicability",
+                "detail": "Does this batch match the evidence?"
+              },
+              {
+                "title": "Disposition",
+                "detail": "Use the responsible quality process"
+              }
+            ]
           }
         ],
         "case": {
-          "title": "Osimertinib: a tablet breaking apart did not establish drug release.",
-          "intro": "The FDA quality review distinguishes disintegration from dissolution in evaluating the tablet control strategy.",
+          "title": "Glycopyrrolate: an impurity limit needed a clinical-use argument.",
+          "stage": "Initial IND, 2011; proposed 14-day Phase 2 inhalation study",
+          "intro": "The actual initial-IND memo shows CMC and nonclinical reviewers joining the analytical result to the planned human exposure.",
           "rows": [
             {
-              "label": "Disintegration",
-              "value": "Tablet breakup was not a reliable substitute for dissolution in this product.",
+              "label": "CMC request",
+              "value": "Clarify related-substance acceptance criteria and assay/impurity profiles.",
               "status": "REPORTED"
             },
             {
-              "label": "Dissolution",
-              "value": "The review supported a method to assess drug release across batches and during stability testing.",
+              "label": "Evidence reviewed",
+              "value": "Sponsor response and clinical-lot impurity analyses.",
               "status": "REPORTED"
             },
             {
-              "label": "General lesson",
-              "value": "A convenient test must demonstrate that it answers the intended quality question.",
-              "status": "INTERPRETATION"
+              "label": "Conclusion",
+              "value": "No additional nonclinical impurity qualification for the proposed 14-day study.",
+              "status": "REPORTED"
             }
           ],
-          "limit": "This was an NDA-stage assessment. Early-phase controls should be appropriate to the product, risks, and development stage; do not copy a commercial specification wholesale.",
           "sources": [
-            0
-          ]
+            0,
+            1
+          ],
+          "limit": "This is a pharmacology/toxicology consult, not the complete CMC review or a batch-release authorization. Quantitative specifications and much of the analytical support are redacted. Historical impurity descriptions are not current universal classifications.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Application",
+                "value": "IND 110663"
+              },
+              {
+                "label": "CMC request",
+                "value": "May 4, 2011, during the 30-day review"
+              },
+              {
+                "label": "Memo",
+                "value": "June 14, 2011"
+              }
+            ],
+            "proposal": "Support the proposed inhalation trial with the product’s impurity specifications and analytical information.",
+            "evidenceTable": {
+              "columns": [
+                "Review element",
+                "Public finding",
+                "Decision relevance"
+              ],
+              "rows": [
+                [
+                  "Related-substance limits",
+                  "CMC requested clarification of the proposed criteria.",
+                  "A specification needed a reasoned basis."
+                ],
+                [
+                  "Clinical-lot analyses",
+                  "The memo reports levels below the specified limits.",
+                  "The assessment used actual lot information."
+                ],
+                [
+                  "Dose and duration",
+                  "The conclusion is attached to the proposed 14-day study.",
+                  "Qualification was bounded by the intended exposure."
+                ],
+                [
+                  "Later use",
+                  "The memo distinguishes NDA or longer-duration expectations.",
+                  "The early conclusion did not close every future question."
+                ]
+              ]
+            },
+            "concern": "The CMC reviewer needed enough information to assess impurity acceptance criteria and stability through nebulization.",
+            "response": "The sponsor responded on May 11; the CMC reviewer requested a toxicology evaluation, which considered the impurity data and proposed human exposure.",
+            "outcome": "The consult found no additional nonclinical impurity qualification was needed at the submitted specifications for the proposed 14-day study.",
+            "unresolved": "The public PDF does not expose the complete specification table, methods, numerical results or final CMC disposition."
+          }
         },
         "terms": [
           {
@@ -6096,7 +7306,13 @@ const CATALOG = {
             "definition": "Current good manufacturing practice; manufacturing controls are appropriate to the development stage."
           }
         ],
-        "scope": "CMC develops during lead optimization and continues after nomination. An established commercial synthesis is not a prerequisite for every first-in-human study."
+        "scope": "Controls are product- and stage-specific. Original FIH Phase 1 small-molecule expectations allow an evolving process and specifications; a commercial control strategy should not be copied into the starting package.",
+        "kind": "decision",
+        "handoff": {
+          "lesson": "cmc-stability",
+          "label": "Follow those attributes through time and administration",
+          "text": "Carry the identity, impurity and performance questions into the storage and in-use plan. A suitable release result is the starting observation, not the end of the evidence."
+        }
       },
       "question": {
         "title": "Does matching purity settle the question?",
@@ -6122,19 +7338,23 @@ const CATALOG = {
       },
       "sources": [
         {
-          "label": "FDA quality review: dissolution assessment, printed pp. 144–145 (PDF pp. 63–64)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=63"
+          "label": "FDA glycopyrrolate initial-IND memo: CMC request and impurity assessment, PDF 70",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70"
         },
         {
-          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
+          "label": "FDA glycopyrrolate initial-IND memo: study-specific conclusion, PDF 75",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=75"
+        },
+        {
+          "label": "FDA osimertinib review: batches from different processes, PDF 121–122",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=121"
+        },
+        {
+          "label": "FDA original FIH small-molecule CMC: process, batch and specification flexibility",
           "url": "https://www.fda.gov/media/193163/download?attachment="
         },
         {
-          "label": "FDA: CGMP for Phase 1 investigational drugs",
-          "url": "https://www.fda.gov/media/70975/download"
-        },
-        {
-          "label": "FDA: CMC information for investigational drugs",
+          "label": "FDA IND CMC overview: manufacturing and product control information",
           "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
         }
       ],
@@ -6144,55 +7364,164 @@ const CATALOG = {
       "id": "cmc-stability",
       "category": "cmc",
       "title": "Keep the product suitable through dosing",
-      "goal": "Set supported handling and use limits, or obtain additional evidence before extending them.",
-      "concept": "A batch that is suitable today must remain suitable during storage, shipment, preparation, and use. Stability support belongs to a defined material, package, and set of conditions.",
-      "takeaway": "A stability conclusion travels with its material, packaging, conditions, and supported period.",
+      "goal": "Define supported storage and use conditions, and determine what evidence a change requires.",
+      "concept": "The administered product has a history: manufacture, storage, packaging, preparation and delivery. Stability asks whether that history changes the qualities that matter for its intended use.",
+      "takeaway": "State the material, conditions and period whenever you state a stability conclusion.",
       "evidenceGuide": {
         "steps": [
           {
-            "label": "Define the conditions",
-            "question": "Which storage and use conditions need support?",
-            "evidence": "Identify the formulation, container, temperature, light exposure, shipment, and any preparation or in-use period that can affect quality.",
-            "decision": "Specify the conditions under which the clinical supply will be managed."
+            "label": "Follow the product to the dose",
+            "question": "What conditions does the material actually experience?",
+            "evidence": "Start with the formulation and container identified in the previous lesson, then follow the material through storage, opening, preparation and administration. Add relevant temperature, light, dilution and device conditions to that route. The point is to describe actual use before choosing the evidence. A vial measurement may not answer what happens after the solution passes through a delivery device. The same reasoning applies when preparation introduces a different container or delivery component. Keep the clinical team’s planned timing and technique attached to the CMC question.",
+            "decision": "Define the stages and conditions for which product suitability needs support, including any period after preparation.",
+            "outputLabel": "A storage-to-dose route with sampling points",
+            "sources": [],
+            "flow": [
+              {
+                "title": "Stored material",
+                "detail": "Formulation, container and environment"
+              },
+              {
+                "title": "Prepared material",
+                "detail": "Opening, dilution or transfer"
+              },
+              {
+                "title": "Delivered dose",
+                "detail": "Device, timing and administration"
+              }
+            ]
           },
           {
-            "label": "Follow the changes",
-            "question": "Which quality attributes could change with time?",
-            "evidence": "Track relevant active content, degradation products, physical changes, and product performance using suitable methods. Read trends as well as pass/fail results.",
-            "decision": "Determine what the available data support over the proposed period of use."
+            "label": "Connect change to a consequence",
+            "question": "Which measurements tell us whether the product remains suitable?",
+            "evidence": "Carry forward the relevant attributes from the control strategy and ask how they could change along that route. The administered dose may require assay and impurity measurements after preparation or device delivery. Container interactions can introduce particles, adding a physical-quality question alongside chemical stability. Physical appearance, a chemical result and a clinical observation answer different parts of that problem. State what each result establishes and what it cannot establish alone. A plausible connection between a product change and a clinical observation still requires evidence of causation.",
+            "decision": "Use a set of measurements that addresses the proposed conditions and distinguish observed product change from an unresolved clinical explanation.",
+            "outputLabel": "An evidence-to-consequence matrix",
+            "sources": [],
+            "table": {
+              "columns": [
+                "Question",
+                "Evidence role"
+              ],
+              "rows": [
+                [
+                  "Has the drug changed?",
+                  "Assay and relevant degradation products"
+                ],
+                [
+                  "Has the product or package changed?",
+                  "Physical compatibility and relevant performance"
+                ],
+                [
+                  "What does that mean for use?",
+                  "Exposure, safety interpretation and handling conditions"
+                ]
+              ]
+            }
           },
           {
-            "label": "Reassess changes",
-            "question": "Does the conclusion still apply after a change?",
-            "evidence": "Review new formulation, packaging, storage, or use conditions against existing data. Plan proportionate ongoing stability work.",
-            "decision": "Set supported handling and use limits, or obtain additional evidence before extending them."
+            "label": "Set the boundary and revisit it",
+            "question": "What conditions can the team justify now?",
+            "evidence": "Turn the assessment into instructions that specify the material, packaging, conditions and permitted use. Also identify what new evidence will be reviewed as development continues. Early stability support and an ongoing plan can be proportionate to the proposed Phase 1 study; an established commercial shelf life is not the starting expectation. When formulation, packaging or administration changes, reassess applicability. For example, compatibility measurements from an earlier formulation do not automatically establish compatibility for its replacement. An old study may remain informative while failing to answer the new product-specific question.",
+            "decision": "Maintain supported conditions, justify the change with applicable evidence, or obtain the missing support before extending the conclusion.",
+            "outputLabel": "Handling instructions and a change-assessment plan",
+            "sources": [
+              5
+            ],
+            "flow": [
+              {
+                "title": "Current support",
+                "detail": "Named material and conditions"
+              },
+              {
+                "title": "Proposed change",
+                "detail": "Identify the affected evidence"
+              },
+              {
+                "title": "Next decision",
+                "detail": "Retain, justify or obtain support"
+              }
+            ]
           }
         ],
         "case": {
-          "title": "Osimertinib: stability support had a defined boundary.",
-          "intro": "At the 2015 NDA review, the available evidence supported an initial product shelf life under specified conditions.",
+          "title": "Lenacapavir: the container became part of the safety question.",
+          "stage": "Later IND hold in 2021; NDA review and resubmission in 2022",
+          "intro": "The compiled FDA review shows the problem and the later resolution. Reading only the earlier negative assessment would leave the scientific and regulatory story unfinished.",
           "rows": [
             {
-              "label": "Supported period",
-              "value": "12 months in the finished package.",
+              "label": "Observed product issue",
+              "value": "Borosilicate-vial incompatibility and glass particles.",
               "status": "REPORTED"
             },
             {
-              "label": "Conditions",
-              "value": "USP controlled room temperature; the reviewed product used an HDPE bottle.",
+              "label": "Initial uncertainty",
+              "value": "Possible contribution to persistent injection-site effects required assessment.",
               "status": "REPORTED"
             },
             {
-              "label": "Continuing work",
-              "value": "Stability studies continued, with later reassessment as evidence accumulated.",
+              "label": "Later outcome",
+              "value": "Additional evidence supported a favorable second-cycle assessment.",
               "status": "REPORTED"
             }
           ],
-          "limit": "This is a historical commercial-product decision, not a 12-month requirement for an initial IND. FDA’s first-in-human CMC framework scales support to the proposed study.",
           "sources": [
-            0,
-            1
-          ]
+            1,
+            2,
+            3,
+            6
+          ],
+          "limit": "This is a later-IND and NDA example, not a first-in-human stability checklist. The record does not establish that glass caused nodules, and the later review considered the drug depot a more likely explanation.",
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Clinical development",
+                "value": "Supporting INDs placed on full hold in December 2021"
+              },
+              {
+                "label": "Marketing review",
+                "value": "Quality deficiencies led to a February 2022 complete response"
+              },
+              {
+                "label": "Later assessment",
+                "value": "Additional quality, nonclinical and clinical evidence reviewed after resubmission"
+              }
+            ],
+            "proposal": "Use lenacapavir injection in a vial presentation while supporting ongoing clinical use and a marketing application.",
+            "evidenceTable": {
+              "columns": [
+                "Evidence",
+                "Earlier question",
+                "Later assessment"
+              ],
+              "rows": [
+                [
+                  "Vial compatibility",
+                  "Borosilicate-vial degradation and particles raised a product-quality problem.",
+                  "The resubmission addressed the quality deficiencies."
+                ],
+                [
+                  "Alternative presentation",
+                  "Supporting information did not adequately establish the alternative through expiry.",
+                  "The later review accepted the product and its stability support."
+                ],
+                [
+                  "Storage and preparation",
+                  "Support needed to apply to the actual package and use conditions.",
+                  "Photoprotection and in-use evidence informed handling instructions."
+                ],
+                [
+                  "Persistent injection-site reactions",
+                  "A contribution from particles could not initially be ruled out.",
+                  "A later reviewer found the drug depot the more likely explanation."
+                ]
+              ]
+            },
+            "concern": "FDA lacked enough information to assess injection risk and the possible contribution of glass particles, including subvisible particles, to clinical effects.",
+            "response": "The sponsor resubmitted quality information together with additional nonclinical and longer-term clinical evidence. The second-cycle assessment addressed storage, light protection and in-use stability.",
+            "outcome": "The later review favored approval. Packaging and preparation instructions carried forward the supported conditions, while injection-site risks were addressed in labeling and follow-up.",
+            "unresolved": "Some technical details remain redacted. A favorable overall decision does not mean every clinical mechanism was proven or that the earlier concern was imaginary."
+          }
         },
         "terms": [
           {
@@ -6204,7 +7533,13 @@ const CATALOG = {
             "definition": "Support for the period after opening, reconstitution, dilution, or other preparation, where relevant."
           }
         ],
-        "scope": "For an initial Phase 1 IND, evidence and the ongoing stability plan should support the intended use. A final commercial shelf life is not the starting requirement."
+        "scope": "The initial IND needs an evidence-based stability plan for its proposed use. Later commercial shelf-life decisions are useful examples of the reasoning, not required timelines for every early study.",
+        "kind": "decision",
+        "handoff": {
+          "lesson": "clinical",
+          "label": "Turn supported use into site instructions",
+          "text": "Carry the formulation, preparation, storage and administration boundaries into the clinical package. A new dilution, device or delay after preparation returns to CMC for assessment."
+        }
       },
       "question": {
         "title": "Can we carry the old conclusion forward?",
@@ -6230,16 +7565,32 @@ const CATALOG = {
       },
       "sources": [
         {
-          "label": "FDA quality review: stability decision, printed p. 93 (PDF p. 40)",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000ChemR.pdf#page=40"
+          "label": "FDA glycopyrrolate initial-IND memo: before/after nebulization evidence, PDF 70",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70"
         },
         {
-          "label": "FDA: CMC flexibilities for original first-in-human Phase 1 small-molecule INDs",
-          "url": "https://www.fda.gov/media/193163/download?attachment="
+          "label": "FDA lenacapavir first-cycle review: container issue and later-IND hold, PDF 318–319",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=319"
         },
         {
-          "label": "FDA: CMC information for investigational drugs",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+          "label": "FDA lenacapavir second-cycle review: storage, packaging and in-use support, PDF 83",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=83"
+        },
+        {
+          "label": "FDA lenacapavir second-cycle review: resubmission and favorable assessment, PDF 14",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=14"
+        },
+        {
+          "label": "FDA Gvoke supplement CRL: studies must use the proposed formulation, PDF 3",
+          "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=3"
+        },
+        {
+          "label": "FDA original FIH small-molecule CMC: stability support and ongoing plans, PDF 3 and 5",
+          "url": "https://www.fda.gov/media/193163/download?attachment=#page=5"
+        },
+        {
+          "label": "FDA lenacapavir dermatology assessment: likely explanation for injection-site reactions, PDF 177",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=177"
         }
       ],
       "sourceChecked": "16 September 2026"
@@ -6247,199 +7598,490 @@ const CATALOG = {
     {
       "id": "clinical",
       "title": "The first clinical study",
-      "goal": "Turn a recognized safety concern into clear study instructions.",
-      "concept": "The clinical protocol defines objectives, participants, dose and schedule, measurements, and decision rules. Its safety plan should explain what to monitor, when, who reviews the findings, and what actions follow. The specific plan depends on the drug and proposed study.",
-      "takeaway": "A concern becomes actionable when the protocol says what the team will do.",
-      "exampleTitle": "“Monitor kidney safety” needs a plan.",
-      "example": "An animal study identifies kidney injury at higher exposures. The clinical team uses this finding with the rest of the evidence to plan relevant assessments, their timing, who reviews them, and findings that trigger interruption or further evaluation. The program determines the appropriate measures.",
-      "worked": "A safety observation informs a plan that investigators can apply consistently. No single assay, threshold, or schedule is universal.",
+      "goal": "Build a study that can answer a defined question while acting on the candidate’s known and uncertain effects.",
+      "concept": "The first study is an experiment with people, a specific product, and explicit limits. Its design connects the candidate’s rationale to who participates, what is measured, and when the team must pause or change course.",
+      "takeaway": "A protocol turns an evidence-based plan into instructions that people can carry out consistently.",
       "category": "clinical",
       "question": {
-        "title": "Make a vague safety plan actionable.",
-        "prompt": "A draft protocol says “watch closely for liver toxicity,” with no assessment schedule or action rules. What addresses the gap?",
+        "title": "A Phase 2 heading does not supply Phase 2 evidence.",
+        "prompt": "A combined Phase 1/2 protocol is proposed. The early dose-finding portion has support, but the expansion dose and clinical-product information remain unresolved. What is the strongest plan?",
         "options": [
           [
-            "Specify relevant assessments, timing, review responsibilities, and justified action rules.",
-            "These instructions tell the team what to measure and how to act on the findings.",
+            "Begin both portions because they are in one protocol.",
+            "A shared protocol does not resolve the evidence gaps for its later portion.",
+            false
+          ],
+          [
+            "Define the supported portion and the evidence and review needed before expansion.",
+            "The plan should match each study component to its support and make the remaining conditions explicit.",
             true
           ],
           [
-            "Add a longer description of the target’s molecular biology.",
-            "Mechanism can inform risk, but a longer explanation does not supply the missing study instructions.",
-            false
-          ],
-          [
-            "Let each site invent its own monitoring plan after enrollment.",
-            "That leaves safety-critical decisions unspecified. Define the plan before conducting the study.",
+            "Repeat the entire discovery program before any clinical work.",
+            "Unresolved expansion questions call for a targeted assessment; they do not automatically invalidate every earlier finding.",
             false
           ]
         ],
-        "hint": "Could two sites read that sentence and make different safety decisions?"
+        "hint": "Ask what is supported for each part of the proposed study, rather than treating the protocol title as authorization."
       },
-      "diagram": [
-        [
-          "Safety concern",
-          "What could happen?"
-        ],
-        [
-          "Protocol",
-          "What will the team do?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Finding",
-          "Kidney injury at higher exposures"
-        ],
-        [
-          "Plan",
-          "Assessments, timing, reviewer"
-        ],
-        [
-          "Action",
-          "Justified interruption or evaluation rules"
-        ]
-      ],
       "sources": [
         {
-          "label": "FDA: clinical protocols",
-          "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols"
+          "label": "FDA · Clinical protocols for IND studies",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-clinical-protocols"
+        },
+        {
+          "label": "Futibatinib · Initial protocol and partial hold, PDF pp. 35–37",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=35"
+        },
+        {
+          "label": "Futibatinib · FDA assessment of the response, PDF p. 37",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=37"
+        },
+        {
+          "label": "Paxlovid · Initial IND completeness and hold, PDF p. 183",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000IntegratedR.pdf#page=183"
         }
-      ]
+      ],
+      "sourceChecked": "16 September 2026",
+      "evidenceGuide": {
+        "kind": "decision",
+        "steps": [
+          {
+            "label": "Define the learning",
+            "question": "What should this study tell us—and about whom?",
+            "evidence": "Begin with the candidate-specific therapeutic hypothesis and the evidence supporting the intended population. Decide whether healthy volunteers or patients are appropriate. The first study usually emphasizes safety, tolerability, and PK; pharmacodynamic or activity measurements can test additional questions when the design supports them.",
+            "flow": [
+              {
+                "title": "Question",
+                "detail": "Name the uncertainty that the study should reduce."
+              },
+              {
+                "title": "Participants",
+                "detail": "Explain why this population is appropriate to expose and informative to study."
+              },
+              {
+                "title": "Measurements",
+                "detail": "Choose observations, timing, and comparisons that can answer the question."
+              }
+            ],
+            "table": {
+              "columns": [
+                "Design choice",
+                "What needs a rationale"
+              ],
+              "rows": [
+                [
+                  "Eligibility",
+                  "Disease context, prior treatment, organ function, interactions, and any biomarker selection."
+                ],
+                [
+                  "Objectives and endpoints",
+                  "Separate safety and PK objectives from exploratory target-engagement or activity signals."
+                ],
+                [
+                  "Design and interpretation",
+                  "Explain controls, cohort structure, sampling, and what an apparent response would mean."
+                ]
+              ]
+            },
+            "outputLabel": "A study question",
+            "decision": "Write an explicit population–objective–measurement statement. If a result could not change a decision or interpretation, reconsider why it is being collected.",
+            "sources": [
+              0
+            ]
+          },
+          {
+            "label": "Make safety actionable",
+            "question": "If a concerning result appears, what happens next?",
+            "evidence": "Bring the hazard assessment and exposure uncertainties into the protocol. “Monitor closely” does not specify an assessment, a review time, or an action. Distinguish decisions about one participant from decisions about the next cohort or the entire study.",
+            "flow": [
+              {
+                "title": "Anticipate",
+                "detail": "Identify the findings that require attention and when they could emerge."
+              },
+              {
+                "title": "Observe",
+                "detail": "Specify assessments, timing, reporting, and who reviews the results."
+              },
+              {
+                "title": "Act",
+                "detail": "Define justified dose interruption, escalation, restart, or study-pause rules."
+              }
+            ],
+            "table": {
+              "columns": [
+                "Input from development",
+                "Instruction needed in the study"
+              ],
+              "rows": [
+                [
+                  "A potentially affected organ or function",
+                  "Relevant baseline checks, follow-up measurements, and criteria for clinical evaluation."
+                ],
+                [
+                  "Uncertain or variable exposure",
+                  "PK sampling and review before the next dosing decision, where appropriate."
+                ],
+                [
+                  "A new concerning finding",
+                  "Responsibility for urgent assessment, communication, and participant/cohort decisions."
+                ]
+              ]
+            },
+            "outputLabel": "An operational safety plan",
+            "decision": "Two sites should be able to read the protocol and understand the same safety-critical actions. The measures and thresholds must fit the drug and study.",
+            "sources": [
+              0
+            ]
+          },
+          {
+            "label": "Set the boundaries",
+            "question": "What is supported now, and what needs another decision?",
+            "evidence": "Connect dose, duration, formulation, and study population to the evidence that supports them. A combined Phase 1/2 protocol can describe a future expansion without making that expansion ready to begin. Additional protocols can be submitted under an existing IND; the support for the new work still needs assessment.",
+            "table": {
+              "columns": [
+                "Before proceeding",
+                "Check the connection"
+              ],
+              "rows": [
+                [
+                  "Dose and schedule",
+                  "The rationale, exposure limits, escalation reviews, and available clinical strengths agree."
+                ],
+                [
+                  "Duration and population",
+                  "Nonclinical support and participant protections match the proposed exposure and participants."
+                ],
+                [
+                  "Product and execution",
+                  "Supply, stability, preparation, investigators, and safety information support what the protocol says will happen."
+                ],
+                [
+                  "Expansion or amendment",
+                  "Define what new evidence and review are needed before a later portion begins."
+                ]
+              ]
+            },
+            "outputLabel": "A bounded clinical plan",
+            "decision": "Specify the study that can be supported, its dependencies, and the evidence needed to move beyond it. A future phase in the protocol is a proposal, not a completed decision.",
+            "sources": [
+              0
+            ]
+          }
+        ],
+        "case": {
+          "title": "Futibatinib: one protocol, different readiness for its two parts.",
+          "stage": "Initial IND in 2013–2014 and later hold resolution in 2017 · FDA’s 2022 retrospective assessment",
+          "intro": "The initial protocol combined Phase 1 dose-finding with a planned Phase 2 component. FDA placed the Phase 2 portion on partial clinical hold.",
+          "rows": [],
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Candidate",
+                "value": "Futibatinib (TAS-120)"
+              },
+              {
+                "label": "Study",
+                "value": "Combined Phase 1/2 · IND 121062"
+              },
+              {
+                "label": "Public record",
+                "value": "Regulatory history and FDA assessment"
+              }
+            ],
+            "proposal": "Move from dose-finding into expansion and Phase 2 under the combined protocol.",
+            "evidenceTable": {
+              "columns": [
+                "Point in development",
+                "What the record shows"
+              ],
+              "rows": [
+                [
+                  "Initial submission",
+                  "Phase 1 included advanced solid tumors; Phase 2 targeted tumors or myeloma with FGF/FGFR-related abnormalities."
+                ],
+                [
+                  "Initial limitation",
+                  "Insufficient product-quality information and clinical concerns involving the proposed 20 mg capsule strength."
+                ],
+                [
+                  "Later response",
+                  "Safety findings from 102 patients, preliminary activity in 23 patients with cholangiocarcinoma, and a rationale for expansion/Phase 2 dosing."
+                ]
+              ]
+            },
+            "concern": "The later portion required its own support; including it in the initial protocol did not establish that support.",
+            "response": "FDA found the response addressing clinical and product-quality issues satisfactory.",
+            "outcome": "The partial hold on the Phase 2 portion was removed on November 3, 2017.",
+            "unresolved": "The public summary does not reproduce every original deficiency or the complete sponsor response."
+          },
+          "limit": "This is a historical combined-protocol case, not a requirement that every Phase 1/2 program follow the same sequence.",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        "terms": [
+          {
+            "term": "Protocol",
+            "definition": "The study’s objectives, design, participants, procedures, and decision rules."
+          },
+          {
+            "term": "Cohort",
+            "definition": "A group enrolled or treated according to a defined part of the study plan."
+          },
+          {
+            "term": "Partial clinical hold",
+            "definition": "A restriction on part of the clinical work, rather than necessarily all work under the IND."
+          }
+        ],
+        "scope": "Initial-IND support is specific to the proposed study. Later study phases and changes can require additional evidence.",
+        "aside": "“Monitor closely” is an intention. A protocol needs instructions.",
+        "handoff": {
+          "lesson": "clinical-dose",
+          "label": "Justifying a first dose",
+          "text": "The protocol defines the setting. The dosing rationale must now explain the proposed starting point and the conditions for escalation."
+        }
+      }
     },
     {
       "id": "clinical-dose",
       "category": "clinical",
       "title": "Justifying a first dose",
-      "goal": "Explain why a starting dose needs a context-specific rationale.",
-      "concept": "A first human dose is a justified starting point for learning. Its rationale integrates relevant toxicology, pharmacology, and exposure information with the proposed population and regimen. The applicable framework matters: FDA’s adult healthy-volunteer guidance has a defined scope; it is not a universal recipe for patients with advanced cancer.",
-      "takeaway": "Choose the dosing framework for the study context before interpreting the calculations.",
-      "exampleTitle": "A mouse efficacy dose is not a human starting dose.",
-      "example": "A discovery team proposes the same milligrams per kilogram in humans that slowed tumor growth in mice. The development team asks how that relates to toxicity findings, pharmacology, predicted human exposure, and the intended participants. A direct dose match supplies none of those connections. The first-dose rationale must address them together.",
-      "worked": "An activity dose is useful evidence, but it does not independently establish a defensible human starting dose.",
-      "diagram": [
-        [
-          "Animal activity",
-          "A biological observation"
-        ],
-        [
-          "Human starting dose",
-          "A context-specific justification"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "Identify context",
-          "Healthy volunteers or patients?"
-        ],
-        [
-          "Integrate evidence",
-          "Toxicology, exposure, pharmacology"
-        ],
-        [
-          "Justify the plan",
-          "Starting dose and safeguards"
-        ]
-      ],
+      "goal": "Connect pharmacology, toxicology, and exposure to a starting dose and a separately justified escalation plan.",
+      "concept": "A dose proposal is an argument about exposure, biological activity, and the limits of current knowledge. The first dose and the highest planned dose answer different questions; both belong in the rationale.",
+      "takeaway": "Support the starting point and the path beyond it. A reassuring starting-dose margin does not justify every later escalation.",
       "question": {
-        "title": "Which argument is incomplete?",
-        "prompt": "A proposed starting dose is justified only by matching the mouse efficacy dose in mg/kg. What should the team do?",
+        "title": "A clean study can leave an important question open.",
+        "prompt": "The highest repeat doses tested cause no observed adverse effects. The proposed starting-dose margin looks reassuring, but a much higher planned clinical dose approaches the limits of the evidence. What should the team do?",
         "options": [
           [
-            "Accept it because mg/kg adjusts for species differences.",
-            "Weight adjustment alone does not resolve differences in pharmacology, kinetics, or risk.",
+            "Treat the absence of findings as permission for unrestricted escalation.",
+            "A study only describes the doses and conditions tested; it cannot establish that higher exposures are harmless.",
             false
           ],
           [
-            "Assume a lower dose must be effective.",
-            "A lower starting dose does not guarantee activity or define later dose optimization.",
+            "Cancel development because the studies found no target organ.",
+            "An incomplete toxicity profile requires interpretation and a bounded plan; it does not alone determine that the program must stop.",
             false
           ],
           [
-            "Develop a rationale using the relevant safety, pharmacology, exposure, and population context.",
-            "The rationale needs to connect the evidence to the actual human study.",
+            "Assess the upper-dose support separately, constrain escalation as needed, and define further evidence to resolve the uncertainty.",
+            "The starting dose and the highest planned dose need distinct support. A limited study may support a limited clinical plan.",
             true
           ]
         ],
-        "hint": "Which human-relevant assumptions are missing from the dose match?"
+        "hint": "What does “nothing adverse observed” tell you—and what does it leave untested?"
       },
       "sources": [
         {
-          "label": "FDA starting-dose guidance: adult healthy volunteers, final 2005",
+          "label": "FDA · Starting-dose guidance for adult healthy volunteers",
           "url": "https://www.fda.gov/media/72309/download"
         },
         {
-          "label": "ICH S9: defined advanced-cancer context",
+          "label": "ICH S9 · Nonclinical evaluation in the defined advanced-cancer setting",
           "url": "https://www.fda.gov/media/73161/download"
-        }
-      ]
-    },
-    {
-      "id": "people",
-      "title": "Who prepares the IND",
-      "goal": "Distinguish contracted work from transferred sponsor obligations.",
-      "concept": "An IND is a team effort. Scientific specialists generate and interpret evidence; a regulatory lead often coordinates strategy and submission; writers and publishing specialists may help prepare the documents. The sponsor has regulatory responsibilities. Hiring a vendor does not automatically transfer them.",
-      "takeaway": "Who performs a task and who holds an obligation are different questions.",
-      "exampleTitle": "A startup works with a CRO.",
-      "example": "A biotech hires a contract research organization (CRO) for a toxicology study. Toxicology and drug metabolism/pharmacokinetics specialists interpret findings and exposure; the clinical lead considers implications for the protocol. A regulatory lead coordinates the presentation. This is one possible team arrangement. Any transfer of sponsor obligations under the IND regulation must be described in writing.",
-      "worked": "Contracting a task does not automatically transfer obligations. Those not covered by a written transfer remain with the sponsor.",
-      "category": "clinical",
-      "question": {
-        "title": "Who retains the responsibility?",
-        "prompt": "A biotech hires a vendor to assemble the electronic submission. No sponsor obligations are transferred in writing. Who retains those obligations?",
-        "options": [
-          [
-            "The vendor, automatically, because it handles the files.",
-            "Performing a service does not automatically transfer sponsor obligations.",
-            false
-          ],
-          [
-            "FDA, once it receives the submission.",
-            "FDA reviews the application; receipt does not transfer the sponsor’s duties to FDA.",
-            false
-          ],
-          [
-            "The biotech sponsor.",
-            "Obligations not covered by a written transfer remain with the sponsor.",
-            true
-          ]
-        ],
-        "hint": "Separate who did the task from which obligations were transferred."
-      },
-      "diagram": [
-        [
-          "Contracted task",
-          "Who performs the work?"
-        ],
-        [
-          "Sponsor obligation",
-          "Who is responsible?"
-        ]
-      ],
-      "exampleSteps": [
-        [
-          "CRO",
-          "Performs an agreed task"
-        ],
-        [
-          "Team",
-          "Interprets and integrates evidence"
-        ],
-        [
-          "Sponsor",
-          "Retains obligations not transferred"
-        ]
-      ],
-      "sources": [
+        },
         {
-          "label": "21 CFR 312.50 and 312.52: sponsor responsibilities and CRO transfers",
-          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-D"
+          "label": "Ivacaftor · Original IND clinical-dose assessment, PDF p. 122",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122"
+        },
+        {
+          "label": "FDA · Exposure–response relationships",
+          "url": "https://www.fda.gov/media/71277/download"
+        },
+        {
+          "label": "FDA · Safety-critical elements of clinical protocols",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-clinical-protocols"
         }
-      ]
+      ],
+      "sourceChecked": "16 September 2026",
+      "evidenceGuide": {
+        "kind": "decision",
+        "steps": [
+          {
+            "label": "Choose the framework",
+            "question": "Which starting-dose approach fits this study?",
+            "evidence": "Identify the participants, route, intended pharmacology, and important uncertainties before calculating a dose. A framework for systemic dosing in healthy adults cannot simply be transferred to patients with advanced cancer or to a locally delivered product.",
+            "table": {
+              "columns": [
+                "Study context",
+                "What changes the reasoning"
+              ],
+              "rows": [
+                [
+                  "Healthy adult volunteers",
+                  "FDA’s guidance describes an animal NOAEL-to-human-equivalent-dose approach with an appropriate safety factor and consideration of pharmacological activity."
+                ],
+                [
+                  "Advanced cancer",
+                  "ICH S9 describes a distinct context and starting-dose considerations; it is not a universal rule for all patients or oncology settings."
+                ],
+                [
+                  "Local delivery or unusual pharmacology",
+                  "Local concentration, distribution, species relevance, and anticipated activity may require a different or additional justification."
+                ]
+              ]
+            },
+            "outputLabel": "A justified framework",
+            "decision": "Name the applicable approach and explain why it fits. The calculation comes after the context.",
+            "sources": [
+              0,
+              1
+            ]
+          },
+          {
+            "label": "Build the argument",
+            "question": "Do the independent lines of evidence agree?",
+            "evidence": "Connect a relevant animal toxicity finding to the human prediction, then check it against pharmacology and the intended regimen. Label assumptions about protein binding, active metabolites, accumulation, or species differences. A human-equivalent dose and a prediction of human exposure are related tools, not interchangeable measurements.",
+            "flow": [
+              {
+                "title": "Safety anchor",
+                "detail": "Identify the relevant adverse-effect boundary and why the species and study are informative."
+              },
+              {
+                "title": "Human prediction",
+                "detail": "Translate cautiously, explaining the dose or exposure method and its uncertainty."
+              },
+              {
+                "title": "Biological check",
+                "detail": "Consider predicted activity and whether the proposed exposure is appropriate for the participants."
+              }
+            ],
+            "table": {
+              "columns": [
+                "Avoid this shortcut",
+                "Make this connection instead"
+              ],
+              "rows": [
+                [
+                  "Match the animal efficacy dose in mg/kg",
+                  "Explain species translation, human exposure, safety, and pharmacological activity."
+                ],
+                [
+                  "Use the largest numerical safety margin",
+                  "Check what was actually tested, how the margin was calculated, and which uncertainty remains."
+                ],
+                [
+                  "Treat a model output as a measurement",
+                  "State the assumptions and which early human data will test them."
+                ]
+              ]
+            },
+            "outputLabel": "A traceable dose rationale",
+            "decision": "Show the chain from evidence to assumptions to the proposed starting dose. If the evidence disagrees, explain how that disagreement changes the plan.",
+            "sources": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "label": "Bound the escalation",
+            "question": "What allows the next dose—not just the first one?",
+            "evidence": "Specify how emerging safety, PK, and relevant PD will inform escalation. Define the review timing, dose or exposure boundaries, and reasons to pause. A short study supporting one regimen does not automatically support a higher dose, longer treatment, or a different population.",
+            "flow": [
+              {
+                "title": "Start",
+                "detail": "Use the justified starting dose and the specified monitoring plan."
+              },
+              {
+                "title": "Learn",
+                "detail": "Review interpretable safety and exposure findings before the next decision."
+              },
+              {
+                "title": "Reassess",
+                "detail": "Escalate, hold, modify, or seek more evidence within the protocol’s justified boundaries."
+              }
+            ],
+            "outputLabel": "A dosing plan with limits",
+            "decision": "Distinguish the starting dose, escalation rules, and maximum planned exposure. State what new evidence is needed before moving beyond the current support.",
+            "sources": [
+              4
+            ]
+          }
+        ],
+        "case": {
+          "title": "Ivacaftor: 25 mg to start did not justify 800 mg at the top.",
+          "stage": "2006 original IND pharmacology/toxicology review · reproduced in the 2012 NDA package",
+          "intro": "FDA assessed the proposed escalation against 14-day rat and dog toxicity studies. The starting-dose margin and the upper-dose uncertainty led to different conclusions.",
+          "rows": [],
+          "decisionReview": {
+            "context": [
+              {
+                "label": "Candidate",
+                "value": "VX-770 · ivacaftor"
+              },
+              {
+                "label": "Study evidence",
+                "value": "14-day repeat-dose studies in rats and dogs"
+              },
+              {
+                "label": "Decision",
+                "value": "Proposed clinical-dose escalation"
+              }
+            ],
+            "proposal": "Start at 25 mg and escalate to a proposed maximum of 800 mg.",
+            "evidenceTable": {
+              "columns": [
+                "Observation",
+                "Why it mattered"
+              ],
+              "rows": [
+                [
+                  "Rat NOAEL: 200 mg/kg",
+                  "The highest tested repeat dose produced no significant toxic findings, but did not identify target organs."
+                ],
+                [
+                  "Dog NOAEL: 60 mg/kg",
+                  "Also the highest tested repeat dose; the toxicity profile remained incompletely characterized."
+                ],
+                [
+                  "Proposed 25 mg starting dose",
+                  "The review reported a 76–79-fold margin using body-surface-area scaling."
+                ],
+                [
+                  "Proposed 800 mg maximum",
+                  "The corresponding reported margin was about twofold, with no identified target organ to guide monitoring."
+                ]
+              ]
+            },
+            "concern": "Absence of target-organ findings at the tested repeat doses limited characterization of potential toxicity.",
+            "response": "The reviewer accepted a modified maximum escalating dose of 500 mg and recommended considering higher doses in future nonclinical studies to identify target organs.",
+            "outcome": "The proposed trial was considered reasonably safe to proceed with the modified escalation limit.",
+            "unresolved": "The review supports this historical study decision. It does not establish a universal conversion method, safety factor, or maximum dose."
+          },
+          "limit": "NOAEL means no observed adverse effect at a tested dose. It does not mean the compound has no potential toxicity. The values here illustrate FDA’s documented reasoning, not dosing advice.",
+          "sources": [
+            2
+          ]
+        },
+        "terms": [
+          {
+            "term": "NOAEL",
+            "definition": "The no-observed-adverse-effect level in a particular study; interpretation depends on what was tested."
+          },
+          {
+            "term": "Human-equivalent dose",
+            "definition": "An animal dose translated using an appropriate scaling method; it is not itself a measured human exposure."
+          },
+          {
+            "term": "Exposure margin",
+            "definition": "A comparison of relevant exposures under specified conditions. The numerator, denominator, and measurement basis must be clear."
+          }
+        ],
+        "scope": "Starting-dose frameworks have defined scopes. Study-specific judgment remains necessary; historical FDA decisions are not universal numerical rules.",
+        "aside": "A precise number can still rest on an uncertain assumption.",
+        "handoff": {
+          "lesson": "clinical",
+          "label": "Return to the study plan",
+          "text": "Put the dosing rationale, review points, and action rules into the protocol so investigators can implement the same plan."
+        }
+      }
     },
     {
       "id": "pre-ind",
-      "category": "clinical",
+      "category": "regulatory",
       "title": "Ask a useful pre-IND question",
       "goal": "Turn an uncertainty into a focused question with evidence and a proposed approach.",
       "concept": "A pre-IND interaction can help a team discuss development questions with FDA before submission. A useful question identifies the decision, explains the evidence, and presents a proposed approach with its rationale. General requests for reassurance are harder to resolve than questions about a defined program. Feedback informs development; it is not permission to begin a trial.",
@@ -6501,6 +8143,69 @@ const CATALOG = {
         {
           "label": "FDA formal meetings guidance, final August 2026",
           "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/formal-meetings-between-fda-and-sponsors-or-applicants-pdufa-products"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": "Who prepares the IND",
+      "goal": "Distinguish contracted work from transferred sponsor obligations.",
+      "concept": "An IND is a team effort. Scientific specialists generate and interpret evidence; a regulatory lead often coordinates strategy and submission; writers and publishing specialists may help prepare the documents. The sponsor has regulatory responsibilities. Hiring a vendor does not automatically transfer them.",
+      "takeaway": "Who performs a task and who holds an obligation are different questions.",
+      "exampleTitle": "A startup works with a CRO.",
+      "example": "A biotech hires a contract research organization (CRO) for a toxicology study. Toxicology and drug metabolism/pharmacokinetics specialists interpret findings and exposure; the clinical lead considers implications for the protocol. A regulatory lead coordinates the presentation. This is one possible team arrangement. Any transfer of sponsor obligations under the IND regulation must be described in writing.",
+      "worked": "Contracting a task does not automatically transfer obligations. Those not covered by a written transfer remain with the sponsor.",
+      "category": "regulatory",
+      "question": {
+        "title": "Who retains the responsibility?",
+        "prompt": "A biotech hires a vendor to assemble the electronic submission. No sponsor obligations are transferred in writing. Who retains those obligations?",
+        "options": [
+          [
+            "The vendor, automatically, because it handles the files.",
+            "Performing a service does not automatically transfer sponsor obligations.",
+            false
+          ],
+          [
+            "FDA, once it receives the submission.",
+            "FDA reviews the application; receipt does not transfer the sponsor’s duties to FDA.",
+            false
+          ],
+          [
+            "The biotech sponsor.",
+            "Obligations not covered by a written transfer remain with the sponsor.",
+            true
+          ]
+        ],
+        "hint": "Separate who did the task from which obligations were transferred."
+      },
+      "diagram": [
+        [
+          "Contracted task",
+          "Who performs the work?"
+        ],
+        [
+          "Sponsor obligation",
+          "Who is responsible?"
+        ]
+      ],
+      "exampleSteps": [
+        [
+          "CRO",
+          "Performs an agreed task"
+        ],
+        [
+          "Team",
+          "Interprets and integrates evidence"
+        ],
+        [
+          "Sponsor",
+          "Retains obligations not transferred"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "21 CFR 312.50 and 312.52: sponsor responsibilities and CRO transfers",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-D"
         }
       ]
     },
@@ -6778,6 +8483,157 @@ const CATALOG = {
           "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-application-reporting-annual-reports"
         }
       ]
+    },
+    {
+      "id": "expedited-ind-pilot",
+      "category": "ind",
+      "title": "FDA Expedited IND Pilot",
+      "mapTag": "Special topic · 2026 pilot",
+      "goal": "Explain what rolling pre-IND review changes, who remains responsible, and when the final IND review starts.",
+      "concept": "The pilot tests earlier, component-by-component FDA review with a qualified research institution (QRI) supporting the sponsor. Participation is voluntary; FDA retains regulatory authority and the sponsor retains responsibility.",
+      "takeaway": "Earlier component review does not authorize human dosing. The complete IND and other trial-start requirements still matter.",
+      "pilotGuide": {
+        "checked": "16 September 2026",
+        "status": "2026 program snapshot",
+        "sections": [
+          {
+            "label": "The model",
+            "title": "Scientific support and earlier FDA review",
+            "roles": [
+              [
+                "Sponsor",
+                "Owns the program and remains accountable for the submission."
+              ],
+              [
+                "Qualified research institution",
+                "Supports nonclinical, CMC, and clinical work; evaluates components and recommends improvements."
+              ],
+              [
+                "FDA",
+                "Reviews the evidence independently and determines whether the investigation may proceed."
+              ]
+            ],
+            "note": "The pilot changes the preparation and review process. It does not lower the applicable safety standards or transfer FDA’s decision to the QRI.",
+            "sources": [
+              0
+            ]
+          },
+          {
+            "label": "Rolling review",
+            "title": "Most of the pilot happens before the final IND",
+            "flow": [
+              [
+                "Prepare a component",
+                "Sponsor and QRI develop a coherent discipline-specific package."
+              ],
+              [
+                "Submit to the pre-IND file",
+                "FDA reviews completed components as they become ready."
+              ],
+              [
+                "Integrate the complete IND",
+                "Address feedback and include any remaining components."
+              ],
+              [
+                "Final IND review",
+                "The final submission starts the 30-day review window."
+              ]
+            ],
+            "note": "A component should be self-contained, not a fragmentary data drop. The program determines the order; remaining components can go directly into the final IND if rolling submission would delay it.",
+            "sources": [
+              1
+            ]
+          },
+          {
+            "label": "Participation",
+            "title": "A selected cohort, not the default IND pathway",
+            "priorities": [
+              "Novel products for a commercial, US first-in-human Phase 1 program without prior clinical experience.",
+              "Enough preliminary evidence for a credible development timeline, with time for QRI input to be useful."
+            ],
+            "application": "The sponsor and prospective QRI establish their partnership, complete their respective FDA forms, and apply together through the sponsor’s submission. FDA evaluates the pair as one package; it expects 8–10 pairs in the first cohort.",
+            "dates": [
+              [
+                "15 Sep 2026",
+                "Applications opened"
+              ],
+              [
+                "30 Oct 2026",
+                "Announced application deadline"
+              ],
+              [
+                "18 Dec 2026",
+                "Target selection notifications"
+              ]
+            ],
+            "note": "These dates reflect FDA’s September 2026 announcement and may change. Consult the current application instructions. Non-selection does not prevent standard FDA interactions or an IND submission.",
+            "sources": [
+              2,
+              3,
+              0
+            ]
+          }
+        ]
+      },
+      "exampleTitle": "A component is ready. The trial is not.",
+      "exampleLabel": "HYPOTHETICAL PILOT SCENARIO",
+      "example": "A selected sponsor–QRI pair has a coherent CMC component ready for FDA review while a planned safety study is still underway. The team wants feedback on the product controls without waiting for every part of the IND.",
+      "exampleSteps": [
+        [
+          "Review the component",
+          "The QRI evaluates its scientific rationale and readiness."
+        ],
+        [
+          "Seek early feedback",
+          "The sponsor submits the component to its pre-IND file."
+        ],
+        [
+          "Complete the application",
+          "The team incorporates feedback and integrates the remaining evidence into the final IND."
+        ]
+      ],
+      "worked": "An early review can expose an issue while other work continues. It does not show that the entire application is complete or that participants may receive the drug.",
+      "question": {
+        "title": "What starts the formal IND review?",
+        "prompt": "FDA has reviewed two components through the pilot, and the QRI supports the program. What starts the 30-day IND review window?",
+        "options": [
+          [
+            "The first rolling component submission.",
+            "Component review occurs in the pre-IND phase.",
+            false
+          ],
+          [
+            "The QRI’s recommendation that the program is ready.",
+            "The QRI advises; it does not replace FDA’s authority.",
+            false
+          ],
+          [
+            "The final, complete IND submission.",
+            "Correct. Early component review does not start that clock or permit dosing.",
+            true
+          ]
+        ],
+        "hint": "Separate the pre-IND process from the final IND submission."
+      },
+      "sources": [
+        {
+          "label": "FDA: program scope, responsibilities, and selection considerations",
+          "url": "https://www.fda.gov/industry/fda-actions-accelerate-and-modernize-early-and-late-stage-clinical-development/fda-expedited-investigational-new-drug-ind-pilot-program"
+        },
+        {
+          "label": "FDA: rolling submission process and final IND review",
+          "url": "https://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-ind-rolling-submission-process-and-program-structure"
+        },
+        {
+          "label": "FDA: sponsor–QRI application instructions",
+          "url": "https://www.fda.gov/industry/fda-expedited-investigational-new-drug-ind-pilot-program/expedited-investigational-new-drug-pilot-program-application-instructions"
+        },
+        {
+          "label": "FDA: launch announcement, 15 September 2026",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-launches-expedited-ind-pilot-begins-accepting-applications"
+        }
+      ],
+      "sourceChecked": "16 September 2026"
     }
   ],
   "supplementalLevels": [

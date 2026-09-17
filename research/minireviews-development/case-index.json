@@ -1,0 +1,2375 @@
+{
+  "prepared": "2026-09-17",
+  "coverageFile": "coverage.json",
+  "cases": [
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "nc-ivacaftor-exposure-bridge",
+      "programKey": "ivacaftor",
+      "drug": "Ivacaftor",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND review, 2006",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+          "pdfPages": [
+            90,
+            92
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The reviewer summarizes oral animal PK, high plasma protein binding, in-vitro cross-species metabolism and distribution, and compares exposure from clinical and nonclinical formulations. A rat experiment compares exposure across vehicles at a common nominal high dose."
+      ],
+      "interpretationForLesson": "Carry formulation and route alongside every exposure result. A targeted formulation comparison supports a specified bridge; similar nominal doses or a single PK comparison cannot establish all aspects of product equivalence.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Several formulation identifiers are redacted. The summary does not supply a complete quantitative human PK prediction. Similar exposure in one comparison does not establish every aspect of product equivalence."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "nc-cinacalcet-dose-margin",
+      "programKey": "cinacalcet",
+      "drug": "Cinacalcet hydrochloride",
+      "modality": "small molecule",
+      "sourceStage": "Original IND review, June 1998, evaluating proposed Phase 2 dosing using prior human data",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf",
+          "pdfPages": [
+            16
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Prior human repeated dosing produced dose-related PTH suppression and calcium reductions. The reviewer extrapolates an AUC of approximately 150 ng·h/mL at the proposed 75 mg maximum and compares it with animal LOAEL exposures: AUC margins of 6, 1 and 4 for rat, dog and monkey, respectively, before recommending monitoring."
+      ],
+      "interpretationForLesson": "Label numerator as animal LOAEL exposure, denominator as extrapolated human AUC, and show the prior human PTH/calcium response. The informative question is what conditions and monitoring make this particular comparison usable, not whether a generic multiple is exceeded.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The comparison uses LOAEL values and prior healthy-volunteer information; it is not a universal safety-factor rule, a NOAEL margin, or a first-human starting-dose calculation. Cmax values are partly redacted."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "nc-osimertinib-tk-quality",
+      "programKey": "osimertinib",
+      "drug": "Osimertinib",
+      "modality": "small molecule",
+      "sourceStage": "One-month rat study explicitly reproduced from IND 117879 in an NDA appendix",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+          "pdfPages": [
+            140
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Rat Cmax/AUC were generally dose-proportional on Day 1 with a weak sex effect and inconsistent changes by Day 28. The method quantified parent and one metabolite, while a co-eluting peak restricted another metabolite to present/absent reporting; stored analyte concentrations may have declined."
+      ],
+      "interpretationForLesson": "A data table should distinguish quantified parent/metabolite, present-or-absent metabolite, and potentially unstable stored samples. Do not use a reassuring validation headline to erase limitations that affect exposure interpretation.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The appendix does not identify this passage as the entire original IND. Passing assay batches and GLP status do not remove the co-elution or storage-stability limitations."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "nc-vardenafil-metabolite-tk",
+      "programKey": "vardenafil",
+      "drug": "Vardenafil",
+      "modality": "small molecule",
+      "sourceStage": "February 3, 1999 IND review of rodent carcinogenicity protocols; later development",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf",
+          "pdfPages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The reviewer finds a planned single-clock-time concentration measurement inadequate and requests parent plus active M 1 Cmax and AUC at all doses across specified study weeks. Dose selection is linked to human AUC exposure, with qualifications about the available human population and PK."
+      ],
+      "interpretationForLesson": "The chronic-study plan offered one clock-time sample; FDA requested parent and active-metabolite Cmax/AUC across doses and weeks. Teach learners to design sampling around the intended comparison and biological time course, not the convenience of one measurement.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This concerns chronic carcinogenicity protocol planning, not the toxicology package required to initiate the first clinical trial. Several exposure table values are unavailable in the scan."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "pkpd-fosdenopterin",
+      "programKey": "fosdenopterin",
+      "drug": "Fosdenopterin",
+      "modality": "small molecule",
+      "sourceStage": "IND 117502 study assessment completed October 7,2020 after NDA submission; reports submitted 2015–2019, not first-dose review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            168,
+            179,
+            180
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "MOCS1-deficient mice received multiple doses from postnatal day 1; brain S-sulfocysteine and liver sulfite-oxidase activity showed dose-related changes at day 28.",
+        "The retained assessment reports no obvious dose effect for plasma S-sulfocysteine and urinary uric acid across relevant tested doses; the sponsor concluded these may be inadequate to guide therapeutic dosing.",
+        "Untreated knockout controls died or were euthanized by day 8, limiting later direct comparisons."
+      ],
+      "interpretationForLesson": "Choose the marker for the decision: disease identification, target/pathway response and discrimination among regimens are different tasks. A flat response can remove dosing information even when treatment is biologically active.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Do not equate the sponsor conclusion with a universal rejection of these biomarkers. Public text contains directionally awkward uric-acid descriptions; use the clearly stated lack of dose discrimination without reconciling them by invention."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "pkpd-vadadustat",
+      "programKey": "vadadustat",
+      "drug": "Vadadustat",
+      "modality": "small molecule",
+      "sourceStage": "NDA review section explicitly summarizing studies submitted under IND; timing of individual pharmacology studies relative to initial IND not established",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            374,
+            375
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "After a single dose in normoxic rats, serum erythropoietin increased by 3 hours, peaked at 6 hours and returned to baseline by 72 hours.",
+        "The reviewer states that the erythropoietin response was blunted with repeated dosing and displays measurements after 1,7 and 14 days."
+      ],
+      "interpretationForLesson": "Plan exposure and effect sampling across repeated treatment. A single-dose response curve cannot silently become the steady-state PD model; changing response does not, by itself, identify its cause.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The cited pages do not prove clinical tolerance, reveal the full PK/PD model, or define a human dosing interval. EPO induction is not itself the final anemia outcome."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "pkpd-tovorafenib",
+      "programKey": "tovorafenib",
+      "drug": "Tovorafenib",
+      "modality": "small molecule",
+      "sourceStage": "NDA nonclinical executive summary using proposed marketing regimen and modeled human exposure; initial-IND attribution not established",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            47
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The review compares once-weekly human AUC divided over 7 days with animal AUC divided over 2 days because animals were dosed every other day.",
+        "It separately compares off-target and hERG potencies with unbound human Cmax."
+      ],
+      "interpretationForLesson": "AUC per dosing interval, average daily AUC and peak free concentration answer different questions. Show the conversion and retain the original schedule; averaging cannot establish that peak-related effects are equivalent.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The source reports the reviewer’s normalization, not proof that this is the optimal metric for every lesion or endpoint. No new safety-margin calculation is supplied here."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "nc-exp01-lumateperone-human-relevance-update",
+      "programKey": "lumateperone",
+      "drug": "Lumateperone (Caplyta)",
+      "modality": "small molecule",
+      "sourceStage": "2021 supplemental-NDA clinical-pharmacology assessment, following later IND and postmarketing studies; not initial-IND evidence",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf",
+          "pdfPages": [
+            67
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The review links two aniline metabolites to neuropathological findings in dogs and reports that both remained below the 0.1 ng/mL quantification limit in human studies with and without the UGT inhibitors valproate or probenecid. This updates the exposure evidence under a plausible metabolic interaction condition."
+      ],
+      "interpretationForLesson": "The useful translation step tests the specific metabolite concern under a plausible interaction condition. Below quantification is a bounded observation under tested conditions, not absence of metabolism or zero human risk.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The measurements are clinical, reported at marketing-supplement review. They do not recreate the initial risk assessment, establish absence of all metabolites or generalize to every population or interacting medicine."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "nc-exp01-romiplostim-dose-design",
+      "programKey": "romiplostim-hs-ars",
+      "drug": "Romiplostim (Nplate), HS-ARS development",
+      "modality": "biologic / Animal Rule comparator",
+      "sourceStage": "Actual October 2017 pre-IND guidance meeting minutes for HS-ARS under PIND 132396; later reproduced in marketing-supplement package",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf",
+          "pdfPages": [
+            198,
+            199,
+            200,
+            212,
+            214,
+            215
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA says the submission lacked a strategy for translating the efficacious animal regimen into an effective human regimen. It asks for PK/PD results and modeling before the definitive NHP study design. When the sponsor favors the highest feasible dose to maximize efficacy, FDA advises considering lower doses that may provide more human-dose translation options; the sponsor agrees to review the PK/PD data and adjust the survival-study dose if needed."
+      ],
+      "interpretationForLesson": "Use this labeled Animal Rule contrast to distinguish demonstrating animal efficacy from learning a translatable regimen. Preliminary PK/PD and a translation strategy should inform the definitive study.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Historical Animal Rule planning for an already-marketed protein product. The passage does not establish a general animal-dose rule or a final human dose. A prominent study dose is expressed in mg/kg in the original; do not silently convert it to mcg/kg."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json",
+      "additionalSourceFacts": [
+        "In subsequent 2018 meeting minutes, FDA agrees to a mechanistic PK/PD/survival modeling framework and directs human dose selection toward platelet counts because monkey and human drug doses/systemic concentrations differ substantially."
+      ],
+      "additionalUncertainty": "Agreement with a modeling framework is not validation of its final predictions or demonstrated human efficacy in radiation injury."
+    },
+    {
+      "topicId": "nonclinical-pkpd",
+      "topicTitle": "Connect dose, exposure, and effect",
+      "id": "pkpd-rezafungin",
+      "programKey": "rezafungin",
+      "drug": "Rezafungin",
+      "modality": "small molecule",
+      "sourceStage": "Actual pre-NDA preliminary comments under IND 124401; later development, not initial IND",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA requests growth information for selected fungal strains in untreated control mice to judge model/strain suitability for drug-activity and PK/PD-target interpretation.",
+        "The same comments reserve final nonclinical package adequacy for NDA review and request information on the intended dosing regimen support."
+      ],
+      "interpretationForLesson": "An effect or exposure target is meaningful relative to what the untreated system would have done. Add control trajectory/model suitability to the PK/PD argument rather than treating fitted target values as self-validating.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "These are preliminary comments, not verified final meeting agreements. The pages do not report the control results or establish the final PK/PD target."
+      ],
+      "originalEvidenceFile": "nonclinical-pkpd.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "nc-ivacaftor-safety-pharmacology",
+      "programKey": "ivacaftor",
+      "drug": "Ivacaftor",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND review, 2006",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+          "pdfPages": [
+            87,
+            88,
+            89
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "hERG current inhibition was tested up to a solubility-limited concentration and interpreted with vehicle and positive controls. In vivo telemetry showed no adverse ECG signal at tested doses, while rat assays identified gastrointestinal transit effects."
+      ],
+      "interpretationForLesson": "Retain solubility, controls, achieved exposures and observation windows. Interpret hERG, telemetry and GI-function findings as complementary evidence, not as a vote in which more negative tests cancel a positive test.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "A negative in-vivo result does not erase an in-vitro signal or establish human safety. The assay could not determine a hERG IC 50 above its solubility limit."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "nc-osimertinib-recovery",
+      "programKey": "osimertinib",
+      "drug": "Osimertinib",
+      "modality": "small molecule",
+      "sourceStage": "One-month dog study reproduced from IND 117879; later public NDA appendix",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+          "pdfPages": [
+            142,
+            144,
+            145
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "There were no preterm deaths, but GI toxicity required a dosing holiday and reduction from 20 to 12 mg/kg/day. Corneal changes partially regressed after dose modification, while corneal opacity was not fully reversible in recovery animals."
+      ],
+      "interpretationForLesson": "Require the timeline: onset, dose interruption, reduced dosing and post-treatment observation. Partial corneal regression cannot support a blanket reversible label, especially without a vehicle recovery group.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The study had small groups and no vehicle-control recovery cohort. Do not equate partial regression with full recovery or claim the appendix itself establishes the eventual human monitoring schedule."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "nc-faricimab-inflammation",
+      "programKey": "faricimab",
+      "drug": "Faricimab",
+      "modality": "bispecific antibody comparator",
+      "sourceStage": "BLA review quoting and summarizing the initial IND review and 2013 dose discussion",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+          "pdfPages": [
+            15,
+            26
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The quoted initial review identifies severe ocular inflammation and systemic findings in animals. An anti-drug-antibody explanation lacked supporting evidence in the eye. The starting 0.5 mg/eye was supported, while 6 mg/eye was not; lower-dose human data were to be reviewed before escalation."
+      ],
+      "interpretationForLesson": "Separate the observed ocular lesion from the ADA explanation and from the evidence for that explanation in the affected tissue. Protocol restrictions can manage unresolved relevance without falsely claiming the mechanism is known.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is preserved initial-review content inside a later BLA review, not the full initial submission. The history dates on p 15 are internally awkward; avoid reconstructing a precise chronology beyond the documented sequence."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "nc-baricitinib-monitorability",
+      "programKey": "baricitinib",
+      "drug": "Baricitinib",
+      "modality": "small molecule",
+      "sourceStage": "June 9, 2009 IND amendment review, reproduced as NDA appendix; recalls initial 2008 restrictions",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+          "pdfPages": [
+            248,
+            249
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Chronic rat and dog studies showed immunosuppression and other toxicities. The reviewer distinguished NOAELs from reversible, clinically monitorable LOAEL effects and used exposure margins to support a proposed 3-month plus 3-month trial up to 10 mg daily, while distinguishing evidence needed for a chronic marketing indication."
+      ],
+      "interpretationForLesson": "Make learners distinguish a NOAEL from a reversible, clinically monitorable LOAEL. Risk interpretation includes severity, reversibility, detection and proposed trial context; a low exposure multiple is not automatically acceptable or unacceptable.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is later trial-extension support, not initial first-human authorization. It reports a historical review decision, not a general license to dose at LOAEL exposures."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "nc-exp01-lumateperone-metabolite-limits",
+      "programKey": "lumateperone",
+      "drug": "Lumateperone (Caplyta)",
+      "modality": "small molecule",
+      "sourceStage": "2021 supplemental-NDA retrospective regulatory history of 2014/2016 and 2018 IND interactions; IND 079690 original program and IND 126701 bipolar program",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf",
+          "pdfPages": [
+            58,
+            59,
+            67
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The history records a recommendation after a six-month repeat-dose study that human plasma levels remain below one tenth of exposure at the rat NOEL of 5 mg/kg/day. It separately describes required PK assessment of circulating aniline metabolites about every two weeks during the first six weeks of a six-month clinical extension."
+      ],
+      "interpretationForLesson": "The nonclinical concern led to exposure restrictions and specific metabolite sampling during a later extension. Pair this with later human analytical results while preserving the dates and the remaining limits.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is retrospective later-IND history, not the original toxicology review or initial first-human support. The page says NOEL, not NOAEL. It does not fully define the analyte and metric for the one-tenth restriction; do not calculate a numerical threshold from this passage alone."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json",
+      "additionalSourceFacts": [
+        "Later human studies with and without valproate or probenecid found the two aniline metabolites associated with dog neuropathology below the 0.1 ng/mL quantification limit."
+      ]
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "nc-venetoclax-translation-limit",
+      "programKey": "venetoclax",
+      "drug": "Venetoclax",
+      "modality": "small molecule",
+      "sourceStage": "Clinical NDA review retrospectively describing early and later IND trial changes",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+          "pdfPages": [
+            64,
+            96
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The reviewer states that the original proposed 200 mg starting dose was based on mouse/dog pharmacology-toxicology. Early tumor lysis and later severe events led to progressively lower starts, slower ramp-up, risk stratification and enhanced prophylaxis/monitoring."
+      ],
+      "interpretationForLesson": "Use as a boundary case: animal-based support did not end learning. Tumor lysis observations changed escalation, risk stratification and monitoring. The public clinical history does not identify an animal model as having predicted or missed the clinical syndrome.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The cited clinical review does not show the underlying animal experiments or calculations. Do not infer which nonclinical study predicted or failed to predict TLS; use it as a translation-limit case, not a detailed nonclinical dataset."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "safety-tenapanor",
+      "programKey": "tenapanor",
+      "drug": "Tenapanor",
+      "modality": "small molecule",
+      "sourceStage": "NDA pharmacology review for hyperphosphatemia referencing later IND 120566 mechanistic review in 2020; no initial-IND attribution",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213931Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            168,
+            169
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Rat and dog tolerability differed substantially, principally through intestinal fluid retention and diarrhea.",
+        "The sponsor compared intestinal NHE3/ENaC expression across rat,dog and human; FDA questioned the weight of the findings because collection standardization and maturity differences were insufficiently described."
+      ],
+      "interpretationForLesson": "Candidate pharmacology can help explain sensitivity, but an inadequately controlled cross-species comparison cannot establish that the sensitive species is irrelevant. Write the proposed explanation and the experiment that would discriminate it from sampling artifacts.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The passage does not establish which species best predicts every human risk. The model explanation remains uncertain rather than disproved."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "safety-cipepofol",
+      "programKey": "cipepofol",
+      "drug": "Cipepofol",
+      "modality": "small molecule",
+      "sourceStage": "NDA interdisciplinary QT consult; marketing-review integration, not initial IND",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220482Orig1s000OtherR.pdf",
+          "pdfPages": [
+            146
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The table gives a large in-vitro safety margin but reports dog QTc prolongation at 2.1 times high clinical exposure, with possible confounding by increased heart rate during injection.",
+        "The same assessment reviews human thorough-QT and phase 3 findings; its labeling edits are recommendations to the clinical division."
+      ],
+      "interpretationForLesson": "Teach a discordant evidence table: assay result, in-vivo signal, confounder and human observation. The next question concerns explanation and integration, not selecting the most reassuring number.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The page alone does not resolve the heart-rate confounding or establish clinical proarrhythmia. The precise basis of the in-vitro margin requires its referenced assay material; do not convert it into a general threshold."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "safety-tovorafenib",
+      "programKey": "tovorafenib",
+      "drug": "Tovorafenib",
+      "modality": "small molecule",
+      "sourceStage": "NDA nonclinical assessment supporting marketing labeling; not a reproduced initial IND",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            46,
+            47
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "In NF1-loss-of-function cells, tovorafenib increased ERK phosphorylation at clinically relevant concentrations rather than suppressing the pathway.",
+        "The NF1 mouse model did not show tumor reduction; a nonsignificant increase in tumor volume occurred in a minority of animals. FDA clinical/nonclinical teams agreed to a precaution that the drug may promote tumor growth in NF1 tumors."
+      ],
+      "interpretationForLesson": "An on-target pathway effect can create risk in a different molecular context. Preserve the distinction between functional activation, uncertain animal tumor change and a precautionary human risk conclusion.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The animal tumor increase was not statistically significant, and these pages do not demonstrate human tumor promotion. Do not present the warning as proof that all NF1 patients would be harmed."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-safety",
+      "topicTitle": "Identify and interpret potential harm",
+      "id": "safety-rilzabrutinib",
+      "programKey": "rilzabrutinib",
+      "drug": "Rilzabrutinib",
+      "modality": "small molecule",
+      "sourceStage": "NDA recounts initial IND 132668 hold in 2017; separate later NDA assessment of mechanism studies, whose dates relative to hold resolution are not established",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219685Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            101,
+            112,
+            113
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The initial IND history records a hold involving animal neurotoxicity and inadequate information for risk assessment, followed by a later response and removal of hold.",
+        "An oral-versus-IV rat comparison showed CNS findings after oral administration but not IV; FDA notes the IV exposure was substantially lower and may have been insufficient to test the route hypothesis.",
+        "Intrajejunal administration reduced CNS effects at similar plasma exposures relative to oral gavage; the reviewer describes the implications as unclear."
+      ],
+      "interpretationForLesson": "Keep observed lesion, proposed mechanism and discriminatory experiment separate. A negative IV result does not isolate route when systemic exposure also changes; a better-matched experiment can narrow the explanation without proving it.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Do not claim these specific experiments lifted the initial hold. Do not turn below-quantification brain/CSF findings into proof of zero penetration. Public text does not resolve the mechanism or demonstrate absence of human risk."
+      ],
+      "originalEvidenceFile": "nonclinical-safety.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-glycopyrrolate-route-package",
+      "programKey": "glycopyrrolate-inhalation",
+      "drug": "Glycopyrrolate inhalation solution",
+      "modality": "small molecule",
+      "sourceStage": "Reproduced initial IND review, May 2011",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+          "pdfPages": [
+            31,
+            33
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The reviewer accepts reliance on established systemic safety information for prior approved products while assessing new local respiratory toxicity for inhaled glycopyrrolate. Draft 28-day rat and dog inhalation reports support the proposed study, with final reports requested within 120 days."
+      ],
+      "interpretationForLesson": "Map established systemic safety to the proposed product, then identify the new respiratory-local question. The initial review’s acceptance of unsigned draft reports came with a specific final-report obligation; this is conditional adequacy, not a blanket draft-report policy.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The permission and report timing are specific to this IND. This is not evidence that draft reports are always acceptable or that an approved active ingredient makes every new formulation safe."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-pennsaid-formulation-gap",
+      "programKey": "diclofenac-dmso-topical",
+      "drug": "Diclofenac sodium topical solution",
+      "modality": "small molecule",
+      "sourceStage": "NDA retrospective history of initial IND hold recommendation and 1993–1995 follow-up",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf",
+          "pdfPages": [
+            45,
+            46
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "A literature-only response did not resolve missing product-specific toxicity information. FDA questioned treating DMSO as inactive and requested absorption, interactions and route-related toxicity information. Later discussions accepted specified human data and cadaver-skin metabolism as substitutes for parts of the earlier proposed animal program."
+      ],
+      "interpretationForLesson": "Explain why the proposed product and route are covered. The retained history moves from inadequate literature to specified human and cadaver-skin evidence accepted for particular gaps; justified alternative evidence must answer the original question.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is retrospective history with some redactions and case-specific substitutions. It does not establish a universal animal-study waiver or a rule that every excipient is pharmacologically active."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-suvorexant-formulation-relevance",
+      "programKey": "suvorexant",
+      "drug": "Suvorexant",
+      "modality": "small molecule",
+      "sourceStage": "NDA retrospective account of initial-IND May Proceed advice and later development",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf",
+          "pdfPages": [
+            34
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Initial one-month rat/dog studies supported the first trial, but FDA raised concern that an animal-study excipient could alter the safety profile relative to the clinical formulation. Later discussions requested justification or studies using the relevant formulation; the sponsor performed extensive additional work."
+      ],
+      "interpretationForLesson": "A study can be initially usable yet generate a later formulation relevance problem. Record the reviewer’s concern, the requested justification or relevant-formulation work, and the sponsor’s choice to repeat extensive studies separately.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The identities of key formulations/excipients are redacted. Do not assert a particular excipient mechanism or that all repeated studies were required before the initial IND."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-minocycline-duration-gate",
+      "programKey": "minocycline-topical-foam",
+      "drug": "Minocycline hydrochloride foam",
+      "modality": "small molecule",
+      "sourceStage": "End-of-Phase-2 advice preserved inside an appended 2017 IND review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            148
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA agrees that a completed 12-week minipig dermal study supports a 12-week Phase 3 trial. The sponsor describes a 39-week study for the extension and NDA, citing prior agreement that animal treatment would remain at least one month ahead of human exposure; FDA reserves adequacy until final-report review."
+      ],
+      "interpretationForLesson": "Show completed 12-week support, ongoing longer work and final-report review as different statuses. A historical rolling-duration arrangement is a case-specific clinical-development decision.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is later Phase 3/extension planning. The rolling-duration arrangement is product-specific and should not become a general initial-IND rule."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-tofacitinib-design-gap",
+      "programKey": "tofacitinib",
+      "drug": "Tofacitinib",
+      "modality": "small molecule",
+      "sourceStage": "NDA review retrospectively comparing end-of-Phase-2 advice with later findings",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf",
+          "pdfPages": [
+            41
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The reviewer describes apparently adequate late-development support followed by identification of a male-fertility study-design deficiency at NDA review: mating occurred before sufficient male exposure. The history also records earlier concern that an embryofetal study used insufficiently high doses."
+      ],
+      "interpretationForLesson": "Inspect when mating occurred relative to male exposure. A fertility-study title and an apparently long dosing period do not prove the relevant biological window was assessed; prior favorable planning feedback did not prevent later identification of the problem.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "These are late-development and NDA findings. Do not imply that the deficiencies prevented the original first clinical study."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-orfadin-legacy-data",
+      "programKey": "nitisinone",
+      "drug": "Nitisinone",
+      "modality": "small molecule",
+      "sourceStage": "NDA discussion explicitly referring back to IND-review observations on a reused legacy study",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf",
+          "pdfPages": [
+            23
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "A toxicity/carcinogenicity study was interrupted after the original development program stopped. Later therapeutic development reused stored tissues and incomplete records; the reviewer describes absent QA, limited necropsies and missing interim report, alongside ocular findings and limited recovery."
+      ],
+      "interpretationForLesson": "Trace what was actually retained after study interruption: tissues, records, necropsies and QA. Reuse can preserve information without restoring uncollected observations or supporting an unrestricted negative conclusion.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This page discusses historical evidence limitations; it is not a full initial-IND review or a finding that GLP without QA is generally acceptable."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-faricimab-species-and-duration",
+      "programKey": "faricimab",
+      "drug": "Faricimab",
+      "modality": "bispecific antibody comparator",
+      "sourceStage": "Initial-IND species assessment plus later 2017/2018 nonclinical discussions summarized in BLA review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+          "pdfPages": [
+            16,
+            26
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The initial reviewer considered rabbits unsuitable for planned chronic studies because of severe toxicity at low intravitreal doses and accepted monkey-only chronic work. Later Phase 3 support is distinguished from embryofetal and carcinogenicity questions for the BLA."
+      ],
+      "interpretationForLesson": "Keep the initial species feasibility decision separate from later Phase 3 and BLA needs. A second species with severe low-dose intolerance may not supply a useful chronic study; an accepted one-species strategy remains molecule/context specific.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Acceptance of a single species is specific to this molecule and context. Initial studies and later reproductive or marketing studies must remain visibly separated."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "nc-exp01-romiplostim-assay-bridge",
+      "programKey": "romiplostim-hs-ars",
+      "drug": "Romiplostim (Nplate), HS-ARS development",
+      "modality": "biologic / Animal Rule comparator",
+      "sourceStage": "September 2018 PIND 132396 meeting: actual assay/data adequacy discussion for dose translation",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf",
+          "pdfPages": [
+            201
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Because platelet counts will drive dose selection, FDA requests validation and sample-analysis information in both monkey and human settings. For legacy 2001 studies whose reports may be unavailable, the discussion confirms individual PK/PD data exist, requests laboratories/assays and changes in handling or methods, and requires a validated assay in the pivotal monkey study. The sponsor agrees to provide the requested information."
+      ],
+      "interpretationForLesson": "A translation model based on platelet counts depends on interpretable measurements across studies and species. For legacy reports, FDA requested the available data, laboratories, assays and handling changes, while requiring a validated assay for the pivotal monkey study.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is a concrete discussion about specified legacy and pivotal studies, not a general waiver of method validation or missing source records. Study identifiers contain inconsistencies within the original minutes; retain the source rather than silently normalizing them."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "package-levacetylleucine",
+      "programKey": "levacetylleucine",
+      "drug": "Levacetylleucine",
+      "modality": "small molecule",
+      "sourceStage": "NDA review distinguishes 2019 initial IND history, an IND-reviewed 6-week dog study and later marketing safety needs",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            140,
+            142,
+            143
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The review identifies an IND-reviewed 6-week dog toxicity study with control and treated recovery animals, TK and no adverse effects at the highest dose.",
+        "At marketing review, several longer-development studies including juvenile, fertility, peri/postnatal and carcinogenicity work were not included; the record describes postmarketing requirements in view of the life-threatening disease and unmet need.",
+        "The original IND history reports an exploratory study limited to 6 weeks; it does not identify every cited nonclinical study as present at original submission."
+      ],
+      "interpretationForLesson": "Use a study-status table to distinguish available evidence, its supported question, missing evidence and its next decision gate. Contextual deferral does not demonstrate absence of the risk being deferred.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "The source wording around the list of additional studies is awkward; the review’s explicit PMR sentence supports staging but not a universal omission rule. The 19-fold margin quoted in the NDA uses later human exposure and must not be backdated to 2019."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "package-acetaminophen-iv",
+      "programKey": "acetaminophen-iv-nda204957",
+      "drug": "Acetaminophen IV formulation (NDA204957)",
+      "modality": "small molecule",
+      "sourceStage": "NDA retrospective history of pre-IND advice,2015 initial IND 111161 hold and later non-hold NDA-support comments",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204957Orig1s000PharmR.pdf",
+          "pdfPages": [
+            43
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The initial clinical hold is attributed to clinical concern about an excipient associated with kidney injury and mortality; its identity is redacted.",
+        "The sponsor removed that excipient and subsequently received a hold-removal letter.",
+        "Non-hold nonclinical comments for NDA support asked for a repeat-dose IV study matching four-times-daily clinical dosing and local tissue assessment, plus blood compatibility."
+      ],
+      "interpretationForLesson": "Display product change, hold concern and additional non-hold work separately. Changing the formulation can be the appropriate response to a safety concern; the study package must then represent the intended product and regimen.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Do not identify the redacted excipient or imply every listed NDA-support study was a condition to lift the initial hold. The page recounts regulatory history, not the full initial reviewer analysis."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "nonclinical-package",
+      "topicTitle": "Build a credible safety package",
+      "id": "package-somapacitan",
+      "programKey": "somapacitan",
+      "drug": "Somapacitan",
+      "modality": "protein biologic comparator",
+      "sourceStage": "BLA review recounting 2014 IND 116327 opening with Phase 3 and subsequent 2014 nonclinical advice; not first-ever human exposure",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000SumR.pdf",
+          "pdfPages": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA history records agreement that no additional studies were needed to define carcinogenic risk, based on human epidemiology, physiological IGF-1 targets, animal evidence and limitations of rodent growth-hormone receptor relevance.",
+        "The rationale also considered absence of increased neoplastic/preneoplastic lesions during the toxicity program and the other product components."
+      ],
+      "interpretationForLesson": "Contrast an unfilled checklist with a reasoned judgment that a study is unlikely to add relevant information. Record the evidence addressing the hazard and the limitations of the proposed test system.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is a product-specific weight-of-evidence decision about carcinogenic risk, not proof of zero risk or a universal waiver for growth-hormone products."
+      ],
+      "originalEvidenceFile": "nonclinical-package.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "glyco",
+      "programKey": "glycopyrrolate-inhalation",
+      "drug": "Glycopyrrolate inhalation solution EP-101 / NDA 208437",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND 110663 original review and June 2011 memo reproduced in 2017 NDA; separate 2017 NDA impurity evaluation",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+          "pdfPages": [
+            10,
+            21,
+            36,
+            37,
+            70,
+            75
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Original review lists active ingredient, sodium chloride, citric acid, sodium hydroxide, hydrochloric acid and water for injection; quantitative composition and device details are largely redacted (36–37).",
+        "May4 2011 request during the initial30 day review sought related-substance acceptance criteria and assay/impurity profiles before and after nebulization (70).",
+        "Clinical lots had impurity levels below proposed limits; no additional nonclinical qualification was needed for proposed14 day Phase 2 study. Future NDA or >12 month expectations were explicitly separate (75).",
+        "2017 review found systemic experience with CPMA did not establish direct inhalation local safety; release/shelf-life limits were reduced (10,21)."
+      ],
+      "interpretationForLesson": "The object of assessment includes preparation and delivery; acceptance is tied to route, actual lot exposure and proposed duration. A systemic metabolite argument does not establish safety of direct airway deposition.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Numeric limits and composition are redacted. The 2011 memo calls benzoic acid genotoxic, whereas 2017 review says neither impurity had mutagenic structural alerts and both were negative in tests; do not propagate the earlier classification or historical thresholds as current guidance.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "ivacaftor",
+      "programKey": "ivacaftor",
+      "drug": "Ivacaftor / VRT-813077",
+      "modality": "small molecule",
+      "sourceStage": "OriginalIND 74633 review reproduced within 2012 NDA pharmacology review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+          "pdfPages": [
+            79,
+            90
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The original IND review reports comparable dog PK for clinical-associated material in PEG/PVP/KOAc and nonclinical-associated material in SLS/methylcellulose/water (PDF 90). Important drug/form identifiers surrounding the vehicle descriptions are redacted."
+      ],
+      "interpretationForLesson": "Exposure comparison can make a specific formulation difference interpretable without requiring physical identity of clinical and nonclinical preparations.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Visible vehicle names are not a full clinical recipe or evidence of final commercial-product bridging. The dog comparison alone does not establish all local tolerability, impurities or material attributes.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "suvorexant",
+      "programKey": "suvorexant",
+      "drug": "Suvorexant",
+      "modality": "small molecule",
+      "sourceStage": "NDA 2014 retrospective account of initial IND 101847 MayProceed letter June24 2008 and later 2009 EOP 2",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf",
+          "pdfPages": [
+            34
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Initial one-month rat and dog studies supported the proposed initial trial.",
+        "MayProceed letter nevertheless questioned whether a nonclinical excipient absent from the clinical formulation could alter animal safety and relevance.",
+        "At laterEOP 2 FDA allowed justification of earlier vehicle use; sponsor elected two complete toxicology batteries rather than supplying that justification."
+      ],
+      "interpretationForLesson": "A bridge can be adequate for one limited trial while retaining an unresolved longer-development issue. Distinguish the regulatory question from the sponsor’s chosen solution.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Vehicle identities are redacted. The record does not establish a universal requirement to duplicate toxicology.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "pennsaid",
+      "programKey": "diclofenac-dmso-topical",
+      "drug": "Pennsaid diclofenac/DMSO topical solution",
+      "modality": "small molecule",
+      "sourceStage": "2009 NDA retrospective initial IND 42773 hold recommendation and 1993–1995 correspondence",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf",
+          "pdfPages": [
+            45,
+            46
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Initial hold was recommended for missing relevant nonclinical toxicity;40 published articles did not resolve deficiencies.",
+        "FDA said DMSO anti-inflammatory activity meant it could not simply be treated as inactive and requested separation of its pharmacodynamic contribution, skin penetration and interactions.",
+        "1995 discussion accepted specified human/skin evidence in place of some initially recommended animal work and allowed trials to proceed."
+      ],
+      "interpretationForLesson": "Functional ingredient roles and route-specific evidence determine what product knowledge can be borrowed. A development plan may change when suitable alternative evidence becomes available.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Historical product-specific discussion, not a present-day universal classification of DMSO or testing battery.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "halobetasol",
+      "programKey": "halobetasol",
+      "drug": "Halobetasol propionate lotion0.05%",
+      "modality": "small molecule",
+      "sourceStage": "Contemporaneous December3 2008 memo on originalIND submission, later reproduced in 2015 NDA administrative package",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf",
+          "pdfPages": [
+            103,
+            104,
+            105
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Prior topical experience plus irritation results and wavelength scans supported the proposed single-dose healthy-volunteer vasoconstrictor study.",
+        "Sponsor intended to select one lotion after that study; FDA distinguished clinical bridging/systemic reliance from additional local-safety and laterNDA questions."
+      ],
+      "interpretationForLesson": "An early trial may select the product formulation; the product definition should be sufficiently precise for that decision without pretending final commercial selection already exists.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Acceptance was specific to the short proposed study. Later nonclinical recommendations are historical and cannot be generalized to every reformulated corticosteroid.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "baricitinib",
+      "programKey": "baricitinib",
+      "drug": "Baricitinib",
+      "modality": "small molecule",
+      "sourceStage": "2018 NDA retrospective later IND 102204 correspondence 2011–2012 andEOP 2",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+          "pdfPages": [
+            53,
+            54
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Prior pharmacology/ADME/general toxicology used phosphate salt; sponsor moved clinical development to free base.",
+        "FDA initially requested phosphate for rat carcinogenicity or more exposure bridging. After additional rationale, existing bridge was accepted February9 2012.",
+        "EOP 2 requested impurity/intermediate structures, monitoring of impurities/degradants and qualification when applicable duringIND and forNDA."
+      ],
+      "interpretationForLesson": "Change impact and bridge rationale can matter more than repeating an experiment. Impurity knowledge must evolve along with material and process changes.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Underlying exposure data and impurity structures are not reproduced here. Historical 2008 draft genotoxicity guidance is not current numerical advice.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "minocycline",
+      "programKey": "minocycline-topical-foam",
+      "drug": "Minocycline topical foam4% / AMZEEQ",
+      "modality": "small molecule",
+      "sourceStage": "2019 NDA retrospective 2014 pre-IND,2015 initial IND 122770 and 2016 EOP 2",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            27
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "PreIND discussed maximal-use PK and dermal safety to bridge systemic nonclinical findings for oral Solodyn.",
+        "Initial adultPK protocol was followed by FDA request for pediatricPK. EOP 2 said adult study alone did not establish the intended bridge and requested pediatric maximal-use PK."
+      ],
+      "interpretationForLesson": "A route bridge has a population and use-condition boundary; systemic reliance and local safety are distinct claims.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "This page documents requested bridge design, not all resulting PK data or final sufficiency. Pediatric ages differ across the cited interactions.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "atrovent",
+      "programKey": "ipratropium-hfa",
+      "drug": "Atrovent HFA ipratropium",
+      "modality": "small molecule inhalation/device",
+      "sourceStage": "2004 NDA retrospective 1995 EOP 2,2000 later IND and 2002 pre-NDA; distinct 1994 initialhold history",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf",
+          "pdfPages": [
+            38,
+            39
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "1995 CMC meeting addressed valve/canister changes, extraction, impurities and stability protocols.",
+        "AfterPhaseIII, a third-generation valve led to two additional studies (PK and dose ranging); FDA also requested medication delivery, particle-size distribution and plume geometry information.",
+        "PreNDA discussions addressed regulatory specifications and delivery acceptance criteria."
+      ],
+      "interpretationForLesson": "The delivery device can change the evidentiary identity of an inhaled product after trials have finished; physical delivery evidence and clinical bridge planning must be coordinated.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Initial 1994 hold concerned missingPhase 1 data, not the later valve change. The pages do not provide detailed stability results or full device specifications.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "acer",
+      "programKey": "sodium-phenylbutyrate-acer001",
+      "drug": "ACER-001 sodium phenylbutyrate",
+      "modality": "small molecule",
+      "sourceStage": "Contemporaneous April23 2021 pre-NDA meeting underIND 143822",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            3,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA connected taste-mask coating and dissolution at different pH values with fed-state drug release and possible age differences.",
+        "FDA requested discriminating dissolution methodology and multi-timepoint data; clarified exploratory taste-coating integrity testing was not required routine QC and taste panels would better inform taste-specific patient acceptability claims.",
+        "FDA said proposed pouch dosing was infeasible outside specified weight/BSA ranges and asked for explanation/additional pouch sizes."
+      ],
+      "interpretationForLesson": "Product design must support the intended dosing population. An assay needs a defined decision purpose; product understanding, patient acceptability and routine batch release are not interchangeable.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "PreNDA advice, with final specifications deferred toNDA review. Weight ranges and coating details are redacted. No final approval outcome inferred.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "faricimab",
+      "programKey": "faricimab",
+      "drug": "Faricimab",
+      "modality": "monoclonal antibody comparator",
+      "sourceStage": "2022 BLA retrospective April 2017 TypeC CMC/nonclinical meeting, later IND 119225",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+          "pdfPages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA agreed no additional nonclinical studies were needed to qualify7 mMmethionine.",
+        "FDA requested context/historical controls for retinal degeneration in methionine controls and accepted explanation for buffer change to histidine acetate and pH5.5."
+      ],
+      "interpretationForLesson": "Excipient assessment combines amount, site of administration, formulation rationale and interpretation of controls; a formulation question need not always produce another animal study.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Earlier buffer and some details are redacted. This is later IND, not 2013 originalIND. It is a biologic, so small-molecule guidance cannot be transferred wholesale.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-material",
+      "topicTitle": "Define the drug people will receive",
+      "id": "teplizumab",
+      "programKey": "teplizumab",
+      "drug": "Teplizumab",
+      "modality": "monoclonal antibody comparator",
+      "sourceStage": "Contemporaneous December 2018 EOP 2 IND 100262 minutes; separate laterBLA history summarized in 2026 supplementreview",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf",
+          "pdfPages": [
+            136,
+            312,
+            313
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA rejected draft outline of manufacturing-transfer comparability plan and requested a detailedprotocol; advised CMC discussion after preliminary process data and finalized plan.",
+        "LaterBLAhistory records July 2021 CRL for lackPKcomparability betweenTN10 material and plannedcommercialAGCproduct.2022 resubmission used additionalPK/PD data with higherAGCdoses to matchLillyexposure."
+      ],
+      "interpretationForLesson": "A future comparability plan must specify how continuity will be evaluated; same named antibody and facility transfer do not alone establish equivalence.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Do not imply 2018 discussion fully predicted later outcome or that all 2021 CRLissues are reproduced. Biologic comparator; originalINDmaterial package unavailable here.",
+      "originalEvidenceFile": "cmc-material.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "glyco",
+      "programKey": "glycopyrrolate-inhalation",
+      "drug": "Glycopyrrolate inhalation solution EP-101 / NDA 208437",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND 110663 original review and June 2011 memo reproduced in 2017 NDA; separate 2017 NDA impurity evaluation",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+          "pdfPages": [
+            10,
+            21,
+            36,
+            37,
+            70,
+            75
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Original review lists active ingredient, sodium chloride, citric acid, sodium hydroxide, hydrochloric acid and water for injection; quantitative composition and device details are largely redacted (36–37).",
+        "May4 2011 request during the initial30 day review sought related-substance acceptance criteria and assay/impurity profiles before and after nebulization (70).",
+        "Clinical lots had impurity levels below proposed limits; no additional nonclinical qualification was needed for proposed14 day Phase 2 study. Future NDA or >12 month expectations were explicitly separate (75).",
+        "2017 review found systemic experience with CPMA did not establish direct inhalation local safety; release/shelf-life limits were reduced (10,21)."
+      ],
+      "interpretationForLesson": "The object of assessment includes preparation and delivery; acceptance is tied to route, actual lot exposure and proposed duration. A systemic metabolite argument does not establish safety of direct airway deposition.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Numeric limits and composition are redacted. The 2011 memo calls benzoic acid genotoxic, whereas 2017 review says neither impurity had mutagenic structural alerts and both were negative in tests; do not propagate the earlier classification or historical thresholds as current guidance.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "baricitinib",
+      "programKey": "baricitinib",
+      "drug": "Baricitinib",
+      "modality": "small molecule",
+      "sourceStage": "2018 NDA retrospective later IND 102204 correspondence 2011–2012 andEOP 2",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+          "pdfPages": [
+            53,
+            54
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Prior pharmacology/ADME/general toxicology used phosphate salt; sponsor moved clinical development to free base.",
+        "FDA initially requested phosphate for rat carcinogenicity or more exposure bridging. After additional rationale, existing bridge was accepted February9 2012.",
+        "EOP 2 requested impurity/intermediate structures, monitoring of impurities/degradants and qualification when applicable duringIND and forNDA."
+      ],
+      "interpretationForLesson": "Change impact and bridge rationale can matter more than repeating an experiment. Impurity knowledge must evolve along with material and process changes.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Underlying exposure data and impurity structures are not reproduced here. Historical 2008 draft genotoxicity guidance is not current numerical advice.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "osimertinib",
+      "programKey": "osimertinib",
+      "drug": "Osimertinib / AZD9291",
+      "modality": "small molecule",
+      "sourceStage": "2015 NDA nonclinical impurity-qualification review; comparator batch previously used inIND-filing toxicology",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+          "pdfPages": [
+            121,
+            122
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "One-month rat study compared two batches from different manufacturing processes for impurity qualification.",
+        "One batch had been tested in the rat study atIND filing. Reviewer found no apparent exacerbation of toxicity and no meaningful toxicokinetic exposure differences with the two materials."
+      ],
+      "interpretationForLesson": "A batch comparison ties changed process output to an established safety anchor, provided chemistry and exposure are both interpretable.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Impurity tables and exposure numbers are redacted; result is specific to batches/dose/study, not a purity threshold or evidence the comparison itself was in theinitial IND.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "acer",
+      "programKey": "sodium-phenylbutyrate-acer001",
+      "drug": "ACER-001 sodium phenylbutyrate",
+      "modality": "small molecule",
+      "sourceStage": "Contemporaneous April23 2021 pre-NDA meeting underIND 143822",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            3,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA connected taste-mask coating and dissolution at different pH values with fed-state drug release and possible age differences.",
+        "FDA requested discriminating dissolution methodology and multi-timepoint data; clarified exploratory taste-coating integrity testing was not required routine QC and taste panels would better inform taste-specific patient acceptability claims.",
+        "FDA said proposed pouch dosing was infeasible outside specified weight/BSA ranges and asked for explanation/additional pouch sizes."
+      ],
+      "interpretationForLesson": "Product design must support the intended dosing population. An assay needs a defined decision purpose; product understanding, patient acceptability and routine batch release are not interchangeable.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "PreNDA advice, with final specifications deferred toNDA review. Weight ranges and coating details are redacted. No final approval outcome inferred.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "ivglyco",
+      "programKey": "glycopyrrolate-prefilled-syringe",
+      "drug": "Glycopyrrolate injection USP prefilled syringe / NDA 214919",
+      "modality": "small molecule combination product",
+      "sourceStage": "2021 NDA refusal-to-file and separately labeled additional comments, publicly packaged 2022",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214919Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            2,
+            5,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "RTF basis included uninterpretable leachables evidence lacking methodology/sample preparation/quantitative data.",
+        "Additional comments questioned no-detect leachables with observed extractables, missing validation and a single timepoint.",
+        "Additional endotoxin comments linked method dilution and specification to maximal hourly adult/pediatric dosing.",
+        "Device comments requested essential performance at expiry and final-finished-product shipping evidence rather than relying on another drug’s syringe study."
+      ],
+      "interpretationForLesson": "Negative results depend on method capability. A concentration limit must be translated into actual clinical exposure; quality through distribution includes dose delivery.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "OnlyPDF 2 lists filing deficiencies; PDF 5 onward explicitly includes issues not themselves RTF grounds. These areNDA-stage expectations, not aninitial IND checklist.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "vevye",
+      "programKey": "cyclosporine-ophthalmic",
+      "drug": "CyclASol/cyclosporine ophthalmic solution / NDA 217469",
+      "modality": "small molecule ophthalmic",
+      "sourceStage": "Contemporaneous March29 2022 pre-NDA meeting underIND 128163",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217469Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            2,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA deferred final specifications toNDA review and requested numerical identification limits/viscosity and other product-specific controls.",
+        "Meeting discussion accepted an unspecified-impurity limit on the basis of low ophthalmic strength rather than sponsor’s proposed total-daily-intake rationale.",
+        "NDA evidence requests included droplet volume across container batches, weight loss, freeze-thaw, container integrity, E&L through expiry and antimicrobial effectiveness initially and at end of shelf life for multidose use."
+      ],
+      "interpretationForLesson": "The basis for a limit matters even when reviewer and sponsor reach the same number. Stability must include delivery and microbial performance for the actual package.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "LateIND meeting about futureNDA content; not initial IND. Numeric discussion is historical/product-specific and is not a substitute for current applicable guidance.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "soluprep",
+      "programKey": "chlorhexidine-isopropyl-alcohol-soluprep",
+      "drug": "SoluPrep chlorhexidine/isopropyl alcohol",
+      "modality": "small molecule topical antiseptic",
+      "sourceStage": "2018 NDA 208288 complete response, following 2017 interactions",
+      "sources": [
+        {
+          "url": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf",
+          "pdfPages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Rabbit study did not adequately qualify proposed impurity stability specifications for26 mL applicator maximal use; tissue battery and exposure support were insufficient.",
+        "FDA offered adequate qualification/exposure evidence or tighter limits based on relevant approved-product total daily exposure; four26 mL applications/day mattered.",
+        "Franz-cell results were not a substitute for clinicalPK to establish the proposed exposure argument in this case."
+      ],
+      "interpretationForLesson": "The worst permitted late-shelf-life impurity level and maximum intended use together define the exposure a qualification argument must cover.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "NDA/CRL evidence, not initial IND. Identities/percentages redacted. Options are product-specific and do not mandate a universal maximal-use or animal design.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "teplizumab",
+      "programKey": "teplizumab",
+      "drug": "Teplizumab",
+      "modality": "monoclonal antibody comparator",
+      "sourceStage": "Contemporaneous December 2018 EOP 2 IND 100262 minutes; separate laterBLA history summarized in 2026 supplementreview",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf",
+          "pdfPages": [
+            136,
+            312,
+            313
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA rejected draft outline of manufacturing-transfer comparability plan and requested a detailedprotocol; advised CMC discussion after preliminary process data and finalized plan.",
+        "LaterBLAhistory records July 2021 CRL for lackPKcomparability betweenTN10 material and plannedcommercialAGCproduct.2022 resubmission used additionalPK/PD data with higherAGCdoses to matchLillyexposure."
+      ],
+      "interpretationForLesson": "A future comparability plan must specify how continuity will be evaluated; same named antibody and facility transfer do not alone establish equivalence.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Do not imply 2018 discussion fully predicted later outcome or that all 2021 CRLissues are reproduced. Biologic comparator; originalINDmaterial package unavailable here.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "dupilumab",
+      "programKey": "dupilumab",
+      "drug": "Dupilumab for asthma",
+      "modality": "monoclonal antibody comparator",
+      "sourceStage": "Asthma supplementalBLA 761055/S007 review, public 2020 package",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761055Orig1s007.pdf",
+          "pdfPages": [
+            61
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Stability issue revealed a redacted contaminant; manufacturing change duringEFC13579 removed a redacted constituent to improve stability.",
+        "FDA recommended efficacy sensitivity analysis by material exposure;374 patient subset had no noticeable difference in efficacy estimates compared with ITT."
+      ],
+      "interpretationForLesson": "Quality changes during trials can require checking whether pooled clinical evidence still describes the material to be marketed.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Redactions prevent identification of contaminant/constituent or precise process correction. Subset finding does not prove full analytical orPK equivalence.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "vamorolone",
+      "programKey": "vamorolone",
+      "drug": "Vamorolone / Agamree",
+      "modality": "small molecule",
+      "sourceStage": "2023 NDA retrospective initial IND 118942 partial hold in 2015 and later 2016–2020 formulation discussions",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            116,
+            117
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Initial IND submitted December12 2014; partial hold January8 2015 because two drug-substance impurities contained structural alerts for genotoxicity. Completed genotoxicity studies were submitted and hold removed March4 2015.",
+        "In 2016 FDA accepted use of Formulation1 for Phase 2 a when definitive trials were planned with Formulation2; if Formulation1 data supported NDA, comparative in vitro dissolution bridging would be needed.",
+        "Later 2017 formulation comparison needed quantitative/qualitative composition;2020 proposed clinical BE/food strategy appeared adequate for commercial-material bridge."
+      ],
+      "interpretationForLesson": "Impurity uncertainty can change the initial clinical permission. Later bridge demands depend on the role assigned to older-formulation clinical evidence, not only on whether a change occurred.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "This summary does not disclose identities or completed genotoxicity results; do not claim all alerts were false positives. Formulation composition partly redacted; later statements are distinct frominitial IND.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-controls",
+      "topicTitle": "Make and control consistent material",
+      "id": "sesquient",
+      "programKey": "fosphenytoin-sesquient",
+      "drug": "Sesquient fosphenytoin sodium injection",
+      "modality": "small molecule",
+      "sourceStage": "NDA quality review package containing 2019 nonapproval and 2020 resubmission assessments; pre-IND only mentioned retrospectively",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/210864Orig1s000ChemR.pdf",
+          "pdfPages": [
+            5,
+            22,
+            24,
+            33,
+            34
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Inadequate HPLC validation for degradants prevented assessment of stability data and shelf-life establishment; later revalidation and shorter shelf life addressed this issue.",
+        "Dilution data initially covered middle concentrations and saline, whereas labeling proposed range extremes and dextrose also; FDA requested those conditions and suitable method validation.",
+        "Foreign particle observations remained unresolved at the 2019 review. A second laboratory’s different results did not establish the first results were testing contamination. FDA requested root cause, mitigation and evidence of prevention.",
+        "Earlier pre-IND monograph advice is separately labeled non-approvability comment; it is not evidence these NDAdeficiencies occurred atinitial IND."
+      ],
+      "interpretationForLesson": "A stability conclusion depends on method fitness and condition coverage. Root-cause alternatives require discriminating evidence, not just a favorable repeat test.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Detailed particle identities and process information redacted. PDF 22 describes an intermediate review; final 2020 assessment differs. Do not describe 2019 nonapproval as the permanent program outcome.",
+      "originalEvidenceFile": "cmc-controls.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "glyco",
+      "programKey": "glycopyrrolate-inhalation",
+      "drug": "Glycopyrrolate inhalation solution EP-101 / NDA 208437",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND 110663 original review and June 2011 memo reproduced in 2017 NDA; separate 2017 NDA impurity evaluation",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+          "pdfPages": [
+            10,
+            21,
+            36,
+            37,
+            70,
+            75
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Original review lists active ingredient, sodium chloride, citric acid, sodium hydroxide, hydrochloric acid and water for injection; quantitative composition and device details are largely redacted (36–37).",
+        "May4 2011 request during the initial30 day review sought related-substance acceptance criteria and assay/impurity profiles before and after nebulization (70).",
+        "Clinical lots had impurity levels below proposed limits; no additional nonclinical qualification was needed for proposed14 day Phase 2 study. Future NDA or >12 month expectations were explicitly separate (75).",
+        "2017 review found systemic experience with CPMA did not establish direct inhalation local safety; release/shelf-life limits were reduced (10,21)."
+      ],
+      "interpretationForLesson": "The object of assessment includes preparation and delivery; acceptance is tied to route, actual lot exposure and proposed duration. A systemic metabolite argument does not establish safety of direct airway deposition.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Numeric limits and composition are redacted. The 2011 memo calls benzoic acid genotoxic, whereas 2017 review says neither impurity had mutagenic structural alerts and both were negative in tests; do not propagate the earlier classification or historical thresholds as current guidance.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "lenacapavir",
+      "programKey": "lenacapavir",
+      "drug": "Lenacapavir injection",
+      "modality": "small molecule depot",
+      "sourceStage": "2023 public integratedNDA package reproducing 2021 later IND fullholds and first-cycle nonapproval, thenNDA resubmission evaluation",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            83,
+            318,
+            319
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Borosilicate vials showed incompatibility, surface degradation and glass particles.",
+        "Full clinical holds December20 2021 followed inadequate information to assess injection risk and possible particulate contribution to persistent local reactions.",
+        "Initial alternative-vial proposal lacked comprehensive validated support through expiry. LaterNDA review accepted shelf life supported by long-term data, secondary-packaging photoprotection and in-use evidence in clear vials/syringe."
+      ],
+      "interpretationForLesson": "A container can generate a clinically relevant exposure. Shelf storage and preparation are separate environments needing linked evidence and instructions.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Glass particles were a possible contributor, not established cause of every injection-site reaction. Later approval does not show that one packaging change alone resolved every deficiency.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "gvoke",
+      "programKey": "glucagon-gvoke-iv-supplement",
+      "drug": "Gvoke glucagon proposedIV use",
+      "modality": "peptide comparator",
+      "sourceStage": "2024 supplementalNDA 212097/S012 complete response; cites separateIND 156281 formulation",
+      "sources": [
+        {
+          "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf",
+          "pdfPages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA found inadequate scientific bridge for proposedIV diagnostic use; formulation differed from listed drug.",
+        "Compatibility studies usedXP-9164 fromIND 156281, not the proposedGvoke vial formulation.",
+        "FDA requested correct-formulation admixture studies including gelling/agglomeration; suggested delivered-content and particle assessment after syringe/needle delivery as part of bridge."
+      ],
+      "interpretationForLesson": "Applicable evidence must match the formulation and administration transformation. AnIND number on a study does not establish relevance to a different proposed product.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "SupplementalCRL, not initial IND refusal; details of concentrations and some studies are redacted. No final resolution established by this letter.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "fiasp",
+      "programKey": "insulin-aspart-pump-use",
+      "drug": "Fiasp insulin aspart pump use",
+      "modality": "protein comparator",
+      "sourceStage": "NDA 208751 supplement package with 2019 intercenter reviews; publicly filed 2026, not originalIND",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf",
+          "pdfPages": [
+            300,
+            335,
+            336
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Intercenter review could not adequately assess reservoir in-use stability when a referenced test report was missing despite a high-level summary.",
+        "Sponsor low-flow simulation found needle-end and reservoir degradants comparable without occlusion; reviewer found supplemental low-flow adult clinical analyses helpful for pediatric extrapolation.",
+        "Reviewer said labeling should identify adult-data extrapolation because no dedicated pediatric pump clinical study was conducted."
+      ],
+      "interpretationForLesson": "Administration endpoints and worst-case use conditions belong in stability reasoning; analytical simulation and clinical extrapolation should remain distinguishable.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "PDF 300 text encoding was damaged and was checked against rendered page in prior verification;335–336 were re-read as text. Sponsor results are not all independentFDA findings. Device/population extension, not initial IND.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "vevye",
+      "programKey": "cyclosporine-ophthalmic",
+      "drug": "CyclASol/cyclosporine ophthalmic solution / NDA 217469",
+      "modality": "small molecule ophthalmic",
+      "sourceStage": "Contemporaneous March29 2022 pre-NDA meeting underIND 128163",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217469Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            2,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA deferred final specifications toNDA review and requested numerical identification limits/viscosity and other product-specific controls.",
+        "Meeting discussion accepted an unspecified-impurity limit on the basis of low ophthalmic strength rather than sponsor’s proposed total-daily-intake rationale.",
+        "NDA evidence requests included droplet volume across container batches, weight loss, freeze-thaw, container integrity, E&L through expiry and antimicrobial effectiveness initially and at end of shelf life for multidose use."
+      ],
+      "interpretationForLesson": "The basis for a limit matters even when reviewer and sponsor reach the same number. Stability must include delivery and microbial performance for the actual package.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "LateIND meeting about futureNDA content; not initial IND. Numeric discussion is historical/product-specific and is not a substitute for current applicable guidance.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "ivglyco",
+      "programKey": "glycopyrrolate-prefilled-syringe",
+      "drug": "Glycopyrrolate injection USP prefilled syringe / NDA 214919",
+      "modality": "small molecule combination product",
+      "sourceStage": "2021 NDA refusal-to-file and separately labeled additional comments, publicly packaged 2022",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214919Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            2,
+            5,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "RTF basis included uninterpretable leachables evidence lacking methodology/sample preparation/quantitative data.",
+        "Additional comments questioned no-detect leachables with observed extractables, missing validation and a single timepoint.",
+        "Additional endotoxin comments linked method dilution and specification to maximal hourly adult/pediatric dosing.",
+        "Device comments requested essential performance at expiry and final-finished-product shipping evidence rather than relying on another drug’s syringe study."
+      ],
+      "interpretationForLesson": "Negative results depend on method capability. A concentration limit must be translated into actual clinical exposure; quality through distribution includes dose delivery.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "OnlyPDF 2 lists filing deficiencies; PDF 5 onward explicitly includes issues not themselves RTF grounds. These areNDA-stage expectations, not aninitial IND checklist.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "soluprep",
+      "programKey": "chlorhexidine-isopropyl-alcohol-soluprep",
+      "drug": "SoluPrep chlorhexidine/isopropyl alcohol",
+      "modality": "small molecule topical antiseptic",
+      "sourceStage": "2018 NDA 208288 complete response, following 2017 interactions",
+      "sources": [
+        {
+          "url": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf",
+          "pdfPages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Rabbit study did not adequately qualify proposed impurity stability specifications for26 mL applicator maximal use; tissue battery and exposure support were insufficient.",
+        "FDA offered adequate qualification/exposure evidence or tighter limits based on relevant approved-product total daily exposure; four26 mL applications/day mattered.",
+        "Franz-cell results were not a substitute for clinicalPK to establish the proposed exposure argument in this case."
+      ],
+      "interpretationForLesson": "The worst permitted late-shelf-life impurity level and maximum intended use together define the exposure a qualification argument must cover.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "NDA/CRL evidence, not initial IND. Identities/percentages redacted. Options are product-specific and do not mandate a universal maximal-use or animal design.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "dupilumab",
+      "programKey": "dupilumab",
+      "drug": "Dupilumab for asthma",
+      "modality": "monoclonal antibody comparator",
+      "sourceStage": "Asthma supplementalBLA 761055/S007 review, public 2020 package",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761055Orig1s007.pdf",
+          "pdfPages": [
+            61
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Stability issue revealed a redacted contaminant; manufacturing change duringEFC13579 removed a redacted constituent to improve stability.",
+        "FDA recommended efficacy sensitivity analysis by material exposure;374 patient subset had no noticeable difference in efficacy estimates compared with ITT."
+      ],
+      "interpretationForLesson": "Quality changes during trials can require checking whether pooled clinical evidence still describes the material to be marketed.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Redactions prevent identification of contaminant/constituent or precise process correction. Subset finding does not prove full analytical orPK equivalence.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "sesquient",
+      "programKey": "fosphenytoin-sesquient",
+      "drug": "Sesquient fosphenytoin sodium injection",
+      "modality": "small molecule",
+      "sourceStage": "NDA quality review package containing 2019 nonapproval and 2020 resubmission assessments; pre-IND only mentioned retrospectively",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/210864Orig1s000ChemR.pdf",
+          "pdfPages": [
+            5,
+            22,
+            24,
+            33,
+            34
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Inadequate HPLC validation for degradants prevented assessment of stability data and shelf-life establishment; later revalidation and shorter shelf life addressed this issue.",
+        "Dilution data initially covered middle concentrations and saline, whereas labeling proposed range extremes and dextrose also; FDA requested those conditions and suitable method validation.",
+        "Foreign particle observations remained unresolved at the 2019 review. A second laboratory’s different results did not establish the first results were testing contamination. FDA requested root cause, mitigation and evidence of prevention.",
+        "Earlier pre-IND monograph advice is separately labeled non-approvability comment; it is not evidence these NDAdeficiencies occurred atinitial IND."
+      ],
+      "interpretationForLesson": "A stability conclusion depends on method fitness and condition coverage. Root-cause alternatives require discriminating evidence, not just a favorable repeat test.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Detailed particle identities and process information redacted. PDF 22 describes an intermediate review; final 2020 assessment differs. Do not describe 2019 nonapproval as the permanent program outcome.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "cytalux",
+      "programKey": "pafolacianine",
+      "drug": "Cytalux / pafolacianine sodium",
+      "modality": "small molecule",
+      "sourceStage": "2021 NDA quality review reflecting hypersensitivity/compatibility observations in IND 118215 subjects; initial IND timing not established",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000ChemR.pdf",
+          "pdfPages": [
+            6,
+            7,
+            8,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Saline diluent was associated with hypersensitivity reactions in IND subjects; investigation concluded aggregation was most likely responsible.",
+        "FDA review links D5 W-only dilution instructions with aggregation concern; product is heat/light sensitive with frozen storage, thawing, dilution and restricted refrigerated in-use period.",
+        "Review found storage/use issues resolved and accepted commercial shelf life; this does not reconstruct originalINDstability package."
+      ],
+      "interpretationForLesson": "Diluent selection can alter the administered physical species and clinical risk. Storage and preparation must be treated as linked but distinct environments.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Causality stated as most likely by source. OriginalIND package not recovered. Some formulation/storage information redacted; do not convertNDA shelf-life intoPhase 1 expectation.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "cmc-stability",
+      "topicTitle": "Keep the product suitable through dosing",
+      "id": "xaciato",
+      "programKey": "clindamycin-vaginal-gel",
+      "drug": "Xaciato / DARE-BV1 clindamycin phosphate vaginal gel",
+      "modality": "small molecule",
+      "sourceStage": "Contemporaneous January22 2021 pre-NDA meeting underIND 143919; proposed registration stability package",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            4,
+            5,
+            10,
+            11
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Sponsor requested6 month long-term plus6 month accelerated registration data with later update; FDA agreed instead to9 month long-term plus6 month accelerated for3 batches at initial NDA and12 month long-term update within30 days.",
+        "FDA requested additional within-tube content uniformity in release/stability specifications.",
+        "Meeting also questioned whether equal benzyl-alcohol amount in a gel and approved cream established equal absorption; not used as primary stability point."
+      ],
+      "interpretationForLesson": "An agreed filing schedule can be adapted without making time-based evidence optional. InitialNDA does not mean initial IND.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": "Product-specific marketing agreement, not universal9 month rule. Some amounts are redacted; no conclusion on final shelf life is drawn.",
+      "originalEvidenceFile": "cmc-stability.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "oteseconazole",
+      "programKey": "oteseconazole",
+      "drug": "Oteseconazole (Vivjoa)",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND 2011 and later Phase 2a; retrospective NDA summary",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            127
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "The initial IND proposed single-dose safety, tolerability and PK in healthy adults. Later Phase 2a was considered exploratory and needed stronger statistical testing for definitive inference."
+      ],
+      "interpretationForLesson": "State which question a study can answer; early human exposure learning is distinct from definitive efficacy.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Redacted later design comments; no complete original protocol."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "ensartinib",
+      "programKey": "ensartinib",
+      "drug": "Ensartinib (Ensacove; X-396)",
+      "modality": "small molecule",
+      "sourceStage": "2014 IND meeting record recounting 2011 pre-IND and 2012 first-human study",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            49,
+            50
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA requested explicit accrual for ALK/cMET-negative tumors, adequate single/multiple-dose PK sampling, potential PD endpoints and cardiac-signal assessment. Escalation enrolled advanced solid tumors; expansion selected ALK-positive NSCLC."
+      ],
+      "interpretationForLesson": "Connect the enrollment hypothesis, samples and safety observations to the same scientific question.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This is later correspondence recalling early advice, not the original meeting minutes or full opening protocol."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "evinacumab",
+      "programKey": "evinacumab",
+      "drug": "Evinacumab (Evkeeza)",
+      "modality": "monoclonal antibody",
+      "sourceStage": "Later IND development,2014–2017, recounted in meeting correspondence",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761181Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Rabbit embryo-fetal findings prompted a partial hold for women of childbearing potential; further data and consent revisions preceded lifting. Later adolescent inclusion was partially held for inadequately assessed neurodevelopmental risk."
+      ],
+      "interpretationForLesson": "Participant eligibility is revisable and population-specific rather than a permanent property of the molecule.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Not initial first-human permission. The older statement that LDL-lowering mechanism was unknown must not be treated as current mechanistic knowledge."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "levacetylleucine",
+      "programKey": "levacetylleucine",
+      "drug": "Levacetylleucine (Aqneursa)",
+      "modality": "small molecule",
+      "sourceStage": "2018 pre-IND and 2019 initial IND; retrospective NDA history",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            140
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA distinguished an exploratory open-label proof-of-concept study from interpretable marketing efficacy evidence. Sponsor removed an extension and limited the study to six weeks before a may-proceed letter."
+      ],
+      "interpretationForLesson": "Investigational permission does not establish that the design will prove efficacy.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "History summary does not reproduce every sponsor exchange; earlier use of racemic acetylleucine complicates first-ever-human framing."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "paltusotine",
+      "programKey": "paltusotine",
+      "drug": "Paltusotine (Palsonify)",
+      "modality": "small molecule",
+      "sourceStage": "Initial US IND 2018 with Phase 2 protocols and later IND/EOP2 advice",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219070Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            150,
+            151
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Studies were considered safe to proceed despite design concerns. FDA recommended placebo-controlled dose-ranging and washout; later found dose-response insufficiently established, including residual prior-treatment effects."
+      ],
+      "interpretationForLesson": "A biomarker measurement is only useful when its design supports an interpretable drug effect.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "This initial US IND was not a first-ever-human trial. Later Phase 3 comments must not be rewritten as initial safety requirements."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "pegzilarginase-clinical",
+      "programKey": "pegzilarginase",
+      "drug": "Pegzilarginase (Loargys)",
+      "modality": "pegylated enzyme",
+      "sourceStage": "Later IND 127774 Phase 3 planning meeting,2018",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000AdminCorres.pdf",
+          "pdfPages": [
+            25,
+            27,
+            28
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "FDA distinguished duration adequate for arginine reduction from duration needed for functional improvement, requested biochemical metrics and assessable baseline functional deficits, and questioned changed Phase 3 doses."
+      ],
+      "interpretationForLesson": "Measurement, duration and population should match the clinical claim; short PD change does not establish functional benefit.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Later development example, not the first-dose protocol. Several proposed durations and endpoints are redacted."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "faricimab",
+      "programKey": "faricimab",
+      "drug": "Faricimab (Vabysmo)",
+      "modality": "bispecific antibody",
+      "sourceStage": "Initial IND 119225 assessment reproduced and summarized in BLA review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+          "pdfPages": [
+            15,
+            26
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Starting0.5 mg/eye supported;6 mg/eye not supported because severe ocular inflammation remained unresolved. FDA would review lower-dose human findings before higher doses."
+      ],
+      "interpretationForLesson": "Separate a supported first dose from support for escalation; translate a hazard into a cohort-review condition.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Calendar entries in the retrospective summary are inconsistent. The sponsor ADA explanation was not accepted as resolving ocular risk. Local ocular doses are not systemic scaling examples."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "risdiplam",
+      "programKey": "risdiplam",
+      "drug": "Risdiplam (Evrysdi)",
+      "modality": "small molecule",
+      "sourceStage": "Pre-IND 2016 and later clinical development; first infant dosing after adult exposure",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf",
+          "pdfPages": [
+            24,
+            25,
+            72,
+            73,
+            74
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "First infant single dose used conservative PBPK plus an additional factor; observed PK informed repeated dosing and exposure targets. Committees reviewed safety/PK/PD. FDA required ophthalmic surveillance while acknowledging prevention of irreversible retinal injury was not assured."
+      ],
+      "interpretationForLesson": "Link model uncertainty to staged observation and reassessment; define what monitoring can and cannot accomplish.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "First infant exposure is not first-ever-human exposure; the dose algorithm is described retrospectively from the protocol, not an original FDA dose-approval letter."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "glofitamab",
+      "programKey": "glofitamab",
+      "drug": "Glofitamab (Columvi)",
+      "modality": "CD20/CD3 bispecific antibody",
+      "sourceStage": "Retrospective BLA description of first-human modeling, plus later IND 138178 meeting 2021",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            36,
+            37,
+            50,
+            51
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Applicant model integrated monkey PK and cytokine/in-vitro data to keep predicted IL6 below a threshold; model table proposed5micrograms. Later FDA required hospitalization for dose2 in participants with any-grade CRS at dose1."
+      ],
+      "interpretationForLesson": "Mechanistic prediction does not replace surveillance; observed human responses change subsequent protection.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Proposed model dose is not independently verified as the administered first dose or FDA-approved starting dose. Later2.5 mg step-up or labeling doses must not be confused with first-human prediction."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "venetoclax",
+      "programKey": "venetoclax",
+      "drug": "Venetoclax (Venclexta)",
+      "modality": "small molecule",
+      "sourceStage": "Initial study described retrospectively; later IND 110159 amendments/partial hold 2011–2013",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+          "pdfPages": [
+            28,
+            64,
+            96
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Nonclinical-based early doses were followed by tumor lysis. Protocol amendments lowered starting dose, extended ramp-up and added stratification, prophylaxis, hospitalization and lab monitoring; partial hold later lifted."
+      ],
+      "interpretationForLesson": "A first-dose rationale is provisional. Interpret improvement as a package of changes, not proof of one causal component.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Historical dosing, not prescribing advice. Cross-trial TLS comparisons were sponsor analyses, not independently verified by the clinical reviewer."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "olipudase",
+      "programKey": "olipudase",
+      "drug": "Olipudase alfa (Xenpozyme)",
+      "modality": "replacement enzyme",
+      "sourceStage": "Initial IND 012757 and later amendments; retrospective BLA summary",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            52,
+            53,
+            132,
+            163
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Initial hold was partly lifted for single-dose study; later repeat-dose permission had dose/interval/duration restrictions. A mouse-NOAEL-based start preceded inflammatory findings at higher single doses, leading to gradual within-person escalation."
+      ],
+      "interpretationForLesson": "Permission is scoped to a study; substrate biology can make stepwise exposure essential.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Retrospective history, not every original hold letter. Initial, later and commercial starting doses are different quantities."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical",
+      "topicTitle": "The first clinical study",
+      "id": "futibatinib",
+      "programKey": "futibatinib",
+      "drug": "Futibatinib (Lytgobi)",
+      "modality": "small molecule",
+      "sourceStage": "Initial IND 1210622013/2014 and later hold removal 2017, retrospective NDA summary",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            35,
+            37
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Phase 2 part of combined Phase 1/2 study was partially held for clinical and quality concerns. Later safety, activity, expansion-dose justification and quality responses supported lifting."
+      ],
+      "interpretationForLesson": "Combined phase labels retain conditional evidence boundaries.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Full original hold letter and sponsor response are not reproduced; the review should not infer that every issue was purely a dose concern."
+      ],
+      "originalEvidenceFile": "clinical.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "ivacaftor",
+      "programKey": "ivacaftor",
+      "drug": "Ivacaftor (Kalydeco)",
+      "modality": "small molecule",
+      "sourceStage": "Original initial IND 74633 review, reproduced in2012NDA package",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+          "pdfPages": [
+            122
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "At proposed25 mg start, surface-area margins were76–79-fold; at800 mg maximum about2-fold. Fourteen-day studies did not identify target organs. Reviewer accepted modified500 mg maximum and requested better future toxicity characterization."
+      ],
+      "interpretationForLesson": "A large initial margin does not determine the escalation limit or prove hazards absent.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Historical study design and numerical conversion; not a current universal rule."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "faricimab",
+      "programKey": "faricimab",
+      "drug": "Faricimab (Vabysmo)",
+      "modality": "bispecific antibody",
+      "sourceStage": "Initial IND 119225 assessment reproduced and summarized in BLA review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+          "pdfPages": [
+            15,
+            26
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Starting0.5 mg/eye supported;6 mg/eye not supported because severe ocular inflammation remained unresolved. FDA would review lower-dose human findings before higher doses."
+      ],
+      "interpretationForLesson": "Separate a supported first dose from support for escalation; translate a hazard into a cohort-review condition.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Calendar entries in the retrospective summary are inconsistent. The sponsor ADA explanation was not accepted as resolving ocular risk. Local ocular doses are not systemic scaling examples."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "avalglucosidase",
+      "programKey": "avalglucosidase",
+      "drug": "Avalglucosidase alfa (Nexviazyme)",
+      "modality": "replacement enzyme",
+      "sourceStage": "Original July 2013 preliminary IND 109569 review plus later BLA summary",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            35,
+            255,
+            267,
+            268,
+            273,
+            274
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Original review called50 mg/kg NOAEL and200 mg/kg tolerated based on limited weight/organ-weight effects; tolerated-dose margins13-fold at5 mg/kg and3.2-fold at20 mg/kg. Residual free glycan qualification also mattered. Later summary calls200 mg/kg NOAEL."
+      ],
+      "interpretationForLesson": "Distinguish observed adversity, tolerated dose and product qualification; retain source disagreements instead of manufacturing a single clean calculation.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Explicit internal discrepancy between original review and later summary; do not call200 mg/kg unanimously established NOAEL."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "pegzilarginase-dose",
+      "programKey": "pegzilarginase",
+      "drug": "Pegzilarginase (Loargys)",
+      "modality": "pegylated enzyme",
+      "sourceStage": "Retrospective first-human dose account; IND 127774 opened 2015 after earlier withdrawn IND",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            93,
+            192
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "0.015 mg/kg start related to monkey0.3 mg/kg NOAEL and predicted10–11foldAUC margin. PD arginine reduction supported context; repeated doses used individual PK/arginine and did not exceed prior single-dose experience."
+      ],
+      "interpretationForLesson": "Keep toxicity anchor, exposure prediction and PD in parallel; use measured human data for subsequent steps.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Source uses two similar trial identifiers inconsistently; retain main named trial and flag typo. Later pivotal0.1 mg/kg starting dose is not first-human0.015 mg/kg."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "abi009",
+      "programKey": "albumin-bound-sirolimus",
+      "drug": "Albumin-bound sirolimus (Fyarro; ABI-009)",
+      "modality": "small molecule in albumin-bound formulation",
+      "sourceStage": "Initial IND 2006 linked to CA401; retrospective NDA dose/schedule review",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            28,
+            42,
+            54
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "45 mg/m2 weekly first-human start described as about one tenth rat maximum tolerated repeat dose. Later missed third-week doses supported two-on/one-off schedule; oncology and PAH tolerability differed."
+      ],
+      "interpretationForLesson": "Context, schedule and formulation matter; animal reference does not eliminate need for human schedule learning.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "505(b)(2) formulation/route program. Do not relabel the cited maximum tolerated repeat dose as STD10. Retrospective review contains limited original starting-dose detail."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "glofitamab",
+      "programKey": "glofitamab",
+      "drug": "Glofitamab (Columvi)",
+      "modality": "CD20/CD3 bispecific antibody",
+      "sourceStage": "Retrospective BLA description of first-human modeling, plus later IND 138178 meeting 2021",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            36,
+            37,
+            50,
+            51
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Applicant model integrated monkey PK and cytokine/in-vitro data to keep predicted IL6 below a threshold; model table proposed5micrograms. Later FDA required hospitalization for dose2 in participants with any-grade CRS at dose1."
+      ],
+      "interpretationForLesson": "Mechanistic prediction does not replace surveillance; observed human responses change subsequent protection.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Proposed model dose is not independently verified as the administered first dose or FDA-approved starting dose. Later2.5 mg step-up or labeling doses must not be confused with first-human prediction."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "risdiplam",
+      "programKey": "risdiplam",
+      "drug": "Risdiplam (Evrysdi)",
+      "modality": "small molecule",
+      "sourceStage": "Pre-IND 2016 and later clinical development; first infant dosing after adult exposure",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf",
+          "pdfPages": [
+            24,
+            25,
+            72,
+            73,
+            74
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "First infant single dose used conservative PBPK plus an additional factor; observed PK informed repeated dosing and exposure targets. Committees reviewed safety/PK/PD. FDA required ophthalmic surveillance while acknowledging prevention of irreversible retinal injury was not assured."
+      ],
+      "interpretationForLesson": "Link model uncertainty to staged observation and reassessment; define what monitoring can and cannot accomplish.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "First infant exposure is not first-ever-human exposure; the dose algorithm is described retrospectively from the protocol, not an original FDA dose-approval letter."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "olipudase",
+      "programKey": "olipudase",
+      "drug": "Olipudase alfa (Xenpozyme)",
+      "modality": "replacement enzyme",
+      "sourceStage": "Initial IND 012757 and later amendments; retrospective BLA summary",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            52,
+            53,
+            132,
+            163
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Initial hold was partly lifted for single-dose study; later repeat-dose permission had dose/interval/duration restrictions. A mouse-NOAEL-based start preceded inflammatory findings at higher single doses, leading to gradual within-person escalation."
+      ],
+      "interpretationForLesson": "Permission is scoped to a study; substrate biology can make stepwise exposure essential.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Retrospective history, not every original hold letter. Initial, later and commercial starting doses are different quantities."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    },
+    {
+      "topicId": "clinical-dose",
+      "topicTitle": "Justifying a first dose",
+      "id": "venetoclax",
+      "programKey": "venetoclax",
+      "drug": "Venetoclax (Venclexta)",
+      "modality": "small molecule",
+      "sourceStage": "Initial study described retrospectively; later IND 110159 amendments/partial hold 2011–2013",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+          "pdfPages": [
+            28,
+            64,
+            96
+          ]
+        }
+      ],
+      "sourceFacts": [
+        "Nonclinical-based early doses were followed by tumor lysis. Protocol amendments lowered starting dose, extended ramp-up and added stratification, prophylaxis, hospitalization and lab monitoring; partial hold later lifted."
+      ],
+      "interpretationForLesson": "A first-dose rationale is provisional. Interpret improvement as a package of changes, not proof of one causal component.",
+      "interpretationAuthor": "Mini-review author; not automatically an FDA conclusion",
+      "limitations": [
+        "Historical dosing, not prescribing advice. Cross-trial TLS comparisons were sponsor analyses, not independently verified by the clinical reviewer."
+      ],
+      "originalEvidenceFile": "clinical-dose.json"
+    }
+  ]
+}

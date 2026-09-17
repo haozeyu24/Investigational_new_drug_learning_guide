@@ -1,0 +1,532 @@
+{
+  "prepared": "2026-09-17",
+  "automatedFrozenCorpus": {
+    "pdfUrls": 7979,
+    "uniqueFileHashes": 7933,
+    "pdfPages": 467510,
+    "candidateDocumentsAcrossQueues": 2097
+  },
+  "retainedEvidence": {
+    "topicAssignments": 85,
+    "distinctDevelopmentPrograms": 51,
+    "citedFDApdfUrls": 52,
+    "citedDocumentPages": 157
+  },
+  "recordedManualInspection": {
+    "pdfUrls": 64,
+    "documentPages": 178,
+    "indexFile": "manual-reading-index.json",
+    "includesTriageBeyondRetainedCases": true,
+    "entirePdfsRead": false
+  },
+  "countingRules": [
+    "Programs are explicitly normalized; salt/brand aliases are combined. Separate route/formulation programs for the same ingredient remain separate.",
+    "PDF URLs are deduplicated after removing fragment anchors and decoding percent-encoded paths. Unique files were not separately deduplicated for retained evidence.",
+    "Cited document-pages are URL/page pairs in retained case evidence; they are not a count of entire PDFs manually read or of all triage pages.",
+    "Topic counts overlap. Guidance documents are not included in the retained case-source counts.",
+    "Automated retrieval was broad; manual case selection was bounded and is not exhaustive."
+  ],
+  "topics": {
+    "nonclinical-pkpd": {
+      "title": "Connect dose, exposure, and effect",
+      "caseAssignments": 10,
+      "citedFDApdfUrls": 10,
+      "citedDocumentPages": 21
+    },
+    "nonclinical-safety": {
+      "title": "Identify and interpret potential harm",
+      "caseAssignments": 10,
+      "citedFDApdfUrls": 10,
+      "citedDocumentPages": 23
+    },
+    "nonclinical-package": {
+      "title": "Build a credible safety package",
+      "caseAssignments": 11,
+      "citedFDApdfUrls": 11,
+      "citedDocumentPages": 18
+    },
+    "cmc-material": {
+      "title": "Define the drug people will receive",
+      "caseAssignments": 11,
+      "citedFDApdfUrls": 11,
+      "citedDocumentPages": 28
+    },
+    "cmc-controls": {
+      "title": "Make and control consistent material",
+      "caseAssignments": 11,
+      "citedFDApdfUrls": 11,
+      "citedDocumentPages": 34
+    },
+    "cmc-stability": {
+      "title": "Keep the product suitable through dosing",
+      "caseAssignments": 11,
+      "citedFDApdfUrls": 11,
+      "citedDocumentPages": 40
+    },
+    "clinical": {
+      "title": "The first clinical study",
+      "caseAssignments": 12,
+      "citedFDApdfUrls": 12,
+      "citedDocumentPages": 31
+    },
+    "clinical-dose": {
+      "title": "Justifying a first dose",
+      "caseAssignments": 9,
+      "citedFDApdfUrls": 9,
+      "citedDocumentPages": 30
+    }
+  },
+  "programAliases": {
+    "acetaminophen-iv-nda204957": {
+      "labels": [
+        "Acetaminophen IV formulation (NDA204957)"
+      ],
+      "topics": [
+        "nonclinical-package"
+      ]
+    },
+    "albumin-bound-sirolimus": {
+      "labels": [
+        "Albumin-bound sirolimus (Fyarro; ABI-009)"
+      ],
+      "topics": [
+        "clinical-dose"
+      ]
+    },
+    "avalglucosidase": {
+      "labels": [
+        "Avalglucosidase alfa (Nexviazyme)"
+      ],
+      "topics": [
+        "clinical-dose"
+      ]
+    },
+    "baricitinib": {
+      "labels": [
+        "Baricitinib"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-material",
+        "nonclinical-safety"
+      ]
+    },
+    "chlorhexidine-isopropyl-alcohol-soluprep": {
+      "labels": [
+        "SoluPrep chlorhexidine/isopropyl alcohol"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-stability"
+      ]
+    },
+    "cinacalcet": {
+      "labels": [
+        "Cinacalcet hydrochloride"
+      ],
+      "topics": [
+        "nonclinical-pkpd"
+      ]
+    },
+    "cipepofol": {
+      "labels": [
+        "Cipepofol"
+      ],
+      "topics": [
+        "nonclinical-safety"
+      ]
+    },
+    "clindamycin-vaginal-gel": {
+      "labels": [
+        "Xaciato / DARE-BV1 clindamycin phosphate vaginal gel"
+      ],
+      "topics": [
+        "cmc-stability"
+      ]
+    },
+    "cyclosporine-ophthalmic": {
+      "labels": [
+        "CyclASol/cyclosporine ophthalmic solution / NDA 217469"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-stability"
+      ]
+    },
+    "diclofenac-dmso-topical": {
+      "labels": [
+        "Diclofenac sodium topical solution",
+        "Pennsaid diclofenac/DMSO topical solution"
+      ],
+      "topics": [
+        "cmc-material",
+        "nonclinical-package"
+      ]
+    },
+    "dupilumab": {
+      "labels": [
+        "Dupilumab for asthma"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-stability"
+      ]
+    },
+    "ensartinib": {
+      "labels": [
+        "Ensartinib (Ensacove; X-396)"
+      ],
+      "topics": [
+        "clinical"
+      ]
+    },
+    "evinacumab": {
+      "labels": [
+        "Evinacumab (Evkeeza)"
+      ],
+      "topics": [
+        "clinical"
+      ]
+    },
+    "faricimab": {
+      "labels": [
+        "Faricimab",
+        "Faricimab (Vabysmo)"
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose",
+        "cmc-material",
+        "nonclinical-package",
+        "nonclinical-safety"
+      ]
+    },
+    "fosdenopterin": {
+      "labels": [
+        "Fosdenopterin"
+      ],
+      "topics": [
+        "nonclinical-pkpd"
+      ]
+    },
+    "fosphenytoin-sesquient": {
+      "labels": [
+        "Sesquient fosphenytoin sodium injection"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-stability"
+      ]
+    },
+    "futibatinib": {
+      "labels": [
+        "Futibatinib (Lytgobi)"
+      ],
+      "topics": [
+        "clinical"
+      ]
+    },
+    "glofitamab": {
+      "labels": [
+        "Glofitamab (Columvi)"
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ]
+    },
+    "glucagon-gvoke-iv-supplement": {
+      "labels": [
+        "Gvoke glucagon proposedIV use"
+      ],
+      "topics": [
+        "cmc-stability"
+      ]
+    },
+    "glycopyrrolate-inhalation": {
+      "labels": [
+        "Glycopyrrolate inhalation solution",
+        "Glycopyrrolate inhalation solution EP-101 / NDA 208437"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-material",
+        "cmc-stability",
+        "nonclinical-package"
+      ]
+    },
+    "glycopyrrolate-prefilled-syringe": {
+      "labels": [
+        "Glycopyrrolate injection USP prefilled syringe / NDA 214919"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-stability"
+      ]
+    },
+    "halobetasol": {
+      "labels": [
+        "Halobetasol propionate lotion0.05%"
+      ],
+      "topics": [
+        "cmc-material"
+      ]
+    },
+    "insulin-aspart-pump-use": {
+      "labels": [
+        "Fiasp insulin aspart pump use"
+      ],
+      "topics": [
+        "cmc-stability"
+      ]
+    },
+    "ipratropium-hfa": {
+      "labels": [
+        "Atrovent HFA ipratropium"
+      ],
+      "topics": [
+        "cmc-material"
+      ]
+    },
+    "ivacaftor": {
+      "labels": [
+        "Ivacaftor",
+        "Ivacaftor (Kalydeco)",
+        "Ivacaftor / VRT-813077"
+      ],
+      "topics": [
+        "clinical-dose",
+        "cmc-material",
+        "nonclinical-pkpd",
+        "nonclinical-safety"
+      ]
+    },
+    "lenacapavir": {
+      "labels": [
+        "Lenacapavir injection"
+      ],
+      "topics": [
+        "cmc-stability"
+      ]
+    },
+    "levacetylleucine": {
+      "labels": [
+        "Levacetylleucine",
+        "Levacetylleucine (Aqneursa)"
+      ],
+      "topics": [
+        "clinical",
+        "nonclinical-package"
+      ]
+    },
+    "lumateperone": {
+      "labels": [
+        "Lumateperone (Caplyta)"
+      ],
+      "topics": [
+        "nonclinical-pkpd",
+        "nonclinical-safety"
+      ]
+    },
+    "minocycline-topical-foam": {
+      "labels": [
+        "Minocycline hydrochloride foam",
+        "Minocycline topical foam4% / AMZEEQ"
+      ],
+      "topics": [
+        "cmc-material",
+        "nonclinical-package"
+      ]
+    },
+    "nitisinone": {
+      "labels": [
+        "Nitisinone"
+      ],
+      "topics": [
+        "nonclinical-package"
+      ]
+    },
+    "olipudase": {
+      "labels": [
+        "Olipudase alfa (Xenpozyme)"
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ]
+    },
+    "osimertinib": {
+      "labels": [
+        "Osimertinib",
+        "Osimertinib / AZD9291"
+      ],
+      "topics": [
+        "cmc-controls",
+        "nonclinical-pkpd",
+        "nonclinical-safety"
+      ]
+    },
+    "oteseconazole": {
+      "labels": [
+        "Oteseconazole (Vivjoa)"
+      ],
+      "topics": [
+        "clinical"
+      ]
+    },
+    "pafolacianine": {
+      "labels": [
+        "Cytalux / pafolacianine sodium"
+      ],
+      "topics": [
+        "cmc-stability"
+      ]
+    },
+    "paltusotine": {
+      "labels": [
+        "Paltusotine (Palsonify)"
+      ],
+      "topics": [
+        "clinical"
+      ]
+    },
+    "pegzilarginase": {
+      "labels": [
+        "Pegzilarginase (Loargys)"
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ]
+    },
+    "rezafungin": {
+      "labels": [
+        "Rezafungin"
+      ],
+      "topics": [
+        "nonclinical-pkpd"
+      ]
+    },
+    "rilzabrutinib": {
+      "labels": [
+        "Rilzabrutinib"
+      ],
+      "topics": [
+        "nonclinical-safety"
+      ]
+    },
+    "risdiplam": {
+      "labels": [
+        "Risdiplam (Evrysdi)"
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ]
+    },
+    "romiplostim-hs-ars": {
+      "labels": [
+        "Romiplostim (Nplate), HS-ARS development"
+      ],
+      "topics": [
+        "nonclinical-package",
+        "nonclinical-pkpd"
+      ]
+    },
+    "sodium-phenylbutyrate-acer001": {
+      "labels": [
+        "ACER-001 sodium phenylbutyrate"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-material"
+      ]
+    },
+    "somapacitan": {
+      "labels": [
+        "Somapacitan"
+      ],
+      "topics": [
+        "nonclinical-package"
+      ]
+    },
+    "suvorexant": {
+      "labels": [
+        "Suvorexant"
+      ],
+      "topics": [
+        "cmc-material",
+        "nonclinical-package"
+      ]
+    },
+    "tenapanor": {
+      "labels": [
+        "Tenapanor"
+      ],
+      "topics": [
+        "nonclinical-safety"
+      ]
+    },
+    "teplizumab": {
+      "labels": [
+        "Teplizumab"
+      ],
+      "topics": [
+        "cmc-controls",
+        "cmc-material"
+      ]
+    },
+    "tofacitinib": {
+      "labels": [
+        "Tofacitinib"
+      ],
+      "topics": [
+        "nonclinical-package"
+      ]
+    },
+    "tovorafenib": {
+      "labels": [
+        "Tovorafenib"
+      ],
+      "topics": [
+        "nonclinical-pkpd",
+        "nonclinical-safety"
+      ]
+    },
+    "vadadustat": {
+      "labels": [
+        "Vadadustat"
+      ],
+      "topics": [
+        "nonclinical-pkpd"
+      ]
+    },
+    "vamorolone": {
+      "labels": [
+        "Vamorolone / Agamree"
+      ],
+      "topics": [
+        "cmc-controls"
+      ]
+    },
+    "vardenafil": {
+      "labels": [
+        "Vardenafil"
+      ],
+      "topics": [
+        "nonclinical-pkpd"
+      ]
+    },
+    "venetoclax": {
+      "labels": [
+        "Venetoclax",
+        "Venetoclax (Venclexta)"
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose",
+        "nonclinical-safety"
+      ]
+    }
+  }
+}

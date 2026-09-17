@@ -1,0 +1,511 @@
+{
+  "lessonId": "clinical-dose",
+  "prepared": "2026-09-17",
+  "reviewType": "Focused interpretive mini-review; purposive verified cases, not exhaustive manual review",
+  "pageConvention": "one-based PDF file pages, not printed pages",
+  "distinctPrograms": 9,
+  "scope": "Earlier verified cards used only as locators; critical pages reread. Additional targeted cached-text search covered7979 extracted PDFs. Fresh parent screen7979PDFs/7933hashes/467510pages includes unreviewed candidates; no full manual-review claim. See clinical-source-triage.json.",
+  "cases": [
+    {
+      "id": "ivacaftor",
+      "drug": "Ivacaftor (Kalydeco)",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122",
+      "pdfPages": [
+        122
+      ],
+      "sourceStage": "Original initial IND 74633 review, reproduced in2012NDA package",
+      "sourceFacts": [
+        "At proposed25 mg start, surface-area margins were76–79-fold; at800 mg maximum about2-fold. Fourteen-day studies did not identify target organs. Reviewer accepted modified500 mg maximum and requested better future toxicity characterization."
+      ],
+      "interpretationForLesson": "A large initial margin does not determine the escalation limit or prove hazards absent.",
+      "limitations": [
+        "Historical study design and numerical conversion; not a current universal rule."
+      ],
+      "sourceAuthority": "Original FDA reviewer assessment",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+          "pdfPages": [
+            122
+          ],
+          "localTextOrPdf": "/tmp/candidate-ivacaftor-fda-pharm.pdf",
+          "sha256": "16d33fe495e33e962244bb5a1ff402e715e3ce21b0af58988d6970295e618b2c",
+          "verificationMethod": "original cached PDF reread",
+          "pageEvidence": [
+            {
+              "pdfPage": 122,
+              "text": "Reviewer: Jean Q. Wu IND No. 74633 44 of the stomach at doses 500 mg/kg, and myocardial degeneration at 1000 mg/kg. The NOAEL could not be identified in this study. In the 14-day repeated dose rat toxicity study at doses levels of 0, 50, 100 and 200 mg/kg, no significant toxic findings were reported. The 10-14% liver weight increase was not considered adverse effect due to the lack of corresponding histopathologic findings and liver enzymes changes. The NOAEL was identified at 200 mg/kg. The high dose selected was not high enough to identify the target organs. In the 14-day repeated dose dog toxicity study at dose levels of 0, 15, 30 and 60 mg/kg, the vomiting and watery stool were observed sporadically in all drug treated groups without a dose-dependent pattern. The NOAEL was identified at 60 mg/kg (the highest dose). As no higher dose was tested, the dog toxicity profile could not be characterized. Three genotoxicity studies (Bacterial Reserve Mutation Assay, In Vitro mammalian Chromosome Aberration Test and Mammalian Erythrocyte Micronucleus Test) were negative. According to the NOAELs of 14-day rat and 14-day dog studies, the safety margin based on surface area (mg/m2) is 76-79 fold for the proposed starting dose 25 mg and about 2 fold for the proposed maximal escalating dose 800 mg. Since no target organs were identified, the potential toxicity could not be monitored. With safety factors of 6 for dogs and 10 for rats based on the body weight (mg/kg), the supported maximal escalating doses will be up to 500 mg. Therefore, the modified maximal escalating dose of 500 mg is accepted. As no target organ of toxicity was identified in both 14-day repeated dose rat and dog studies, the sponsor should be informed of considering higher dose(s) in the future nonclinical studies to reveal the potential target organ(s) of toxicity. Recommendation: The proposed clinical trial is reasonably safe to proceed. The sponsor should be informed of employing higher dose(s) in the future nonclinical studies to reveal the potential target organ(s) of toxicity. Letter to sponsor: As no target organ of toxicity was identified in 14-day repeated dose rat and dog studies, you should consider employing higher dose(s) in the future nonclinical studies to reveal the potential target organ(s) of toxicity. Signatures (optional): Reviewer Signature ___________________________________ Supervisor Signature_____________________________ Concurrence Yes ___ No ___ Reference ID: 3072943 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faricimab",
+      "drug": "Faricimab (Vabysmo)",
+      "modality": "bispecific antibody",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15",
+      "pdfPages": [
+        15,
+        26
+      ],
+      "sourceStage": "Initial IND 119225 assessment reproduced and summarized in BLA review",
+      "sourceFacts": [
+        "Starting0.5 mg/eye supported;6 mg/eye not supported because severe ocular inflammation remained unresolved. FDA would review lower-dose human findings before higher doses."
+      ],
+      "interpretationForLesson": "Separate a supported first dose from support for escalation; translate a hazard into a cohort-review condition.",
+      "limitations": [
+        "Calendar entries in the retrospective summary are inconsistent. The sponsor ADA explanation was not accepted as resolving ocular risk. Local ocular doses are not systemic scaling examples."
+      ],
+      "sourceAuthority": "Quoted original reviewer conclusions plus regulatory summary",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+          "pdfPages": [
+            15,
+            26
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/c63b3cb2567fb4452213cf10.json.gz",
+          "sha256": "2b19116e57e81a7f14bed456f46450c3240eefb07e98f0c7988dcc56121c24b9",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 15,
+              "text": "BLA # 761235 María I. Rivera, PhD 14 o 6 mg (0.05 mL) administered by IVT injection every 4 weeks (approximately every 28 ± 7 days, monthly) for the first 4 doses, followed by 6 mg (0.05 mL) at intervals of up to every 16 weeks (4 months) o Some patients may be dosed as frequently as every 4 weeks (approximately every 28 ± 7 days, monthly)  Diabetic Macular Edema (DME) and Diabetic Retinopathy (DR) o 6 mg (0.05 mL) administered by IVT injection every 4 weeks (approximately every 28 days ± 7 days, monthly) for the first 4 doses, followed by 6 mg (0.05 mL) at intervals of up to every 16 weeks (4 months) o Some patients may be dosed as frequently as every 4 weeks (approximately every 28 ± 7 days, monthly) o The dosing interval may be adjusted in 4-week increments. 2.7 Regulatory Background October 29, 2013 Initial IND 119225 submitted – Initial IND nonclinical review filed in DARRTS on 9-23- 2013 by Janice Lansita, PhD, DABT  Nonclinical data supported the starting dose, but not the high dose due to safety concerns of severe ocular inflammation. It was not known if the inflammation was a direct or indirect inflammation through an ADA response in the eye. September 24, 2013 Sponsor teleconference to discuss the non-clinical data used in support of the proposed doses in the clinical study submitted with the initial IND (meeting minutes filed in DARRTS on 10/2/2013 by Diana Willard, MD)  The proposed clinical starting dose was supported by the animal data submitted in the IND, however the ocular inflammation observed with higher animal doses raised potential concerns. It was agreed the Division would review the collected data from each of the lower doses in humans before the next higher dose is administered to humans. January 29, 2014 Pharm/Tox Information Request to Sponsor to submit final reports for 2 nonclinical studies initially submitted as drafts within 120 days of submission of the IND (reviews filed in DARRTS on 1-27-2014 and 2-3-2014 by Andrew McDougal PhD, DABT; Information Request by Diana Willard on 1-29-2014 and 2-4-2014).  One study was a pivotal study (2-month IVT toxicity in monkeys) for safety assessment of administering multiple ascending doses to humans. April 3, 2017 FDA Type C face-to-face meeting for chemistry, manufacturing, & control (CMC) and nonclinical (meting minutes filed in DARRTS on 3-24-2017 by Eithu Lwin; nonclinical Reference ID: 4897087 "
+            },
+            {
+              "pdfPage": 26,
+              "text": "BLA # 761235 María I. Rivera, PhD 25 tolerated in the single dose IVT PK studies. In cynomolgus monkeys, fine, bright white particulates were distributed throughout the vitreous following a single IVT dose at 1.5 mg/eye. 6.2 Repeat-Dose Toxicity The following studies were reviewed under the initial IND by Dr Lansita (9-23- 2013).  Study # 1053361, 2-Month Toxicity and Toxicokinetic Study with RO6867461 following Intravitreous and Intravenous Administration in Cynomolgus Monkeys with a 4-Week Recovery Phase  Study # 1053362, 2-Week Tolerance Study of RO6867461 following IVT and IV Administration in Dutch-Belted Rabbits  Study # 1053363, 2-Week Tolerance Study of RO6867461 following IVT and IV Administration in Cynomolgus Monkeys Per Section 1.2 Brief Discussion of Nonclinical Findings of Dr. Lansita’s review, key findings/clinically relevant issues were: “The RO6867461 nonclinical studies in the rabbit and monkey identified toxicities that included severe ocular inflammation (rabbit and monkey), coagulative liver necrosis (rabbit), degeneration/necrosis of the myocardium (rabbit), and minimal mixed-cell inflammation in the aorta (monkey). The ocular inflammation in the monkey appeared to partially reverse 42 days after the 2nd dose of RO6867461 with anti-inflammatory treatment. In the rabbit, evidence of less severe ocular inflammation was observed in rabbits that did not receive a 2nd dose which indicates animals were responsive to anti- inflammatory therapy. The Sponsor claims that the nonclinical toxicities are secondary to an ADA response and are not relevant to human. The Sponsor provided preliminary data that support immune complex deposition in the aorta, however, similar data were not provided in the eye, therefore the safety concern of severe ocular inflammation remains. The proposed clinical starting dose of 0.5 mg/eye is supported by the nonclinical data but the high dose of 6.0 mg/eye is not. Since it is not known whether RO6867461 causes direct inflammation or indirect inflammation through an ADA response in the eye, it is recommended that the clinical protocol be adjusted to accommodate safety concern.” Dr. Lansita agreed that the rabbit does not appear to be a suitable species, due to the severe toxicity observed at low IVT doses (1.5 mg/eye) following a single dose; chronic studies to support future clinical trials do not appear to be feasible in the rabbit unless lower doses were explored. She agreed, as the Applicant proposed, that the monkey alone should be used in the planned 6-month chronic toxicity study. Per Section 1.3.3 Additional Recommendation(s) (Non-hold comments/ advice to sponsor) of Dr. Lansita’s review, nonclinical recommendations included: Reference ID: 4897087 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avalglucosidase",
+      "drug": "Avalglucosidase alfa (Nexviazyme)",
+      "modality": "replacement enzyme",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf#page=35",
+      "pdfPages": [
+        35,
+        255,
+        267,
+        268,
+        273,
+        274
+      ],
+      "sourceStage": "Original July 2013 preliminary IND 109569 review plus later BLA summary",
+      "sourceFacts": [
+        "Original review called50 mg/kg NOAEL and200 mg/kg tolerated based on limited weight/organ-weight effects; tolerated-dose margins13-fold at5 mg/kg and3.2-fold at20 mg/kg. Residual free glycan qualification also mattered. Later summary calls200 mg/kg NOAEL."
+      ],
+      "interpretationForLesson": "Distinguish observed adversity, tolerated dose and product qualification; retain source disagreements instead of manufacturing a single clean calculation.",
+      "limitations": [
+        "Explicit internal discrepancy between original review and later summary; do not call200 mg/kg unanimously established NOAEL."
+      ],
+      "sourceAuthority": "Original FDA IND reviewer and separate retrospective clinical summary",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            35,
+            255,
+            267,
+            268,
+            273,
+            274
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/c35166bdf34894500d007fc2.json.gz",
+          "sha256": "3c02a9b9441714181e94d59b7faa24a0e8bfbaf521af0eb10d8f36585a8fc824",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 35,
+              "text": "BLA 761194 Nexviazyme (avalglucosidase alfa-ngpt) 22 Integrated Review Template, version 2.0 (04/23/2020) 5.1. Nonclinical Assessment of Potential Effectiveness The pharmacodynamic effects of avalglucosidase alfa were assessed in GAA knockout (GAAKO) mice, a mouse model of Pompe disease in which both alleles of GAA are inactivated by homologous recombination. Intravenous (IV) bolus administration was used in all primary pharmacodynamic studies. These studies were conducted to evaluate the efficacy of avalglucosidase alfa by assessing depletion of glycogen from target tissues. Tissue glycogen content was measured biochemically and histologically. These studies demonstrated that (1) avalglucosidase alfa could effectively deplete glycogen from the heart (pharmacological active dose [PAD] of 4 mg/kg IV), diaphragm, and other skeletal muscles (PAD of 12 mg/kg IV), and (2) avalglucosidase alfa appeared to be approximately 3- to 7-fold more potent than alglucosidase alfa in terms of glycogen reduction when compared on a dose basis. 6. Assessment of Effectiveness 6.1. Dose and Dose Responsiveness The recommended dosage regimens in patients with LOPD are based on the individual patient’s body weight. For details on dose selection, refer to Section 6.3.2 and Appendix 14.5. 6.1.1. Proposed Dosage Regimen Nexviazyme (avalglucosidase alfa) is proposed as an ERT for the treatment of patients with Pompe disease (alpha-glucosidase deficiency). Avalglucosidase alfa is administered as an intravenous infusion. The proposed dosage regimen in patients with LOPD is 20 mg/kg of body weight administered every other week. The proposed dosage regimens have been tested in a phase 3 clinical trial in patients with LOPD (trial EFC14028) and a phase 2 clinical trial in patients with IOPD (trial ACT14132). 6.1.2. Dose Selection for the Clinical Studies in Patients With LOPD Phase 1/2 First-in-Human Trial TDR12857 (NEO-1) The starting dose (5 mg/kg) for trial TDR12857 in adult patients with LOPD was based on the no observed adverse effect level (NOAEL) determined in a 26-week cynomolgus monkey study (200 mg/kg qow) and the observed pharmacologically active dose (PAD) of avalglucosidase alfa in nonclinical studies. The maximum recommended starting dose was 20 mg/kg qow by applying a safety factor of 10. Based on the Pompe disease mouse model, PAD was defined as the minimum level of avalglucosidase alfa associated with glycogen clearance. Four weekly infusions of avalglucosidase alfa at 4 mg/kg reduced tissue glycogen in the heart by approximately 50%, whereas 12 mg/kg reduced skeletal muscle glycogen by approximately 25% to 70% depending on the muscle evaluated (quadriceps, psoas, triceps, and diaphragm). In addition, two nonclinical studies (study 07-1948 and study 10-00587) demonstrated that Reference ID: 4836879 (b) (4) "
+            },
+            {
+              "pdfPage": 255,
+              "text": "Pharmacologist’s Preliminary Safety Review of IND 109,569 Date/type of submission: March 28, 2013/Initial Sponsor and/or agent: Genzyme Corporation Cambridge, MA Reviewer name: Fang Cai, Ph.D. Date of Preliminary Safety Review: July 3, 2013 Division name: Division of Gastroenterology and Inborn Errors Products Drug: neoGAA; a recombinant human acid Į-glucosidase (rhGAA) expressed in Chinese Hamster Ovary (CHO) cells, conjugated to multiple copies of a synthetic bismannose-6-phosphate-containing hexasaccharide (Genz-669342). Clinical Formulation: The neoGAA drug product is a sterile lyophilized product. The composition of neoGAA drug product is provided in the Sponsor’s table below. Table 1: NeoGAA Drug Product Composition For clinical trial administration, each vial of neoGAA drug product will be reconstituted with 10 mL of Water For Injection (WFI) to give a total volume of mL. The reconstituted solution contains neoGAA at a concentration of 10 mg/mL, 2% mannitol, 2% glycine, and 0.01% polysorbate 80 in 10 mM histidine buffer, pH 6.2. Trade name: None Reference ID: 3336278 Reference ID: 4840607 (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) "
+            },
+            {
+              "pdfPage": 267,
+              "text": "IND 109,569 Page 13 of 22 Table 8: Study design for a 26-week IV toxicity study in monkeys Mortality and clinical signs were observed twice daily. Body weight and food consumption were recorded weekly or daily, respectively. Electrocardiogram, neurobehavioral examination, ophthalmic examination, respiratory rate, heart rate, and core body temperature were performed or recorded pre-study, and during the treatment and recovery periods. Blood samples were collected prior to study, during the dosing period, and at the end of the treatment and recovery periods for evaluation of hematology, clinical chemistry, anti-neoGAA antibody titers, and TK parameters. Urine was collected from all animals at the scheduled euthanasia. All animals were subjected to necropsy and gross examination. Selected organs were weighed and a complete set of tissues from all dose groups were microscopically examined. There were two unscheduled sacrifices. On day 13, one female monkey in group 3 (200 mg/kg/dose, DEW3F37) was sacrificed in a moribund condition prior to dosing. The Sponsor attributed the death to severe stress based on profound lymphoid depletion of the thymus, spleen, lymph nodes, and focal necrosis in the liver. On day 168, one female monkey in group 2 (50 mg/kg/dose, DEW2F29) was sacrificed in a moribund condition with lower body paralysis due to systemic inflammation resulting from contamination of the venous access port. This female had paralysis of the hind limbs and tail. Microscopic examination revealed suppurative inflammation of the meninges surrounding the lumbar spinal cord and hemorrhage into the submeningeal and interstitial areas of the spinal cord and cauda equina. Axonal swelling was noted throughout the nerve tracts comprising the cauda equina. There was marked inflammation and necrosis around the access port. Acute hemorrhage throughout the lobes of the lung and distension of the urinary bladder were observed. There were no test article-related changes in CNS evaluation (activity level, fasciculations, movement of facial muscles, and visual field), respiratory rate, core temperatures, ophthalmic examination and ECG (heart rate, RR, QT, and QTc intervals). Animals in the 200 mg/kg group showed up to approximately 9% Reference ID: 3336278 Reference ID: 4840607 "
+            },
+            {
+              "pdfPage": 268,
+              "text": "IND 109,569 Page 14 of 22 reductions in body weight, body weight gain, and food consumption during the treatment period. Reduced food consumption was more evident in males. Whether the changes in body weight, body weight gain, and food consumption were reversible is unclear since the recovery groups included only one female control and two males or females in the 200 mg/kg/dose group. NeoGAA had no effects on clinical signs, hematology, coagulation, and clinical chemistry. Due to the low number of samples (n = 0 - 2) collected at necropsy by cystocentesis, the urinalysis data are not interpretable. Monkeys in group 3 (200 mg/kg/dose) had slight reductions in the absolute weight of several organs (see table below), and this effect was dose-dependent in most of these organs. A similar magnitude of reductions in organ weight/body weight ratio and organ weight/brain weight ratio were observed in these organs. At the end of the recovery period, organ weights of epididymes and testes at 200 mg/kg were still lower than the control values (29% and 35%, respectively). In contrast, thymus weight increased by 23% in males in group 3 compared to the control group. No conclusion can be made for female organ weight changes in groups 2 and 3 since there was only one sample available in groups 1 and 2. There were no histopathologic changes in these organs. Table 9: Reductions in Absolute Organ Weights (% compared to control values) in Monkeys Treated with 200 mg/kg/dose neoGAA Group 3 (200 mg/kg/dose) Organ names Males Females adrenal glands - -24% epididymes -23% - heart -21% -15% * kidney -18% -10% spleen - -17% testes -16% - thymus -27% -29% thyroid/parathyroid -18% -18% *: p< 0.05 A variety of vascular or inflammatory findings were observed due to intravenous infusion of neoGAA via the implanted femoral catheter and vascular access port (venous access port and/or right/left saphenous veins). These findings included thrombi in the lung, accompanied by inflammation and an occasional fragment of foreign material (catheter), and thrombi, fibrosis, inflammation, and/or hemorrhage in the vein proximal to catheter tip and in the saphenous veins. These findings occurred at comparable incidences in vehicle and test article- treated monkeys. Thus, there were no neoGAA treatment-related histopathologic changes. Reference ID: 3336278 Reference ID: 4840607 "
+            },
+            {
+              "pdfPage": 273,
+              "text": "IND 109,569 Page 19 of 22 dose-dependent decrease in some organ weights was observed. No target organ of toxicity was identified. Anti-neoGAA antibodies were detected in all animals treated with neoGAA. The NOAEL was 50 mg/kg, based on impaired weight gain in the 200 mg/kg group. However, 200 mg/kg (2400 mg/m2) is considered to be a tolerated dose, given that the observed effects were limited to small reductions in weight gain and organ weights. Based on a body surface area comparison, the tolerated dose provides a 13-fold safety margin for the starting dose of 5 mg/kg (185 mg/m2 given every other week) in the proposed clinical study, and a 3.2-fold safety margin for the proposed maximum dose of 20 mg/kg (740 mg/m2). Therefore, the chronic toxicity study in monkeys provides a reasonable assurance of safety for the proposed clinical study. NeoGAA is produced by conjugating a synthetic glycan (Genz-669342) to oxidized sialic acid residues on rhGAA through a synthetic linker with an aminoxy moiety. The synthetic linker portion of Genz-669342 is structurally similar to hydroxylamine, which has the potential to be genotoxic. However, Genz-669342 was negative in the Ames test and chromosomal aberration assay. The Sponsor measured levels of unconjugated Genz-669342 in two clinical batches, and in four nonclinical batches that were used in the 26-week toxicity study in monkeys. The levels of unconjugated Genz-669342 in the current two clinical batches are lower or slightly higher than the qualification limit stated in ICH Q3B(R2) (0.2%, equivalent to 2.4 mg unconjugated Genz-669342 at the maximum neoGAA dose of 20 mg/kg, assuming a 60-kg bodyweight). In addition, the 26-week IV toxicity study in monkeys provided a 5.2-fold safety margin, based on body surface area, for the current levels of unconjugated Genz-669342 in clinical batches (up to μg/ml; see table below). This safety margin provides a reasonable assurance of safety for unconjugated Genz- 669342 in the current clinical batches. However, the Sponsor proposed a specification limit of μg/ml for unconjugated Genz-669342 in the drug product. Based on this limit, the maximum potential daily dose of unconjugated Genz-669342 from neoGAA will be mg (assuming a 60-kg body weight, and a dose of 20 mg/kg neoGAA), which will greatly exceed the recommended ICH limit (2.4 mg/day). Furthermore, the maximum potential daily exposure to unconjugated Genz-669342 in patients will be -fold higher, based on body surface area comparison, than the tolerated dose in the 26-week IV toxicity study in monkeys (see table below). Therefore, the 26-week monkey study cannot provide an assurance of safety for the proposed specification limit of μg/ml for unconjugated Genz-669342. Thus, the proposed limit is unacceptable without additional toxicity studies to allow for safety assessment. Reference ID: 3336278 Reference ID: 4840607 (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) "
+            },
+            {
+              "pdfPage": 274,
+              "text": "IND 109,569 Page 20 of 22 Table 13: Comparison of maximum daily exposure to free glycan in monkeys at 200 mg/kg neoGAA (tolerated dose) to the potential free glycan exposure in humans at 20 mg/kg neoGAA Nonclinical batches Current clinical batches Future clinical batches NE006 NE007 NE008 NE009 12CT010 12CT011 Concentrations of residual free glycan (Genz-669342) μg/ml * μg/ml μg/ml μg/ml (proposed limit) Maximum daily exposure to Genz- 669342 in monkeys based on body weight 20 ml/kg x μg/ml = μg/kg N/A N/A N/A Maximum daily exposure to Genz- 669342 in humans based on body weight N/A 2 ml/kg x μg/ml = μg/kg 2 ml/kg x μg/ml = μg/kg 2 ml/kg x μg/ml = μg/kg Maximum daily exposure to Genz- 669342 in monkeys and humans based on body surface area μg/m2 (monkeys) μg/m2 (humans) μg/m2 (humans) μg/m2 (humans) Safety margins based on body surface area (μg/m2) N/A Human total daily intake (assumed body weight of 60 kg) N/A μg/kg x 60 kg = μg/day mg/day μg/ml x 60 kg = μg/day = mg/day μg/kg x 60 kg = μg/day mg/day *: The level of residual glycan was an average of the three batches. A teleconference was held with the Sponsor on April 25, 2013 to discuss the safety concern related to the proposed limit for unconjugated Genz-669342 (free glycan). The Sponsor clarified that all batches (nonclinical and clinical) were manufactured using the same process. The concentration of free glycan in each batch is shown in the table below. Reference ID: 3336278 Reference ID: 4840607 (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pegzilarginase-dose",
+      "drug": "Pegzilarginase (Loargys)",
+      "modality": "pegylated enzyme",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf#page=93",
+      "pdfPages": [
+        93,
+        192
+      ],
+      "sourceStage": "Retrospective first-human dose account; IND 127774 opened 2015 after earlier withdrawn IND",
+      "sourceFacts": [
+        "0.015 mg/kg start related to monkey0.3 mg/kg NOAEL and predicted10–11foldAUC margin. PD arginine reduction supported context; repeated doses used individual PK/arginine and did not exceed prior single-dose experience."
+      ],
+      "interpretationForLesson": "Keep toxicity anchor, exposure prediction and PD in parallel; use measured human data for subsequent steps.",
+      "limitations": [
+        "Source uses two similar trial identifiers inconsistently; retain main named trial and flag typo. Later pivotal0.1 mg/kg starting dose is not first-human0.015 mg/kg."
+      ],
+      "sourceAuthority": "FDA integrated review describing sponsor trial rationale",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            93,
+            192
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/e8cbaf6f021e5af70afcbcf5.json.gz",
+          "sha256": "fb8624219a3439fc349a2204874be0f8e407ff7e52efcb1f17ded3ec9ce08928",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 93,
+              "text": "BLA 761211 LOARGYS (pegzilarginase) 26 Integrated Review Template, version 4.0 (11/1/23) 6.1.2. Dose Selection for Clinical Studies The safety and tolerability of pegzilarginase administered IV was evaluated in the first-in-human Trial CAEB1102-101A. Single ascending doses (0.015, 0.03, 0.06, 0.1, and 0.2 mg/kg at two- week intervals [Part 1]) and multiple ascending doses (0.015 to 0.2 mg/kg QW for 8 doses [Part 2]) were evaluated. The starting dose of 0.015 mg/kg was based on the NOAEL (0.3 mg/kg) in cynomolgus monkeys. A single-dose trial in monkeys at doses within the proposed human starting dose characterized mean maximal percent arginine reduction of 30, 38, 70, and 100 at IV pegzilarginase doses of 0.001, 0.005, 0.01, and 0.1 mg/kg, respectively. The predicted safety margin for the 0.015 mg/kg starting dose was 10- to 11-fold in area under the concentration-time curve (AUC) and supported the starting dose in Trial CAEB1101-101A. The starting dose level for Part 2 was based on pegzilarginase PK and plasma arginine levels at the time each subject completed Part 1, with no doses in Part 2 exceeding the highest dose used in any subject in Part 1. The multiple ascending doses of IV pegzilarginase once-weekly provided an evaluation of whether repeat doses of pegzilarginase could be increased or decreased based on plasma arginine levels at 168 hours postdose to establish a dose regimen that achieved plasma arginine levels between 40 and 115µM. The starting pegzilarginase dose level and frequency evaluated in Trial CAEB1102-102A was based on the dose the subject was receiving at the end of Trial CAEB1102-101A. Subcutaneous doses of pegzilarginase were evaluated in Trial CAEB1102-102A. The NOAEL of SC administered pegzilarginase was 0.5 mg/kg in monkeys. Based on a 62% bioavailability of the SC administration of the NOAEL in a non-good laboratory practice (GLP) monkey trial, the safety margin to predicted human AUC ranged from 62-fold at 0.015 mg/kg pegzilarginase to 7.9-fold at 0.06 mg/kg. The starting dose of 0.1 mg/kg pegzilarginase administered IV once weekly was selected for evaluation in the pivotal trial, Trial CAEB1102-300A based on the median final dose in Trial CAEB1102-101A, 0.09 mg/kg. 6.1.3. Pharmacodynamics Measurement of Plasma Arginine Plasma samples for the determination of arginine were collected in tubes containing the arginase inhibitor nor-NOHA to inhibit the activity of pegzilarginase in the sample and prevent further degradation of arginine. . Plasma arginine in the presence of pegzilarginase was measured using a validated liquid chromatography with tandem mass spectrometry method. Reference ID: 5637517 (b) (4) "
+            },
+            {
+              "pdfPage": 192,
+              "text": "BLA 761211 LOARGYS (pegzilarginase) 129 Integrated Review Template, version 4.0 (11/1/23) III. Additional Analyses and Information 12. Summary of Regulatory History Pegzilarginase, also referred to by the company development code AEB1102, is a cobalt- substituted, pegylated, recombinant, human ARG1 enzyme, formulated for IV or SC injection, that has been developed for the treatment of adult and pediatric subjects with ARG1-D. Interactions regarding the development of pegzilarginase began with a pre-IND new drug meeting between the Agency and Aeglea BioTherapeutics, Inc. (Aeglea), formerly known as AERase, Inc., on November 5, 2014. Following this meeting, an orphan drug designation for pegzilarginase for the treatment of ARG1-D was granted by the Agency on March 16, 2015. Aeglea subsequently submitted an IND for pegzilarginase, IND , on ; however, the IND was withdrawn on . Under a new pre-IND file, PIND 127774, a teleconference meeting concerning the development of pegzilarginase was held on October 13, 2015. On December 7, 2015, Aeglea submitted IND 127774 containing a phase 1 dose-escalation trial in adults with ARG1-D. Feedback on Aeglea’s plans for longer-term toxicity studies in rodents was provided in Type C written responses issued on March 11, 2016, and a fast-track designation was granted for pegzilarginase on May 13, 2016. A meeting held on April 24, 2017, discussed the enrollment of pediatric subjects in an ongoing phase 1/2 clinical trial. The Agency requested that Aeglea generate and submit additional nonclinical and/or clinical data on treatment-related changes in GCs (arginine metabolites) from the animal model and/or from treated adults in the ongoing phase 1/2 trial. On October 13, 2017, the Agency communicated to Aeglea that their submission of additional data showing a reduction in guanidino compounds in two treated adults in their phase 1/2 trial was sufficient to allow enrollment of pediatric subjects in the program. The Agency also advised, given the rarity of pediatric subjects with ARG1-D, that Aeglea conduct a seamless phase 2/3 trial in pediatric subjects to generate the required efficacy data. A Type C meeting was held on May 29, 2018, to discuss the design of the proposed phase 3 pivotal trial. At the meeting, the Agency encouraged the Aeglea to discuss their final endpoint selection and to clarify their intended regulatory pathway (i.e., whether they intended to submit a future BLA via the traditional or accelerated approval pathway). The Agency noted that a demonstration of reduction of plasma arginine alone might not be sufficient evidence of clinical benefit to support a future BLA. The Agency also indicated that Aeglea’s plan to conduct a randomized, placebo-controlled pivotal trial in pediatric and adult subjects with ARG1-D was mostly acceptable, but that the proposed treatment duration of weeks was not sufficiently long enough to demonstrate clinically meaningful effects on functional outcomes. In response, Aeglea noted that it would be difficult to obtain Institutional Review Board/Ethics Committee clearances for a placebo exposure period longer than weeks in a pediatric population with a rare disorder such as ARG1-D. An additional Type C meeting was held on July 18, 2018, to discuss COA instruments and endpoints to be assessed in the pivotal trial. A Type B, end-of-phase 2 meeting was held on October 24, 2018, during which the Agency provided feedback on the overall design of the Aeglea’s proposed phase 3 pivotal trial and Reference ID: 5637517 (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abi009",
+      "drug": "Albumin-bound sirolimus (Fyarro; ABI-009)",
+      "modality": "small molecule in albumin-bound formulation",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf#page=28",
+      "pdfPages": [
+        28,
+        42,
+        54
+      ],
+      "sourceStage": "Initial IND 2006 linked to CA401; retrospective NDA dose/schedule review",
+      "sourceFacts": [
+        "45 mg/m2 weekly first-human start described as about one tenth rat maximum tolerated repeat dose. Later missed third-week doses supported two-on/one-off schedule; oncology and PAH tolerability differed."
+      ],
+      "interpretationForLesson": "Context, schedule and formulation matter; animal reference does not eliminate need for human schedule learning.",
+      "limitations": [
+        "505(b)(2) formulation/route program. Do not relabel the cited maximum tolerated repeat dose as STD10. Retrospective review contains limited original starting-dose detail."
+      ],
+      "sourceAuthority": "Applicant-described historical dose/schedule account presented in the FDA review; do not imply a reproduced original FDA dose-approval letter.",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            28,
+            42,
+            54
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/9cf25ff1f8021fabe1a2b69c.json.gz",
+          "sha256": "d4b3e9d17a192df1fb6d7d2aa12e318b162b2a36d2e6476016c018bc56a9d056",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 28,
+              "text": "NDA/BLA Multi-disciplinary Review and Evaluation NDA 213312 FYARRO (sirolimus protein-bound particles for injectable suspension) (albumin-bound) 27 Version date: January 2020 (ALL NDA/ BLA reviews) Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. 3 Regulatory Background U.S. Regulatory Actions and Marketing History The Applicant’s Position: ABI-009 (sirolimus albumin-bound nanoparticles for injectable suspension), is an investigational drug product, with completed and ongoing clinical trials in the United States (US). ABI-009 is not currently registered or approved in the US or in any other country. The FDA’s Assessment: ABI-009 was granted Orphan Drug designation on December 21, 2017. ABI-009 received Fast Track Designation on October 24, 2018 for the treatment of patients with advanced (metastatic or locally advanced) malignant PEComa to demonstrate clinically important effects on objective response rate (ORR) and duration of response (DOR). The FDA granted Breakthrough Therapy Designation for the treatment of patients with advanced (metastatic or locally advanced) malignant PEComa on December 12, 2018. Summary of Presubmission/Submission Regulatory Activity The Applicant’s Position: The initial Investigational New Drug (IND) application for ABI-009 was submitted by the original sponsor, Abraxis BioScience on 22 December 2006 to support a Phase 1 dose escalation, safety, and pharmacokinetics (PK) study in patients with solid tumors (Protocol CA401 A Phase 1 Trial of ABI-009 (nab-rapamycin) Administered Weekly in Patients with Advanced Non-hematologic Malignancies), NCT00635284. Abraxis held a pre-IND meeting via teleconference with the Agency on 31 August 2006 to discuss the nonclinical and clinical development plan for ABI-009. During this meeting, it was agreed that the development program for ABI-009 should be designed to suit the requirements to file a New Drug Application (NDA) pursuant to Section 505(b)(2) of the Food Drug and Cosmetic Act (FD&C) [a ‘505(b)(2)’ NDA]. The nonclinical program therefore focused on studies to compare ABI-009 to the approved formulation of sirolimus (Rapamune® Tablets and Oral Solution; NDA 21083 and NDA 21110) and to confirm that the different formulation, dose, and route of administration has not negatively impacted the safety, pharmacokinetics, and efficacy of sirolimus in nonclinical models. In October 2010, Abraxis was acquired by Celgene Corporation, and Abraxis became a wholly owned subsidiary of Celgene. Clinical Study CA401 was completed in 2011, but development of ABI-009 was put on hold by Celgene. In 2014, Aadi Bioscience (formerly Aadi Limited Liability Corporation [LLC]) was granted an exclusive license by Celgene to continue the development of ABI-009. The IND was transferred to Aadi, after which Aadi submitted new INDs to support the development of the product in Reference ID: 4893033 (b) (4) "
+            },
+            {
+              "pdfPage": 42,
+              "text": "NDA/BLA Multi-disciplinary Review and Evaluation NDA 213312 FYARRO (sirolimus protein-bound particles for injectable suspension) (albumin-bound) 41 Version date: January 2020 (ALL NDA/ BLA reviews) Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. Rapamune/ 17 7.85 NC 8.2 8.76 NC 28.0 Pharmacokinetic Parameters of Secorapamycin after IV ABI-009 or Oral Rapamune in Rats ABI-009/ 0.5 11.3 9.95 0.083 4.05 NC 0.083 ABI-009/ 17 686 1450 0.083 566 1290 0.083 Rapamune/ 0.5 NC NC NC NC NC NC Rapamune/ 17 0.640 NC 40 1.31 NC 48 NC = Not calculated (or no data available) due to values below lower limit of detection (2 ng/mL) Toxicology General Toxicology The Applicant’s Position: In single dose and repeat-dose nonclinical toxicology studies, the no-observed-adverse-effect level (NOAEL) for ABI-009 administered IV was not established. The maximum tolerated dose (MTD) of ABI-009 in rats was determined to be 78.9 mg/kg (equivalent to 473.4 mg/m2 human dose, 4.7 times higher than the 100 mg/m2 MTD and clinical dose of ABI-009). Toxicities observed in these toxicology studies include signs of respiratory toxicity, increases in glucose, cholesterol, and triglycerides, which are consistent with known toxicities of sirolimus and the class effect of mTOR inhibitors. Histopathological analysis revealed that target organs affected by ABI-009 were the heart, lungs, thymus, and male reproductive organs. Studies conducted in mouse, rat, dog, and monkey during the development of RLD identified the major target organ toxicities for sirolimus are heart, lungs, thymus, pancreatic islet cells, male reproductive organs, ovary, and bones. No new target organ toxicities were identified in the ABI-009 single dose and repeat-dose studies conducted by Aadi. The nonclinical toxicity studies did not identify any new areas of risk for the IV administration of ABI-009. The FDA’s Assessment: FDA agrees with the assessment of the Applicant and that no new target organs of toxicity were identified with IV ABI-009. The GLP-compliant 28-day repeat-dose toxicology study in rats with ABI-009 (Study #SNBL.119.08) was reviewed by Dr. Shwu-Luan Lee under the original IND submission. Rats received 0, 20, 40, 90, or 180/120 mg/kg ABI-009 IV on Days 1, 5, and 9 with terminal necropsy on Day 16 (5 rats/sex/group) and recovery cohort necropsy on Day 37 (5 rats/sex/group). The STD10 of ABI-009 in rats was 120 mg/kg (720 mg/m2) IV on Days 1, 5, and 9. Bone toxicity was not observed at ABI-009 doses up to 120 mg/kg. This study did not include an assessment of toxicokinetics. Reference ID: 4893033 "
+            },
+            {
+              "pdfPage": 54,
+              "text": "NDA/BLA Multi-disciplinary Review and Evaluation NDA 213312 FYARRO (sirolimus protein-bound particles for injectable suspension) (albumin-bound) 53 Version date: January 2020 (ALL NDA/ BLA reviews) Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. The FDA’s Assessment: The FDA generally agrees with Applicant’s position. However, the FDA notes that in the above Highlights of ABI-009 Clinical Pharmacology table, under the Range of Linear PK, the Applicant states that there were dose-proportional increases in Cmax after administration of ABI-009 at IV doses from 45-150 mg/m2. The Applicant also states that drug exposure in the first 4 hours (AUC0-4) increased in a largely dose-proportional and predictable manner, whereas terminal elimination phases were largely indistinguishable when comparing across dose groups. The FDA disagrees as the data and popPK analysis suggest that Cmax could be less than dose proportional and there is insufficient data to support the statement that drug exposure in the first 4 hours (AUC0-4) increased in a largely dose-proportional and predictable manner. General Dosing and Therapeutic Individualization 6.2.2.1. General Dosing Data: In the oncology setting, the starting clinical dose and dose regimen to be supported by the nonclinical program was 45 mg/m2 per week, approximately 1/10 of the maximum tolerated repeat-dose in rat (Module 2.4.4.2), which was the starting dose in the first-in-human dose-finding study CA401. The CA401 study established that ABI-009 has a MTD of 100 mg/m2 IV infused over 30 minutes in cycles of once weekly administration for 3 weeks followed by a one-week break. The highest non-severely toxic dose (HNSTD) and the NOAEL were not determined, as serious adverse events occurred at the lowest evaluated dose level in the oncology setting, 45 mg/m2. Adverse events requiring permanent dose reductions were observed at the 10 mg/m2 IV dose in the non-oncology setting in Study PAH-001 (PAH). These were low-grade persistent events in a different patient population (ie, PAH) and with a different risk profile compared to the PEComa population. In Study PEC-001, the planned dose and schedule was 100 mg/m2/week ABI-009 administered via IV infusion over 30 (±10) minutes weekly for 2 weeks, followed by a week of rest (ie, a 21-day cycle). This schedule is different from the one evaluated in Study CA401, which administered ABI-009 weekly for 3 weeks, followed by a week of rest (ie, a 28-day cycle). In Study CA401, 19.4% of doses were missed at doses ≤100 mg/m2, and most of the missing doses (83%) occurred at Day 15 of a cycle, corresponding to the third administration within a cycle. The modified schedule used for Study PEC-001 allowed the patients to have 1 week of rest during the third week, when most of the toxicities occurred on the schedule used in Study CA401. This schedule resulted in 16 ABI-009 administrations over a 6-month (24-week) period per protocol versus the 18 administrations during the same period in Study CA401 (representing a global dose intensity reduction of 11% when comparing the 2 schedules). In Study PEC-001, adverse events were tolerable and manageable, indicating that the dose and schedule is optimal. Reference ID: 4893033 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glofitamab",
+      "drug": "Glofitamab (Columvi)",
+      "modality": "CD20/CD3 bispecific antibody",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf#page=36",
+      "pdfPages": [
+        36,
+        37,
+        50,
+        51
+      ],
+      "sourceStage": "Retrospective BLA description of first-human modeling, plus later IND 138178 meeting 2021",
+      "sourceFacts": [
+        "Applicant model integrated monkey PK and cytokine/in-vitro data to keep predicted IL6 below a threshold; model table proposed5micrograms. Later FDA required hospitalization for dose2 in participants with any-grade CRS at dose1."
+      ],
+      "interpretationForLesson": "Mechanistic prediction does not replace surveillance; observed human responses change subsequent protection.",
+      "limitations": [
+        "Proposed model dose is not independently verified as the administered first dose or FDA-approved starting dose. Later2.5 mg step-up or labeling doses must not be confused with first-human prediction."
+      ],
+      "sourceAuthority": "Applicant modeling description inside FDA review; later FDA comments separately identified",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf",
+          "pdfPages": [
+            36,
+            37,
+            50,
+            51
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/d91e045fb87df6f7fd5d20db.json.gz",
+          "sha256": "023857da28bb71fca78f0fb7fc3d43a50efcc1ad567f207abf52b61fb971a05e",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 36,
+              "text": "BLA 761309 Multi-disciplinary Review and Evaluation Glofitamab-gxbm (Columvi) 35 Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. The Biologics License Application (BLA) 761309 is being submitted for accelerated approval of glofitamab as a single agent for the indication of the treatment of adult patients with R/R DLBCL who have received at least two prior systemic therapies, including DLBCL not otherwise specified (NOS), The FDA’s Assessment: FDA agrees with the Applicant’s position regarding the current marketing status of glofitamab. The Applicant’s proposed indication statement is broader than the recommended indication. 2.4 Summary of Presubmission/Submission Regulatory Activity The Applicant’s Position: On May 2, 2018 (Serial No. 0000), the Sponsor submitted the IND 138178 to the FDA for the development of glofitamab for the treatment of relapsed/refractory non-Hodgkin’s lymphoma (R/R NHL), including the NP30179 study protocol. Study NP30179 was placed on partial clinical hold on 16 May 2019, which was subsequently removed on 23 August 2019. The regulatory history relevant to the proposed application is summarized in Table 2. For more detailed regulatory history, please see Module 1.6.3 Correspondence regarding meetings. Table 2: Applicant – Regulatory History Type of Interaction/Meeting Date Purpose of Interaction/Meeting Type B End of Phase I Meeting 03 December 2019 Discuss the development program for glofitamab and the proposed design of the Phase I Expansion Part of Study NP30179 to support accelerated approval of glofitamab in the treatment of adult patients with with relapsed or refractory diffuse large B-cell lymphoma (DLBCL) after two or more lines of systemic therapy Type C Meeting 5 August 2020 Discuss the proposed Real Word Data study design to generate supportive evidence for the single-arm data from Study NP30179 Type C Meeting 28 January 2021 Discuss the adequacy of the CRS mitigation steps and proposed step-up dosing regimen in Study NP30179 Written Responses Only: Type C Pre-BLA Content and Format Meeting 17 August 2021 Discuss and reach agreement on the proposed content and format and the statistical analysis plan for the BLA based on Study NP30179 Fast Track Designation Granted 08 December 2021 Granted Fast Track designation for the treatment of adult patients with relapsed or refractory diffuse large B-cell lymphoma (DLBCL), not otherwise specified or high-grade B- cell lymphoma (HGBCL) after two or more lines of systemic therapy Type B pre-BLA Meeting 19 May 2022 Discuss and reach agreement on the proposed clinical data package from study NP30179 to form the basis of a BLA in the proposed indication. The Agency shared concerns regarding the underrepresentation of racial and ethnic minorities in Reference ID: 5192035 (b) (4) "
+            },
+            {
+              "pdfPage": 37,
+              "text": "BLA 761309 Multi-disciplinary Review and Evaluation Glofitamab-gxbm (Columvi) 36 Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. Type of Interaction/Meeting Date Purpose of Interaction/Meeting Study NP30179 and stated that the adequacy of the data and applicability to a U.S. population would be review issues. NP30179 SAP version 5 5 August 2022 FDA issued information request on the SAP version 5 and agreement was reached on the primary efficacy population. The ongoing randomized phase 3 study GO41944 “A phase III, open-label, multicenter, randomized study evaluating the efficacy and safety of glofitamab in combination with gemcitabine plus oxaliplatin versus rituximab in combination with gemcitabine and oxaliplatin in patients with relapsed/refractory diffuse large B-cell lymphoma “, opened in 2021 based on protocol version 3, after alignment with FDA and discussion on study design at End of Phase 2 Meeting on 21 December 2019. The FDA’s Assessment: The FDA agrees with the Applicant’s summary of meeting and communication dates prior to the BLA submission. The table below includes additional key meeting discussion points. Table 3: Summary of Regulatory History with Additional FDA Comments Type of Interaction/Meeting Date Purpose of Interaction/Meeting Additional FDA Comments Type B End of Phase I Meeting 03 December 2019 Discuss the development program for glofitamab and the proposed design of the Phase I Expansion Part of Study NP30179 Type C Meeting 5 August 2020 Discuss the proposed Real Word Data study design to generate supportive evidence for the single-arm data from Study NP30179 The Agency did not agree that a real-world data study would be adequate to confirm the clinical benefit of glofitamab in R/R DLBCL and recommended a randomized phase III study to confirm clinical benefit. Type C Meeting 28 January 2021 Discuss the adequacy of the CRS mitigation steps and proposed step-up dosing regimen in Study NP30179 The Agency did not agree with the Applicant’s proposal that The FDA required hospitalization for dose 2 for any patients with any grade CRS with the first dose of glofitamab. The Agency encouraged further dosing optimization. Reference ID: 5192035 (b) (4) "
+            },
+            {
+              "pdfPage": 50,
+              "text": "BLA 761309 Multi-disciplinary Review and Evaluation Glofitamab-gxbm (Columvi) 49 Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. In mice and minipigs, glofitamab does not cross-react with CD3 and CD20 (1108422, Module 4.2.3.7.7 Other Toxicity Studies > Other), while in cynomolgus monkeys it binds to both cynomolgus monkey CD3 and CD20 (1067044, Module 4.2.1.1 Primary Pharmacodynamics). In C57BL/6J mice, PK parameters were in the expected range for a human IgG (clearance [CL] 8.01 mL/day/kg, volume of distribution at steady state [Vss] 92.7 mL/kg) (1070515, Module 4.2.2.2 Absorption). PK parameters in human neonatal Fc receptor transgenic (huFcRn tg) mice were in a similar range as in C57BL/6J mice (1095751, Module 4.2.2.7 Other Pharmacokinetic Studies). Also in minipigs, glofitamab PK properties were as expected for a human IgG (1100774, Module 4.2.2.2 Absorption). In cynomolgus monkeys, CL was dependent on both dose and level of circulating B cells, indicating target-mediated drug disposition (TMDD) via the binding to CD20 on B cells (see 3 toxicity studies referenced below). Overall, CL was faster than expected for a human IgG with CL values ranging from 892 to 240 mL/day/kg at doses of 3 and 100 g/kg in monkeys with normal B-cell counts (1063381, Module 4.2.3.2 Repeat-Dose Toxicity). Following two weekly (QW) administrations to cynomolgus monkeys, CL after the second administration was reduced compared with that after the first administration, which is consistent with the reduction of B cells after the first administration and a subsequent reduction of TMDD (1067414, Module 4.2.3.2 Repeat-Dose Toxicity). After B-cell depletion by Gpt, CL was reduced to 81.7-110 mL/day/kg (1066284, Module 4.2.3.1 Single-Dose Toxicity), which is still markedly higher than commonly reported CL values for monoclonal antibodies (mAbs). This rapid CL does not translate to humans. A pharmacokinetic-pharmacodynamic (PK/PD) model for cytokine excursions in cynomolgus monkeys, particularly interleukin 6 (IL-6), was built and translated to humans. The human starting dose was selected to keep the predicted IL-6 excursion below a predefined threshold in patients (1072940, Module 4.2.2.7 Other Pharmacokinetic Studies). Taken the above studies together, the pharmacokinetics of glofitamab was well characterized after IV administration to animals, including a PK/PD assessment of cytokine release. Tabulated Summary of Selected Relevant PK Studies Note that PK studies that are not critical for the assessment, or not directly relevant for toxicology, pharmacology or clinical pharmacology, are not listed (1070515, 1100774, 1095751, 1068629, and 1072416). For details on these studies, refer to 2.6.4 Pharmacokinetics Written Summary. Absorption RO7082859: An Intravenous Toxicity and Toxicokinetic Study in Cynomolgus Monkeys with an 8-week Recovery Period (including Amendment 1, 2, and 3) / 1066284 / Module 4.2.3.1 Single-Dose Toxicity Study type and methods: single-dose toxicity and TK study (non-GLP); glofitamab, ADA and obinutuzumab assessed with ELISA Test system: cynomolgus monkey Dose and frequency of dosing: 0/0, 0/100, Gpt/100, Gpt/300, Gpt/1000 µg/kg. Obinutuzumab (Gpt) at 50 mg/kg on Day 1. Glofitamab administered on Day 5 (single dose). Route of administration: IV (bolus) Reference ID: 5192035 "
+            },
+            {
+              "pdfPage": 51,
+              "text": "BLA 761309 Multi-disciplinary Review and Evaluation Glofitamab-gxbm (Columvi) 50 Disclaimer: In this document, the sections labeled as “Data” and “The Applicant’s Position” are completed by the Applicant and do not necessarily reflect the positions of the FDA. Vehicle/formulation: 20 mM Histidine, 140 mM NaCl, 0.01% PS20 pH 5.5 For the PK parameters, see Table 7. Absorption (cont.) RO7082859: A maximum tolerable dose (MTD) and two-week dose range finding study in Mauritius cynomolgus monkeys (including Amendment 1 and 2) / 1063381 / Module 4.2.3.2 Repeat-Dose Toxicity Study type and methods: repeat-dose toxicity and TK study (non-GLP); glofitamab and ADA assessed with ELISA Test system: cynomolgus monkey Dose and frequency of dosing: MTD phase: 0.3, 1.0, 3.0, 10, 30, 100, and 300 µg/kg (single dose); DRF phase: 0, 10, 30, and 100 µg/kg (QW on Days 1, 8, and 15) Route of administration: IV (bolus) Vehicle/formulation: 20 mM Histidine, 140 mM NaCl, pH 6.0, 0.01 % Tween 20 For the PK parameters, see Table 6. Additional information: Toxicokinetic parameters were derived from the individual glofitamab serum concentration results as data permitted using non-compartmental analysis (NCA). In addition, PK parameters were estimated for Groups 2-7 (dose levels 1.0-300 g/kg) (MTD phase). In the MTD phase, all animals developed robust ADA response between 168 and 336 h postdose. Animals from the treatment groups of the MTD phase were transferred to the DRF phase of the study. In the DRF phase, all animals in the treatment groups were ADA-positive at all timepoints, and had very low or no apparent exposure to glofitamab. Except for one animal in the 100 g/kg/week group, all other treated animals were BLQ at all times or with a single reported concentration near the LLOQ. These results precluded any further TK evaluation. For the TK assessments in the pivotal (GLP) repeat-dose toxicity studies (1067414, 1083213 / Module 4.2.3.2 Repeat-Dose Toxicity), refer to Table 8 and Table 9. See Section 4.5.1 for details on these studies. Distribution No dedicated studies have been performed to investigate the in vivo tissue distribution of glofitamab in animals, as per ICH S6(R1). Metabolism No dedicated studies on the metabolism/catabolism of glofitamab have been performed, as per ICH S6(R1). Excretion No dedicated studies on the excretion of glofitamab have been performed. Pharmacokinetic Drug Interactions No pharmacokinetic drug interaction studies have been conducted with glofitamab. Other Pharmacokinetic Studies Pharmacokinetic and pharmacodynamic modeling on Cynomolgus monkey (Macaca fascicularis) data combined with in vitro data of cytokine assays to predict the First in Human dose following RO7082859 administration based on Minimum Anticipated Biological Effect Level (MABEL) / 1072940 / Module 4.2.2.7 Other Pharmacokinetic Studies Study type and methods: PK/PD modeling (EIH dose) PK/PD model used: non-linear PK model (PK data in monkey), indirect response model (cytokine release) Test system: Population compartmental PK parameter estimation in Monolix v433s, simulations of exposure in human by allomeric scaling of monkey parameters in Berkeley Madonna v8.3.18, graphical representation of diagnostic plots or simulations in Matlab R2013b Key results: Proposed EIH dose: 5 µg flat dose (for 70 kg human) Reference ID: 5192035 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risdiplam",
+      "drug": "Risdiplam (Evrysdi)",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf#page=24",
+      "pdfPages": [
+        24,
+        25,
+        72,
+        73,
+        74
+      ],
+      "sourceStage": "Pre-IND 2016 and later clinical development; first infant dosing after adult exposure",
+      "sourceFacts": [
+        "First infant single dose used conservative PBPK plus an additional factor; observed PK informed repeated dosing and exposure targets. Committees reviewed safety/PK/PD. FDA required ophthalmic surveillance while acknowledging prevention of irreversible retinal injury was not assured."
+      ],
+      "interpretationForLesson": "Link model uncertainty to staged observation and reassessment; define what monitoring can and cannot accomplish.",
+      "limitations": [
+        "First infant exposure is not first-ever-human exposure; the dose algorithm is described retrospectively from the protocol, not an original FDA dose-approval letter."
+      ],
+      "sourceAuthority": "FDA clinical review with quoted pre-IND advice and protocol description",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf",
+          "pdfPages": [
+            24,
+            25,
+            72,
+            73,
+            74
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/64ddad1171ea0d66a12f3f3a.json.gz",
+          "sha256": "109bce8961b7ed9151a04977625b7aa8219eba071b705e3fd7a94e9ffa58e742",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 24,
+              "text": "Clinical Review Rainer W. Paine, MD, PhD NDA 213535 EVRYSDI, risdiplam (RO7034067) CDER Clinical Review Template 23 Version date: September 6, 2017 for all NDAs and BLAs observed in the completed Phase 1 SAD study in 25 healthy multi-ethnic adults, and that study revealed adverse events of only mild intensity and without safety signal clustering. Several subjects in that study had elevated LFTs and alterations in lipid and phosphate levels.” In written responses from a pre-IND meeting dated 3/4/2016, the Agency made recommendations for ophthalmological monitoring and stated that “it is unlikely that the occurrence of irreversible retinal injury can necessarily be prevented; however, considering the potential benefits of a successful therapy, the risks are recommended to be monitored.” Regarding the design of the confirmatory Part 2 of Study BP39055 (Sunfish), the Agency stated that “The MFM is acceptable as the primary endpoint; however, it is unclear why the inclusion of domain D1 (standing position and transfer) is warranted for your non-ambulant trial population. We also note that, based on the publications provided in your briefing package, the mean annual decline of this patient population appears to be < 1 point/year, and your trial is powered to detect a 3-point difference after a 12-month treatment. However, if the placebo group in the trial declines by about 1 point as anticipated, the drug would need to produce a 2-point improvement above baseline to achieve a 3-point difference in favor of the drug. Therefore, to increase the likelihood of demonstrating a treatment effect, we recommend that you consider a longer trial duration (e.g., 24 months) with an interim analysis at 12 months. The Agency made the following comments regarding the design of Study BP39056 (Firefish). “We continue to believe that a placebo-controlled trial would be most informative for this trial in infants with SMA Type 1. The effect of treatment in the single arm trial in SMA type 1 may be very difficult to interpret, due to the many possible sources of bias with such a design (and small sample size), such as lack of a concurrent control, differences in study populations, change in standard of care, etc. However, the design of your proposed trial in patients with Type I SMA is potentially acceptable, pending a review of the full study protocol. We also have the following specific responses to your questions: a) Your choice of primary endpoint, the proportion of patients able to sit without support at Month 12 for at least 5 seconds as assessed by the Gross Motor Scale of the BSID-III, is potentially acceptable based on your criteria that at least 5 subjects out of 40 would need to meet this endpoint for the trial to be considered positive. However, you should clarify whether children will be able to use their own hands for support and still be considered to be sitting unsupported. The acceptability of this endpoint in an open-label efficacy trial is also dependent upon your ability to provide data that supports the assertion that untreated children essentially never would be expected to reach this milestone as defined by the protocol.” In meeting minutes from a Type C meeting on 1/23/18, the Agency stated that “given the seriousness of the indication, the 2-year carcinogenicity study in rat may be conducted post approval, provided the available data support such a strategy. Deferral of the carcinogenicity Reference ID: 4646272 "
+            },
+            {
+              "pdfPage": 25,
+              "text": "Clinical Review Rainer W. Paine, MD, PhD NDA 213535 EVRYSDI, risdiplam (RO7034067) CDER Clinical Review Template 24 Version date: September 6, 2017 for all NDAs and BLAs study would not be based on a lack of concern regarding the carcinogenic potential of RO7034067.” The Agency further commented on the applicant’s ophthalmological monitoring plan, stating that “the sponsor’s proposed changes in the ophthalmologic safety assessment schedule, beyond the acceptable modifications described in the Agency’s preliminary meeting comments, represent an unacceptable risk to subjects. The Agency also explained that there is an insufficient safety database at present considering the toxicity observed in the nonclinical studies.” Regarding study design, the Agency stated “As indicated in the March 4, 2016, pre-IND meeting responses, we continue to believe that a placebo-controlled trial in your proposed patient population would be most informative. As noted in those responses, in the context of a historical-control trial, data would be required to demonstrate that any observed effects in Study BP39056 would not have occurred in the natural history of the disease in patients enrolled in the trial (consistent with the principles discussed in ICH E10).” The Agency stated that the “proposed ECG monitoring plan is acceptable. You will not need to conduct a TQT study to support the filing of any future NDA for RO7034067 for the treatment of SMA.” Therefore, the Agency reiterated that efficacy would need to be established based on the demonstration of a positive treatment effect on an endpoint(s) that directly assesses a clinically meaningful benefit(s) to patients. At a Type C meeting on 12/18/19, the sponsor provided preliminary clinical data from FIREFISH Part 1 that was suggestive of efficacy.The Agency stated that “the data from FIREFISH trial Part 1 in infantile-onset patients with at least 12 months of treatment may be adequate to support an NDA submission if there is an acceptable proportion of patients who achieve the primary endpoint of sitting unassisted, and the findings are supported by the secondary endpoints and by changes on relevant biomarkers. For such an approach to be acceptable, any planned NDA would need to include an adequate evidence-based justification for the assertion that this milestone would not occur in these patients in the absence of treatment…. It appears that the available risdiplam safety data from currently ongoing and planned studies may constitute an adequate safety database for an NDA submission for risdiplam, provided that there are no concerning safety findings… We continue to recommend sd-OCT [spectral domain - optical coherence tomography] monitoring and visual acuity testing every three months, and visual field testing and fundus photography assessments every six months.” Reference ID: 4646272 (b) (4) (b) (4) "
+            },
+            {
+              "pdfPage": 72,
+              "text": "Clinical Review Rainer W. Paine, MD, PhD NDA 213535 EVRYSDI, risdiplam (RO7034067) CDER Clinical Review Template 71 Version date: September 6, 2017 for all NDAs and BLAs x Key inclusion/exclusion criteria: The criteria listed below from the submitted protocol appear adequate to enroll patients with Type 1 SMA representative of the U.S. population. Key Inclusion Criteria To participate in this study, candidates were required to meet the following eligibility criteria at Screening: 1. Males and females aged between 28 days (1 month) of life and 210 days (7 months) (inclusive) at enrollment. For the first 3 patients enrolled in Part 1, age was between 150 days (5 months) and 210 days (7 months) inclusive and a minimum body weight of 7 kg was required for the first patient only. Enrollment was defined as the moment when a patient had their dosing number assigned. 2. Confirmed diagnosis of 5q-autosomal recessive SMA, including:  Genetic confirmation of homozygous deletion or compound heterozygosity predictive of loss of function of the SMN1 gene.  Clinical history, signs or symptoms attributable to Type 1 SMA, i.e., hypotonia, absent deep tendon reflex and/or tongue fasciculations with onset after the age of 28 days, but prior to the age of 3 months (inclusive), and inability to sit independently (without support) at the time of screening. 3. Patient had two SMN2 gene copies, as confirmed by central testing. Key Exclusion Criteria Subjects meeting any of the following criteria were not eligible for the study: 1. Concomitant or previous participation in any investigational drug or device study within 90 days prior to screening or 5 half-lives, whichever was longer. 2. Concomitant or previous administration of a SMN2-targeting antisense oligonucleotide, SMN2 splicing modifier or gene therapy either in a clinical study or as part of medical care. 3. Any history of cell therapy. 4. Hospitalization for a pulmonary event within the last 2 months, or planned at the time of screening. 5. Required invasive ventilation or tracheostomy. 6. Required awake non-invasive ventilation or with awake hypoxemia (SaO2 <95%) with or without ventilator support. 7. A history of respiratory failure or severe pneumonia, and had not fully recovered their pulmonary function at the time of screening. 8. Recent history (less than 6 months) of ophthalmic diseases 9. Any inhibitor of CYP3A4 taken within 2 weeks (or within 5 times the elimination half- life, whichever is longer) prior to dosing Reference ID: 4646272 "
+            },
+            {
+              "pdfPage": 73,
+              "text": "Clinical Review Rainer W. Paine, MD, PhD NDA 213535 EVRYSDI, risdiplam (RO7034067) CDER Clinical Review Template 72 Version date: September 6, 2017 for all NDAs and BLAs 10. Any inducer of CYP3A4 taken within 4 weeks (or within 5 times the elimination half- life, whichever is longer) prior to dosing 11. Any organic cation transporter-2 (OCT-2) and multidrug and toxin extrusion (MATE) substrates 12. Presence of non-SMA-related concurrent syndromes or diseases x Dose selection: Part 1: During the dose-selection phase of the study, risdiplam dose levels were investigated in a staggered, dose-escalation manner. The first patient enrolled (aged 5 to 7 months) received a single starting dose of 0.00106 mg/kg risdiplam to assess safety and tolerability and pharmacokinetics. This dose was selected based on the most conservative PBPK modelling scenario, plus an additionally applied safety factor of 10. Once this single dose was shown to be safe and well tolerated, and after the pharmacokinetics had been evaluated, this patient continued in the study and, approximately 6 weeks later, started administration of once daily risdiplam at a dose that was selected based on the PK data obtained from the first single dose, targeting an exposure of area under the curve from time 0 to 24 hours at steady state [AUC 0-24h,ss] of 700 ng x h/mL. This exposure, called Dose Level 1, was predicted to result in a doubling of SMN protein levels (i.e., a 2-fold increase versus the patient’s baseline). Dose Level 2 was a target exposure of mean AUC 0-24h,ss <=2000 ng x h/mL; which remained below the no observed adverse effect level (NOAEL) from the animal toxicology studies. Part 2: The IMC dose selection criteria for Part 2 were the following: o A dose that was judged to be well tolerated and without any known safety signal, based on all available data from Part 1 and as confirmed by the external iDMC. o A dose that results in a target exposure of mean AUC 0-24h,ss <=2000 ng x h/mL (adjusted for free fraction, if required). On the basis of data from Part 1, the following starting dose levels were selected for Part 2:  Infants >1 month old and <3 months old at enrollment: 0.04 mg/kg.  Infants >=3 months old and <5 months old at enrollment: 0.08 mg/kg.  Infants >=5 months old at enrollment: 0.2 mg/kg. x Study treatments: Study medication (risdiplam) was taken orally once daily. For patients able to swallow, study drug was administered with a syringe inserted between the baby's gum and cheek. Patients who were unable to swallow the study medication and who had a nasogastric or gastrostomy tube in situ received the study medication by bolus via the tube. x Assignment to treatment: This was an open-label study and all subjects received risdiplam. Reference ID: 4646272 "
+            },
+            {
+              "pdfPage": 74,
+              "text": "Clinical Review Rainer W. Paine, MD, PhD NDA 213535 EVRYSDI, risdiplam (RO7034067) CDER Clinical Review Template 73 Version date: September 6, 2017 for all NDAs and BLAs x Blinding: Not applicable. This was an open-label study. x Administrative structure: An IMC was responsible for reviewing safety, PK and PD data and for dose-escalation decisions in Part 1 and the dose-selection for Part 2. An iDMC reviewed all available data from Part 1 to confirm the dose-decision taken by the IMC, and reviewed safety, efficacy, PK and PD for Part 2. The scope and responsibility of these committees was detailed in a specific Charter. An ophthalmological monitoring vendor was responsible for central review of ophthalmological assessments. x Procedures and schedule: The schedule of key assessments for Part 1 of the Firefish study is presented in the following two tables, based on the submitted protocol. The second table lists the schedule of ophthalmology assessments. Table 17: Firefish Study Part 1 Schedule of Key Assessments Reference ID: 4646272 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olipudase",
+      "drug": "Olipudase alfa (Xenpozyme)",
+      "modality": "replacement enzyme",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf#page=52",
+      "pdfPages": [
+        52,
+        53,
+        132,
+        163
+      ],
+      "sourceStage": "Initial IND 012757 and later amendments; retrospective BLA summary",
+      "sourceFacts": [
+        "Initial hold was partly lifted for single-dose study; later repeat-dose permission had dose/interval/duration restrictions. A mouse-NOAEL-based start preceded inflammatory findings at higher single doses, leading to gradual within-person escalation."
+      ],
+      "interpretationForLesson": "Permission is scoped to a study; substrate biology can make stepwise exposure essential.",
+      "limitations": [
+        "Retrospective history, not every original hold letter. Initial, later and commercial starting doses are different quantities."
+      ],
+      "sourceAuthority": "FDA integrated review",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+          "pdfPages": [
+            52,
+            53,
+            132,
+            163
+          ],
+          "localTextOrPdf": "/tmp/ind-full-screen/text/f4f53b86fd5d0d7a5404c621.json.gz",
+          "sha256": "1d6f94dd5c1ca68b52aa3bc3ac57776cc1ac7ac0e5f3eb07fc19e21eb50f898e",
+          "verificationMethod": "cached PDF page extraction",
+          "pageEvidence": [
+            {
+              "pdfPage": 52,
+              "text": "BLA 761261 Xenpozyme (olipudase alfa-rpcp) 29 6. Assessment of Effectiveness 6.1. Dose and Dose Responsiveness 6.1.1. Proposed Olipudase Alfa Dosage Olipudase alfa is a hydrolytic liposomal sphingomyelin-specific enzyme developed as an ERT for the treatment of patients with ASMD. Olipudase alfa is administered as an intravenous (IV) infusion. The proposed dosage regimens in patients with ASMD are described below: • For adult patients (≥18 years old), the proposed starting dose is 0.1 mg/kg once every two weeks (Q2W) and subsequently the dose should be escalated to a maintenance dose of 3 mg/kg. The proposed dose escalation regimen includes 0.1, 0.3, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W over 14 weeks. • For pediatric patients (0 to <18 years old), the proposed starting dose is 0.03 mg/kg Q2W and subsequently the dose should be escalated to a maintenance dose of 3 mg/kg. The proposed dose escalation regimen includes 0.03, 0.1, 0.3, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W over 16 weeks. The proposed adult and pediatric dosage regimens have been tested in pivotal clinical trials in adult subjects with ASMD (ASCEND trial) and pediatric subjects with ASMD (ASCEND-Peds trial). 6.1.2. Dose Selection for the Clinical Studies In the first-in-human trial (SPHINGO00605), the tolerability and safety of olipudase alfa was evaluated after single, ascending doses of olipudase alfa in 11 adult subjects with ASMD. The initial dose of 0.03 mg/kg (3 subjects) was chosen based on a 10-fold safety factor in comparison to the ASMKO mouse's single-dose no adverse effect threshold (NOAEL). Doses were escalated to 0.1 mg/kg (3 subjects), 0.3 mg/kg (2 subjects), 0.6 mg/kg (2 subjects), and 1.0 mg/kg (1 subject) and then the trial was terminated by the Applicant due to hyperbilirubinemia and acute phase inflammatory reaction. After the first-in-human trial, the Phase 1b multiple ascending dose trial (DFI13412) was designed to evaluate a gradual dose escalation strategy as a means of providing safe and tolerable repeat olipudase alfa doses to adult subjects with ASMD based on the dose-dependent reductions in tissue SPM and amelioration of toxicities observed with a gradual debulking regimen in the ASMKO mouse and the safety and tolerability profile of single-dose olipudase administration in trial SPHINGO00605. The initial dose of 0.1 mg/kg was chosen since it was the highest dose in SPHINGO00605 that was not linked with any treatment-related AEs. This dosage corresponds to the single-dose no observable-effect level, which is three times lower than the ASMKO mouse's single-dose NOAEL. The Q2W dosing frequency was determined based on nonclinical study results to maintain SPM reduction. Following the 0.1 mg/kg starting dose, the within-subject dose escalation was as follows: 0.1, 0.3, 0.3, 0.6, 1.0, 2.0, and 3.0 mg/kg Q2W. The maintenance dosage of 3.0 mg/kg Q2W was based on nonclinical results predicted to efficiently reduce SPM in the lungs in adult subjects with ASMD. The overall treatment duration was 26 weeks after Reference ID: 5038752 "
+            },
+            {
+              "pdfPage": 53,
+              "text": "BLA 761261 Xenpozyme (olipudase alfa-rpcp) 30 which the subjects were enrolled to clinical trial LTS13632. Adult subjects with ASMD tolerated the gradual, within-subject dosage escalation protocol well and no major or severe AEs or deaths were reported. Several efficacy endpoints showed improvements at the conclusion of the 26- week treatment period. For the pivotal ASCEND trial in adult subjects with ASMD, the starting dose of 0.1 mg/kg and gradual within-subject dosage escalation to a target maintenance dose of 3.0 mg/kg Q2W were chosen based on the results of the Phase 1b trial DFI13412. The dose escalation regimen was the same as in DFI13412, with the exception of an additional second 0.6 mg/kg dose to provide an even more gradual within-subject debulking of SPM and subsequent release of ceramide in the first 48 hours post-dose. The dosing regimen was shown to be safe and effective. The pediatric study (ASCEND-Peds) used the same within-subject dosage escalation method as the adult trials, with doses of 0.03, 0.1, 0.3, 0.6, 0.6, 1.0, 2.0, and 3.0 mg/kg administered Q2W. The pediatric trial used a lower starting dose of 0.03 mg/kg, and the dosage escalation plan included an extra dose escalation step (2 more weeks) to achieve the same maintenance dose of 3.0 mg/kg Q2W as the adult ASCEND trial. The overall treatment duration was 64 weeks. The dosing regimen was shown to be safe and effective. 6.1.3. PK/PD Relationship for Plasma Lyso-SPM The relationship between the plasma Lyso-SPM concentrations and the plasma olipudase alfa concentrations over time was best characterized by a turnover response model in which olipudase alfa plasma concentrations exerted an inhibitory effect on lyso-SPM production rate. The model was parametrized with Tturn, the turnover time of plasma Lyso-SPM (Tturn being the reciprocal of the first order rate constant of lyso-SPM degradation Kout), Imax, the maximum drug induced inhibitory effect and half maximal inhibitory concentration (IC50), the olipudase alfa plasma concentration at 50% of maximum drug inhibitory effect. Time-varying bodyweight significantly influenced both Imax and IC50., with a lower IC50 and a slightly higher Imax estimated in patients with lower bodyweight. In addition, age was identified to significantly influence the plasma Lyso-SPM turnover time (Tturn), with longer Tturn estimated in younger patients. Population PK/PD parameters are listed in Table 9. Table 9. Population PK/PD Parameters for the Final Lyso-SPM Model Parameter Estimate (CV%) % RSE [95%CI] (Shrinkage %) Typical value of Tturn (h) 828 6.07% [ 727 ; 928 ] Effect of AGE on Tturn -16.5 10.9% [ -20.1 ; -12.9 ] Typical value of Imax (θ2) 0.905 0.73% [ 0.891 ; 0.918 ] Effect of WT on Imax -0.241 18.4% [ -0.33 ; -0.152 ] Typical value of IC50 (θ3, mg/L) 0.00838 12.4% [ 0.0063 ; 0.0105 ] Effect of WT on IC50 2.6 9.67% [ 2.1 ; 3.11 ] Inter-individual variability ω ² Tturn 0.234 (51.4%) 24.7% [ 0.121 ; 0.348 ] ( 6.56%) ω ² Imax 0.14 (38.8%) 41.8% [ 0.0254 ; 0.254 ] ( 28.2%) ω ² IC50 2.43 (322%) 24.5% [ 1.27 ; 3.6 ] ( 3.34%) Residual variability Proportional term 0.035 (18.7%) 4.52% [ 0.0319 ; 0.0381 ] Additive term (ng/mL)² 48.0 21.5% [ 27.8 ; 68.1 ] Source: Table III of Applicant’s Population PK/PD report. Reference ID: 5038752 "
+            },
+            {
+              "pdfPage": 132,
+              "text": "BLA 761261 Xenpozyme (olipudase alfa-rpcp) 109 Table 41. Patients With Protocol-Defined Infusion-Associated Reactions (IARs) Occurring at ≥0% Frequency, Trials DFI13803 (ASCEND-Peds), LTS13632 and Pooled (ISS), , Pediatric Patients Who Received Only Process C Preferred Term Child OA LTS13632/ DFI13803 N=7 n (%) Infant/early child OA LTS13632/ DFI13803 N=1 n (%) Pooled Pediatric OA LTS13632/ DFI13803 N=8 n (%) Any AE 5 (71.4) 1 (100) 6 (75.0) Urticaria 3 (42.9) 1 (100) 4 (50.0) Erythema 2 (28.6) 0 2 (25.0) Headache 2 (28.6) 0 2 (25.0) Nausea 2 (28.6) 0 2 (25.0) Pyrexia 1 (14.3) 1 (100) 2 (25.0) Vomiting 1 (14.3) 1 (100) 2 (25.0) Abdominal pain 1 (14.3) 0 1 (12.5) Anaphylactic reaction 0 1 (100) 1 (12.5) Blood alkaline phosphatase increased 1 (14.3) 0 1 (12.5) Blood bilirubin increased 1 (14.3) 0 1 (12.5) C-reactive protein increased 1 (14.3) 0 1 (12.5) Muscle oedema 1 (14.3) 0 1 (12.5) Rash 1 (14.3) 0 1 (12.5) Skin mass 1 (14.3) 0 1 (12.5) Source: adae.xpt; Software: R Note: Pediatric subjects who ever received Process B were excluded. Treatment-emergent adverse events defined as AEs that started or worsened after the first administration of olipudase alfa during the olipudase alfa period. Duration is up to the data cutoff dates. Muscle edema replaces: Localized edema Protocol-defined infusion-associated reactions were determined using the AEIAR variable in the ADAE dataset. Abbreviations: AE, adverse event; IAR, infusion-associated reaction; ISS, integrated summary of safety; N, number of subjects in treatment arm; n, number of patients with adverse event; OA, olipudase alfa 7.6.1.8. Adverse Events of Special Interest, Acute Phase Reaction, Integrated Safety Set, Subjects Who Received Only Process C Results from a first-in-human Phase 1, single-dose, dose escalation trial SPHINGO00605 provided the basis for the assessments of APRs, CRS, and DLTs in the current application. Clinical data from SPHINGO00605 were not included in the pooled safety analysis because it was a single-dose study. SPHINGO00605 was terminated early after 11 subjects had been dosed due to a subject experienced hyperbilirubinemia and constitutional symptoms (nausea, vomiting, pyrexia, fatigue, and/or pain) after a single dose of 1 mg/kg. The 0.6 mg/kg was identified as the maximum tolerated starting dose based on the pattern of occurrence of AEs. According to the Clinical Study Report of SPINGO00605 (submitted under IND 012757), single doses of olipudase alfa administered included 0.03 mg/kg (n=3), 0.1 mg/kg (n=3), 0.3 mg/kg (n=2), 0.6 mg/kg (n=2), and 1 mg/mg (n=1). Doses up to 0.1 mg/kg were well tolerated, whereas AEs related to olipudase alfa occurred in cohorts given doses of 0.3 mg/kg or higher. The most commonly reported TEAEs were increased blood bilirubin and acute phase reactants (including but not limited to high-sensitivity CRP, IL-6, IL-8, calcitonin, and ferritin), the majority of which were judged as being related to olipudase alfa treatment. Most of the related AEs occurred within Reference ID: 5038752 "
+            },
+            {
+              "pdfPage": 163,
+              "text": "BLA 761261 Xenpozyme (olipudase alfa-rpcp) 140 III. Appendices 12. Summary of Regulatory History The Applicant, Genzyme Corporation (Genzyme), submitted IND 012757 on October 27, 2005, to investigate olipudase alfa, also referred to by the company code name GZ402665, as an enzyme replacement therapy (ERT) for the treatment of non-central nervous system (CNS) manifestations of acid sphingomyelinase deficiency (ASMD). Olipudase alfa is a recombinant human acid sphingomyelinase (rhASM) produced by mammalian cell culture technology using a Chinese hamster ovary cell line. The product is to be supplied in lyophilized powder reconstituted for intravenous (IV) infusion and administered according to body weight. Olipudase alfa was granted Orphan Drug designation for the treatment of acid sphingomyelinase deficiency on August 3, 2000. Following its submission, IND 012757 was placed on full clinical hold on November 30, 2005, due to insufficient pre-clinical and chemistry, manufacturing, and controls (CMC) information. Following the receipt of additional pre-clinical information on March 27, 2006, the clinical hold was partially lifted on May 4, 2006, and Genzyme was permitted to proceed with a single-dose human trial (SPHINGO00605) in adult subjects with Niemann-Pick disease (NPD) type B. A Fast Track designation was granted to olipudase alfa on April 23, 2007. Genzyme attempted to address the clinical hold through amendments received on October 20, 2008, February 26, 2009, April 24, 2009, December 7, 2009, and a complete response received on January 19, 2010. On February 25, 2010, repeat dose studies were allowed to proceed at a limited dose, interval, and duration, but other investigations remained on clinical hold. A type A meeting was requested with preliminary responses issued on June 14, 2010. Genzyme subsequently requested the meeting be cancelled because the issued comments were deemed to have sufficiently addressed their questions. A complete response to the hold was received November 19, 2010. The partial clinical hold was removed on December 17, 2010, and Genzyme was allowed to proceed with trial SPHINGO00709, then titled “A Phase 2, Randomized, Open- Label, Repeat-Dose, Dose-Comparison, Multi-Center Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of rhASM in Patients With Acid Sphingomyelinase Deficiency (ASMD).” During the course of olipudase alfa drug development, multiple changes were made to the manufacturing process, including a switch from Process A to Process B, Process B to Process C , and from Process C to Process C which is the to-be marketed drug substance (DS) and drug product (DP) manufacturing process. The Applicant and FDA had several interactions to discuss these changes as well as their implications to the olipudase alfa clinical development program. The first meeting which included discussions of olipudase alfa DS and DP manufacturing changes took place on October 4, 2011, wherein Genzyme informed the FDA that they planned to implement (Process B) to replace (Process A) for the phase 2 studies and future clinical development of olipudase alfa. The meeting minutes were issued on November 4, 2011. Reference ID: 5038752 (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venetoclax",
+      "drug": "Venetoclax (Venclexta)",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=28",
+      "pdfPages": [
+        28,
+        64,
+        96
+      ],
+      "sourceStage": "Initial study described retrospectively; later IND 110159 amendments/partial hold 2011–2013",
+      "sourceFacts": [
+        "Nonclinical-based early doses were followed by tumor lysis. Protocol amendments lowered starting dose, extended ramp-up and added stratification, prophylaxis, hospitalization and lab monitoring; partial hold later lifted."
+      ],
+      "interpretationForLesson": "A first-dose rationale is provisional. Interpret improvement as a package of changes, not proof of one causal component.",
+      "limitations": [
+        "Historical dosing, not prescribing advice. Cross-trial TLS comparisons were sponsor analyses, not independently verified by the clinical reviewer."
+      ],
+      "sourceAuthority": "FDA clinical review of study and amendment history",
+      "verificationStatus": "critical passages reread, not entire application reviewed",
+      "sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+          "pdfPages": [
+            28,
+            64,
+            96
+          ],
+          "localTextOrPdf": "/tmp/ind-review-library/venetoclax-clinical.pdf",
+          "sha256": "c86381c19048b9417f21fcbe12bb65a3c7245954ac778536fafe429e4f32a2d4",
+          "verificationMethod": "original cached PDF reread",
+          "pageEvidence": [
+            {
+              "pdfPage": 28,
+              "text": "Clinical Review Lori A. Ehrlich NDA 208573 Venclexta® (Venetoclax) CDER Clinical Review Template 2015 Edition 27 Version date: June 25, 2015 for initial rollout (NME/original BLA reviews) 3 Regulatory Background 3.1. U.S. Regulatory Actions and Marketing History Venetoclax is a new molecular entity (NME) and is not currently marketed in the United States. 3.2. Summary of Presubmission/Submission Regulatory Activity The trials for the treatment of patients with relapsed/refractory CLL were conducted under IND 110159, which was opened in the US on November 28, 2010. Due to tumor lysis syndrome resulting in deaths and renal failure requiring dialysis, the IND was placed on partial clinical hold on enrollment for studies in CLL on December 17, 2012. The hold was removed on May 3, 2013 after implementation of risk stratification and prophylaxis for TLS. FDA granted Orphan Drug Designation (Designation #12-3756) to AbbVie on September 20, 2012 for venetoclax for the treatment of chronic lymphocytic leukemia. At the End of Phase 2 meeting on July 2, 2014, FDA and AbbVie discussed and agreed up on the appropriate sample size for an initial registrational trial under accelerated approval for the treatment of patients with R/R CLL with 17p del. The primary efficacy endpoint of the phase 2 trial (M13-982) to be used for registration was after the first 70 patients, but FDA recommended at least 100 patients for a single arm trial for efficacy evaluation. At the EOP2 meeting, FDA also agreed that the Phase 3 study GO28667 (MURANO) could be used to confirm the clinical benefit of venetoclax assuming it first receives accelerated approval. FDA granted Breakthrough Therapy designation on April 27, 2015 to venetoclax for the treatment of patients with relapsed/refractory CLL who harbor the 17p deletion cytogenetic abnormality. This NDA was submitted under a rolling submission. The application qualified for this due to receiving Breakthrough Therapy designation. The initial part was submitted on September 15, 2015 and consisted of Quality and Nonclinical modules. The second part was submitted on October 29, 2015 and consisted of Clinical and the final Nonclinical modules. The Applicant requested Priority Review with the submission of the final portion of the NDA. FDA granted priority review December 23, 2015. 3.3. Foreign Regulatory Actions and Marketing History Venetoclax is not currently available in any foreign markets. Reference ID: 3901920 "
+            },
+            {
+              "pdfPage": 64,
+              "text": "Clinical Review Lori A. Ehrlich NDA 208573 Venclexta® (Venetoclax) CDER Clinical Review Template 2015 Edition 63 Version date: June 25, 2015 for initial rollout (NME/original BLA reviews) Dose selection: The initial start dose in Cohort 1 for the CLL/SLL arm was 200 mg based on pharmacology/toxicology studies in mice and dogs. The recommended phase 2 dose for patients with R/R CLL was determined in this study to be a target dose of 400 mg, and patients in the expansion cohort were enrolled at this target dose. Additional information on dose selection is provided in Section 7.1.4. Study treatments: The first three patients were treated at 100 mg or 200 mg of venetoclax. Following events of tumor lysis, the starting dose was lowered to 50 mg and a ramp-up schedule was established as shown in Figure 5. The starting dose was later lowered to 20 mg. After the clinical hold due to fatal events of tumor lysis, the ramp-up period was extended to 5 weeks, initially with a single test dose of 20 mg and finally with the recommended schedule of 20 mg for one week with a 5 week ramp up period as described in trial M13-982 above, see Figure 2 above. Each dose is taken with approximately 240 mL of water within 30 minutes of a standard, low-fat breakfast. Tumor lysis syndrome (TLS) risk stratification and prophylaxis guidelines were provided in this protocol. TLS is discussed in further detail in Section 8.5.1. Figure 5: Dosing schedule for the dose escalation in study M12-175 DCD = designated cohort dose. Modified from figure provided by Applicant. Intra-subject dose escalation was allowed after at least 12 weeks at the assigned designated cohort dose. Dose modification, dose discontinuation: The dose modification and discontinuation guidelines were the same as in study M13-982, see Section 6.1.1 Administrative structure: Tumor response and disease progression assessments were made by individual investigators. An Independent Review Committee (IRC) reviewed the data for final determination of response or progression for patients who were assigned to a target dose of 400 mg. The IRC reviewed ORR, CR rate, PR rate, DOR, duration of PFS, and TTP. The results from the IRC were not shared with the investigators. Reference ID: 3901920 "
+            },
+            {
+              "pdfPage": 96,
+              "text": "Clinical Review Lori A. Ehrlich NDA 208573 Venclexta® (Venetoclax) CDER Clinical Review Template 2015 Edition 96 Version date: June 25, 2015 for initial rollout (NME/original BLA reviews) 8.5.1. Tumor Lysis Syndrome The first three patients enrolled on the phase 1 study, M12-175, experienced laboratory tumor lysis after the first dose of venetoclax at 100 mg or 200 mg. The protocol was amended (Amendment 3, July 19, 2011) to lower the starting dose to 50 mg and to establish a 2- to 3- week ramp-up period with a maximum designated cohort dose of 1200 mg. Oral hydration and uric acid reducers were also introduced. Amendment 5 of M12-175 (April 27, 2012) added mandatory hospitalization for Day 1 and more stringent TLS prophylaxis. In December 2012, 2 fatal events and 1 event of renal failure requiring dialysis occurred from TLS in patients with high tumor burden. Patient in study M13-365 (Phase 1b study of venetoclax + rituximab in R/R CLL/SLL) died from TLS within 24 hours of the first dose of 50 mg. Patient in M12-175 died from TLS within 48 hours of dose escalation to 1200 mg. Patient n study M12-175 had acute renal failure requiring dialysis after the first dose of 50 mg without appropriate prophylaxis. These events resulted in a Sponsor-initiated partial clinical hold with no enrollment of new subjects and reduction in the dose of venetoclax to 600 mg for existing subjects. In May 2013, the partial clinical hold was removed under Amendment 8 for M12-175 and Amendment 2 for M13-982 which lengthened the ramp-up dosing period to be over 5 weeks, starting with a single test dose of 20 mg and with a final target dose of 400 mg. The amendments provided enhanced monitoring and TLS prophylaxis measures including oral and IV hydration, a uric acid reducing agent, and hospitalization for the first doses at 20 mg and 50 mg with intensive laboratory monitoring in all patients. TLS risk categories based on disease bulk were introduced under the amendments.  Low risk: requires all lymph nodes all <5 cm AND ALC <25 x109/L.  Medium risk: any LN ≥5 cm to <10 cm OR ALC ≥25 x109/L.  High risk: any LN ≥10 cm OR ALC ≥25 x109/L AND any LN ≥5 cm. 58 subjects with R/R CLL treated with venetoclax monotherapy at 400 mg were enrolled under these amendments. Laboratory monitoring:  72 hours prior to first dose, correct as needed  Hour 0 (pre-dose), 8, and 24 hours of first dose at each dose level for low and medium risk patients  Hour 0 (pre-dose), 4, 8, 12, and 24 hours of first dose at each dose level for high risk patients  Aggressive correction of electrolyte abnormalities at any time point  Give next dose only when electrolytes have been stable without treatment for at least 24 hours Reference ID: 3901920 (b) (6) (b) (6) (b) (6) "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance": [
+    {
+      "id": "protocol",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23",
+      "section": "312.23(a)(6)",
+      "status": "regulation",
+      "scope": "Protocol objectives, selection, dose determination and maximum, exposure duration, measures and risk minimization."
+    },
+    {
+      "id": "mrsd",
+      "url": "https://www.fda.gov/files/drugs/published/Estimating-the-Maximum-Safe-Starting-Dose-in-Initial-Clinical-Trials-for-Therapeutics-in-Adult-Healthy-Volunteers.pdf",
+      "pdfPages": [
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "final FDA guidance2005; recommendations, not independently binding",
+      "scope": "Adult healthy volunteers, primarily systemic exposure; does not address dose escalation or maximum allowable trial dose."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.fda.gov/media/73161/download",
+      "pdfPages": [
+        5,
+        7,
+        9,
+        12
+      ],
+      "status": "final FDA ICH guidance2010",
+      "scope": "Advanced cancer, limited therapeutic options; not healthy volunteers or all cancer contexts."
+    },
+    {
+      "id": "qsp-mabel",
+      "url": "https://www.fda.gov/media/193230/download",
+      "pdfPages": [
+        4,
+        5,
+        6,
+        7,
+        11,
+        12
+      ],
+      "status": "June2026 DRAFT, not for implementation",
+      "scope": "Appropriate QSP use for products where MABEL is recommended; not a blanket replacement of toxicity evidence."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "frozenUTC": "2026-09-17T15:05:47.096478+00:00",
+  "sha256": {
+    "dispositions.json": "3a8952f99075816bc106dffb12ec7fcb87206da23f69f59021731a345a21f3e4",
+    "summary.json": "a40f55acdc07fcc1f40aaefb3780e33aa1e732dbe29b4c57864f9cb56846b336",
+    "cmc-controls-documents.json": "945524119480f09df36b76a7d9187894b245c4bfc20e8b6ceb5c770e9bf08cf3",
+    "nonclinical-package-documents.json": "98532abd0be0ab4b47fd4acf0bcfc6efd02c07989ac8f2d08396853b53b50821",
+    "nonclinical-pkpd.jsonl": "6fc81074d5109b2967d12b6906d3d70738facca6760f43e18cc3d8a867338cb6",
+    "clinical-dose.jsonl": "049a3671c956f7f5531687a1888d4e37e06ea569b34c6c22d11fd950f20ca371",
+    "clinical-documents.json": "dc3fc79b8eb654636efd2e03829b7223fd9244cf69f884e5d77487c0b6b683ae",
+    "nonclinical-pkpd-documents.json": "3620252c02e750d7556833a23beca754aba6690987d64844d8c6c73118ab26d5",
+    "nonclinical-safety.jsonl": "9c92a37b31144e37bff61c24ee5f3775ee8ae60d4d68bd755975c9807002af2a",
+    "nonclinical-safety-documents.json": "da28ba9a47405488d101d416046d1b80cec929d23a10647a5ce537e23c6702c5",
+    "snapshot.json": "2c77bf67ac8fd37693a411be22d8a92b7ec00d29cb91caacb39f60d339aed265",
+    "clinical-dose-documents.json": "f031ea0c7d242bb5a47cdb437eb23b317b2fc4b2652ced01cc3e8186aa4a04f3",
+    "cmc-stability-documents.json": "e5b3d028e005d644cc33dfed80b75264719c3020e55cc647645403af5723ac14",
+    "rules.json": "e3a5ce87d28659b7f8f767d3aa05c339968b1099d7be17e8f5947263bbef7d4f",
+    "cmc-material.jsonl": "65c698dc6c5c574b7bf4d130a62157334845382f20fe416b0d13bc583dab166f",
+    "cmc-material-documents.json": "506c3b8f191e82e9cfebecfa190c29ccfb24aab90448edca5a079ab959c8d7d5",
+    "nonclinical-package.jsonl": "0e5bbae10e2aeac502b6ceb803a99e0e121b7a58abc56cd2951c3a436f18254b",
+    "cmc-controls.jsonl": "e79ea2cfeb0339cbc44c105a012642b6c6c2da8806d5fbdb9b0abc2163eb6321",
+    "cmc-stability.jsonl": "cc72522c3718819dc51a422e37da29867c49bc80701176f3933076e753d7ef91",
+    "clinical.jsonl": "b5e50191d699cd88db89d0c7ce3454f96c61679dd9193f50594d0b47a888b7da"
+  }
+}

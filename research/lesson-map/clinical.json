@@ -1,0 +1,281 @@
+[
+  {
+    "id": "clinical-dose-boundary",
+    "recordId": "ivacaftor",
+    "drug": "Ivacaftor",
+    "lessonId": "clinical-dose",
+    "secondaryLessonIds": [
+      "nonclinical-package",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122",
+    "pdfPages": [
+      122
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "The proposed 25 mg starting dose had a reported 76–79-fold body-surface-area margin; the proposed 800 mg maximum had about a twofold margin. Target organs were not identified in the 14-day rat and dog studies. The reviewer accepted a modified 500 mg maximum.",
+    "decisionOrQuestion": "Separate justification of the starting dose from justification of the upper escalation limit.",
+    "teachingUse": "Main worked example: a reassuring starting margin does not settle the maximum dose.",
+    "limitation": "Historical methods and numbers are specific to this case. The review does not reconstruct every sponsor exchange.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-escalation-review",
+    "recordId": "faricimab",
+    "drug": "Faricimab",
+    "lessonId": "clinical-dose",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15",
+    "pdfPages": [
+      15,
+      26
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "Animal evidence supported the 0.5 mg/eye starting dose but not the 6 mg/eye high dose because of severe ocular inflammation. FDA would review lower-dose human findings before higher dosing.",
+    "decisionOrQuestion": "Can a supported starting dose coexist with an unsupported high dose?",
+    "teachingUse": "Biologics comparison: unresolved inflammation changes the oversight of escalation.",
+    "limitation": "The retrospective BLA summary quotes the initial IND review. Internally inconsistent calendar dates limit exact reconstruction of submission timing.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-protocol-response",
+    "recordId": "faricimab",
+    "drug": "Faricimab",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "clinical-dose",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15",
+    "pdfPages": [
+      15,
+      26
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "FDA recommended adjusting the protocol to address ocular inflammation and reviewing lower-dose findings before higher doses.",
+    "decisionOrQuestion": "Turn a nonclinical concern into a clinical-study condition.",
+    "teachingUse": "Connect safety interpretation to explicit cohort review.",
+    "limitation": "This is not a universal biologics dosing rule. The full protocol is not reproduced.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-combined-protocol",
+    "recordId": "futibatinib",
+    "drug": "Futibatinib",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "clinical-dose",
+      "cmc-material"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=35",
+    "pdfPages": [
+      35,
+      37
+    ],
+    "sourceStage": "initial IND and later hold resolution",
+    "evidenceSummary": "The initial combined Phase 1/2 IND was placed on partial hold for Phase 2, with product-quality and clinical concerns involving the 20 mg strength. The later response included safety findings from 102 patients, activity findings from 23 patients with cholangiocarcinoma, and an expansion-dose rationale. The hold was lifted on November 3, 2017.",
+    "decisionOrQuestion": "What supports each portion of a combined protocol?",
+    "teachingUse": "Main worked example: describing a future phase in a protocol does not establish readiness to begin it.",
+    "limitation": "This is a later FDA assessment of the initial hold and its resolution, not the complete hold letter or sponsor response.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-complete-study",
+    "recordId": "paxlovid",
+    "drug": "Nirmatrelvir / ritonavir",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "cmc-material",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000IntegratedR.pdf#page=183",
+    "pdfPages": [
+      183
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "The January 25, 2021 initial full hold concerned an absent protocol, insufficient CMC information, missing investigator information, and a missing investigator’s brochure. A February 3 response preceded hold removal on February 23.",
+    "decisionOrQuestion": "Does the package allow FDA to assess participant risk and actual study conduct?",
+    "teachingUse": "Cross-link to Part 4 submission readiness: a promising molecule alone is insufficient.",
+    "limitation": "Retrospective history, not the full letter; missing information does not establish molecular toxicity.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-initial-bridge",
+    "recordId": "halobetasol",
+    "drug": "Halobetasol propionate lotion",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "cmc-material",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf#page=103",
+    "pdfPages": [
+      103,
+      104
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "Prior topical-drug knowledge, rabbit irritation findings, and a spectral scan were accepted to begin a single-dose vasoconstrictor-assay study in healthy volunteers. An adequate clinical bridge was a condition of later reliance on an approved formulation.",
+    "decisionOrQuestion": "How can existing knowledge and formulation-specific work support a first study?",
+    "teachingUse": "Contrast with a new molecular entity and explain staged clinical bridging.",
+    "limitation": "This is a 505(b)(2) reformulation. Later-phase recommendations must not be presented as initial-IND requirements.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-question-design",
+    "recordId": "oteseconazole",
+    "drug": "Oteseconazole",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf#page=127",
+    "pdfPages": [
+      127
+    ],
+    "sourceStage": "initial IND and later Phase2 advice",
+    "evidenceSummary": "The 2011 initial IND described a single-dose safety, tolerability, and PK study in healthy adults. A later Phase 2a protocol was considered exploratory, with more rigorous statistical testing needed for a definitive trial.",
+    "decisionOrQuestion": "Which question can this design answer?",
+    "teachingUse": "Contrast early learning with later confirmatory evidence.",
+    "limitation": "Redactions omit several design comments. The later exploratory-study judgment does not describe the initial study’s safety.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-duration-support",
+    "recordId": "baricitinib",
+    "drug": "Baricitinib",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "nonclinical-package",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=248",
+    "pdfPages": [
+      248,
+      249
+    ],
+    "sourceStage": "later IND amendment",
+    "evidenceSummary": "The 2009 IND memorandum found that six-month rat and dog studies supported the proposed three-month study plus three additional months of dosing up to 10 mg daily. They did not yet support a chronic marketing indication. Reversibility, clinical monitoring, and toxicokinetics contributed to the assessment.",
+    "decisionOrQuestion": "Which study duration and conditions does the evidence support?",
+    "teachingUse": "Distinguish support for a finite clinical study from support for a chronic marketing indication.",
+    "limitation": "Historical study durations and margins are not universal current rules; this was not the original first human study.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-monitorable-exposure",
+    "recordId": "baricitinib",
+    "drug": "Baricitinib",
+    "lessonId": "clinical-dose",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=248",
+    "pdfPages": [
+      248,
+      249
+    ],
+    "sourceStage": "later IND amendment with initial-IND summary",
+    "evidenceSummary": "The memorandum recalled initial clinical-dose and exposure limitations, then assessed unbound exposure and reversible, clinically monitorable effects to support a later patient study.",
+    "decisionOrQuestion": "How can exposure, hazard interpretation, and monitoring jointly inform dosing?",
+    "teachingUse": "Advanced comparison after the starting-dose foundation.",
+    "limitation": "A historical LOAEL margin near one must not be presented as a generally acceptable threshold. Existing human experience and the specific context matter.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-population-benefit",
+    "recordId": "cemiplimab",
+    "drug": "Cemiplimab",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "nonclinical-pharmacology"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/761097Orig1s000OtherR.pdf#page=13",
+    "pdfPages": [
+      13,
+      14
+    ],
+    "sourceStage": "later program / indication-specific pre-IND advice",
+    "evidenceSummary": "Later pre-IND advice for cutaneous squamous-cell carcinoma distinguished locally advanced and metastatic populations, multidisciplinary eligibility assessment, prior-treatment subgroups, and the meaning and duration of response.",
+    "decisionOrQuestion": "How do population and intended clinical benefit change study design?",
+    "teachingUse": "Advanced patient-selection comparison: the meaning of tumor shrinkage depends on the clinical question.",
+    "limitation": "A breakthrough-designation review recounts advice after an earlier first-in-human study; it is not the program’s original IND review.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-staged-duration",
+    "recordId": "minocycline",
+    "drug": "Minocycline hydrochloride foam",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=147",
+    "pdfPages": [
+      147,
+      148
+    ],
+    "sourceStage": "later IND / end of Phase2",
+    "evidenceSummary": "The end-of-Phase-2 record accepted a 12-week dermal toxicity study to support a 12-week Phase 3 trial. It also described a longer animal study and conditional support for a clinical extension while work continued.",
+    "decisionOrQuestion": "How does extending human exposure change the evidence needed?",
+    "teachingUse": "Connect a duration decision to the nonclinical work plan.",
+    "limitation": "A later-phase example with redactions; neither a first-dose package nor a universal rule for ongoing-study support.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-protocol-learning",
+    "recordId": "venetoclax",
+    "drug": "Venetoclax",
+    "lessonId": "clinical",
+    "secondaryLessonIds": [
+      "clinical-dose",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=28",
+    "pdfPages": [
+      28,
+      64,
+      96,
+      97,
+      98
+    ],
+    "sourceStage": "later IND / clinical amendments",
+    "evidenceSummary": "Clinical tumor lysis findings prompted changes in the starting dose, ramp-up, risk stratification, prophylaxis, and laboratory monitoring. The partial hold was lifted after protocol changes.",
+    "decisionOrQuestion": "How does emerging human safety evidence change the operating plan?",
+    "teachingUse": "Optional later-stage example of protocol revision; show the decision process rather than a prescribing algorithm.",
+    "limitation": "These events followed initial human dosing. The cross-trial tumor lysis analysis was sponsor-provided and was not independently verified by the clinical reviewer.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "clinical-escalation-learning",
+    "recordId": "venetoclax",
+    "drug": "Venetoclax",
+    "lessonId": "clinical-dose",
+    "secondaryLessonIds": [
+      "clinical"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=64",
+    "pdfPages": [
+      64,
+      96
+    ],
+    "sourceStage": "later IND / clinical amendments",
+    "evidenceSummary": "Tumor lysis occurred with initial dosing and later escalation. A lower starting dose and longer ramp-up were introduced together with prophylaxis and monitoring.",
+    "decisionOrQuestion": "Why should dose and schedule respond to emerging evidence?",
+    "teachingUse": "Counterpoint to ivacaftor: a nonclinical justification does not remove the need to learn from human findings.",
+    "limitation": "Historical regimens are not current prescribing guidance. Do not attribute all improvement to one component of the protocol changes.",
+    "verificationMethod": "Read cited PDF pages using pypdf text extraction; selected passages, not complete application",
+    "confidence": "verified passage"
+  }
+]

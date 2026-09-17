@@ -1,0 +1,695 @@
+[
+  {
+    "id": "cmc-material",
+    "category": "cmc",
+    "title": "Define the drug people will receive",
+    "goal": "Decide whether the evidence behind one material supports the product proposed for people.",
+    "concept": "A molecule becomes an investigational product through choices about its chemical form, ingredients, strength and delivery. Make those choices explicit, then ask whether the material used to establish safety represents the material in the proposed trial.",
+    "takeaway": "An evidence bridge starts by naming the difference it must explain.",
+    "evidenceGuide": {
+      "steps": [
+        {
+          "label": "Name the material",
+          "question": "What, precisely, will a participant receive?",
+          "evidence": "Start with the active ingredient and the form actually supplied. Then identify the formulation, strength, route, relevant package and delivery system. Keep the active dose distinct from total product mass and state the basis used for any comparison. This is a working definition for the planned trial: it need not pretend to be the final marketed formulation. Record what is known, which alternatives remain possible, and which version appears in each study. Otherwise two teams can discuss the same drug name while relying on different materials.",
+          "decision": "Produce one material definition that the CMC, nonclinical and clinical teams can use without translating competing names or dose conventions.",
+          "outputLabel": "A product definition for this trial",
+          "sources": [
+            2,
+            3
+          ],
+          "flow": [
+            {
+              "title": "Substance",
+              "detail": "Identity and chemical form"
+            },
+            {
+              "title": "Product",
+              "detail": "Ingredients, strength and formulation"
+            },
+            {
+              "title": "Administration",
+              "detail": "Route, package and delivery"
+            }
+          ]
+        },
+        {
+          "label": "Compare the evidence materials",
+          "question": "Which differences could change the interpretation of a supporting study?",
+          "evidence": "Place the nonclinical material and proposed clinical material side by side. Compare the active form, formulation ingredients, impurity profile and relevant delivery conditions. A difference is a question to assess, not an automatic demand to repeat everything. Identify the specific consequence that could matter: altered exposure, a changed local environment, a different impurity or a delivery difference. An excipient used only in an animal study can change exposure or tolerability and therefore the relevance of that study to people. Identify what comparison would address the concern.",
+          "decision": "Classify each difference as supported, unresolved or requiring a focused comparison, and explain the evidence needed to move it.",
+          "outputLabel": "A material comparison with open questions",
+          "sources": [
+            2
+          ],
+          "table": {
+            "columns": [
+              "Comparison",
+              "Evidence to place beside it"
+            ],
+            "rows": [
+              [
+                "Chemical form and ingredients",
+                "What changed, and which studies used each version?"
+              ],
+              [
+                "Impurity or delivery difference",
+                "What risk or performance question could change?"
+              ],
+              [
+                "Exposure relevance",
+                "Does existing evidence address that particular difference?"
+              ]
+            ]
+          }
+        },
+        {
+          "label": "Decide what carries forward",
+          "question": "What would make the bridge convincing for this use?",
+          "evidence": "Choose evidence that addresses the difference you identified. Comparable PK across formulations can address an exposure question without making every property of the products identical. A bridge may support an immediate study while leaving another question to resolve before longer treatment. State the proposed use, the evidence that applies and the remaining uncertainty in the same conclusion. If the formulation changes again, revisit the affected parts of the argument.",
+          "decision": "Carry forward supported findings, request a targeted bridge where needed, and tell the nonclinical and clinical teams exactly which material each conclusion covers.",
+          "outputLabel": "A justified bridge, with a clear boundary",
+          "sources": [],
+          "flow": [
+            {
+              "title": "Difference",
+              "detail": "Name the possible consequence"
+            },
+            {
+              "title": "Comparison",
+              "detail": "Select evidence that can resolve it"
+            },
+            {
+              "title": "Conclusion",
+              "detail": "State what applies and what remains open"
+            }
+          ]
+        }
+      ],
+      "case": {
+        "title": "Suvorexant: the first trial could proceed, and the formulation question remained.",
+        "stage": "Initial IND in 2008; later IND follow-up in 2009",
+        "intro": "The FDA review preserves a distinction that is easy to lose: adequate support for an immediate trial did not settle the relevance of every later study using the same nonclinical vehicle.",
+        "rows": [
+          {
+            "label": "Initial support",
+            "value": "One-month oral rat and dog studies supported the proposed first trial.",
+            "status": "REPORTED"
+          },
+          {
+            "label": "Unresolved difference",
+            "value": "The animal formulation contained an excipient absent from the clinical formulation.",
+            "status": "REPORTED"
+          },
+          {
+            "label": "Later consequence",
+            "value": "Formulation suitability returned in later study discussions.",
+            "status": "REPORTED"
+          }
+        ],
+        "sources": [
+          0
+        ],
+        "limit": "This is a retrospective FDA account of the initial IND and later discussions. Excipient identity and formulation details are redacted. The later repeat studies are not a universal first-in-human requirement.",
+        "decisionReview": {
+          "context": [
+            {
+              "label": "Source",
+              "value": "2014 FDA pharmacology/toxicology review, PDF 34"
+            },
+            {
+              "label": "Immediate decision",
+              "value": "Support for the first clinical trial"
+            },
+            {
+              "label": "Later decision",
+              "value": "Relevance of longer-term studies"
+            }
+          ],
+          "proposal": "Use the submitted rat and dog toxicity studies to support the first clinical trial, although the animal and human formulations differed.",
+          "evidenceTable": {
+            "columns": [
+              "Evidence",
+              "What it establishes",
+              "What it leaves open"
+            ],
+            "rows": [
+              [
+                "One-month rat and dog studies",
+                "FDA considered them adequate for the initial trial.",
+                "Whether the excipient affected the relevance of later animal safety findings."
+              ],
+              [
+                "Nonclinical versus clinical formulation",
+                "The clinical formulation did not contain the excipient at issue.",
+                "The excipient identity and full composition are not public."
+              ],
+              [
+                "Later development discussions",
+                "FDA sought suitable formulations or a justification for retaining the earlier one.",
+                "The page does not provide a complete quantitative bridge."
+              ]
+            ]
+          },
+          "concern": "The nonclinical excipient might affect suvorexant’s animal safety profile and reduce the relevance of those results to humans.",
+          "response": "In later development, the sponsor undertook additional general and reproductive toxicity work with another formulation; FDA also requested justification where the earlier formulation was retained.",
+          "outcome": "The initial studies supported the first trial. The formulation concern continued into later development and additional work.",
+          "unresolved": "Public readers cannot identify the hidden excipient or reconstruct the complete bridging rationale."
+        }
+      },
+      "terms": [
+        {
+          "term": "Drug substance",
+          "definition": "The active ingredient material used to formulate the product."
+        },
+        {
+          "term": "Drug product",
+          "definition": "The dosage form prepared for administration."
+        },
+        {
+          "term": "Bridging",
+          "definition": "Evidence used to assess whether findings with one material or formulation support another."
+        }
+      ],
+      "scope": "The bridge is specific to the material difference and proposed use. A first clinical formulation may evolve; each change needs an assessment of which existing conclusions still apply.",
+      "kind": "decision",
+      "handoff": {
+        "lesson": "nonclinical-package",
+        "label": "Carry the material comparison into the evidence package",
+        "text": "Identify the formulation and batch behind each safety conclusion. Return any unresolved relevance question to CMC before treating the study as support for the proposed product."
+      }
+    },
+    "question": {
+      "title": "Does permission to start settle the bridge?",
+      "prompt": "FDA considers the initial toxicity studies adequate for a first trial but raises concern about an excipient absent from the clinical formulation. What should the team conclude?",
+      "options": [
+        [
+          "The first-trial decision and the continuing formulation question both need to be preserved.",
+          "Correct. The permitted use is bounded; later evidence may need a stronger formulation bridge.",
+          true
+        ],
+        [
+          "All future studies with that vehicle are now accepted.",
+          "The initial trial decision does not settle every later use of the formulation.",
+          false
+        ],
+        [
+          "Every completed study must automatically be repeated.",
+          "A difference calls for a reasoned assessment; the appropriate response depends on the evidence and proposed use.",
+          false
+        ]
+      ],
+      "hint": "Separate the immediate decision from the unresolved scientific question."
+    },
+    "sources": [
+      {
+        "label": "FDA suvorexant review: initial-IND formulation concern and later follow-up, PDF 34",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34"
+      },
+      {
+        "label": "FDA ivacaftor original-IND review: formulation comparison in dog PK, PDF 90",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=90"
+      },
+      {
+        "label": "FDA IND CMC overview: product identity and differences from animal-study material",
+        "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+      },
+      {
+        "label": "FDA first-in-human small-molecule CMC: early formulation flexibility, PDF 4",
+        "url": "https://www.fda.gov/media/193163/download?attachment=#page=4"
+      }
+    ],
+    "sourceChecked": "16 September 2026"
+  },
+  {
+    "id": "cmc-controls",
+    "category": "cmc",
+    "title": "Make and control consistent material",
+    "goal": "Connect process and batch evidence to controls justified for the planned exposure.",
+    "concept": "Making the intended material once is only part of the question. Explain where the process can introduce relevant differences, how they are measured, and why the proposed acceptance criteria support the trial.",
+    "takeaway": "A useful control links a measurable property to a decision about the material.",
+    "evidenceGuide": {
+      "steps": [
+        {
+          "label": "Trace the process",
+          "question": "Where could a material difference enter the evidence chain?",
+          "evidence": "Draw the route from preparation of the active ingredient to formulation, packaging and the batch intended for use. Mark the steps that can affect the product’s safety or interpretation. Then connect each supporting study to the material it used. This makes a process change visible as an evidence question: which earlier conclusions still represent the new material? Compare relevant attributes across process versions and study batches. The work should fit the development stage: a final commercial process and its full validation are not the starting expectation for an original Phase 1 small-molecule IND.",
+          "decision": "Identify the process and batch differences that need control or comparison before relying on previous results.",
+          "outputLabel": "A process diagram linked to study batches",
+          "sources": [
+            3,
+            4
+          ],
+          "flow": [
+            {
+              "title": "Preparation",
+              "detail": "Sources of relevant variability"
+            },
+            {
+              "title": "Formulation and packaging",
+              "detail": "Further material changes"
+            },
+            {
+              "title": "Study and clinical batches",
+              "detail": "Evidence tied to a specific version"
+            }
+          ]
+        },
+        {
+          "label": "Justify the limits",
+          "question": "Why is this measured result acceptable for this trial?",
+          "evidence": "For each important attribute, connect the test to an acceptance criterion and the reason behind it. For impurities, name the impurity where known, its amount, the resulting exposure and the evidence addressing its safety significance. Keep the proposed route and treatment duration in view. An impurity percentage needs to be connected to the administered dose and resulting exposure. Analytical and toxicological assessments work together; a limit for a short trial may not settle the question for longer treatment. Specifications can develop as knowledge grows.",
+          "decision": "Use criteria supported for the proposed exposure, and make any missing qualification evidence an explicit action.",
+          "outputLabel": "A control and impurity justification table",
+          "sources": [
+            3
+          ],
+          "table": {
+            "columns": [
+              "Control question",
+              "Evidence needed"
+            ],
+            "rows": [
+              [
+                "What is present?",
+                "Identity and impurity profile"
+              ],
+              [
+                "How much reaches the participant?",
+                "Measured amount linked to dose and use"
+              ],
+              [
+                "Why is that acceptable here?",
+                "Qualification evidence and treatment boundary"
+              ]
+            ]
+          }
+        },
+        {
+          "label": "Read results in context",
+          "question": "Do the actual material and its records support the proposed use?",
+          "evidence": "Compare the available batch evidence with the defined criteria, then check whether the batch and manufacturing history match the argument. An aggregate purity number cannot tell you whether the impurity profile stayed the same. Use batch-specific analytical results and, when needed, exposure or biological comparisons to assess the change. Keep the conclusion attached to the actual material and proposed use. Keep an unexpected profile or unresolved difference visible rather than allowing a passing headline value to answer a different question. The responsible quality process makes the disposition decision.",
+          "decision": "Document the supported use, investigate a material discrepancy, or obtain the evidence needed to resolve it before use.",
+          "outputLabel": "A batch assessment with a recorded rationale",
+          "sources": [],
+          "flow": [
+            {
+              "title": "Results",
+              "detail": "What was actually measured?"
+            },
+            {
+              "title": "Applicability",
+              "detail": "Does this batch match the evidence?"
+            },
+            {
+              "title": "Disposition",
+              "detail": "Use the responsible quality process"
+            }
+          ]
+        }
+      ],
+      "case": {
+        "title": "Glycopyrrolate: an impurity limit needed a clinical-use argument.",
+        "stage": "Initial IND, 2011; proposed 14-day Phase 2 inhalation study",
+        "intro": "The actual initial-IND memo shows CMC and nonclinical reviewers joining the analytical result to the planned human exposure.",
+        "rows": [
+          {
+            "label": "CMC request",
+            "value": "Clarify related-substance acceptance criteria and assay/impurity profiles.",
+            "status": "REPORTED"
+          },
+          {
+            "label": "Evidence reviewed",
+            "value": "Sponsor response and clinical-lot impurity analyses.",
+            "status": "REPORTED"
+          },
+          {
+            "label": "Conclusion",
+            "value": "No additional nonclinical impurity qualification for the proposed 14-day study.",
+            "status": "REPORTED"
+          }
+        ],
+        "sources": [
+          0,
+          1
+        ],
+        "limit": "This is a pharmacology/toxicology consult, not the complete CMC review or a batch-release authorization. Quantitative specifications and much of the analytical support are redacted. Historical impurity descriptions are not current universal classifications.",
+        "decisionReview": {
+          "context": [
+            {
+              "label": "Application",
+              "value": "IND 110663"
+            },
+            {
+              "label": "CMC request",
+              "value": "May 4, 2011, during the 30-day review"
+            },
+            {
+              "label": "Memo",
+              "value": "June 14, 2011"
+            }
+          ],
+          "proposal": "Support the proposed inhalation trial with the product’s impurity specifications and analytical information.",
+          "evidenceTable": {
+            "columns": [
+              "Review element",
+              "Public finding",
+              "Decision relevance"
+            ],
+            "rows": [
+              [
+                "Related-substance limits",
+                "CMC requested clarification of the proposed criteria.",
+                "A specification needed a reasoned basis."
+              ],
+              [
+                "Clinical-lot analyses",
+                "The memo reports levels below the specified limits.",
+                "The assessment used actual lot information."
+              ],
+              [
+                "Dose and duration",
+                "The conclusion is attached to the proposed 14-day study.",
+                "Qualification was bounded by the intended exposure."
+              ],
+              [
+                "Later use",
+                "The memo distinguishes NDA or longer-duration expectations.",
+                "The early conclusion did not close every future question."
+              ]
+            ]
+          },
+          "concern": "The CMC reviewer needed enough information to assess impurity acceptance criteria and stability through nebulization.",
+          "response": "The sponsor responded on May 11; the CMC reviewer requested a toxicology evaluation, which considered the impurity data and proposed human exposure.",
+          "outcome": "The consult found no additional nonclinical impurity qualification was needed at the submitted specifications for the proposed 14-day study.",
+          "unresolved": "The public PDF does not expose the complete specification table, methods, numerical results or final CMC disposition."
+        }
+      },
+      "terms": [
+        {
+          "term": "Specification",
+          "definition": "Tests, methods, and acceptance criteria used to assess quality."
+        },
+        {
+          "term": "Assay",
+          "definition": "A measurement of active content; it is distinct from a chromatographic purity percentage."
+        },
+        {
+          "term": "Dissolution",
+          "definition": "Measurement of drug entering solution from a dosage form."
+        },
+        {
+          "term": "CGMP",
+          "definition": "Current good manufacturing practice; manufacturing controls are appropriate to the development stage."
+        }
+      ],
+      "scope": "Controls are product- and stage-specific. Original FIH Phase 1 small-molecule expectations allow an evolving process and specifications; a commercial control strategy should not be copied into the starting package.",
+      "kind": "decision",
+      "handoff": {
+        "lesson": "cmc-stability",
+        "label": "Follow those attributes through time and administration",
+        "text": "Carry the identity, impurity and performance questions into the storage and in-use plan. A suitable release result is the starting observation, not the end of the evidence."
+      }
+    },
+    "question": {
+      "title": "Does matching purity settle the question?",
+      "prompt": "A changed synthesis gives the same overall chromatographic purity but introduces a different impurity. What is the sound next step?",
+      "options": [
+        [
+          "Assess the new impurity and the process change before deciding whether the material is supported.",
+          "Correct. Consider identity, amount, safety significance, existing qualification, and appropriate controls.",
+          true
+        ],
+        [
+          "Release the batch because the total purity is unchanged.",
+          "The same aggregate purity can conceal a different risk.",
+          false
+        ],
+        [
+          "Ignore the impurity if the active compound is potent.",
+          "Biological potency does not qualify an impurity.",
+          false
+        ]
+      ],
+      "hint": "The identity of the impurity matters, not just the total area."
+    },
+    "sources": [
+      {
+        "label": "FDA glycopyrrolate initial-IND memo: CMC request and impurity assessment, PDF 70",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70"
+      },
+      {
+        "label": "FDA glycopyrrolate initial-IND memo: study-specific conclusion, PDF 75",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=75"
+      },
+      {
+        "label": "FDA osimertinib review: batches from different processes, PDF 121–122",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=121"
+      },
+      {
+        "label": "FDA original FIH small-molecule CMC: process, batch and specification flexibility",
+        "url": "https://www.fda.gov/media/193163/download?attachment="
+      },
+      {
+        "label": "FDA IND CMC overview: manufacturing and product control information",
+        "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-chemistry-manufacturing-and-control-cmc-information"
+      }
+    ],
+    "sourceChecked": "16 September 2026"
+  },
+  {
+    "id": "cmc-stability",
+    "category": "cmc",
+    "title": "Keep the product suitable through dosing",
+    "goal": "Define supported storage and use conditions, and determine what evidence a change requires.",
+    "concept": "The administered product has a history: manufacture, storage, packaging, preparation and delivery. Stability asks whether that history changes the qualities that matter for its intended use.",
+    "takeaway": "State the material, conditions and period whenever you state a stability conclusion.",
+    "evidenceGuide": {
+      "steps": [
+        {
+          "label": "Follow the product to the dose",
+          "question": "What conditions does the material actually experience?",
+          "evidence": "Start with the formulation and container identified in the previous lesson, then follow the material through storage, opening, preparation and administration. Add relevant temperature, light, dilution and device conditions to that route. The point is to describe actual use before choosing the evidence. A vial measurement may not answer what happens after the solution passes through a delivery device. The same reasoning applies when preparation introduces a different container or delivery component. Keep the clinical team’s planned timing and technique attached to the CMC question.",
+          "decision": "Define the stages and conditions for which product suitability needs support, including any period after preparation.",
+          "outputLabel": "A storage-to-dose route with sampling points",
+          "sources": [],
+          "flow": [
+            {
+              "title": "Stored material",
+              "detail": "Formulation, container and environment"
+            },
+            {
+              "title": "Prepared material",
+              "detail": "Opening, dilution or transfer"
+            },
+            {
+              "title": "Delivered dose",
+              "detail": "Device, timing and administration"
+            }
+          ]
+        },
+        {
+          "label": "Connect change to a consequence",
+          "question": "Which measurements tell us whether the product remains suitable?",
+          "evidence": "Carry forward the relevant attributes from the control strategy and ask how they could change along that route. The administered dose may require assay and impurity measurements after preparation or device delivery. Container interactions can introduce particles, adding a physical-quality question alongside chemical stability. Physical appearance, a chemical result and a clinical observation answer different parts of that problem. State what each result establishes and what it cannot establish alone. A plausible connection between a product change and a clinical observation still requires evidence of causation.",
+          "decision": "Use a set of measurements that addresses the proposed conditions and distinguish observed product change from an unresolved clinical explanation.",
+          "outputLabel": "An evidence-to-consequence matrix",
+          "sources": [],
+          "table": {
+            "columns": [
+              "Question",
+              "Evidence role"
+            ],
+            "rows": [
+              [
+                "Has the drug changed?",
+                "Assay and relevant degradation products"
+              ],
+              [
+                "Has the product or package changed?",
+                "Physical compatibility and relevant performance"
+              ],
+              [
+                "What does that mean for use?",
+                "Exposure, safety interpretation and handling conditions"
+              ]
+            ]
+          }
+        },
+        {
+          "label": "Set the boundary and revisit it",
+          "question": "What conditions can the team justify now?",
+          "evidence": "Turn the assessment into instructions that specify the material, packaging, conditions and permitted use. Also identify what new evidence will be reviewed as development continues. Early stability support and an ongoing plan can be proportionate to the proposed Phase 1 study; an established commercial shelf life is not the starting expectation. When formulation, packaging or administration changes, reassess applicability. For example, compatibility measurements from an earlier formulation do not automatically establish compatibility for its replacement. An old study may remain informative while failing to answer the new product-specific question.",
+          "decision": "Maintain supported conditions, justify the change with applicable evidence, or obtain the missing support before extending the conclusion.",
+          "outputLabel": "Handling instructions and a change-assessment plan",
+          "sources": [
+            5
+          ],
+          "flow": [
+            {
+              "title": "Current support",
+              "detail": "Named material and conditions"
+            },
+            {
+              "title": "Proposed change",
+              "detail": "Identify the affected evidence"
+            },
+            {
+              "title": "Next decision",
+              "detail": "Retain, justify or obtain support"
+            }
+          ]
+        }
+      ],
+      "case": {
+        "title": "Lenacapavir: the container became part of the safety question.",
+        "stage": "Later IND hold in 2021; NDA review and resubmission in 2022",
+        "intro": "The compiled FDA review shows the problem and the later resolution. Reading only the earlier negative assessment would leave the scientific and regulatory story unfinished.",
+        "rows": [
+          {
+            "label": "Observed product issue",
+            "value": "Borosilicate-vial incompatibility and glass particles.",
+            "status": "REPORTED"
+          },
+          {
+            "label": "Initial uncertainty",
+            "value": "Possible contribution to persistent injection-site effects required assessment.",
+            "status": "REPORTED"
+          },
+          {
+            "label": "Later outcome",
+            "value": "Additional evidence supported a favorable second-cycle assessment.",
+            "status": "REPORTED"
+          }
+        ],
+        "sources": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "limit": "This is a later-IND and NDA example, not a first-in-human stability checklist. The record does not establish that glass caused nodules, and the later review considered the drug depot a more likely explanation.",
+        "decisionReview": {
+          "context": [
+            {
+              "label": "Clinical development",
+              "value": "Supporting INDs placed on full hold in December 2021"
+            },
+            {
+              "label": "Marketing review",
+              "value": "Quality deficiencies led to a February 2022 complete response"
+            },
+            {
+              "label": "Later assessment",
+              "value": "Additional quality, nonclinical and clinical evidence reviewed after resubmission"
+            }
+          ],
+          "proposal": "Use lenacapavir injection in a vial presentation while supporting ongoing clinical use and a marketing application.",
+          "evidenceTable": {
+            "columns": [
+              "Evidence",
+              "Earlier question",
+              "Later assessment"
+            ],
+            "rows": [
+              [
+                "Vial compatibility",
+                "Borosilicate-vial degradation and particles raised a product-quality problem.",
+                "The resubmission addressed the quality deficiencies."
+              ],
+              [
+                "Alternative presentation",
+                "Supporting information did not adequately establish the alternative through expiry.",
+                "The later review accepted the product and its stability support."
+              ],
+              [
+                "Storage and preparation",
+                "Support needed to apply to the actual package and use conditions.",
+                "Photoprotection and in-use evidence informed handling instructions."
+              ],
+              [
+                "Persistent injection-site reactions",
+                "A contribution from particles could not initially be ruled out.",
+                "A later reviewer found the drug depot the more likely explanation."
+              ]
+            ]
+          },
+          "concern": "FDA lacked enough information to assess injection risk and the possible contribution of glass particles, including subvisible particles, to clinical effects.",
+          "response": "The sponsor resubmitted quality information together with additional nonclinical and longer-term clinical evidence. The second-cycle assessment addressed storage, light protection and in-use stability.",
+          "outcome": "The later review favored approval. Packaging and preparation instructions carried forward the supported conditions, while injection-site risks were addressed in labeling and follow-up.",
+          "unresolved": "Some technical details remain redacted. A favorable overall decision does not mean every clinical mechanism was proven or that the earlier concern was imaginary."
+        }
+      },
+      "terms": [
+        {
+          "term": "Stability",
+          "definition": "How product quality changes over time under specified conditions."
+        },
+        {
+          "term": "In-use stability",
+          "definition": "Support for the period after opening, reconstitution, dilution, or other preparation, where relevant."
+        }
+      ],
+      "scope": "The initial IND needs an evidence-based stability plan for its proposed use. Later commercial shelf-life decisions are useful examples of the reasoning, not required timelines for every early study.",
+      "kind": "decision",
+      "handoff": {
+        "lesson": "clinical",
+        "label": "Turn supported use into site instructions",
+        "text": "Carry the formulation, preparation, storage and administration boundaries into the clinical package. A new dilution, device or delay after preparation returns to CMC for assessment."
+      }
+    },
+    "question": {
+      "title": "Can we carry the old conclusion forward?",
+      "prompt": "The team changes the bottle and storage conditions. Existing stability data cover the earlier package and conditions. What should happen?",
+      "options": [
+        [
+          "Keep the same supported period because the molecular structure is unchanged.",
+          "Packaging and conditions can affect product quality even when the molecule is unchanged.",
+          false
+        ],
+        [
+          "Assess whether the existing data support the changes and obtain additional evidence where needed.",
+          "Correct. Carry forward supported conclusions, not assumptions about unchanged performance.",
+          true
+        ],
+        [
+          "Assume an earlier passing release test establishes stability for any storage condition.",
+          "Release testing describes a point in time; stability addresses change during storage and use.",
+          false
+        ]
+      ],
+      "hint": "Ask exactly what material and conditions the evidence covers."
+    },
+    "sources": [
+      {
+        "label": "FDA glycopyrrolate initial-IND memo: before/after nebulization evidence, PDF 70",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70"
+      },
+      {
+        "label": "FDA lenacapavir first-cycle review: container issue and later-IND hold, PDF 318–319",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=319"
+      },
+      {
+        "label": "FDA lenacapavir second-cycle review: storage, packaging and in-use support, PDF 83",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=83"
+      },
+      {
+        "label": "FDA lenacapavir second-cycle review: resubmission and favorable assessment, PDF 14",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=14"
+      },
+      {
+        "label": "FDA Gvoke supplement CRL: studies must use the proposed formulation, PDF 3",
+        "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=3"
+      },
+      {
+        "label": "FDA original FIH small-molecule CMC: stability support and ongoing plans, PDF 3 and 5",
+        "url": "https://www.fda.gov/media/193163/download?attachment=#page=5"
+      },
+      {
+        "label": "FDA lenacapavir dermatology assessment: likely explanation for injection-site reactions, PDF 177",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=177"
+      }
+    ],
+    "sourceChecked": "16 September 2026"
+  }
+]

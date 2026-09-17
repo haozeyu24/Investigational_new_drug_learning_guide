@@ -1,0 +1,721 @@
+{
+  "prepared": "2026-09-17",
+  "boundary": "Document-pages recorded in bounded manual source audits. These counts do not mean the full PDFs were manually read.",
+  "documents": [
+    {
+      "url": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf",
+      "pagesRead": [
+        2,
+        3
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf",
+      "pagesRead": [
+        1,
+        2,
+        3
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf",
+      "pagesRead": [
+        23
+      ],
+      "audits": [
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf",
+      "pagesRead": [
+        16,
+        17
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf",
+      "pagesRead": [
+        38,
+        39
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf",
+      "pagesRead": [
+        16
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf",
+      "pagesRead": [
+        45,
+        46
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+      "pagesRead": [
+        79,
+        87,
+        88,
+        89,
+        90,
+        92,
+        122
+      ],
+      "audits": [
+        "clinical-source-triage.json",
+        "cmc-source-triage.json",
+        "nonclinical-pkpd-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf",
+      "pagesRead": [
+        41
+      ],
+      "audits": [
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/021908Orig1s011.pdf",
+      "pagesRead": [
+        398
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf",
+      "pagesRead": [
+        34
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+      "pagesRead": [
+        121,
+        122,
+        140,
+        142,
+        144,
+        145
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-pkpd-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf",
+      "pagesRead": [
+        103,
+        104,
+        105
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+      "pagesRead": [
+        28,
+        64,
+        96
+      ],
+      "audits": [
+        "clinical-source-triage.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+      "pagesRead": [
+        10,
+        21,
+        31,
+        33,
+        36,
+        37,
+        70,
+        75
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+      "pagesRead": [
+        53,
+        54,
+        248,
+        249
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        27,
+        148
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf",
+      "pagesRead": [
+        24,
+        25,
+        72,
+        73,
+        74
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213721Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        133,
+        134,
+        135
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761055Orig1s007.pdf",
+      "pagesRead": [
+        61
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761113Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        28,
+        40
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000SumR.pdf",
+      "pagesRead": [
+        10,
+        11,
+        12
+      ],
+      "audits": [
+        "nonclinical-package-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204957Orig1s000PharmR.pdf",
+      "pagesRead": [
+        43
+      ],
+      "audits": [
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/208232Orig1s000ClinPharmR.pdf",
+      "pagesRead": [
+        49,
+        50
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/210864Orig1s000ChemR.pdf",
+      "pagesRead": [
+        5,
+        22,
+        24,
+        33,
+        34
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        168,
+        179,
+        180
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214622Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        18
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000ChemR.pdf",
+      "pagesRead": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761181Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        4,
+        5
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        35,
+        255,
+        267,
+        268,
+        273,
+        274
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761196Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        49
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf",
+      "pagesRead": [
+        58,
+        59,
+        67
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        28,
+        42,
+        54
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        35,
+        37
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214919Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "audits": [
+        "cmc-source-triage.json",
+        "nonclinical-package-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        127
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216196Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        44
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        40,
+        41
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+      "pagesRead": [
+        15,
+        16,
+        26
+      ],
+      "audits": [
+        "clinical-source-triage.json",
+        "cmc-source-triage.json",
+        "nonclinical-package-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        52,
+        53,
+        132,
+        163
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        116,
+        117
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000OtherR.pdf",
+      "pagesRead": [
+        121,
+        122
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        83,
+        318,
+        319
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216951Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        230,
+        231
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        5,
+        6
+      ],
+      "audits": [
+        "nonclinical-package-audit.json",
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        36,
+        37,
+        50,
+        51
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213931Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        168,
+        169
+      ],
+      "audits": [
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        374,
+        375
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217469Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        2,
+        7,
+        8
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        46,
+        47
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        140,
+        142,
+        143
+      ],
+      "audits": [
+        "clinical-source-triage.json",
+        "nonclinical-package-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf",
+      "pagesRead": [
+        198,
+        199,
+        200,
+        201,
+        212,
+        214,
+        215
+      ],
+      "audits": [
+        "nonclinical-package-audit.json",
+        "nonclinical-pkpd-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        49,
+        50
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219042Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        40,
+        41
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219070Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        150,
+        151
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219685Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        101,
+        112,
+        113
+      ],
+      "audits": [
+        "nonclinical-pkpd-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf",
+      "pagesRead": [
+        300,
+        335,
+        336
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220482Orig1s000OtherR.pdf",
+      "pagesRead": [
+        146
+      ],
+      "audits": [
+        "nonclinical-safety-audit.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf",
+      "pagesRead": [
+        136,
+        312,
+        313
+      ],
+      "audits": [
+        "cmc-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        25,
+        27,
+        28
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        93,
+        192
+      ],
+      "audits": [
+        "clinical-source-triage.json"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761326Orig2s000SumR.pdf",
+      "pagesRead": [
+        26,
+        27
+      ],
+      "audits": [
+        "nonclinical-package-audit.json",
+        "nonclinical-pkpd-audit.json",
+        "nonclinical-safety-audit.json"
+      ]
+    }
+  ]
+}

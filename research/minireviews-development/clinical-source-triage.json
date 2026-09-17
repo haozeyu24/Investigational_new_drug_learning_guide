@@ -1,0 +1,417 @@
+{
+  "prepared": "2026-09-17",
+  "scope": "Bounded purposive audit of documents actually inspected for these two mini-reviews; candidates excluded here are not declared scientifically irrelevant in general.",
+  "sourceCorpus": {
+    "pdfs": 7979,
+    "hashes": 7933,
+    "pages": 467510,
+    "lowTextPages": 77998
+  },
+  "targetedMachineDoseScan": {
+    "pdfs": 7979,
+    "hitPages": 21,
+    "method": "Whitespace-normalized MABEL/starting-dose with NOAEL/HNSTD/STD10; false label-dose and TOC matches adjudicated. Not an exhaustive dose-information detector."
+  },
+  "freshScreen": {
+    "clinical": {
+      "machineCandidateDocs": 732,
+      "machineCandidatePages": 1418,
+      "manuallyCheckedDocumentIntersection": 10,
+      "allMachineCandidatesManuallyReviewed": false
+    },
+    "clinical-dose": {
+      "machineCandidateDocs": 302,
+      "machineCandidatePages": 502,
+      "manuallyCheckedDocumentIntersection": 13,
+      "allMachineCandidatesManuallyReviewed": false
+    }
+  },
+  "distinctDocumentsChecked": 26,
+  "selectedSourceDocuments": 16,
+  "checks": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf",
+      "drug": "Oteseconazole (Vivjoa)",
+      "pages": [
+        127
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "State which question a study can answer; early human exposure learning is distinct from definitive efficacy."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf",
+      "drug": "Ensartinib (Ensacove; X-396)",
+      "pages": [
+        49,
+        50
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Connect the enrollment hypothesis, samples and safety observations to the same scientific question."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761181Orig1s000AdminCorres.pdf",
+      "drug": "Evinacumab (Evkeeza)",
+      "pages": [
+        4,
+        5
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Participant eligibility is revisable and population-specific rather than a permanent property of the molecule."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf",
+      "drug": "Levacetylleucine (Aqneursa)",
+      "pages": [
+        140
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Investigational permission does not establish that the design will prove efficacy."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219070Orig1s000IntegratedR.pdf",
+      "drug": "Paltusotine (Palsonify)",
+      "pages": [
+        150,
+        151
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "A biomarker measurement is only useful when its design supports an interpretable drug effect."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000AdminCorres.pdf",
+      "drug": "Pegzilarginase (Loargys)",
+      "pages": [
+        25,
+        27,
+        28
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Measurement, duration and population should match the clinical claim; short PD change does not establish functional benefit."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+      "drug": "Faricimab (Vabysmo)",
+      "pages": [
+        15,
+        26
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Separate a supported first dose from support for escalation; translate a hazard into a cohort-review condition."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf",
+      "drug": "Risdiplam (Evrysdi)",
+      "pages": [
+        24,
+        25,
+        72,
+        73,
+        74
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Link model uncertainty to staged observation and reassessment; define what monitoring can and cannot accomplish."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761309Orig1s000MultidisciplineR.pdf",
+      "drug": "Glofitamab (Columvi)",
+      "pages": [
+        36,
+        37,
+        50,
+        51
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Mechanistic prediction does not replace surveillance; observed human responses change subsequent protection."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+      "drug": "Venetoclax (Venclexta)",
+      "pages": [
+        28,
+        64,
+        96
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "A first-dose rationale is provisional. Interpret improvement as a package of changes, not proof of one causal component."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+      "drug": "Olipudase alfa (Xenpozyme)",
+      "pages": [
+        52,
+        53,
+        132,
+        163
+      ],
+      "topics": [
+        "clinical",
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Permission is scoped to a study; substrate biology can make stepwise exposure essential."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf",
+      "drug": "Futibatinib (Lytgobi)",
+      "pages": [
+        35,
+        37
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Combined phase labels retain conditional evidence boundaries."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+      "drug": "Ivacaftor (Kalydeco)",
+      "pages": [
+        122
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "A large initial margin does not determine the escalation limit or prove hazards absent."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+      "drug": "Avalglucosidase alfa (Nexviazyme)",
+      "pages": [
+        35,
+        255,
+        267,
+        268,
+        273,
+        274
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Distinguish observed adversity, tolerated dose and product qualification; retain source disagreements instead of manufacturing a single clean calculation."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+      "drug": "Pegzilarginase (Loargys)",
+      "pages": [
+        93,
+        192
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Keep toxicity anchor, exposure prediction and PD in parallel; use measured human data for subsequent steps."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf",
+      "drug": "Albumin-bound sirolimus (Fyarro; ABI-009)",
+      "pages": [
+        28,
+        42,
+        54
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "selected substantive program evidence",
+      "reviewDepth": "critical full-page passages reread with provenance/adjacent context; not entire document",
+      "reason": "Context, schedule and formulation matter; animal reference does not eliminate need for human schedule learning."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219042Orig1s000MultidisciplineR.pdf",
+      "drug": "Zongertinib",
+      "pages": [
+        40,
+        41
+      ],
+      "topics": [
+        "clinical"
+      ],
+      "disposition": "substantive alternative, not selected",
+      "reviewDepth": "critical pages reread",
+      "reason": "Retrospective applicant timeline anchors selected NSCLC initial population, but adds less than ensartinib for compact first-study narrative."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/208232Orig1s000ClinPharmR.pdf",
+      "drug": "Oral octreotide",
+      "pages": [
+        49,
+        50
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "dose-relevant but provenance not resolved",
+      "reviewDepth": "critical pages reread",
+      "reason": "Healthy-volunteer oral formulation dose rationale explicit; exact relationship of CHI001 to US initial IND not established here. Not counted as verified IND case."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761113Orig1s000MultidisciplineR.pdf",
+      "drug": "Isatuximab",
+      "pages": [
+        28,
+        40
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "relevant lead; insufficient first-dose reconstruction",
+      "reviewDepth": "candidate passages inspected; not full original protocol",
+      "reason": "PreIND first-dose discussion and MABEL assay data present; no verified chosen-dose calculation in inspected passages."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000MultidisciplineR.pdf",
+      "drug": "Tebentafusp",
+      "pages": [
+        40,
+        41
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "mechanistic lead; insufficient first-dose reconstruction",
+      "reviewDepth": "candidate passages inspected",
+      "reason": "MABEL multiples characterize on/off-target human-cell reactivity; does not establish accepted starting-dose decision."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761196Orig1s000MultidisciplineR.pdf",
+      "drug": "Loncastuximab tesirine",
+      "pages": [
+        49
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "relevant lead; insufficient first-dose reconstruction",
+      "reviewDepth": "candidate passage inspected",
+      "reason": "HNSTD rationale and lack of relevant on-target species are informative, but no exact original accepted dose established."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/021908Orig1s011.pdf",
+      "drug": "Lubiprostone",
+      "pages": [
+        398
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "later pediatric dose alternative, not selected",
+      "reviewDepth": "candidate passage inspected",
+      "reason": "Pediatric starting-dose advice is substantive but not initial adult development and uses historical inferred NOAEL. Needs fuller provenance before promoting."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214622Orig1s000AdminCorres.pdf",
+      "drug": "Infigratinib",
+      "pages": [
+        18
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "later IND dose selection, not first dose",
+      "reviewDepth": "critical page reread",
+      "reason": "PreNDA response explains125mgRP2D and schedule after5–150mg escalation; does not justify original5mg start."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213721Orig1s000MultidisciplineR.pdf",
+      "drug": "Pralsetinib",
+      "pages": [
+        133,
+        134,
+        135
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "not initial-dose rationale",
+      "reviewDepth": "critical pages reread",
+      "reason": "Starting-dose terminology indexes efficacy populations and endpoint analysis; useful clinical evidence interpretation, not starting-dose derivation."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216951Orig1s000IntegratedR.pdf",
+      "drug": "Daprodustat",
+      "pages": [
+        230,
+        231
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "regulatory chronology, not sufficient dose rationale",
+      "reviewDepth": "critical pages reread",
+      "reason": "Initial healthy-volunteer study identified, but dose wording concerns laterPhase3design; no original quantitative rationale established."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000OtherR.pdf",
+      "drug": "Vamorolone",
+      "pages": [
+        121,
+        122
+      ],
+      "topics": [
+        "clinical-dose"
+      ],
+      "disposition": "different topic",
+      "reviewDepth": "critical pages reread",
+      "reason": "ActualINDabusepotential consultation, with dosing terminology; not starting-dose justification."
+    }
+  ],
+  "limits": [
+    "Search output screening is not full manual reading.",
+    "No claim that each cached PDF contains complete original IND material.",
+    "Image-only/redacted information remains incomplete.",
+    "Snapshots represent accessible corpus at a point in time, not all FDA records."
+  ]
+}

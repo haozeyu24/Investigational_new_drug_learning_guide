@@ -1,0 +1,311 @@
+[
+  {
+    "id": "pennsaid",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf",
+    "pdfPageCount": 261,
+    "selectedPages": [
+      45,
+      46
+    ],
+    "sha256": "c66f6cc8cf21b9d3c61ab53327db8327fd524fc26fa519b8dc7b54c957fb8f3e",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "levitra",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf",
+    "pdfPageCount": 40,
+    "selectedPages": [
+      16,
+      17
+    ],
+    "sha256": "f1ddc2f9feb9c2be29ac2a640a72ec4e9cfd2f1bdc779bd9648759404bc9da76",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "faricimab",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+    "pdfPageCount": 53,
+    "selectedPages": [
+      15,
+      16,
+      26
+    ],
+    "sha256": "2b19116e57e81a7f14bed456f46450c3240eefb07e98f0c7988dcc56121c24b9",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "atrovent",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf",
+    "pdfPageCount": 205,
+    "selectedPages": [
+      38
+    ],
+    "sha256": "7578e300f011fe947de27766ddcdff1ea384c28ce277c731a25aaa2b5a7c7da6",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "eovist",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2008/022090s000_PharmR.pdf",
+    "pdfPageCount": 98,
+    "selectedPages": [
+      72
+    ],
+    "sha256": "15d753537172515f0943f0b5924bc24b52446b9a3139411fef335ba6fa0685b0",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "yasmin",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2001/21-098_Yasmin_pharmr_P1.pdf",
+    "pdfPageCount": 50,
+    "selectedPages": [
+      34,
+      38,
+      40
+    ],
+    "sha256": "4b7618a29079d8ff183ccb00c8cdff522f9f20297cf1fd07ea897e92a28dce2d",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "orfadin",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf",
+    "pdfPageCount": 39,
+    "selectedPages": [
+      23
+    ],
+    "sha256": "9bf4cd43cd1173efbe7cf8539462cc134fa6030e29e7eebcda23c7456983c5a2",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "halobetasol",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf",
+    "pdfPageCount": 106,
+    "selectedPages": [
+      103,
+      104
+    ],
+    "sha256": "5467f09e02e5b56c945f0bc39b272e95419373dc77dfe7c0f37dcbfe87dd26f5",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "vestronidase",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf",
+    "pdfPageCount": 72,
+    "selectedPages": [
+      13,
+      16
+    ],
+    "sha256": "1b166611cad3c0a5db4be893b9aaf1ab5d20db9b34a05105196a5d91317f4514",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "cinacalcet",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf",
+    "pdfPageCount": 42,
+    "selectedPages": [
+      7,
+      8,
+      16
+    ],
+    "sha256": "dcf65404ba432bbee9e81a6c99a5a5daf780ec1b70458df8dd70bc215012f667",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "baricitinib",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+    "pdfPageCount": 626,
+    "selectedPages": [
+      246,
+      248,
+      249
+    ],
+    "sha256": "68eefa558427e14e29ae1ca792b0629b600fbdd0fdaafd685818d8d964c60b6e",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "glycopyrrolate",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+    "pdfPageCount": 77,
+    "selectedPages": [
+      31,
+      33,
+      70,
+      71
+    ],
+    "sha256": "bc340c6d1f083fe7ee3a5fdcd002912da89be52b0791577dd3e985b8f150e40d",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "cemiplimab",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/761097Orig1s000OtherR.pdf",
+    "pdfPageCount": 55,
+    "selectedPages": [
+      13,
+      14
+    ],
+    "sha256": "9a06f48dc450047b7cc7ae72829d919404f715673037cd39476de72e3164cbc7",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "futibatinib",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf",
+    "pdfPageCount": 226,
+    "selectedPages": [
+      35,
+      37
+    ],
+    "sha256": "3a8a83b99a2bcb2dea691d4ead37b76fa4e9c0ee6060145de6bf83f368199edc",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "oteseconazole",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf",
+    "pdfPageCount": 390,
+    "selectedPages": [
+      127,
+      353,
+      355
+    ],
+    "sha256": "0b6c605244f3b9781f850da435fffe79c975b830809542ca13aa19d1e018d851",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "lenacapavir",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf",
+    "pdfPageCount": 504,
+    "selectedPages": [
+      319,
+      332
+    ],
+    "sha256": "2c30840f384b44ddfd4e6d27aa10f02f772ef54790974c68142e97fbda407787",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "minocycline",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf",
+    "pdfPageCount": 172,
+    "selectedPages": [
+      140,
+      147,
+      148
+    ],
+    "sha256": "38f51aee6abc120e556eef6d18d28cbc20cf5b6112f094ea14887ee97814b08a",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "paxlovid",
+    "sourceURL": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000IntegratedR.pdf",
+    "pdfPageCount": 557,
+    "selectedPages": [
+      183
+    ],
+    "sha256": "bbd249fc028542ecb413226803f40a0bdfcb0bab81fd4567634ca089664748e8",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "tabelecleucel",
+    "sourceURL": "https://download.open.fda.gov/crl/CRL_BLA125745_20260109.pdf",
+    "pdfPageCount": 5,
+    "selectedPages": [
+      1,
+      3
+    ],
+    "sha256": "ba4e39bb13fdf3a1a838946158719de3e6386862a2439d8a547e2020be6ce38f",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "clemidsogene",
+    "sourceURL": "https://download.open.fda.gov/crl/CRL_BLA125840_20260207.pdf",
+    "pdfPageCount": 7,
+    "selectedPages": [
+      1,
+      2
+    ],
+    "sha256": "8cfc40443f33298af22f6634aebbbc211de088652f7689430ee1d09c6f6ee7db",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "vusolimogene",
+    "sourceURL": "https://download.open.fda.gov/crl/CRL_BLA125827_20260410.pdf",
+    "pdfPageCount": 7,
+    "selectedPages": [
+      3,
+      5
+    ],
+    "sha256": "46651b9cbfbec805164046ab53282408d9997d292b8fb762b1c4709f23449bdc",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "phenobarbital-hikma",
+    "sourceURL": "https://download.open.fda.gov/crl/CRL_NDA218258_20240123.pdf",
+    "pdfPageCount": 7,
+    "selectedPages": [
+      1,
+      2
+    ],
+    "sha256": "8a2262d1ba42b6bd022e9e50ee45bb711e4d6eceafd76d23b5a4f14cd3c72713",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "arimoclomol",
+    "sourceURL": "https://download.open.fda.gov/crl/214927_2024_Orig1s000OtherActionLtrs.pdf",
+    "pdfPageCount": 12,
+    "selectedPages": [
+      3,
+      4
+    ],
+    "sha256": "829f60a4dae6da4362fb3b6d684cb34c6bf95b9b73d20664bccbfcba3a898b75",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "fosphenytoin",
+    "sourceURL": "https://download.open.fda.gov/crl/210864_2021_Orig1s000OtherActionLtrs.pdf",
+    "pdfPageCount": 15,
+    "selectedPages": [
+      13,
+      14
+    ],
+    "sha256": "8c4ddeed8477b8ab44a03d77fc5705bccd7a587a6c6cced6d2f058b5b87d2306",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "glucagon-gvoke",
+    "sourceURL": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf",
+    "pdfPageCount": 7,
+    "selectedPages": [
+      1,
+      2
+    ],
+    "sha256": "96fbd89c518a994f3a7e44ea6d7fc8fac58c28f5f355cc1162003d85122959c4",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "soluprep",
+    "sourceURL": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf",
+    "pdfPageCount": 15,
+    "selectedPages": [
+      7
+    ],
+    "sha256": "fd0a34ccf09e1c89e5e04a8d44e946ca3c110c7b9b83e7fee9583667e88fa2ba",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "budesonide-eohilia",
+    "sourceURL": "https://download.open.fda.gov/crl/213976_2024_Orig1s000OtherActionLtrs.pdf",
+    "pdfPageCount": 9,
+    "selectedPages": [
+      3
+    ],
+    "sha256": "378ee1504e25b0fb1bd080975f80c3aba40839045e68cd6b371967867458a904",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  },
+  {
+    "id": "stemcyte-cord-blood",
+    "sourceURL": "https://download.open.fda.gov/crl/CRL_BLA125764_20230120.pdf",
+    "pdfPageCount": 13,
+    "selectedPages": [
+      4
+    ],
+    "sha256": "a4b318f25a1f397126f39c5cc55ca5579d6488bfaadd2c8abb741411c300a223",
+    "verification": "Relevant pages read; scans visually inspected when text was unavailable"
+  }
+]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh index.html after editing content.js, catalog.js, app.js, or styles.css.
+"""Refresh index.html after editing guide source, reasoning content or styles.
 
 The local page embeds these files together so cached script versions cannot mix.
 Images remain in assets/. No server, network request, or dependency is needed.
@@ -12,8 +12,8 @@ import re
 root = Path(__file__).resolve().parent
 entry = root / 'index.html'
 html = entry.read_text()
-css = (root / 'styles.css').read_text()
-js = '\n;\n'.join((root / name).read_text() for name in ('content.js', 'catalog.js', 'app.js'))
+css = '\n'.join((root / name).read_text() for name in ('styles.css', 'reasoning.css'))
+js = '\n;\n'.join((root / name).read_text() for name in ('content.js', 'catalog.js', 'reasoning-content.js', 'reasoning.js', 'app.js'))
 if re.search(r'</(?:script|style)\b', js + css, re.I):
     raise ValueError('An inline closing tag needs escaping before packaging.')
 html = re.sub(r'<link\b[^>]*href="styles\.css(?:\?[^"]*)?"[^>]*>', '', html)

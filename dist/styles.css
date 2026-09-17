@@ -233,9 +233,11 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .development-stage-heading h4{font-size:1.08rem;line-height:1.4;margin:0;color:#244658}
 .development-stages>li>strong{font-size:.94rem;line-height:1.6;color:#244658}
 .development-stages p{font-size:.88rem;line-height:1.7;color:#3d4d64;margin:12px 0 20px}
-.development-output{border-top:1px solid #c6dae3;padding-top:16px;margin-top:auto}
-.development-output small{font-size:.68rem;letter-spacing:.1em;color:#526579;font-weight:600}
-.development-output p{margin:7px 0 0;color:#244658}
+/* Stage outputs stay compact and stacked; IND decision summaries have a separate layout. */
+.development-stages .development-output{display:block;background:#fbf6ea;border:0;border-left:2px solid #c5a66c;border-radius:0 6px 6px 0;padding:12px 14px;margin-top:auto}
+.development-stages .development-output small{display:block;font-size:.68rem;letter-spacing:.08em;color:#80693f;font-weight:600}
+.development-stages .development-output p{font-size:.86rem;line-height:1.6;margin:5px 0 0;color:#305466}
+.development-stages .development-output .development-explore{margin-top:12px}
 .development-explore{margin-top:18px;font-size:.85rem;line-height:1.5;white-space:normal;text-align:left}
 @media(max-width:740px){.stage-overview{padding:20px}.development-stages{grid-template-columns:1fr;gap:24px}.development-stages>li+li::before{content:'↓';left:calc(50% - 7px);top:-28px}}
 .hit-limit{border-top:1px solid #b9d0dc;padding-top:20px;margin-top:24px}
@@ -1354,21 +1356,9 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 .transition-tabs button[aria-pressed=true]{background:#24596d;border-color:#24596d;color:white}
 .transition-guide h3{color:#244658;font-size:1.4rem;margin:0 0 16px}
 .transition-guide p{color:#4c6275;font-size:.96rem;line-height:1.75}
-.transition-streams{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:26px 0}
-.transition-streams article{padding:22px;border:1px solid #d3e2e8;border-radius:10px;background:#f5f9fb}
 .transition-guide h4{color:#244658;font-size:1.05rem;margin:0 0 12px}
-.transition-streams p{font-size:.9rem;margin:0}
-.transition-guide .transition-note,.transition-workstreams figcaption{color:#62798a;font-size:.8rem;line-height:1.7}
-.transition-workstreams{margin:28px 0}
-.transition-study{display:flex;flex-direction:column;gap:8px;align-items:center;text-align:center;max-width:470px;padding:20px;margin:0 auto;background:#24596d;color:#fff;border-radius:12px;position:relative}
-.transition-study strong{font-size:1.15rem}
-.transition-study span{font-size:.83rem;color:#d5e6ed}
-.transition-study:after{content:'';position:absolute;bottom:-26px;height:26px;border-left:1px solid #b0cbd6;left:50%}
-.transition-streams{gap:0;border-top:1px solid #b0cbd6;margin-top:26px}
-.transition-streams article{position:relative;margin:24px 10px 0;display:flex;flex-direction:column}
-.transition-streams article:before{content:'';position:absolute;top:-25px;left:50%;height:24px;border-left:1px solid #b0cbd6}
-.transition-streams .text-button{font-size:.82rem;text-align:left;align-self:flex-start;margin-top:auto;padding-top:18px}
-@media(max-width:760px){.transition-streams{grid-template-columns:1fr;gap:14px}.transition-streams{border-top:0}.transition-study:after,.transition-streams article:before{display:none}.transition-streams article{margin:0}.transition-tabs{gap:8px}.transition-tabs button{font-size:.82rem;padding:10px 12px}}
+.transition-guide .transition-note{color:#62798a;font-size:.8rem;line-height:1.7}
+@media(max-width:760px){.transition-tabs{gap:8px}.transition-tabs button{font-size:.82rem;padding:10px 12px}}
 
 /* One consistent map layout for every part, including the IND introduction. */
 .simple-learning-map .map-titlebar{padding:18px 28px;background:#f1f6f8;gap:18px}
@@ -1546,3 +1536,398 @@ button.brand-attribution:focus-visible{outline:2px solid currentColor;outline-of
  .candidate-scene-selected .candidate-selected-molecule{margin-left:auto;margin-right:auto}
  .candidate-scene-selected>p{text-align:center;max-width:none}
 }
+
+.transition-guide .candidate-dc-caption{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);width:calc(100% + 24px);margin:0;padding:0;font-size:.88rem;line-height:1.5;text-align:center;color:#627a8b}
+@media(max-width:900px){.candidate-scene-selected .candidate-selected-molecule{margin-bottom:55px}}
+
+/* A gentle pulse marks the nomination milestone. */
+@keyframes candidate-nomination-pulse{
+ 0%,100%{transform:scale(1);box-shadow:0 0 0 5px #fff,0 0 0 5px #d59c3d00}
+ 50%{transform:scale(1.15);box-shadow:0 0 0 5px #fff,0 0 0 10px #d59c3d26}
+}
+.candidate-scene-selected .candidate-scene-marker:before{animation:candidate-nomination-pulse 3.6s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.candidate-scene-selected .candidate-scene-marker:before{animation:none}}
+
+/* Keep the reusable evidence visible between the two different decisions. */
+.candidate-evidence-table.has-overlap table{min-width:850px}
+.candidate-evidence-table.has-overlap thead th:first-child{width:14%}
+.candidate-evidence-table.has-overlap thead th:nth-child(2){width:23%}
+.candidate-evidence-table.has-overlap thead th:nth-child(3){width:27%}
+.candidate-evidence-table.has-overlap thead th:nth-child(4){width:36%}
+.candidate-evidence-table.has-overlap th,.candidate-evidence-table.has-overlap td{padding:18px 16px}
+.candidate-evidence-table.has-overlap thead small{display:block;font-size:.75rem;line-height:1.5;font-weight:400;margin-top:7px;color:#5d7787}
+.candidate-evidence-table.has-overlap td.candidate-overlap{background:#eaf5f2;border-left:1px solid #c5dfd7;border-right:1px solid #c5dfd7;color:#305c51}
+.candidate-evidence-table.has-overlap th.candidate-overlap{background:#dcefe8;border-left:1px solid #c5dfd7;border-right:1px solid #c5dfd7;color:#255247}
+.candidate-evidence-table.has-overlap th.candidate-overlap small{color:#476f63}
+.candidate-evidence-table.has-overlap td:last-child{background:#fff}
+
+/* Study goal, workstreams, then lessons: three visibly different levels. */
+.development-plan{max-width:1180px;margin:0 auto}
+.transition-guide .development-plan-intro h3{font-size:1.85rem;line-height:1.3;letter-spacing:-.035em;margin:0 0 12px;max-width:920px}
+.transition-guide .development-plan-intro p{max-width:980px;font-size:.95rem;line-height:1.75;margin:0;color:#607386}
+.transition-workstreams{margin:32px 0 0}
+.transition-study{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;width:fit-content;max-width:100%;min-width:390px;margin:0 auto;padding:24px 38px;background:linear-gradient(135deg,#183c50,#285e70);border:1px solid #204e62;border-radius:15px;color:#fff;box-shadow:0 7px 20px #193e5014}
+.transition-parent-label{font-size:.72rem;letter-spacing:.035em;color:#c1d9e3}
+.transition-study strong{font-size:1.5rem;font-weight:650;letter-spacing:-.025em;line-height:1.3}
+.transition-study-scope{display:flex;justify-content:center;flex-wrap:wrap;gap:0;margin-top:4px}
+.transition-study-scope span{font-size:.76rem;line-height:1.3;color:#d6e7ec;padding:0 12px;border-right:1px solid #5c7d8c}
+.transition-study-scope span:first-child{padding-left:0}
+.transition-study-scope span:last-child{padding-right:0;border:0}
+.transition-study:after{content:'';position:absolute;top:100%;left:50%;height:27px;border-left:1px solid #adc4d0}
+.transition-streams{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:26px 0 0;padding:25px 0 0;align-items:start}
+.transition-streams:before{content:'';position:absolute;top:0;left:calc(25% - 7px);right:calc(25% - 7px);border-top:1px solid #adc4d0}
+.transition-stream-card{position:relative;min-width:0;border:1px solid #cddde5;border-radius:13px;background:#fff;box-shadow:0 5px 16px #26455709;--stream-accent:#2e7780;--stream-tint:#eaf4f3}
+.transition-stream-card.stream-1{--stream-accent:#537494;--stream-tint:#edf2f8}
+.transition-stream-card:before{content:'';position:absolute;bottom:100%;left:50%;height:26px;border-left:1px solid #adc4d0}
+.transition-stream-heading{padding:24px 26px 20px;background:var(--stream-tint);border-top:4px solid var(--stream-accent);border-bottom:1px solid #d8e5eb;border-radius:12px 12px 0 0}
+.transition-stream-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:11px}
+.transition-guide .transition-stream-title h4{font-size:1.35rem;font-weight:650;letter-spacing:-.02em;line-height:1.35;color:#254b60;margin:0}
+.transition-stream-title>span{font-size:.72rem;line-height:1.3;white-space:nowrap;color:#587483;border:1px solid #c8dadf;border-radius:20px;padding:5px 9px;background:#ffffff8c}
+.transition-guide .transition-stream-heading p{font-size:.86rem;line-height:1.65;color:#536e7f;margin:0}
+.transition-lesson-links{padding:9px 22px 14px 36px;margin:0;list-style:none}
+.transition-lesson-links li{border-bottom:1px solid #e5edf1}
+.transition-lesson-links li:last-child{border-bottom:0}
+.transition-lesson-links button{display:block;width:100%;position:relative;padding:14px 10px;border:0;border-radius:6px;background:transparent;color:#355d72;font-size:.93rem;font-weight:450;line-height:1.5;text-align:left;transition:background .15s,color .15s}
+.transition-lesson-links button:hover{background:var(--stream-tint);color:#163e51}
+.transition-lesson-links button:focus-visible{outline:2px solid var(--stream-accent);outline-offset:2px}
+.transition-workstreams figcaption{display:flex;gap:16px;align-items:baseline;margin:21px 2px 0;font-size:.77rem;line-height:1.65;color:#708494}
+.transition-workstreams figcaption strong{font-size:.76rem;color:#587180;font-weight:550;flex:0 0 260px}
+.transition-workstreams figcaption span{display:block}
+.transition-parallel{display:grid;grid-template-columns:1.5fr 1fr;gap:28px;align-items:center;margin:28px 0 24px;padding:20px 24px;border:1px solid #d7e3e9;border-radius:10px;background:#ffffff80}
+.transition-parallel-label{display:block;font-size:.72rem;color:#7b8e9d;margin-bottom:6px}
+.transition-guide .transition-parallel h4{font-size:1rem;margin:0 0 7px;color:#3d5b6e}
+.transition-guide .transition-parallel p{font-size:.82rem;line-height:1.65;margin:0;color:#657b8c}
+.transition-parallel-link{display:flex;flex-direction:column;align-items:flex-start;gap:8px;border-left:1px solid #d7e3e9;padding-left:24px}
+.transition-parallel-link>span{font-size:.77rem;line-height:1.6;color:#687f8f}
+.transition-parallel-link .text-button{font-size:.83rem;text-align:left}
+.development-plan>.takeaway{font-size:.85rem;margin-top:20px}
+@media(max-width:760px){
+ .transition-guide .development-plan-intro h3{font-size:1.5rem}
+ .transition-study{min-width:0;width:100%;padding:23px 18px}
+ .transition-study strong{font-size:1.3rem}
+ .transition-streams{grid-template-columns:1fr;gap:18px;padding:0;margin-top:24px}
+ .transition-study:after,.transition-streams:before,.transition-stream-card:before{display:none}
+ .transition-stream-heading{padding:20px}
+ .transition-stream-title{align-items:flex-start}
+ .transition-guide .transition-stream-title h4{font-size:1.2rem}
+ .transition-lesson-links{padding:8px 15px 12px 24px}
+ .transition-workstreams figcaption{display:block}
+ .transition-workstreams figcaption span{margin-top:6px}
+ .transition-parallel{grid-template-columns:1fr;gap:16px;padding:20px}
+ .transition-parallel-link{border-left:0;border-top:1px solid #d7e3e9;padding:14px 0 0}
+}
+
+/* Pharmacology: inherited evidence, candidate bridge, and focused gap decisions. */
+.pharmacology-panel{--pharm-line:#ccdde5}
+.pharmacology-panel .pharm-intro{max-width:1000px;margin:-10px 0 26px;font-size:.98rem;line-height:1.75;color:#456376}
+.pharm-foundations,.pharm-routes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.pharm-foundations article,.pharm-routes article{min-width:0;border:1px solid var(--pharm-line);border-top:4px solid #739caf;background:#f6f9fb;border-radius:10px;padding:24px;display:flex;flex-direction:column}
+.pharm-foundations article:last-child{border-top-color:#24596d;background:#edf5f7}
+.pharm-card-label{color:#4a7184;font-weight:600;font-size:.78rem;letter-spacing:.025em}
+.pharmacology-panel h4{font-size:1.13rem;line-height:1.4;color:#244e62;margin:10px 0 17px}
+.pharm-foundations ul{padding-left:19px;margin:0 0 22px;color:#405e70;font-size:.94rem;line-height:1.7}
+.pharm-foundations li+li{margin-top:12px}
+.pharm-foundations .pharm-limit{margin:auto 0 0;padding-top:17px;border-top:1px solid var(--pharm-line);font-size:.84rem;line-height:1.7;color:#526d7c}
+.pharm-conclusion{display:grid;grid-template-columns:160px minmax(0,1fr);align-items:start;gap:24px;margin-top:26px;padding:21px 24px;border-radius:9px;background:#eaf3f6;border-left:3px solid #3d7f94}
+.pharm-conclusion>span{font-size:.82rem;font-weight:600;line-height:1.6;color:#2e6075}
+.pharm-conclusion p{margin:0;font-size:.95rem;line-height:1.75;color:#2c5165}
+.pharm-chain{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;padding:0;margin:32px 0 0;gap:28px}
+.pharm-chain li{position:relative;border-top:2px solid #a5c2ce;padding:25px 8px 0 0}
+.pharm-chain li>span{position:absolute;top:-15px;left:0;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#24596d;color:white;box-shadow:0 0 0 6px white;font-size:.77rem}
+.pharm-chain li:not(:last-child):after{content:'→';position:absolute;top:-15px;right:-24px;color:#6593a7;background:white;padding:0 3px;font-size:18px}
+.pharm-chain h4{margin:0 0 10px;font-size:1rem}
+.pharm-chain p{margin:0;color:#405e70;font-size:.92rem;line-height:1.7}
+.pharm-caption{font-size:.82rem;line-height:1.65;color:#637b8b;margin:20px 0 26px;max-width:950px}
+.pharm-table-wrap{overflow-x:auto;border:1px solid var(--pharm-line);border-radius:9px}
+.pharm-table{width:100%;border-collapse:collapse;table-layout:fixed;text-align:left;font-size:.88rem;line-height:1.75}
+.pharm-table th,.pharm-table td{padding:16px 19px;vertical-align:top;color:#405e70;border-bottom:1px solid #d9e5ea}
+.pharm-table thead th{background:#eaf3f6;font-weight:600;color:#28556a;font-size:.8rem}
+.pharm-table th:first-child{width:22%}
+.pharm-table tbody th{background:#f7fafb;color:#2d566b;font-weight:600}
+.pharm-table tbody tr:last-child>*{border-bottom:0}
+.pharm-routes article.pharm-route-0{border-top-color:#43836d}
+.pharm-routes article.pharm-route-1{border-top-color:#ba8b35}
+.pharm-routes article.pharm-route-2{border-top-color:#9a6b70}
+.pharm-routes p{margin:0 0 18px;font-size:.94rem;line-height:1.75;color:#405e70}
+.pharm-routes article>strong{margin-top:auto;padding-top:16px;border-top:1px solid var(--pharm-line);font-size:.87rem;line-height:1.65;font-weight:600;color:#2f5c70}
+.pharm-gap-details{margin-top:25px}
+.pharm-gap-details summary{cursor:pointer;color:#285e73;font-weight:600;font-size:.92rem;padding:10px 0}
+.pharm-gap-details .pharm-table-wrap{margin-top:12px}
+@media(max-width:900px){.pharm-foundations,.pharm-routes{gap:12px}.pharm-foundations article,.pharm-routes article{padding:18px}.pharm-table th,.pharm-table td{padding:13px}}
+@media(max-width:700px){.pharm-foundations,.pharm-routes,.pharm-chain{grid-template-columns:1fr;gap:20px}.pharm-conclusion{grid-template-columns:1fr;gap:8px;padding:18px}.pharm-chain{gap:28px}.pharm-chain li:not(:last-child):after{display:none}.pharm-table{min-width:640px}.pharm-foundations .pharm-limit{margin-top:0}.pharmacology-panel .evidence-step-controls{align-items:flex-start}.pharmacology-panel .evidence-step-controls>*{max-width:48%}}
+
+/* A compact overview leads into horizontal rows of lessons. */
+.map-development-overview{display:grid;grid-template-columns:1fr;gap:10px;width:min(100%,290px);margin:0 0 28px}
+.map-overview-label{font-size:.84rem;color:#356478;font-weight:600}
+.simple-learning-map .map-development-overview .topic-card{min-height:120px;display:flex;flex-direction:column;align-items:stretch;gap:22px;padding:18px 20px}
+.map-development-overview .topic-card-footer{gap:20px;margin:0;padding:0}
+.map-branches{display:grid;grid-template-columns:1fr;gap:25px}
+.map-branch{min-width:0;border-top:1px solid #d4e2e8;padding:23px 0 0}
+.map-branch>header{padding:0 0 16px}
+.map-branch-label{font-size:.76rem;color:#4b7487;font-weight:600}
+.map-branch h3{color:#254d60;font-size:1.13rem;line-height:1.4;margin:7px 0}
+.map-branch p{color:#597484;font-size:.82rem;line-height:1.6;margin:0}
+.map-branches .branch-topic-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.simple-learning-map .branch-topic-grid .topic-card{min-height:120px;padding:17px 16px 13px}
+.branch-topic-grid .topic-title{font-size:.9rem;line-height:1.5}
+.branch-topic-grid .topic-card-footer{font-size:.7rem;padding-top:14px}
+.topic-tag{display:block;font-size:.7rem;line-height:1.5;color:#627f8d;margin-bottom:8px;font-weight:500}
+.topic-card.complete .topic-tag{color:inherit}
+.lesson-title-block{min-width:0}
+.lesson-location{display:block;color:#617b8c;font-size:.76rem;line-height:1.5;margin-bottom:7px}
+.transition-three-streams{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.transition-three-streams:before{left:calc((100% - 44px)/6);right:calc((100% - 44px)/6)}
+.transition-three-streams .transition-stream-heading{padding:20px;min-height:185px}
+.transition-three-streams .transition-stream-title{align-items:flex-start;gap:8px}
+.transition-guide .transition-three-streams .transition-stream-title h4{font-size:1.14rem}
+.transition-three-streams .transition-stream-title>span{display:none}
+.transition-branch-label{display:block;font-size:.75rem;color:#4f7182;font-weight:600;margin-bottom:9px}
+.transition-three-streams .transition-lesson-links{padding:7px 12px 14px;margin:0}
+.transition-three-streams .transition-lesson-links button{font-size:.87rem;padding:13px 10px}
+.transition-three-streams .stream-2{--stream-accent:#677e83;--stream-tint:#eef3f3}
+.development-engagement{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid #d3e0e7;padding-top:17px;color:#5a7484;font-size:.84rem}
+.development-engagement .text-button{font-size:.84rem}
+@media(max-width:850px){.map-branches{grid-template-columns:1fr}.map-branch>header{min-height:0}.map-branches .branch-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.transition-three-streams{grid-template-columns:1fr;padding-top:0}.transition-three-streams:before,.transition-three-streams .transition-stream-card:before{display:none}.transition-three-streams .transition-stream-heading{min-height:0}}
+@media(max-width:550px){.map-development-overview{gap:9px}.map-branches .branch-topic-grid{grid-template-columns:1fr}.lesson-location{font-size:.7rem}}
+
+/* A dated, self-contained lesson for the FDA Expedited IND Pilot. */
+.pilot-guide{color:#244658}
+.pilot-snapshot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:12px 17px;background:#eaf2f5;border:1px solid #ccdee7;border-radius:8px;font-size:.8rem;color:#466f82;margin-bottom:21px}
+.pilot-snapshot>span:first-child{font-weight:600}
+.pilot-intro{max-width:1050px;font-size:1.02rem;line-height:1.8;color:#405e70;margin:0 0 24px}
+#pilot-panel{padding:28px;border:1px solid #cfdee6;border-radius:12px;background:white}
+#pilot-panel h3{font-size:1.4rem;color:#244e62;line-height:1.45;margin:0 0 27px}
+#pilot-panel h4{font-size:1.04rem;color:#285367;margin:0 0 12px;line-height:1.5}
+.pilot-roles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.pilot-roles article{border-top:3px solid #6e9aac;padding:20px;background:#f3f8fa;border-radius:3px 3px 9px 9px}
+.pilot-roles p,.pilot-participation p,.pilot-participation li{font-size:.93rem;line-height:1.75;margin:0;color:#476476}
+.pilot-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;padding:0;margin:35px 0 0;gap:23px}
+.pilot-flow li{position:relative;border-top:2px solid #aac7d2;padding:26px 10px 15px 0;min-width:0}
+.pilot-flow-number{position:absolute;top:-15px;left:0;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#e0edf2;color:#325f73;box-shadow:0 0 0 5px white;font-size:.77rem}
+.pilot-flow li:not(:last-child):after{content:'→';position:absolute;top:-14px;right:-21px;color:#6e94a6;font-size:17px}
+.pilot-flow p{font-size:.9rem;line-height:1.75;color:#4b6a7a;margin:0}
+.pilot-flow .pilot-final-ind{border-color:#b7974f}
+.pilot-final-ind .pilot-flow-number{background:#f8e9bd;color:#755724}
+.pilot-participation{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.pilot-participation>section+section{border-left:1px solid #d3e2e9;padding-left:30px}
+.pilot-participation ul{padding-left:20px;margin:0}
+.pilot-participation li+li{margin-top:12px}
+.pilot-dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:18px 20px;margin:27px 0 0;list-style:none;background:#eff5f7;border-radius:8px;gap:18px}
+.pilot-dates li{display:flex;flex-direction:column;gap:7px}
+.pilot-dates strong{font-size:.95rem;color:#315d73}
+.pilot-dates span{font-size:.8rem;line-height:1.6;color:#5a7685}
+.pilot-note{font-size:.85rem;line-height:1.8;color:#557080;margin:25px 0 20px;max-width:1050px}
+.pilot-reading{display:flex;flex-wrap:wrap;gap:9px 22px;padding-top:15px;border-top:1px solid #e1e9ee}
+.pilot-reading a{font-size:.78rem;line-height:1.6}
+@media(max-width:800px){.pilot-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}.pilot-flow li:after{display:none}.pilot-roles{gap:12px}.pilot-roles article{padding:16px}}
+@media(max-width:600px){#pilot-panel{padding:20px}.pilot-roles,.pilot-participation,.pilot-dates,.pilot-flow{grid-template-columns:1fr}.pilot-participation>section+section{border-left:0;border-top:1px solid #d3e2e9;padding:20px 0 0}.pilot-dates{gap:16px}.pilot-dates li{gap:3px}.pilot-flow{gap:25px}.pilot-roles article{padding:18px}.pilot-guide .evidence-step-controls{align-items:flex-start}}
+
+/* Two published programs: candidate evidence → IND-enabling development → first study. */
+.candidate-bridge-example{color:#284c5e}
+.candidate-bridge-intro h2{font-size:1.75rem;letter-spacing:-.035em;line-height:1.3;margin:0 0 12px}
+.candidate-bridge-intro>p{max-width:1080px;font-size:.98rem;line-height:1.7;margin:0 0 22px;color:#506b7b}
+.candidate-bridge-tabs{display:flex;gap:9px;margin:0 0 25px;flex-wrap:wrap}
+.candidate-bridge-tabs button{padding:12px 19px;border:1px solid #b7cfda;border-radius:8px;background:#f5f9fb;color:#244d60;font:inherit;font-weight:650;cursor:pointer}
+.candidate-bridge-tabs button[aria-selected="true"]{background:#22566a;color:#fff;border-color:#22566a;box-shadow:0 3px 8px #244d6012}
+.candidate-bridge-tabs button:focus-visible,.candidate-bridge-row-title button:focus-visible,.candidate-bridge-reading summary:focus-visible{outline:3px solid #c78b24;outline-offset:4px}
+.candidate-bridge-example .candidate-bridge-chronology{font-size:.79rem;line-height:1.65;color:#577181;margin:0 0 18px;max-width:1100px}
+.candidate-bridge-grid{display:grid;grid-template-columns:minmax(210px,1fr) minmax(460px,2.15fr) minmax(215px,1fr);gap:24px;align-items:start}
+.candidate-bridge-side{position:relative;padding:20px 17px;border-top:3px solid #91b6c4;background:#f3f8fa;border-radius:0 0 10px 10px;min-width:0}
+.candidate-bridge-stage{display:block;font-size:.71rem;font-weight:750;letter-spacing:.045em;line-height:1.5;color:#527787;margin:0 0 12px}
+.candidate-bridge-side h3{font-size:1.15rem;line-height:1.45;margin:0 0 6px;letter-spacing:-.025em}
+.candidate-bridge-side .candidate-bridge-subtitle{font-size:.81rem;line-height:1.5;margin:0;color:#546f7e}
+.candidate-bridge-side img{display:block;width:100%;height:150px;object-fit:contain;margin:12px auto 8px}
+.candidate-bridge-side .candidate-bridge-date{font-size:.75rem;line-height:1.5;color:#657e8a;margin:0 0 18px}
+.candidate-bridge-facts{margin:16px 0 0}
+.candidate-bridge-facts>div+div{margin-top:18px;padding-top:15px;border-top:1px solid #d6e3e8}
+.candidate-bridge-facts dt{font-size:.83rem;line-height:1.5;font-weight:700;color:#2d5364;margin:0 0 5px}
+.candidate-bridge-facts dd{font-size:.85rem;line-height:1.7;color:#4d6879;margin:0}
+.candidate-bridge-center{position:relative;border:1px solid #8bb0bf;border-radius:12px;background:#fff;box-shadow:0 8px 22px #1e526411;min-width:0}
+.candidate-bridge-center:before,.candidate-bridge-trial:before{content:'→';position:absolute;top:36px;left:-23px;width:22px;text-align:center;color:#7398aa;font-size:1.1rem}
+.candidate-bridge-center>header{background:#24576a;color:#fff;padding:21px 24px 19px;border-radius:11px 11px 0 0}
+.candidate-bridge-center>header .candidate-bridge-stage{color:#cbe3ec;margin-bottom:7px}
+.candidate-bridge-center>header h3{font-size:1.4rem;letter-spacing:-.025em;line-height:1.35;margin:0;color:#fff}
+.candidate-bridge-center>header p{font-size:.84rem;line-height:1.6;margin:8px 0 0;color:#d3e7ed}
+.candidate-bridge-row{padding:21px 23px}
+.candidate-bridge-row+.candidate-bridge-row{border-top:1px solid #d5e3e9}
+.candidate-bridge-row-title{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:0 0 10px}
+.candidate-bridge-row-title button{display:inline-flex;align-items:center;gap:9px;padding:0;border:0;background:transparent;color:#22566a;font:inherit;font-size:.87rem;font-weight:750;text-align:left;cursor:pointer}
+.candidate-bridge-row-title button>span{display:inline-flex;align-items:center;justify-content:center;background:#e7f0f4;border-radius:6px;padding:5px 7px;font-size:.8rem;line-height:1.4}
+.candidate-bridge-status{display:inline-block;border-radius:4px;padding:3px 7px;font-size:.65rem;line-height:1.5;font-weight:650;white-space:nowrap}
+.candidate-bridge-status.status-documented{background:#e6f2eb;color:#346148}
+.candidate-bridge-status.status-partial{background:#fff2d6;color:#79551b}
+.candidate-bridge-status.status-undisclosed{background:#eef0f4;color:#566378}
+.candidate-bridge-row h4{font-size:1rem;line-height:1.5;margin:0 0 7px;color:#234d60}
+.candidate-bridge-row>p{font-size:.87rem;line-height:1.7;margin:0;color:#4d6576}
+.candidate-bridge-example .candidate-bridge-source{font-size:.72rem;line-height:1.6;margin:13px 0 0}
+.candidate-bridge-example a{color:#2b6981;text-underline-offset:3px}
+.candidate-bridge-connection{margin:24px 0 0;padding:17px 22px;background:#eaf2f6;border-left:3px solid #3d7d92;border-radius:0 8px 8px 0}
+.candidate-bridge-connection h4{font-size:1rem;margin:0 0 7px;line-height:1.5}
+.candidate-bridge-connection p{font-size:.89rem;margin:0;line-height:1.75;color:#456478}
+.candidate-bridge-example .candidate-bridge-scope{font-size:.79rem;line-height:1.75;margin:18px 0;color:#617987;max-width:1120px}
+.candidate-bridge-scope strong{color:#3d5e70}
+.candidate-bridge-reading{border-top:1px solid #c9dce5;margin-top:15px}
+.candidate-bridge-reading summary{padding:16px 0;font-size:.87rem;font-weight:650;cursor:pointer;color:#315e72}
+.candidate-bridge-reading>p,.candidate-bridge-reading li{font-size:.8rem;line-height:1.8;color:#536e7e}
+.candidate-bridge-reading ul{margin:10px 0;padding-left:21px}
+.candidate-bridge-reading li+li{margin-top:7px}
+@media(max-width:1100px){.candidate-bridge-grid{grid-template-columns:minmax(185px,1fr) minmax(380px,2fr);gap:20px}.candidate-bridge-trial{grid-column:1/-1}.candidate-bridge-trial:before{display:none}.candidate-bridge-trial .candidate-bridge-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.candidate-bridge-trial .candidate-bridge-facts>div+div{margin:0;padding:0 0 0 18px;border-top:0;border-left:1px solid #d6e3e8}.candidate-bridge-center:before{left:-21px}}
+@media(max-width:680px){.candidate-bridge-grid{grid-template-columns:1fr;gap:18px}.candidate-bridge-center:before{display:none}.candidate-bridge-side{padding:18px}.candidate-bridge-side img{height:130px}.candidate-bridge-center>header,.candidate-bridge-row{padding:19px}.candidate-bridge-trial .candidate-bridge-facts{display:block}.candidate-bridge-trial .candidate-bridge-facts>div+div{margin-top:16px;padding:14px 0 0;border-left:0;border-top:1px solid #d6e3e8}.candidate-bridge-connection{padding:16px}.candidate-bridge-intro h2{font-size:1.45rem}}
+
+/* Primary pharmacology spans stages; emphasize the change in decision. */
+.pharm-stage-map{display:grid;grid-template-columns:minmax(0,1fr) 30px minmax(0,1fr);gap:20px;align-items:stretch;margin:28px 0}
+.pharm-stage{display:flex;flex-direction:column;padding:25px;border:1px solid #d5e2e9;border-radius:11px;background:#f5f8fa}
+.pharm-stage-current{border-top:4px solid #367c91;background:#edf5f7;padding-top:22px}
+.pharm-stage h4{font-size:1.22rem;margin:12px 0 16px}
+.pharm-stage p{color:#476476;font-size:.96rem;line-height:1.8;margin:0 0 24px}
+.pharm-stage>strong{margin-top:auto;padding-top:17px;border-top:1px solid #cddfe6;font-size:.88rem;line-height:1.65;color:#315d72}
+.pharm-stage-arrow{align-self:center;text-align:center;font-size:1.5rem;color:#739bab}
+.pharm-timing{padding:19px 22px;border-left:3px solid #8eaebb;background:#f7fafb;border-radius:0 8px 8px 0;max-width:1050px}
+.pharm-timing>strong{font-size:.98rem;color:#2d576b}
+.pharm-timing p{font-size:.91rem;line-height:1.75;color:#496777;margin:8px 0 10px}
+.pharm-timing a{font-size:.78rem;line-height:1.6}
+.pharm-supporting{max-width:1000px;font-size:.9rem;line-height:1.75;color:#4c697a;margin:10px 0}
+@media(max-width:700px){.pharm-stage-map{grid-template-columns:1fr;gap:12px}.pharm-stage{padding:20px}.pharm-stage-current{padding-top:17px}.pharm-stage-arrow{transform:rotate(90deg)}.pharm-timing{padding:17px}}
+
+/* Candidate pharmacology: observations, explanations, and a patient hypothesis. */
+.pharm-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:26px 0 30px}
+.pharm-pair article{min-width:0;padding:24px 26px;border:1px solid var(--pharm-line);border-top:3px solid #78a2b2;border-radius:9px;background:#f8fbfc;display:flex;flex-direction:column}
+.pharm-provenance article:last-child{border-top-color:#23586d;background:#edf5f7}
+.pharm-pair h4{margin:10px 0 16px;font-size:1.18rem}
+.pharm-pair ul{padding-left:19px;margin:0 0 18px;color:#405e70;font-size:.94rem;line-height:1.75}
+.pharm-pair li+li{margin-top:10px}
+.pharm-pair .pharm-card-limit{margin:auto 0 0;padding-top:16px;border-top:1px solid #d6e4ea;color:#305b70;font-size:.89rem;line-height:1.7}
+.pharm-effect-section,.pharm-response-section{margin:30px 0 0}
+.pharm-effect-section>h4,.pharm-response-section>h4{font-size:1rem;margin:0 0 15px}
+.pharm-observations{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:20px 0;border-top:1px solid #cbdfe7;border-bottom:1px solid #cbdfe7}
+.pharm-observations article+article{padding-left:24px;border-left:1px solid #d7e5eb}
+.pharm-observations h4{font-size:.95rem;margin:0 0 9px}
+.pharm-observations p{font-size:.9rem;line-height:1.7;color:#486575;margin:0}
+.pharm-hypothesis-output{margin-top:32px;padding:24px 26px;background:#f2f7f9;border:1px solid #d3e3e9;border-radius:9px}
+.pharm-hypothesis-output>h4{margin:0 0 8px}
+.pharm-hypothesis-output dl{margin:0}
+.pharm-hypothesis-output dl>div{display:grid;grid-template-columns:200px minmax(0,1fr);gap:25px;padding:18px 0;border-bottom:1px solid #d5e3e9}
+.pharm-hypothesis-output dl>div:last-child{padding-bottom:0;border-bottom:0}
+.pharm-hypothesis-output dt{font-size:.94rem;font-weight:600;color:#28546a}
+.pharm-hypothesis-output dd{margin:0;color:#405e70;font-size:.94rem;line-height:1.75}
+.pharm-reading{display:flex;flex-wrap:wrap;gap:8px 24px;margin:-12px 0 20px}
+.pharm-reading a{font-size:.78rem;line-height:1.5;max-width:100%}
+.pharm-selection{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
+.pharm-selection article{padding:23px;background:#fff;border-top-color:#3d7b91}
+.pharm-selection article:nth-child(2){border-top-color:#a0b0ba;background:#f8fafc}
+.pharm-selection article:last-child{border-top-color:#c6a058;background:#fffaf0}
+.pharm-selection .pharm-card-label{font-size:.76rem;line-height:1.6;font-weight:650;letter-spacing:.025em;color:#506d7c}
+.pharm-selection h4{font-size:1.2rem;line-height:1.4;min-height:3.36rem}
+@media(max-width:1000px){.pharm-selection{grid-template-columns:1fr}.pharm-selection h4{min-height:0}.pharm-selection article{padding:22px}}
+@media(max-width:900px){.pharm-pair{gap:16px}.pharm-pair article{padding:20px}.pharm-observations{gap:15px}.pharm-observations article+article{padding-left:15px}.pharm-hypothesis-output dl>div{grid-template-columns:150px minmax(0,1fr);gap:18px}}
+@media(max-width:700px){.pharm-pair,.pharm-observations{grid-template-columns:1fr}.pharm-observations article+article{padding:16px 0 0;border-left:0;border-top:1px solid #d7e5eb}.pharm-hypothesis-output{padding:20px}.pharm-hypothesis-output dl>div{grid-template-columns:1fr;gap:7px}.pharm-reading{flex-direction:column}}
+
+/* Optional FDA source library, separate from lesson progress. */
+.map-library-link{display:inline-block;margin:10px 0 4px;color:#e2f0f6;font-size:.87rem;text-underline-offset:4px}
+.map-library-link:hover{color:#fff}
+.candidate-bridge-library{margin:22px 0 0;font-size:.88rem}
+.candidate-bridge-library a{color:#205b70;text-underline-offset:4px}
+
+/* Candidate-development overview: an editorial narrative, with a distinct case inset. */
+.candidate-contingency{--candidate-ink:#234d60;--candidate-rule:#cfdee5;max-width:1360px;margin:0 auto}
+.candidate-conviction{padding:32px 0 38px;margin-bottom:38px;border-bottom:1px solid var(--candidate-rule);max-width:none}
+.transition-guide .candidate-conviction h3{max-width:850px;color:#607783;font-size:clamp(1.05rem,1.65vw,1.35rem);font-weight:450;line-height:1.6;margin:0 0 15px}
+.transition-guide .candidate-conviction>p{max-width:1030px;color:var(--candidate-ink);font-size:clamp(1.55rem,2.5vw,2.25rem);font-weight:620;letter-spacing:-.025em;line-height:1.35;margin:0;text-wrap:balance}
+.transition-guide .candidate-contingency h4{font-size:1.35rem;line-height:1.4;color:var(--candidate-ink);margin:0 0 14px;letter-spacing:-.015em}
+.transition-guide .candidate-discoveries-intro{max-width:960px;font-size:.98rem;line-height:1.8;margin:0 0 29px;color:#4a6577}
+.candidate-discovery-columns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.candidate-discovery-columns article{padding:0 24px;border-left:1px solid var(--candidate-rule)}
+.candidate-discovery-columns article:first-child{padding-left:0;border-left:0}
+.candidate-discovery-columns article:last-child{padding-right:0}
+.transition-guide .candidate-discovery-columns h5{color:var(--candidate-ink);font-size:1.14rem;margin:0 0 7px;font-weight:650}
+.transition-guide .candidate-discovery-columns article>p{font-size:.82rem;line-height:1.6;color:#68808d;margin:0 0 18px;min-height:2.7em}
+.candidate-discovery-columns ul{padding:0 0 0 16px;margin:0}
+.candidate-discovery-columns li{padding-left:3px;margin-bottom:10px;font-size:.89rem;line-height:1.65;color:#3d586c}
+.candidate-discovery-columns li::marker{color:#8ea8b3;font-size:.7em}
+.transition-guide .candidate-editorial-note{font-size:.78rem;color:#738591;line-height:1.7;margin:22px 0 0;max-width:920px}
+.candidate-backup-context{display:grid;grid-template-columns:1fr 2.8fr;gap:30px;border-top:1px solid var(--candidate-rule);margin-top:38px;padding-top:30px}
+.transition-guide .candidate-backup-context p{font-size:.95rem;color:#4a6577;line-height:1.8;margin:0 0 12px}
+.candidate-backup-context a,.candidate-backup-case a{font-size:.78rem;color:#2c6981;text-underline-offset:3px}
+.candidate-backup-case{max-width:1110px;margin:32px auto 42px;padding:28px 32px;border:1px solid #d9e3e7;border-radius:10px;background:#fff;box-shadow:0 5px 20px #254b6005}
+.candidate-backup-case header>span{display:block;color:#8b703e;font-size:.75rem;font-weight:600;letter-spacing:.035em;margin-bottom:9px}
+.transition-guide .candidate-backup-case header>p{font-size:.91rem;line-height:1.7;max-width:800px;margin:0;color:#506878}
+.candidate-backup-case ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;gap:26px;margin:28px 0 22px;padding:0}
+.candidate-backup-case li{padding-top:16px;border-top:2px solid #c4d6dd}
+.candidate-backup-case li:nth-child(2){border-color:#d5b97f}
+.candidate-backup-case li:nth-child(3){border-color:#93a0aa}
+.transition-guide .candidate-backup-case h5{font-size:.98rem;color:var(--candidate-ink);margin:0 0 9px}
+.transition-guide .candidate-backup-case li p{font-size:.86rem;line-height:1.75;color:#506878;margin:0}
+.candidate-backup-case footer{border-top:1px solid #e5ecf0;padding-top:14px;display:flex;align-items:flex-start;justify-content:space-between;gap:28px}
+.transition-guide .candidate-backup-case footer p{max-width:680px;font-size:.75rem;color:#71838f;margin:0;line-height:1.7}
+.candidate-backup-case footer a{flex:0 0 225px;text-align:right}
+/* A single feature panel: statement on the left, four decision lenses on the right. */
+.candidate-development-philosophy{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(30px,4vw,64px);align-items:center;background:#214f61;border-radius:14px;padding:clamp(26px,3.5vw,48px);margin:8px 0 36px;color:#fff}
+.transition-guide .candidate-philosophy-statement>p{font-size:.98rem;line-height:1.75;color:#d1e2e9;margin:0 0 20px;max-width:390px}
+.transition-guide .candidate-philosophy-statement h3{font-size:clamp(1.6rem,2.45vw,2.2rem);font-weight:600;letter-spacing:-.025em;color:#fff;line-height:1.3;margin:0;max-width:480px;text-wrap:balance}
+.candidate-development-philosophy dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px;row-gap:28px;margin:0}
+.candidate-development-philosophy dl>div{padding-top:15px;border-top:1px solid #7193a2}
+.candidate-development-philosophy dt{font-weight:600;color:#f2d49a;font-size:1.08rem;margin-bottom:9px;letter-spacing:-.01em}
+.candidate-development-philosophy dd{font-size:.9rem;color:#e0ebef;margin:0;line-height:1.75;max-width:260px}
+@media(max-width:850px){.candidate-development-philosophy{grid-template-columns:1fr;gap:30px}.transition-guide .candidate-philosophy-statement>p{max-width:none;margin-bottom:12px}.transition-guide .candidate-philosophy-statement h3{max-width:630px}.candidate-development-philosophy dd{max-width:none}}
+@media(max-width:1000px){.candidate-discovery-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 0}.candidate-discovery-columns article:nth-child(3){border:0;padding-left:0}.candidate-backup-context{grid-template-columns:1fr;gap:4px}.candidate-backup-case{padding:24px}.candidate-backup-case footer{display:block}.candidate-backup-case footer a{display:block;text-align:left;margin-top:10px}}
+@media(max-width:620px){.candidate-conviction{padding-top:16px;margin-bottom:26px}.candidate-discovery-columns,.candidate-development-philosophy dl{grid-template-columns:1fr 1fr;gap:24px 18px}.candidate-discovery-columns article{padding:0;border:0}.candidate-backup-case ol{grid-template-columns:1fr;gap:20px}.candidate-backup-case{padding:22px 19px;margin:26px 0}.candidate-discovery-columns li{font-size:.84rem}}
+@media(max-width:380px){.candidate-discovery-columns,.candidate-development-philosophy dl{grid-template-columns:1fr}}
+
+.candidate-backup-intro{max-width:920px;margin:0 0 26px;padding:0 4px}
+.transition-guide .candidate-backup-intro h3{font-size:1.35rem;line-height:1.35;letter-spacing:-.025em;color:var(--candidate-ink);margin:0 0 14px}
+.transition-guide .candidate-backup-intro p{font-size:1rem;line-height:1.8;color:#506878;margin:0}
+.candidate-backup-guide .candidate-backup-context{margin-top:0}
+
+/* Part 3: evidence supports a decision, which hands work to the next discipline. */
+.development-decision>header{max-width:1000px;margin:29px 0}
+.development-decision>header h3{font-size:clamp(1.4rem,2.1vw,1.8rem);letter-spacing:-.025em;line-height:1.35;margin:0 0 13px;color:#234f63}
+.development-decision>header>p{font-size:1rem;line-height:1.8;color:#526a7c;margin:0;max-width:930px}
+.development-reasoning{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;gap:0;margin:30px 0 35px;padding:0}
+.development-reasoning li{position:relative;padding:0 30px 0 0}
+.development-reasoning li:before{content:"";position:absolute;top:15px;left:24px;right:0;height:1px;background:#bed2dc}
+.development-reasoning li:last-child:before{display:none}
+.development-reasoning li>span{position:relative;display:grid;place-items:center;width:31px;height:31px;background:#e0edf2;border:4px solid #f4f6fa;border-radius:50%;color:#2b5b6d;font-size:.73rem;box-sizing:border-box;margin-bottom:13px}
+.development-reasoning li:last-child>span{background:#22586d;color:#fff}
+.development-reasoning h4{font-size:1.05rem;margin:0 0 9px;color:#2b5367;line-height:1.4}
+.development-reasoning p{font-size:.9rem;line-height:1.75;margin:0;color:#526b7c;max-width:350px}
+.development-table{overflow:auto;border:1px solid #cadce5;border-radius:9px;background:#fff;margin:18px 0 27px}
+.development-table table{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.75;text-align:left;table-layout:fixed;min-width:540px}
+.development-table thead th{background:#e9f2f6;color:#2b566b;font-size:.8rem;padding:14px 19px;font-weight:650}
+.development-table tbody th{font-weight:600;color:#315b6f;background:#f8fbfc;width:25%}
+.development-table tbody td,.development-table tbody th{padding:16px 19px;border-top:1px solid #dae6ec;vertical-align:top}
+.development-table td{color:#496477}
+.development-decision>.development-output{display:grid;grid-template-columns:175px 1fr;gap:25px;align-items:baseline;border-left:3px solid #bc964f;padding:17px 23px;margin:28px 0;background:#f6f2e9;border-radius:0 6px 6px 0}
+.development-decision>.development-output>span{font-size:.8rem;font-weight:600;color:#7c643c}
+.development-decision>.development-output p{font-size:1rem;line-height:1.75;font-weight:550;margin:0;color:#305466}
+.development-reading{display:flex;gap:10px 20px;flex-wrap:wrap;margin:16px 0 22px;font-size:.77rem}
+.development-reading a,.development-case a{color:#286981;text-underline-offset:3px}
+.development-handoff{display:flex;gap:28px;align-items:center;justify-content:space-between;border-top:1px solid #cedee6;padding:19px 0;margin-top:24px}
+.development-handoff p{font-size:.88rem;line-height:1.7;color:#5b7383;margin:0;max-width:800px}
+.development-handoff button{flex-shrink:0;max-width:300px;text-align:right;font-size:.83rem;line-height:1.6}
+.development-aside{font-size:.82rem;color:#6f828d;font-style:italic;margin:20px 0}
+.development-case-title{max-width:1050px;margin:0 0 25px}
+.development-case-title h2{font-size:clamp(1.5rem,2.5vw,2.1rem);line-height:1.35;letter-spacing:-.03em;color:#234f63;margin:8px 0 15px}
+.development-case-title>p:last-child{font-size:1rem;line-height:1.8;color:#506b7d;margin:0}
+.development-case-context{display:flex;gap:30px;flex-wrap:wrap;padding:19px 0;border-top:1px solid #d0dfe6;border-bottom:1px solid #d0dfe6;margin:25px 0}
+.development-case-context>div{flex:1;min-width:180px}
+.development-case-context dt{font-size:.74rem;font-weight:600;color:#768a95;margin-bottom:6px}
+.development-case-context dd{font-size:.91rem;color:#2d566c;line-height:1.65;margin:0}
+.development-proposal{display:grid;grid-template-columns:175px 1fr;gap:25px;margin:26px 0 30px;align-items:baseline}
+.development-proposal>span{font-size:.8rem;color:#6a808e}
+.development-proposal p{font-size:1.05rem;line-height:1.75;color:#2c566b;margin:0;font-weight:550}
+.development-case-grid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(260px,1fr);gap:32px;align-items:start}
+.development-case-grid h3{font-size:1.07rem;line-height:1.4;margin:0 0 15px;color:#2a566b}
+.development-case-grid .development-table{margin-top:0}
+.development-case-grid .development-table table{min-width:450px;font-size:.85rem}
+.development-case-grid .development-table td,.development-case-grid .development-table tbody th{padding:14px 16px}
+.development-case-assessment{border-left:1px solid #cadde5;padding:0 0 0 27px}
+.development-case-assessment section+section{margin-top:25px}
+.development-case-assessment p{font-size:.94rem;line-height:1.8;color:#466477;margin:0}
+.development-case-outcome{background:#23586c;color:white;border-radius:9px;display:grid;grid-template-columns:150px 1fr;gap:27px;padding:24px 28px;align-items:baseline;margin:8px 0 27px}
+.development-case-outcome>span{font-size:.8rem;color:#c4dce7}
+.development-case-outcome p{color:#fff;font-size:1rem;line-height:1.75;margin:0;font-weight:550}
+.development-case-boundary{max-width:1050px;margin:23px 0}
+.development-case-boundary h3{font-size:.86rem;font-weight:600;color:#587181;margin:0 0 7px}
+.development-case-boundary p{font-size:.83rem;line-height:1.75;color:#6b8090;margin:0 0 7px}
+@media(max-width:950px){.development-case-grid{grid-template-columns:1fr;gap:15px}.development-case-assessment{display:grid;grid-template-columns:1fr 1fr;gap:28px;border:0;padding:0;margin-bottom:22px}.development-case-assessment section+section{margin-top:0}.development-handoff{display:block}.development-handoff button{margin-top:10px;text-align:left}}
+@media(max-width:620px){.development-reasoning{grid-template-columns:1fr;gap:22px}.development-reasoning li{padding-left:46px;padding-right:0}.development-reasoning li>span{position:absolute;left:0;top:0}.development-reasoning li:before{left:15px;top:20px;bottom:-22px;right:auto;width:1px;height:auto}.development-reasoning p{max-width:none}.development-decision>.development-output,.development-proposal,.development-case-outcome{grid-template-columns:1fr;gap:8px}.development-case-assessment{grid-template-columns:1fr;gap:20px}.development-case-context{gap:18px}.development-case-context>div{min-width:140px}.development-table td,.development-table tbody th{padding:12px}.development-case-outcome{padding:21px}.development-decision>.development-output{padding:16px 20px}}

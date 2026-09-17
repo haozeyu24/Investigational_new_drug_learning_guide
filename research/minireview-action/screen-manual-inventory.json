@@ -1,0 +1,1354 @@
+{
+  "metadata": {
+    "fixedSnapshot": "screen-snapshot.json",
+    "queue": "screen-manual-queue.json",
+    "assignment": "Sorted unique source URLs; queueIndex%3==0",
+    "triagedDocuments": 62,
+    "classificationCounts": {
+      "substantive action-to-benefit": 26,
+      "mostly PK/safety/CMC": 23,
+      "uncertain/OCR": 6,
+      "administrative IND mention only": 7
+    },
+    "completedAt": "2026-09-17T05:29:59+00:00",
+    "warning": "Topic triage is not detailed scientific verification or a claim that all IND content in each PDF was found."
+  },
+  "documents": [
+    {
+      "queueIndex": 0,
+      "documentId": "0f453d034f83b2a2ba91a539",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/NDA/2026/220442Orig1s000MicroR.pdf",
+      "products": [
+        "XOCOVA [ENSITRELVIR]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        2,
+        3,
+        12,
+        13
+      ],
+      "pagesReviewed": [
+        12,
+        13
+      ],
+      "shortReason": "Explicit original-IND and clinical-virology advice history accompanies antiviral mechanism/resistance material. Later NDA synthesis; not every assay proven to be in initial IND.",
+      "textFile": "/tmp/ind-full-screen/text/0f453d034f83b2a2ba91a539.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 3,
+      "documentId": "b8f24501b984e6644f0feafb",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/203760Orig1s000.pdf",
+      "products": [
+        "ALBUTEROL SULFATE [ALBUTEROL SULFATE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        363,
+        364
+      ],
+      "pagesReviewed": [
+        363,
+        364
+      ],
+      "shortReason": "Bio-IND is for methacholine challenge used in albuterol PD bioequivalence. Main issue is comparative study design/bridging, not a novel candidate benefit hypothesis.",
+      "textFile": "/tmp/ind-full-screen/text/b8f24501b984e6644f0feafb.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 6,
+      "documentId": "0dfd633912d7d5179b0b956f",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/210605Orig1s000AdminCorres.pdf",
+      "products": [
+        "SEMGLEE [INSULIN GLARGINE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        2,
+        11
+      ],
+      "pagesReviewed": [
+        2,
+        11
+      ],
+      "shortReason": "IND EOP2 discussion and regulatory action concern PK/PD comparability and therapeutic equivalence to Lantus.",
+      "textFile": "/tmp/ind-full-screen/text/0dfd633912d7d5179b0b956f.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 9,
+      "documentId": "03bb949033053a382e52e3cd",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/211723Orig1s000AdminCorres.pdf",
+      "products": [
+        "TAZVERIK [TAZEMETOSTAT HYDROBROMIDE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        33,
+        37,
+        39,
+        41,
+        42,
+        48,
+        49
+      ],
+      "pagesReviewed": [
+        33,
+        37
+      ],
+      "shortReason": "Actual IND124608 correspondence connects INI1-negative tumor cohorts, disease-control/response claims and confirmatory evidence. Later clinical development rather than initial pharmacology.",
+      "textFile": "/tmp/ind-full-screen/text/03bb949033053a382e52e3cd.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 12,
+      "documentId": "08fe70f78517f148640dbcf8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212614Orig1s000MedR.pdf",
+      "products": [
+        "TRIJARDY XR [EMPAGLIFLOZIN; LINAGLIPTIN; METFORMIN HYDROCHLORIDE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        31,
+        127,
+        130
+      ],
+      "pagesReviewed": [
+        31,
+        127,
+        130
+      ],
+      "shortReason": "Specific IND122138 FDA request to justify the need and component contribution for triple therapy; bibliography hits on127/130 add no IND evidence.",
+      "textFile": "/tmp/ind-full-screen/text/08fe70f78517f148640dbcf8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 15,
+      "documentId": "164e3a4df2173fccb056d319",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212801Orig1s000AdminCorres.pdf",
+      "products": [
+        "ISTURISA [OSILODROSTAT PHOSPHATE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        4,
+        11,
+        12
+      ],
+      "pagesReviewed": [
+        4,
+        11,
+        12
+      ],
+      "shortReason": "Mechanistic efficacy is background; substantive FDA question is CAR-mediated rodent tumorigenesis and exposure/metabolic information.",
+      "textFile": "/tmp/ind-full-screen/text/164e3a4df2173fccb056d319.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 18,
+      "documentId": "06c086748d23fd8efc44eda9",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213400Orig1s000AdminCorres.pdf",
+      "products": [
+        "TAZVERIK [TAZEMETOSTAT HYDROBROMIDE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        18,
+        19,
+        35,
+        38
+      ],
+      "pagesReviewed": [
+        18,
+        19
+      ],
+      "shortReason": "IND124025 exchange distinguishes overall versus EZH2-mutant populations and asks for mutation testing/efficacy evidence and appropriately powered subgroup analyses.",
+      "textFile": "/tmp/ind-full-screen/text/06c086748d23fd8efc44eda9.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 21,
+      "documentId": "026c21696c358539e7580735",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213793Orig1s000ClinPharmR.pdf",
+      "products": [
+        "IMCIVREE [SETMELANOTIDE ACETATE]"
+      ],
+      "classification": "uncertain/OCR",
+      "candidatePages": [
+        33,
+        34
+      ],
+      "pagesReviewed": [
+        33,
+        34
+      ],
+      "shortReason": "Useful first-human satiety/nausea interpretability observation, but these pages do not establish that this trial or passage is IND-derived. Do not infer IND provenance from FIH alone.",
+      "textFile": "/tmp/ind-full-screen/text/026c21696c358539e7580735.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 24,
+      "documentId": "0c5707cf8323c1da5ee47a93",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761154Orig1s000AdminCorres.pdf",
+      "products": [
+        "HULIO [ADALIMUMAB-FKJP]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        21,
+        22,
+        23
+      ],
+      "pagesReviewed": [
+        21,
+        22,
+        23
+      ],
+      "shortReason": "IND116471 meeting asks how mechanism, target expression and patient context justify extrapolation across indications for a biosimilar. Adjacent human-factors discussion is separate.",
+      "textFile": "/tmp/ind-full-screen/text/0c5707cf8323c1da5ee47a93.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 27,
+      "documentId": "0ad7f8d22bec79e2b8b43b0c",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761171Orig1s000AdminCorres.pdf",
+      "products": [
+        "DANYELZA [NAXITAMAB-GQGK]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        16,
+        47
+      ],
+      "pagesReviewed": [
+        16,
+        47
+      ],
+      "shortReason": "Specific request for comparative ADCC/CDC/ADCP supports qualification of nude rats for toxicology; highly useful mechanistic safety/species case but not primarily disease-benefit validation.",
+      "textFile": "/tmp/ind-full-screen/text/0ad7f8d22bec79e2b8b43b0c.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 30,
+      "documentId": "99bad6bfebb47a83dc4f4cec",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/125409Orig1s109.pdf",
+      "products": [
+        "PERJETA [PERTUZUMAB]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        39,
+        40
+      ],
+      "pagesReviewed": [
+        39,
+        40
+      ],
+      "shortReason": "Pregnancy/lactation review uses class mechanism and PK to evaluate fetal risk and labeling; IND citation is secondary.",
+      "textFile": "/tmp/ind-full-screen/text/99bad6bfebb47a83dc4f4cec.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 33,
+      "documentId": "66d871fed124842afd86a104",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204042Orig1s027.pdf",
+      "products": [
+        "INVOKANA [CANAGLIFLOZIN]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        175,
+        297
+      ],
+      "pagesReviewed": [
+        175,
+        297
+      ],
+      "shortReason": "PDF175 explicitly separates plausible diuretic/HF mechanism from exploratory outcome findings and points to well-designed heart-failure studies under IND. PDF297 concerns tumor-risk mechanism instead.",
+      "textFile": "/tmp/ind-full-screen/text/66d871fed124842afd86a104.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 36,
+      "documentId": "11c968a682b89e5c35929d0d",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213026Orig1s000MedR.pdf",
+      "products": [
+        "AMONDYS 45 [CASIMERSEN]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        59,
+        220
+      ],
+      "pagesReviewed": [
+        59,
+        220
+      ],
+      "shortReason": "Candidate dose rationale draws on surrogate ASOs and comparable PK; other passage concerns abuse potential. Study-may-proceed wording is an IDMC protocol clause, not FDA IND clearance.",
+      "textFile": "/tmp/ind-full-screen/text/11c968a682b89e5c35929d0d.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 39,
+      "documentId": "0ef1f8df8dd4e8500b0ee19c",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213498Orig1s000AdminCorres.pdf",
+      "products": [
+        "PONVORY [PONESIMOD]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        30,
+        32
+      ],
+      "pagesReviewed": [
+        30,
+        32
+      ],
+      "shortReason": "Actual EOP2 IND minutes compare lymphocyte PD with MRI lesion and relapse outcomes; a clinical-stage bridge showing that biological and disease outcomes are different measures.",
+      "textFile": "/tmp/ind-full-screen/text/0ef1f8df8dd4e8500b0ee19c.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 42,
+      "documentId": "056016ff253289909347f803",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214460Orig1s000, 214461Orig1s000MicroR.pdf",
+      "products": [
+        "TEMBEXA [BRINCIDOFOVIR]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        25,
+        26
+      ],
+      "pagesReviewed": [
+        25,
+        26
+      ],
+      "shortReason": "FDA virology synthesis explicitly refers to prior IND67681 virology reviews and evaluates model/immune-status limits for predicting human smallpox benefit. Retrospective Animal Rule context.",
+      "textFile": "/tmp/ind-full-screen/text/056016ff253289909347f803.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 45,
+      "documentId": "0b9fad2c477a2aeeb3412e54",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214701Orig1s000AdminCorres.pdf",
+      "products": [
+        "GAVRETO [PRALSETINIB]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        14,
+        27,
+        28,
+        30
+      ],
+      "pagesReviewed": [
+        14,
+        27,
+        28,
+        30
+      ],
+      "shortReason": "IND131825 correspondence asks for activity by tumor type, mutation/fusion and concomitant drivers; BTD assessment links RET-mutant population to durable response. Some template text is not evidence.",
+      "textFile": "/tmp/ind-full-screen/text/0b9fad2c477a2aeeb3412e54.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 48,
+      "documentId": "1d9e9efff661b504c934e5f8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215358Orig1s000,Orig2s000Approv.pdf",
+      "products": [
+        "SCEMBLIX [ASCIMINIB HYDROCHLORIDE]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        7,
+        16
+      ],
+      "pagesReviewed": [
+        7,
+        16
+      ],
+      "shortReason": "Approval-letter requirement to route future pediatric PK/PD protocols to IND119257. No reviewed action-to-benefit reasoning in matched material.",
+      "textFile": "/tmp/ind-full-screen/text/1d9e9efff661b504c934e5f8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 51,
+      "documentId": "139c98322e13f6a949e121a6",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761181Orig1s000AdminCorres.pdf",
+      "products": [
+        "EVKEEZA [EVINACUMAB-DGNB]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        4,
+        5,
+        9,
+        10,
+        23,
+        30
+      ],
+      "pagesReviewed": [
+        4,
+        5
+      ],
+      "shortReason": "IND116398 meeting history distinguishes known ANGPTL3 targeting, incomplete then-current downstream LDL mechanism and necessary proof-of-concept experience; later mechanistic understanding is in a different source.",
+      "textFile": "/tmp/ind-full-screen/text/139c98322e13f6a949e121a6.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 54,
+      "documentId": "0a7cb00265be89fec2d319e7",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/022388Orig1s000PharmR.pdf",
+      "products": [
+        "ACUVUE THERAVISION WITH KETOTIFEN [KETOTIFEN FUMARATE]"
+      ],
+      "classification": "uncertain/OCR",
+      "candidatePages": [
+        10
+      ],
+      "pagesReviewed": [
+        9,
+        10,
+        11
+      ],
+      "shortReason": "NDA review lists contact-lens onset/duration studies and repeats known ketotifen pharmacology. Only clinical studies are said to be under IND66883; specific pharmacology-study IND provenance is not established.",
+      "textFile": "/tmp/ind-full-screen/text/0a7cb00265be89fec2d319e7.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 57,
+      "documentId": "cc50d9e59b606b4cb277010e",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/211988Orig1s005.pdf",
+      "products": [
+        "ZYNRELEF KIT [BUPIVACAINE; MELOXICAM]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        6
+      ],
+      "pagesReviewed": [
+        6
+      ],
+      "shortReason": "Postmarketing pediatric protocol requirements/routing with PK/PD vocabulary; no IND action-to-benefit evidence assessment.",
+      "textFile": "/tmp/ind-full-screen/text/cc50d9e59b606b4cb277010e.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 60,
+      "documentId": "078f4e8dbc54253dbfe7cd83",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214028Orig1s000MedR.pdf",
+      "products": [
+        "VUITY [PILOCARPINE HYDROCHLORIDE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        13
+      ],
+      "pagesReviewed": [
+        12,
+        13
+      ],
+      "shortReason": "IND meeting dates sit next to formulation/nonclinical bridging and drug-device PMOA jurisdiction. The matched mode-of-action phrase is a regulatory classification, not mechanistic benefit analysis.",
+      "textFile": "/tmp/ind-full-screen/text/078f4e8dbc54253dbfe7cd83.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 63,
+      "documentId": "cac980b6651b26b9c59fb5eb",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214787Orig1s011.pdf",
+      "products": [
+        "VEKLURY [REMDESIVIR]"
+      ],
+      "classification": "uncertain/OCR",
+      "candidatePages": [
+        122,
+        123
+      ],
+      "pagesReviewed": [
+        122,
+        123
+      ],
+      "shortReason": "NDA supplement virology evaluates variant activity and genotype/outcome limits, but PIND/IND numbers appear as supporting-document references. The extracted pages do not identify an IND-stage scientific decision.",
+      "textFile": "/tmp/ind-full-screen/text/cac980b6651b26b9c59fb5eb.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 66,
+      "documentId": "00eb118ee9c310dc0edb59c8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214962Orig2s000OtherR.pdf",
+      "products": [
+        "TASCENSO ODT [FINGOLIMOD LAURYL SULFATE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        41
+      ],
+      "pagesReviewed": [
+        41
+      ],
+      "shortReason": "Substantive pre-IND advice concerns fasting/fed/water bioequivalence, active metabolite exposure and first-dose cardiac monitoring.",
+      "textFile": "/tmp/ind-full-screen/text/00eb118ee9c310dc0edb59c8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 69,
+      "documentId": "1e2f2fdfe1cc6e9d23dc1234",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215499Orig1s000AdminCorres.pdf",
+      "products": [
+        "APRETUDE [CABOTEGRAVIR]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        4,
+        16,
+        17
+      ],
+      "pagesReviewed": [
+        4,
+        16,
+        17,
+        18,
+        19
+      ],
+      "shortReason": "Original IND109678 BTD material connects long-acting antiviral prevention with adherence and population-specific HIV-acquisition evidence. Late clinical translational context, not initial nonclinical review.",
+      "textFile": "/tmp/ind-full-screen/text/1e2f2fdfe1cc6e9d23dc1234.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 72,
+      "documentId": "1c8aefc41ca647bb3a2ffcb8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761148Orig1s000Approv.pdf",
+      "products": [
+        "ROLVEDON [EFLAPEGRASTIM-XNST]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        7
+      ],
+      "pagesReviewed": [
+        7
+      ],
+      "shortReason": "Approval-letter pediatric study and formulation requirements merely instruct submission to IND103461.",
+      "textFile": "/tmp/ind-full-screen/text/1c8aefc41ca647bb3a2ffcb8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 75,
+      "documentId": "1020fdc6dc0332164f5073c5",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761180Orig1s000AdminCorres.pdf",
+      "products": [
+        "ADBRY [TRALOKINUMAB]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        21,
+        34,
+        49,
+        51,
+        67,
+        69,
+        70
+      ],
+      "pagesReviewed": [
+        69,
+        70
+      ],
+      "shortReason": "Actual IND123797 exchange distinguishes a biomarker-defined response subgroup from a surrogate endpoint and discusses validation, prespecification and replication. Phase3/labeling context.",
+      "textFile": "/tmp/ind-full-screen/text/1020fdc6dc0332164f5073c5.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 78,
+      "documentId": "112fdad2fabe2fa678513541",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761244Orig1s000AdminCorres.pdf",
+      "products": [
+        "SPEVIGO [SPESOLIMAB-SBZO]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        11
+      ],
+      "pagesReviewed": [
+        11
+      ],
+      "shortReason": "IND correspondence requires CMC documentation for a surrogate antibody used in toxicology; material characterization/safety support is central.",
+      "textFile": "/tmp/ind-full-screen/text/112fdad2fabe2fa678513541.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 81,
+      "documentId": "2390b8e08e8e26e90564bc76",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/125514Orig1s009.pdf",
+      "products": [
+        "KEYTRUDA [PEMBROLIZUMAB]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        44,
+        69,
+        70
+      ],
+      "pagesReviewed": [
+        44,
+        69,
+        70
+      ],
+      "shortReason": "Specific IND110080 phase1b protocol history defines tumor cohorts and research PD-L1 selection; later pages explain immunologic mechanism/PD. Keep cohort history separate from later BLA summaries.",
+      "textFile": "/tmp/ind-full-screen/text/2390b8e08e8e26e90564bc76.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 84,
+      "documentId": "41f21e10230e9daf3438705b",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/209899Orig1s001.pdf",
+      "products": [
+        "ZEPOSIA [OZANIMOD HYDROCHLORIDE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        267
+      ],
+      "pagesReviewed": [
+        267
+      ],
+      "shortReason": "Mechanism is contextual background in a pulmonary-risk consultation on S1P-modulator class effects.",
+      "textFile": "/tmp/ind-full-screen/text/41f21e10230e9daf3438705b.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 87,
+      "documentId": "0c974b16d57b6ca4b399d87d",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215211Orig1s000OtherR.pdf",
+      "products": [
+        "OPFOLDA [MIGLUSTAT]"
+      ],
+      "classification": "uncertain/OCR",
+      "candidatePages": [
+        41
+      ],
+      "pagesReviewed": [
+        41,
+        42
+      ],
+      "shortReason": "Drug-stabilizer mechanism and phase3 design are described in an NDA/BLA clinical-inspection summary; IND127387 is a background identifier, not evidence of an IND pharmacology decision.",
+      "textFile": "/tmp/ind-full-screen/text/0c974b16d57b6ca4b399d87d.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 90,
+      "documentId": "0e3f7cefd4ce15e4f005bbfe",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216340Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "KRAZATI [ADAGRASIB]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        16
+      ],
+      "pagesReviewed": [
+        16
+      ],
+      "shortReason": "Hit consists of abbreviations/contents next to IND history. It does not contain substantive IND pharmacology or benefit reasoning.",
+      "textFile": "/tmp/ind-full-screen/text/0e3f7cefd4ce15e4f005bbfe.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 93,
+      "documentId": "0d4b333918f52f640b456201",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000RiskR.pdf",
+      "products": [
+        "PAXLOVID (COPACKAGED) [NIRMATRELVIR; RITONAVIR]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        4
+      ],
+      "pagesReviewed": [
+        4
+      ],
+      "shortReason": "REMS decision and drug-interaction risk dominate; broad benefit/indication language is background.",
+      "textFile": "/tmp/ind-full-screen/text/0d4b333918f52f640b456201.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 96,
+      "documentId": "02d9652859669addd0b32607",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf",
+      "products": [
+        "REZZAYO [REZAFUNGIN ACETATE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        6
+      ],
+      "pagesReviewed": [
+        6
+      ],
+      "shortReason": "Direct IND124401 pre-NDA request for untreated-control strain growth data to judge model suitability for drug activity/PKPD targets. Clear model-interpretability teaching passage.",
+      "textFile": "/tmp/ind-full-screen/text/02d9652859669addd0b32607.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 99,
+      "documentId": "13ce59b5d587173f92d85ce1",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217677Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "OGSIVEO [NIROGACESTAT HYDROBROMIDE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        9,
+        40,
+        256
+      ],
+      "pagesReviewed": [
+        9,
+        40,
+        256
+      ],
+      "shortReason": "Specific IND discussion concerns reproductive-toxicity waivers and integrated safety assessment; remaining hits are contents and bibliography.",
+      "textFile": "/tmp/ind-full-screen/text/13ce59b5d587173f92d85ce1.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 102,
+      "documentId": "1c1f2f096fbd7717f496f36b",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761151Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "BIMZELX [BIMEKIZUMAB-BKZX]"
+      ],
+      "classification": "uncertain/OCR",
+      "candidatePages": [
+        338
+      ],
+      "pagesReviewed": [
+        338
+      ],
+      "shortReason": "Source explicitly says the first-human trial was conducted outside theUS and not under theIND. Exclude as direct IND evidence despite FIH/PD matches.",
+      "textFile": "/tmp/ind-full-screen/text/1c1f2f096fbd7717f496f36b.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 105,
+      "documentId": "161a2a55495037ec6455a176",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761262Orig1s000IntegratedR.pdf",
+      "products": [
+        "SKYRIZI [RISANKIZUMAB-RZAA]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        7,
+        110
+      ],
+      "pagesReviewed": [
+        7,
+        110
+      ],
+      "shortReason": "Retrospective but explicit pre-IND118701 discussion of nonclinical support, proof-of-concept trial and TNF-naive/nonresponder populations. Contents page adds no evidence.",
+      "textFile": "/tmp/ind-full-screen/text/161a2a55495037ec6455a176.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 108,
+      "documentId": "be866aebe45f01fb8072d500",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/202192Orig1s000.pdf",
+      "products": [
+        "JAKAFI [RUXOLITINIB PHOSPHATE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        212,
+        344,
+        345,
+        347,
+        348
+      ],
+      "pagesReviewed": [
+        212,
+        344,
+        345,
+        347,
+        348
+      ],
+      "shortReason": "Matched IND-specific material reproduces genotoxicity study reviews and lists related INDs. This bounded passage triage does not adjudicate broader primary pharmacology elsewhere in the full ruxolitinib file.",
+      "textFile": "/tmp/ind-full-screen/text/be866aebe45f01fb8072d500.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 111,
+      "documentId": "107093930d86288cde034d96",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213586Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "UZEDY [RISPERIDONE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        106,
+        109
+      ],
+      "pagesReviewed": [
+        106,
+        109
+      ],
+      "shortReason": "Explicit pre-IND development-plan agreement required changing the proposed clinical endpoint to time to impending relapse; later inspection concerns are distinct. Clinical-translation rather than basic pharmacology.",
+      "textFile": "/tmp/ind-full-screen/text/107093930d86288cde034d96.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 114,
+      "documentId": "15aba774d0efb2bb137a59f8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000AdminCorres.pdf",
+      "products": [
+        "VAFSEO [VADADUSTAT]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        4
+      ],
+      "pagesReviewed": [
+        4
+      ],
+      "shortReason": "IND program opening and cortisol-inhibition rationale are background in a pre-NDA meeting; matched material gives no specific benefit-evidence assessment.",
+      "textFile": "/tmp/ind-full-screen/text/15aba774d0efb2bb137a59f8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 117,
+      "documentId": "12f0136a5d2eabcee508d18c",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217389Orig1s000OtherR.pdf",
+      "products": [
+        "OHTUVAYRE [ENSIFENTRINE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        19
+      ],
+      "pagesReviewed": [
+        19
+      ],
+      "shortReason": "QT consult and labeling language explicitly reference earlier IND cardiac-safety review.",
+      "textFile": "/tmp/ind-full-screen/text/12f0136a5d2eabcee508d18c.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 120,
+      "documentId": "1a217a2d3761a8f6aefc74c1",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218037Orig1s000AdminCorres.pdf",
+      "products": [
+        "VOYDEYA [DANICOPAN]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        20,
+        36,
+        37,
+        44,
+        45
+      ],
+      "pagesReviewed": [
+        20,
+        36,
+        37,
+        44,
+        45
+      ],
+      "shortReason": "IND127367 material identifies C5-inhibitor suboptimal responders and factorD add-on rationale/proof-of-concept hemoglobin change. Off-target safety passages and template instructions are separate.",
+      "textFile": "/tmp/ind-full-screen/text/1a217a2d3761a8f6aefc74c1.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 123,
+      "documentId": "2040fa943faedf4e9cda12a7",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218784Orig1s000AdminCorres.pdf",
+      "products": [
+        "VORANIGO [VORASIDENIB]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        6,
+        7,
+        14,
+        29,
+        30,
+        40,
+        41,
+        42,
+        47,
+        51
+      ],
+      "pagesReviewed": [
+        40,
+        41
+      ],
+      "shortReason": "Actual IND140832/124865 correspondence connects IDH-mutant disease context, expansion population and clinical proof strategy. Later-stage meetings must not be labeled initialIND.",
+      "textFile": "/tmp/ind-full-screen/text/2040fa943faedf4e9cda12a7.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 126,
+      "documentId": "227e496b1fe34e8614275f3e",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761306Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "EBGLYSS [LEBRIKIZUMAB-LBKZ]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        61
+      ],
+      "pagesReviewed": [
+        61
+      ],
+      "shortReason": "Primate toxicology, immunophenotyping, TK and ADA; not disease-relevant efficacy-model evidence.",
+      "textFile": "/tmp/ind-full-screen/text/227e496b1fe34e8614275f3e.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 129,
+      "documentId": "2212a1243a7f5b3929c64455",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf",
+      "products": [
+        "NPLATE [ROMIPLOSTIM]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        57,
+        211
+      ],
+      "pagesReviewed": [
+        57,
+        210,
+        211
+      ],
+      "shortReason": "Actual PIND132396 meeting directly discusses mouse/primate survival and PKPD evidence needed to predict human effectiveness under theAnimalRule. Some neighboring pages are image-only.",
+      "textFile": "/tmp/ind-full-screen/text/2212a1243a7f5b3929c64455.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 132,
+      "documentId": "2118272a56a94d70ebb8ae00",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216962Orig1s000ClinPharmR.pdf",
+      "products": [
+        "VYALEV [FOSCARBIDOPA; FOSLEVODOPA]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        3,
+        11
+      ],
+      "pagesReviewed": [
+        3,
+        11
+      ],
+      "shortReason": "Prodrug mechanism is background to relative bioavailability/clinicalPK bridging; contents hit is uninformative.",
+      "textFile": "/tmp/ind-full-screen/text/2118272a56a94d70ebb8ae00.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 135,
+      "documentId": "0c3743f81ad5d86b1218b6cc",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf",
+      "products": [
+        "ENSACOVE [ENSARTINIB HYDROCHLORIDE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        50
+      ],
+      "pagesReviewed": [
+        50
+      ],
+      "shortReason": "Early FDA advice specifies ALK/cMET-negative patient accrual and potentialPD endpoints in theIND-enabling first-human protocol. Direct early patient-selection/biology bridge.",
+      "textFile": "/tmp/ind-full-screen/text/0c3743f81ad5d86b1218b6cc.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 138,
+      "documentId": "15f50b69c0c5fc98fba430b8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218764Orig1s000IntegratedR.pdf",
+      "products": [
+        "JASCAYD [NERANDOMILAST]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        168,
+        172,
+        173
+      ],
+      "pagesReviewed": [
+        168,
+        172,
+        173
+      ],
+      "shortReason": "Mostly ADME tables and first-human dose/formulation/safetyPK description. No matched candidate-to-disease-benefit decision.",
+      "textFile": "/tmp/ind-full-screen/text/15f50b69c0c5fc98fba430b8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 141,
+      "documentId": "22f57a159736f9c32a872dbe",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219042Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "HERNEXEOS [ZONGERTINIB]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        40
+      ],
+      "pagesReviewed": [
+        40,
+        41
+      ],
+      "shortReason": "Applicant regulatory-history table explicitly ties pre-IND149842 nonclinical strategy to HER2-exon20-mutant refractoryNSCLC and subsequent IND study-may-proceed. Source is retrospective, not full meeting minutes.",
+      "textFile": "/tmp/ind-full-screen/text/22f57a159736f9c32a872dbe.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 144,
+      "documentId": "06dfb75152a8f5790df50719",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219407Orig1s000AdminCorres.pdf",
+      "products": [
+        "DAWNZERA (AUTOINJECTOR) [DONIDALORSEN SODIUM]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        15
+      ],
+      "pagesReviewed": [
+        15
+      ],
+      "shortReason": "IND advice requires candidate-specific metabolism/THA-linker characterization and carcinogenicity information; supportive literature is insufficient for that purpose.",
+      "textFile": "/tmp/ind-full-screen/text/06dfb75152a8f5790df50719.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 147,
+      "documentId": "0214e55d1610fb95da04939c",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219792Orig1s000IntegratedR.pdf",
+      "products": [
+        "KYGEVVI [DOXECITINE; DOXRIBTIMINE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        27,
+        34,
+        35,
+        142,
+        143,
+        144
+      ],
+      "pagesReviewed": [
+        34,
+        143,
+        144
+      ],
+      "shortReason": "Explicit IND134073-reviewed mechanism/model evidence links nucleosides to mtDNA restoration, tissue function and survival. Distinguish literature compounds/models from final-product experiments.",
+      "textFile": "/tmp/ind-full-screen/text/0214e55d1610fb95da04939c.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 150,
+      "documentId": "153271236ebe521662e65ddc",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761384Orig1s000AdminCorres.pdf",
+      "products": [
+        "EMRELIS [TELISOTUZUMAB VEDOTIN-TLLV]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        51,
+        52
+      ],
+      "pagesReviewed": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "shortReason": "Original IND120109 BTD review maps cMET-high/EGFR-WT tumor population, ADC mechanism and clinical-response evidence. Template questions alone are not the evidence.",
+      "textFile": "/tmp/ind-full-screen/text/153271236ebe521662e65ddc.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 153,
+      "documentId": "0501f5b4b98a0dc5fb34b085",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761430Orig1s000OtherR.pdf",
+      "products": [
+        "IMAAVY [NIPOCALIMAB-AAHU]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        49
+      ],
+      "pagesReviewed": [
+        48,
+        49,
+        50
+      ],
+      "shortReason": "Pregnancy/lactation consult; FcRn mechanism and disease history support reproductive-risk/labeling discussion. IND citation partly refers to another product.",
+      "textFile": "/tmp/ind-full-screen/text/0501f5b4b98a0dc5fb34b085.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 156,
+      "documentId": "07949c2ce96e0210b0d44076",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761434Orig1s000AdminCorres.pdf",
+      "products": [
+        "VOYXACT [SIBEPRENLIMAB-SZSI]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        15,
+        24,
+        25
+      ],
+      "pagesReviewed": [
+        15,
+        24,
+        25
+      ],
+      "shortReason": "IND135282 meeting distinguishes IgA PD reduction from proteinuria/eGFR outcomes; FDA advises considering clinical-response dose data. CMC receptor-blocking potency-assay discussion is a separate function.",
+      "textFile": "/tmp/ind-full-screen/text/07949c2ce96e0210b0d44076.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 159,
+      "documentId": "1ff294af9ad5a9a3e54bfcda",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761444Orig1s000MultidisciplineR.pdf",
+      "products": [
+        "BILDYOS [DENOSUMAB-NXXP]",
+        "BILPREVDA [DENOSUMAB-NXXP]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        40
+      ],
+      "pagesReviewed": [
+        40
+      ],
+      "shortReason": "Biosimilar comparative analytical/functional characterization and rationale for omitting animaltox studies; primarily product comparability, not new patient-benefit hypothesis.",
+      "textFile": "/tmp/ind-full-screen/text/1ff294af9ad5a9a3e54bfcda.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 162,
+      "documentId": "c3ea098a4516abe9f56c9180",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208573Orig1s009.pdf",
+      "products": [
+        "VENCLEXTA [VENETOCLAX]"
+      ],
+      "classification": "uncertain/OCR",
+      "candidatePages": [
+        110
+      ],
+      "pagesReviewed": [
+        109,
+        110,
+        111
+      ],
+      "shortReason": "NDA review distinguishes efficacy of different AML combinations; IND110159 is listed among source materials. Matched pages do not establish a specific IND-stage decision.",
+      "textFile": "/tmp/ind-full-screen/text/c3ea098a4516abe9f56c9180.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 165,
+      "documentId": "04690dfa75ae7b38c92446c7",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/211241Orig1s000AdminCorres.pdf",
+      "products": [
+        "ZYCUBO [COPPER HISTIDINATE]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        5,
+        19
+      ],
+      "pagesReviewed": [
+        5,
+        17,
+        19
+      ],
+      "shortReason": "Actual IND034166 meeting material links disease stage, survival/historical-control evidence and biomarkers in a rare-disease development program.",
+      "textFile": "/tmp/ind-full-screen/text/04690dfa75ae7b38c92446c7.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 168,
+      "documentId": "41c2970667d7062695fc11a8",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/217806Orig1s013.pdf",
+      "products": [
+        "ZEPBOUND (AUTOINJECTOR) [TIRZEPATIDE]",
+        "ZEPBOUND KWIKPEN [TIRZEPATIDE]",
+        "ZEPBOUND [TIRZEPATIDE]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        90
+      ],
+      "pagesReviewed": [
+        89,
+        90
+      ],
+      "shortReason": "Regulatory-history/ongoing postmarketing-study list with generic PKPD words; no relevant IND scientific passage.",
+      "textFile": "/tmp/ind-full-screen/text/41c2970667d7062695fc11a8.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 171,
+      "documentId": "08e65570a8f31e9f6c090c54",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219878Orig1s000Approv.pdf",
+      "products": [
+        "BAXFENDY [BAXDROSTAT]"
+      ],
+      "classification": "administrative IND mention only",
+      "candidatePages": [
+        6
+      ],
+      "pagesReviewed": [
+        6
+      ],
+      "shortReason": "Approval-letter requirement to submit future pediatric study protocols to IND146112; routing only.",
+      "textFile": "/tmp/ind-full-screen/text/08e65570a8f31e9f6c090c54.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 174,
+      "documentId": "20905188b6b2dd0b6354b4a2",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220149Orig1s000OtherR.pdf",
+      "products": [
+        "ICOTYDE [ICOTROKINRA HYDROCHLORIDE]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        114
+      ],
+      "pagesReviewed": [
+        113,
+        114
+      ],
+      "shortReason": "QT labeling consultation based on earlier IND156446 cardiac-safety reviews; not disease-benefit pharmacology.",
+      "textFile": "/tmp/ind-full-screen/text/20905188b6b2dd0b6354b4a2.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 177,
+      "documentId": "5d419e55cd61d2aa471ae494",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761061Orig1s021.pdf",
+      "products": [
+        "TREMFYA [GUSELKUMAB]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        209
+      ],
+      "pagesReviewed": [
+        208,
+        209
+      ],
+      "shortReason": "DDI-management extrapolation across antibodies/cytokine effects; concern is drug interactions and labeling, not efficacy rationale.",
+      "textFile": "/tmp/ind-full-screen/text/5d419e55cd61d2aa471ae494.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 180,
+      "documentId": "1321f1ebb24ffc83c81b745d",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000AdminCorres.pdf",
+      "products": [
+        "LOARGYS [PEGZILARGINASE-NBLN]"
+      ],
+      "classification": "substantive action-to-benefit",
+      "candidatePages": [
+        28
+      ],
+      "pagesReviewed": [
+        25,
+        27,
+        28
+      ],
+      "shortReason": "Actual IND127774 meeting distinguishes plasma-arginine lowering from functional motor benefit, asks for population/impairment details and sufficient study duration. Later clinical-development context.",
+      "textFile": "/tmp/ind-full-screen/text/1321f1ebb24ffc83c81b745d.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    },
+    {
+      "queueIndex": 183,
+      "documentId": "0ccee59926424b50a727e466",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761485Orig1s000RiskR.pdf",
+      "products": [
+        "AVLAYAH [TIVIDENOFUSP ALFA-EKNM]"
+      ],
+      "classification": "mostly PK/safety/CMC",
+      "candidatePages": [
+        4
+      ],
+      "pagesReviewed": [
+        3,
+        4,
+        5
+      ],
+      "shortReason": "REMS benefit-risk summary, mainly hypersensitivity management. Better IND-derived biomarker evidence is in the separate AdminCorres source, not this risk-review hit.",
+      "textFile": "/tmp/ind-full-screen/text/0ccee59926424b50a727e466.json.gz",
+      "triageScope": "Candidate passages and selected neighboring context; not full-document manual review",
+      "reviewStatus": "Manually triaged"
+    }
+  ]
+}

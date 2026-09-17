@@ -1,0 +1,486 @@
+[
+  {
+    "id": "clinical",
+    "title": "The first clinical study",
+    "goal": "Build a study that can answer a defined question while acting on the candidate’s known and uncertain effects.",
+    "concept": "The first study is an experiment with people, a specific product, and explicit limits. Its design connects the candidate’s rationale to who participates, what is measured, and when the team must pause or change course.",
+    "takeaway": "A protocol turns an evidence-based plan into instructions that people can carry out consistently.",
+    "category": "clinical",
+    "question": {
+      "title": "A Phase 2 heading does not supply Phase 2 evidence.",
+      "prompt": "A combined Phase 1/2 protocol is proposed. The early dose-finding portion has support, but the expansion dose and clinical-product information remain unresolved. What is the strongest plan?",
+      "options": [
+        [
+          "Begin both portions because they are in one protocol.",
+          "A shared protocol does not resolve the evidence gaps for its later portion.",
+          false
+        ],
+        [
+          "Define the supported portion and the evidence and review needed before expansion.",
+          "The plan should match each study component to its support and make the remaining conditions explicit.",
+          true
+        ],
+        [
+          "Repeat the entire discovery program before any clinical work.",
+          "Unresolved expansion questions call for a targeted assessment; they do not automatically invalidate every earlier finding.",
+          false
+        ]
+      ],
+      "hint": "Ask what is supported for each part of the proposed study, rather than treating the protocol title as authorization."
+    },
+    "sources": [
+      {
+        "label": "FDA · Clinical protocols for IND studies",
+        "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-clinical-protocols"
+      },
+      {
+        "label": "Futibatinib · Initial protocol and partial hold, PDF pp. 35–37",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=35"
+      },
+      {
+        "label": "Futibatinib · FDA assessment of the response, PDF p. 37",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=37"
+      },
+      {
+        "label": "Paxlovid · Initial IND completeness and hold, PDF p. 183",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000IntegratedR.pdf#page=183"
+      }
+    ],
+    "sourceChecked": "16 September 2026",
+    "evidenceGuide": {
+      "kind": "decision",
+      "steps": [
+        {
+          "label": "Define the learning",
+          "question": "What should this study tell us—and about whom?",
+          "evidence": "Begin with the candidate-specific therapeutic hypothesis and the evidence supporting the intended population. Decide whether healthy volunteers or patients are appropriate. The first study usually emphasizes safety, tolerability, and PK; pharmacodynamic or activity measurements can test additional questions when the design supports them.",
+          "flow": [
+            {
+              "title": "Question",
+              "detail": "Name the uncertainty that the study should reduce."
+            },
+            {
+              "title": "Participants",
+              "detail": "Explain why this population is appropriate to expose and informative to study."
+            },
+            {
+              "title": "Measurements",
+              "detail": "Choose observations, timing, and comparisons that can answer the question."
+            }
+          ],
+          "table": {
+            "columns": [
+              "Design choice",
+              "What needs a rationale"
+            ],
+            "rows": [
+              [
+                "Eligibility",
+                "Disease context, prior treatment, organ function, interactions, and any biomarker selection."
+              ],
+              [
+                "Objectives and endpoints",
+                "Separate safety and PK objectives from exploratory target-engagement or activity signals."
+              ],
+              [
+                "Design and interpretation",
+                "Explain controls, cohort structure, sampling, and what an apparent response would mean."
+              ]
+            ]
+          },
+          "outputLabel": "A study question",
+          "decision": "Write an explicit population–objective–measurement statement. If a result could not change a decision or interpretation, reconsider why it is being collected.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "label": "Make safety actionable",
+          "question": "If a concerning result appears, what happens next?",
+          "evidence": "Bring the hazard assessment and exposure uncertainties into the protocol. “Monitor closely” does not specify an assessment, a review time, or an action. Distinguish decisions about one participant from decisions about the next cohort or the entire study.",
+          "flow": [
+            {
+              "title": "Anticipate",
+              "detail": "Identify the findings that require attention and when they could emerge."
+            },
+            {
+              "title": "Observe",
+              "detail": "Specify assessments, timing, reporting, and who reviews the results."
+            },
+            {
+              "title": "Act",
+              "detail": "Define justified dose interruption, escalation, restart, or study-pause rules."
+            }
+          ],
+          "table": {
+            "columns": [
+              "Input from development",
+              "Instruction needed in the study"
+            ],
+            "rows": [
+              [
+                "A potentially affected organ or function",
+                "Relevant baseline checks, follow-up measurements, and criteria for clinical evaluation."
+              ],
+              [
+                "Uncertain or variable exposure",
+                "PK sampling and review before the next dosing decision, where appropriate."
+              ],
+              [
+                "A new concerning finding",
+                "Responsibility for urgent assessment, communication, and participant/cohort decisions."
+              ]
+            ]
+          },
+          "outputLabel": "An operational safety plan",
+          "decision": "Two sites should be able to read the protocol and understand the same safety-critical actions. The measures and thresholds must fit the drug and study.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "label": "Set the boundaries",
+          "question": "What is supported now, and what needs another decision?",
+          "evidence": "Connect dose, duration, formulation, and study population to the evidence that supports them. A combined Phase 1/2 protocol can describe a future expansion without making that expansion ready to begin. Additional protocols can be submitted under an existing IND; the support for the new work still needs assessment.",
+          "table": {
+            "columns": [
+              "Before proceeding",
+              "Check the connection"
+            ],
+            "rows": [
+              [
+                "Dose and schedule",
+                "The rationale, exposure limits, escalation reviews, and available clinical strengths agree."
+              ],
+              [
+                "Duration and population",
+                "Nonclinical support and participant protections match the proposed exposure and participants."
+              ],
+              [
+                "Product and execution",
+                "Supply, stability, preparation, investigators, and safety information support what the protocol says will happen."
+              ],
+              [
+                "Expansion or amendment",
+                "Define what new evidence and review are needed before a later portion begins."
+              ]
+            ]
+          },
+          "outputLabel": "A bounded clinical plan",
+          "decision": "Specify the study that can be supported, its dependencies, and the evidence needed to move beyond it. A future phase in the protocol is a proposal, not a completed decision.",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "case": {
+        "title": "Futibatinib: one protocol, different readiness for its two parts.",
+        "stage": "Initial IND in 2013–2014 and later hold resolution in 2017 · FDA’s 2022 retrospective assessment",
+        "intro": "The initial protocol combined Phase 1 dose-finding with a planned Phase 2 component. FDA placed the Phase 2 portion on partial clinical hold.",
+        "rows": [],
+        "decisionReview": {
+          "context": [
+            {
+              "label": "Candidate",
+              "value": "Futibatinib (TAS-120)"
+            },
+            {
+              "label": "Study",
+              "value": "Combined Phase 1/2 · IND 121062"
+            },
+            {
+              "label": "Public record",
+              "value": "Regulatory history and FDA assessment"
+            }
+          ],
+          "proposal": "Move from dose-finding into expansion and Phase 2 under the combined protocol.",
+          "evidenceTable": {
+            "columns": [
+              "Point in development",
+              "What the record shows"
+            ],
+            "rows": [
+              [
+                "Initial submission",
+                "Phase 1 included advanced solid tumors; Phase 2 targeted tumors or myeloma with FGF/FGFR-related abnormalities."
+              ],
+              [
+                "Initial limitation",
+                "Insufficient product-quality information and clinical concerns involving the proposed 20 mg capsule strength."
+              ],
+              [
+                "Later response",
+                "Safety findings from 102 patients, preliminary activity in 23 patients with cholangiocarcinoma, and a rationale for expansion/Phase 2 dosing."
+              ]
+            ]
+          },
+          "concern": "The later portion required its own support; including it in the initial protocol did not establish that support.",
+          "response": "FDA found the response addressing clinical and product-quality issues satisfactory.",
+          "outcome": "The partial hold on the Phase 2 portion was removed on November 3, 2017.",
+          "unresolved": "The public summary does not reproduce every original deficiency or the complete sponsor response."
+        },
+        "limit": "This is a historical combined-protocol case, not a requirement that every Phase 1/2 program follow the same sequence.",
+        "sources": [
+          1,
+          2
+        ]
+      },
+      "terms": [
+        {
+          "term": "Protocol",
+          "definition": "The study’s objectives, design, participants, procedures, and decision rules."
+        },
+        {
+          "term": "Cohort",
+          "definition": "A group enrolled or treated according to a defined part of the study plan."
+        },
+        {
+          "term": "Partial clinical hold",
+          "definition": "A restriction on part of the clinical work, rather than necessarily all work under the IND."
+        }
+      ],
+      "scope": "Initial-IND support is specific to the proposed study. Later study phases and changes can require additional evidence.",
+      "aside": "“Monitor closely” is an intention. A protocol needs instructions.",
+      "handoff": {
+        "lesson": "clinical-dose",
+        "label": "Justifying a first dose",
+        "text": "The protocol defines the setting. The dosing rationale must now explain the proposed starting point and the conditions for escalation."
+      }
+    }
+  },
+  {
+    "id": "clinical-dose",
+    "category": "clinical",
+    "title": "Justifying a first dose",
+    "goal": "Connect pharmacology, toxicology, and exposure to a starting dose and a separately justified escalation plan.",
+    "concept": "A dose proposal is an argument about exposure, biological activity, and the limits of current knowledge. The first dose and the highest planned dose answer different questions; both belong in the rationale.",
+    "takeaway": "Support the starting point and the path beyond it. A reassuring starting-dose margin does not justify every later escalation.",
+    "question": {
+      "title": "A clean study can leave an important question open.",
+      "prompt": "The highest repeat doses tested cause no observed adverse effects. The proposed starting-dose margin looks reassuring, but a much higher planned clinical dose approaches the limits of the evidence. What should the team do?",
+      "options": [
+        [
+          "Treat the absence of findings as permission for unrestricted escalation.",
+          "A study only describes the doses and conditions tested; it cannot establish that higher exposures are harmless.",
+          false
+        ],
+        [
+          "Cancel development because the studies found no target organ.",
+          "An incomplete toxicity profile requires interpretation and a bounded plan; it does not alone determine that the program must stop.",
+          false
+        ],
+        [
+          "Assess the upper-dose support separately, constrain escalation as needed, and define further evidence to resolve the uncertainty.",
+          "The starting dose and the highest planned dose need distinct support. A limited study may support a limited clinical plan.",
+          true
+        ]
+      ],
+      "hint": "What does “nothing adverse observed” tell you—and what does it leave untested?"
+    },
+    "sources": [
+      {
+        "label": "FDA · Starting-dose guidance for adult healthy volunteers",
+        "url": "https://www.fda.gov/media/72309/download"
+      },
+      {
+        "label": "ICH S9 · Nonclinical evaluation in the defined advanced-cancer setting",
+        "url": "https://www.fda.gov/media/73161/download"
+      },
+      {
+        "label": "Ivacaftor · Original IND clinical-dose assessment, PDF p. 122",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122"
+      },
+      {
+        "label": "FDA · Exposure–response relationships",
+        "url": "https://www.fda.gov/media/71277/download"
+      },
+      {
+        "label": "FDA · Safety-critical elements of clinical protocols",
+        "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-investigations-clinical-protocols"
+      }
+    ],
+    "sourceChecked": "16 September 2026",
+    "evidenceGuide": {
+      "kind": "decision",
+      "steps": [
+        {
+          "label": "Choose the framework",
+          "question": "Which starting-dose approach fits this study?",
+          "evidence": "Identify the participants, route, intended pharmacology, and important uncertainties before calculating a dose. A framework for systemic dosing in healthy adults cannot simply be transferred to patients with advanced cancer or to a locally delivered product.",
+          "table": {
+            "columns": [
+              "Study context",
+              "What changes the reasoning"
+            ],
+            "rows": [
+              [
+                "Healthy adult volunteers",
+                "FDA’s guidance describes an animal NOAEL-to-human-equivalent-dose approach with an appropriate safety factor and consideration of pharmacological activity."
+              ],
+              [
+                "Advanced cancer",
+                "ICH S9 describes a distinct context and starting-dose considerations; it is not a universal rule for all patients or oncology settings."
+              ],
+              [
+                "Local delivery or unusual pharmacology",
+                "Local concentration, distribution, species relevance, and anticipated activity may require a different or additional justification."
+              ]
+            ]
+          },
+          "outputLabel": "A justified framework",
+          "decision": "Name the applicable approach and explain why it fits. The calculation comes after the context.",
+          "sources": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Build the argument",
+          "question": "Do the independent lines of evidence agree?",
+          "evidence": "Connect a relevant animal toxicity finding to the human prediction, then check it against pharmacology and the intended regimen. Label assumptions about protein binding, active metabolites, accumulation, or species differences. A human-equivalent dose and a prediction of human exposure are related tools, not interchangeable measurements.",
+          "flow": [
+            {
+              "title": "Safety anchor",
+              "detail": "Identify the relevant adverse-effect boundary and why the species and study are informative."
+            },
+            {
+              "title": "Human prediction",
+              "detail": "Translate cautiously, explaining the dose or exposure method and its uncertainty."
+            },
+            {
+              "title": "Biological check",
+              "detail": "Consider predicted activity and whether the proposed exposure is appropriate for the participants."
+            }
+          ],
+          "table": {
+            "columns": [
+              "Avoid this shortcut",
+              "Make this connection instead"
+            ],
+            "rows": [
+              [
+                "Match the animal efficacy dose in mg/kg",
+                "Explain species translation, human exposure, safety, and pharmacological activity."
+              ],
+              [
+                "Use the largest numerical safety margin",
+                "Check what was actually tested, how the margin was calculated, and which uncertainty remains."
+              ],
+              [
+                "Treat a model output as a measurement",
+                "State the assumptions and which early human data will test them."
+              ]
+            ]
+          },
+          "outputLabel": "A traceable dose rationale",
+          "decision": "Show the chain from evidence to assumptions to the proposed starting dose. If the evidence disagrees, explain how that disagreement changes the plan.",
+          "sources": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "label": "Bound the escalation",
+          "question": "What allows the next dose—not just the first one?",
+          "evidence": "Specify how emerging safety, PK, and relevant PD will inform escalation. Define the review timing, dose or exposure boundaries, and reasons to pause. A short study supporting one regimen does not automatically support a higher dose, longer treatment, or a different population.",
+          "flow": [
+            {
+              "title": "Start",
+              "detail": "Use the justified starting dose and the specified monitoring plan."
+            },
+            {
+              "title": "Learn",
+              "detail": "Review interpretable safety and exposure findings before the next decision."
+            },
+            {
+              "title": "Reassess",
+              "detail": "Escalate, hold, modify, or seek more evidence within the protocol’s justified boundaries."
+            }
+          ],
+          "outputLabel": "A dosing plan with limits",
+          "decision": "Distinguish the starting dose, escalation rules, and maximum planned exposure. State what new evidence is needed before moving beyond the current support.",
+          "sources": [
+            4
+          ]
+        }
+      ],
+      "case": {
+        "title": "Ivacaftor: 25 mg to start did not justify 800 mg at the top.",
+        "stage": "2006 original IND pharmacology/toxicology review · reproduced in the 2012 NDA package",
+        "intro": "FDA assessed the proposed escalation against 14-day rat and dog toxicity studies. The starting-dose margin and the upper-dose uncertainty led to different conclusions.",
+        "rows": [],
+        "decisionReview": {
+          "context": [
+            {
+              "label": "Candidate",
+              "value": "VX-770 · ivacaftor"
+            },
+            {
+              "label": "Study evidence",
+              "value": "14-day repeat-dose studies in rats and dogs"
+            },
+            {
+              "label": "Decision",
+              "value": "Proposed clinical-dose escalation"
+            }
+          ],
+          "proposal": "Start at 25 mg and escalate to a proposed maximum of 800 mg.",
+          "evidenceTable": {
+            "columns": [
+              "Observation",
+              "Why it mattered"
+            ],
+            "rows": [
+              [
+                "Rat NOAEL: 200 mg/kg",
+                "The highest tested repeat dose produced no significant toxic findings, but did not identify target organs."
+              ],
+              [
+                "Dog NOAEL: 60 mg/kg",
+                "Also the highest tested repeat dose; the toxicity profile remained incompletely characterized."
+              ],
+              [
+                "Proposed 25 mg starting dose",
+                "The review reported a 76–79-fold margin using body-surface-area scaling."
+              ],
+              [
+                "Proposed 800 mg maximum",
+                "The corresponding reported margin was about twofold, with no identified target organ to guide monitoring."
+              ]
+            ]
+          },
+          "concern": "Absence of target-organ findings at the tested repeat doses limited characterization of potential toxicity.",
+          "response": "The reviewer accepted a modified maximum escalating dose of 500 mg and recommended considering higher doses in future nonclinical studies to identify target organs.",
+          "outcome": "The proposed trial was considered reasonably safe to proceed with the modified escalation limit.",
+          "unresolved": "The review supports this historical study decision. It does not establish a universal conversion method, safety factor, or maximum dose."
+        },
+        "limit": "NOAEL means no observed adverse effect at a tested dose. It does not mean the compound has no potential toxicity. The values here illustrate FDA’s documented reasoning, not dosing advice.",
+        "sources": [
+          2
+        ]
+      },
+      "terms": [
+        {
+          "term": "NOAEL",
+          "definition": "The no-observed-adverse-effect level in a particular study; interpretation depends on what was tested."
+        },
+        {
+          "term": "Human-equivalent dose",
+          "definition": "An animal dose translated using an appropriate scaling method; it is not itself a measured human exposure."
+        },
+        {
+          "term": "Exposure margin",
+          "definition": "A comparison of relevant exposures under specified conditions. The numerator, denominator, and measurement basis must be clear."
+        }
+      ],
+      "scope": "Starting-dose frameworks have defined scopes. Study-specific judgment remains necessary; historical FDA decisions are not universal numerical rules.",
+      "aside": "A precise number can still rest on an uncertain assumption.",
+      "handoff": {
+        "lesson": "clinical",
+        "label": "Return to the study plan",
+        "text": "Put the dosing rationale, review points, and action rules into the protocol so investigators can implement the same plan."
+      }
+    }
+  }
+]

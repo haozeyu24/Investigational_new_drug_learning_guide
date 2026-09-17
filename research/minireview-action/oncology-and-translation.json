@@ -1,0 +1,235 @@
+[
+  {
+    "id": "crizotinib",
+    "drug": "Crizotinib",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=35",
+    "pdfPages": [
+      11,
+      15,
+      35,
+      36,
+      37,
+      38
+    ],
+    "sourceStage": "2011 NDA clinical review reconstructing the Phase 1 study and dated IND protocol amendments; not a reproduced original IND review",
+    "whatSourceSays": [
+      "The original Phase 1 protocol studied PF-02341066 as a c-Met/HGFR inhibitor in advanced cancers, initially any tumor type except leukemia. Its objectives included safety, PK, PD and preliminary antitumor activity.",
+      "Two ALK-positive NSCLC participants with stable disease prompted an ALK-positive extension. Amendment 4 dated October 29, 2007 allowed EML4-ALK-positive NSCLC; other molecular enrichment and an ALK-negative NSCLC cohort appear in later amendments.",
+      "PD plans already included pathway-related blood and, where available, tumor measurements. Broad initial enrollment did not mean the program lacked a biological hypothesis."
+    ],
+    "interpretationForLesson": "A patient-selection strategy can develop through early clinical learning. Distinguish the original rationale, the observation that motivates enrichment, and the subsequent evidence that evaluates that hypothesis.",
+    "unknowns": [
+      "The NDA reconstruction is not the full initial IND package.",
+      "Stable disease in two people did not by itself establish predictive validity or clinical benefit.",
+      "Do not infer that the initial program had no biomarker plan."
+    ],
+    "verificationMethod": "Downloaded FDA PDF and read complete selected pages with surrounding protocol history"
+  },
+  {
+    "id": "vorasidenib",
+    "drug": "Vorasidenib",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218784Orig1s000AdminCorres.pdf#page=39",
+    "pdfPages": [
+      39,
+      40,
+      41,
+      42,
+      47
+    ],
+    "sourceStage": "Actual April 8, 2019 end-of-Phase 2 meeting minutes for IND 140832, with history of parent IND 124865; later clinical development, not initial clearance",
+    "whatSourceSays": [
+      "The initial 2015 study under IND 124865 enrolled advanced solid tumors including gliomas with IDH1/2 mutations. The 2019 meeting concerned a more specific grade 2 glioma population with surgery as its only treatment.",
+      "The sponsor reported different preliminary activity in enhancing and non-enhancing gliomas. A perioperative study separately assessed intratumoral 2-HG after treatment compared with untreated controls.",
+      "FDA asked for evidence supporting clinical benefit, including patient-reported outcomes and information on malignant transformation, and questioned whether the proposed magnitude of PFS improvement would be meaningful in this population."
+    ],
+    "interpretationForLesson": "A shared driver mutation does not settle disease stage, treatment setting or meaningful benefit. Tumor pathway modulation, radiographic change and patient benefit are related but separate claims.",
+    "unknowns": [
+      "Nonrandomized subgroup observations do not prove comparative efficacy between glioma types.",
+      "The meeting discussed later trial design, not a first-in-human requirement.",
+      "The document contains redactions and inconsistent patient-count statements; those numerical counts are not reused here."
+    ],
+    "verificationMethod": "Read FDA meeting header and complete selected background/discussion pages"
+  },
+  {
+    "id": "tazemetostat",
+    "drug": "Tazemetostat",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213400Orig1s000AdminCorres.pdf#page=33",
+    "pdfPages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "sourceStage": "Actual December 19, 2018 end-of-Phase 2 meeting minutes, IND 124025; not an initial IND review",
+    "whatSourceSays": [
+      "The sponsor proposed analyses of EZH2-mutant and wild-type follicular lymphoma. FDA noted that the mutation assay detected seven specified variants and did not detect copy-number gains, potentially misclassifying other EZH2 alterations as wild type.",
+      "FDA agreed with testing archival samples for copy-number gain and requested adequate characterization of the mutation/amplification-defined populations.",
+      "FDA recommended separate randomized evidence to characterize benefit in mutant and wild-type settings and raised the possibility that benefit in a combined trial could arise predominantly from the mutant group."
+    ],
+    "interpretationForLesson": "Patient-selection biology is only as precise as the assay and the claim. Test-negative does not necessarily mean biologically unaltered, and a pooled response can hide different subgroup effects.",
+    "unknowns": [
+      "These are later IND-development discussions about registration and confirmation, not universal pre-IND requirements.",
+      "The review raises possible misclassification; it does not demonstrate that every assay-negative tumor had another EZH2 alteration."
+    ],
+    "verificationMethod": "Read complete FDA meeting header and discussion pages"
+  },
+  {
+    "id": "ruxolitinib",
+    "drug": "Ruxolitinib",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/202192Orig1s000.pdf#page=466",
+    "pdfPages": [
+      83,
+      112,
+      114,
+      466,
+      467
+    ],
+    "sourceStage": "2011 NDA clinical/genomics reviews reproduced in a compiled PDF under a 2024 URL; the relevant genotype conclusion is a marketing-review assessment, not an initial IND decision",
+    "whatSourceSays": [
+      "The clinical review records IND 77456 submission in March 2007 and subsequent development. JAK-STAT pharmacodynamic measurements and JAK2V617F subgroup analyses appear in the later assessment.",
+      "The 2011 FDA Genomics Group review reports benefit in both JAK2V617F-positive and negative myelofibrosis groups, despite numerical differences.",
+      "It concludes pretreatment determination of JAK2V617F was not warranted, citing the exploratory analysis size, benefit irrespective of mutation status and lack of a safety implication."
+    ],
+    "interpretationForLesson": "A mutation can help establish disease biology without becoming a mandatory treatment-selection gate. Use evidence in marker-negative patients instead of assuming that absence of one mutation means absence of pathway dependence.",
+    "unknowns": [
+      "This conclusion cannot be backdated to initial IND clearance.",
+      "Exploratory subgroup findings do not prove equal benefit or equal mechanisms in the two groups.",
+      "Alternative upstream mechanisms discussed in the review are hypotheses, not settled causal explanations."
+    ],
+    "verificationMethod": "Read selected clinical and FDA Genomics Group pages, including the explicit testing recommendation"
+  },
+  {
+    "id": "fosdenopterin",
+    "drug": "Fosdenopterin",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf#page=168",
+    "pdfPages": [
+      168,
+      179,
+      180
+    ],
+    "sourceStage": "Actual IND 117502 study assessment completed October 7, 2020; explicitly reviews studies submitted under IND but not reviewed before NDA submission; not a first-dose review",
+    "whatSourceSays": [
+      "MOCS1 deficiency blocks cPMP production. Fosdenopterin supplies cPMP to restore the downstream cofactor pathway and sulfite oxidase activity.",
+      "In MOCS1-knockout mice, the assessed studies measured liver sulfite oxidase activity, brain and plasma S-sulfocysteine, urinary uric acid, growth and survival-related observations.",
+      "The review reports the sponsor's conclusion that plasma S-sulfocysteine and urinary uric acid may be inadequate to guide therapeutic dosing because they did not show a useful dose relationship under the tested conditions."
+    ],
+    "interpretationForLesson": "Even a clear genetic-to-biochemical rationale needs candidate-specific functional evidence. A measurable disease-related biomarker may be useful for one purpose while failing to guide dose or represent the affected tissue adequately.",
+    "unknowns": [
+      "The assessment date is later than the IND study submissions and NDA submission.",
+      "Mouse dose-response results do not establish a human biomarker qualification.",
+      "The source contains inconsistent descriptions of the direction of urinary uric-acid change; this review does not reproduce that disputed detail."
+    ],
+    "verificationMethod": "Read assessment cover and full pharmacology pages from the cached FDA PDF"
+  },
+  {
+    "id": "pacritinib",
+    "drug": "Pacritinib",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/208712Orig1s000IntegratedR.pdf#page=101",
+    "pdfPages": [
+      101,
+      102,
+      103
+    ],
+    "sourceStage": "2022 NDA retrospective initial IND history (December 2007) plus summary of studies submitted under IND; individual pharmacology-study submission dates not all specified",
+    "whatSourceSays": [
+      "FDA records antitumor activity in two models driven by FLT3 or JAK2 mutations alongside the initial IND and two Phase 1 myeloid/lymphoid malignancy protocols deemed safe to proceed in February 2008.",
+      "The IND-submitted pharmacology summary connects JAK2/FLT3 inhibition with reduced activated STAT proteins. A later reviewer table explicitly incorporates clinical exposure information from subsequent trials."
+    ],
+    "interpretationForLesson": "A mechanistically chosen model can support a preliminary clinical rationale without establishing the eventual best population. Show which experiments establish enzyme action, pathway modulation and tumor effects; keep later human exposure analyses on their own timeline.",
+    "unknowns": [
+      "This is a retrospective history, not the complete original IND.",
+      "The following regulatory-history paragraph has inconsistent SPA dates; they are not reused.",
+      "The later exposure table must not be presented as knowledge available before first human dosing."
+    ],
+    "verificationMethod": "Read complete FDA PDF pages101\u2013104 including section headers and table provenance."
+  },
+  {
+    "id": "ensartinib",
+    "drug": "Ensartinib",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=49",
+    "pdfPages": [
+      49,
+      50,
+      51
+    ],
+    "sourceStage": "Actual later IND111695 written responses recounting June2011 pre-IND advice and March2012 initial IND; not the original2011 meeting record",
+    "whatSourceSays": [
+      "The regulatory history records FDA agreement that the protocol should specify the number of patients negative for both ALK and cMET, given potential activity in tumors with either alteration. It also records advice to identify potential PD endpoints.",
+      "The initial Phase1 advanced-solid-tumor dose-escalation study was followed by ALK-positive NSCLC expansion."
+    ],
+    "interpretationForLesson": "An initial mechanistic hypothesis can coexist with explicitly planned learning in marker-negative patients. Distinguish purposeful broad enrollment from enrollment without a scientific rationale.",
+    "unknowns": [
+      "This is a retrospective account within later IND correspondence.",
+      "It does not establish a general FDA rule to enroll marker-negative participants, or prove benefit in that group.",
+      "Some surrounding advice is redacted; do not reconstruct it."
+    ],
+    "verificationMethod": "Read complete FDA PDF candidate pages and adjacent stage-identifying context."
+  },
+  {
+    "id": "eplontersen",
+    "drug": "Eplontersen",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217388Orig1s000IntegratedR.pdf#page=37",
+    "pdfPages": [
+      37,
+      127
+    ],
+    "sourceStage": "NDA review quoting February2019 pre-IND advice about a planned Phase3 endpoint, plus a summary explicitly labeled studies submitted with IND; not a first-dose requirement",
+    "whatSourceSays": [
+      "FDA did not agree with using serum TTR reduction as the primary efficacy endpoint of the planned Phase3 study and recommended clinical neuropathy and quality-of-life endpoints.",
+      "The IND-pharmacology summary includes human-hepatocyte mRNA suppression and human-TTR-transgenic-mouse pharmacology because sequence complementarity did not extend to ordinary rodent TTR."
+    ],
+    "interpretationForLesson": "Measuring the intended molecular effect is not equivalent to demonstrating patient benefit. Model selection should reflect candidate biology, and the intended role of a biomarker must be justified.",
+    "unknowns": [
+      "The pre-IND discussion concerned a Phase3 plan, not a universal first-in-human standard.",
+      "Individual study dates are not established by the IND-summary heading.",
+      "The source describes RNA suppression imprecisely as transcription suppression; this synthesis refers to reduced mRNA rather than asserting a transcriptional mechanism."
+    ],
+    "verificationMethod": "Read complete FDA PDF candidate pages and adjacent stage-identifying context."
+  },
+  {
+    "id": "rezafungin",
+    "drug": "Rezafungin",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf#page=4",
+    "pdfPages": [
+      4,
+      5,
+      6
+    ],
+    "sourceStage": "Actual preliminary pre-NDA meeting comments under IND124401, March2022; comments may differ from final meeting minutes",
+    "whatSourceSays": [
+      "FDA requested untreated-control strain-growth information to assess suitability of animal models and strains for activity and PK/PD targets.",
+      "FDA accepted the proposed breadth of fungal-isolate information as relevant while retaining conclusions about labeling and comparative benefit for review."
+    ],
+    "interpretationForLesson": "A model response needs an interpretable counterfactual: what happens without the drug? Model validity cannot be read from a treated-group curve alone.",
+    "unknowns": [
+      "These were preliminary comments for later development, not final meeting agreements or initial IND conditions.",
+      "The record requests information; it does not prove the sponsor never collected untreated-control data."
+    ],
+    "verificationMethod": "Read complete FDA PDF candidate pages and adjacent stage-identifying context."
+  },
+  {
+    "id": "pegzilarginase",
+    "drug": "Pegzilarginase",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000AdminCorres.pdf#page=23",
+    "pdfPages": [
+      23,
+      25,
+      27
+    ],
+    "sourceStage": "Actual IND127774 meeting discussion and FDA comments on a Phase3 plan, reproduced in a2026 public marketing package; later IND",
+    "whatSourceSays": [
+      "FDA distinguished lowering plasma arginine into an evidence-supported range from improving motor function/mobility.",
+      "FDA said the proposed duration might detect biochemical changes without being long enough to assess the proposed functional outcomes.",
+      "The discussion addressed dietary confounding, baseline functional impairment and justification of clinically meaningful change."
+    ],
+    "interpretationForLesson": "Biochemical correction and functional recovery may operate on different timescales. A disease-specific biochemical abnormality does not settle the trial duration or magnitude of meaningful benefit.",
+    "unknowns": [
+      "Later-phase protocol discussion must not be backdated to initial human entry.",
+      "Some duration and endpoint details are redacted.",
+      "The record does not establish that biochemical response always leads to functional recovery."
+    ],
+    "verificationMethod": "Read complete FDA PDF candidate pages and adjacent stage-identifying context."
+  }
+]

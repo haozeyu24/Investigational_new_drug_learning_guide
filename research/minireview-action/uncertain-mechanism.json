@@ -1,0 +1,343 @@
+[
+  {
+    "id": "uncertain-lumateperone",
+    "drug": "Lumateperone (Caplyta)",
+    "application": "NDA 209500",
+    "indNumbers": [
+      "079690"
+    ],
+    "anchorStrength": "Strong: explicit initial IND study plus later mechanistic disagreement",
+    "candidateEffect": "Functional antagonism at 5-HT2A and D2 receptors; receptor binding overlaps other atypical antipsychotics.",
+    "diseaseRelevance": "The sponsor proposed antipsychotic efficacy with less motor liability through greater affinity for 5-HT2A than D2, and proposed additional serotonin/glutamate effects.",
+    "uncertainty": "The reviewer found insufficient evidence for unique modulation of neurotransmission. In vivo findings did not settle presynaptic D2 partial agonism against the in vitro antagonist results; SERT binding had not been functionally characterized.",
+    "fdaObservation": "An open-label receptor-occupancy study opened IND 079690 and was allowed to proceed in November 2007. In June 2014 FDA suggested integrating occupancy and dose-response when choosing phase 3 doses. At NDA review FDA challenged the unique-mechanism claim and narrowed labeling language.",
+    "ourInference": "A human target-engagement experiment can be the next useful step without establishing the causal mechanism of clinical benefit. Binding, functional activity, occupancy, and superiority claims need different evidence.",
+    "possibleLesson": "Ask which link the next experiment can actually test: engagement, function, clinical response, or comparative advantage.",
+    "selectionBasis": "Schizophrenia clinical program; cited IND-opening study was receptor occupancy, not a genetically selected efficacy cohort.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/209500Orig1s000MultidisciplineR.pdf#page=34",
+        "pdfPages": [
+          34
+        ],
+        "sourceStage": "NDA retrospective account of initial IND (2007) and later IND meeting (2014)",
+        "evidenceSummary": "IND-opening receptor-occupancy study proceeded; FDA later asked for broader doses and integrated occupancy/dose-response analysis.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/209500Orig1s000MultidisciplineR.pdf#page=46",
+        "pdfPages": [
+          46,
+          47,
+          48,
+          49
+        ],
+        "sourceStage": "NDA pharmacology assessment; not shown to be the initial IND package",
+        "evidenceSummary": "Sponsor claimed distinctive multi-transmitter action; reviewer separated binding from function and disputed uniqueness and presynaptic partial agonism.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/209500Orig1s000MultidisciplineR.pdf#page=263",
+        "pdfPages": [
+          263
+        ],
+        "sourceStage": "NDA labeling decision",
+        "evidenceSummary": "Mechanism language narrowed because the available assays did not establish the asserted presynaptic action. Redacted proposed wording is not reconstructed.",
+        "verificationMethod": "Full text plus rendered visual inspection of redacted page"
+      }
+    ],
+    "limitation": "The public review supplies retrospective IND provenance, not the complete 2007 submission. Later assays and labeling disagreement must not be dated to initial IND.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "uncertain-brexanolone",
+    "drug": "Brexanolone (Zulresso)",
+    "application": "NDA 211371",
+    "indNumbers": [
+      "122279"
+    ],
+    "anchorStrength": "Strong: explicit initial PPD IND and FDA explanation of disease-focused rationale",
+    "candidateEffect": "GABAA positive allosteric modulation demonstrated by potentiation of receptor currents; chemically identical to allopregnanolone.",
+    "diseaseRelevance": "The initial replacement hypothesis connected the fall in allopregnanolone after childbirth to PPD. FDA says that hypothesis led it not to require studies in non-PPD MDD.",
+    "uncertainty": "The NDA benefit-risk assessment notes that allopregnanolone levels do not predict PPD and describes the mechanism of benefit as unknown. Receptor modulation remains observed even as the simple deficiency explanation weakens.",
+    "fdaObservation": "IND 122279 proposed an open-label phase 2a proof-of-concept study in adult women with severe PPD in June 2014; FDA determined the protocol safe to proceed and sent a letter July 31. Later controlled studies supplied efficacy evidence.",
+    "ourInference": "A disease-focused hypothesis can organize a testable program without becoming a diagnostic biomarker or a proven replacement mechanism. Revising the explanation need not erase a reproducible treatment effect.",
+    "possibleLesson": "Write down what survives if the preferred causal story is wrong: demonstrated pharmacology, defined population, measurable symptoms, and a controlled test.",
+    "selectionBasis": "Severe postpartum depression in adult women in the initial cited protocol; no low-allopregnanolone selection criterion established by this source.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211371Orig1s000MultidisciplineR.pdf#page=27",
+        "pdfPages": [
+          27,
+          28
+        ],
+        "sourceStage": "NDA retrospective account of initial indication-specific IND (2014)",
+        "evidenceSummary": "Initial PPD IND supported a phase 2a open-label proof-of-concept study; FDA found the protocol safe to proceed.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211371Orig1s000MultidisciplineR.pdf#page=19",
+        "pdfPages": [
+          19
+        ],
+        "sourceStage": "NDA benefit-risk assessment reflecting earlier development rationale",
+        "evidenceSummary": "FDA explains why the hormone-replacement hypothesis led to PPD-focused development, then notes the failure of hormone levels to predict PPD.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211371Orig1s000MultidisciplineR.pdf#page=35",
+        "pdfPages": [
+          35,
+          36
+        ],
+        "sourceStage": "NDA primary pharmacology review; individual submission dates not established",
+        "evidenceSummary": "Receptor-current potentiation supported GABAA modulation; animal sedation and anticonvulsant effects were consistent with that pharmacology.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      }
+    ],
+    "limitation": "An initial PPD IND is not necessarily the first administration of brexanolone to humans. The page does not date when the replacement hypothesis weakened, and pharmacology findings must not all be attributed to the 2014 package.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "uncertain-zuranolone",
+    "drug": "Zuranolone (Zurzuvae)",
+    "application": "NDA 217369, Orig2 PPD public review",
+    "indNumbers": [
+      "132131"
+    ],
+    "anchorStrength": "Strong: explicit IND pharmacology summary and changing population bridge",
+    "candidateEffect": "Positive modulation of GABAA receptors supported by inhibition of TBPS binding and potentiation of recombinant receptor currents.",
+    "diseaseRelevance": "Neurosteroid changes around childbirth supported a PPD hypothesis; shared depressive symptoms also motivated study in MDD.",
+    "uncertainty": "FDA describes PPD etiology as multifactorial and the mechanism of benefit as incompletely understood. Similar symptoms and common pharmacology did not establish interchangeable drug responses in MDD and PPD.",
+    "fdaObservation": "The review initially describes a possible package combining one positive PPD study and two positive MDD studies. Later development discussions required another PPD study, and the September 2021 pre-NDA meeting specifically cited possible differences in response between MDD and PPD.",
+    "ourInference": "A rationale can cross diseases more easily than an evidentiary bridge. State in advance which response data would justify borrowing support across populations, and revise the bridge when trial quality or response differs.",
+    "possibleLesson": "Separate shared pharmacology from the population-specific prediction of benefit; design the program to expose failure of extrapolation.",
+    "selectionBasis": "Clinical MDD and PPD populations; PPD timing around pregnancy/childbirth supplies a biological context rather than a molecular test.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf#page=149",
+        "pdfPages": [
+          149
+        ],
+        "sourceStage": "NDA retrospective initial IND history (2016)",
+        "evidenceSummary": "IND 132131 submitted for MDD and PPD October 25, 2016.",
+        "verificationMethod": "Rendered visual inspection because page has no extracted text"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf#page=154",
+        "pdfPages": [
+          154
+        ],
+        "sourceStage": "NDA section explicitly summarizing pharmacology studies submitted with the IND; initial versus later submission not specified",
+        "evidenceSummary": "Binding and receptor-current data establish GABAA modulation; the benefit mechanism remains uncertain.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf#page=150",
+        "pdfPages": [
+          150,
+          151,
+          152,
+          153
+        ],
+        "sourceStage": "NDA retrospective later IND and pre-NDA discussions (2020–2021)",
+        "evidenceSummary": "Potential MDD-to-PPD support was conditional; FDA subsequently asked for an additional positive PPD study and raised population-response differences.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf#page=30",
+        "pdfPages": [
+          30,
+          38,
+          39
+        ],
+        "sourceStage": "NDA disease-rationale assessment",
+        "evidenceSummary": "PPD neurosteroid rationale is plausible within a multifactorial disease, not an established unitary cause.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      }
+    ],
+    "limitation": "Several MDD passages are redacted. This record supports the changing PPD evidence bridge, not a reconstructed account of the MDD complete response. IND pharmacology section does not prove each study was in the original 2016 IND.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "uncertain-auvelity",
+    "drug": "Dextromethorphan–bupropion (Auvelity; AXS-05)",
+    "application": "NDA 215430",
+    "indNumbers": [],
+    "anchorStrength": "Strong: substantive end-of-phase-2 design agreement, distinct from initial IND",
+    "candidateEffect": "Dextromethorphan has NMDA-antagonist and sigma-1-agonist pharmacology. Bupropion inhibits its CYP2D6 metabolism, increasing exposure, and has its own antidepressant activity.",
+    "diseaseRelevance": "The program tested whether the combination improved depressive symptoms beyond bupropion and whether it worked against placebo in MDD.",
+    "uncertainty": "FDA states that the exact antidepressant mechanisms are unknown. Pharmacologic plausibility alone does not establish that each component contributes to a therapeutically relevant effect.",
+    "fdaObservation": "At the April 2019 EOP2 meeting FDA agreed that dextromethorphan alone at the combination dose would be metabolized too rapidly for direct testing. Given the earlier component comparison, FDA allowed a placebo-controlled pivotal design, conditional on successful studies. NDA review later debated endpoints and ultimately accepted a component-contribution and efficacy package.",
+    "ourInference": "A useful mechanistic question can be operational rather than molecular: what does each component add, at the exposure actually produced by the combination? PK explains why an apparently simple control arm could mislead.",
+    "possibleLesson": "Turn the causal claim into a contrast that can be tested. Distinguish evidence of component contribution from evidence sufficient for the overall efficacy claim.",
+    "selectionBasis": "Clinical MDD population. CYP2D6 phenotype affects exposure and dosing, but is not presented here as an efficacy-selection biomarker.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215430Orig1s000MultidisciplineR.pdf#page=31",
+        "pdfPages": [
+          31,
+          32
+        ],
+        "sourceStage": "NDA retrospective later IND/EOP2 meeting (April 3, 2019)",
+        "evidenceSummary": "FDA accepted conditional component-contribution logic and placebo-only phase 3 comparison; safety and statistical adequacy remained review questions.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215430Orig1s000MultidisciplineR.pdf#page=42",
+        "pdfPages": [
+          42,
+          69
+        ],
+        "sourceStage": "NDA pharmacology and clinical pharmacology assessment",
+        "evidenceSummary": "No new primary pharmacology studies were conducted with the combination; known component pharmacology and combination PK did not resolve the mechanism of antidepressant benefit.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215430Orig1s000MultidisciplineR.pdf#page=191",
+        "pdfPages": [
+          191,
+          192
+        ],
+        "sourceStage": "NDA internal deliberation and final review conclusion",
+        "evidenceSummary": "FDA distinguished therapeutically relevant contribution-of-components evidence from the registration endpoint and concluded the overall efficacy package supported approval.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      }
+    ],
+    "limitation": "This is later clinical development and NDA evidence, not an initial IND rationale. The public review contains complex endpoint deliberations; conditional EOP2 advice must not be portrayed as a promise of approval.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "uncertain-pimavanserin",
+    "drug": "Pimavanserin (Nuplazid)",
+    "application": "NDA 207318",
+    "indNumbers": [
+      "68384"
+    ],
+    "anchorStrength": "Useful: disease/model rationale plus substantive later IND endpoint refinement",
+    "candidateEffect": "5-HT2A inverse agonist/antagonist activity was measured in functional assays; antipsychotic-like rodent effects and lack of catalepsy supported a differentiated pharmacology hypothesis.",
+    "diseaseRelevance": "Parkinson disease psychosis created a specific problem: some antipsychotic treatments worsened motor function. A selective serotonergic approach offered a hypothesis for addressing psychosis in that context.",
+    "uncertainty": "The clinical reviewer describes human psychosis pathophysiology and the causal mechanism as speculative. The nonclinical review also reports tolerance to an effect in a repeated-dose rodent model.",
+    "fdaObservation": "The later IND program refined endpoints and study design after high placebo response in an earlier trial. FDA agreed to modified design/primary endpoint in 2010 and to accept an NDA for filing in 2013 on one strongly positive trial with supporting evidence.",
+    "ourInference": "A new drug need not explain the entire disease to address a concrete clinical tradeoff. Animal behavioral effects narrow the hypothesis, while a credible symptom endpoint and trial conduct determine whether the proposed benefit appears in people.",
+    "possibleLesson": "Start from the clinical function that matters and what current treatment compromises. Then connect pharmacology to an explicit prediction rather than treating an animal behavior as a human disease.",
+    "selectionBasis": "Parkinson disease with psychosis, defined clinically; no molecular selection established here.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/207318Orig1s000MedR.pdf#page=21",
+        "pdfPages": [
+          21,
+          22,
+          27
+        ],
+        "sourceStage": "NDA clinical disease/mechanism assessment",
+        "evidenceSummary": "Motor worsening with some treatments motivates the clinical tradeoff; review explicitly treats psychosis mechanism as uncertain.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/207318Orig1s000PharmR.pdf#page=47",
+        "pdfPages": [
+          47,
+          48,
+          49,
+          50
+        ],
+        "sourceStage": "NDA nonclinical pharmacology review; not shown to be initial IND data",
+        "evidenceSummary": "Functional receptor selectivity and animal pharmacology were reviewed; repeated-dose model tolerance limits a simple translational claim.",
+        "verificationMethod": "Full text plus rendered inspection of scanned PDF page 48"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/207318Orig1s000MedR.pdf#page=23",
+        "pdfPages": [
+          23,
+          24,
+          25
+        ],
+        "sourceStage": "NDA retrospective later IND meetings (2006–2014)",
+        "evidenceSummary": "IND 68384 history records endpoint development, 2010 design changes after high placebo response, and the 2013 filing agreement.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      }
+    ],
+    "limitation": "Mechanism and model discussion is NDA-stage. The cited clinical review is an individual reviewer assessment, not the final agency benefit-risk decision; this synthesis does not use its approval recommendation as the final FDA outcome.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "uncertain-dimethyl-fumarate",
+    "drug": "Dimethyl fumarate (Tecfidera; BG-12)",
+    "application": "NDA 204063",
+    "indNumbers": [
+      "73061"
+    ],
+    "anchorStrength": "Useful mechanistic counterexample; initial IND questions are predominantly safety/design",
+    "candidateEffect": "Immunomodulatory and antioxidant effects were observed across assays and EAE models; the sponsor emphasized Nrf2 activation.",
+    "diseaseRelevance": "EAE symptoms and tissue protection supplied disease-model support for relapsing MS development without a single established drug target.",
+    "uncertainty": "The review notes that Nrf2 contributed to but was not required for one macrophage effect; gene responses varied across tissues. Several candidate pathways were discussed, and a standard receptor-binding assay was not submitted.",
+    "fdaObservation": "At a 2005 pre-IND meeting FDA discussed interpretability of placebo versus active-comparator designs. The initial IND was held for inadequate safety information about prior cardiac/liver events and a dose-finding trial, then released after the sponsor addressed those issues. The mechanism review remained uncertain at NDA.",
+    "ourInference": "Converging phenotype and pathway effects can support a disease hypothesis without showing that a favorite pathway is necessary or sufficient. Separately, prior use of related fumarate products does not make missing safety evidence disappear.",
+    "possibleLesson": "Test the whole chain: observed phenotype, exposure, candidate pathway, competing explanation, and clinical outcome. A pathway-associated biomarker is not automatically a response-selection test.",
+    "selectionBasis": "Relapsing MS clinical population rather than selection for a demonstrated Nrf2 abnormality.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/204063Orig1s000PharmR.pdf#page=41",
+        "pdfPages": [
+          41,
+          42
+        ],
+        "sourceStage": "NDA primary pharmacology assessment, not demonstrably initial IND",
+        "evidenceSummary": "Multiple pathways, tissue-specific PD, Nrf2-independent activity in one setting, and EAE findings limit a one-pathway benefit story.",
+        "verificationMethod": "Full text plus rendered visual inspection of scanned PDF page 41"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/204063Orig1s000MedR.pdf#page=188",
+        "pdfPages": [
+          188
+        ],
+        "sourceStage": "NDA retrospective pre-IND (2005), initial IND hold/release (2006), and EOP2 history",
+        "evidenceSummary": "FDA considered clinical-design interpretability; initial hold concerned missing prior safety data and was lifted after response.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      },
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/204063Orig1s000PharmR.pdf#page=37",
+        "pdfPages": [
+          37
+        ],
+        "sourceStage": "NDA regulatory history",
+        "evidenceSummary": "Pharmacology review identifies IND 73061 and gives a July 2006 submission date.",
+        "verificationMethod": "Rendered visual inspection of scanned page"
+      }
+    ],
+    "limitation": "The clinical review gives February 22, 2006 as IND submission with June hold release; the pharmacology review gives July 12, 2006 for IND 73061. Do not silently reconcile this discrepancy. No retrieved passage shows FDA accepting Nrf2 as the initial IND efficacy mechanism.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "uncertain-trofinetide",
+    "drug": "Trofinetide (Daybue)",
+    "application": "NDA 217026",
+    "indNumbers": [
+      "114319",
+      "140184 (inconsistent reference in source)"
+    ],
+    "anchorStrength": "Supporting contrast: strong mechanism challenge and later IND abuse assessment; limited disease-benefit evidence in this source",
+    "candidateEffect": "A proposed neuroprotective effect had been hypothesized at low-to-mid nanomolar concentrations, while glutamate-receptor binding appeared only at micromolar concentrations.",
+    "diseaseRelevance": "The application concerned Rett syndrome, but this controlled-substance consultation does not itself establish the disease-model-to-benefit bridge.",
+    "uncertainty": "FDA explicitly identifies the concentration mismatch as inconsistent with the proposed metabotropic glutamate mechanism. Later functional NMDA assays did not show significant agonism or antagonism up to 30 micromolar.",
+    "fdaObservation": "During IND development FDA requested evidence supporting the absence of an abuse signal. Following submitted nonclinical and early clinical information, CSS accepted continued adverse-event assessment without dedicated abuse studies; the 2023 NDA consult reviewed further functional and clinical data.",
+    "ourInference": "A mechanistic explanation must work at relevant concentrations. Rejecting one molecular explanation can coexist with a separate, evidence-based decision about what safety studies remain necessary.",
+    "possibleLesson": "Treat a concentration mismatch as a reason to downgrade a mechanism claim, not to relabel weak binding as functional target engagement.",
+    "selectionBasis": "Rett syndrome program; this source does not describe molecular eligibility or establish mechanism from the disease diagnosis.",
+    "sources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217026Orig1s000OtherR.pdf#page=22",
+        "pdfPages": [
+          22,
+          23
+        ],
+        "sourceStage": "NDA CSS consultation recounting later IND assessment (August 2021) plus NDA functional data",
+        "evidenceSummary": "FDA describes receptor-affinity mismatch, request for additional abuse evidence, IND-stage disposition, and subsequent negative functional NMDA assay.",
+        "verificationMethod": "Downloaded original FDA PDF; read full page text and adjacent context"
+      }
+    ],
+    "limitation": "This is a supporting counterexample, not a complete benefit-rationale case or initial IND assessment. The page cites both IND 140184 and IND 114319; retain the inconsistency instead of guessing. A genetic disease diagnosis does not resolve the drug mechanism.",
+    "confidence": "verified passage"
+  }
+]

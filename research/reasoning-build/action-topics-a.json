@@ -1,0 +1,393 @@
+[
+  {
+    "id": "existing-evidence",
+    "label": "Use what is already known",
+    "principle": "Candidate nomination does not restart the science. Use earlier findings where they apply, and identify what changes with this product, route or clinical setting.",
+    "cases": [
+      {
+        "id": "glycopyrrolate-existing-evidence",
+        "drug": "Glycopyrrolate inhalation solution",
+        "title": "Bronchodilation had already been observed in people",
+        "stage": "Initial US IND review, 2011, reproduced in the 2017 NDA; earlier human studies already existed",
+        "modality": "Small molecule",
+        "steps": [
+          {
+            "label": "Before the US IND",
+            "text": "Two UK single-dose studies had tested glycopyrrolate in people with COPD. The studies included 12 and 42 participants; the larger study reported bronchodilation."
+          },
+          {
+            "label": "The next investigation",
+            "text": "The US IND proposed a 14-day crossover dose-finding study with a nebulized presentation. The team was moving from earlier single-dose observations to a repeated regimen."
+          },
+          {
+            "label": "What FDA reviewed",
+            "text": "The initial review used established systemic safety information alongside new inhalation studies addressing local respiratory effects. It considered the proposed trial reasonably safe to proceed."
+          }
+        ],
+        "lesson": "Earlier human observations can change the next question. Here, the team already knew the drug could produce bronchodilation in people.",
+        "limit": "Initial US IND does not mean first human exposure. Single-dose bronchodilation did not establish long-term symptom or exacerbation benefit, or suitability of every inhaled presentation.",
+        "sources": [
+          {
+            "label": "Initial review and assessment · PDF 31, 33",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31"
+          },
+          {
+            "label": "Proposed study and prior UK experience · PDF 38–39",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=38"
+          }
+        ]
+      },
+      {
+        "id": "vestronidase-existing-evidence",
+        "drug": "Vestronidase alfa",
+        "title": "Related-enzyme studies did not answer every product question",
+        "stage": "2014 preliminary IND review excerpt reproduced in the 2017 BLA; not all studies are established as preceding first human exposure",
+        "modality": "Biologic · Enzyme replacement",
+        "steps": [
+          {
+            "label": "Earlier enzyme experiments",
+            "text": "Published mouse studies used recombinant murine enzyme. Tissue correction differed between repeated treatment from birth and a later single injection; not every tissue improved."
+          },
+          {
+            "label": "The human product",
+            "text": "The review separately summarized uptake of recombinant human enzyme into cells from people with MPS VII. That addressed whether the product could enter relevant cells."
+          },
+          {
+            "label": "Activity after uptake",
+            "text": "A separate product study compared two lots by following intracellular enzyme activity after removing enzyme from the medium. It examined persistence of activity, not just initial uptake."
+          }
+        ],
+        "lesson": "Keep related-product evidence, but ask what the actual candidate must still demonstrate: entry into cells, continued function and access to affected tissues.",
+        "limit": "The uptake study report was not submitted. Intracellular persistence is not plasma half-life, and murine-enzyme experiments do not establish human brain benefit or a human dosing interval.",
+        "sources": [
+          {
+            "label": "IND-review provenance · PDF 13",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf#page=13"
+          },
+          {
+            "label": "Product studies and published mouse experiments · PDF 16–20",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf#page=16"
+          }
+        ]
+      }
+    ],
+    "moreCases": []
+  },
+  {
+    "id": "drug-action",
+    "label": "Show what this drug actually does",
+    "principle": "Binding a target, changing a cell and changing a disease model are different findings. Describe what the experiment showed before claiming what the drug will do in people.",
+    "cases": [
+      {
+        "id": "faricimab-drug-action",
+        "drug": "Faricimab",
+        "title": "The second target was tested against an anti-VEGF comparator",
+        "stage": "Studies explicitly attributed to the initial IND, summarized in the 2022 BLA; corrected study data are identified",
+        "modality": "Biologic · Bispecific antibody",
+        "steps": [
+          {
+            "label": "Two binding activities",
+            "text": "Binding experiments showed that faricimab could bind VEGF-A and ANG-2 independently and simultaneously. This established two interactions, but did not show what the second interaction added."
+          },
+          {
+            "label": "A functional comparison",
+            "text": "A study of laser-induced abnormal blood vessels in the choroid used three monkeys per group. Faricimab was compared with ranibizumab, an anti-ANG-2 antibody and an antibody control."
+          },
+          {
+            "label": "What changed",
+            "text": "At matched anti-VEGF binding sites, 90 micrograms of faricimab reduced lesion severity more than 30 micrograms of ranibizumab in this experiment."
+          }
+        ],
+        "lesson": "A functional comparison can test whether a proposed additional action changes an outcome beyond what the existing action achieves.",
+        "limit": "A small induced-lesion model does not establish better vision in people, clinical superiority or pharmacological synergy. The review identifies corrected data without supplying the full correction history.",
+        "sources": [
+          {
+            "label": "Initial-IND binding studies · PDF 18–19",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=18"
+          },
+          {
+            "label": "Monkey comparator experiment · PDF 20–21",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=20"
+          }
+        ]
+      },
+      {
+        "id": "lumateperone-drug-action",
+        "drug": "Lumateperone",
+        "title": "Receptor occupancy did not establish D2 partial agonism",
+        "stage": "NDA account of the 2007 initial IND and 2014 meeting, followed by a separate NDA mechanism assessment",
+        "modality": "Small molecule",
+        "steps": [
+          {
+            "label": "Initial human question",
+            "text": "The initial IND proposed an open-label receptor-occupancy study. FDA allowed it to proceed in November 2007: the study could examine engagement of receptors in people."
+          },
+          {
+            "label": "Later dose planning",
+            "text": "In 2014, FDA suggested considering receptor occupancy together with dose-response information when choosing Phase 3 doses."
+          },
+          {
+            "label": "The broader claim",
+            "text": "At NDA review, FDA questioned the claim of presynaptic D2 partial agonism. In-vitro tests showed D2 antagonism; the reviewer found the evidence insufficient for the proposed presynaptic action."
+          }
+        ],
+        "lesson": "Measuring receptor engagement is different from identifying what the drug does at that receptor or how patients benefit.",
+        "limit": "The initial IND history is retrospective. The later mechanistic criticism and labeling decision must not be presented as findings made before the 2007 study.",
+        "sources": [
+          {
+            "label": "Initial IND and later meeting history · PDF 34",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/209500Orig1s000MultidisciplineR.pdf#page=34"
+          },
+          {
+            "label": "Later pharmacology assessment · PDF 46–49",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/209500Orig1s000MultidisciplineR.pdf#page=46"
+          },
+          {
+            "label": "NDA mechanism wording · PDF 263",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/209500Orig1s000MultidisciplineR.pdf#page=263"
+          }
+        ]
+      }
+    ],
+    "moreCases": [
+      {
+        "id": "baricitinib-drug-action",
+        "drug": "Baricitinib",
+        "finding": "JAK1/JAK2 selectivity seen in isolated-enzyme experiments was not reproduced in human-leukocyte assays. The reviewer also noted that exposure estimates for a rat efficacy experiment came from a separate experiment.",
+        "lesson": "An enzyme-assay label may not describe intact-cell behavior. State where exposure and response were actually measured together.",
+        "stage": "2018 NDA pharmacology assessment; these studies are not established as the original IND set",
+        "modality": "Small molecule",
+        "limit": "Cell assays do not settle clinical selectivity in every tissue, and separate-animal exposure estimates are not paired exposure-response observations.",
+        "sources": [
+          {
+            "label": "Enzyme versus cellular selectivity · PDF 65",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=65"
+          },
+          {
+            "label": "Rat efficacy and exposure limitation · PDF 84–86",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=84"
+          }
+        ]
+      },
+      {
+        "id": "rezafungin-drug-action",
+        "drug": "Rezafungin",
+        "finding": "FDA requested fungal-growth information from untreated control mice to judge whether the models and strains were suitable for interpreting drug activity and PK/PD targets.",
+        "lesson": "To interpret a treated group, first understand what happened without treatment.",
+        "stage": "March 2022 preliminary pre-NDA comments under an IND; not final meeting agreements or initial-IND advice",
+        "modality": "Small molecule · Antifungal",
+        "limit": "A request for control data does not prove that the sponsor never collected those data.",
+        "sources": [
+          {
+            "label": "Model and untreated-control questions · PDF 4–6",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf#page=4"
+          }
+        ]
+      },
+      {
+        "id": "pacritinib-drug-action",
+        "drug": "Pacritinib",
+        "finding": "The review describes activity in models driven by FLT3 or JAK2 mutations and links kinase inhibition with reduced activated STAT proteins. Its history records two initial Phase 1 malignancy protocols considered safe to proceed in February 2008.",
+        "lesson": "Kinase inhibition, pathway changes and tumor-model activity each contribute a different observation to the rationale.",
+        "stage": "2022 NDA account of initial IND history plus IND-submitted pharmacology summaries; individual study submission dates are not all specified",
+        "modality": "Small molecule",
+        "limit": "Later clinical-exposure analyses in the review were not knowledge available before first dosing; model activity did not establish the eventual best population.",
+        "sources": [
+          {
+            "label": "Initial history and IND pharmacology · PDF 101–103",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/208712Orig1s000IntegratedR.pdf#page=101"
+          }
+        ]
+      },
+      {
+        "id": "trofinetide-drug-action",
+        "drug": "Trofinetide",
+        "finding": "FDA noted a concentration mismatch: proposed neuroprotection at low-to-mid nanomolar concentrations, but glutamate-receptor binding at micromolar concentrations. Separate functional NMDA-receptor experiments showed no significant agonism or antagonism up to 30 micromolar.",
+        "lesson": "A mechanism must make sense at the concentrations where the relevant effect occurs.",
+        "stage": "2023 NDA controlled-substance consultation recounting later IND assessment and reviewing additional NDA functional data",
+        "modality": "Synthetic peptide analogue",
+        "limit": "This consultation examines particular mechanistic claims; it does not establish the complete rationale for benefit in Rett syndrome.",
+        "sources": [
+          {
+            "label": "Concentration mismatch and functional assays · PDF 22–23",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217026Orig1s000OtherR.pdf#page=22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "possible-benefit",
+    "label": "Explain why that could help",
+    "principle": "Connect the observed drug action to the problem being treated. The drug may work around a defect, and a useful treatment can still have an incomplete explanation of benefit.",
+    "cases": [
+      {
+        "id": "nitisinone-possible-benefit",
+        "drug": "Nitisinone",
+        "title": "Blocking an earlier step could reduce harmful products",
+        "stage": "NDA assessment in the 2002 approval package; its pathway figure is explicitly drawn from a January 1995 IND review",
+        "modality": "Small molecule",
+        "steps": [
+          {
+            "label": "The disease defect",
+            "text": "Hereditary tyrosinemia type 1 involves a deficient enzyme late in tyrosine breakdown. Harmful metabolites accumulate along that pathway."
+          },
+          {
+            "label": "The drug’s action",
+            "text": "Nitisinone inhibits an enzyme earlier in the pathway. The intervention reduces production of harmful downstream substances rather than replacing the deficient enzyme."
+          },
+          {
+            "label": "Another consequence",
+            "text": "The review describes reduced urinary succinylacetone during treatment, but also increased tyrosine and ocular injury in rat studies. Blocking a pathway can create a different metabolic problem."
+          }
+        ],
+        "lesson": "A drug can help without repairing the original defect. Explain both the useful change and the other consequences of changing the pathway.",
+        "limit": "Only the pathway figure is explicitly attributed to the 1995 IND here. The surrounding animal and clinical summaries come from the later NDA assessment.",
+        "sources": [
+          {
+            "label": "Disease pathway and drug action · PDF 9–10",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=9"
+          },
+          {
+            "label": "IND-derived pathway figure · PDF 13",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=13"
+          },
+          {
+            "label": "NDA rat-study discussion · PDF 14–15",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=14"
+          }
+        ]
+      },
+      {
+        "id": "brexanolone-possible-benefit",
+        "drug": "Brexanolone",
+        "title": "The replacement hypothesis did not explain everything",
+        "stage": "NDA account of the 2014 postpartum-depression IND, followed by later pharmacology and benefit-risk assessments",
+        "modality": "Small molecule",
+        "steps": [
+          {
+            "label": "The starting hypothesis",
+            "text": "Allopregnanolone falls after childbirth. A replacement hypothesis helped focus brexanolone development on postpartum depression; the drug is chemically identical to allopregnanolone and modulates GABA-A receptors."
+          },
+          {
+            "label": "The proposed test",
+            "text": "The June 2014 indication-specific IND proposed an open-label Phase 2a study in adult women with severe postpartum depression. FDA found the protocol safe to proceed."
+          },
+          {
+            "label": "The later assessment",
+            "text": "The NDA review notes that allopregnanolone levels did not predict postpartum depression and that the mechanism of benefit remained unknown. Controlled trials supplied clinical evidence beyond the replacement hypothesis."
+          }
+        ],
+        "lesson": "A hypothesis can guide a useful clinical investigation without becoming a complete explanation of the disease or the treatment’s benefit.",
+        "limit": "The initial postpartum-depression IND was not necessarily first human exposure. The review does not date when the replacement explanation weakened; later findings must not be backdated to that IND.",
+        "sources": [
+          {
+            "label": "Rationale and later uncertainty · PDF 19",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211371Orig1s000MultidisciplineR.pdf#page=19"
+          },
+          {
+            "label": "Initial indication-specific IND · PDF 27–28",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211371Orig1s000MultidisciplineR.pdf#page=27"
+          },
+          {
+            "label": "NDA pharmacology assessment · PDF 35–36",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211371Orig1s000MultidisciplineR.pdf#page=35"
+          }
+        ]
+      }
+    ],
+    "moreCases": [
+      {
+        "id": "minocycline-possible-benefit",
+        "drug": "Minocycline foam",
+        "finding": "A 2017 IND review reported no pharmacology studies with the foam and an unknown acne mechanism. Later formulation testing showed antibacterial activity, while pivotal trials measured acne lesions and investigator-rated severity rather than clinical microbiology outcomes.",
+        "lesson": "Knowing an antibacterial action is different from proving how that action accounts for improvement in acne.",
+        "stage": "2017 later IND review reproduced in the 2019 NDA; separate later microbiology and clinical assessments",
+        "modality": "Small molecule · Topical formulation of an established drug",
+        "limit": "The statement about absent foam pharmacology concerns that retained review. It is not a general exemption for novel candidates or all later studies.",
+        "sources": [
+          {
+            "label": "Retained IND pharmacology discussion · PDF 149–150",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=149"
+          },
+          {
+            "label": "Later formulation microbiology · PDF 133–136",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=133"
+          },
+          {
+            "label": "Clinical criteria and assessments · PDF 57",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=57"
+          }
+        ]
+      },
+      {
+        "id": "dimethyl-fumarate-possible-benefit",
+        "drug": "Dimethyl fumarate",
+        "finding": "The sponsor emphasized Nrf2 signaling, but the NDA review described several possible pathways. Nrf2 contributed to one macrophage effect without being required for it, and gene responses differed across tissues.",
+        "lesson": "Evidence that a pathway participates does not establish that it is the only explanation, or that it is necessary for every effect.",
+        "stage": "2013 NDA primary-pharmacology assessment; these findings are not established as the initial IND evidence",
+        "modality": "Small molecule",
+        "limit": "The passage does not establish FDA acceptance of Nrf2 as the initial IND efficacy mechanism or a predictive patient-selection marker.",
+        "sources": [
+          {
+            "label": "Multiple pathways and model findings · PDF 41–42",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/204063Orig1s000PharmR.pdf#page=41"
+          }
+        ]
+      },
+      {
+        "id": "pimavanserin-possible-benefit",
+        "drug": "Pimavanserin",
+        "finding": "Parkinson disease psychosis posed a practical problem: some antipsychotics worsened movement. Selective serotonergic pharmacology offered a different approach, but the clinical reviewer still described the disease mechanism and explanation of benefit as uncertain.",
+        "lesson": "A drug can address a specific clinical problem without explaining the whole disease. Animal effects do not establish that clinical advantage.",
+        "stage": "2016 NDA clinical and pharmacology assessments; not established as the original IND package",
+        "modality": "Small molecule",
+        "limit": "These are reviewer assessments, not proof that the proposed motor advantage follows from receptor selectivity alone.",
+        "sources": [
+          {
+            "label": "Clinical problem and uncertain mechanism · PDF 21–22, 27",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/207318Orig1s000MedR.pdf#page=21"
+          },
+          {
+            "label": "Functional and animal pharmacology · PDF 47–50",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/207318Orig1s000PharmR.pdf#page=47"
+          }
+        ]
+      },
+      {
+        "id": "drospirenone-possible-benefit",
+        "drug": "Drospirenone",
+        "finding": "The original-IND appendix combines receptor profiling with ovulation-inhibition and other functional experiments. It tests a physiological intervention for contraception rather than repair of a disease-causing defect.",
+        "lesson": "Connect pharmacology to the intended useful function; potential benefit need not mean correcting a disease mechanism.",
+        "stage": "Original IND appendix reproduced in the 2001 NDA pharmacology review",
+        "modality": "Small molecule",
+        "limit": "Receptor activity and animal ovulation inhibition do not, by themselves, establish clinical contraceptive effectiveness.",
+        "sources": [
+          {
+            "label": "Original-IND receptor and functional studies · PDF 38–40",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2001/21-098_Yasmin_pharmr_P1.pdf#page=38"
+          }
+        ]
+      },
+      {
+        "id": "auvelity-possible-benefit",
+        "drug": "Dextromethorphan–bupropion (Auvelity)",
+        "finding": "Bupropion increases dextromethorphan exposure by inhibiting its metabolism. At the 2019 end-of-Phase-2 meeting, FDA agreed that dextromethorphan alone at the combination dose would be metabolized too rapidly for the proposed direct comparison; component-contribution evidence still mattered.",
+        "lesson": "When drugs are combined, ask what each adds at the exposure the combination actually produces.",
+        "stage": "NDA account of later IND/end-of-Phase-2 advice in 2019, plus NDA pharmacology assessment",
+        "modality": "Small-molecule combination",
+        "limit": "Conditional study-design advice was not a promise of approval. The exact antidepressant mechanism remained unknown.",
+        "sources": [
+          {
+            "label": "Component comparison and meeting advice · PDF 31–32",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215430Orig1s000MultidisciplineR.pdf#page=31"
+          },
+          {
+            "label": "Combination pharmacology · PDF 69",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215430Orig1s000MultidisciplineR.pdf#page=69"
+          }
+        ]
+      }
+    ]
+  }
+]

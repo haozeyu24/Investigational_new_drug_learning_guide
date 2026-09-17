@@ -1,0 +1,604 @@
+[
+  {
+    "id": "nc-ivacaftor-mechanism",
+    "recordId": "ivacaftor",
+    "drug": "Ivacaftor",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85",
+    "pdfPages": [
+      85,
+      86
+    ],
+    "sourceStage": "Initial IND review, completed May 18, 2006; includes initial submission, response and amendment",
+    "evidenceSummary": "Candidate-specific recombinant-cell, single-channel and patient-derived epithelial studies separate CFTR gating potentiation from altered cAMP signaling. The record reports mutation/model-specific effects and shows that some delta-F508 epithelial conditions required a corrector.",
+    "decisionOrQuestion": "Which links establish candidate action, and which remain a hypothesis about responsive patients?",
+    "teachingUse": "Build a claim ladder: channel gating → epithelial chloride transport → disease/patient hypothesis. Ask learners to retain the mutation, assay conditions, corrector use and measured endpoint on each claim, then select a human PD question.",
+    "limitation": "In vitro rescue is not demonstrated clinical benefit. These initial-IND delta-F508 and G551D experiments must not be presented as proof of the eventual approved population or as evidence that potentiation corrects trafficking.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-cinacalcet-mechanism",
+    "recordId": "cinacalcet",
+    "drug": "Cinacalcet hydrochloride",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=8",
+    "pdfPages": [
+      8
+    ],
+    "sourceStage": "Original IND 56010 pharmacology review, June 19, 1998",
+    "evidenceSummary": "The introduction links calcium-receptor action to PTH suppression and the hypothesized improvement in renal bone disease. The proposed patient study measures PTH, calcium, calcitonin and PK after prior healthy-volunteer experience.",
+    "decisionOrQuestion": "Which measured pathway response should accompany the proposed patient study, and what benefit has not yet been established?",
+    "teachingUse": "Connect the biological rationale to a PD measurement plan; distinguish PTH suppression from the later patient benefit the program hopes to demonstrate.",
+    "limitation": "This original US IND proposed a Phase 2 patient trial and cites previous Phase 1 human exposure; it is not a first-ever-human dosing case.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-suvorexant-mechanism",
+    "recordId": "suvorexant",
+    "drug": "Suvorexant",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=66",
+    "pdfPages": [
+      66
+    ],
+    "sourceStage": "NDA review summary explicitly referring to June 16, 2008 IND pharmacology review",
+    "evidenceSummary": "The reviewer links orexin receptors to wake/sleep biology, gives human OX1R/OX2R binding and functional calcium-release inhibition results, and reports reduced rat locomotor activity during the dark phase.",
+    "decisionOrQuestion": "Does the assay show receptor antagonism, reduced activity, or the intended sleep benefit?",
+    "teachingUse": "Have learners separate receptor binding, functional antagonism and behavioral readouts before proposing the human sleep assessment.",
+    "limitation": "This is an NDA-era summary of previously reviewed pharmacology. Reduced locomotor activity alone cannot establish restorative sleep or clinical benefit.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-yasmin-selectivity",
+    "recordId": "yasmin",
+    "drug": "Drospirenone / ethinyl estradiol",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2001/21-098_Yasmin_pharmr_P1.pdf#page=40",
+    "pdfPages": [
+      40
+    ],
+    "sourceStage": "Pharmacology attachment identified by NDA review as original 1996 IND material",
+    "evidenceSummary": "The retained review describes progesterone-receptor affinity and inhibition of ovulation in animal models alongside antiandrogenic and antimineralocorticoid effects.",
+    "decisionOrQuestion": "Which activities support the intended use, and which create additional biological effects to evaluate?",
+    "teachingUse": "Create a mechanism-to-effect map that includes intended and collateral endocrine effects; use it to generate relevant safety questions.",
+    "limitation": "The scan is an older mechanistic summary, not human contraceptive efficacy evidence or a modern prescribing recommendation. Appendix provenance is established on PDF p38.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-vestronidase-uptake",
+    "recordId": "vestronidase",
+    "drug": "Vestronidase alfa-vjbk",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf#page=17",
+    "pdfPages": [
+      17,
+      18
+    ],
+    "sourceStage": "Nonclinical IND 123788 review material excerpted into the BLA review; 2014 preliminary safety review identified on p16",
+    "evidenceSummary": "Human MPS VII fibroblast experiments measure receptor-mediated enzyme uptake and persistence of intracellular enzymatic activity. The following mouse literature summary distinguishes treatment from birth from a single later dose and describes tissue storage pathology.",
+    "decisionOrQuestion": "Does uptake, persistent enzyme activity, or reduced storage establish the particular therapeutic claim?",
+    "teachingUse": "Build a translational chain with separate uptake, intracellular function, tissue effect and timing claims. Ask what evidence must link the proposed enzyme product and schedule to the target patient setting.",
+    "limitation": "Some mouse evidence uses recombinant murine GUS and cited publications; do not silently relabel all mouse findings as studies of the clinical product. One uptake study report was not submitted. Cell activity duration is not plasma half-life.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-ivacaftor-exposure-bridge",
+    "recordId": "ivacaftor",
+    "drug": "Ivacaftor",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=90",
+    "pdfPages": [
+      90,
+      92
+    ],
+    "sourceStage": "Initial IND review, 2006",
+    "evidenceSummary": "The reviewer summarizes oral animal PK, high plasma protein binding, in-vitro cross-species metabolism and distribution, and compares exposure from clinical and nonclinical formulations. A rat experiment compares exposure across vehicles at a common nominal high dose.",
+    "decisionOrQuestion": "Are the nonclinical exposures informative for the proposed clinical material and route?",
+    "teachingUse": "Prepare an exposure bridge table containing species, formulation, analyte, binding, time course and comparison limits; send unresolved formulation differences to CMC.",
+    "limitation": "Several formulation identifiers are redacted. The summary does not supply a complete quantitative human PK prediction. Similar exposure in one comparison does not establish every aspect of product equivalence.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-cinacalcet-dose-margin",
+    "recordId": "cinacalcet",
+    "drug": "Cinacalcet hydrochloride",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=16",
+    "pdfPages": [
+      16
+    ],
+    "sourceStage": "Original IND review, June 1998, evaluating proposed Phase 2 dosing using prior human data",
+    "evidenceSummary": "Prior human repeated dosing produced dose-related PTH suppression and calcium reductions. The reviewer extrapolates an AUC of approximately 150 ng·h/mL at the proposed 75 mg maximum and compares it with animal LOAEL exposures: AUC margins of 6, 1 and 4 for rat, dog and monkey, respectively, before recommending monitoring.",
+    "decisionOrQuestion": "How can a dose be considered reasonably safe with a dog exposure margin near one, and what conditions make that judgment interpretable?",
+    "teachingUse": "Have learners label measured versus extrapolated exposures, NOAEL versus LOAEL, and the planned monitoring. Produce a justified maximum-dose paragraph with explicit uncertainties.",
+    "limitation": "The comparison uses LOAEL values and prior healthy-volunteer information; it is not a universal safety-factor rule, a NOAEL margin, or a first-human starting-dose calculation. Cmax values are partly redacted.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-osimertinib-tk-quality",
+    "recordId": "osimertinib",
+    "drug": "Osimertinib",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=140",
+    "pdfPages": [
+      140
+    ],
+    "sourceStage": "One-month rat study explicitly reproduced from IND 117879 in an NDA appendix",
+    "evidenceSummary": "Rat Cmax/AUC were generally dose-proportional on Day 1 with a weak sex effect and inconsistent changes by Day 28. The method quantified parent and one metabolite, while a co-eluting peak restricted another metabolite to present/absent reporting; stored analyte concentrations may have declined.",
+    "decisionOrQuestion": "Which exposure comparisons are quantitative, and how do analytical limitations change confidence?",
+    "teachingUse": "Annotate an exposure table by analyte, assay validity, sample stability and measurement uncertainty; reject calculating a numerical margin for the nonquantitative metabolite.",
+    "limitation": "The appendix does not identify this passage as the entire original IND. Passing assay batches and GLP status do not remove the co-elution or storage-stability limitations.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-vardenafil-metabolite-tk",
+    "recordId": "levitra",
+    "drug": "Vardenafil",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf#page=16",
+    "pdfPages": [
+      16,
+      17
+    ],
+    "sourceStage": "February 3, 1999 IND review of rodent carcinogenicity protocols; later development",
+    "evidenceSummary": "The reviewer finds a planned single-clock-time concentration measurement inadequate and requests parent plus active M1 Cmax and AUC at all doses across specified study weeks. Dose selection is linked to human AUC exposure, with qualifications about the available human population and PK.",
+    "decisionOrQuestion": "What measurements are needed to interpret long-term exposure to parent and an active metabolite?",
+    "teachingUse": "Let learners repair the sampling plan and analyte list, then explain why dose and a spot concentration are insufficient for an exposure margin.",
+    "limitation": "This concerns chronic carcinogenicity protocol planning, not the toxicology package required to initiate the first clinical trial. Several exposure table values are unavailable in the scan.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-ivacaftor-dose-ceiling",
+    "recordId": "ivacaftor",
+    "drug": "Ivacaftor",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122",
+    "pdfPages": [
+      122
+    ],
+    "sourceStage": "Initial IND pharmacology/toxicology review, 2006",
+    "evidenceSummary": "The 14-day rat and dog studies identify NOAELs at their highest tested doses without adequately identifying target organs. The reviewer accepts a modified maximum escalating clinical dose of 500 mg rather than the originally proposed 800 mg, while recommending higher doses in future animal studies to characterize target-organ toxicity.",
+    "decisionOrQuestion": "Why can a negative repeat-dose study leave uncertainty that limits escalation?",
+    "teachingUse": "Reconstruct the reviewer’s decision: tested exposure/dose → uncharacterized hazard → constrained clinical maximum → additional nonclinical work. Contrast evidence of no observed harm with an adequately characterized toxicity profile.",
+    "limitation": "The page reports historical surface-area and body-weight safety-factor reasoning; reproduce it as case-specific reviewer logic, not a current general dosing algorithm.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-ivacaftor-safety-pharmacology",
+    "recordId": "ivacaftor",
+    "drug": "Ivacaftor",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=87",
+    "pdfPages": [
+      87,
+      88,
+      89
+    ],
+    "sourceStage": "Initial IND review, 2006",
+    "evidenceSummary": "hERG current inhibition was tested up to a solubility-limited concentration and interpreted with vehicle and positive controls. In vivo telemetry showed no adverse ECG signal at tested doses, while rat assays identified gastrointestinal transit effects.",
+    "decisionOrQuestion": "How should controls, concentration limits and complementary in-vivo observations affect the safety conclusion?",
+    "teachingUse": "Ask learners to write an evidence-bounded conclusion for cardiac and gastrointestinal risk and specify what each assay did and did not test.",
+    "limitation": "A negative in-vivo result does not erase an in-vitro signal or establish human safety. The assay could not determine a hERG IC50 above its solubility limit.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-faricimab-inflammation",
+    "recordId": "faricimab",
+    "drug": "Faricimab",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26",
+    "pdfPages": [
+      26,
+      15
+    ],
+    "sourceStage": "BLA review quoting and summarizing the initial IND review and 2013 dose discussion",
+    "evidenceSummary": "The quoted initial review identifies severe ocular inflammation and systemic findings in animals. An anti-drug-antibody explanation lacked supporting evidence in the eye. The starting 0.5 mg/eye was supported, while 6 mg/eye was not; lower-dose human data were to be reviewed before escalation.",
+    "decisionOrQuestion": "Is an immune-mediated explanation enough to dismiss animal inflammation, and what would support escalation?",
+    "teachingUse": "Require a relevance assessment with competing explanations, supporting evidence and residual uncertainty; translate it into staged escalation and a specific data-review gate.",
+    "limitation": "This is preserved initial-review content inside a later BLA review, not the full initial submission. The history dates on p15 are internally awkward; avoid reconstructing a precise chronology beyond the documented sequence.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-osimertinib-recovery",
+    "recordId": "osimertinib",
+    "drug": "Osimertinib",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=142",
+    "pdfPages": [
+      142,
+      144,
+      145
+    ],
+    "sourceStage": "One-month dog study reproduced from IND 117879; later public NDA appendix",
+    "evidenceSummary": "There were no preterm deaths, but GI toxicity required a dosing holiday and reduction from 20 to 12 mg/kg/day. Corneal changes partially regressed after dose modification, while corneal opacity was not fully reversible in recovery animals.",
+    "decisionOrQuestion": "Which findings persist despite survival or partial improvement, and how should that constrain the clinical plan?",
+    "teachingUse": "Build a hazard table recording organ, severity, dose history, time course, recovery and residual concern; hand off a proposed ocular assessment and escalation question to clinical planning.",
+    "limitation": "The study had small groups and no vehicle-control recovery cohort. Do not equate partial regression with full recovery or claim the appendix itself establishes the eventual human monitoring schedule.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-baricitinib-monitorability",
+    "recordId": "baricitinib",
+    "drug": "Baricitinib",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=248",
+    "pdfPages": [
+      248,
+      249
+    ],
+    "sourceStage": "June 9, 2009 IND amendment review, reproduced as NDA appendix; recalls initial 2008 restrictions",
+    "evidenceSummary": "Chronic rat and dog studies showed immunosuppression and other toxicities. The reviewer distinguished NOAELs from reversible, clinically monitorable LOAEL effects and used exposure margins to support a proposed 3-month plus 3-month trial up to 10 mg daily, while distinguishing evidence needed for a chronic marketing indication.",
+    "decisionOrQuestion": "When can reversibility and monitorability influence a trial-specific safety judgment?",
+    "teachingUse": "Compare this case with ivacaftor’s uncharacterized target organs: require a dose/duration-specific argument and a monitoring rationale rather than a single margin cutoff.",
+    "limitation": "This is later trial-extension support, not initial first-human authorization. It reports a historical review decision, not a general license to dose at LOAEL exposures.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-tofacitinib-offtarget",
+    "recordId": "tofacitinib",
+    "drug": "Tofacitinib",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf#page=505",
+    "pdfPages": [
+      505
+    ],
+    "sourceStage": "NDA nonclinical review with Table 13 explicitly extracted from a June 24, 2005 IND review",
+    "evidenceSummary": "Table 13 documents the broad receptor, channel and uptake-site screen reviewed under the IND. Surrounding NDA text compares selected off-target potencies with human unbound Cmax and summarizes hERG/action-potential assays.",
+    "decisionOrQuestion": "What does a broad screen cover, and what added exposure information is needed to interpret a hit?",
+    "teachingUse": "Have learners separate the historical screening panel from the later exposure-margin interpretation and decide which signals need focused follow-up.",
+    "limitation": "Only Table 13 is explicitly labeled as extracted from the 2005 IND review. Do not backdate adjacent human exposure margins or every safety-pharmacology assay to that original review.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-glycopyrrolate-route-package",
+    "recordId": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31",
+    "pdfPages": [
+      31,
+      33
+    ],
+    "sourceStage": "Reproduced initial IND review, May 2011",
+    "evidenceSummary": "The reviewer accepts reliance on established systemic safety information for prior approved products while assessing new local respiratory toxicity for inhaled glycopyrrolate. Draft 28-day rat and dog inhalation reports support the proposed study, with final reports requested within 120 days.",
+    "decisionOrQuestion": "Which established information can be reused, and which risks arise from this route and product?",
+    "teachingUse": "Produce a reuse/new-evidence matrix for systemic versus respiratory safety, the actual product/device and report maturity; specify what supports the immediate trial.",
+    "limitation": "The permission and report timing are specific to this IND. This is not evidence that draft reports are always acceptable or that an approved active ingredient makes every new formulation safe.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-glycopyrrolate-impurity-bridge",
+    "recordId": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70",
+    "pdfPages": [
+      70,
+      71
+    ],
+    "sourceStage": "June 14, 2011 memo following initial-IND CMC information request",
+    "evidenceSummary": "The CMC reviewer requests clarification of impurities and stability before and after nebulization; a toxicology consult evaluates daily impurity exposure against the 14-day initial trial and distinguishes later NDA expectations.",
+    "decisionOrQuestion": "Does the impurity exposure permitted for the immediate clinical duration support later use?",
+    "teachingUse": "Create a CMC-to-toxicology request containing impurity identity, daily exposure, administration device and trial duration; require separate conclusions for the initial trial and longer development.",
+    "limitation": "Specification limits are heavily redacted. Preserve the reviewer’s historical characterization without turning it into a current generic impurity classification or regulatory threshold.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-pennsaid-formulation-gap",
+    "recordId": "pennsaid",
+    "drug": "Diclofenac sodium topical solution",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-pharmacology",
+      "nonclinical-pkpd",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf#page=45",
+    "pdfPages": [
+      45,
+      46
+    ],
+    "sourceStage": "NDA retrospective history of initial IND hold recommendation and 1993–1995 follow-up",
+    "evidenceSummary": "A literature-only response did not resolve missing product-specific toxicity information. FDA questioned treating DMSO as inactive and requested absorption, interactions and route-related toxicity information. Later discussions accepted specified human data and cadaver-skin metabolism as substitutes for parts of the earlier proposed animal program.",
+    "decisionOrQuestion": "Which gaps remain when two familiar components become a new topical product, and what evidence can resolve each gap?",
+    "teachingUse": "Construct a deficiency-response table: component contribution, route, exposure, interaction, product toxicity and acceptable alternative evidence. Show why the plan changes when new evidence becomes available.",
+    "limitation": "This is retrospective history with some redactions and case-specific substitutions. It does not establish a universal animal-study waiver or a rule that every excipient is pharmacologically active.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-suvorexant-formulation-relevance",
+    "recordId": "suvorexant",
+    "drug": "Suvorexant",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34",
+    "pdfPages": [
+      34
+    ],
+    "sourceStage": "NDA retrospective account of initial-IND May Proceed advice and later development",
+    "evidenceSummary": "Initial one-month rat/dog studies supported the first trial, but FDA raised concern that an animal-study excipient could alter the safety profile relative to the clinical formulation. Later discussions requested justification or studies using the relevant formulation; the sponsor performed extensive additional work.",
+    "decisionOrQuestion": "Could the test vehicle make an otherwise valid toxicology study poorly representative of human exposure?",
+    "teachingUse": "Ask learners to audit nonclinical-to-clinical formulation differences before commissioning pivotal studies and write a justification or bridging study question.",
+    "limitation": "The identities of key formulations/excipients are redacted. Do not assert a particular excipient mechanism or that all repeated studies were required before the initial IND.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-halobetasol-staged-package",
+    "recordId": "halobetasol",
+    "drug": "Halobetasol propionate lotion",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf#page=103",
+    "pdfPages": [
+      103,
+      104
+    ],
+    "sourceStage": "December 3, 2008 original-submission memorandum, preserving sponsor questions and FDA responses",
+    "evidenceSummary": "Prior systemic safety plus formulation-specific irritation and wavelength-scan information supports a single-dose healthy-volunteer vasoconstrictor assay. Later reliance requires an adequate clinical bridge; local-safety and longer-development studies are discussed separately.",
+    "decisionOrQuestion": "What is enough for a single-dose formulation-selection study, and what remains before expanded development?",
+    "teachingUse": "Build a staged evidence schedule with gates for first study, formulation selection, Phase 2 and marketing. Attach each requested study to a concrete exposure or route question.",
+    "limitation": "Historical formulation-specific advice must not be presented as current universal dermal or photocarcinogenicity requirements. The original IND number is redacted.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-faricimab-species-and-duration",
+    "recordId": "faricimab",
+    "drug": "Faricimab",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26",
+    "pdfPages": [
+      26,
+      16
+    ],
+    "sourceStage": "Initial-IND species assessment plus later 2017/2018 nonclinical discussions summarized in BLA review",
+    "evidenceSummary": "The initial reviewer considered rabbits unsuitable for planned chronic studies because of severe toxicity at low intravitreal doses and accepted monkey-only chronic work. Later Phase 3 support is distinguished from embryofetal and carcinogenicity questions for the BLA.",
+    "decisionOrQuestion": "Which species and study duration answer the next clinical question, and what work belongs to the later application?",
+    "teachingUse": "Have learners justify species relevance and feasibility, then place study needs on an evidence timeline tied to dose, duration, population and stage.",
+    "limitation": "Acceptance of a single species is specific to this molecule and context. Initial studies and later reproductive or marketing studies must remain visibly separated.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-eovist-study-reconstructability",
+    "recordId": "eovist",
+    "drug": "Gadoxetate disodium",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2008/022090s000_PharmR.pdf#page=72",
+    "pdfPages": [
+      72
+    ],
+    "sourceStage": "Earlier IND 54875 reproductive-toxicity review attached unedited to NDA review; not established as initial IND",
+    "evidenceSummary": "The fertility-study page identifies test material, formulation batch, study dates, final-report and GLP status, dose groups, sex, route and pre-mating exposure duration. It also records that the certificate of analysis was not included in the submission.",
+    "decisionOrQuestion": "Can the evidence supporting a reproductive-safety question be reconstructed and matched to its intended use?",
+    "teachingUse": "Use this as a document-audit exercise: identify what is documented, what is missing and why study title or GLP status alone cannot answer adequacy.",
+    "limitation": "The page is mainly design and provenance, not the study’s outcome or a sufficiency decision. Do not claim it shows absence of reproductive toxicity or first-trial requirements.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-orfadin-legacy-data",
+    "recordId": "orfadin",
+    "drug": "Nitisinone",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=23",
+    "pdfPages": [
+      23
+    ],
+    "sourceStage": "NDA discussion explicitly referring back to IND-review observations on a reused legacy study",
+    "evidenceSummary": "A toxicity/carcinogenicity study was interrupted after the original development program stopped. Later therapeutic development reused stored tissues and incomplete records; the reviewer describes absent QA, limited necropsies and missing interim report, alongside ocular findings and limited recovery.",
+    "decisionOrQuestion": "What can a repurposed legacy study still support, and which missing records limit the inference?",
+    "teachingUse": "Write an evidence-reuse assessment that distinguishes recoverable observations, missing primary records and claims requiring new data.",
+    "limitation": "This page discusses historical evidence limitations; it is not a full initial-IND review or a finding that GLP without QA is generally acceptable.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-minocycline-duration-gate",
+    "recordId": "minocycline",
+    "drug": "Minocycline hydrochloride foam",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=148",
+    "pdfPages": [
+      148
+    ],
+    "sourceStage": "End-of-Phase-2 advice preserved inside an appended 2017 IND review",
+    "evidenceSummary": "FDA agrees that a completed 12-week minipig dermal study supports a 12-week Phase 3 trial. The sponsor describes a 39-week study for the extension and NDA, citing prior agreement that animal treatment would remain at least one month ahead of human exposure; FDA reserves adequacy until final-report review.",
+    "decisionOrQuestion": "What evidence must be available before a trial extends patient exposure?",
+    "teachingUse": "Build a calendar of clinical and animal exposure, interim evidence and final-report gates. Distinguish the sponsor’s description of prior agreement from the FDA response on the current page.",
+    "limitation": "This is later Phase 3/extension planning. The rolling-duration arrangement is product-specific and should not become a general initial-IND rule.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-tofacitinib-design-gap",
+    "recordId": "tofacitinib",
+    "drug": "Tofacitinib",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf#page=41",
+    "pdfPages": [
+      41
+    ],
+    "sourceStage": "NDA review retrospectively comparing end-of-Phase-2 advice with later findings",
+    "evidenceSummary": "The reviewer describes apparently adequate late-development support followed by identification of a male-fertility study-design deficiency at NDA review: mating occurred before sufficient male exposure. The history also records earlier concern that an embryofetal study used insufficiently high doses.",
+    "decisionOrQuestion": "Why is prior program-level concurrence insufficient when the actual design fails the biological question?",
+    "teachingUse": "Ask learners to audit duration-to-mating and dose selection against the objective, then distinguish meeting agreement from final-data adequacy.",
+    "limitation": "These are late-development and NDA findings. Do not imply that the deficiencies prevented the original first clinical study.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-oteseconazole-longterm-design",
+    "recordId": "oteseconazole",
+    "drug": "Oteseconazole",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf#page=353",
+    "pdfPages": [
+      353,
+      355
+    ],
+    "sourceStage": "IND 111675 statistical carcinogenicity review of 2020 submission, appended to NDA integrated review",
+    "evidenceSummary": "The rat carcinogenicity study changed high doses, used a dosing holiday and terminated groups early because of survival. The statistician notes that the sponsor did not account for changed dosing in its weighted-dose analysis.",
+    "decisionOrQuestion": "How do dose changes and early termination alter the exposure history and interpretation of long-term risk?",
+    "teachingUse": "Offer an advanced later-development audit: reconstruct intended versus actual exposure and identify implications for the analysis before drawing a risk conclusion.",
+    "limitation": "This is long-term carcinogenicity work under an IND, not evidence required for the initial single-dose human trial. The cited page does not itself establish the final carcinogenicity conclusion.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-sotorasib-review-gate",
+    "recordId": "sotorasib",
+    "drug": "Sotorasib",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214665Orig1s000AdminCorres.pdf#page=17",
+    "pdfPages": [
+      17
+    ],
+    "sourceStage": "November 2020 Type B pre-NDA meeting under IND 145628",
+    "evidenceSummary": "FDA says the planned nonclinical package appears acceptable based on a table of completed studies, while reserving the adequacy determination until NDA review.",
+    "decisionOrQuestion": "What has been agreed when a planned package appears acceptable?",
+    "teachingUse": "Use as a short closing checkpoint on program planning versus review of actual data; pair with the concrete tofacitinib design-gap case.",
+    "limitation": "The cited page does not reproduce the study table, study results or the initial IND package. It should not be a main scientific-content case.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-venetoclax-translation-limit",
+    "recordId": "venetoclax",
+    "drug": "Venetoclax",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=64",
+    "pdfPages": [
+      64,
+      96
+    ],
+    "sourceStage": "Clinical NDA review retrospectively describing early and later IND trial changes",
+    "evidenceSummary": "The reviewer states that the original proposed 200 mg starting dose was based on mouse/dog pharmacology-toxicology. Early tumor lysis and later severe events led to progressively lower starts, slower ramp-up, risk stratification and enhanced prophylaxis/monitoring.",
+    "decisionOrQuestion": "What must change when patient evidence reveals risk not adequately controlled by the initial dose rationale?",
+    "teachingUse": "Use as the clinical handoff after nonclinical dose justification: update the risk assessment and trial controls with observed patient response.",
+    "limitation": "The cited clinical review does not show the underlying animal experiments or calculations. Do not infer which nonclinical study predicted or failed to predict TLS; use it as a translation-limit case, not a detailed nonclinical dataset.",
+    "verificationMethod": "Direct text extraction and reading of the original FDA PDF page(s); appendix/stage context checked",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-gvoke-bridge-limit",
+    "recordId": "glucagon-gvoke",
+    "drug": "Glucagon injection",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=1",
+    "pdfPages": [
+      1,
+      2
+    ],
+    "sourceStage": "Complete response letter for NDA 212097/S-012 marketing supplement",
+    "evidenceSummary": "FDA states that a nonclinical PK study is insufficient to establish the requested IV scientific bridge. It describes human comparative PK or an adequately justified alternative using formulation and physicochemical comparisons.",
+    "decisionOrQuestion": "When is nonclinical exposure evidence insufficient for bridging a new clinical product?",
+    "teachingUse": "Use a cross-discipline boundary exercise: specify the unanswered human bioavailability question and the needed clinical/CMC handoff.",
+    "limitation": "This is a marketing-supplement deficiency, not initial IND advice. It must not be generalized to all nonclinical-to-clinical bridges or conflated with separate compatibility comments elsewhere in the letter.",
+    "verificationMethod": "Direct visual reading of rendered original FDA PDF page(s)",
+    "confidence": "verified passage"
+  }
+]

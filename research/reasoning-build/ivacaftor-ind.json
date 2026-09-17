@@ -1,0 +1,156 @@
+{
+  "id": "ivacaftor-ind",
+  "label": "Ivacaftor: follow the evidence",
+  "title": "What does the initial IND review add to the discovery account?",
+  "stage": "2014 discovery paper compared with the reproduced 2006 initial IND review",
+  "drug": "Ivacaftor · VX-770",
+  "identity": "Compound 48 in the discovery chapter; VRT-813077 in the FDA review.",
+  "image": "assets/candidate-transition-48.svg",
+  "imageAlt": "Chemical structure of ivacaftor, the nominated development candidate",
+  "question": "Could this candidate improve the function of defective CFTR in human airway tissue?",
+  "rationale": "CFTR dysfunction reduces chloride transport. The team’s hypothesis was that helping channels already at the cell surface open more often could restore useful function.",
+  "timing": "This is a comparison of sources, not a timeline of new experiments. The discovery paper is retrospective; neither source dates each study relative to candidate nomination.",
+  "discovery": {
+    "title": "What lead optimization contributes",
+    "claims": [
+      {
+        "label": "The actual candidate was active",
+        "text": "Compound 48 increased CFTR activity in engineered cells. Table 8 reports an EC₅₀ of 3 ± 1 nM in the F508del assay."
+      },
+      {
+        "label": "Human CF cells were already studied",
+        "text": "The paper reports chloride-transport responses in patient-derived bronchial cells, including F508del-homozygous and G551D/F508del cells. Human-tissue testing was part of this account."
+      },
+      {
+        "label": "A mechanism and patient hypothesis existed",
+        "text": "The authors describe compound 48 as a CFTR potentiator and say its G551D-cell activity guided their choice of a CF patient population to study."
+      }
+    ],
+    "limit": "The discovery paper was published in 2014, after ivacaftor received FDA marketing approval in 2012. It looks back across discovery and later development, so we cannot assume every reported result was available by the end of lead optimization or identify exactly which studies were added after candidate nomination.",
+    "source": {
+      "label": "Hadida et al., 2014 · pp. 9780–9781, Tables 8–9",
+      "url": "https://doi.org/10.1021/jm5012808"
+    },
+    "approvalSource": {
+      "label": "FDA marketing approval · January 31, 2012",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000Approv.pdf"
+    }
+  },
+  "comparison": {
+    "title": "What the initial IND review adds",
+    "intro": "Compare the same biological questions in the discovery paper and the FDA review. The review summarizes three submitted pharmacology reports: B227, B228 and B229.",
+    "rows": [
+      {
+        "id": "function",
+        "question": "Does the candidate increase chloride transport?",
+        "paper": {
+          "text": "Table 8 reports 3 ± 1 nM potency for compound 48 in the engineered NIH3T3 F508del assay. This was a candidate result, not just evidence from a tool compound.",
+          "source": {
+            "label": "Discovery paper · p. 9780, Table 8",
+            "url": "https://doi.org/10.1021/jm5012808"
+          }
+        },
+        "ind": {
+          "text": "B227 describes fluorescence and electrophysiology experiments in NIH3T3 and FRT cells. With forskolin stimulation, FRT-cell EC₅₀ values were 18 ± 6 nM for F508del and 36 ± 6 nM for G551D.",
+          "source": {
+            "label": "Study report B227 · FDA PDF 85",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
+          }
+        },
+        "addition": {
+          "label": "More detail about the experimental systems",
+          "text": "The same activity question was tested across cell backgrounds and CFTR variants. The assay system matters when comparing potency values."
+        }
+      },
+      {
+        "id": "mechanism",
+        "question": "Does it change channel gating or upstream signaling?",
+        "paper": {
+          "text": "The paper describes CFTR potentiation and includes a cAMP-measurement method. Its main results do not present the detailed single-channel and phosphodiesterase findings summarized in the IND review.",
+          "source": {
+            "label": "Discovery paper · pp. 9780–9781; cAMP method p. 9793",
+            "url": "https://doi.org/10.1021/jm5012808"
+          }
+        },
+        "ind": {
+          "text": "B228 reports increased channel open probability without changed single-channel conductance. The candidate did not increase cAMP in the reported assay; phosphodiesterase inhibition occurred only at concentrations much higher than those needed for potentiation.",
+          "source": {
+            "label": "Study report B228 · FDA PDF 86",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=86"
+          }
+        },
+        "addition": {
+          "label": "More detail supporting the mechanism",
+          "text": "Single-channel behavior and upstream-signaling assays help distinguish channel potentiation from an indirect increase in cAMP."
+        }
+      },
+      {
+        "id": "tissue",
+        "question": "Does the effect extend to human CF airway tissue?",
+        "paper": {
+          "text": "Table 9 reports F508del bronchial-cell potency of 22 ± 10 nM. The text also reports G551D/F508del bronchial-cell activity and chloride secretion approaching half the non-CF level. Patient-derived tissue was already part of this published account.",
+          "source": {
+            "label": "Discovery paper · p. 9780; p. 9781, Table 9",
+            "url": "https://doi.org/10.1021/jm5012808"
+          }
+        },
+        "ind": {
+          "text": "B229 describes F508del-homozygous bronchial cells and nasal-polyp tissue, plus non-CF controls. Forskolin-stimulated activity increased; some bronchial experiments used a corrector. In nasal tissue, glibenclamide blocked the stimulated response.",
+          "source": {
+            "label": "Study report B229 · FDA PDF 86",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=86"
+          }
+        },
+        "addition": {
+          "label": "Different tissue details and controls",
+          "text": "This excerpt documents F508del patient tissue, not G551D patient-derived bronchial cells. The stimulation, corrector and inhibitor conditions matter when interpreting what it showed."
+        }
+      }
+    ],
+    "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes."
+  },
+  "assessment": {
+    "title": "How FDA assessed the evidence",
+    "items": [
+      {
+        "label": "The reviewer’s interpretation",
+        "text": "The reviewer summarized increased chloride transport in engineered cells and human bronchial cells, and interpreted the mechanism experiments as direct potentiation of channel gating rather than an effect through increased cAMP signaling."
+      },
+      {
+        "label": "Requests or changes in these passages",
+        "text": "We did not identify a request to add or repeat primary pharmacology studies in the reviewed B227–B229 passages. That does not establish what happened in every FDA interaction or mean the whole IND was accepted without changes."
+      },
+      {
+        "label": "What remained unproven",
+        "text": "These experiments did not demonstrate improved lung function or establish which CF populations would benefit from treatment. Results obtained with stimulation or a corrector cannot be treated as proof that ivacaftor alone would work across CF genotypes."
+      }
+    ],
+    "source": {
+      "label": "FDA initial-IND pharmacology assessment · PDF 85–86",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
+    }
+  },
+  "takeaway": "The biological case rests on the candidate’s activity, an explanation for that activity, and evidence from relevant human tissue. Whether that produces meaningful benefit in patients remains a clinical question.",
+  "sources": [
+    {
+      "label": "Hadida et al., 2014 · Discovery paper, pp. 9780–9781 and 9793",
+      "url": "https://doi.org/10.1021/jm5012808"
+    },
+    {
+      "label": "FDA · Reproduced initial-IND review, PDF 78–86",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=78"
+    },
+    {
+      "label": "Study report B227 · FDA PDF 85",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
+    },
+    {
+      "label": "Study reports B228–B229 · FDA PDF 86",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=86"
+    },
+    {
+      "label": "FDA marketing approval · January 31, 2012",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000Approv.pdf"
+    }
+  ]
+}

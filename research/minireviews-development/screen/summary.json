@@ -1,0 +1,48 @@
+{
+  "snapshotUTC": "2026-09-17T15:02:43.187767+00:00",
+  "snapshotPDFs": 7979,
+  "uniqueHashes": 7933,
+  "pdfPages": 467510,
+  "lowTextPages": 77998,
+  "counts": {
+    "extractedPages": 467510,
+    "no-IND-text-match": 4054,
+    "candidate": 2097,
+    "IND-present-no-topic-proximity-match": 1828
+  },
+  "topics": {
+    "nonclinical-pkpd": {
+      "pages": 818,
+      "documents": 462
+    },
+    "nonclinical-safety": {
+      "pages": 1270,
+      "documents": 557
+    },
+    "nonclinical-package": {
+      "pages": 2178,
+      "documents": 938
+    },
+    "cmc-material": {
+      "pages": 5268,
+      "documents": 1570
+    },
+    "cmc-controls": {
+      "pages": 3685,
+      "documents": 1301
+    },
+    "cmc-stability": {
+      "pages": 2443,
+      "documents": 971
+    },
+    "clinical": {
+      "pages": 1418,
+      "documents": 732
+    },
+    "clinical-dose": {
+      "pages": 502,
+      "documents": 302
+    }
+  },
+  "limitations": "Automated retrieval of extracted text, not full scientific review. Candidate proximity does not prove IND stage. Negative matches do not establish absence. Source corpus and OCR remain incomplete."
+}

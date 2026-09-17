@@ -1,0 +1,354 @@
+{
+  "topic": "nonclinical-package",
+  "date": "2026-09-17",
+  "selection": "Bounded purposive manual review, combining prior verified cases and fresh queue leads. Not all candidate documents were manually reviewed.",
+  "fixedQueueCounts": {
+    "documents": 938,
+    "candidatePages": 2178
+  },
+  "manuallyReadDocuments": 14,
+  "manuallyReadDocumentPages": 23,
+  "freshQueueDocumentsEncountered": 8,
+  "warning": "Queue proximity is retrieval evidence, not IND provenance. A document can be relevant while its candidate hit is boilerplate or a different topic. Retained cases state exact stage.",
+  "documents": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+      "pagesRead": [
+        31,
+        33
+      ],
+      "caseIds": [
+        "nc-glycopyrrolate-route-package"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "f01b27a6d8e8ed628c5057cc",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/glycopyrrolate.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf",
+      "pagesRead": [
+        45,
+        46
+      ],
+      "caseIds": [
+        "nc-pennsaid-formulation-gap"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "dadbe0af701d95373a6a7f17",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/pennsaid.pdf",
+      "pageImagesUsed": [
+        "/tmp/ind-agent/pennsaid-45.png",
+        "/tmp/ind-agent/pennsaid-46.png"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf",
+      "pagesRead": [
+        34
+      ],
+      "caseIds": [
+        "nc-suvorexant-formulation-relevance"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "028df31b77d324a9ac1c3c53",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-review-library/suvorexant.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        148
+      ],
+      "caseIds": [
+        "nc-minocycline-duration-gate"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "37c4b5e4f85457b6e0c97059",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/minocycline.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf",
+      "pagesRead": [
+        41
+      ],
+      "caseIds": [
+        "nc-tofacitinib-design-gap"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "c8081f3f1a91bc47997997af",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-review-library/tofacitinib.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf",
+      "pagesRead": [
+        23
+      ],
+      "caseIds": [
+        "nc-orfadin-legacy-data"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "38725dd0f3759a1396b910a2",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/orfadin.pdf",
+      "pageImagesUsed": [
+        "/tmp/ind-agent/orfadin-23.png"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+      "pagesRead": [
+        16,
+        26
+      ],
+      "caseIds": [
+        "nc-faricimab-species-and-duration"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        16,
+        17,
+        22,
+        25,
+        26,
+        27,
+        48,
+        50,
+        51
+      ],
+      "readCandidatePages": [
+        16,
+        26
+      ],
+      "documentId": "c63b3cb2567fb4452213cf10",
+      "cachedTextFile": "/tmp/ind-full-screen/text/c63b3cb2567fb4452213cf10.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/c63b3cb2567fb4452213cf10.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/faricimab.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf",
+      "pagesRead": [
+        201
+      ],
+      "caseIds": [
+        "nc-exp01-romiplostim-assay-bridge"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        48,
+        57,
+        191,
+        214,
+        217
+      ],
+      "readCandidatePages": [],
+      "documentId": "2212a1243a7f5b3929c64455",
+      "cachedTextFile": "/tmp/ind-full-screen/text/2212a1243a7f5b3929c64455.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        140,
+        142,
+        143
+      ],
+      "caseIds": [
+        "package-levacetylleucine"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        141,
+        143,
+        150,
+        152
+      ],
+      "readCandidatePages": [
+        143
+      ],
+      "documentId": "12385c1326b8f3bfbeaf630a",
+      "cachedTextFile": "/tmp/ind-full-screen/text/12385c1326b8f3bfbeaf630a.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204957Orig1s000PharmR.pdf",
+      "pagesRead": [
+        43
+      ],
+      "caseIds": [
+        "package-acetaminophen-iv"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        34,
+        43,
+        44
+      ],
+      "readCandidatePages": [
+        43
+      ],
+      "documentId": "3269ee553861a3239ad63e15",
+      "cachedTextFile": "/tmp/ind-full-screen/text/3269ee553861a3239ad63e15.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000SumR.pdf",
+      "pagesRead": [
+        10,
+        11,
+        12
+      ],
+      "caseIds": [
+        "package-somapacitan"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        11,
+        12
+      ],
+      "readCandidatePages": [
+        11,
+        12
+      ],
+      "documentId": "5972eb58ee58be8eb5e37afe",
+      "cachedTextFile": "/tmp/ind-full-screen/text/5972eb58ee58be8eb5e37afe.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/5972eb58ee58be8eb5e37afe.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        11
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Substantive supporting example: FDA could not locate named excipient genotoxicity reports and reserved adequacy until final reports; not expanded because existing cases cover report-status/reconstructability.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        11
+      ],
+      "readCandidatePages": [
+        11
+      ],
+      "documentId": "2035fc28ce8d09fd219f2800",
+      "cachedTextFile": "/tmp/ind-full-screen/text/2035fc28ce8d09fd219f2800.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        5,
+        6
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Substantive dosing-schedule/package adequacy comments but strongest detailed use is control growth in the PK/PD review.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        5
+      ],
+      "readCandidatePages": [
+        5
+      ],
+      "documentId": "02d9652859669addd0b32607",
+      "cachedTextFile": "/tmp/ind-full-screen/text/02d9652859669addd0b32607.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761326Orig2s000SumR.pdf",
+      "pagesRead": [
+        26,
+        27
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Main package deficiency is CMC/facilities and main scientific concern is human PD; excluded from detailed nonclinical-package set.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        26,
+        27,
+        28
+      ],
+      "readCandidatePages": [
+        26,
+        27
+      ],
+      "documentId": "60ef1b4ef877fd76afc82ca2",
+      "cachedTextFile": "/tmp/ind-full-screen/text/60ef1b4ef877fd76afc82ca2.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/60ef1b4ef877fd76afc82ca2.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    }
+  ]
+}

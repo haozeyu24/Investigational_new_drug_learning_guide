@@ -1,0 +1,299 @@
+{
+  "topic": "nonclinical-safety",
+  "date": "2026-09-17",
+  "purpose": "Focused research mini-review for future lesson construction; no website changes",
+  "scope": "Purposive selection from earlier verified mappings and current cached FDA corpus. Critical cited passages reread. Does not claim exhaustive search or full-document manual review. Fresh queue audit is recorded separately.",
+  "pageConvention": "One-based PDF file page, not printed page number",
+  "distinctPrograms": 10,
+  "cases": [
+    {
+      "id": "nc-ivacaftor-safety-pharmacology",
+      "drug": "Ivacaftor",
+      "title": "Negative results need experimental boundaries",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=87",
+      "pdfPages": [
+        87,
+        88,
+        89
+      ],
+      "sourceStage": "Initial IND review, 2006",
+      "sourceFacts": [
+        "hERG current inhibition was tested up to a solubility-limited concentration and interpreted with vehicle and positive controls. In vivo telemetry showed no adverse ECG signal at tested doses, while rat assays identified gastrointestinal transit effects."
+      ],
+      "interpretationForLesson": "Retain solubility, controls, achieved exposures and observation windows. Interpret hERG, telemetry and GI-function findings as complementary evidence, not as a vote in which more negative tests cancel a positive test.",
+      "uncertainties": [
+        "A negative in-vivo result does not erase an in-vitro signal or establish human safety. The assay could not determine a hERG IC 50 above its solubility limit."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-osimertinib-recovery",
+      "drug": "Osimertinib",
+      "title": "Improvement after dose modification is not full recovery",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=142",
+      "pdfPages": [
+        142,
+        144,
+        145
+      ],
+      "sourceStage": "One-month dog study reproduced from IND 117879; later public NDA appendix",
+      "sourceFacts": [
+        "There were no preterm deaths, but GI toxicity required a dosing holiday and reduction from 20 to 12 mg/kg/day. Corneal changes partially regressed after dose modification, while corneal opacity was not fully reversible in recovery animals."
+      ],
+      "interpretationForLesson": "Require the timeline: onset, dose interruption, reduced dosing and post-treatment observation. Partial corneal regression cannot support a blanket reversible label, especially without a vehicle recovery group.",
+      "uncertainties": [
+        "The study had small groups and no vehicle-control recovery cohort. Do not equate partial regression with full recovery or claim the appendix itself establishes the eventual human monitoring schedule."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-faricimab-inflammation",
+      "drug": "Faricimab",
+      "title": "A plausible animal-specific mechanism does not settle human relevance",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26",
+      "pdfPages": [
+        26,
+        15
+      ],
+      "sourceStage": "BLA review quoting and summarizing the initial IND review and 2013 dose discussion",
+      "sourceFacts": [
+        "The quoted initial review identifies severe ocular inflammation and systemic findings in animals. An anti-drug-antibody explanation lacked supporting evidence in the eye. The starting 0.5 mg/eye was supported, while 6 mg/eye was not; lower-dose human data were to be reviewed before escalation."
+      ],
+      "interpretationForLesson": "Separate the observed ocular lesion from the ADA explanation and from the evidence for that explanation in the affected tissue. Protocol restrictions can manage unresolved relevance without falsely claiming the mechanism is known.",
+      "uncertainties": [
+        "This is preserved initial-review content inside a later BLA review, not the full initial submission. The history dates on p 15 are internally awkward; avoid reconstructing a precise chronology beyond the documented sequence."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "bispecific antibody comparator"
+    },
+    {
+      "id": "nc-baricitinib-monitorability",
+      "drug": "Baricitinib",
+      "title": "Monitorability changes the decision, not the classification of the finding",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=248",
+      "pdfPages": [
+        248,
+        249
+      ],
+      "sourceStage": "June 9, 2009 IND amendment review, reproduced as NDA appendix; recalls initial 2008 restrictions",
+      "sourceFacts": [
+        "Chronic rat and dog studies showed immunosuppression and other toxicities. The reviewer distinguished NOAELs from reversible, clinically monitorable LOAEL effects and used exposure margins to support a proposed 3-month plus 3-month trial up to 10 mg daily, while distinguishing evidence needed for a chronic marketing indication."
+      ],
+      "interpretationForLesson": "Make learners distinguish a NOAEL from a reversible, clinically monitorable LOAEL. Risk interpretation includes severity, reversibility, detection and proposed trial context; a low exposure multiple is not automatically acceptable or unacceptable.",
+      "uncertainties": [
+        "This is later trial-extension support, not initial first-human authorization. It reports a historical review decision, not a general license to dose at LOAEL exposures."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-exp01-lumateperone-metabolite-limits",
+      "drug": "Lumateperone (Caplyta)",
+      "title": "Carry a metabolite concern into a testable human risk plan",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf#page=58",
+      "pdfPages": [
+        58,
+        59
+      ],
+      "sourceStage": "2021 supplemental-NDA retrospective regulatory history of 2014/2016 and 2018 IND interactions; IND 079690 original program and IND 126701 bipolar program",
+      "sourceFacts": [
+        "The history records a recommendation after a six-month repeat-dose study that human plasma levels remain below one tenth of exposure at the rat NOEL of 5 mg/kg/day. It separately describes required PK assessment of circulating aniline metabolites about every two weeks during the first six weeks of a six-month clinical extension."
+      ],
+      "interpretationForLesson": "The nonclinical concern led to exposure restrictions and specific metabolite sampling during a later extension. Pair this with later human analytical results while preserving the dates and the remaining limits.",
+      "uncertainties": [
+        "This is retrospective later-IND history, not the original toxicology review or initial first-human support. The page says NOEL, not NOAEL. It does not fully define the analyte and metric for the one-tenth restriction; do not calculate a numerical threshold from this passage alone."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "additionalSources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf#page=67",
+          "pdfPages": [
+            67
+          ]
+        }
+      ],
+      "additionalSourceFacts": [
+        "Later human studies with and without valproate or probenecid found the two aniline metabolites associated with dog neuropathology below the 0.1 ng/mL quantification limit."
+      ],
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-venetoclax-translation-limit",
+      "drug": "Venetoclax",
+      "title": "Early human observations revise the risk model",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=64",
+      "pdfPages": [
+        64,
+        96
+      ],
+      "sourceStage": "Clinical NDA review retrospectively describing early and later IND trial changes",
+      "sourceFacts": [
+        "The reviewer states that the original proposed 200 mg starting dose was based on mouse/dog pharmacology-toxicology. Early tumor lysis and later severe events led to progressively lower starts, slower ramp-up, risk stratification and enhanced prophylaxis/monitoring."
+      ],
+      "interpretationForLesson": "Use as a boundary case: animal-based support did not end learning. Tumor lysis observations changed escalation, risk stratification and monitoring. The public clinical history does not identify an animal model as having predicted or missed the clinical syndrome.",
+      "uncertainties": [
+        "The cited clinical review does not show the underlying animal experiments or calculations. Do not infer which nonclinical study predicted or failed to predict TLS; use it as a translation-limit case, not a detailed nonclinical dataset."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "safety-tenapanor",
+      "drug": "Tenapanor",
+      "title": "A species difference needs a credible explanation",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213931Orig1s000MultidisciplineR.pdf#page=168",
+      "pdfPages": [
+        168,
+        169
+      ],
+      "sourceStage": "NDA pharmacology review for hyperphosphatemia referencing later IND 120566 mechanistic review in 2020; no initial-IND attribution",
+      "sourceFacts": [
+        "Rat and dog tolerability differed substantially, principally through intestinal fluid retention and diarrhea.",
+        "The sponsor compared intestinal NHE3/ENaC expression across rat,dog and human; FDA questioned the weight of the findings because collection standardization and maturity differences were insufficiently described."
+      ],
+      "interpretationForLesson": "Candidate pharmacology can help explain sensitivity, but an inadequately controlled cross-species comparison cannot establish that the sensitive species is irrelevant. Write the proposed explanation and the experiment that would discriminate it from sampling artifacts.",
+      "uncertainties": [
+        "The passage does not establish which species best predicts every human risk. The model explanation remains uncertain rather than disproved."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "safety-cipepofol",
+      "drug": "Cipepofol",
+      "title": "A large in-vitro margin does not settle the integrated cardiac assessment",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220482Orig1s000OtherR.pdf#page=146",
+      "pdfPages": [
+        146
+      ],
+      "sourceStage": "NDA interdisciplinary QT consult; marketing-review integration, not initial IND",
+      "sourceFacts": [
+        "The table gives a large in-vitro safety margin but reports dog QTc prolongation at 2.1 times high clinical exposure, with possible confounding by increased heart rate during injection.",
+        "The same assessment reviews human thorough-QT and phase 3 findings; its labeling edits are recommendations to the clinical division."
+      ],
+      "interpretationForLesson": "Teach a discordant evidence table: assay result, in-vivo signal, confounder and human observation. The next question concerns explanation and integration, not selecting the most reassuring number.",
+      "uncertainties": [
+        "The page alone does not resolve the heart-rate confounding or establish clinical proarrhythmia. The precise basis of the in-vitro margin requires its referenced assay material; do not convert it into a general threshold."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "safety-tovorafenib",
+      "drug": "Tovorafenib",
+      "title": "Primary pharmacology can reverse direction in another biological context",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf#page=46",
+      "pdfPages": [
+        46,
+        47
+      ],
+      "sourceStage": "NDA nonclinical assessment supporting marketing labeling; not a reproduced initial IND",
+      "sourceFacts": [
+        "In NF1-loss-of-function cells, tovorafenib increased ERK phosphorylation at clinically relevant concentrations rather than suppressing the pathway.",
+        "The NF1 mouse model did not show tumor reduction; a nonsignificant increase in tumor volume occurred in a minority of animals. FDA clinical/nonclinical teams agreed to a precaution that the drug may promote tumor growth in NF1 tumors."
+      ],
+      "interpretationForLesson": "An on-target pathway effect can create risk in a different molecular context. Preserve the distinction between functional activation, uncertain animal tumor change and a precautionary human risk conclusion.",
+      "uncertainties": [
+        "The animal tumor increase was not statistically significant, and these pages do not demonstrate human tumor promotion. Do not present the warning as proof that all NF1 patients would be harmed."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "safety-rilzabrutinib",
+      "drug": "Rilzabrutinib",
+      "title": "Mechanistic experiments must distinguish route from exposure",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219685Orig1s000IntegratedR.pdf#page=101",
+      "pdfPages": [
+        101,
+        112,
+        113
+      ],
+      "sourceStage": "NDA recounts initial IND 132668 hold in 2017; separate later NDA assessment of mechanism studies, whose dates relative to hold resolution are not established",
+      "sourceFacts": [
+        "The initial IND history records a hold involving animal neurotoxicity and inadequate information for risk assessment, followed by a later response and removal of hold.",
+        "An oral-versus-IV rat comparison showed CNS findings after oral administration but not IV; FDA notes the IV exposure was substantially lower and may have been insufficient to test the route hypothesis.",
+        "Intrajejunal administration reduced CNS effects at similar plasma exposures relative to oral gavage; the reviewer describes the implications as unclear."
+      ],
+      "interpretationForLesson": "Keep observed lesion, proposed mechanism and discriminatory experiment separate. A negative IV result does not isolate route when systemic exposure also changes; a better-matched experiment can narrow the explanation without proving it.",
+      "uncertainties": [
+        "Do not claim these specific experiments lifted the initial hold. Do not turn below-quantification brain/CSF findings into proof of zero penetration. Public text does not resolve the mechanism or demonstrate absence of human risk."
+      ],
+      "sourceAuthority": "Historical case-specific FDA assessment; not a general requirement",
+      "verificationMethod": "Fresh-topic queue lead followed by manual reading of full candidate pages and relevant adjacent context from cached original FDA PDF text.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    }
+  ],
+  "guidanceReviewed": [
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23",
+      "status": "current regulation checked2026-09-17",
+      "sections": [
+        "(a)(8)"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71990/download",
+      "status": "final guidance",
+      "title": "ICH S3A",
+      "pagesRead": [
+        5,
+        6
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/72033/download",
+      "status": "final guidance",
+      "title": "ICH S7A",
+      "pagesRead": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71542/download",
+      "status": "final guidance",
+      "title": "ICH M3(R2)",
+      "sectionsRead": [
+        "repeated-dose study duration and context"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/files/drugs/published/S6-%28R1%29-Addendum--Preclinical-Safety-Evaluation-of-Biotechnology---Derived-Pharmaceuticals.pdf",
+      "status": "final guidance",
+      "title": "ICH S6(R1)",
+      "sectionsRead": [
+        "pharmacological species relevance"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-streamlined-nonclinical-studies-and-acceptable-new-approach-methodologies-nams",
+      "status": "FDA resource checked2026-09-17; explicitly distinguishes final and draft references",
+      "sectionsRead": [
+        "study relevance/duration/recovery and draft guidance caveat"
+      ]
+    }
+  ]
+}

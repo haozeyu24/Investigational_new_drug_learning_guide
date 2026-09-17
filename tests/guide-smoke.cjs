@@ -2,10 +2,10 @@ const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const html=fs.readFileSync('dist/index.html','utf8');
 assert(!/<script[^>]+src=/.test(html));assert(!/href="styles\.css/.test(html));
 const script=html.match(/<script data-local-bundle>\n([\s\S]*?)\n<\/script>/)[1];
-assert.equal(script,['content.js','catalog.js','app.js'].map(f=>fs.readFileSync('dist/'+f,'utf8')).join('\n;\n'));
+assert.equal(script,['content.js','catalog.js','reasoning-content.js','reasoning.js','app.js'].map(f=>fs.readFileSync('dist/'+f,'utf8')).join('\n;\n'));
 assert(html.includes(fs.readFileSync('dist/styles.css','utf8')));
 const handlers={},nodes=new Map(),stored=new Map([['first-in-class-progress',JSON.stringify([{lesson:'discovery-target',completed:true,step:2}])]]);
-const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',dataset:{},open:false,focus(){this.focused=true},setAttribute(k,v){this[k]=v},addEventListener(){},showModal(){this.open=true},close(){this.open=false},classList:{toggle(){},add(){},remove(){}}});return nodes.get(s)};
+const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',dataset:{},open:false,focus(){this.focused=true},scrollIntoView(){},setAttribute(k,v){this[k]=v},addEventListener(){},showModal(){this.open=true},close(){this.open=false},classList:{toggle(){},add(){},remove(){}}});return nodes.get(s)};
 const location={protocol:'file:',hash:'#portal'},storage={getItem:k=>stored.get(k)??null,setItem:(k,v)=>stored.set(k,v),removeItem:k=>stored.delete(k)};
 const ctx=vm.createContext({location,history:{pushState(a,b,h){location.hash=h},replaceState(a,b,h){location.hash=h}},console,setTimeout,clearTimeout,window:{localStorage:storage,sessionStorage:storage,addEventListener(){},matchMedia:()=>({matches:false,addEventListener(){}}),scrollTo(){}},document:{querySelector:node,querySelectorAll:()=>[],addEventListener(k,fn){(handlers[k]??=[]).push(fn)},body:{classList:{toggle(){}}}},fetch(){throw Error('Unexpected network request')}});
 const run=s=>vm.runInContext(s,ctx);
@@ -81,7 +81,7 @@ function click(key,id){const btn={dataset:{[key]:id}},selector='[data-'+key.repl
  assert(!node('#lesson').innerHTML.includes('THE CONCEPT'));assert(!node('#lesson').innerHTML.includes('class="lesson-meta"'));assert.equal((node('#lesson').innerHTML.match(/<h1>/g)||[]).length,1);
  click('lessonStep','9');assert.equal(run('state.step'),0);
  assert(run("state.progress['discovery-target'].completed"));
- let renders=0;for(const id of run('LEVELS.map(l=>l.id)'))for(let step=0;step<3;step++){
+ let renders=0;for(const id of run('LEVELS.map(l=>l.id)'))for(let step=0;step<(run('LEVELS.find(l=>l.id==='+JSON.stringify(id)+').reasoningGuide?.format')==='case-tabs'?1:3);step++){
   run(`state.lesson='${id}';state.step=${step};state.hitProgram=undefined;state.hitStage=undefined;state.leadTopic=undefined;state.selected=null;state.feedback=false`);assert(!run('lessonView()').includes('undefined'));renders++;
  }
  run("startLevel('discovery-optimization',1);state.vertexDecisions=undefined");
@@ -157,45 +157,61 @@ console.log('PASS: five lead-optimization topics and four connected dimensions, 
  await run('saveQueue');run('state.progress={};state.loading=false');
  let map=run('overview()');
  assert.equal((map.match(/class="map-part"/g)||[]).length,4);
- assert.equal((map.match(/class="topic-grid"/g)||[]).length,4);
- assert.equal((map.match(/class="topic-card /g)||[]).length,24);
+ assert.equal((map.match(/class="topic-grid(?: |")/g)||[]).length,6);
+ assert.equal((map.match(/class="topic-card /g)||[]).length,25);
+ assert.equal((map.match(/class="map-branch"/g)||[]).length,3);
+ assert(map.includes('map-development-overview'));assert(map.includes('Special topic · 2026 pilot'));
+ const development=run('CATALOG.parts[2]');assert.equal(development.overview,'candidate-nomination');
+ for(const branch of development.branches)assert(map.includes('Part '+branch.label));
+ const branchIds=run('CATALOG.parts[2].branches.flatMap(b=>LEVELS.filter(l=>b.categories.includes(l.category)).map(l=>l.id))');
+ assert.equal(new Set(branchIds).size,9);assert(!branchIds.includes('candidate-nomination'));assert(!branchIds.includes('pre-ind'));assert(!branchIds.includes('people'));assert(branchIds.includes('clinical-dose'));
+ const mappedIds=run('CATALOG.parts.flatMap(p=>LEVELS.filter(l=>p.categories.includes(l.category)).map(l=>l.id))');
+ assert.equal(new Set(mappedIds).size,25);assert.equal(mappedIds.length,25);
+ for(const id of run('ids'))assert.equal((map.match(new RegExp('class="topic-card [^>]*data-level="'+id+'"','g'))||[]).length,1,'One map card per lesson');
  assert(!map.includes('Start here'));assert(!map.includes('learning-part-header'));assert(!map.includes('map-category-heading'));assert(!map.includes('map-toolbar'));
  assert(map.includes('<span>Part 1:</span> The purpose of an IND'));
  assert(map.includes('What an IND Is and Why It Exists — Up next'));
  for(const [i,p] of run('CATALOG.parts').entries())assert(map.includes('<span>Part '+(i+1)+':</span> '+p.title));
  run("state.progress={'discovery-leads':{completed:true},'discovery-optimization':{step:1,updatedAt:1}}");
- map=run('overview()');assert(map.includes('Hit to Lead — Completed'));assert(map.includes('Lead Optimization — In progress'));assert(map.includes('1 / 24 completed'));
+ map=run('overview()');assert(map.includes('Hit to Lead — Completed'));assert(map.includes('Lead Optimization — In progress'));assert(map.includes('1 / 25 completed'));
  for(const l of run('LEVELS')){click('level',l.id);assert.equal(run('state.lesson'),l.id);}
  await run('saveQueue');run('state.progress=Object.fromEntries(LEVELS.map(l=>[l.id,{completed:true}]))');
- map=run('overview()');assert.equal((map.match(/class="topic-card complete/g)||[]).length,24);assert(map.includes('24 / 24 completed'));
+ map=run('overview()');assert.equal((map.match(/class="topic-card complete/g)||[]).length,25);assert(map.includes('25 / 25 completed'));
  run("startLevel('candidate-nomination',0)");
- for(const id of ['nomination','questions','plan']){click('transitionTab',id);assert.equal(run('state.transitionTab'),id);assert(!/undefined|NaN/.test(node('#lesson').innerHTML));}
- console.log('PASS: four identical part layouts, 24 named topics, updated numbering, empty/partial/complete progress states, lesson navigation and transition tabs.');
+ for(const id of ['nomination','questions','plan','contingency','backup']){click('transitionTab',id);assert.equal(run('state.transitionTab'),id);assert(!/undefined|NaN/.test(node('#lesson').innerHTML));}
+ assert.deepEqual(Array.from(run('level().transitionGuide.tabs.map(t=>t.id)')),['plan','nomination','questions','contingency','backup']);
+ const backup=node('#lesson').innerHTML;
+ assert(backup.includes('candidate-backup-case'));
+ assert(backup.includes('https://www.ncbi.nlm.nih.gov/books/NBK92015/'));
+ assert(backup.includes('https://pmc.ncbi.nlm.nih.gov/articles/PMC11413853/'));
+ assert(backup.includes('not a documented failure after formal DC nomination'));
+ assert(backup.includes('uncertainty, optionality, time, and capital'));
+ assert(backup.includes('5 / 5'));
+ click('transitionTab','contingency');const contingency=node('#lesson').innerHTML;
+ assert(contingency.includes('candidate-conviction'));
+ assert(contingency.includes('serious money'));
+ for(const area of run('level().transitionGuide.contingency.areas')){assert(contingency.includes(area.name));for(const item of area.items)assert(contingency.includes(item));}
+ assert(!contingency.includes('candidate-backup-case'));
+ assert(contingency.includes('4 / 5'));
+ click('transitionTab','questions');assert(!node('#lesson').innerHTML.includes('candidate-conviction'));
+ click('transitionTab','backup');assert(node('#lesson').innerHTML.includes('candidate-backup-case'));
+ console.log('PASS: four parts, an overview above three development branches, 25 unique named topics, progress states, lesson navigation and transition tabs.');
 
 
- const newLessons=run('LEVELS.filter(l=>l.evidenceGuide)');assert.equal(newLessons.length,7);
- const sequence=['candidate-nomination',...newLessons.map(l=>l.id),'clinical'];
- for(let j=0;j<newLessons.length;j++){
-  const l=newLessons[j];run('startLevel('+JSON.stringify(l.id)+',0)');
-  assert.equal((node('#lesson').innerHTML.match(/aria-controls="evidence-step-panel"/g)||[]).length,3);
-  for(let i=0;i<3;i++){
-   click('evidenceStep',String(i));assert.equal(run('state.evidenceStep'),i);
-   const out=node('#lesson').innerHTML;assert(out.includes(l.evidenceGuide.steps[i].question));assert(out.includes('data-evidence-step="'+i+'" aria-pressed="true"'));assert(!/undefined|NaN/.test(out));
+ // The nine reasoning chapters have their own behavioral coverage below.
+ const newLessons=run('LEVELS.filter(l=>l.reasoningGuide)');assert.equal(newLessons.length,9);
+ for(const l of newLessons){
+  if(l.reasoningGuide.format==='case-tabs'){
+   run('startLevel('+JSON.stringify(l.id)+',0)');
+   run('selectReasoningTopic('+JSON.stringify(l.reasoningGuide.lessons.id)+')');
+   await run('completeReadingChapter()');
+   assert.equal(run('state.progress['+JSON.stringify(l.id)+'].completionKind'),'reading');
+  }else{
+   run('startLevel('+JSON.stringify(l.id)+',2)');
+   const correct=l.question.options.findIndex(o=>o[2]);
+   run('state.selected='+correct+';state.feedback=true');await run('completeLevel()');
   }
-  click('evidenceStep','bad');assert.equal(run('state.evidenceStep'),2);click('evidenceStep','-1');assert.equal(run('state.evidenceStep'),2);click('evidenceStep','3');assert.equal(run('state.evidenceStep'),2);
-  run('moveStep(1)');const ex=node('#lesson').innerHTML;
-  assert(ex.includes('evidence-provenance'));assert.equal((ex.match(/role="listitem"/g)||[]).length,3);
-  for(const i of l.evidenceGuide.case.sources){assert(l.sources[i]?.url);assert(ex.includes(l.sources[i].url.replace(/&/g,'&amp;')));}
-  assert(ex.includes('target="_blank" rel="noopener noreferrer"'));
-  assert(ex.includes(l.evidenceGuide.case.limit));assert(!/undefined|NaN/.test(ex));
-  if(l.id==='nonclinical-pkpd'){assert(ex.includes('~3 h half-life'));assert(ex.includes('30 h'));assert(ex.includes('not plot concentrations'));}
-  if(l.id==='cmc-material'){assert(ex.includes('95.4 mg'));assert(ex.includes('80 mg'));}
-  click('evidenceStep','0');assert.equal(run('state.evidenceStep'),2);
-  run('moveStep(1)');
-  const correct=l.question.options.findIndex(o=>o[2]);assert.equal(l.question.options.filter(o=>o[2]).length,1);
-  run('state.selected='+(correct+1)%3+';state.feedback=true');await run('completeLevel()');assert.equal(run('state.screen'),'lesson');
-  run('state.selected='+correct+';state.feedback=true');await run('completeLevel()');assert.equal(run('state.screen'),'complete');assert(run('done('+JSON.stringify(l.id)+')'));
-  const next=j<newLessons.length-1?newLessons[j+1].id:'clinical';assert(run('completionView()').includes('data-level="'+next+'"'));
+  assert.equal(run('state.screen'),'complete');assert(run('done('+JSON.stringify(l.id)+')'));
  }
  run("startLevel('discovery-leads',0)");click('evidenceStep','1');assert.equal(run('state.evidenceStep'),undefined);
  run("startLevel('candidate-nomination',0)");
@@ -204,13 +220,67 @@ console.log('PASS: five lead-optimization topics and four connected dimensions, 
   assert(!/Osimertinib|osimertinib|AZD9291/.test(out),'Osimertinib case narrative stays in the example');
   assert(!/undefined|NaN/.test(out));assert(out.includes('Sources for these principles'));
   if(tab==='nomination'){assert(out.includes('candidate-transition-flow'));assert(out.includes('Which molecule should we develop?'));assert(out.includes('What evidence do we need before testing in humans?'));for(const n of [16,28,30,36,44,45,48]){const asset='assets/candidate-transition-'+n+'.svg';assert(out.includes(asset));assert(fs.existsSync('dist/'+asset));}assert.equal((out.match(/<img src="assets\/candidate-transition-/g)||[]).length,7);}
-  if(tab==='questions'){assert(out.includes('candidate-evidence-table'));assert(out.includes('Reuse suitable evidence'));assert.equal((out.match(/scope="row"/g)||[]).length,4);}
+  if(tab==='questions'){assert(out.includes('candidate-evidence-table'));assert(out.includes('Reuse suitable evidence'));assert(out.includes('Overlap: evidence we can reuse'));assert.equal((out.match(/class="candidate-overlap"/g)||[]).length,5);assert.equal((out.match(/scope="row"/g)||[]).length,4);}
  }
- run('moveStep(1)');assert(node('#lesson').innerHTML.includes('Osimertinib'));
+ run('moveStep(1)');
+ const candidateCases=run('level().candidateBridge.cases');assert.equal(candidateCases.length,2);
+ assert.equal(candidateCases.map(c=>c.label).join('|'),'Ivacaftor · Compound 48|RLY-2608');
+ const candidateProgress=run('JSON.stringify(state.progress)');
+ for(const c of candidateCases){
+  click('candidateBridgeCase',c.id);assert.equal(run('state.candidateBridgeCase'),c.id);
+  const out=node('#lesson').innerHTML;assert(out.includes('role="tabpanel"'));assert(out.includes('aria-labelledby="candidate-bridge-tab-'+c.id+'"'));
+  assert(out.includes('id="candidate-bridge-tab-'+c.id+'" data-candidate-bridge-case="'+c.id+'" aria-selected="true" tabindex="0"'));
+  assert(out.includes('IND-enabling development'));assert(out.includes('Public visibility is not completeness.'));
+  assert(out.includes(c.timing));assert(out.includes(c.chronology));assert(out.includes(c.image));assert(fs.existsSync('dist/'+c.image));
+  assert.equal((out.match(/class="candidate-bridge-row"/g)||[]).length,3);
+  for(const row of c.rows){assert(out.includes(row.question));assert(out.includes(row.status));assert(out.includes('data-level="'+row.lesson+'"'));}
+  for(const source of c.sources){assert(out.includes('href="'+source.url+'" target="_blank" rel="noopener noreferrer"'));}
+  assert(!/osimertinib|AZD9291|undefined|NaN/i.test(out));
+ }
+ assert.equal(run('JSON.stringify(state.progress)'),candidateProgress,'Example tabs do not change learning progress');
+ click('candidateBridgeCase','not-a-case');assert.equal(run('state.candidateBridgeCase'),'rly2608');
+ let candidatePrevented=false;const candidateTab={dataset:{candidateBridgeCase:'rly2608'}};
+ for(const fn of handlers.keydown||[])fn({key:'ArrowLeft',target:{closest:q=>q==='[data-candidate-bridge-case]'?candidateTab:null},preventDefault(){candidatePrevented=true;}});
+ assert(candidatePrevented);assert.equal(run('state.candidateBridgeCase'),'ivacaftor');
+ assert(node('#lesson').innerHTML.includes('500 mg'));assert(node('#lesson').innerHTML.includes('800 mg'));
+ run('moveStep(1)');click('candidateBridgeCase','rly2608');assert.equal(run('state.candidateBridgeCase'),'ivacaftor','Example controls only operate in the example');
+
  run("startLevel('candidate-nomination',0)");click('transitionTab','plan');
  assert(node('#lesson').innerHTML.includes('data-level="nonclinical-pharmacology"'));assert(node('#lesson').innerHTML.includes('data-level="cmc-material"'));
+ const plan=run('level().transitionGuide.plan');assert.equal(plan.streams.length,3);
+ assert.equal(plan.streams[0].lessons.length,4);assert.equal(plan.streams[1].lessons.length,3);
+ assert.equal(plan.streams[2].lessons.length,2);assert(node('#lesson').innerHTML.includes('When to seek FDA input'));
+ for(const id of plan.streams.flatMap(s=>s.lessons)){
+  assert(node('#lesson').innerHTML.includes('data-level="'+id+'"'));
+  click('level',id);assert.equal(run('state.lesson'),id);
+  run("startLevel('candidate-nomination',0)");click('transitionTab','plan');
+ }
+ assert(!node('#lesson').innerHTML.includes('Planned in parallel'));assert(!node('#lesson').innerHTML.includes('Seven lessons after this planning introduction'));assert(!node('#lesson').innerHTML.includes('Explore clinical planning'));
+ run("startLevel('nonclinical-pharmacology',0)");assert(node('#lesson').innerHTML.includes('Part 3A · Nonclinical evidence'));
+ run("startLevel('cmc-material',0)");assert(node('#lesson').innerHTML.includes('Part 3B · Drug material and CMC'));
+ run("startLevel('clinical',0)");assert(node('#lesson').innerHTML.includes('Part 3C · Clinical plan'));
+ run("startLevel('pre-ind',0)");assert(node('#lesson').innerHTML.includes('Part 4 · FDA engagement, IND submission, and review'));
+ await run('saveQueue');const beforeRevisit=run('JSON.stringify(ids.filter(done))');run("startLevel('people',0)");await run('saveQueue');assert.equal(run('JSON.stringify(ids.filter(done))'),beforeRevisit);assert(run("done('nonclinical-pharmacology')"));
+
+ run("startLevel('expedited-ind-pilot',0)");
+ const pilot=run('level().pilotGuide');assert(node('#lesson').innerHTML.includes('Checked 16 September 2026'));
+ for(let i=0;i<pilot.sections.length;i++){
+  click('pilotStep',String(i));assert.equal(run('state.pilotStep'),i);const out=node('#lesson').innerHTML;
+  assert(out.includes(pilot.sections[i].title));assert(out.includes(pilot.sections[i].note));assert(!/undefined|NaN/.test(out));
+  assert(out.includes('data-pilot-step="'+i+'" aria-pressed="true"'));
+  for(const source of pilot.sections[i].sources)assert(out.includes(run('level().sources['+source+'].url')));
+  if(i===1){assert(out.includes('30-day review window'));assert.equal((out.match(/class="pilot-flow-number"/g)||[]).length,4);}
+  if(i===2){assert(out.includes('30 Oct 2026'));assert(out.includes('18 Dec 2026'));}
+ }
+ for(const bad of ['bad','-1','3']){click('pilotStep',bad);assert.equal(run('state.pilotStep'),2);}
+ run('moveStep(1)');assert(node('#lesson').innerHTML.includes('HYPOTHETICAL PILOT SCENARIO'));click('pilotStep','0');assert.equal(run('state.pilotStep'),2);
+ run('moveStep(1)');run('state.selected=0;state.feedback=true');await run('completeLevel()');assert.equal(run('state.screen'),'lesson');
+ run('state.selected=2;state.feedback=true');await run('completeLevel()');assert.equal(run('state.screen'),'complete');assert(run("done('expedited-ind-pilot')"));
+ run("startLevel('clinical',0)");click('pilotStep','1');assert.equal(run('state.pilotStep'),undefined);
+ console.log('PASS: Part 3A/B/C locations, Part 4 FDA engagement, three pilot views, dated sources, navigation guards, exercise and saved pilot completion.');
+
  for(const id of ['clinical-plan-package','model','toxicology-tk-glp','risk-recovery','substance-product','process-impurities','cmc','stability-product-changes']){run('startLevel('+JSON.stringify(id)+',0)');assert.equal(run('state.lesson'),id);}
  await run('saveQueue');
- console.log('PASS: 21 interactive evidence steps, seven sourced cases and exercises, incorrect-answer guards, saved completion, Part 3 sequence, stage labels, units, and legacy links.');
+ console.log('PASS: one reading and eight exercise completion paths, Part 3 sequence, and preserved legacy links; detailed map/case interactions covered in reasoning-guide.cjs.');
 
 })().catch(e=>{console.error(e);process.exitCode=1});

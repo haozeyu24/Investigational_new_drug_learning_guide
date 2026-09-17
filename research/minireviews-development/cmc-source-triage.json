@@ -1,0 +1,523 @@
+{
+  "prepared": "2026-09-17",
+  "method": "Purposive re-verification of prior CMC mappings plus focused FDA primary-source searches and read-only cached PDF text. Seven unique sources were then manually inspected from the fresh frozen topic queues. Candidate rank is a locator, not an evidence assessment. No bulk-index modifications; no exhaustive coverage claim.",
+  "sources": [
+    {
+      "id": "glyco",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf",
+      "pagesRead": [
+        36,
+        37,
+        70,
+        75,
+        10,
+        21
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material",
+        "cmc-controls",
+        "cmc-stability"
+      ],
+      "reason": "The object of assessment includes preparation and delivery; acceptance is tied to route, actual lot exposure and proposed duration. A systemic metabolite argument does not establish safety of direct airway deposition.",
+      "caveat": "Numeric limits and composition are redacted. The2011 memo calls benzoic acid genotoxic, whereas2017 review says neither impurity had mutagenic structural alerts and both were negative in tests; do not propagate the earlier classification or historical thresholds as current guidance."
+    },
+    {
+      "id": "ivacaftor",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+      "pagesRead": [
+        79,
+        90
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "Exposure comparison can make a specific formulation difference interpretable without requiring physical identity of clinical and nonclinical preparations.",
+      "caveat": "Visible vehicle names are not a full clinical recipe or evidence of final commercial-product bridging. The dog comparison alone does not establish all local tolerability, impurities or material attributes."
+    },
+    {
+      "id": "suvorexant",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf",
+      "pagesRead": [
+        34
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "A bridge can be adequate for one limited trial while retaining an unresolved longer-development issue. Distinguish the regulatory question from the sponsor’s chosen solution.",
+      "caveat": "Vehicle identities are redacted. The record does not establish a universal requirement to duplicate toxicology."
+    },
+    {
+      "id": "pennsaid",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf",
+      "pagesRead": [
+        45,
+        46
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "Functional ingredient roles and route-specific evidence determine what product knowledge can be borrowed. A development plan may change when suitable alternative evidence becomes available.",
+      "caveat": "Historical product-specific discussion, not a present-day universal classification of DMSO or testing battery."
+    },
+    {
+      "id": "halobetasol",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf",
+      "pagesRead": [
+        103,
+        104,
+        105
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "An early trial may select the product formulation; the product definition should be sufficiently precise for that decision without pretending final commercial selection already exists.",
+      "caveat": "Acceptance was specific to the short proposed study. Later nonclinical recommendations are historical and cannot be generalized to every reformulated corticosteroid."
+    },
+    {
+      "id": "baricitinib",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+      "pagesRead": [
+        53,
+        54
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material",
+        "cmc-controls"
+      ],
+      "reason": "Change impact and bridge rationale can matter more than repeating an experiment. Impurity knowledge must evolve along with material and process changes.",
+      "caveat": "Underlying exposure data and impurity structures are not reproduced here. Historical2008 draft genotoxicity guidance is not current numerical advice."
+    },
+    {
+      "id": "minocycline",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        27
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "A route bridge has a population and use-condition boundary; systemic reliance and local safety are distinct claims.",
+      "caveat": "This page documents requested bridge design, not all resulting PK data or final sufficiency. Pediatric ages differ across the cited interactions."
+    },
+    {
+      "id": "atrovent",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf",
+      "pagesRead": [
+        38,
+        39
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "The delivery device can change the evidentiary identity of an inhaled product after trials have finished; physical delivery evidence and clinical bridge planning must be coordinated.",
+      "caveat": "Initial1994 hold concerned missingPhase 1 data, not the later valve change. The pages do not provide detailed stability results or full device specifications."
+    },
+    {
+      "id": "acer",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material",
+        "cmc-controls"
+      ],
+      "reason": "Product design must support the intended dosing population. An assay needs a defined decision purpose; product understanding, patient acceptability and routine batch release are not interchangeable.",
+      "caveat": "PreNDA advice, with final specifications deferred toNDA review. Weight ranges and coating details are redacted. No final approval outcome inferred."
+    },
+    {
+      "id": "faricimab",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+      "pagesRead": [
+        15,
+        16
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material"
+      ],
+      "reason": "Excipient assessment combines amount, site of administration, formulation rationale and interpretation of controls; a formulation question need not always produce another animal study.",
+      "caveat": "Earlier buffer and some details are redacted. This is later IND, not2013 originalIND. It is a biologic, so small-molecule guidance cannot be transferred wholesale."
+    },
+    {
+      "id": "teplizumab",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf",
+      "pagesRead": [
+        312,
+        313,
+        136
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-material",
+        "cmc-controls"
+      ],
+      "reason": "A future comparability plan must specify how continuity will be evaluated; same named antibody and facility transfer do not alone establish equivalence.",
+      "caveat": "Do not imply2018 discussion fully predicted later outcome or that all2021 CRLissues are reproduced. Biologic comparator; originalINDmaterial package unavailable here."
+    },
+    {
+      "id": "osimertinib",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+      "pagesRead": [
+        121,
+        122
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls"
+      ],
+      "reason": "A batch comparison ties changed process output to an established safety anchor, provided chemistry and exposure are both interpretable.",
+      "caveat": "Impurity tables and exposure numbers are redacted; result is specific to batches/dose/study, not a purity threshold or evidence the comparison itself was in theinitial IND."
+    },
+    {
+      "id": "ivglyco",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214919Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls",
+        "cmc-stability"
+      ],
+      "reason": "Negative results depend on method capability. A concentration limit must be translated into actual clinical exposure; quality through distribution includes dose delivery.",
+      "caveat": "OnlyPDF 2 lists filing deficiencies; PDF 5 onward explicitly includes issues not themselves RTF grounds. These areNDA-stage expectations, not aninitial IND checklist."
+    },
+    {
+      "id": "vevye",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217469Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        2,
+        7,
+        8
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls",
+        "cmc-stability"
+      ],
+      "reason": "The basis for a limit matters even when reviewer and sponsor reach the same number. Stability must include delivery and microbial performance for the actual package.",
+      "caveat": "LateIND meeting about futureNDA content; not initial IND. Numeric discussion is historical/product-specific and is not a substitute for current applicable guidance."
+    },
+    {
+      "id": "soluprep",
+      "url": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf",
+      "pagesRead": [
+        2,
+        3
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls",
+        "cmc-stability"
+      ],
+      "reason": "The worst permitted late-shelf-life impurity level and maximum intended use together define the exposure a qualification argument must cover.",
+      "caveat": "NDA/CRL evidence, not initial IND. Identities/percentages redacted. Options are product-specific and do not mandate a universal maximal-use or animal design."
+    },
+    {
+      "id": "dupilumab",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761055Orig1s007.pdf",
+      "pagesRead": [
+        61
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls",
+        "cmc-stability"
+      ],
+      "reason": "Quality changes during trials can require checking whether pooled clinical evidence still describes the material to be marketed.",
+      "caveat": "Redactions prevent identification of contaminant/constituent or precise process correction. Subset finding does not prove full analytical orPK equivalence."
+    },
+    {
+      "id": "vamorolone",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        116,
+        117
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls"
+      ],
+      "reason": "Impurity uncertainty can change the initial clinical permission. Later bridge demands depend on the role assigned to older-formulation clinical evidence, not only on whether a change occurred.",
+      "caveat": "This summary does not disclose identities or completed genotoxicity results; do not claim all alerts were false positives. Formulation composition partly redacted; later statements are distinct frominitial IND."
+    },
+    {
+      "id": "sesquient",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/210864Orig1s000ChemR.pdf",
+      "pagesRead": [
+        5,
+        22,
+        24,
+        33,
+        34
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-controls",
+        "cmc-stability"
+      ],
+      "reason": "A stability conclusion depends on method fitness and condition coverage. Root-cause alternatives require discriminating evidence, not just a favorable repeat test.",
+      "caveat": "Detailed particle identities and process information redacted. PDF 22 describes an intermediate review; final2020 assessment differs. Do not describe2019 nonapproval as the permanent program outcome."
+    },
+    {
+      "id": "lenacapavir",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        318,
+        319,
+        83
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-stability"
+      ],
+      "reason": "A container can generate a clinically relevant exposure. Shelf storage and preparation are separate environments needing linked evidence and instructions.",
+      "caveat": "Glass particles were a possible contributor, not established cause of every injection-site reaction. Later approval does not show that one packaging change alone resolved every deficiency."
+    },
+    {
+      "id": "gvoke",
+      "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf",
+      "pagesRead": [
+        1,
+        2,
+        3
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-stability"
+      ],
+      "reason": "Applicable evidence must match the formulation and administration transformation. AnIND number on a study does not establish relevance to a different proposed product.",
+      "caveat": "SupplementalCRL, not initial IND refusal; details of concentrations and some studies are redacted. No final resolution established by this letter."
+    },
+    {
+      "id": "fiasp",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf",
+      "pagesRead": [
+        300,
+        335,
+        336
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-stability"
+      ],
+      "reason": "Administration endpoints and worst-case use conditions belong in stability reasoning; analytical simulation and clinical extrapolation should remain distinguishable.",
+      "caveat": "PDF 300 text encoding was damaged and was checked against rendered page in prior verification;335–336 were re-read as text. Sponsor results are not all independentFDA findings. Device/population extension, not initial IND."
+    },
+    {
+      "id": "cytalux",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000ChemR.pdf",
+      "pagesRead": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-stability"
+      ],
+      "reason": "Diluent selection can alter the administered physical species and clinical risk. Storage and preparation must be treated as linked but distinct environments.",
+      "caveat": "Causality stated as most likely by source. OriginalIND package not recovered. Some formulation/storage information redacted; do not convertNDA shelf-life intoPhase 1 expectation."
+    },
+    {
+      "id": "xaciato",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "classification": "strong substantive CMC passage",
+      "usedIn": [
+        "cmc-stability"
+      ],
+      "reason": "An agreed filing schedule can be adapted without making time-based evidence optional. InitialNDA does not mean initial IND.",
+      "caveat": "Product-specific marketing agreement, not universal9 month rule. Some amounts are redacted; no conclusion on final shelf life is drawn."
+    }
+  ],
+  "notSelected": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216354Orig1s000AdminCorres.pdf",
+      "program": "Deutetrabenazine/AustedoXR",
+      "classification": "lead only; not used",
+      "reason": "Search indicated pre-NDA commercial stability expectations; relevant scanned page not reverified in this bounded pass. Existing strongstabilitycases sufficient; do not report this as verified originalIND evidence."
+    },
+    {
+      "url": "https://download.open.fda.gov/crl/210864_2021_Orig1s000OtherActionLtrs.pdf",
+      "program": "Fosphenytoin",
+      "pagesRead": [
+        13,
+        14
+      ],
+      "classification": "verified supporting context; superseded by richer quality-review source",
+      "reason": "CompendialpH/impuritycomment explicitlynotapprovabilityissue; tracespre-IND but doesnot establishinitial INDhold."
+    }
+  ],
+  "limitations": [
+    "Many detailedCMCpages are redacted; publicclinical/pharmacologyreviews expose consequences more often than complete control strategies.",
+    "Marketingdeficiencies are used as late-stage comparators and never silentlyrelabeledinitial IND.",
+    "Reusedprograms answer distinct lessonquestions; case counts acrosslessons must not be summed as uniqueprograms."
+  ],
+  "freshQueueSnapshot": {
+    "pdfDocuments": 7979,
+    "uniqueSourceHashes": 7933,
+    "pdfPages": 467510,
+    "lowTextPages": 77998,
+    "topics": {
+      "cmc-material": {
+        "candidateDocuments": 1570,
+        "candidatePages": 5268
+      },
+      "cmc-controls": {
+        "candidateDocuments": 1301,
+        "candidatePages": 3685
+      },
+      "cmc-stability": {
+        "candidateDocuments": 971,
+        "candidatePages": 2443
+      }
+    }
+  },
+  "freshQueueManualSubset": [
+    {
+      "topicQueue": "cmc-material",
+      "zeroBasedQueueIndex": 0,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/210864Orig1s000ChemR.pdf",
+      "products": [
+        "SESQUIENT [FOSPHENYTOIN SODIUM]"
+      ],
+      "pagesRead": [
+        5,
+        22,
+        24,
+        33,
+        34
+      ],
+      "classification": "strong substantive NDA controls/stability; included",
+      "reason": "Actual assay-validation, concentration/diluent coverage and particulate root-cause issues; not originalIND.",
+      "textFile": "/tmp/ind-full-screen/text/bd3 d98 d688 af3300689 a04 f8.json.gz"
+    },
+    {
+      "topicQueue": "cmc-material",
+      "zeroBasedQueueIndex": 1,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000IntegratedR.pdf",
+      "products": [
+        "AGAMREE [VAMOROLONE]"
+      ],
+      "pagesRead": [
+        116,
+        117
+      ],
+      "classification": "strong initial/later IND controls/material; included incontrols",
+      "reason": "Initialpartialhold for structural-alert impurities; laterformulationbridge depends on use of earliertrialdata.",
+      "textFile": "/tmp/ind-full-screen/text/ebe9 cf2873929 efe557264 ef.json.gz"
+    },
+    {
+      "topicQueue": "cmc-material",
+      "zeroBasedQueueIndex": 3,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000ChemR.pdf",
+      "products": [
+        "CYTALUX [PAFOLACIANINE SODIUM]"
+      ],
+      "pagesRead": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "classification": "strong NDA stability with INDexperience; included",
+      "reason": "Diluent aggregation/hypersensitivity relationship and fullstorage/preparation chain.",
+      "textFile": "/tmp/ind-full-screen/text/ec66 a274 b92861 cbb23 b7 a28.json.gz"
+    },
+    {
+      "topicQueue": "cmc-controls",
+      "zeroBasedQueueIndex": 4,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215331Orig1s000AdminCorres.pdf",
+      "products": [
+        "BORTEZOMIB [BORTEZOMIB]"
+      ],
+      "pagesRead": [
+        2,
+        6,
+        7
+      ],
+      "classification": "substantive pre-NDA product bridge; not selected",
+      "reason": "Bortezomib futureNDAunderPIND 141660, specifications andinvitrobridge; repeats questions represented by richerselectedcases. PIND header is not evidence ofinitialtrialpermission.",
+      "textFile": "/tmp/ind-full-screen/text/7 d13 ee0 f27 e599141471 d39 d.json.gz"
+    },
+    {
+      "topicQueue": "cmc-stability",
+      "zeroBasedQueueIndex": 0,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/212854Orig1s000PharmR.pdf",
+      "products": [
+        "ZIMHI [NALOXONE HYDROCHLORIDE]"
+      ],
+      "pagesRead": [
+        3,
+        9,
+        10,
+        20,
+        21,
+        43
+      ],
+      "classification": "substantive NDA E&L/degradant evidence; not selected",
+      "reason": "Zimhi E&Lmethod/risk-assessment questions anddegradantqualification, withredaction; largelyoverlaps selectedglycopyrrolate/Sesquient controls examples.",
+      "textFile": "/tmp/ind-full-screen/text/8 d34501 a9 a7 a370 cbef99366.json.gz"
+    },
+    {
+      "topicQueue": "cmc-stability",
+      "zeroBasedQueueIndex": 1,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213218Orig1s000AdminCorres.pdf",
+      "products": [
+        "SOAANZ [TORSEMIDE]"
+      ],
+      "pagesRead": [
+        5,
+        6
+      ],
+      "classification": "substantive pre-NDA stability/dissolution; not selected",
+      "reason": "Soaanz IND 122065 meeting concerned NDAstabilitypackage; noinitial INDproof; Xaciato providesmoreinformative negotiatedtiming comparator.",
+      "textFile": "/tmp/ind-full-screen/text/cdbf9 eaf03 e7 b63 c67745 a6 e.json.gz"
+    },
+    {
+      "topicQueue": "cmc-stability",
+      "zeroBasedQueueIndex": 2,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf",
+      "products": [
+        "XACIATO [CLINDAMYCIN PHOSPHATE]"
+      ],
+      "pagesRead": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "classification": "strong pre-NDA stabilitytiming; included",
+      "reason": "Xaciato negotiated9 monthfilingand12 monthupdate, notinitial INDrequirement.",
+      "textFile": "/tmp/ind-full-screen/text/2035 fc28 ce8 d09 fd219 f2800.json.gz"
+    }
+  ],
+  "uniqueSelectedProgramCount": 23
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "cmc-glycopyrrolate-material",
+    "recordId": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31",
+    "pdfPages": [
+      31,
+      35,
+      36,
+      37
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "The reproduced 2011 initial IND review identifies EP-101 glycopyrrolate inhalation solution, its chemical identity, intended delivery system, and a composition table listing glycopyrrolate, sodium chloride, citric acid monohydrate, sodium hydroxide, hydrochloric acid and water for injection. The no-novel-excipient assessment is expressly pending final CMC review.",
+    "decisionOrQuestion": "What exactly is the inhaled product, and which parts of its composition and delivery system must the safety evidence represent?",
+    "teachingUse": "Anchor a product identity sheet with ingredient, function, quality standard, formulation version and device; mark public amounts and device details as unavailable.",
+    "limitation": "The dose-column composition, suppliers, device details and many quantitative fields are redacted. A pharmacology/toxicology review is not the complete CMC submission.",
+    "verificationMethod": "Read initial-IND cover and identity page text; visually inspected original PDF pages 36–37, whose scanned tables were absent from text extraction.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-glycopyrrolate-impurity-acceptance",
+    "recordId": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70",
+    "pdfPages": [
+      70,
+      75
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "A June 2011 memo recounts the May 4 information request during the 30-day review for clarification of related-substance acceptance criteria and assay/impurity profiles before and after nebulization. The conclusion states clinical-lot impurity results were below specifications and no additional nonclinical impurity qualification was needed for the proposed 14-day Phase 2 study.",
+    "decisionOrQuestion": "Are the specifications and actual trial-lot results justified for the proposed dose, route and duration?",
+    "teachingUse": "Build the controls-to-exposure argument: attribute → test → specification → lot result → daily exposure → toxicology justification → trial boundary. Hand impurity identity and dose estimates to nonclinical colleagues.",
+    "limitation": "Percent limits and much supporting analytical data are redacted. Historical characterization of benzoic acid differs from the later NDA discussion; teach the contemporaneous decision, not a current toxicological classification or universal threshold.",
+    "verificationMethod": "Read full PDF pages 70 and 75 and visually checked page 70 and the fully redacted data page 74; verified initial-IND designation and dated IR.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-glycopyrrolate-nebulization",
+    "recordId": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [
+      "cmc-controls"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70",
+    "pdfPages": [
+      70,
+      75
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "The CMC reviewer requested assay and impurity profiles before and after nebulization to demonstrate stability. The toxicology consult links the accepted impurity specifications to the 14-day clinical trial and distinguishes later NDA or more-than-12-month exposure expectations.",
+    "decisionOrQuestion": "Does the product remain suitable after the actual delivery operation, for the treatment exposure being authorized?",
+    "teachingUse": "Use a vial → nebulizer → inhaled material diagram and ask learners to place sampling points and connect each test to potency or impurity risk. Final output is an in-use evidence plan with a clearly bounded trial duration.",
+    "limitation": "This supports an in-use stability question, not a public shelf-life dataset. It does not reveal timepoints, full results, analytical methods or a complete storage program.",
+    "verificationMethod": "Read full FDA PDF pages 70 and 75; visually verified the memo and redactions.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-glycopyrrolate-later-limits",
+    "recordId": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=10",
+    "pdfPages": [
+      10,
+      21
+    ],
+    "sourceStage": "marketing-stage NDA review",
+    "evidenceSummary": "The later NDA review distinguishes systemic safety knowledge for CPMA from unestablished local respiratory safety and describes reduced release and shelf-life impurity limits. The review explains that the earlier supporting material did not establish direct inhalation safety at the proposed higher shelf-life specification.",
+    "decisionOrQuestion": "Why can an impurity limit accepted for one exposure context fail to support a later release or shelf-life proposal?",
+    "teachingUse": "Pair with the initial memo as a longitudinal exercise: identify what changed in duration, exposure route evidence and proposed acceptance criteria, then update the control justification.",
+    "limitation": "This is an NDA-era assessment, not the initial IND requirements. Numeric limits are redacted; do not infer them or convert the comparison into a universal standard.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-suvorexant-material-bridge",
+    "recordId": "suvorexant",
+    "drug": "Suvorexant",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34",
+    "pdfPages": [
+      34
+    ],
+    "sourceStage": "initial IND, followed by later IND discussions",
+    "evidenceSummary": "The initial one-month rat and dog studies supported the first trial, but the June 2008 May Proceed letter raised concern that a nonclinical excipient could change the animal safety profile and reduce relevance to a clinical formulation without that excipient. The same page distinguishes later 2009 discussions and additional study batteries.",
+    "decisionOrQuestion": "Is the formulation used to generate safety evidence representative enough of the formulation people will receive?",
+    "teachingUse": "Core contrast case: learners annotate a toxicology-versus-clinical material comparison and explain why permission to start did not end the bridging question. Carry the unresolved bridge into the nonclinical evidence plan.",
+    "limitation": "Excipient identity and formulation details are redacted. Later repeat studies are product-specific development events, not a required initial-IND battery for all drugs.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-ivacaftor-formulation-pk",
+    "recordId": "ivacaftor",
+    "drug": "Ivacaftor",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=79",
+    "pdfPages": [
+      79,
+      90
+    ],
+    "sourceStage": "initial IND",
+    "evidenceSummary": "The reproduced original IND pharmacokinetic summary compares dog PK for material in PEG/PVP/KOAc used in the clinical formulation with material in SLS/methylcellulose/water used in nonclinical studies, reporting comparable PK.",
+    "decisionOrQuestion": "What evidence can help connect different nonclinical and clinical formulations?",
+    "teachingUse": "Use as a positive counterpart to suvorexant: a formulation bridge needs evidence, and exposure comparison is one concrete component. Ask what this comparison establishes and what it leaves unanswered.",
+    "limitation": "Some material descriptors are redacted. Comparable dog PK is not proof of identical formulation, complete CMC equivalence, human bioequivalence or universal bridge sufficiency.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-pennsaid-ingredient-role",
+    "recordId": "pennsaid",
+    "drug": "Diclofenac sodium topical solution",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf#page=45",
+    "pdfPages": [
+      45,
+      46
+    ],
+    "sourceStage": "initial IND history summarized in NDA review",
+    "evidenceSummary": "The history records an initial hold recommendation for missing nonclinical evidence and rejects a literature-only response. FDA questioned treating DMSO as inactive because of its pharmacological activity, and requested drug-product, skin-penetration and interaction evidence.",
+    "decisionOrQuestion": "Can a component be treated as an inactive vehicle when it may contribute activity or change exposure?",
+    "teachingUse": "Use as an ingredient-function challenge. The learner must identify what the product contains, what each component does, and what local/systemic or interaction questions follow for nonclinical and clinical teams.",
+    "limitation": "Historical, product-specific retrospective account; not a complete original IND or a universal modern study list. Later human-data substitutions on page 46 are distinct decisions.",
+    "verificationMethod": "Visually read the scanned FDA PDF pages 45–46, including the regulatory-history paragraph and enumerated deficiencies.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-halobetasol-formulation-selection",
+    "recordId": "halobetasol",
+    "drug": "Halobetasol propionate lotion",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf#page=103",
+    "pdfPages": [
+      103,
+      104,
+      105
+    ],
+    "sourceStage": "initial IND with explicit later-development advice",
+    "evidenceSummary": "The December 2008 original-submission memo accepted the first single-dose vasoconstrictor study using prior halobetasol knowledge and formulation-specific dermal irritation and wavelength-scan information. It separately discusses selection of one formulation, a clinical bridge to a listed product, and additional work for later trials or the NDA.",
+    "decisionOrQuestion": "Which proposed formulations are supported for the immediate study, and what must be reassessed once a formulation is selected?",
+    "teachingUse": "Build a staged product-definition worksheet: candidate formulations → first study → selected formulation → bridge → later evidence. Teach material definition as a versioned decision, with explicit handoffs to local safety and clinical PK.",
+    "limitation": "The memo is nonclinical advice; ingredient quantities and IND identity are partly redacted. Do not move later dermal carcinogenicity advice into the first-study gate.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-faricimab-formulation-change",
+    "recordId": "faricimab",
+    "drug": "Faricimab",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15",
+    "pdfPages": [
+      15,
+      16
+    ],
+    "sourceStage": "later IND, 2017 Type C CMC/nonclinical meeting",
+    "evidenceSummary": "The 2017 meeting history says no extra nonclinical studies were warranted to qualify 7 mM methionine, requests context for retinal findings in methionine-containing controls, and records an acceptable explanation for changing to histidine acetate and pH 5.5.",
+    "decisionOrQuestion": "When formulation composition or pH changes, what scientific explanation and control-group evidence are needed to interpret safety?",
+    "teachingUse": "Biologic variation of the material-change exercise: record the change, purpose, evidence consulted and accepted rationale, then pass the control-group finding to nonclinical interpretation.",
+    "limitation": "This passage is later IND development, not the initial 2013 IND. Previous buffer/pH details and other formulation text are redacted. It does not establish a general methionine qualification rule.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-baricitinib-salt-bridge",
+    "recordId": "baricitinib",
+    "drug": "Baricitinib",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=53",
+    "pdfPages": [
+      53
+    ],
+    "sourceStage": "later IND, 2011–2012",
+    "evidenceSummary": "After a switch to free base for clinical development, the sponsor proposed free base for the two-year rat study although prior pharmacology, ADME and general toxicology used phosphate salt. FDA initially sought a phosphate-salt study or stronger systemic-exposure bridging; after further rationale, it accepted the existing bridge for future nonclinical studies.",
+    "decisionOrQuestion": "Can evidence generated with one drug-substance form support future work after a form change?",
+    "teachingUse": "Use a three-step decision reveal: proposed change → FDA evidence question → accepted exposure rationale. The output is a material-change impact assessment shared with nonclinical and clinical pharmacology.",
+    "limitation": "The later-development history does not reproduce the full quantitative bridge. Carcinogenicity-study context must not be presented as an initial-IND requirement.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-baricitinib-impurity-plan",
+    "recordId": "baricitinib",
+    "drug": "Baricitinib",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=53",
+    "pdfPages": [
+      53,
+      54
+    ],
+    "sourceStage": "later IND, end-of-Phase-2 advice",
+    "evidenceSummary": "The reproduced EOP2 comments request impurity and intermediate structures, monitoring of active-ingredient impurities and degradation products, and toxicity qualification where applicable during IND development and for a potential NDA.",
+    "decisionOrQuestion": "How do evolving impurity knowledge and structural alerts become a living control and qualification plan?",
+    "teachingUse": "Add an impurity register to the running CMC dossier: identity/structure, origin, monitoring, exposure, alert, qualification evidence and unresolved action. Link its evidence requests to the nonclinical lesson.",
+    "limitation": "The passage refers to historical guidance and supplies no product-specific public numerical limits. Use as a decision structure rather than current threshold guidance.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-atrovent-device-change",
+    "recordId": "atrovent",
+    "drug": "Ipratropium bromide HFA inhaler",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [
+      "cmc-controls",
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf#page=38",
+    "pdfPages": [
+      38,
+      39
+    ],
+    "sourceStage": "later IND and pre-NDA history",
+    "evidenceSummary": "After Phase III completion, valve changes in the proposed marketed inhaler led to agreement on additional multiple-dose PK and dose-ranging studies with the third-generation device. FDA also sought delivery, particle-size and plume information. Earlier CMC discussions covered valve/canister changes, extraction studies, impurity specifications and stability protocols.",
+    "decisionOrQuestion": "When the delivery device changes, does the earlier clinical product still represent what patients will receive?",
+    "teachingUse": "Use the product-plus-device case to connect material version, emitted dose, in-vitro delivery characterization and clinical bridge. Teach a change log whose consequences span all three disciplines.",
+    "limitation": "The initial hold was for absent Phase I healthy-volunteer data, not the later device changes. The public narrative does not supply the full CMC protocols or test results.",
+    "verificationMethod": "Visually read scanned FDA PDF pages 38–39, separating 1994 initial hold, 1995 CMC meeting, 2000 device change and 2002 pre-NDA discussion.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-osimertinib-process-bridge",
+    "recordId": "osimertinib",
+    "drug": "Osimertinib",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-material"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=121",
+    "pdfPages": [
+      121,
+      122
+    ],
+    "sourceStage": "marketing-stage NDA review referencing initial-IND material",
+    "evidenceSummary": "The NDA review compares two batches from different manufacturing processes for impurity qualification. It identifies one as previously tested at IND filing and reports no meaningful differences in toxicokinetic exposure or toxicity pattern in the comparison study.",
+    "decisionOrQuestion": "How can a process change affect the relevance of prior toxicology material, and what comparison addresses that gap?",
+    "teachingUse": "Case anchor for a batch genealogy and impurity-comparability table: old process/IND batch → changed process/new batch → profile comparison → exposure and toxicity evidence. Tie the CMC decision to the nonclinical package.",
+    "limitation": "This comparison is described in the NDA assessment, outside the reproduced IND appendix starting on page 134. It does not establish that the comparison study was part of the initial IND; impurity details are redacted.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-paxlovid-missing-information",
+    "recordId": "paxlovid",
+    "drug": "Nirmatrelvir / ritonavir",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000IntegratedR.pdf#page=183",
+    "pdfPages": [
+      183
+    ],
+    "sourceStage": "initial IND history summarized in NDA review",
+    "evidenceSummary": "The regulatory history records a January 2021 full hold for insufficient risk-assessment information, including insufficient CMC information as well as missing clinical protocol, investigator information and investigator brochure. It records a complete response and subsequent hold removal in February 2021.",
+    "decisionOrQuestion": "Is the proposed trial reviewable when essential product-quality information is insufficient?",
+    "teachingUse": "Short opening or exit check for integrated readiness: a clinical protocol alone cannot close the product-quality argument. Ask learners to distinguish a stated category of deficiency from an actual detailed CMC deficiency letter.",
+    "limitation": "The page does not disclose which CMC facts were insufficient or how they were resolved. It is a context anchor, not a substantive manufacturing or stability example.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-futibatinib-quality-risk",
+    "recordId": "futibatinib",
+    "drug": "Futibatinib",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=35",
+    "pdfPages": [
+      35,
+      37
+    ],
+    "sourceStage": "initial IND Phase-2 partial hold, later IND resolution",
+    "evidenceSummary": "FDA attributes the January 2014 partial hold on the Phase 2 portion of the combined protocol to insufficient product-quality risk information and clinical concerns related to the proposed 20 mg capsule. A complete response addressed both; the later clinical response used emerging safety/activity data and expansion-dose rationale.",
+    "decisionOrQuestion": "Can one part of a development plan proceed while a different strength or later study component remains unsupported?",
+    "teachingUse": "Optional integrated gate exercise: scope the hold to the Phase 2 component and separate quality and clinical questions before assembling a response.",
+    "limitation": "The detailed product-quality deficiency and its resolution are not exposed. The passage cannot substantiate a manufacturing-process or specific-test tutorial.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-lenacapavir-container-risk",
+    "recordId": "lenacapavir",
+    "drug": "Lenacapavir",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [
+      "cmc-material",
+      "cmc-controls"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=318",
+    "pdfPages": [
+      318,
+      319
+    ],
+    "sourceStage": "later IND full hold in December 2021, described in concurrent NDA review",
+    "evidenceSummary": "The earlier review reports incompatibility of the clinical-trial borosilicate vial with product, vial-surface degradation and glass particles. FDA placed supporting INDs on full hold because information was insufficient to assess injection risk and possible particulate contributions to persistent injection-site effects.",
+    "decisionOrQuestion": "Can container interaction change the material administered, and what uncertainty is serious enough to interrupt ongoing trials?",
+    "teachingUse": "Core failure case: storage system → particulate generation → administered product → uncertain clinical consequence → additional CMC, nonclinical and clinical evidence. Assign the uncertainty explicitly rather than claiming causation.",
+    "limitation": "The passage does not prove glass caused nodules. The same compiled PDF includes later resolution: page 14 favors approval and page 177 agrees the drug depot is the more likely explanation. This is a later IND event, not the initial IND.",
+    "verificationMethod": "Read PDF pages 318–319 and visually verified page 319; checked second-cycle pages 14, 83, 91 and 177 for the later outcome and causal interpretation.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-lenacapavir-stability-resolution",
+    "recordId": "lenacapavir",
+    "drug": "Lenacapavir",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [
+      "cmc-material"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=83",
+    "pdfPages": [
+      83,
+      14,
+      91
+    ],
+    "sourceStage": "marketing-stage NDA resubmission",
+    "evidenceSummary": "The second-cycle assessment accepts a 24-month shelf life based on 18-month long-term data, describes photoprotection by secondary packaging and in-use evidence for clear vials and syringes, and translates photostability into keeping vials in the carton until preparation. The executive summary explains the earlier quality CRL and later favorable assessment.",
+    "decisionOrQuestion": "How does evidence across storage, packaging, preparation and use become a workable handling instruction?",
+    "teachingUse": "Close the lenacapavir narrative with a storage-to-dose evidence matrix and trace each instruction to the supporting data. Use as a later-development destination for the initial-IND stability planning exercise.",
+    "limitation": "This is NDA-stage evidence. Do not import its shelf-life duration or dataset into an initial IND checklist; some packaging and fill-volume details remain redacted.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-gvoke-admixture",
+    "recordId": "glucagon-gvoke",
+    "drug": "Glucagon injection",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [
+      "cmc-material"
+    ],
+    "sourceUrl": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=3",
+    "pdfPages": [
+      3
+    ],
+    "sourceStage": "marketing-stage supplement CRL referencing a different IND formulation",
+    "evidenceSummary": "FDA states dilution compatibility studies used XP-9164 under IND 156281, whereas the proposed product was the Gvoke vial formulation. It requests admixture compatibility/stability studies on the actual proposed formulation and dosing/administration technique, including comparative gelling and agglomeration.",
+    "decisionOrQuestion": "Does compatibility evidence apply to this formulation under these actual preparation and administration conditions?",
+    "teachingUse": "Strong transfer exercise after glycopyrrolate: learner rejects a mismatched study and rewrites the evidence plan with formulation identity, diluent, delivery conditions and physical/chemical endpoints.",
+    "limitation": "This is a supplement deficiency, not an initial IND decision. The existing source record points to pages 1–2, but the direct CMC compatibility passage is on PDF page 3.",
+    "verificationMethod": "Visually read scanned PDF pages 1–3; verified the CMC section and IND 156281 reference on page 3.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-gvoke-comparability",
+    "recordId": "glucagon-gvoke",
+    "drug": "Glucagon injection",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [
+      "cmc-controls",
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=1",
+    "pdfPages": [
+      1,
+      2,
+      3
+    ],
+    "sourceStage": "marketing-stage supplement CRL",
+    "evidenceSummary": "The CRL asks for a scientific bridge for the IV product. The proposed alternative includes side-by-side formulation composition and physicochemical comparison before/after dilution, justification that differences do not affect in-vivo performance, and comparative dose-accuracy/particle evaluation after syringe-and-needle delivery.",
+    "decisionOrQuestion": "Which formulation and delivery differences matter for both comparability and the dose actually administered?",
+    "teachingUse": "Optional capstone comparing product identity, delivered dose and clinical PK. Have learners identify which parts of the argument are CMC and which require clinical evidence.",
+    "limitation": "This is a specific proposed path in a marketing supplement; it is not a universal IND comparability protocol. Redacted portions prevent reconstruction of the complete application.",
+    "verificationMethod": "Visually read original scanned FDA PDF pages 1–3, preserving the CRL and proposed-alternative context.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-fosphenytoin-specification-history",
+    "recordId": "fosphenytoin",
+    "drug": "Fosphenytoin sodium injection",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://download.open.fda.gov/crl/210864_2021_Orig1s000OtherActionLtrs.pdf#page=13",
+    "pdfPages": [
+      13,
+      14
+    ],
+    "sourceStage": "marketing-stage CRL recalling pre-IND and later meetings",
+    "evidenceSummary": "An additional product-quality comment traces advice from the 2006 pre-IND meeting through later meetings and information requests: the proposed product did not comply with the USP monograph, with revisions needed for pH and phenytoin impurity acceptance criteria.",
+    "decisionOrQuestion": "How should unresolved specification questions be tracked across development interactions?",
+    "teachingUse": "Use a regulatory-issue log showing question, meeting response, proposed acceptance criterion, justification and closure evidence.",
+    "limitation": "The letter labels this an additional recommendation that is not an approvability issue. It does not reproduce the original pre-IND question or numerical criteria; do not describe it as the cause of nonapproval.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-soluprep-maximal-use-impurities",
+    "recordId": "soluprep",
+    "drug": "Chlorhexidine gluconate / isopropyl alcohol",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf#page=2",
+    "pdfPages": [
+      2,
+      3
+    ],
+    "sourceStage": "marketing-stage NDA CRL",
+    "evidenceSummary": "The letter finds impurity qualification inadequate for the 26 mL applicator using proposed maximal use and stability specifications. It offers exposure-based or additional qualification approaches, or tighter impurity control relative to a relevant approved product based on four 26 mL applications per day, with revised stability specifications.",
+    "decisionOrQuestion": "How do application volume, frequency and shelf-life impurity limits change the qualification argument?",
+    "teachingUse": "Advanced handoff exercise: combine use conditions from clinical, impurity profile from CMC and systemic exposure evidence from nonclinical; choose and justify a gap-closing strategy.",
+    "limitation": "Historical NDA deficiency, not a mandatory initial-IND study design. Impurity identities and limits are redacted; the case-specific applicator use must remain attached to the conclusion.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-stemcyte-release-status",
+    "recordId": "stemcyte-cord-blood",
+    "drug": "Hematopoietic progenitor cells, cord blood",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-material"
+    ],
+    "sourceUrl": "https://download.open.fda.gov/crl/CRL_BLA125764_20230120.pdf#page=4",
+    "pdfPages": [
+      4
+    ],
+    "sourceStage": "marketing-stage BLA CRL with IND-use distinction",
+    "evidenceSummary": "FDA requests procedures documenting donor-eligibility determination before searchable inventory release and distinguishes units from ineligible donors that may be used under an IND for urgent medical need from units meeting licensure acceptance criteria. The letter also requests detailed collection-site qualification procedures.",
+    "decisionOrQuestion": "How do release status, donor eligibility, traceability and intended regulatory use enter the control system for a cell product?",
+    "teachingUse": "Biologic/cell-product comparison card: a release decision includes documented eligibility and chain of responsibility. Build a release-status workflow and distinguish licensure from the stated IND-use exception.",
+    "limitation": "This BLA letter does not provide the initial IND CMC package or a general permission to use ineligible-donor material. It is a narrowly described regulatory-use distinction.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-eovist-test-material-traceability",
+    "recordId": "eovist",
+    "drug": "Gadoxetate disodium",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [
+      "cmc-controls"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2008/022090s000_PharmR.pdf#page=72",
+    "pdfPages": [
+      72
+    ],
+    "sourceStage": "later IND review reproduced in NDA appendix",
+    "evidenceSummary": "The retained fertility-study review identifies formulation SH L 569 B, batch 33021, expiry August 1994, study dates, dilution of the low dose and certificate-of-analysis details, including a certificate not included in the submission and differing dates in the protocol amendment.",
+    "decisionOrQuestion": "Can the reviewed nonclinical result be traced to an identified material and its preparation and study period?",
+    "teachingUse": "Compact source-reading exercise to complete a test-material provenance row: batch, formulation, expiry, dilution, CoA availability and unresolved discrepancy.",
+    "limitation": "This is animal-study material documentation, not proof of clinical-lot release, shelf life or manufacturing consistency. The certificate itself is not publicly supplied here.",
+    "verificationMethod": "Visually read scanned FDA PDF page 72, including appendix provenance, study-identification block and dosing-table footnote.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-venetoclax-batch-genealogy",
+    "recordId": "venetoclax",
+    "drug": "Venetoclax",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-material",
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=29",
+    "pdfPages": [
+      29
+    ],
+    "sourceStage": "marketing-stage NDA clinical-review quality summary",
+    "evidenceSummary": "The quality summary reports that primary stability and Phase I/II lots were made at North Chicago using a process described by the applicant as representative of the proposed commercial process; site-specific stability lots for each strength came from Sligo. It distinguishes early uncoated tablets from later film-coated tablets.",
+    "decisionOrQuestion": "Which lots, sites and formulation versions support each part of the evidence package?",
+    "teachingUse": "Optional batch genealogy exercise connecting clinical-use lots, stability lots, manufacturing site and formulation history.",
+    "limitation": "This is a high-level NDA summary, partly explicitly attributed to the applicant. It does not expose the manufacturing process, validation, lot results or a demonstrated initial-IND control strategy.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-vestronidase-container-extractables",
+    "recordId": "vestronidase",
+    "drug": "Vestronidase alfa-vjbk",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf#page=11",
+    "pdfPages": [
+      11,
+      12,
+      13
+    ],
+    "sourceStage": "marketing-stage BLA review",
+    "evidenceSummary": "The BLA review estimates patient exposure to extractables from a glass container and concludes the assessed levels do not present safety concerns at maximum anticipated daily exposure.",
+    "decisionOrQuestion": "How can container-derived chemical measurements be translated into a patient-exposure safety question?",
+    "teachingUse": "Supporting biologic case for a container-compatibility worksheet that connects analytical result, administered volume/dose and toxicological interpretation.",
+    "limitation": "This section precedes the expressly IND-derived study list and must not be labeled initial IND evidence. Extensive redactions hide analyte identities, levels and numerical comparisons, so it cannot support a worked quantitative example.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-oteseconazole-formulation-bridge",
+    "recordId": "oteseconazole",
+    "drug": "Oteseconazole",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf#page=178",
+    "pdfPages": [
+      178
+    ],
+    "sourceStage": "marketing-stage NDA review of a clinical-development bridge",
+    "evidenceSummary": "The food-effect study was also intended to bridge the earlier tablet used in Phase 1/2b work to the Phase 3 capsule. The review reports comparable tablet/capsule Cmax and AUC under fed conditions while distinguishing the food effect.",
+    "decisionOrQuestion": "How do formulation and administration conditions interact when carrying earlier exposure evidence forward?",
+    "teachingUse": "Cross-link to clinical PK: identify which material version and fed/fasted conditions the bridge covers, and write a precise applicability statement.",
+    "limitation": "This later clinical-development bridge is reported in the NDA; it is not the initial IND formulation or a CMC-only demonstration. Details of the earlier tablet are partly redacted.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-minocycline-product-bridge",
+    "recordId": "minocycline",
+    "drug": "Minocycline hydrochloride foam",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=27",
+    "pdfPages": [
+      27
+    ],
+    "sourceStage": "initial IND and later EOP2 history summarized in NDA review",
+    "evidenceSummary": "The history explains the proposed reliance on oral minocycline safety for a topical foam, the pre-IND discussion of a PK trial to establish that bridge, and subsequent advice that adult data needed supplementation by maximal-use pediatric PK.",
+    "decisionOrQuestion": "What material and population differences must be resolved before relying on prior product safety knowledge?",
+    "teachingUse": "Use as a handoff card from product definition to clinical pharmacology: list formulation, route, local safety, intended population and maximal-use conditions.",
+    "limitation": "The bridge is a clinical exposure question rather than a manufacturing control. This page provides development advice, not the completed bridge dataset.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-budesonide-release-profile",
+    "recordId": "budesonide-eohilia",
+    "drug": "Budesonide oral suspension",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://download.open.fda.gov/crl/213976_2024_Orig1s000OtherActionLtrs.pdf#page=5",
+    "pdfPages": [
+      5
+    ],
+    "sourceStage": "marketing-stage NDA CRL additional comment",
+    "evidenceSummary": "FDA describes limited dissolution data at batch release and requests full-profile dissolution data for a new batch made to resolve deficiencies, or data from the first six commercial batches after approval if no new preapproval batch is needed.",
+    "decisionOrQuestion": "How does the required evidence depend on the actual batch history and next manufacturing action?",
+    "teachingUse": "Optional later-stage contrast showing that a test name alone is insufficient: record the profile, sampling, batch identity, timing and regulatory purpose.",
+    "limitation": "The letter explicitly labels these additional comments as not approvability issues. This is not an initial IND release-test requirement or evidence of an initial IND CMC deficiency.",
+    "verificationMethod": "Read the full cited PDF page text directly from the FDA PDF; checked document section and development stage.",
+    "confidence": "verified passage"
+  }
+]

@@ -1,0 +1,1358 @@
+{
+  "metadata": {
+    "title": "Public FDA records with IND information",
+    "verificationDate": "2026-09-16",
+    "scope": "Expanding verified reading library, not an exhaustive inventory of public IND material.",
+    "crlScreen": {
+      "totalRecords": 458,
+      "datasetUpdated": "2026-08-13",
+      "keywordHits": 26,
+      "retained": 10,
+      "notPromoted": 16,
+      "method": "Case-insensitive IND/investigational-new-drug keyword screen followed by manual passage triage; selected passages verified in original PDFs. Records without those phrases were not manually read in full."
+    },
+    "approvalReviewSearch": {
+      "additionalPackagesInspected": 18,
+      "previouslyVerifiedPackages": 6,
+      "reviewIndexRecords": 7857,
+      "allIndexRecords": 81081,
+      "indexContentReviewed": false
+    },
+    "sources": [
+      {
+        "label": "openFDA CRL dataset",
+        "url": "https://api.fda.gov/transparency/crl.json?limit=1000"
+      },
+      {
+        "label": "Drugs@FDA data download",
+        "url": "https://www.fda.gov/media/89850/download?attachment="
+      },
+      {
+        "label": "FDA CRL database",
+        "url": "https://open.fda.gov/apis/transparency/completeresponseletters/"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ivacaftor",
+      "drug": "Ivacaftor",
+      "brand": "Kalydeco · VX-770",
+      "modality": "Small molecule",
+      "application": "NDA 203188",
+      "indNumbers": [
+        "74633"
+      ],
+      "approvalStatus": "Approved application; 2012 public review package",
+      "statusGroup": "approved",
+      "reviewYear": 2012,
+      "evidenceType": "reproduced",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Dose justification",
+        "PK/PD"
+      ],
+      "summary": "Appendix 1 preserves the 2006 pharmacology/toxicology review of the initial IND, subsequent responses, and an amendment. It evaluates safety pharmacology, ADME, repeat-dose toxicology, and the proposed clinical dose escalation.",
+      "limitation": "This is one discipline’s review, not the complete IND. Other appendices cover later development.",
+      "sources": [
+        {
+          "label": "Initial IND review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=79",
+          "pdfPages": [
+            79,
+            122
+          ],
+          "evidenceAnchor": "Initial IND review"
+        },
+        {
+          "label": "Clinical-dose assessment",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122",
+          "pdfPages": [
+            122
+          ],
+          "evidenceAnchor": "Clinical-dose assessment"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "use": "Connect nonclinical evidence to the starting study and its dose limits.",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "osimertinib",
+      "drug": "Osimertinib",
+      "brand": "Tagrisso · AZD9291",
+      "modality": "Small molecule",
+      "application": "NDA 208065",
+      "indNumbers": [
+        "117879"
+      ],
+      "approvalStatus": "Approved application; 2015 public review package",
+      "statusGroup": "approved",
+      "reviewYear": 2015,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Toxicokinetics",
+        "Reversibility"
+      ],
+      "summary": "An appendix explicitly reproduces material from the IND review: one-month rat and dog toxicity studies, recovery assessments, and toxicokinetics.",
+      "limitation": "The extract begins at the Appendix/Attachments heading on PDF p. 134. Earlier text on that page belongs to the later NDA assessment. The full initial IND is not reproduced.",
+      "sources": [
+        {
+          "label": "IND-review extract",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=134",
+          "pdfPages": [
+            134,
+            150
+          ],
+          "evidenceAnchor": "IND-review extract"
+        },
+        {
+          "label": "Rat toxicokinetics",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=140",
+          "pdfPages": [
+            140
+          ],
+          "evidenceAnchor": "Rat toxicokinetics"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "use": "Read organ findings alongside exposure, reversibility, and study design.",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "suvorexant",
+      "drug": "Suvorexant",
+      "brand": "Belsomra · MK-4305",
+      "modality": "Small molecule",
+      "application": "NDA 204569",
+      "indNumbers": [
+        "101847"
+      ],
+      "approvalStatus": "Approved application; 2014 public review package",
+      "statusGroup": "approved",
+      "reviewYear": 2014,
+      "evidenceType": "summary",
+      "stage": "initial",
+      "topicTags": [
+        "Formulation",
+        "Nonclinical evidence"
+      ],
+      "summary": "The review describes the initial one-month rat/dog studies and concerns in the June 2008 May Proceed letter about differences between nonclinical and clinical formulations. It traces subsequent formulation discussions and additional toxicology work.",
+      "limitation": "Some formulation details are redacted. This is a retrospective account; do not infer the hidden excipient or apply the later study battery to every initial IND.",
+      "sources": [
+        {
+          "label": "Formulation and IND history",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34",
+          "pdfPages": [
+            34
+          ],
+          "evidenceAnchor": "Formulation and IND history"
+        },
+        {
+          "label": "Earlier pharmacology summarized",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=66",
+          "pdfPages": [
+            66
+          ],
+          "evidenceAnchor": "Earlier pharmacology summarized"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "use": "See why the material used in toxicology must support interpretation of the material intended for people.",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "tofacitinib",
+      "drug": "Tofacitinib",
+      "brand": "Xeljanz · CP-690,550",
+      "modality": "Small molecule",
+      "application": "NDA 203214",
+      "indNumbers": [
+        "70903"
+      ],
+      "approvalStatus": "Approved application; 2012 public review package",
+      "statusGroup": "approved",
+      "reviewYear": 2012,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Selectivity",
+        "Study reuse"
+      ],
+      "summary": "Table 13 explicitly credits a June 24, 2005 IND nonclinical review for the receptor/ion-channel screening information. The regulatory history separately describes how nonclinical questions evolved through later meetings and NDA review.",
+      "limitation": "The reproduced item is a table, not an entire IND review. The NDA-era exposure comparisons and later reproductive-study issues should not be assigned to the initial IND.",
+      "sources": [
+        {
+          "label": "IND-derived Table 13",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf#page=505",
+          "pdfPages": [
+            505
+          ],
+          "evidenceAnchor": "IND-derived Table 13"
+        },
+        {
+          "label": "Regulatory history",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf#page=41",
+          "pdfPages": [
+            41
+          ],
+          "evidenceAnchor": "Regulatory history"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "use": "Trace reused evidence and distinguish early findings from later requirements.",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "venetoclax",
+      "drug": "Venetoclax",
+      "brand": "Venclexta · ABT-199",
+      "modality": "Small molecule",
+      "application": "NDA 208573",
+      "indNumbers": [
+        "110159"
+      ],
+      "approvalStatus": "Approved application; 2016 public review package",
+      "statusGroup": "approved",
+      "reviewYear": 2016,
+      "evidenceType": "summary",
+      "stage": "later",
+      "topicTags": [
+        "Clinical hold",
+        "Dose escalation",
+        "Tumor lysis"
+      ],
+      "summary": "The clinical review dates IND opening to 2010, a partial clinical hold to December 2012, and its removal to May 2013. It describes how tumor lysis events prompted changes to dose ramp-up, risk assessment, and prophylaxis.",
+      "limitation": "These are clinical-development events after initial human dosing. They are not the original nonclinical package or a current dosing guide.",
+      "sources": [
+        {
+          "label": "IND and hold history",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=28",
+          "pdfPages": [
+            28
+          ],
+          "evidenceAnchor": "IND and hold history"
+        },
+        {
+          "label": "Phase 1 dosing changes",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=64",
+          "pdfPages": [
+            64
+          ],
+          "evidenceAnchor": "Phase 1 dosing changes"
+        },
+        {
+          "label": "Tumor lysis assessment",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf#page=96",
+          "pdfPages": [
+            96,
+            99
+          ],
+          "evidenceAnchor": "Tumor lysis assessment"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "use": "Follow the feedback from emerging human safety findings to protocol changes.",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "sotorasib",
+      "drug": "Sotorasib",
+      "brand": "Lumakras · AMG 510",
+      "modality": "Small molecule",
+      "application": "NDA 214665",
+      "indNumbers": [
+        "139023",
+        "145628"
+      ],
+      "approvalStatus": "Approved application; 2021 public review package",
+      "statusGroup": "approved",
+      "reviewYear": 2021,
+      "evidenceType": "meeting",
+      "stage": "later",
+      "topicTags": [
+        "FDA meetings",
+        "Submission",
+        "Clinical evidence"
+      ],
+      "summary": "The package includes Type B pre-NDA meeting minutes under IND 145628, with questions and FDA responses on nonclinical sufficiency, clinical evidence, and clinical pharmacology. Its history identifies the 2018 first-in-human submission under IND 139023.",
+      "limitation": "This is a late-development meeting, not a first-in-human IND review. The two IND numbers refer to different records within the program.",
+      "sources": [
+        {
+          "label": "Meeting identity and history",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214665Orig1s000AdminCorres.pdf#page=12",
+          "pdfPages": [
+            12,
+            13
+          ],
+          "evidenceAnchor": "Meeting identity and history"
+        },
+        {
+          "label": "Questions and FDA responses",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214665Orig1s000AdminCorres.pdf#page=17",
+          "pdfPages": [
+            17,
+            20
+          ],
+          "evidenceAnchor": "Questions and FDA responses"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "use": "See how a sponsor frames questions and how FDA distinguishes preliminary agreement from a final NDA assessment.",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "pennsaid",
+      "drug": "Diclofenac sodium topical solution",
+      "brand": "Pennsaid",
+      "modality": "Small molecule",
+      "application": "NDA 020947",
+      "indNumbers": [
+        "42773"
+      ],
+      "approvalStatus": "Original application approved 2009-11-04",
+      "statusGroup": "approved",
+      "reviewYear": 2009,
+      "evidenceType": "summary",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Formulation",
+        "Clinical hold"
+      ],
+      "summary": "The retrospective history describes the initial IND hold recommendation, the inadequacy of a literature-only response, and requests for route-specific absorption, interaction, and product-toxicity information. FDA questioned treating DMSO as an inactive excipient.",
+      "limitation": "Historical product-specific requirements, not a current universal study list. The cited text describes a hold recommendation and subsequent deficiencies; it is not a complete original IND.",
+      "sources": [
+        {
+          "label": "Initial IND deficiencies",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf#page=45",
+          "pdfPages": [
+            45,
+            46
+          ],
+          "evidenceAnchor": "Regulatory History; 40 published articles; September 16, 1993 deficiencies"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "levitra",
+      "drug": "Vardenafil",
+      "brand": "Levitra · BAY 38-9456",
+      "modality": "Small molecule",
+      "application": "NDA 021400",
+      "indNumbers": [],
+      "approvalStatus": "Original application approved 2003-08-19",
+      "statusGroup": "approved",
+      "reviewYear": 2003,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Toxicokinetics",
+        "Carcinogenicity"
+      ],
+      "summary": "Appendix I includes a February 1999 IND review of rodent carcinogenicity protocols. The reviewer asks for parent-drug and active-metabolite Cmax/AUC measurements and discusses dose selection.",
+      "limitation": "This is later nonclinical development, not the initial human-study package. Nineteen pages are explicitly redacted before this retained review; the IND number is redacted.",
+      "sources": [
+        {
+          "label": "1999 IND protocol review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf#page=16",
+          "pdfPages": [
+            16,
+            17
+          ],
+          "evidenceAnchor": "Review #2; February 3, 1999; Review and Evaluation of Rodent Carcinogenicity Protocols"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "faricimab",
+      "drug": "Faricimab",
+      "brand": "Vabysmo · RO6867461",
+      "modality": "Biologic · bispecific antibody",
+      "application": "BLA 761235",
+      "indNumbers": [
+        "119225"
+      ],
+      "approvalStatus": "Original application approved 2022-01-28",
+      "statusGroup": "approved",
+      "reviewYear": 2022,
+      "evidenceType": "summary",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Dose escalation",
+        "Immunogenicity",
+        "Formulation"
+      ],
+      "summary": "The initial IND history says animal data supported the starting dose but raised concerns about higher doses because of ocular inflammation. FDA would assess lower-dose human data before escalation. Later discussions address formulation changes and evidence for longer studies.",
+      "limitation": "The history contains inconsistent calendar dates around the initial submission/review; use the sequence of decisions rather than reconstructing exact timing. Initial-IND conclusions are summarized or excerpted within a later BLA review.",
+      "sources": [
+        {
+          "label": "Starting dose and escalation conditions",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15",
+          "pdfPages": [
+            15,
+            16
+          ],
+          "evidenceAnchor": "Nonclinical data supported the starting dose, but not the high dose"
+        },
+        {
+          "label": "Initial IND toxicity findings",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26",
+          "pdfPages": [
+            26
+          ],
+          "evidenceAnchor": "The following studies were reviewed under the initial IND"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "biologic"
+    },
+    {
+      "id": "atrovent",
+      "drug": "Ipratropium bromide HFA inhaler",
+      "brand": "Atrovent HFA",
+      "modality": "Small molecule",
+      "application": "NDA 021527",
+      "indNumbers": [
+        "45938"
+      ],
+      "approvalStatus": "Original application approved 2004-11-17",
+      "statusGroup": "approved",
+      "reviewYear": 2004,
+      "evidenceType": "summary",
+      "stage": "initial",
+      "topicTags": [
+        "Clinical hold",
+        "Formulation",
+        "Clinical bridging",
+        "Device"
+      ],
+      "summary": "The history records an initial IND hold for lack of Phase 1 healthy-volunteer data, later lifting, and additional PK/dose-ranging studies after valve changes. CMC discussions addressed delivery, impurities, and device comparability.",
+      "limitation": "A new formulation/device of an established drug. Initial U.S. IND and product bridging do not mean first-ever human exposure to ipratropium.",
+      "sources": [
+        {
+          "label": "Initial hold and device bridging",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf#page=38",
+          "pdfPages": [
+            38
+          ],
+          "evidenceAnchor": "Important Milestones in Product Development; IND 45,938"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "eovist",
+      "drug": "Gadoxetate disodium",
+      "brand": "Eovist · Gd-EOB-DTPA",
+      "modality": "Small molecule · contrast agent",
+      "application": "NDA 022090",
+      "indNumbers": [
+        "54875"
+      ],
+      "approvalStatus": "Original application approved 2008-07-03",
+      "statusGroup": "approved",
+      "reviewYear": 2008,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Reproductive toxicity",
+        "Genotoxicity"
+      ],
+      "summary": "The appendix explicitly attaches earlier IND reviews of reproductive/developmental toxicity, in-vivo genotoxicity, and local tolerance. The opening study provides fertility-study design, test material, dose groups, and GLP information.",
+      "limitation": "These retained studies do not establish the full initial IND package or that reproductive studies were needed before every first human dose.",
+      "sources": [
+        {
+          "label": "IND-review appendix and fertility study",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2008/022090s000_PharmR.pdf#page=72",
+          "pdfPages": [
+            72
+          ],
+          "evidenceAnchor": "The full IND reviews ... are attached unedited"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "yasmin",
+      "drug": "Drospirenone / ethinyl estradiol",
+      "brand": "Yasmin",
+      "modality": "Small molecule combination",
+      "application": "NDA 021098",
+      "indNumbers": [],
+      "approvalStatus": "Original application approved 2001-05-11",
+      "statusGroup": "approved",
+      "reviewYear": 2001,
+      "evidenceType": "reproduced",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Pharmacology",
+        "Reproductive toxicity"
+      ],
+      "summary": "The NDA review identifies reproductive and genetic toxicology reviewed with the original 1996 IND submission and lists its pharmacology review as an attachment. Retained text describes the hormone pharmacology and receptor effects.",
+      "limitation": "The appendix is split across the approval package; the linked Part 1 does not contain every later page. The original submission date and the later review date are distinct.",
+      "sources": [
+        {
+          "label": "Attribution to original IND and appendix list",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2001/21-098_Yasmin_pharmr_P1.pdf#page=34",
+          "pdfPages": [
+            34,
+            38
+          ],
+          "evidenceAnchor": "original IND submission dated 10-7-1996; review dated 10-17-1997"
+        },
+        {
+          "label": "Retained pharmacology text",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2001/21-098_Yasmin_pharmr_P1.pdf#page=40",
+          "pdfPages": [
+            40
+          ],
+          "evidenceAnchor": "The pharmacologic profile of DRSP was characterized"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "orfadin",
+      "drug": "Nitisinone",
+      "brand": "Orfadin · NTBC / SC-0735",
+      "modality": "Small molecule",
+      "application": "NDA 021232",
+      "indNumbers": [],
+      "approvalStatus": "Original application approved 2002-01-18",
+      "statusGroup": "approved",
+      "reviewYear": 2002,
+      "evidenceType": "summary",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Study reuse",
+        "Data quality"
+      ],
+      "summary": "The reviewer discusses reuse of an interrupted toxicity study after the compound acquired a therapeutic development path. The discussion refers back to IND-review observations on ocular injury and the limitations of retained study records.",
+      "limitation": "A narrow retrospective IND-linked passage. This source is not itself proof that the complete earlier IND review survives in the online package; QA and incomplete reporting limit interpretation.",
+      "sources": [
+        {
+          "label": "Reused studies and IND findings",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=23",
+          "pdfPages": [
+            23
+          ],
+          "evidenceAnchor": "Additional Comments re Study T-12984 reference IND review attached"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "halobetasol",
+      "drug": "Halobetasol propionate lotion",
+      "brand": "Ultravate lotion",
+      "modality": "Small molecule",
+      "application": "NDA 208183",
+      "indNumbers": [],
+      "approvalStatus": "Original application approved 2015-11-06",
+      "statusGroup": "approved",
+      "reviewYear": 2015,
+      "evidenceType": "reproduced",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Formulation",
+        "Clinical bridging",
+        "FDA questions"
+      ],
+      "summary": "A December 2008 memorandum preserves sponsor questions and FDA answers on the first vasoconstrictor-assay study. It accepts prior systemic-safety knowledge plus formulation-specific irritation information, then distinguishes bridging and later local-safety work.",
+      "limitation": "An established corticosteroid in a new formulation under a 505(b)(2) strategy, not a new molecular entity. IND identity and some sponsor information are redacted.",
+      "sources": [
+        {
+          "label": "Original-submission questions and FDA answers",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf#page=103",
+          "pdfPages": [
+            103,
+            104
+          ],
+          "evidenceAnchor": "SD Type: original submission; Review date: 12-03-08"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "vestronidase",
+      "drug": "Vestronidase alfa-vjbk",
+      "brand": "Mepsevii · UX003",
+      "modality": "Biologic · enzyme replacement",
+      "application": "BLA 761047",
+      "indNumbers": [
+        "123788"
+      ],
+      "approvalStatus": "Original application approved 2017-11-15",
+      "statusGroup": "approved",
+      "reviewYear": 2017,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Study reuse",
+        "Biologic"
+      ],
+      "summary": "The BLA reviewer explicitly identifies nonclinical safety material excerpted from a 2014 preliminary IND safety review. It shows how prior review work is carried forward, with additional reproductive studies distinguished from the earlier set.",
+      "limitation": "The source excerpt does not establish that every summarized study preceded the first human dose. One earlier table truncates the IND number; the previous-reviews section gives 123788.",
+      "sources": [
+        {
+          "label": "Attribution to earlier IND safety review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf#page=13",
+          "pdfPages": [
+            13,
+            16
+          ],
+          "evidenceAnchor": "Preliminary safety IND review ... October 10, 2014; excerpted ... included in this BLA review"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "biologic"
+    },
+    {
+      "id": "cinacalcet",
+      "drug": "Cinacalcet hydrochloride",
+      "brand": "Sensipar · AMG 073",
+      "modality": "Small molecule",
+      "application": "NDA 021688",
+      "indNumbers": [
+        "56010"
+      ],
+      "approvalStatus": "Original application approved 2004-03-08",
+      "statusGroup": "approved",
+      "reviewYear": 2004,
+      "evidenceType": "reproduced",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Dose justification",
+        "PK/PD",
+        "Clinical monitoring"
+      ],
+      "summary": "The 1998 original-IND pharmacology review combines animal toxicity, prior human PK/PD, and the proposed patient-study design. Its evaluation links the planned 75 mg maximum to exposure margins and clinical monitoring.",
+      "limitation": "Original U.S. IND does not mean first-in-human: this review already describes previous Phase 1 exposure and proposes a Phase 2 study. Avoid treating its historical margins as general rules.",
+      "sources": [
+        {
+          "label": "Original IND identity and clinical plan",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=7",
+          "pdfPages": [
+            7,
+            8
+          ],
+          "evidenceAnchor": "PHARMACOLOGY REVIEW OF ORIGINAL IND; June 19, 1998"
+        },
+        {
+          "label": "Human exposure and dose assessment",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=16",
+          "pdfPages": [
+            16
+          ],
+          "evidenceAnchor": "Evaluation of clinical plans; highest dose to be used (75 mg)"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "baricitinib",
+      "drug": "Baricitinib",
+      "brand": "Olumiant · INCB028050 / LY3009104",
+      "modality": "Small molecule",
+      "application": "NDA 207924",
+      "indNumbers": [
+        "102204"
+      ],
+      "approvalStatus": "Original application approved 2018-05-31",
+      "statusGroup": "approved",
+      "reviewYear": 2018,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Exposure limits",
+        "Study duration",
+        "Reversibility"
+      ],
+      "summary": "Multiple IND reviews are appended. A 2009 memo recalls initial dosing/exposure restrictions and evaluates whether longer rat/dog studies support an extended rheumatoid-arthritis trial. It weighs reversible, monitorable effects and toxicokinetic margins.",
+      "limitation": "The retained memo concerns an amendment and longer clinical exposure. A reviewer recommendation is not itself the complete regulatory action letter, and later chronic-study expectations are context-specific.",
+      "sources": [
+        {
+          "label": "Appendix list and 2009 IND memo",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=246",
+          "pdfPages": [
+            246,
+            248,
+            249
+          ],
+          "evidenceAnchor": "Appendix 1; PHARM/TOX MEMO TO FILE; doses up to 10 mg qd"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "glycopyrrolate",
+      "drug": "Glycopyrrolate inhalation solution",
+      "brand": "Lonhala Magnair · EP-101",
+      "modality": "Small molecule",
+      "application": "NDA 208437",
+      "indNumbers": [
+        "110663"
+      ],
+      "approvalStatus": "Original application approved 2017-12-05",
+      "statusGroup": "approved",
+      "reviewYear": 2017,
+      "evidenceType": "reproduced",
+      "stage": "initial",
+      "topicTags": [
+        "Nonclinical evidence",
+        "CMC",
+        "Impurities",
+        "Device",
+        "Study reuse"
+      ],
+      "summary": "The actual 2011 initial-IND review assesses reliance on existing systemic-safety knowledge plus inhalation toxicology. A follow-up memo analyzes impurity specifications and drug stability before and after nebulization during the initial trial.",
+      "limitation": "A new inhalation presentation of an established drug. Some impurity limits are redacted. Historical statements in the memo should not be treated as current impurity guidance.",
+      "sources": [
+        {
+          "label": "Initial IND review and recommendations",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31",
+          "pdfPages": [
+            31,
+            33
+          ],
+          "evidenceAnchor": "Initial IND Submission; reasonably safe to proceed"
+        },
+        {
+          "label": "CMC/nonclinical impurity memorandum",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=70",
+          "pdfPages": [
+            70,
+            71
+          ],
+          "evidenceAnchor": "chemistry reviewer ... 30-day safety review period ... before and after nebulization"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "cemiplimab",
+      "drug": "Cemiplimab",
+      "brand": "Libtayo · REGN2810",
+      "modality": "Biologic · monoclonal antibody",
+      "application": "BLA 761097",
+      "indNumbers": [
+        "123950",
+        "127100"
+      ],
+      "approvalStatus": "Original application approved 2018-09-28",
+      "statusGroup": "approved",
+      "reviewYear": 2018,
+      "evidenceType": "summary",
+      "stage": "later",
+      "topicTags": [
+        "Patient selection",
+        "Endpoints",
+        "FDA meetings",
+        "Clinical design"
+      ],
+      "summary": "A breakthrough-designation review recounts initial-study authorization and later pre-IND advice for cutaneous squamous-cell carcinoma. FDA discusses prior-treatment eligibility, multidisciplinary assessment, separate population analyses, and the meaning of response.",
+      "limitation": "These are disease-expansion and later clinical-development decisions, not a reproduced first-in-human nonclinical review. The document has minor date inconsistencies in later milestone text.",
+      "sources": [
+        {
+          "label": "IND history and patient-selection advice",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/761097Orig1s000OtherR.pdf#page=13",
+          "pdfPages": [
+            13,
+            14
+          ],
+          "evidenceAnchor": "Relevant Regulatory History; September 10, 2015, a pre-IND meeting"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "biologic"
+    },
+    {
+      "id": "futibatinib",
+      "drug": "Futibatinib",
+      "brand": "Lytgobi · TAS-120",
+      "modality": "Small molecule",
+      "application": "NDA 214801",
+      "indNumbers": [
+        "121062"
+      ],
+      "approvalStatus": "Original application approved 2022-09-30",
+      "statusGroup": "approved",
+      "reviewYear": 2022,
+      "evidenceType": "summary",
+      "stage": "later",
+      "topicTags": [
+        "Partial clinical hold",
+        "Dose justification",
+        "CMC",
+        "Companion diagnostic"
+      ],
+      "summary": "The FDA assessment explains a partial hold on the Phase 2 component of a combined Phase 1/2 protocol, involving product quality and clinical concerns. Clinical safety, preliminary activity, and expansion-dose rationale supported lifting the hold; diagnostic bridging was also discussed.",
+      "limitation": "A partial hold did not stop every component of the program. Applicant-authored chronology and FDA assessment are labeled separately; the cited FDA assessment supplies the substantive explanation.",
+      "sources": [
+        {
+          "label": "Chronology and FDA assessment of partial hold",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000MultidisciplineR.pdf#page=35",
+          "pdfPages": [
+            35,
+            37
+          ],
+          "evidenceAnchor": "The FDA’s Assessment; insufficient information ... product quality ... 20 mg strength capsule"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "oteseconazole",
+      "drug": "Oteseconazole",
+      "brand": "Vivjoa · VT-1161",
+      "modality": "Small molecule",
+      "application": "NDA 215888",
+      "indNumbers": [
+        "111675"
+      ],
+      "approvalStatus": "Original application approved 2022-04-26",
+      "statusGroup": "approved",
+      "reviewYear": 2022,
+      "evidenceType": "summary",
+      "stage": "later",
+      "topicTags": [
+        "Clinical design",
+        "Endpoints",
+        "FDA feedback",
+        "Carcinogenicity"
+      ],
+      "summary": "The regulatory history connects the initial single-dose IND with end-of-Phase-1 feedback and a later Phase 2a protocol that FDA considered exploratory. A separate appended statistical review under the IND evaluates long-term carcinogenicity studies.",
+      "limitation": "The absence of an initial hold does not imply agreement with a later efficacy design. Carcinogenicity review belongs to later development; it is not presented as a universal first-dose prerequisite.",
+      "sources": [
+        {
+          "label": "Initial IND and Phase 2 feedback",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf#page=127",
+          "pdfPages": [
+            127
+          ],
+          "evidenceAnchor": "study was considered purely exploratory"
+        },
+        {
+          "label": "Later IND statistical review",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf#page=353",
+          "pdfPages": [
+            353,
+            355
+          ],
+          "evidenceAnchor": "Statistical Review and Evaluation; IND 111675"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "lenacapavir",
+      "drug": "Lenacapavir",
+      "brand": "Sunlenca · GS-6207",
+      "modality": "Small molecule",
+      "application": "NDA 215973",
+      "indNumbers": [
+        "136260",
+        "138311"
+      ],
+      "approvalStatus": "Original application approved 2022-12-22",
+      "statusGroup": "approved",
+      "reviewYear": 2023,
+      "evidenceType": "summary",
+      "stage": "later",
+      "topicTags": [
+        "Clinical hold",
+        "CMC",
+        "Container closure",
+        "Injection-site reactions"
+      ],
+      "summary": "The integrated package preserves an earlier assessment connecting glass particulate contamination and uncertain injection-site risk to a December 2021 full clinical hold and a nonapproval recommendation. Its history also describes pre-IND advice on alternative injectable formulations.",
+      "limitation": "The product was subsequently approved; the cited hold/nonapproval passage is an earlier review embedded in the package. It does not establish that particles caused every injection-site reaction. NDA 215974 covers the oral presentation.",
+      "sources": [
+        {
+          "label": "Hold and product-quality assessment",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=319",
+          "pdfPages": [
+            319
+          ],
+          "evidenceAnchor": "20 December, 2021 ... Full Clinical Hold ... glass particulate contamination"
+        },
+        {
+          "label": "Formulation and IND history",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=332",
+          "pdfPages": [
+            332
+          ],
+          "evidenceAnchor": "Pre-IND guidance ... alternative injectable formulations"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "minocycline",
+      "drug": "Minocycline hydrochloride foam",
+      "brand": "Amzeeq · FMX-101",
+      "modality": "Small molecule",
+      "application": "NDA 212379",
+      "indNumbers": [
+        "122770"
+      ],
+      "approvalStatus": "Original application approved 2019-10-18",
+      "statusGroup": "approved",
+      "reviewYear": 2019,
+      "evidenceType": "reproduced",
+      "stage": "later",
+      "topicTags": [
+        "Nonclinical evidence",
+        "Study duration",
+        "Formulation",
+        "FDA questions"
+      ],
+      "summary": "An appended IND review retains end-of-Phase-2 questions and answers. It distinguishes dermal toxicology supporting a 12-week trial from longer studies supporting an extension and eventual NDA, including the timing of ongoing animal exposure.",
+      "limitation": "Later IND development of a new topical route, not the original first-dose review. Agreement on study design remained conditional on review of final reports.",
+      "sources": [
+        {
+          "label": "IND review identity",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=140",
+          "pdfPages": [
+            140
+          ],
+          "evidenceAnchor": "PHARMACOLOGY/TOXICOLOGY IND REVIEW AND EVALUATION"
+        },
+        {
+          "label": "Duration and ongoing-study questions",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=147",
+          "pdfPages": [
+            147,
+            148
+          ],
+          "evidenceAnchor": "Question 3; completed 12-week dermal toxicity study; 39-week ... ongoing"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "paxlovid",
+      "drug": "Nirmatrelvir / ritonavir",
+      "brand": "Paxlovid · PF-07321332",
+      "modality": "Small molecule combination",
+      "application": "NDA 217188",
+      "indNumbers": [
+        "153517"
+      ],
+      "approvalStatus": "Original application approved 2023-05-25",
+      "statusGroup": "approved",
+      "reviewYear": 2023,
+      "evidenceType": "summary",
+      "stage": "initial",
+      "topicTags": [
+        "Clinical hold",
+        "Submission completeness",
+        "Clinical protocol",
+        "CMC"
+      ],
+      "summary": "The regulatory history records a January 2021 initial full hold because FDA lacked a protocol, sufficient CMC information, investigator information, and an investigator’s brochure. It dates the complete response and hold removal, then separates subsequent EUA/NDA planning.",
+      "limitation": "This is a retrospective account, not the complete hold letter or original IND. These administrative/scientific omissions should not be misrepresented as evidence that the molecule itself failed toxicology.",
+      "sources": [
+        {
+          "label": "Initial hold, response, and lifting",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217188Orig1s000IntegratedR.pdf#page=183",
+          "pdfPages": [
+            183
+          ],
+          "evidenceAnchor": "January 25, 2021 ... full clinical hold ... February 23, 2021"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "tabelecleucel",
+      "drug": "Tabelecleucel",
+      "brand": "EBV-specific T-cell immunotherapy",
+      "modality": "Biologic · cell therapy",
+      "application": "BLA 125745",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Unapproved (dataset updated 2026-08-13); cited letter 01/09/2026",
+      "statusGroup": "unapproved",
+      "reviewYear": 2026,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Clinical design",
+        "External control",
+        "Patient selection",
+        "Next study"
+      ],
+      "summary": "The January 2026 letter explains why heterogeneity, treatment confounding, and study design limited interpretation of the single-arm ALLELE study. FDA offers to review a detailed new protocol under the existing IND, including the choice of control.",
+      "limitation": "This is a BLA nonapproval letter and a proposed route back to IND-stage study planning. It is not an IND refusal or an original IND review. Snapshot status is application-specific, not a global statement about the therapy.",
+      "sources": [
+        {
+          "label": "Why another study may be needed",
+          "url": "https://download.open.fda.gov/crl/CRL_BLA125745_20260109.pdf#page=1",
+          "pdfPages": [
+            1,
+            3
+          ],
+          "evidenceAnchor": "a randomized controlled study may be necessary; detailed draft protocol under the existing ... IND"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "CRL_BLA125745_20260109.pdf",
+      "modalityGroup": "biologic"
+    },
+    {
+      "id": "clemidsogene",
+      "drug": "Clemidsogene lanparvovec",
+      "brand": "RGX-121",
+      "modality": "Biologic · gene therapy",
+      "application": "BLA 125840",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Unapproved (dataset updated 2026-08-13); cited letter 02/07/2026",
+      "statusGroup": "unapproved",
+      "reviewYear": 2026,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Patient selection",
+        "Surrogate endpoint",
+        "Natural history",
+        "Clinical design"
+      ],
+      "summary": "The 2026 letter explicitly traces concerns across pre-IND, IND, and BLA meetings: identifying neuronopathic MPS II, comparing the external-control population, and interpreting a novel CSF biomarker threshold. Agreement in principle on a protocol did not resolve those evidence questions.",
+      "limitation": "A marketing-application assessment, not the full earlier meeting record. Some meeting details are redacted. Unapproved is the FDA dataset’s snapshot classification for this application.",
+      "sources": [
+        {
+          "label": "Prior development advice and remaining uncertainty",
+          "url": "https://download.open.fda.gov/crl/CRL_BLA125840_20260207.pdf#page=1",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "evidenceAnchor": "expressed concerns ... at the Pre-IND, IND, and BLA meetings"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "CRL_BLA125840_20260207.pdf",
+      "modalityGroup": "biologic"
+    },
+    {
+      "id": "vusolimogene",
+      "drug": "Vusolimogene oderparepvec",
+      "brand": "RP1 · with nivolumab",
+      "modality": "Biologic · oncolytic virus",
+      "application": "BLA 125827",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Unapproved (dataset updated 2026-08-13); cited letter 04/10/2026",
+      "statusGroup": "unapproved",
+      "reviewYear": 2026,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Combination contribution",
+        "Clinical design",
+        "Patient selection",
+        "FDA meetings"
+      ],
+      "summary": "The 2026 letter quotes 2021 IND-meeting advice to isolate each component’s contribution in a combination and later advice on interpretability of response. It connects those earlier concerns to the BLA assessment of a heterogeneous single-arm population.",
+      "limitation": "This is a later FDA account quoting earlier advice; the entire IND meeting package is not reproduced. The requested combination’s nonapproval is not an IND hold.",
+      "sources": [
+        {
+          "label": "IND-meeting advice on contribution and design",
+          "url": "https://download.open.fda.gov/crl/CRL_BLA125827_20260410.pdf#page=3",
+          "pdfPages": [
+            3,
+            5
+          ],
+          "evidenceAnchor": "Type B meeting dated March 25, 2021; contribution of each component"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "CRL_BLA125827_20260410.pdf",
+      "modalityGroup": "biologic"
+    },
+    {
+      "id": "phenobarbital-hikma",
+      "drug": "Phenobarbital sodium injection",
+      "brand": "Hikma neonatal-seizure application",
+      "modality": "Small molecule",
+      "application": "NDA 218258",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Unapproved (dataset updated 2026-08-13); cited letter 01/23/2024",
+      "statusGroup": "unapproved",
+      "reviewYear": 2024,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Right of reference",
+        "Data access",
+        "Clinical evidence"
+      ],
+      "summary": "FDA says a publication alone did not provide analyzable efficacy and safety data for independent review. The letter explains that referencing another holder’s IND information requires a Letter of Authorization.",
+      "limitation": "A nonapproval of this specific application, not a statement that all phenobarbital products are unapproved. This is an NDA-stage evidence-access lesson rather than an earlier IND-review extract.",
+      "sources": [
+        {
+          "label": "Analyzable data and IND authorization",
+          "url": "https://download.open.fda.gov/crl/CRL_NDA218258_20240123.pdf#page=1",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "evidenceAnchor": "Letter of Authorization from the holder of that IND"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "CRL_NDA218258_20240123.pdf",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "arimoclomol",
+      "drug": "Arimoclomol",
+      "brand": "Miplyffa",
+      "modality": "Small molecule",
+      "application": "NDA 214927",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Approved (dataset updated 2026-08-13); cited letter 06/17/2021",
+      "statusGroup": "approved",
+      "reviewYear": 2021,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Endpoints",
+        "FDA advice",
+        "Clinical outcome assessment",
+        "Statistics"
+      ],
+      "summary": "The 2021 CRL recounts 2016–2019 IND-development advice about the definition, reliability, and validity of the NPC severity scale. It explains how unresolved measurement concerns affected the later assessment of treatment benefit.",
+      "limitation": "The application is listed Approved in the later dataset; this letter records an earlier nonapproval. It does not establish the current approved indication or provide the full eventual approval rationale.",
+      "sources": [
+        {
+          "label": "IND-phase endpoint advice",
+          "url": "https://download.open.fda.gov/crl/214927_2024_Orig1s000OtherActionLtrs.pdf#page=3",
+          "pdfPages": [
+            3,
+            4
+          ],
+          "evidenceAnchor": "5DNPCCSS Regulatory History; Despite our advice during the IND phase"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "214927_2024_Orig1s000OtherActionLtrs.pdf",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "fosphenytoin",
+      "drug": "Fosphenytoin sodium injection",
+      "brand": "Sesquient",
+      "modality": "Small molecule",
+      "application": "NDA 210864",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Approved (dataset updated 2026-08-13); cited letter 03/22/2019",
+      "statusGroup": "approved",
+      "reviewYear": 2019,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "CMC",
+        "Compendial standards",
+        "Pre-IND meeting"
+      ],
+      "summary": "An additional product-quality comment recalls advice beginning at a 2006 pre-IND meeting about pH and impurity limits under the USP monograph. It shows that a CMC issue can persist across multiple development interactions.",
+      "limitation": "The source explicitly calls this particular monograph comment a non-approvability issue; do not present it as the reason for the CRL. Other deficiencies are listed separately. Historical application snapshot: Approved.",
+      "sources": [
+        {
+          "label": "Pre-IND-to-NDA compendial discussion",
+          "url": "https://download.open.fda.gov/crl/210864_2021_Orig1s000OtherActionLtrs.pdf#page=13",
+          "pdfPages": [
+            13,
+            14
+          ],
+          "evidenceAnchor": "comment/recommendation that is not an approvability issue; Pre-IND meeting dated September 20, 2006"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "210864_2021_Orig1s000OtherActionLtrs.pdf",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "glucagon-gvoke",
+      "drug": "Glucagon injection",
+      "brand": "Gvoke · proposed IV diagnostic use",
+      "modality": "Peptide",
+      "application": "NDA 212097/S-012",
+      "indNumbers": [
+        "156281"
+      ],
+      "approvalStatus": "openFDA snapshot: Approved (dataset updated 2026-08-13); cited letter 02/09/2024",
+      "statusGroup": "approved",
+      "reviewYear": 2024,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Formulation",
+        "Clinical bridging",
+        "Compatibility",
+        "CMC"
+      ],
+      "summary": "FDA distinguishes compatibility data generated for an IND formulation, XP-9164, from the Gvoke vial formulation proposed in the supplement. It requests evidence on the actual product and administration conditions, including comparative physical behavior.",
+      "limitation": "The CRL addresses a supplement for IV diagnostic use. The original product’s approval and the FDA dataset’s Approved label do not mean that this proposed use was approved by this letter.",
+      "sources": [
+        {
+          "label": "Formulation-specific compatibility and stability",
+          "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=3",
+          "pdfPages": [
+            3
+          ],
+          "evidenceAnchor": "Compatibility studies under IND 156281 used XP-9164, not the proposed Gvoke vial formulation"
+        },
+        {
+          "label": "Scientific bridge for the proposed use",
+          "url": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=1",
+          "pdfPages": [
+            1,
+            2
+          ],
+          "evidenceAnchor": "Clinical pharmacology and scientific-bridge questions"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "212097-s012_OtherActionLtrs.pdf",
+      "modalityGroup": "peptide"
+    },
+    {
+      "id": "soluprep",
+      "drug": "Chlorhexidine gluconate / isopropyl alcohol",
+      "brand": "SoluPrep",
+      "modality": "Small molecule combination",
+      "application": "NDA 208288",
+      "indNumbers": [
+        "076549"
+      ],
+      "approvalStatus": "openFDA snapshot: Approved (dataset updated 2026-08-13); cited letter 05/06/2016",
+      "statusGroup": "approved",
+      "reviewYear": 2016,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Endpoints",
+        "Controls",
+        "Replicate evidence",
+        "FDA advice"
+      ],
+      "summary": "The 2016 letter refers to an IND advice request rejecting an alternative efficacy analysis if the positive control failed. It asks for a repeat inguinal-region study with adequate controls after one pivotal study failed its prespecified endpoint.",
+      "limitation": "A later CRL referencing earlier IND advice; it is not the original advice letter. The product appears in the Approved snapshot after subsequent development.",
+      "sources": [
+        {
+          "label": "Prespecified analysis and prior IND advice",
+          "url": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf#page=7",
+          "pdfPages": [
+            7
+          ],
+          "evidenceAnchor": "IND 076549, Advice/Information Request, April 17, 2015"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "208288_2018_Orig1s000OtherActionLtrs.pdf",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "budesonide-eohilia",
+      "drug": "Budesonide oral suspension",
+      "brand": "Eohilia · BOS",
+      "modality": "Small molecule",
+      "application": "NDA 213976",
+      "indNumbers": [
+        "103173"
+      ],
+      "approvalStatus": "openFDA snapshot: Approved (dataset updated 2026-08-13); cited letter 12/17/2021",
+      "statusGroup": "approved",
+      "reviewYear": 2021,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Clinical benefit",
+        "Duration of effect",
+        "Endpoints",
+        "FDA meetings"
+      ],
+      "summary": "The 2021 letter lists repeated IND meetings emphasizing durable efficacy in eosinophilic esophagitis. It explains why short-term histologic and symptom findings did not answer the long-term question then under review.",
+      "limitation": "The application later appears Approved. Read this as a historical assessment of the requested evidence and regimen; it does not summarize the later approved label.",
+      "sources": [
+        {
+          "label": "Durability questions raised during IND development",
+          "url": "https://download.open.fda.gov/crl/213976_2024_Orig1s000OtherActionLtrs.pdf#page=3",
+          "pdfPages": [
+            3
+          ],
+          "evidenceAnchor": "communications under IND 103173; benefit of long-term treatment"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "213976_2024_Orig1s000OtherActionLtrs.pdf",
+      "modalityGroup": "small"
+    },
+    {
+      "id": "stemcyte-cord-blood",
+      "drug": "Hematopoietic progenitor cells, cord blood",
+      "brand": "StemCyte",
+      "modality": "Biologic · cell therapy",
+      "application": "BLA 125764",
+      "indNumbers": [],
+      "approvalStatus": "openFDA snapshot: Approved (dataset updated 2026-08-13); cited letter 01/20/2023",
+      "statusGroup": "approved",
+      "reviewYear": 2023,
+      "evidenceType": "crl",
+      "stage": "marketing",
+      "topicTags": [
+        "Donor eligibility",
+        "CMC",
+        "Investigational use",
+        "Product release"
+      ],
+      "summary": "The letter distinguishes cord-blood units meeting licensure criteria from units from ineligible donors that may be used under an IND for urgent medical need. FDA requests revised procedures and forms preserving that distinction.",
+      "limitation": "A BLA-stage quality/licensure issue with a specific investigational-use pathway, not an initial efficacy-trial review. The pathway should not be generalized to all biological products.",
+      "sources": [
+        {
+          "label": "Licensure versus urgent investigational use",
+          "url": "https://download.open.fda.gov/crl/CRL_BLA125764_20230120.pdf#page=4",
+          "pdfPages": [
+            4
+          ],
+          "evidenceAnchor": "such units may be made available ... under an investigational new drug application"
+        }
+      ],
+      "verificationDate": "2026-09-16",
+      "crlFile": "CRL_BLA125764_20230120.pdf",
+      "modalityGroup": "biologic"
+    }
+  ]
+}

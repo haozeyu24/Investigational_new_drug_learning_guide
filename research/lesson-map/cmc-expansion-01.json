@@ -1,0 +1,189 @@
+[
+  {
+    "id": "cmc-exp01-teplizumab-transfer-plan",
+    "recordId": "teplizumab",
+    "drug": "Teplizumab",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-material"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf#page=312",
+    "pdfPages": [
+      312,
+      313,
+      309,
+      310
+    ],
+    "sourceStage": "later IND: December 13, 2018 end-of-Phase-2 meeting under IND 100262",
+    "evidenceSummary": "The actual meeting minutes reject a draft outline of a comparability plan for new supply after acquisition of teplizumab. FDA requests a more detailed protocol for transfer to the new manufacturing facility, reserving final acceptability of processes, controls and compatibility for license-application review. FDA recommends a focused CMC meeting after preliminary process data exist and the comparability plan is finalized.",
+    "decisionOrQuestion": "What evidence makes a manufacturing-transfer comparability discussion concrete enough for useful FDA feedback?",
+    "teachingUse": "Primary new process-control case. Show proposal → insufficient outline → detailed comparability protocol and preliminary process data → focused meeting → later final assessment. Pair with a batch genealogy and state which material supports clinical conclusions.",
+    "limitation": "This is late IND development aimed at Phase 3 and BLA issues, not the initial IND. Several sponsor details are redacted. The minutes do not disclose a full manufacturing flow or approve the transfer. PDF 312 is image-only and would be missed by text-only screening.",
+    "verificationMethod": "Visually read original cached PDF pages 310,312,313; read page 309 cover text to confirm date, IND and meeting scope. Source discovered by IND/material proximity in the live cache, without modifying the queue.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-teplizumab-pk-bridge",
+    "recordId": "teplizumab",
+    "drug": "Teplizumab",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [
+      "cmc-controls",
+      "clinical-dose"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf#page=136",
+    "pdfPages": [
+      136
+    ],
+    "sourceStage": "marketing-stage review recounting 2021 BLA CRL and 2022 resubmission",
+    "evidenceSummary": "The regulatory history connects the move from earlier manufacturers to AGC Biologics with a July 2021 complete response for lack of PK comparability between TN-10 clinical material and planned commercial material. The resubmission added PK/PD data from a PROTECT substudy, and the history states that the 2022 approval used higher doses of AGC material to match exposures from the earlier Lilly product.",
+    "decisionOrQuestion": "If material produced after a manufacturing change yields different exposure, what does the earlier efficacy evidence actually support?",
+    "teachingUse": "Longitudinal follow-up to the 2018 comparability-plan meeting. Trace manufacturing source → PK mismatch → additional PK/PD evidence → change in the exposure-matching strategy. Cross-link CMC material definition with clinical dose planning.",
+    "limitation": "This is a retrospective history in a later supplemental review, not the original CRL itself or an initial-IND requirement. The passage supports the stated historical decision; it does not establish that all manufacturing changes require a dose adjustment.",
+    "verificationMethod": "Read full cited pages from the cached FDA PDF text; checked reviewer-versus-sponsor attribution and source-stage context.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-teplizumab-bridge-context",
+    "recordId": "teplizumab",
+    "drug": "Teplizumab",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [
+      "clinical-dose"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf#page=139",
+    "pdfPages": [
+      139,
+      140
+    ],
+    "sourceStage": "marketing-stage supplemental review of clinical data containing two manufactured products",
+    "evidenceSummary": "The review compares Lilly and AGC material in PROTECT and reports lower exposure with AGC. Unlike the earlier Stage 2 application history, the proposed commercial material itself was used in this Stage 3 disease trial. The reviewer considered product-specific exposure and efficacy analyses and concluded the studied dose was appropriate for the proposed commercial product in that population.",
+    "decisionOrQuestion": "Why can a lower-exposure product require bridging in one evidence package yet have direct clinical support in another?",
+    "teachingUse": "Advanced applicability exercise: compare an application relying on an earlier product with one that actually studied the proposed product. Ask learners to identify which population, material and regimen each conclusion covers.",
+    "limitation": "The product groups and exploratory/subgroup comparisons must not be described as a dedicated randomized head-to-head equivalence trial. This later review does not erase the earlier PK difference or prove interchangeability.",
+    "verificationMethod": "Read full cited pages from the cached FDA PDF text; checked reviewer-versus-sponsor attribution and source-stage context.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-dupilumab-process-sensitivity",
+    "recordId": "dupilumab",
+    "drug": "Dupilumab",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [
+      "cmc-material",
+      "cmc-stability"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761055Orig1s007.pdf#page=61",
+    "pdfPages": [
+      61,
+      60
+    ],
+    "sourceStage": "marketing-stage asthma supplement review recounting an in-trial manufacturing change",
+    "evidenceSummary": "The review says a contaminant was discovered through stability issues and a manufacturing change during EFC13579 removed a redacted constituent to improve stability. FDA recommended an efficacy sensitivity analysis by material exposure; the review reports no noticeable difference in efficacy estimates for the 374-patient subset compared with the intention-to-treat analysis. The adjacent quality section separately accepts the new presentation control strategy.",
+    "decisionOrQuestion": "How can a manufacturing change during a trial create an interpretability question for the clinical evidence?",
+    "teachingUse": "Connect the material version log to patient-level exposure and a clinical sensitivity analysis. Teach that resolving product quality and checking applicability of trial results are related but distinct tasks.",
+    "limitation": "The contaminant and detailed process change are redacted. Do not infer their identities. This is a supplemental marketing review, not an original IND decision. The sensitivity analysis is not proof of analytical equivalence, and no noticeable efficacy difference is not a universal safety guarantee.",
+    "verificationMethod": "Read full PDF 60 text and visually inspected original PDF 61 because its mixed OCR and redactions made extracted wording unreliable; preserved hidden identities.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-omnitrope-liquid-bridge",
+    "recordId": "somatropin-omnitrope",
+    "drug": "Somatropin (Omnitrope)",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2008/021426Orig1s002.pdf#page=52",
+    "pdfPages": [
+      52,
+      54,
+      55,
+      51
+    ],
+    "sourceStage": "marketing-stage supplement adding a liquid formulation; review header identifies relevant IND 58980",
+    "evidenceSummary": "The clinical pharmacology review accepts a ready-to-use cartridge formulation after a three-way crossover comparison with approved Omnitrope powder and Genotropin powder. The active drug substance remained the same, but the formulation changed. The review evaluates PK and PD, and reports that the relevant PK confidence intervals met its bioequivalence criteria.",
+    "decisionOrQuestion": "Does unchanged drug substance alone justify replacing a reconstituted powder with a ready-to-use liquid presentation?",
+    "teachingUse": "Positive material-bridge example contrasting unchanged active ingredient with changed dosage form. Show how product convenience changes still need a scientifically interpretable comparison.",
+    "limitation": "The cited review is a marketing supplement, not a reproduced IND review; IND 58980 appears only as related-application provenance here. The document contains an apparent historical approval-year inconsistency, so this mapping does not repeat that date. Do not treat the study design or criteria as universal for biologics.",
+    "verificationMethod": "Read full PDF pages 51–54; visually verified PDF55 pharmacokinetic table and bioequivalence conclusion in the cached source.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-fiasp-excipient-reuse",
+    "recordId": "insulin-aspart-fiasp",
+    "drug": "Insulin aspart (Fiasp)",
+    "lessonId": "cmc-material",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf#page=80",
+    "pdfPages": [
+      80
+    ],
+    "sourceStage": "later IND-development advice in December 2013, summarized in a later NDA supplement review",
+    "evidenceSummary": "The regulatory-history section records FDA written responses to the pediatric study plan, including agreement that no additional animal study was needed for the L-arginine and nicotinamide excipients and no juvenile animal study was needed. The same advice differentiates pediatric pump-use age groups and requests the finalized clinical protocol.",
+    "decisionOrQuestion": "Which formulation questions are already adequately supported when a program moves into a new population?",
+    "teachingUse": "Counterexample to automatic study accumulation. Ask the learner to preserve the specific accepted scope and separate excipient safety from the remaining pediatric use and delivery questions.",
+    "limitation": "The public summary states the agreement but does not provide its complete evidentiary rationale. It cannot establish general excipient safety or a waiver for another formulation/population. This is later development, not initial IND material characterization.",
+    "verificationMethod": "Read full cited pages from the cached FDA PDF text; checked reviewer-versus-sponsor attribution and source-stage context.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-fiasp-inuse-report",
+    "recordId": "insulin-aspart-fiasp",
+    "drug": "Insulin aspart (Fiasp)",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [
+      "cmc-material",
+      "cmc-controls"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf#page=300",
+    "pdfPages": [
+      300,
+      252
+    ],
+    "sourceStage": "marketing-stage intercenter review of pump-use supplements, with earlier device deficiencies recounted",
+    "evidenceSummary": "The device reviewer found that an authorized master-file reference contained only a high-level summary and lacked the cited in-use stability report, preventing adequate review of Fiasp in the pump reservoir. The review also distinguishes reservoir-change claims, infusion-set change duration and pediatric delivery evidence. Earlier comments required insulin-specific pump compatibility and coordinated device labeling.",
+    "decisionOrQuestion": "Can a reference authorization and a study summary substitute for the actual stability evidence needed to assess a defined administration system?",
+    "teachingUse": "Concrete evidence-completeness exercise: list the actual product, pump, conditions, endpoint, report and supported duration. Distinguish reservoir stability from clinical infusion-set performance and identify which missing item prevents assessment.",
+    "limitation": "This is an NDA/supplement/device review, not an initial-IND deficiency. Some device and duration details are redacted. The comments are an intermediate assessment; this entry does not imply the deficiency remained unresolved.",
+    "verificationMethod": "Visually inspected original PDF300 and read PDF252; the original has a font encoding problem in portions of extracted text, so no corrupted text was used.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-fiasp-lowflow-evidence",
+    "recordId": "insulin-aspart-fiasp",
+    "drug": "Insulin aspart (Fiasp)",
+    "lessonId": "cmc-stability",
+    "secondaryLessonIds": [
+      "cmc-material"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf#page=335",
+    "pdfPages": [
+      335,
+      336
+    ],
+    "sourceStage": "marketing-stage pediatric pump-use supplement review",
+    "evidenceSummary": "The sponsor supplied pump in-use compatibility/stability information at low flow rates relevant to children, comparing degradation products at the needle end and reservoir, together with analyses of adult clinical participants using lower infusion rates. The reviewer considered the response helpful for pediatric extrapolation and asked that labeling identify the adult origin of the pump-use clinical data.",
+    "decisionOrQuestion": "What evidence tests whether administration conditions for a new population are actually covered?",
+    "teachingUse": "Worked storage-to-dose handoff: population → low delivery rate → time/contact conditions → delivered material and occlusion information → bounded extrapolation. Preserve sponsor findings separately from FDA interpretation.",
+    "limitation": "The detailed in-vitro result is presented as sponsor information in the consult. The reviewer did not claim a new pediatric pump trial had been conducted; the point is explicit extrapolation. This is later marketing review, not an initial-IND stability dataset.",
+    "verificationMethod": "Read complete original PDF text pages335–336, separating the sponsor’s response above the Reviewer Comment heading from FDA’s conclusion and labeling limitations.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "cmc-exp01-wixela-denominator",
+    "recordId": "wixela-inhub",
+    "drug": "Fluticasone propionate / salmeterol (Wixela Inhub)",
+    "lessonId": "cmc-controls",
+    "secondaryLessonIds": [],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/208891Orig1s000.pdf#page=854",
+    "pdfPages": [
+      854
+    ],
+    "sourceStage": "marketing-stage ANDA bioequivalence review; neighboring text discusses Bio-IND 118769",
+    "evidenceSummary": "A reported emitted-dose percentage differed between the product summary and the certificate of analysis. The sponsor explained that one percentage used the development target of 92 mcg while the other used the proposed commercial target of 93 mcg; the reviewer accepted the explanation. The same page separately describes clinical authorization under a Bio-IND for the higher-strength PK study.",
+    "decisionOrQuestion": "Are two apparently inconsistent batch values being reported against the same specification basis?",
+    "teachingUse": "Small but concrete numerical evidence-reading exercise: inspect the denominator, specification version and batch before declaring a discrepancy in the manufactured material.",
+    "limitation": "The accepted denominator explanation is an ANDA review decision. The adjacent Bio-IND safety discussion does not convert it into an initial-IND CMC decision. It does not establish that every numerical discrepancy is harmless.",
+    "verificationMethod": "Read full cited pages from the cached FDA PDF text; checked reviewer-versus-sponsor attribution and source-stage context.",
+    "confidence": "verified passage"
+  }
+]

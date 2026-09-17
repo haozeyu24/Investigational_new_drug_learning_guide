@@ -1,0 +1,306 @@
+[
+  {
+    "id": "cinacalcet",
+    "drug": "Cinacalcet hydrochloride",
+    "title": "A measurable physiological response is useful before patient benefit is established",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=7",
+    "pdfPages": [
+      7,
+      8,
+      9,
+      16
+    ],
+    "sourceStage": "Actual 1998 original US IND review reproduced in 2004 NDA; prior human Phase 1 already existed; proposed patient Phase 2",
+    "indRelevance": "Core original-IND evidence",
+    "whatSourceSays": [
+      "The original review identifies AMG073 as a calcimimetic and links increased parathyroid-cell sensitivity to extracellular calcium with suppression of parathyroid hormone (PTH). Improvement in renal osteodystrophy/bone pathology is an expectation, not a demonstrated outcome in this passage.",
+      "In normal and hyperparathyroid rats, single oral doses of 0.4–36 mg/kg decreased serum PTH and calcium and increased calcitonin in a dose-dependent fashion (PDF 9).",
+      "Previous healthy-volunteer single and repeated doses decreased PTH; five subjects receiving repeated 100 mg doses withdrew because of mild hypocalcemia or related symptoms. The proposed secondary-hyperparathyroidism trial measures PTH, calcium, calcitonin and PK (PDF 8–9)."
+    ],
+    "interpretationForLesson": "Separate target action, physiological response, and hoped-for clinical benefit. PTH links the candidate to disease physiology, while calcium also tells the sponsor when the same action becomes undesirable. The next experiment need not rediscover the receptor: it can test whether useful suppression can be maintained in the patient setting.",
+    "unknowns": [
+      "The retained rat summary lacks model-induction details, group sizes and full time courses.",
+      "PTH lowering alone in these pages does not establish fracture prevention, improved bone disease, or overall patient benefit.",
+      "Original US IND is not first-ever human use."
+    ],
+    "relationToPeople": "The proposed trial moves from prior healthy volunteers to patients with secondary hyperparathyroidism, where the physiological state and treatment objective differ.",
+    "patientSelectionAndMarkers": "PTH is a disease-related and pharmacodynamic measurement; this passage does not establish a validated predictive responder cutoff. Do not call this a biomarker-free program or infer the full eligibility criteria from the summary.",
+    "mechanismKnownAndUnknown": "Calcium-receptor action and hormone effects are described; the translation from those effects to long-term benefit remains to be tested.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "yasmin",
+    "drug": "Drospirenone / ethinyl estradiol",
+    "title": "Receptor binding becomes useful when it predicts the intended physiological function",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2001/21-098_Yasmin_pharmr_P1.pdf#page=38",
+    "pdfPages": [
+      38,
+      39,
+      40
+    ],
+    "sourceStage": "Pharmacology review of original IND submission dated 1996, attached to 2001 NDA; appendix attribution PDF 38–39",
+    "indRelevance": "Core original-IND appendix",
+    "whatSourceSays": [
+      "The attachment describes in vitro and in vivo profiling of drospirenone across progestational, androgenic, mineralocorticoid, glucocorticoid and estrogenic effects.",
+      "Progestational evidence includes high progesterone-receptor affinity, inhibition of ovulation in mice and rats, and endometrial transformation in rabbits. Ethinyl estradiol did not affect progesterone-receptor affinity but enhanced progestational activity in rats.",
+      "Antiandrogenic and antimineralocorticoid effects appear alongside the intended progestational action; the profile therefore cannot be reduced to one receptor-binding value."
+    ],
+    "interpretationForLesson": "Potential benefit can be an intended physiological intervention such as contraception rather than repair of a disease pathway. Use several functionally distinct experiments to connect binding with the intended action. Combination behavior can change downstream function without changing a binding assay.",
+    "unknowns": [
+      "This short summary is not a human contraceptive-efficacy experiment.",
+      "The page does not provide the complete study designs or uncertainty estimates needed for quantitative human translation.",
+      "The original submission date is not the same as its later review date."
+    ],
+    "relationToPeople": "Ovulation inhibition supports the rationale for contraception but does not itself establish effectiveness of the human combination regimen.",
+    "patientSelectionAndMarkers": "The pharmacology passage does not describe clinical selection tests. Its silence cannot support a claim that the program used no biomarkers. The case illustrates intended physiological function rather than a discovered responder subgroup.",
+    "mechanismKnownAndUnknown": "The receptor/functional profile is characterized; the contribution of each action to clinical benefits and harms is not resolved by this page.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "vestronidase",
+    "drug": "Vestronidase alfa-vjbk",
+    "title": "Replacing an enzyme still requires evidence that the product reaches and works inside the relevant cells",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761047Orig1s000PharmR.pdf#page=13",
+    "pdfPages": [
+      13,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "sourceStage": "2014 preliminary IND review excerpt reproduced in 2017 BLA; studies must not all be assumed to predate first human exposure",
+    "indRelevance": "Core IND-derived pharmacology, with product-versus-literature distinction",
+    "whatSourceSays": [
+      "Human MPS VII fibroblasts were used to assess mannose-6-phosphate-receptor-mediated uptake of recombinant human beta-glucuronidase; the summarized uptake study report was not submitted (PDF 17).",
+      "A separate UX003 study compares pilot and manufacturing-scale lots by decay of intracellular enzymatic activity after medium removal. The reported activity half-life was 23–40 days for one lot and 35 days for the other under the tested conditions (PDF 17–18).",
+      "The mouse section summarizes published recombinant murine enzyme studies, including repeated treatment from birth versus one later injection. Tissue correction was uneven; some CNS effects occurred after early repeated treatment but not the later single dose; chondrocytes did not improve (PDF 18–19)."
+    ],
+    "interpretationForLesson": "A known causal enzyme deficiency does not collapse the translational problem. The candidate must enter relevant cells, remain functional, and reach tissue compartments whose damage may depend on treatment timing. Distinguish evidence about UX003 itself from class-supporting experiments using recombinant murine enzyme.",
+    "unknowns": [
+      "One uptake study report was not submitted.",
+      "Intracellular activity persistence is not plasma half-life or proof of a human dosing interval.",
+      "Mouse studies with murine enzyme and neonatal dosing do not establish human CNS efficacy or reversal of established pathology."
+    ],
+    "relationToPeople": "Human disease-derived cells address cellular access; mouse tissue experiments show why timing and anatomical reach can constrain benefit despite a straightforward replacement mechanism.",
+    "patientSelectionAndMarkers": "Enzyme deficiency defines the disease biology. These pages do not validate an additional predictive subgroup assay or prove that a biochemical change captures all clinically relevant benefit.",
+    "mechanismKnownAndUnknown": "The replacement action is clear; tissue reach, timing, reversibility and the degree of human clinical benefit remain distinct questions.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "glycopyrrolate",
+    "drug": "Glycopyrrolate inhalation solution",
+    "title": "An established action can shift the next question from target validation to sustained local function",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31",
+    "pdfPages": [
+      31,
+      33,
+      38,
+      39
+    ],
+    "sourceStage": "Actual 2011 initial US IND review reproduced in 2017 NDA; prior approved uses and UK COPD studies already existed",
+    "indRelevance": "Core original-IND evidence with later-label supplement",
+    "whatSourceSays": [
+      "The initial review describes a muscarinic antagonist with bronchodilatory activity and proposes a 14-day crossover dose-finding study in COPD using a nebulized presentation.",
+      "Two earlier UK single-dose COPD studies are explicitly reported. One included 12 subjects and the other 42; the latter found bronchodilation over 25–400 micrograms, without additional benefit above 200 micrograms (PDF 39).",
+      "The IND review focuses on the new inhalation presentation and repeated exposure while relying on existing systemic knowledge. It does not restart the basic muscarinic-target discovery program.",
+      "Separately, NDA labeling discussion describes competitive reversible muscarinic antagonism, airway M3 action and preclinical bronchoconstriction challenge effects lasting over 24 hours, while explicitly stating that clinical relevance of those preclinical findings is unknown (PDF 15)."
+    ],
+    "interpretationForLesson": "Evidence maturity changes the scientific task. Here prior human functional evidence is stronger than another abstract receptor rationale; the question is how the new delivery system and repeated regimen produce useful bronchodilation. Keep the later preclinical-duration label statement separate from the initial IND conclusions.",
+    "unknowns": [
+      "The IND clinical-plan page has visibly inconsistent dose units; do not reuse its numerical regimen without checking the protocol.",
+      "Prior single-dose bronchodilation does not by itself establish chronic symptom or exacerbation benefit.",
+      "The detailed later-label pharmacology is not specifically attributed to the initial IND."
+    ],
+    "relationToPeople": "The cited human studies directly involved COPD patients; initial US IND therefore does not mean the first observation of the intended action in people.",
+    "patientSelectionAndMarkers": "The IND summary identifies COPD and age-based population features but does not reproduce all eligibility criteria. It does not establish absence of biomarker testing or a universal rule against enrichment.",
+    "mechanismKnownAndUnknown": "Muscarinic antagonism and bronchodilation were established; usefulness of the proposed repeated inhalation regimen was still a development question.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": [
+      {
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=15",
+        "pdfPages": [
+          15
+        ],
+        "stage": "NDA labeling assessment; not backdated to initial IND"
+      }
+    ]
+  },
+  {
+    "id": "faricimab",
+    "drug": "Faricimab",
+    "title": "A second target should earn its place through functional comparison",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=18",
+    "pdfPages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "sourceStage": "Binding and monkey CNV studies explicitly attributed to initial IND 119225; reproduced/summarized in 2022 BLA; corrected study data also identified",
+    "indRelevance": "Core initial-IND study evidence",
+    "whatSourceSays": [
+      "Faricimab binds VEGF-A and ANG-2 independently and simultaneously. Initial-IND binding study 1056781 tested cross-species affinity; full-length ANG-1 did not bind, and monkey VEGF121 binding was not formally tested because of sequence identity with human VEGF121 (PDF 18–19).",
+      "Initial-IND study 1056925, with corrected data identified as 1103767, compares faricimab, ranibizumab, anti-ANG-2 antibody and an IgG control in laser-induced choroidal neovascularization in cynomolgus monkeys.",
+      "Three monkeys/group received intravitreal treatment 14 days after laser; lesion leakage severity was assessed on Day 30. At equimolar anti-VEGF-A binding sites, 90 micrograms faricimab reduced lesion severity more than 30 micrograms ranibizumab (p<0.05; PDF 20–21)."
+    ],
+    "interpretationForLesson": "The decision is not simply whether both targets bind. It is whether adding the second action changes disease-relevant function beyond the comparator. Equimolar binding-site comparison strengthens that inference, while the small induced-lesion model leaves important clinical uncertainties.",
+    "unknowns": [
+      "Three animals/group and a laser-induced lesion are not human chronic retinal disease.",
+      "The comparison is not clinical superiority evidence or a formal demonstration of pharmacological synergy.",
+      "Corrected data are identified; the full correction history is not supplied in these pages.",
+      "The review has inconsistent dates elsewhere; do not reconstruct a precise original-review chronology from those dates."
+    ],
+    "relationToPeople": "The model captures neovascular leakage, providing a plausible functional link to retinal disease, but does not establish visual benefit or an individual-patient response prediction.",
+    "patientSelectionAndMarkers": "These studies do not define or validate a patient ANG-2 cutoff. Dual-target pharmacology does not itself imply that clinical enrollment must be restricted by target-expression testing.",
+    "mechanismKnownAndUnknown": "Dual binding and functional activity are demonstrated in the cited experiments; relative contributions, clinical durability and who benefits cannot be settled by binding data alone.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "minocycline",
+    "drug": "Minocycline hydrochloride foam",
+    "title": "A known antibacterial action can coexist with an unresolved mechanism of clinical benefit",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=140",
+    "pdfPages": [
+      140,
+      147,
+      149,
+      150,
+      34,
+      57,
+      133,
+      135,
+      136
+    ],
+    "sourceStage": "Actual 2017 later IND 122770 review SD 36 reproduced in 2019 NDA; initial 2015 history and separate 2019 microbiology/clinical reviews",
+    "indRelevance": "Core later-IND counterexample plus clearly separated NDA evidence",
+    "whatSourceSays": [
+      "The 2017 IND review states that no pharmacology studies were conducted with minocycline HCl foam; it cites the listed oral product's unknown acne mechanism and pharmacodynamics. A sponsor summary describes antibacterial and anti-inflammatory activity (PDF 149–150).",
+      "The same retained IND review dates the initial IND to February 2015, proposing topical-versus-oral bioavailability characterization; this is historical context, not a reproduction of the complete initial review (PDF 147).",
+      "At NDA review, candidate-formulation testing against C. acnes showed similar antimicrobial activity to minocycline powder and no antimicrobial contribution from vehicle under the tested conditions (PDF 133).",
+      "The clinical review documents key eligibility by age, lesion counts and investigator severity. Pivotal trials measured lesion change and investigator global assessment; the microbiology reviewer states there were no clinical culture/sensitivity assessments or microbiology endpoints, and recommends labeling the acne mechanism unknown (PDF 57, 135–136)."
+    ],
+    "interpretationForLesson": "Do not substitute a familiar biochemical story for an established clinical causal explanation. The formulation's antibacterial action is testable, but proving it explains acne improvement is a separate question. Clinical disease definitions and outcomes can provide a development path while the mechanistic account remains incomplete.",
+    "unknowns": [
+      "Later IND SD 36 is not the initial 2015 review.",
+      "The statement that no foam pharmacology studies were conducted reflects that retained review, not a claim that none were ever performed; 2018 formulation microbiology appears in the NDA.",
+      "No clinical microbiology assessments is narrower than no biomarkers of any kind.",
+      "The key eligibility list is not the full protocol."
+    ],
+    "relationToPeople": "The source gives actual clinically defined enrollment and lesion-based outcomes, rather than requiring a molecular responder subgroup to make clinical testing intelligible.",
+    "patientSelectionAndMarkers": "This is positive evidence for clinically defined key eligibility and absence of clinical microbiology endpoints in these pivotal trials. It does not justify a global no-biomarker claim or remove program-specific safety/selection needs.",
+    "mechanismKnownAndUnknown": "Antibacterial mechanism is known; acne-benefit mechanism is explicitly unknown or not fully elucidated. Unknown is scoped to the therapeutic effect, not ignorance of all drug action.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "orfadin",
+    "drug": "Nitisinone",
+    "title": "A useful action can block a pathway upstream of the defective enzyme",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=9",
+    "pdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceStage": "2000 NDA review in 2002 approval package; pathway figure explicitly reproduced from January 1995 IND; other mechanistic studies summarized at NDA stage",
+    "indRelevance": "Mixed: IND-derived pathway plus NDA-stage mechanistic interpretation",
+    "whatSourceSays": [
+      "The review describes development as a potential herbicide before therapeutic use. Nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase upstream of the fumarylacetoacetase deficiency responsible for hereditary tyrosinemia type 1 (PDF 9–10).",
+      "PDF 13 explicitly credits the tyrosine-degradation/porphyrin-synthesis diagram to theJanuary 1995 IND review. It places the drug's action upstream of the disease defect and accumulation of harmful metabolites.",
+      "NDA-stage rat studies describe enzyme inhibition, increased plasma/ocular tyrosine and ocular injury despite no selective radiolabel retention in cornea (PDF 14–15). The review associates treatment with reduced urinary succinylacetone and a low-protein diet (PDF 10)."
+    ],
+    "interpretationForLesson": "Drug action need not repair the causal defect. An upstream block can reduce harmful downstream products while generating a different metabolic liability. The causal diagram should account for both intended benefit and the new physiological state it creates.",
+    "unknowns": [
+      "The retained complete initial IND review has not been inspected; only the pathway figure is explicitly attributable to that IND in these pages.",
+      "Rat tissue studies and the NDA clinical-history summary are not initial IND efficacy data.",
+      "Do not reuse the old proposed dose/diet instructions as current care guidance."
+    ],
+    "relationToPeople": "The disease-specific metabolic defect makes the intervention coherent, while biochemical monitoring and diet address consequences of diverting the pathway.",
+    "patientSelectionAndMarkers": "Succinylacetone and tyrosine have disease/response/safety roles in this record; this is not evidence for a newly validated predictive responder test or for absence of biomarkers.",
+    "mechanismKnownAndUnknown": "The upstream enzymatic action is described; quantitative patient benefit and tissue-specific toxicity cannot be read directly from the pathway diagram.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "baricitinib",
+    "drug": "Baricitinib",
+    "title": "Selectivity is a claim about an experimental context",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=62",
+    "pdfPages": [
+      62,
+      65,
+      66,
+      67,
+      68,
+      84,
+      85,
+      86,
+      87
+    ],
+    "sourceStage": "NDA-era pharmacology assessment in 2018 public package; program has retained IND history but these action studies are not established as the original IND set",
+    "indRelevance": "Supporting later-development example, not initial-IND proof",
+    "whatSourceSays": [
+      "The reviewer reports JAK1/JAK2 selectivity relative to JAK3/TYK2 in isolated-enzyme assays, but explicitly says that selectivity was not reproduced in human-leukocyte cell-based assays (PDF 65).",
+      "The work includes cytokine-stimulated cellular responses and rodent arthritis models rather than relying solely on kinase binding or activity. Rat blood STAT3-phosphorylation inhibition was time-dependent; clinical and histological inflammation scores improved (PDF 84–86).",
+      "The reviewer notes that plasma concentrations were not measured in the rat oral efficacy experiment: the sponsor's AUC estimates came from a separate experiment (PDF 86)."
+    ],
+    "interpretationForLesson": "An isolated-enzyme selectivity label can be too simple for intact-cell pharmacology. Let the level of claim follow the level of experiment. Combine response assays with disease-model function, and identify whether exposure and response were measured in the same subjects before asserting a quantitative bridge.",
+    "unknowns": [
+      "These primary-pharmacology pages are NDA-stage assessments, not a verified original IND appendix.",
+      "A cell assay does not directly resolve clinical isoform selectivity in every tissue.",
+      "Rodent improvement does not identify a human predictive subgroup.",
+      "Predicted exposure from separate animals weakens a direct exposure-response interpretation."
+    ],
+    "relationToPeople": "Human-leukocyte assays test a more integrated biological setting than purified enzymes; rodent disease outcomes add functional context, but both still require human clinical evaluation.",
+    "patientSelectionAndMarkers": "STAT phosphorylation here is a pharmacodynamic assay; these pages do not validate a pretreatment responder-selection threshold or demonstrate that the clinical program used no biomarkers.",
+    "mechanismKnownAndUnknown": "JAK pathway inhibition is supported; simplified JAK1/2-selective language is conditional on assay context, and clinical causal contribution of each cytokine pathway remains broader.",
+    "verificationMethod": "Read original cached FDA PDF text; visually inspected scanned passages where extraction was incomplete",
+    "additionalSources": []
+  },
+  {
+    "id": "avacincaptad-pegol",
+    "drug": "Avacincaptad pegol",
+    "title": "Binding, pathway function, and disease benefit remain three different claims",
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217225Orig1s000PharmR.pdf#page=23",
+    "pdfPages": [
+      18,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "sourceStage": "2023 NDA review explicitly identifies the pharmacology studies as previously reviewed under initial IND 77902 in 2008; the geographic-atrophy rationale is expressed by the NDA reviewer",
+    "indRelevance": "Core original-IND study summaries newly found beyond baseline 34",
+    "whatSourceSays": [
+      "The RNA aptamer binds complement C5 and inhibits formation of C5a and C5b-9. The reviewer describes a potential link between these terminal complement products and geographic-atrophy progression; that disease rationale is distinct from the experiments demonstrating C5 inhibition (PDF 23).",
+      "Initial-IND studies compare the aptamer core and PEGylated candidate, use specificity panels, and measure inhibition of classical and alternative complement activation. C5a generation was inhibited while upstream C3a generation was not under the tested conditions (PDF 23–25).",
+      "Cross-species serum assays show much lower inhibitory potency against rat complement than against human or monkey complement; the rat was not simply interchangeable with the primate species (PDF 24–25).",
+      "Systemically dosed monkey studies combined measured drug concentrations with ex vivo complement-function assays. The review also describes qualification of hemolysis assays for monitoring anti-C5 activity in clinical subjects, including reproducibility and serum-dilution considerations (PDF 25–28)."
+    ],
+    "interpretationForLesson": "An action-to-benefit argument should make the level of evidence visible. Binding specificity establishes a molecular interaction; pathway assays show its functional consequences; species and concentration-response comparisons help interpret translation. None of those alone proves that local inhibition will slow retinal degeneration. Assay qualification can serve measurement of drug action without becoming a patient-selection test.",
+    "unknowns": [
+      "Systemic monkey complement inhibition is not direct demonstration of intravitreal efficacy in a geographic-atrophy model.",
+      "The 2023 geographic-atrophy rationale must not automatically be backdated as the exact initial-IND indication or clinical plan.",
+      "The stated concentrations/doses generally exclude PEG mass; quantitative reuse requires preserving that convention.",
+      "The review reports species differences; it does not justify declaring an entire species universally relevant or irrelevant."
+    ],
+    "relationToPeople": "Human-serum functional assays and prospective clinical PD-assay qualification support a measurable translation of C5 inhibition. The intended retinal benefit remains a separate clinical proposition.",
+    "patientSelectionAndMarkers": "Complement-function assays in the cited passage are for monitoring anti-C5 pharmacodynamic activity. They are not evidence of a validated pretreatment predictive responder cutoff. The pharmacology pages do not reproduce full clinical eligibility criteria.",
+    "mechanismKnownAndUnknown": "C5 binding and inhibition of terminal complement activation are experimentally supported; the size and clinical meaning of benefit in geographic atrophy cannot be established by these assays alone.",
+    "verificationMethod": "Read original cached FDA PDF /tmp/ind-full-screen/files/1b882a3157d0a665e7538828.source; inspected extracted pages18,20,22–28 and rendered scanned page18 and tables on24–26",
+    "additionalSources": []
+  }
+]

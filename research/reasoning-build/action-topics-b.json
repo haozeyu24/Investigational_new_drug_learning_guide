@@ -1,0 +1,249 @@
+[
+  {
+    "id": "patient-selection",
+    "label": "Choose patients from the evidence",
+    "principle": "Patient selection can change as evidence accumulates. Explain why the drug might help the proposed population, what a test does and does not identify, and what would justify including or excluding other patients.",
+    "cases": [
+      {
+        "id": "crizotinib",
+        "drug": "Crizotinib",
+        "title": "Two stable-disease observations led to an ALK-positive extension",
+        "stage": "Early Phase 1 study and later IND protocol amendments; reconstructed in the 2011 NDA review",
+        "modality": "Small molecule · kinase inhibitor",
+        "steps": [
+          {
+            "label": "Start broadly, with a hypothesis",
+            "text": "The original Phase 1 study investigated a c-Met/HGFR inhibitor in advanced cancers, excluding leukemia. It included pathway-related pharmacodynamic measurements and preliminary antitumor activity."
+          },
+          {
+            "label": "Notice a clinical signal",
+            "text": "Two patients with ALK-positive non-small cell lung cancer in the 50 mg cohort had stable disease at 1.5 and 7 months. These were reported as stable disease, not objective responses."
+          },
+          {
+            "label": "Test the narrower population",
+            "text": "The study added an ALK-positive lung-cancer extension. The October 2007 amendment allowed EML4-ALK-positive patients; later amendments also included an ALK-negative cohort."
+          }
+        ],
+        "lesson": "An early observation can justify testing a narrower population without establishing that the marker already predicts benefit.",
+        "limit": "This is an NDA reconstruction, not the full original IND. Stable disease in two people did not establish predictive validity or clinical benefit.",
+        "sources": [
+          {
+            "label": "Original study objectives · PDF 35",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=35"
+          },
+          {
+            "label": "Stable disease and protocol amendments · PDF 37–38",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=37"
+          }
+        ]
+      },
+      {
+        "id": "ensartinib",
+        "drug": "Ensartinib",
+        "title": "Marker-negative enrollment was an explicit protocol question",
+        "stage": "Later IND 111695 correspondence recounting June 2011 pre-IND advice and the March 2012 initial IND",
+        "modality": "Small molecule · kinase inhibitor",
+        "steps": [
+          {
+            "label": "State the proposed biology",
+            "text": "The pre-IND discussion considered possible activity in tumors with ALK or cMET alterations."
+          },
+          {
+            "label": "Plan who else to study",
+            "text": "FDA agreed that the protocol should specify how many patients negative for both ALK and cMET would enroll. It also advised identifying potential pharmacodynamic endpoints."
+          },
+          {
+            "label": "Separate escalation from expansion",
+            "text": "The initial dose-escalation study enrolled advanced solid tumors. Expansion enrollment was limited to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
+          }
+        ],
+        "lesson": "Broad enrollment can be planned learning. Say what marker-negative patients will help establish rather than treating their inclusion as incidental.",
+        "limit": "The advice is recounted in later correspondence. It neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
+        "sources": [
+          {
+            "label": "Pre-IND advice and initial study · PDF 49–50",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=49"
+          }
+        ]
+      }
+    ],
+    "moreCases": [
+      {
+        "id": "tazemetostat",
+        "drug": "Tazemetostat",
+        "finding": "FDA noted that the EZH2 assay detected seven variants but not copy-number gains. It agreed with testing archival samples for copy-number gain and requested better characterization of the mutation- and amplification-defined populations.",
+        "lesson": "A negative test result means negative for what the assay detects; it does not necessarily mean the pathway is unaltered.",
+        "stage": "December 2018 end-of-Phase-2 meeting under IND 124025; later development",
+        "modality": "Small molecule · EZH2 inhibitor",
+        "limit": "FDA raised possible misclassification; it did not establish that every assay-negative tumor carried another EZH2 alteration.",
+        "sources": [
+          {
+            "label": "Assay coverage and subgroup discussion · PDF 33–38",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213400Orig1s000AdminCorres.pdf#page=33"
+          }
+        ]
+      },
+      {
+        "id": "ruxolitinib",
+        "drug": "Ruxolitinib",
+        "finding": "The FDA genomics review reported benefit in both JAK2V617F-positive and negative myelofibrosis groups. It concluded that pretreatment mutation testing was not warranted, citing the exploratory analysis, benefit regardless of mutation status and lack of a safety implication.",
+        "lesson": "A mutation can explain disease biology without becoming a required treatment-selection test.",
+        "stage": "2011 NDA clinical/genomics assessment reproduced in the public FDA review package",
+        "modality": "Small molecule · JAK inhibitor",
+        "limit": "Exploratory subgroup results do not establish equal benefit or identical mechanisms. This recommendation cannot be backdated to initial IND clearance.",
+        "sources": [
+          {
+            "label": "FDA genomics assessment · PDF 466–467",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/202192Orig1s000.pdf#page=466"
+          }
+        ]
+      },
+      {
+        "id": "vorasidenib",
+        "drug": "Vorasidenib",
+        "finding": "The initial study enrolled IDH1/2-mutant advanced solid tumors, including gliomas. A later meeting focused on grade 2 glioma after surgery alone. The sponsor reported different preliminary activity in enhancing and non-enhancing gliomas.",
+        "lesson": "A shared mutation does not settle disease stage, prior treatment or the population in which benefit should be tested.",
+        "stage": "April 2019 end-of-Phase-2 meeting, IND 140832, recounting earlier IND 124865 development",
+        "modality": "Small molecule · mutant IDH inhibitor",
+        "limit": "Nonrandomized subgroup observations do not prove comparative efficacy. The discussion concerned later trial design, not first-in-human clearance.",
+        "sources": [
+          {
+            "label": "Population and prior-study history · PDF 39–42",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218784Orig1s000AdminCorres.pdf#page=39"
+          }
+        ]
+      },
+      {
+        "id": "zuranolone",
+        "drug": "Zuranolone",
+        "finding": "FDA initially discussed a possible postpartum-depression package combining one positive postpartum study with two positive major-depression studies. Later discussions asked for another postpartum study and raised possible differences in response between the two populations.",
+        "lesson": "Shared symptoms and pharmacology do not establish that treatment effects can be borrowed between populations.",
+        "stage": "2020–2021 later IND and pre-NDA discussions, recounted in the 2023 postpartum-depression NDA review",
+        "modality": "Small molecule · neuroactive steroid; GABA-A receptor modulator",
+        "limit": "Major-depression passages are partly redacted. This record does not establish a single mechanism explaining response differences.",
+        "sources": [
+          {
+            "label": "Population bridge and later advice · PDF 150–153",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf#page=150"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "measured-benefit",
+    "label": "Separate drug effects from patient benefit",
+    "principle": "A change in a receptor assay, hormone or blood marker can show that a drug acts. State what that measurement establishes and what still needs to be measured to show that patients benefit.",
+    "cases": [
+      {
+        "id": "cinacalcet",
+        "drug": "Cinacalcet",
+        "title": "PTH lowering was measurable; bone benefit was expected",
+        "stage": "1998 original US IND review, reproduced in the 2004 NDA; prior human Phase 1 data already existed",
+        "modality": "Small molecule · calcimimetic",
+        "steps": [
+          {
+            "label": "Measure the physiological effect",
+            "text": "In normal and hyperparathyroid rats, AMG073 lowered serum parathyroid hormone (PTH) and calcium. The review linked its action to increased parathyroid-cell sensitivity to extracellular calcium."
+          },
+          {
+            "label": "See both action and risk",
+            "text": "Prior healthy-volunteer dosing also lowered PTH. Five participants receiving repeated 100 mg doses withdrew because of mild hypocalcemia or related symptoms."
+          },
+          {
+            "label": "Test the patient setting",
+            "text": "The proposed Phase 2 study in secondary hyperparathyroidism measured PTH, calcium, calcitonin and pharmacokinetics. Improvement in bone pathology was an expectation, not an established outcome in these pages."
+          }
+        ],
+        "lesson": "Measure the intended physiological response and its unwanted consequences, while keeping the expected patient benefit a separate claim.",
+        "limit": "Original US IND does not mean first-ever human dosing. These passages do not establish fracture prevention, improved bone disease or overall patient benefit.",
+        "sources": [
+          {
+            "label": "Original US IND rationale and clinical plan · PDF 8–9",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=8"
+          }
+        ]
+      },
+      {
+        "id": "eplontersen",
+        "drug": "Eplontersen",
+        "title": "Lower TTR was not accepted as the proposed primary endpoint",
+        "stage": "February 2019 pre-IND advice about a planned Phase 3 study, quoted in the NDA review; not a Phase 1 entry requirement",
+        "modality": "Antisense oligonucleotide · modality comparator",
+        "steps": [
+          {
+            "label": "Propose a molecular readout",
+            "text": "The sponsor proposed serum transthyretin (TTR) reduction as a primary efficacy endpoint, based on the drug’s intended effect."
+          },
+          {
+            "label": "Ask what patients gain",
+            "text": "FDA acknowledged the importance of TTR reduction but did not agree to use it as the planned Phase 3 primary endpoint."
+          },
+          {
+            "label": "Measure clinical outcomes",
+            "text": "FDA recommended neuropathy impairment and patient-reported quality-of-life measures as coprimary endpoints, with TTR reduction as a secondary endpoint."
+          }
+        ],
+        "lesson": "A marker can measure the intended drug effect while remaining insufficient as the main evidence of patient benefit.",
+        "limit": "This advice concerned a specific Phase 3 plan. It is not a universal rule for first-in-human studies or every proposed biomarker.",
+        "sources": [
+          {
+            "label": "FDA endpoint advice · PDF 37",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217388Orig1s000IntegratedR.pdf#page=37"
+          }
+        ]
+      }
+    ],
+    "moreCases": [
+      {
+        "id": "avacincaptad-pegol",
+        "drug": "Avacincaptad pegol",
+        "finding": "Studies previously reviewed under the initial IND showed C5 binding and inhibition of complement activation. C5a generation was inhibited while upstream C3a generation was not under the tested conditions. These assays measured drug action, not retinal benefit.",
+        "lesson": "Keep target binding, pathway inhibition and benefit in the affected tissue as separate claims.",
+        "stage": "2023 NDA summary of studies previously reviewed under initial IND 77902 in 2008; retinal disease rationale is the later reviewer’s synthesis",
+        "modality": "PEGylated RNA aptamer · modality comparator",
+        "limit": "Systemic monkey complement inhibition does not establish intravitreal benefit in geographic atrophy. The later disease rationale should not be backdated.",
+        "sources": [
+          {
+            "label": "Initial-IND pharmacology summaries · PDF 23–28",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217225Orig1s000PharmR.pdf#page=23"
+          }
+        ]
+      },
+      {
+        "id": "fosdenopterin",
+        "drug": "Fosdenopterin",
+        "finding": "Studies in MOCS1-knockout mice measured enzyme activity, biochemical markers, growth and survival-related observations. The reviewer reports the sponsor’s conclusion that plasma S-sulfocysteine and urinary uric acid lacked a useful dose relationship for guiding treatment under the tested conditions.",
+        "lesson": "A disease-related marker can be measurable without being useful for choosing dose.",
+        "stage": "October 2020 IND 117502 assessment of studies submitted earlier but not reviewed before NDA submission; not a first-dose review",
+        "modality": "Small molecule · synthetic cyclic pyranopterin monophosphate",
+        "limit": "These mouse findings do not establish whether the markers can guide human dosing or measure clinical benefit.",
+        "sources": [
+          {
+            "label": "Assessment provenance · PDF 168",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf#page=168"
+          },
+          {
+            "label": "Mouse pharmacology and marker limitations · PDF 179–180",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf#page=179"
+          }
+        ]
+      },
+      {
+        "id": "pegzilarginase",
+        "drug": "Pegzilarginase",
+        "finding": "FDA distinguished lowering plasma arginine from improving motor function and mobility. In discussion of a Phase 3 plan, it said the proposed duration might detect biochemical changes without being long enough to assess functional outcomes.",
+        "lesson": "Biochemical correction and functional improvement may require different observation periods.",
+        "stage": "Later IND 127774 meeting on a Phase 3 plan; reproduced in the 2026 marketing package",
+        "modality": "PEGylated recombinant enzyme · biologic comparator",
+        "limit": "Some timing and endpoint details are redacted. The discussion does not establish that biochemical correction always produces functional recovery.",
+        "sources": [
+          {
+            "label": "Biochemical and functional endpoint discussion · PDF 23–27",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000AdminCorres.pdf#page=23"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6405 @@
+[
+  {
+    "id": "0214e55d1610fb95da04939c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219792Orig1s000IntegratedR.pdf",
+    "pdfPages": 270,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/0214e55d1610fb95da04939c.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "219792"
+    ],
+    "products": [
+      "KYGEVVI [DOXECITINE; DOXRIBTIMINE]"
+    ],
+    "candidatePages": [
+      17,
+      134,
+      147
+    ],
+    "maxScore": 31,
+    "explicitAnchorPages": [
+      134
+    ]
+  },
+  {
+    "id": "d2c46a1636a4c64970a61baa",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220152Orig1s000IntegratedR.pdf",
+    "pdfPages": 366,
+    "lowTextPages": 7,
+    "textFile": "/tmp/ind-full-screen/text/d2c46a1636a4c64970a61baa.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d2c46a1636a4c64970a61baa.source",
+    "applications": [
+      "220152"
+    ],
+    "products": [
+      "NEREUS [TRADIPITANT]"
+    ],
+    "candidatePages": [
+      104,
+      105,
+      106,
+      110,
+      111,
+      112
+    ],
+    "maxScore": 27,
+    "explicitAnchorPages": [
+      104,
+      105,
+      106,
+      110,
+      111,
+      112
+    ]
+  },
+  {
+    "id": "2ce26e6d5cce1692655d94ed",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217389Orig1s000IntegratedR.pdf",
+    "pdfPages": 166,
+    "lowTextPages": 17,
+    "textFile": "/tmp/ind-full-screen/text/2ce26e6d5cce1692655d94ed.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "217389"
+    ],
+    "products": [
+      "OHTUVAYRE [ENSIFENTRINE]"
+    ],
+    "candidatePages": [
+      77
+    ],
+    "maxScore": 25,
+    "explicitAnchorPages": [
+      77
+    ]
+  },
+  {
+    "id": "8b25a023a315415e4b68cd90",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000ClinPharmR.pdf",
+    "pdfPages": 50,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/8b25a023a315415e4b68cd90.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8b25a023a315415e4b68cd90.source",
+    "applications": [
+      "761156"
+    ],
+    "products": [
+      "SOGROYA [SOMAPACITAN-BECO]"
+    ],
+    "candidatePages": [
+      10,
+      11
+    ],
+    "maxScore": 23,
+    "explicitAnchorPages": [
+      10,
+      11
+    ]
+  },
+  {
+    "id": "c4d6d0061353f086ef450b41",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761145Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 175,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c4d6d0061353f086ef450b41.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c4d6d0061353f086ef450b41.source",
+    "applications": [
+      "761145"
+    ],
+    "products": [
+      "DARZALEX FASPRO [DARATUMUMAB AND HYALURONIDASE-FIHJ]"
+    ],
+    "candidatePages": [
+      134,
+      135
+    ],
+    "maxScore": 22,
+    "explicitAnchorPages": [
+      134,
+      135
+    ]
+  },
+  {
+    "id": "dcf2ed0c6e31a5b82fe05a88",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/206968Orig1s000PharmR.pdf",
+    "pdfPages": 168,
+    "lowTextPages": 74,
+    "textFile": "/tmp/ind-full-screen/text/dcf2ed0c6e31a5b82fe05a88.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/dcf2ed0c6e31a5b82fe05a88.source",
+    "applications": [
+      "206968"
+    ],
+    "products": [
+      "ACETAMINOPHEN [ACETAMINOPHEN]"
+    ],
+    "candidatePages": [
+      58,
+      69,
+      77,
+      89,
+      90,
+      91
+    ],
+    "maxScore": 22,
+    "explicitAnchorPages": [
+      89,
+      90,
+      91
+    ]
+  },
+  {
+    "id": "b9c77b1ddf1c3675be96222f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220482Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 272,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b9c77b1ddf1c3675be96222f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b9c77b1ddf1c3675be96222f.source",
+    "applications": [
+      "220482"
+    ],
+    "products": [
+      "CYPSEDO [CIPEPOFOL]"
+    ],
+    "candidatePages": [
+      226,
+      234
+    ],
+    "maxScore": 22,
+    "explicitAnchorPages": [
+      226
+    ]
+  },
+  {
+    "id": "0b4930010242793f902d5489",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761113Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 270,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/0b4930010242793f902d5489.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761113"
+    ],
+    "products": [
+      "SARCLISA [ISATUXIMAB-IRFC]"
+    ],
+    "candidatePages": [
+      28,
+      30
+    ],
+    "maxScore": 21,
+    "explicitAnchorPages": [
+      28,
+      30
+    ]
+  },
+  {
+    "id": "424bdfd7ca6a9b37d556fe4b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/211964Orig1s000IntegratedR.pdf",
+    "pdfPages": 318,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/424bdfd7ca6a9b37d556fe4b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/424bdfd7ca6a9b37d556fe4b.source",
+    "applications": [
+      "211964"
+    ],
+    "products": [
+      "QELBREE [VILOXAZINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      34,
+      134,
+      135,
+      212
+    ],
+    "maxScore": 21,
+    "explicitAnchorPages": [
+      34,
+      134,
+      135,
+      212
+    ]
+  },
+  {
+    "id": "1b882a3157d0a665e7538828",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217225Orig1s000PharmR.pdf",
+    "pdfPages": 98,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/1b882a3157d0a665e7538828.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "217225"
+    ],
+    "products": [
+      "IZERVAY [AVACINCAPTAD PEGOL SODIUM]"
+    ],
+    "candidatePages": [
+      32,
+      35,
+      36,
+      41,
+      65,
+      66,
+      92,
+      93,
+      94,
+      95
+    ],
+    "maxScore": 21,
+    "explicitAnchorPages": [
+      32,
+      35,
+      36,
+      41,
+      65,
+      66,
+      92,
+      93,
+      94,
+      95
+    ]
+  },
+  {
+    "id": "8efb82666df70c4349e167de",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219164Orig1s000AdminCorres.pdf",
+    "pdfPages": 51,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/8efb82666df70c4349e167de.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8efb82666df70c4349e167de.source",
+    "applications": [
+      "219164"
+    ],
+    "products": [
+      "YUVIWEL [NAVEPEGRITIDE]"
+    ],
+    "candidatePages": [
+      13,
+      18
+    ],
+    "maxScore": 21,
+    "explicitAnchorPages": [
+      13,
+      18
+    ]
+  },
+  {
+    "id": "ab025ab29db6200f3c363595",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/206966Orig1s000AdminCorres.pdf",
+    "pdfPages": 49,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/ab025ab29db6200f3c363595.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ab025ab29db6200f3c363595.source",
+    "applications": [
+      "206966"
+    ],
+    "products": [
+      "XEGLYZE [ABAMETAPIR]"
+    ],
+    "candidatePages": [
+      9,
+      11
+    ],
+    "maxScore": 20,
+    "explicitAnchorPages": [
+      9
+    ]
+  },
+  {
+    "id": "9f517fe0f0c0a6a648fb7ad5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218585Orig1s000IntegratedR.pdf",
+    "pdfPages": 115,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/9f517fe0f0c0a6a648fb7ad5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9f517fe0f0c0a6a648fb7ad5.source",
+    "applications": [
+      "218585"
+    ],
+    "products": [
+      "VIZZ [ACECLIDINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      75
+    ],
+    "maxScore": 20,
+    "explicitAnchorPages": [
+      75
+    ]
+  },
+  {
+    "id": "fb48a4e22d0f9df2253224cc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220482Orig1s000AdminCorres.pdf",
+    "pdfPages": 111,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/fb48a4e22d0f9df2253224cc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fb48a4e22d0f9df2253224cc.source",
+    "applications": [
+      "220482"
+    ],
+    "products": [
+      "CYPSEDO [CIPEPOFOL]"
+    ],
+    "candidatePages": [
+      56,
+      102
+    ],
+    "maxScore": 20,
+    "explicitAnchorPages": [
+      56,
+      102
+    ]
+  },
+  {
+    "id": "c63b3cb2567fb4452213cf10",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+    "pdfPages": 53,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c63b3cb2567fb4452213cf10.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c63b3cb2567fb4452213cf10.source",
+    "applications": [
+      "761235"
+    ],
+    "products": [
+      "VABYSMO [FARICIMAB-SVOA]"
+    ],
+    "candidatePages": [
+      15,
+      26,
+      50
+    ],
+    "maxScore": 19,
+    "explicitAnchorPages": [
+      15,
+      26,
+      50
+    ]
+  },
+  {
+    "id": "c9f968431f44634f44b666d6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217686Orig1s000AdminCorres.pdf",
+    "pdfPages": 38,
+    "lowTextPages": 7,
+    "textFile": "/tmp/ind-full-screen/text/c9f968431f44634f44b666d6.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c9f968431f44634f44b666d6.source",
+    "applications": [
+      "217686"
+    ],
+    "products": [
+      "TRYVIO [APROCITENTAN]"
+    ],
+    "candidatePages": [
+      13
+    ],
+    "maxScore": 19,
+    "explicitAnchorPages": [
+      13
+    ]
+  },
+  {
+    "id": "2f3e739141fed240db4f2264",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219301Orig1s000IntegratedR.pdf",
+    "pdfPages": 357,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/2f3e739141fed240db4f2264.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "219301"
+    ],
+    "products": [
+      "EKTERLY [SEBETRALSTAT]"
+    ],
+    "candidatePages": [
+      122,
+      127,
+      140,
+      143,
+      319,
+      320,
+      337,
+      338,
+      339
+    ],
+    "maxScore": 19,
+    "explicitAnchorPages": [
+      122,
+      127,
+      140,
+      143,
+      319,
+      320,
+      337,
+      338,
+      339
+    ]
+  },
+  {
+    "id": "35ff55f24e37cf7477c357e2",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761352Orig1s000AdminCorres.pdf",
+    "pdfPages": 95,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/35ff55f24e37cf7477c357e2.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/35ff55f24e37cf7477c357e2.source",
+    "applications": [
+      "761352"
+    ],
+    "products": [
+      "BIZENGRI [ZENOCUTUZUMAB-ZBCO]"
+    ],
+    "candidatePages": [
+      74
+    ],
+    "maxScore": 19,
+    "explicitAnchorPages": [
+      74
+    ]
+  },
+  {
+    "id": "8e9f0645a2814860cfe1bcce",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209510Orig1s000AdminCorres.pdf",
+    "pdfPages": 39,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/8e9f0645a2814860cfe1bcce.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8e9f0645a2814860cfe1bcce.source",
+    "applications": [
+      "209510"
+    ],
+    "products": [
+      "BARHEMSYS [AMISULPRIDE]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": [
+      5
+    ]
+  },
+  {
+    "id": "831a003620b3feb229f96575",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/210730Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 737,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/831a003620b3feb229f96575.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/831a003620b3feb229f96575.source",
+    "applications": [
+      "210730"
+    ],
+    "products": [
+      "OLINVYK [OLICERIDINE]"
+    ],
+    "candidatePages": [
+      19,
+      61,
+      112,
+      154,
+      579
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": [
+      579
+    ]
+  },
+  {
+    "id": "7a587825c6b40aa26a80624f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216490Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 418,
+    "lowTextPages": 69,
+    "textFile": "/tmp/ind-full-screen/text/7a587825c6b40aa26a80624f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/7a587825c6b40aa26a80624f.source",
+    "applications": [
+      "216490"
+    ],
+    "products": [
+      "YORVIPATH [PALOPEGTERIPARATIDE]"
+    ],
+    "candidatePages": [
+      231,
+      238
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": [
+      238
+    ]
+  },
+  {
+    "id": "7f6d86e755ec5e25d1baa0fb",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216962Orig1s000MedR.pdf",
+    "pdfPages": 292,
+    "lowTextPages": 22,
+    "textFile": "/tmp/ind-full-screen/text/7f6d86e755ec5e25d1baa0fb.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/7f6d86e755ec5e25d1baa0fb.source",
+    "applications": [
+      "216962"
+    ],
+    "products": [
+      "VYALEV [FOSCARBIDOPA; FOSLEVODOPA]"
+    ],
+    "candidatePages": [
+      20,
+      57
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": [
+      20,
+      57
+    ]
+  },
+  {
+    "id": "0c3743f81ad5d86b1218b6cc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf",
+    "pdfPages": 94,
+    "lowTextPages": 38,
+    "textFile": "/tmp/ind-full-screen/text/0c3743f81ad5d86b1218b6cc.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "218171"
+    ],
+    "products": [
+      "ENSACOVE [ENSARTINIB HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      50,
+      58
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": [
+      58
+    ]
+  },
+  {
+    "id": "97cff51e0d368efb217d3898",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761258Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 449,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/97cff51e0d368efb217d3898.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/97cff51e0d368efb217d3898.source",
+    "applications": [
+      "761258"
+    ],
+    "products": [
+      "PENPULIMAB-KCQX [PENPULIMAB-KCQX]"
+    ],
+    "candidatePages": [
+      299
+    ],
+    "maxScore": 17,
+    "explicitAnchorPages": [
+      299
+    ]
+  },
+  {
+    "id": "8c570bf7eb2ea79c48cea6a3",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/202049Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 426,
+    "lowTextPages": 113,
+    "textFile": "/tmp/ind-full-screen/text/8c570bf7eb2ea79c48cea6a3.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8c570bf7eb2ea79c48cea6a3.source",
+    "applications": [
+      "202049"
+    ],
+    "products": [
+      "BRONCHITOL [MANNITOL]"
+    ],
+    "candidatePages": [
+      384,
+      395,
+      409,
+      410,
+      412,
+      422,
+      423
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      422,
+      423
+    ]
+  },
+  {
+    "id": "c8b71788b49981f0e2b77f4d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213801Orig1s000ClinPharmR.pdf",
+    "pdfPages": 49,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c8b71788b49981f0e2b77f4d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c8b71788b49981f0e2b77f4d.source",
+    "applications": [
+      "213801"
+    ],
+    "products": [
+      "MYRBETRIQ GRANULES [MIRABEGRON]"
+    ],
+    "candidatePages": [
+      4,
+      5,
+      7,
+      8
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "f4f53b86fd5d0d7a5404c621",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000IntegratedR.pdf",
+    "pdfPages": 375,
+    "lowTextPages": 22,
+    "textFile": "/tmp/ind-full-screen/text/f4f53b86fd5d0d7a5404c621.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f4f53b86fd5d0d7a5404c621.source",
+    "applications": [
+      "761261"
+    ],
+    "products": [
+      "XENPOZYME [OLIPUDASE ALFA-RPCP]"
+    ],
+    "candidatePages": [
+      2,
+      5,
+      25,
+      34,
+      132,
+      133,
+      208,
+      211
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      5,
+      132,
+      133,
+      208,
+      211
+    ]
+  },
+  {
+    "id": "43b2a3dfc5610b7a15f778a4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/208969Orig1s000AdminCorres.pdf",
+    "pdfPages": 29,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/43b2a3dfc5610b7a15f778a4.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/43b2a3dfc5610b7a15f778a4.source",
+    "applications": [
+      "208969"
+    ],
+    "products": [
+      "REXTOVY [NALOXONE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      11
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      11
+    ]
+  },
+  {
+    "id": "38c6d924ca9243ff0738cac4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217603Orig1s000PharmR.pdf",
+    "pdfPages": 71,
+    "lowTextPages": 13,
+    "textFile": "/tmp/ind-full-screen/text/38c6d924ca9243ff0738cac4.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/38c6d924ca9243ff0738cac4.source",
+    "applications": [
+      "217603"
+    ],
+    "products": [
+      "XDEMVY [LOTILANER]"
+    ],
+    "candidatePages": [
+      59,
+      61,
+      62
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      59,
+      61,
+      62
+    ]
+  },
+  {
+    "id": "b74cb808fbfc04568aba5b81",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217900Orig1s000AdminCorres.pdf",
+    "pdfPages": 39,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b74cb808fbfc04568aba5b81.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b74cb808fbfc04568aba5b81.source",
+    "applications": [
+      "217900"
+    ],
+    "products": [
+      "LEQSELVI [DEURUXOLITINIB PHOSPHATE]"
+    ],
+    "candidatePages": [
+      19
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      19
+    ]
+  },
+  {
+    "id": "ee76a81aa4bb3e186bb0e027",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219423Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 98,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/ee76a81aa4bb3e186bb0e027.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ee76a81aa4bb3e186bb0e027.source",
+    "applications": [
+      "219423"
+    ],
+    "products": [
+      "WIDAPLIK [AMLODIPINE BESYLATE; INDAPAMIDE; TELMISARTAN]"
+    ],
+    "candidatePages": [
+      22
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": [
+      22
+    ]
+  },
+  {
+    "id": "521054b5b28bae8cc3a7fea7",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/206966Orig1s000SumR.pdf",
+    "pdfPages": 34,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/521054b5b28bae8cc3a7fea7.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/521054b5b28bae8cc3a7fea7.source",
+    "applications": [
+      "206966"
+    ],
+    "products": [
+      "XEGLYZE [ABAMETAPIR]"
+    ],
+    "candidatePages": [
+      15,
+      16
+    ],
+    "maxScore": 15,
+    "explicitAnchorPages": [
+      15,
+      16
+    ]
+  },
+  {
+    "id": "9cf25ff1f8021fabe1a2b69c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000IntegratedR.pdf",
+    "pdfPages": 237,
+    "lowTextPages": 31,
+    "textFile": "/tmp/ind-full-screen/text/9cf25ff1f8021fabe1a2b69c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9cf25ff1f8021fabe1a2b69c.source",
+    "applications": [
+      "213312"
+    ],
+    "products": [
+      "FYARRO [SIROLIMUS]"
+    ],
+    "candidatePages": [
+      28,
+      42
+    ],
+    "maxScore": 15,
+    "explicitAnchorPages": [
+      28,
+      42
+    ]
+  },
+  {
+    "id": "9e754819b3b0f7f83b4a0260",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/216665Orig1s000IntegratedR.pdf",
+    "pdfPages": 410,
+    "lowTextPages": 4,
+    "textFile": "/tmp/ind-full-screen/text/9e754819b3b0f7f83b4a0260.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9e754819b3b0f7f83b4a0260.source",
+    "applications": [
+      "216665"
+    ],
+    "products": [
+      "VYKAT XR [DIAZOXIDE CHOLINE]"
+    ],
+    "candidatePages": [
+      199,
+      211,
+      212,
+      213
+    ],
+    "maxScore": 15,
+    "explicitAnchorPages": [
+      199,
+      211,
+      212,
+      213
+    ]
+  },
+  {
+    "id": "08fe70f78517f148640dbcf8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212614Orig1s000MedR.pdf",
+    "pdfPages": 250,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/08fe70f78517f148640dbcf8.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "212614"
+    ],
+    "products": [
+      "TRIJARDY XR [EMPAGLIFLOZIN; LINAGLIPTIN; METFORMIN HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      29,
+      185,
+      187,
+      188,
+      190,
+      194
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      29
+    ]
+  },
+  {
+    "id": "40c8a912d10023e08a2c939e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213969Orig1s000IntegratedR.pdf",
+    "pdfPages": 244,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/40c8a912d10023e08a2c939e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/40c8a912d10023e08a2c939e.source",
+    "applications": [
+      "213969"
+    ],
+    "products": [
+      "ZOKINVY [LONAFARNIB]"
+    ],
+    "candidatePages": [
+      36,
+      66,
+      140,
+      142,
+      152,
+      215
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      36,
+      140,
+      142,
+      152
+    ]
+  },
+  {
+    "id": "47b63aff619c15e20ad260fd",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213876Orig1s000SumR.pdf",
+    "pdfPages": 32,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/47b63aff619c15e20ad260fd.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/47b63aff619c15e20ad260fd.source",
+    "applications": [
+      "213876"
+    ],
+    "products": [
+      "ALKINDI SPRINKLE [HYDROCORTISONE]"
+    ],
+    "candidatePages": [
+      11
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      11
+    ]
+  },
+  {
+    "id": "b8441ff7b3474365a576fad3",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215457Orig1s000AdminCorres.pdf",
+    "pdfPages": 27,
+    "lowTextPages": 11,
+    "textFile": "/tmp/ind-full-screen/text/b8441ff7b3474365a576fad3.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b8441ff7b3474365a576fad3.source",
+    "applications": [
+      "215457"
+    ],
+    "products": [
+      "NALOXONE HYDROCHLORIDE (AUTOINJECTOR) [NALOXONE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      24
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      24
+    ]
+  },
+  {
+    "id": "944d0592ca8e106a126fe059",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761291Orig1s000AdminCorres.pdf",
+    "pdfPages": 57,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/944d0592ca8e106a126fe059.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/944d0592ca8e106a126fe059.source",
+    "applications": [
+      "761291"
+    ],
+    "products": [
+      "TECVAYLI [TECLISTAMAB-CQYV]"
+    ],
+    "candidatePages": [
+      15,
+      18
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      15
+    ]
+  },
+  {
+    "id": "f27ce704bf3c9ca83fa88354",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216059Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 269,
+    "lowTextPages": 85,
+    "textFile": "/tmp/ind-full-screen/text/f27ce704bf3c9ca83fa88354.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f27ce704bf3c9ca83fa88354.source",
+    "applications": [
+      "216059"
+    ],
+    "products": [
+      "JAYPIRCA [PIRTOBRUTINIB]"
+    ],
+    "candidatePages": [
+      86
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      86
+    ]
+  },
+  {
+    "id": "3c64d9afcbcc6cb39568db3b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219019Orig1s000IntegratedR.pdf",
+    "pdfPages": 372,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/3c64d9afcbcc6cb39568db3b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3c64d9afcbcc6cb39568db3b.source",
+    "applications": [
+      "219019"
+    ],
+    "products": [
+      "QFITLIA [FITUSIRAN SODIUM]"
+    ],
+    "candidatePages": [
+      140
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      140
+    ]
+  },
+  {
+    "id": "6e6f35a1dabfb9310b24f97e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/218395Orig1s000PharmR.pdf",
+    "pdfPages": 89,
+    "lowTextPages": 23,
+    "textFile": "/tmp/ind-full-screen/text/6e6f35a1dabfb9310b24f97e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/6e6f35a1dabfb9310b24f97e.source",
+    "applications": [
+      "218395"
+    ],
+    "products": [
+      "XIFYRM [MELOXICAM]"
+    ],
+    "candidatePages": [
+      47,
+      53,
+      61,
+      67,
+      87
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": [
+      53,
+      61,
+      67
+    ]
+  },
+  {
+    "id": "b8e358bfce6cb17d5d0502f5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212102Orig1s000MedR.pdf",
+    "pdfPages": 162,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b8e358bfce6cb17d5d0502f5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b8e358bfce6cb17d5d0502f5.source",
+    "applications": [
+      "212102"
+    ],
+    "products": [
+      "FINTEPLA [FENFLURAMINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      24
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      24
+    ]
+  },
+  {
+    "id": "6c8f4d79d8eb5cac809aabc1",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212950Orig1s000IntegratedR.pdf",
+    "pdfPages": 370,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/6c8f4d79d8eb5cac809aabc1.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/6c8f4d79d8eb5cac809aabc1.source",
+    "applications": [
+      "212950"
+    ],
+    "products": [
+      "RUKOBIA [FOSTEMSAVIR TROMETHAMINE]"
+    ],
+    "candidatePages": [
+      122,
+      169,
+      170
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      122,
+      169,
+      170
+    ]
+  },
+  {
+    "id": "e71b660faac3318902e29d3d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213591Orig1s000AdminCorres.pdf",
+    "pdfPages": 59,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e71b660faac3318902e29d3d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e71b660faac3318902e29d3d.source",
+    "applications": [
+      "213591"
+    ],
+    "products": [
+      "TABRECTA [CAPMATINIB HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      15
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      15
+    ]
+  },
+  {
+    "id": "d3b7dc632d2839a0da690ba0",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761172Orig1s000IntegratedR.pdf",
+    "pdfPages": 200,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d3b7dc632d2839a0da690ba0.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d3b7dc632d2839a0da690ba0.source",
+    "applications": [
+      "761172"
+    ],
+    "products": [
+      "EBANGA [ANSUVIMAB-ZYKL]"
+    ],
+    "candidatePages": [
+      53,
+      85
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      85
+    ]
+  },
+  {
+    "id": "b83185ee67baeddc0bd173fc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215341Orig1s000IntegratedR.pdf",
+    "pdfPages": 302,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b83185ee67baeddc0bd173fc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b83185ee67baeddc0bd173fc.source",
+    "applications": [
+      "215341"
+    ],
+    "products": [
+      "KERENDIA [FINERENONE]"
+    ],
+    "candidatePages": [
+      57,
+      84
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      57,
+      84
+    ]
+  },
+  {
+    "id": "9ab31757c7b9874c064e576b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215383Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 255,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/9ab31757c7b9874c064e576b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9ab31757c7b9874c064e576b.source",
+    "applications": [
+      "215383"
+    ],
+    "products": [
+      "WELIREG [BELZUTIFAN]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      40
+    ]
+  },
+  {
+    "id": "a82380357011dd0fa2f076e6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761179Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 218,
+    "lowTextPages": 80,
+    "textFile": "/tmp/ind-full-screen/text/a82380357011dd0fa2f076e6.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a82380357011dd0fa2f076e6.source",
+    "applications": [
+      "761179"
+    ],
+    "products": [
+      "RYLAZE [ASPARAGINASE ERWINIA CHRYSANTHEMI (RECOMBINANT)-RYWN]"
+    ],
+    "candidatePages": [
+      24
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      24
+    ]
+  },
+  {
+    "id": "96d298d06fda32ce0100528d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/212304Orig1s000PharmR.pdf",
+    "pdfPages": 34,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/96d298d06fda32ce0100528d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/96d298d06fda32ce0100528d.source",
+    "applications": [
+      "212304"
+    ],
+    "products": [
+      "ADLARITY [DONEPEZIL HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      8
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      8
+    ]
+  },
+  {
+    "id": "0ac35dd78d84ba3979b72649",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216117Orig1s000OtherR.pdf",
+    "pdfPages": 25,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/0ac35dd78d84ba3979b72649.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "216117"
+    ],
+    "products": [
+      "RELEXXII [METHYLPHENIDATE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      19
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      19
+    ]
+  },
+  {
+    "id": "2fafe8bdf45c0f766c42f532",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216386Orig1s000MedR.pdf",
+    "pdfPages": 117,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/2fafe8bdf45c0f766c42f532.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "216386"
+    ],
+    "products": [
+      "ZAVZPRET [ZAVEGEPANT HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      21
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      21
+    ]
+  },
+  {
+    "id": "8183f6358b454e34fd01b3df",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761279Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 414,
+    "lowTextPages": 23,
+    "textFile": "/tmp/ind-full-screen/text/8183f6358b454e34fd01b3df.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8183f6358b454e34fd01b3df.source",
+    "applications": [
+      "761279"
+    ],
+    "products": [
+      "OMVOH [MIRIKIZUMAB-MRKZ]"
+    ],
+    "candidatePages": [
+      68,
+      370,
+      413
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      68
+    ]
+  },
+  {
+    "id": "41532d606503c933c0262f1b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216158Orig1s000IntegratedR.pdf",
+    "pdfPages": 394,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/41532d606503c933c0262f1b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/41532d606503c933c0262f1b.source",
+    "applications": [
+      "216158"
+    ],
+    "products": [
+      "COBENFY [TROSPIUM CHLORIDE; XANOMELINE TARTRATE]"
+    ],
+    "candidatePages": [
+      169,
+      170,
+      172
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      169,
+      170,
+      172
+    ]
+  },
+  {
+    "id": "959e4161831ba1ce08115310",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217064Orig1s000PharmR.pdf",
+    "pdfPages": 31,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/959e4161831ba1ce08115310.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/959e4161831ba1ce08115310.source",
+    "applications": [
+      "217064"
+    ],
+    "products": [
+      "RYZUMVI [PHENTOLAMINE MESYLATE]"
+    ],
+    "candidatePages": [
+      19
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      19
+    ]
+  },
+  {
+    "id": "95993c6fd5da99cc8d33638b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218944Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 309,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/95993c6fd5da99cc8d33638b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/95993c6fd5da99cc8d33638b.source",
+    "applications": [
+      "218944"
+    ],
+    "products": [
+      "REVUFORJ [REVUMENIB CITRATE]"
+    ],
+    "candidatePages": [
+      26
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      26
+    ]
+  },
+  {
+    "id": "4fb4963e2848c2d9eb613e45",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219070Orig1s000OtherR.pdf",
+    "pdfPages": 61,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/4fb4963e2848c2d9eb613e45.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4fb4963e2848c2d9eb613e45.source",
+    "applications": [
+      "219070"
+    ],
+    "products": [
+      "PALSONIFY [PALTUSOTINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      39
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      39
+    ]
+  },
+  {
+    "id": "57ff10514e1f723d8c5aba19",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219491Orig1s000OtherR.pdf",
+    "pdfPages": 84,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/57ff10514e1f723d8c5aba19.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/57ff10514e1f723d8c5aba19.source",
+    "applications": [
+      "219491"
+    ],
+    "products": [
+      "NUZOLVENCE [ZOLIFLODACIN]"
+    ],
+    "candidatePages": [
+      35,
+      36
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      35,
+      36
+    ]
+  },
+  {
+    "id": "7e0aed9bc13718262ece77ec",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761152Orig1s000IntegratedR.pdf",
+    "pdfPages": 351,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/7e0aed9bc13718262ece77ec.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/7e0aed9bc13718262ece77ec.source",
+    "applications": [
+      "761152"
+    ],
+    "products": [
+      "YARTEMLEA [NARSOPLIMAB-WUUG]"
+    ],
+    "candidatePages": [
+      98,
+      210,
+      211
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": [
+      211
+    ]
+  },
+  {
+    "id": "410bad3954dbb5f09ef2b41d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213969Orig1s000RiskR.pdf",
+    "pdfPages": 15,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/410bad3954dbb5f09ef2b41d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/410bad3954dbb5f09ef2b41d.source",
+    "applications": [
+      "213969"
+    ],
+    "products": [
+      "ZOKINVY [LONAFARNIB]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      5
+    ]
+  },
+  {
+    "id": "929829918b1f397f11c278a9",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213426Orig1s000AdminCorres.pdf",
+    "pdfPages": 29,
+    "lowTextPages": 9,
+    "textFile": "/tmp/ind-full-screen/text/929829918b1f397f11c278a9.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/929829918b1f397f11c278a9.source",
+    "applications": [
+      "213426"
+    ],
+    "products": [
+      "SEGLENTIS [CELECOXIB; TRAMADOL HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      19
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      19
+    ]
+  },
+  {
+    "id": "3a3d3d850d1d75c889c9048c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213953Orig1s000NameR.pdf",
+    "pdfPages": 38,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/3a3d3d850d1d75c889c9048c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3a3d3d850d1d75c889c9048c.source",
+    "applications": [
+      "213953"
+    ],
+    "products": [
+      "KYZATREX [TESTOSTERONE UNDECANOATE]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      4
+    ]
+  },
+  {
+    "id": "1315d75bc74e68eab3d9628e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216196Orig1s000NameR.pdf",
+    "pdfPages": 20,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/1315d75bc74e68eab3d9628e.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "216196"
+    ],
+    "products": [
+      "AQVESME [MITAPIVAT SULFATE]",
+      "PYRUKYND [MITAPIVAT SULFATE]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      4
+    ]
+  },
+  {
+    "id": "c12e3be7c9b9ff54a3bd8b61",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216675Orig1s000PharmR.pdf",
+    "pdfPages": 37,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/c12e3be7c9b9ff54a3bd8b61.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c12e3be7c9b9ff54a3bd8b61.source",
+    "applications": [
+      "216675"
+    ],
+    "products": [
+      "MIEBO [PERFLUOROHEXYLOCTANE]"
+    ],
+    "candidatePages": [
+      10,
+      12
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      10,
+      12
+    ]
+  },
+  {
+    "id": "90271ccd9478a49ee52f66bb",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf",
+    "pdfPages": 416,
+    "lowTextPages": 92,
+    "textFile": "/tmp/ind-full-screen/text/90271ccd9478a49ee52f66bb.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/90271ccd9478a49ee52f66bb.source",
+    "applications": [
+      "217369"
+    ],
+    "products": [
+      "ZURZUVAE [ZURANOLONE]"
+    ],
+    "candidatePages": [
+      26,
+      159,
+      160,
+      161,
+      162,
+      163
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      159,
+      160,
+      161,
+      162,
+      163
+    ]
+  },
+  {
+    "id": "c7b7d485136cf907ac685d5b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217470Orig1s000AdminCorres.pdf",
+    "pdfPages": 24,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/c7b7d485136cf907ac685d5b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c7b7d485136cf907ac685d5b.source",
+    "applications": [
+      "217470"
+    ],
+    "products": [
+      "OPVEE [NALMEFENE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      14
+    ]
+  },
+  {
+    "id": "e66d695f9eafdca9f8a87729",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761324Orig1s000OtherR.pdf",
+    "pdfPages": 43,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/e66d695f9eafdca9f8a87729.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e66d695f9eafdca9f8a87729.source",
+    "applications": [
+      "761324"
+    ],
+    "products": [
+      "EPKINLY [EPCORITAMAB-BYSP]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      40
+    ]
+  },
+  {
+    "id": "12385c1326b8f3bfbeaf630a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf",
+    "pdfPages": 246,
+    "lowTextPages": 38,
+    "textFile": "/tmp/ind-full-screen/text/12385c1326b8f3bfbeaf630a.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "219132"
+    ],
+    "products": [
+      "AQNEURSA [LEVACETYLLEUCINE]"
+    ],
+    "candidatePages": [
+      143,
+      151,
+      152
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      143
+    ]
+  },
+  {
+    "id": "5f748d8811e6d8a5e11cb658",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219209Orig1s000AdminCorres.pdf",
+    "pdfPages": 57,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/5f748d8811e6d8a5e11cb658.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5f748d8811e6d8a5e11cb658.source",
+    "applications": [
+      "219209"
+    ],
+    "products": [
+      "JOURNAVX [SUZETRIGINE]"
+    ],
+    "candidatePages": [
+      38
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": [
+      38
+    ]
+  },
+  {
+    "id": "066341f59e6e612da708fb73",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212614Orig1s000StatR.pdf",
+    "pdfPages": 16,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/066341f59e6e612da708fb73.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "212614"
+    ],
+    "products": [
+      "TRIJARDY XR [EMPAGLIFLOZIN; LINAGLIPTIN; METFORMIN HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      5,
+      6
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "eb1cd2d02e1b38ff2c5562a6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213246Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 398,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/eb1cd2d02e1b38ff2c5562a6.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/eb1cd2d02e1b38ff2c5562a6.source",
+    "applications": [
+      "213246"
+    ],
+    "products": [
+      "RETEVMO [SELPERCATINIB]"
+    ],
+    "candidatePages": [
+      172,
+      173
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": [
+      172,
+      173
+    ]
+  },
+  {
+    "id": "74982959b30d7bbac3a66d13",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215498Orig1s000IntegratedR.pdf",
+    "pdfPages": 345,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/74982959b30d7bbac3a66d13.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/74982959b30d7bbac3a66d13.source",
+    "applications": [
+      "215498"
+    ],
+    "products": [
+      "BYLVAY [ODEVIXIBAT]"
+    ],
+    "candidatePages": [
+      5,
+      114
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": [
+      5
+    ]
+  },
+  {
+    "id": "0f1dd8aa8da0e50eb51bea30",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215596Orig1s000IntegratedR.pdf",
+    "pdfPages": 311,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/0f1dd8aa8da0e50eb51bea30.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215596"
+    ],
+    "products": [
+      "LIVTENCITY [MARIBAVIR]"
+    ],
+    "candidatePages": [
+      133
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": [
+      133
+    ]
+  },
+  {
+    "id": "4702dc6ed1472d8b6c91f5ad",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215309Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 236,
+    "lowTextPages": 34,
+    "textFile": "/tmp/ind-full-screen/text/4702dc6ed1472d8b6c91f5ad.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4702dc6ed1472d8b6c91f5ad.source",
+    "applications": [
+      "215309"
+    ],
+    "products": [
+      "OPZELURA [RUXOLITINIB PHOSPHATE]"
+    ],
+    "candidatePages": [
+      34,
+      35
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": [
+      34,
+      35
+    ]
+  },
+  {
+    "id": "17c58c54d6d3d48f733fc316",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212728Orig1s000AdminCorres.pdf",
+    "pdfPages": 40,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/17c58c54d6d3d48f733fc316.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "212728"
+    ],
+    "products": [
+      "NURTEC ODT [RIMEGEPANT SULFATE]"
+    ],
+    "candidatePages": [
+      23
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      23
+    ]
+  },
+  {
+    "id": "8a59c6e9b845edad0df70ec8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761136Orig2s000MedR.pdf",
+    "pdfPages": 126,
+    "lowTextPages": 20,
+    "textFile": "/tmp/ind-full-screen/text/8a59c6e9b845edad0df70ec8.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8a59c6e9b845edad0df70ec8.source",
+    "applications": [
+      "761136"
+    ],
+    "products": [
+      "REBLOZYL [LUSPATERCEPT-AAMT]"
+    ],
+    "candidatePages": [
+      26
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      26
+    ]
+  },
+  {
+    "id": "66b8ceffd6b8fb82c81cee30",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761136Orig2s000StatR.pdf",
+    "pdfPages": 29,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/66b8ceffd6b8fb82c81cee30.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/66b8ceffd6b8fb82c81cee30.source",
+    "applications": [
+      "761136"
+    ],
+    "products": [
+      "REBLOZYL [LUSPATERCEPT-AAMT]"
+    ],
+    "candidatePages": [
+      9
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      9
+    ]
+  },
+  {
+    "id": "00708f8645070e6792d19159",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf",
+    "pdfPages": 277,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/00708f8645070e6792d19159.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "214018"
+    ],
+    "products": [
+      "NULIBRY [FOSDENOPTERIN HYDROBROMIDE]"
+    ],
+    "candidatePages": [
+      170,
+      174,
+      214
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      174,
+      214
+    ]
+  },
+  {
+    "id": "d148dd70a3ff0aa2d7b66c2f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214047Orig1s000PharmR.pdf",
+    "pdfPages": 18,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d148dd70a3ff0aa2d7b66c2f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d148dd70a3ff0aa2d7b66c2f.source",
+    "applications": [
+      "214047"
+    ],
+    "products": [
+      "THYQUIDITY [LEVOTHYROXINE SODIUM]"
+    ],
+    "candidatePages": [
+      13
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      13
+    ]
+  },
+  {
+    "id": "cc75f930fb1f99970e31e054",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761177Orig1s000PharmR.pdf",
+    "pdfPages": 54,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/cc75f930fb1f99970e31e054.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/cc75f930fb1f99970e31e054.source",
+    "applications": [
+      "761177"
+    ],
+    "products": [
+      "SKYTROFA [LONAPEGSOMATROPIN-TCGD]"
+    ],
+    "candidatePages": [
+      4,
+      10
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      4,
+      10
+    ]
+  },
+  {
+    "id": "36d727d8a963cbe1c2cae4f0",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761195Orig1s000IntegratedR.pdf",
+    "pdfPages": 189,
+    "lowTextPages": 35,
+    "textFile": "/tmp/ind-full-screen/text/36d727d8a963cbe1c2cae4f0.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/36d727d8a963cbe1c2cae4f0.source",
+    "applications": [
+      "761195"
+    ],
+    "products": [
+      "VYVGART [EFGARTIGIMOD ALFA]"
+    ],
+    "candidatePages": [
+      100,
+      101,
+      102
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "id": "b23637685ed470cbcb5be5ec",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/211746Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 260,
+    "lowTextPages": 55,
+    "textFile": "/tmp/ind-full-screen/text/b23637685ed470cbcb5be5ec.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b23637685ed470cbcb5be5ec.source",
+    "applications": [
+      "211746"
+    ],
+    "products": [
+      "RYALTRIS [MOMETASONE FUROATE; OLOPATADINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      67
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      67
+    ]
+  },
+  {
+    "id": "66a147c0aff3271f443c5142",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216513Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 96,
+    "lowTextPages": 13,
+    "textFile": "/tmp/ind-full-screen/text/66a147c0aff3271f443c5142.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/66a147c0aff3271f443c5142.source",
+    "applications": [
+      "216513"
+    ],
+    "products": [
+      "PHEBURANE [SODIUM PHENYLBUTYRATE]"
+    ],
+    "candidatePages": [
+      19,
+      20,
+      90,
+      91
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      19,
+      20,
+      90,
+      91
+    ]
+  },
+  {
+    "id": "f4791f2451b00b9c60d25404",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216190Orig1s000PharmR.pdf",
+    "pdfPages": 13,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/f4791f2451b00b9c60d25404.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f4791f2451b00b9c60d25404.source",
+    "applications": [
+      "216190"
+    ],
+    "products": [
+      "ONTRALFY [TIZANIDINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      11
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      11
+    ]
+  },
+  {
+    "id": "8322d6edf84b19f9704f27b6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761434Orig1s000IntegratedR.pdf",
+    "pdfPages": 218,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/8322d6edf84b19f9704f27b6.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8322d6edf84b19f9704f27b6.source",
+    "applications": [
+      "761434"
+    ],
+    "products": [
+      "VOYXACT [SIBEPRENLIMAB-SZSI]"
+    ],
+    "candidatePages": [
+      106,
+      107
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      106,
+      107
+    ]
+  },
+  {
+    "id": "a64bfa39fd7ce98f1879e2cb",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/213246Orig1s008.pdf",
+    "pdfPages": 255,
+    "lowTextPages": 39,
+    "textFile": "/tmp/ind-full-screen/text/a64bfa39fd7ce98f1879e2cb.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "213246"
+    ],
+    "products": [
+      "RETEVMO [SELPERCATINIB]"
+    ],
+    "candidatePages": [
+      88
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      88
+    ]
+  },
+  {
+    "id": "13009751374779e44d4f8ceb",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/218145Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 376,
+    "lowTextPages": 25,
+    "textFile": "/tmp/ind-full-screen/text/13009751374779e44d4f8ceb.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "218145"
+    ],
+    "products": [
+      "SIMTRIYO [CENTANAFADINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      35,
+      36
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": [
+      35,
+      36
+    ]
+  },
+  {
+    "id": "4652087657cd9b80678a1c0f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/206966Orig1s000MedR.pdf",
+    "pdfPages": 259,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/4652087657cd9b80678a1c0f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4652087657cd9b80678a1c0f.source",
+    "applications": [
+      "206966"
+    ],
+    "products": [
+      "XEGLYZE [ABAMETAPIR]"
+    ],
+    "candidatePages": [
+      79,
+      80,
+      81
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "id": "359d85758484b7944dce5426",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/210875Orig1s000MedR.pdf",
+    "pdfPages": 243,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/359d85758484b7944dce5426.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/359d85758484b7944dce5426.source",
+    "applications": [
+      "210875"
+    ],
+    "products": [
+      "KYNMOBI [APOMORPHINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      128
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      128
+    ]
+  },
+  {
+    "id": "5ca55768886988166650f418",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213721Orig1s000AdminCorres.pdf",
+    "pdfPages": 66,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/5ca55768886988166650f418.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5ca55768886988166650f418.source",
+    "applications": [
+      "213721"
+    ],
+    "products": [
+      "GAVRETO [PRALSETINIB]"
+    ],
+    "candidatePages": [
+      32
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      32
+    ]
+  },
+  {
+    "id": "0f939d5522a7ad4b6d65b434",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214622Orig1s000AdminCorres.pdf",
+    "pdfPages": 33,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/0f939d5522a7ad4b6d65b434.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "214622"
+    ],
+    "products": [
+      "TRUSELTIQ [INFIGRATINIB PHOSPHATE]"
+    ],
+    "candidatePages": [
+      18,
+      19
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "bede65cbb4dcbd3e8f83e7e9",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214938Orig1s000IntegratedR.pdf",
+    "pdfPages": 303,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/bede65cbb4dcbd3e8f83e7e9.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bede65cbb4dcbd3e8f83e7e9.source",
+    "applications": [
+      "214938"
+    ],
+    "products": [
+      "VOXZOGO [VOSORITIDE]"
+    ],
+    "candidatePages": [
+      138,
+      139,
+      143,
+      144,
+      145
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      138,
+      139,
+      143,
+      144,
+      145
+    ]
+  },
+  {
+    "id": "f04577b2f965529c5837bcc3",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761180Orig1s000IntegratedR.pdf",
+    "pdfPages": 268,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/f04577b2f965529c5837bcc3.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f04577b2f965529c5837bcc3.source",
+    "applications": [
+      "761180"
+    ],
+    "products": [
+      "ADBRY [TRALOKINUMAB]"
+    ],
+    "candidatePages": [
+      133,
+      134,
+      135,
+      136
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      133,
+      134,
+      135,
+      136
+    ]
+  },
+  {
+    "id": "55e8aa62c91f15cde888a9b5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761224Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 302,
+    "lowTextPages": 28,
+    "textFile": "/tmp/ind-full-screen/text/55e8aa62c91f15cde888a9b5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/55e8aa62c91f15cde888a9b5.source",
+    "applications": [
+      "761224"
+    ],
+    "products": [
+      "TEZSPIRE [TEZEPELUMAB-EKKO]"
+    ],
+    "candidatePages": [
+      33,
+      34
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      33,
+      34
+    ]
+  },
+  {
+    "id": "4448c5b351aac1641ca31fa5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 125,
+    "lowTextPages": 18,
+    "textFile": "/tmp/ind-full-screen/text/4448c5b351aac1641ca31fa5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4448c5b351aac1641ca31fa5.source",
+    "applications": [
+      "214860"
+    ],
+    "products": [
+      "OLPRUVA [SODIUM PHENYLBUTYRATE]"
+    ],
+    "candidatePages": [
+      65,
+      66
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      65,
+      66
+    ]
+  },
+  {
+    "id": "ad504f3148ad083febe5b090",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216578Orig1s000CrossR.pdf",
+    "pdfPages": 151,
+    "lowTextPages": 36,
+    "textFile": "/tmp/ind-full-screen/text/ad504f3148ad083febe5b090.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ad504f3148ad083febe5b090.source",
+    "applications": [
+      "216578"
+    ],
+    "products": [
+      "VEOZAH [FEZOLINETANT]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      40
+    ]
+  },
+  {
+    "id": "f5b6b1ae6be21d0f668169ab",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216578Orig1s000PharmR.pdf",
+    "pdfPages": 116,
+    "lowTextPages": 18,
+    "textFile": "/tmp/ind-full-screen/text/f5b6b1ae6be21d0f668169ab.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f5b6b1ae6be21d0f668169ab.source",
+    "applications": [
+      "216578"
+    ],
+    "products": [
+      "VEOZAH [FEZOLINETANT]"
+    ],
+    "candidatePages": [
+      19,
+      20,
+      89
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      19,
+      20,
+      89
+    ]
+  },
+  {
+    "id": "3f02d1fe81e85b4332f99a00",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216951Orig1s000IntegratedR.pdf",
+    "pdfPages": 461,
+    "lowTextPages": 122,
+    "textFile": "/tmp/ind-full-screen/text/3f02d1fe81e85b4332f99a00.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3f02d1fe81e85b4332f99a00.source",
+    "applications": [
+      "216951"
+    ],
+    "products": [
+      "JESDUVROQ [DAPRODUSTAT]"
+    ],
+    "candidatePages": [
+      230,
+      231
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      230,
+      231
+    ]
+  },
+  {
+    "id": "c5c91405cf351ef02e351eea",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761192Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 231,
+    "lowTextPages": 14,
+    "textFile": "/tmp/ind-full-screen/text/c5c91405cf351ef02e351eea.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c5c91405cf351ef02e351eea.source",
+    "applications": [
+      "761192"
+    ],
+    "products": [
+      "NEXOBRID [ANACAULASE-BCDB]"
+    ],
+    "candidatePages": [
+      68
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      68
+    ]
+  },
+  {
+    "id": "efb6dea70602c0964559110b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216165Orig1s000IntegratedR.pdf",
+    "pdfPages": 230,
+    "lowTextPages": 30,
+    "textFile": "/tmp/ind-full-screen/text/efb6dea70602c0964559110b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/efb6dea70602c0964559110b.source",
+    "applications": [
+      "216165"
+    ],
+    "products": [
+      "EXBLIFEP [CEFEPIME HYDROCHLORIDE; ENMETAZOBACTAM]"
+    ],
+    "candidatePages": [
+      75
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      75
+    ]
+  },
+  {
+    "id": "8dbedfbd979ba7d939ee4e40",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218010Orig1s000PharmR.pdf",
+    "pdfPages": 41,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/8dbedfbd979ba7d939ee4e40.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8dbedfbd979ba7d939ee4e40.source",
+    "applications": [
+      "218010"
+    ],
+    "products": [
+      "IDOSE TR [TRAVOPROST]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      7
+    ]
+  },
+  {
+    "id": "04c95c6cbd7b14f8c3c52534",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218643Orig1s000MedR.pdf",
+    "pdfPages": 59,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/04c95c6cbd7b14f8c3c52534.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "218643"
+    ],
+    "products": [
+      "CYKLX [ARTICAINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      15
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      15
+    ]
+  },
+  {
+    "id": "15f50b69c0c5fc98fba430b8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218764Orig1s000IntegratedR.pdf",
+    "pdfPages": 419,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/15f50b69c0c5fc98fba430b8.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "218764"
+    ],
+    "products": [
+      "JASCAYD [NERANDOMILAST]"
+    ],
+    "candidatePages": [
+      151
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      151
+    ]
+  },
+  {
+    "id": "495c36ddf8638ccb6e503b40",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219304Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 296,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/495c36ddf8638ccb6e503b40.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/495c36ddf8638ccb6e503b40.source",
+    "applications": [
+      "219304"
+    ],
+    "products": [
+      "ROMVIMZA [VIMSELTINIB]"
+    ],
+    "candidatePages": [
+      169,
+      170
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      169,
+      170
+    ]
+  },
+  {
+    "id": "67816507b1ae95cdcbc6314b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219407Orig1s000IntegratedR.pdf",
+    "pdfPages": 571,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/67816507b1ae95cdcbc6314b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/67816507b1ae95cdcbc6314b.source",
+    "applications": [
+      "219407"
+    ],
+    "products": [
+      "DAWNZERA (AUTOINJECTOR) [DONIDALORSEN SODIUM]"
+    ],
+    "candidatePages": [
+      367
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      367
+    ]
+  },
+  {
+    "id": "e4eefc61192bb38797086565",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761367Orig1s000IntegratedR.pdf",
+    "pdfPages": 328,
+    "lowTextPages": 134,
+    "textFile": "/tmp/ind-full-screen/text/e4eefc61192bb38797086565.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e4eefc61192bb38797086565.source",
+    "applications": [
+      "761367"
+    ],
+    "products": [
+      "ANDEMBRY [GARADACIMAB-GXII]"
+    ],
+    "candidatePages": [
+      142
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      142
+    ]
+  },
+  {
+    "id": "31ff05d54689e6e2313bf658",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761380Orig1s000AdminCorres.pdf",
+    "pdfPages": 44,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/31ff05d54689e6e2313bf658.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761380"
+    ],
+    "products": [
+      "TEVIMBRA [islelizumab-jsgr]"
+    ],
+    "candidatePages": [
+      27,
+      28
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": [
+      27,
+      28
+    ]
+  },
+  {
+    "id": "92018f9281192390fb4bf263",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/206321Orig1s004.pdf",
+    "pdfPages": 233,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/92018f9281192390fb4bf263.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/92018f9281192390fb4bf263.source",
+    "applications": [
+      "206321"
+    ],
+    "products": [
+      "SAXENDA [LIRAGLUTIDE]"
+    ],
+    "candidatePages": [
+      213
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      213
+    ]
+  },
+  {
+    "id": "61eb828e508bfc779a6e3de7",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/022341Orig1s027.pdf",
+    "pdfPages": 644,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/61eb828e508bfc779a6e3de7.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "022341"
+    ],
+    "products": [
+      "VICTOZA [LIRAGLUTIDE]"
+    ],
+    "candidatePages": [
+      371
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      371
+    ]
+  },
+  {
+    "id": "a85cb67af70c875c547f4715",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209376Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 160,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/a85cb67af70c875c547f4715.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a85cb67af70c875c547f4715.source",
+    "applications": [
+      "209376"
+    ],
+    "products": [
+      "MULTRYS [CUPRIC SULFATE; MANGANESE SULFATE; SELENIOUS ACID; ZINC SULFATE]",
+      "TRALEMENT [CUPRIC SULFATE; MANGANESE SULFATE; SELENIOUS ACID; ZINC SULFATE]"
+    ],
+    "candidatePages": [
+      82,
+      137
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      137
+    ]
+  },
+  {
+    "id": "50b8b098737b03848464935c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209472Orig1s000MedR.pdf",
+    "pdfPages": 27,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/50b8b098737b03848464935c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/50b8b098737b03848464935c.source",
+    "applications": [
+      "209472"
+    ],
+    "products": [
+      "PEMFEXY [PEMETREXED]"
+    ],
+    "candidatePages": [
+      3,
+      13,
+      25
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      3,
+      13,
+      25
+    ]
+  },
+  {
+    "id": "976b3860e8b640da4428af30",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212295Orig1s000AdminCorres.pdf",
+    "pdfPages": 74,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/976b3860e8b640da4428af30.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/976b3860e8b640da4428af30.source",
+    "applications": [
+      "212295"
+    ],
+    "products": [
+      "BYFAVO [REMIMAZOLAM BESYLATE]"
+    ],
+    "candidatePages": [
+      15
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      15
+    ]
+  },
+  {
+    "id": "93a1ba81d225c18933fd0dd2",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213690Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 124,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/93a1ba81d225c18933fd0dd2.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/93a1ba81d225c18933fd0dd2.source",
+    "applications": [
+      "213690"
+    ],
+    "products": [
+      "ZILXI [MINOCYCLINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      31
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      31
+    ]
+  },
+  {
+    "id": "1d8ddcab5992b3be1822aaf6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213721Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 293,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/1d8ddcab5992b3be1822aaf6.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "213721"
+    ],
+    "products": [
+      "GAVRETO [PRALSETINIB]"
+    ],
+    "candidatePages": [
+      133,
+      134,
+      135
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      133,
+      134,
+      135
+    ]
+  },
+  {
+    "id": "e182b61066d391757487c89e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761171Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 296,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e182b61066d391757487c89e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e182b61066d391757487c89e.source",
+    "applications": [
+      "761171"
+    ],
+    "products": [
+      "DANYELZA [NAXITAMAB-GQGK]"
+    ],
+    "candidatePages": [
+      62,
+      84
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      84
+    ]
+  },
+  {
+    "id": "bd361b6a037b4917a87e58ba",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/208232Orig1s000MedR.pdf",
+    "pdfPages": 267,
+    "lowTextPages": 62,
+    "textFile": "/tmp/ind-full-screen/text/bd361b6a037b4917a87e58ba.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bd361b6a037b4917a87e58ba.source",
+    "applications": [
+      "208232"
+    ],
+    "products": [
+      "MYCAPSSA [OCTREOTIDE ACETATE]"
+    ],
+    "candidatePages": [
+      212
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      212
+    ]
+  },
+  {
+    "id": "a7a85c3d5be902dc8700f4c9",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213026Orig1s000PharmR.pdf",
+    "pdfPages": 76,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/a7a85c3d5be902dc8700f4c9.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a7a85c3d5be902dc8700f4c9.source",
+    "applications": [
+      "213026"
+    ],
+    "products": [
+      "AMONDYS 45 [CASIMERSEN]"
+    ],
+    "candidatePages": [
+      27,
+      44
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      27,
+      44
+    ]
+  },
+  {
+    "id": "d260ae324fec99075a0c1e26",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213876Orig1s000MedR.pdf",
+    "pdfPages": 83,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/d260ae324fec99075a0c1e26.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d260ae324fec99075a0c1e26.source",
+    "applications": [
+      "213876"
+    ],
+    "products": [
+      "ALKINDI SPRINKLE [HYDROCORTISONE]"
+    ],
+    "candidatePages": [
+      46
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      46
+    ]
+  },
+  {
+    "id": "2e3eee1ad89523198c23f22f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214096Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 322,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/2e3eee1ad89523198c23f22f.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "214096"
+    ],
+    "products": [
+      "TEPMETKO [TEPOTINIB HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      70
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      70
+    ]
+  },
+  {
+    "id": "2b04699fd5b39ed443615d85",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214487Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 751,
+    "lowTextPages": 98,
+    "textFile": "/tmp/ind-full-screen/text/2b04699fd5b39ed443615d85.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "214487"
+    ],
+    "products": [
+      "TAVNEOS [AVACOPAN]"
+    ],
+    "candidatePages": [
+      479
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      479
+    ]
+  },
+  {
+    "id": "aef15ce0dc30f02730ab2c8e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214665Orig1s000AdminCorres.pdf",
+    "pdfPages": 36,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/aef15ce0dc30f02730ab2c8e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/aef15ce0dc30f02730ab2c8e.source",
+    "applications": [
+      "214665"
+    ],
+    "products": [
+      "LUMAKRAS [SOTORASIB]"
+    ],
+    "candidatePages": [
+      6,
+      13,
+      16
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      13
+    ]
+  },
+  {
+    "id": "c9322ab36089f41bd23a38c7",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215310Orig1s000AdminCorres.pdf",
+    "pdfPages": 67,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c9322ab36089f41bd23a38c7.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c9322ab36089f41bd23a38c7.source",
+    "applications": [
+      "215310"
+    ],
+    "products": [
+      "EXKIVITY [MOBOCERTINIB SUCCINATE]"
+    ],
+    "candidatePages": [
+      38
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      38
+    ]
+  },
+  {
+    "id": "c35166bdf34894500d007fc2",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761194Orig1s000IntegratedR.pdf",
+    "pdfPages": 277,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c35166bdf34894500d007fc2.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c35166bdf34894500d007fc2.source",
+    "applications": [
+      "761194"
+    ],
+    "products": [
+      "NEXVIAZYME [AVALGLUCOSIDASE ALFA-NGPT]"
+    ],
+    "candidatePages": [
+      129,
+      231,
+      232
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      129,
+      231,
+      232
+    ]
+  },
+  {
+    "id": "e9c63ea7f8ff5baf56d1a78a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000AdminCorres.pdf",
+    "pdfPages": 70,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e9c63ea7f8ff5baf56d1a78a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e9c63ea7f8ff5baf56d1a78a.source",
+    "applications": [
+      "761228"
+    ],
+    "products": [
+      "KIMMTRAK [TEBENTAFUSP-TEBN]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      7
+    ]
+  },
+  {
+    "id": "3c31f214fce5acdb1d706f02",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000OtherR.pdf",
+    "pdfPages": 126,
+    "lowTextPages": 11,
+    "textFile": "/tmp/ind-full-screen/text/3c31f214fce5acdb1d706f02.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3c31f214fce5acdb1d706f02.source",
+    "applications": [
+      "215239"
+    ],
+    "products": [
+      "AGAMREE [VAMOROLONE]"
+    ],
+    "candidatePages": [
+      121,
+      122
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      121,
+      122
+    ]
+  },
+  {
+    "id": "4ff6660564f206250ed86f55",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215813Orig1s000AdminCorres.pdf",
+    "pdfPages": 14,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/4ff6660564f206250ed86f55.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4ff6660564f206250ed86f55.source",
+    "applications": [
+      "215813"
+    ],
+    "products": [
+      "DOCETAXEL [DOCETAXEL]",
+      "DOCIVYX [DOCETAXEL]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      4
+    ]
+  },
+  {
+    "id": "9fd4f97a1455cc8939fba70f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216718Orig1s000MedR.pdf",
+    "pdfPages": 169,
+    "lowTextPages": 64,
+    "textFile": "/tmp/ind-full-screen/text/9fd4f97a1455cc8939fba70f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9fd4f97a1455cc8939fba70f.source",
+    "applications": [
+      "216718"
+    ],
+    "products": [
+      "SKYCLARYS [OMAVELOXOLONE]"
+    ],
+    "candidatePages": [
+      21
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      21
+    ]
+  },
+  {
+    "id": "f23b66328eb389a96617f40f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216718Orig1s000PharmR.pdf",
+    "pdfPages": 42,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/f23b66328eb389a96617f40f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f23b66328eb389a96617f40f.source",
+    "applications": [
+      "216718"
+    ],
+    "products": [
+      "SKYCLARYS [OMAVELOXOLONE]"
+    ],
+    "candidatePages": [
+      9
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      9
+    ]
+  },
+  {
+    "id": "d2988bd94c862630ae5f9a63",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217759Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 279,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d2988bd94c862630ae5f9a63.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d2988bd94c862630ae5f9a63.source",
+    "applications": [
+      "217759"
+    ],
+    "products": [
+      "JOENJA [LENIOLISIB PHOSPHATE]"
+    ],
+    "candidatePages": [
+      249
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      249
+    ]
+  },
+  {
+    "id": "2e0d5147dcfaa5c2dbcb60db",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/212849Orig1s000NameR.pdf",
+    "pdfPages": 30,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/2e0d5147dcfaa5c2dbcb60db.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "212849"
+    ],
+    "products": [
+      "RYKINDO [RISPERIDONE]"
+    ],
+    "candidatePages": [
+      8
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      8
+    ]
+  },
+  {
+    "id": "0c59b69077ac80dba590c463",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213931Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 178,
+    "lowTextPages": 15,
+    "textFile": "/tmp/ind-full-screen/text/0c59b69077ac80dba590c463.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "213931"
+    ],
+    "products": [
+      "XPHOZAH [TENAPANOR HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      128
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      128
+    ]
+  },
+  {
+    "id": "ec4e8e5e1d57f824ac84dfc8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000NameR.pdf",
+    "pdfPages": 37,
+    "lowTextPages": 7,
+    "textFile": "/tmp/ind-full-screen/text/ec4e8e5e1d57f824ac84dfc8.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ec4e8e5e1d57f824ac84dfc8.source",
+    "applications": [
+      "215192"
+    ],
+    "products": [
+      "VAFSEO [VADADUSTAT]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      5
+    ]
+  },
+  {
+    "id": "b71b9260963d7cb03f419e21",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218010Orig1s000SumR.pdf",
+    "pdfPages": 44,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/b71b9260963d7cb03f419e21.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b71b9260963d7cb03f419e21.source",
+    "applications": [
+      "218010"
+    ],
+    "products": [
+      "IDOSE TR [TRAVOPROST]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      14
+    ]
+  },
+  {
+    "id": "753bba5de618f749f39c096b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000PharmR.pdf",
+    "pdfPages": 22,
+    "lowTextPages": 4,
+    "textFile": "/tmp/ind-full-screen/text/753bba5de618f749f39c096b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/753bba5de618f749f39c096b.source",
+    "applications": [
+      "761248"
+    ],
+    "products": [
+      "KISUNLA [DONANEMAB-AZBT]"
+    ],
+    "candidatePages": [
+      16
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      16
+    ]
+  },
+  {
+    "id": "67bcdfa5d13aa9329d3c28c4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/217684Orig1s000MedR.pdf",
+    "pdfPages": 26,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/67bcdfa5d13aa9329d3c28c4.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/67bcdfa5d13aa9329d3c28c4.source",
+    "applications": [
+      "217684"
+    ],
+    "products": [
+      "VIGAFYDE [VIGABATRIN]"
+    ],
+    "candidatePages": [
+      17
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      17
+    ]
+  },
+  {
+    "id": "a1e05222a649857cac3ce23e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218158Orig1s000PharmR.pdf",
+    "pdfPages": 64,
+    "lowTextPages": 15,
+    "textFile": "/tmp/ind-full-screen/text/a1e05222a649857cac3ce23e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a1e05222a649857cac3ce23e.source",
+    "applications": [
+      "218158"
+    ],
+    "products": [
+      "BYQLOVI [CLOBETASOL PROPIONATE]"
+    ],
+    "candidatePages": [
+      47,
+      57
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      47,
+      57
+    ]
+  },
+  {
+    "id": "77ab8b9a4d5b4254967c7c0f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218549Orig1s000PharmR.pdf",
+    "pdfPages": 12,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/77ab8b9a4d5b4254967c7c0f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/77ab8b9a4d5b4254967c7c0f.source",
+    "applications": [
+      "218549"
+    ],
+    "products": [
+      "ZUNVEYL [BENZGALANTAMINE GLUCONATE]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      7
+    ]
+  },
+  {
+    "id": "ff7ef442d8573cb326baf9fc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219019Orig1s000NameR.pdf",
+    "pdfPages": 20,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/ff7ef442d8573cb326baf9fc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ff7ef442d8573cb326baf9fc.source",
+    "applications": [
+      "219019"
+    ],
+    "products": [
+      "QFITLIA [FITUSIRAN SODIUM]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      5
+    ]
+  },
+  {
+    "id": "a0fa073c0f19395e5cbc6055",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219972Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 331,
+    "lowTextPages": 141,
+    "textFile": "/tmp/ind-full-screen/text/a0fa073c0f19395e5cbc6055.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a0fa073c0f19395e5cbc6055.source",
+    "applications": [
+      "219972"
+    ],
+    "products": [
+      "HYRNUO [SEVABERTINIB]"
+    ],
+    "candidatePages": [
+      90
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      90
+    ]
+  },
+  {
+    "id": "8822d88e0571b2410644ae1d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761394Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 340,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/8822d88e0571b2410644ae1d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8822d88e0571b2410644ae1d.source",
+    "applications": [
+      "761394"
+    ],
+    "products": [
+      "DATROWAY [DATOPOTAMAB DERUXTECAN-DLNK]"
+    ],
+    "candidatePages": [
+      65,
+      66
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      65,
+      66
+    ]
+  },
+  {
+    "id": "da45bb62e7f794ecd33bc030",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/217472Orig1s000AdminCorres.pdf",
+    "pdfPages": 30,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/da45bb62e7f794ecd33bc030.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/da45bb62e7f794ecd33bc030.source",
+    "applications": [
+      "217472"
+    ],
+    "products": [
+      "ROCURONIUM BROMIDE [ROCURONIUM BROMIDE]"
+    ],
+    "candidatePages": [
+      18
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      18
+    ]
+  },
+  {
+    "id": "1c2536bdd80876dc711eaf99",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761326Orig2s000NameR.pdf",
+    "pdfPages": 44,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/1c2536bdd80876dc711eaf99.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761326"
+    ],
+    "products": [
+      "AWIQLI FLEXTOUCH [INSULIN ICODEC]"
+    ],
+    "candidatePages": [
+      30
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": [
+      30
+    ]
+  },
+  {
+    "id": "dde2e20ab00e4578ade02b7e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/019599Orig1s011.pdf",
+    "pdfPages": 323,
+    "lowTextPages": 63,
+    "textFile": "/tmp/ind-full-screen/text/dde2e20ab00e4578ade02b7e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/dde2e20ab00e4578ade02b7e.source",
+    "applications": [
+      "019599"
+    ],
+    "products": [
+      "NAFTIN [NAFTIFINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      160
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      160
+    ]
+  },
+  {
+    "id": "eba922c68727376626270bab",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/211911Orig1s000MedR.pdf",
+    "pdfPages": 40,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/eba922c68727376626270bab.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/eba922c68727376626270bab.source",
+    "applications": [
+      "211911"
+    ],
+    "products": [
+      "DURYSTA [BIMATOPROST]"
+    ],
+    "candidatePages": [
+      13
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      13
+    ]
+  },
+  {
+    "id": "52ec7c45f10f57e342a89ae7",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212154Orig1s000MedR.pdf",
+    "pdfPages": 129,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/52ec7c45f10f57e342a89ae7.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/52ec7c45f10f57e342a89ae7.source",
+    "applications": [
+      "212154"
+    ],
+    "products": [
+      "VILTEPSO [VILTOLARSEN]"
+    ],
+    "candidatePages": [
+      19
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      19
+    ]
+  },
+  {
+    "id": "8031f8c5126c3e9b65157c83",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213006Orig1s000PharmR.pdf",
+    "pdfPages": 142,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/8031f8c5126c3e9b65157c83.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8031f8c5126c3e9b65157c83.source",
+    "applications": [
+      "213006"
+    ],
+    "products": [
+      "GEMTESA [VIBEGRON]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      4
+    ]
+  },
+  {
+    "id": "665b15e56e1648149c109bbe",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000SumR.pdf",
+    "pdfPages": 31,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/665b15e56e1648149c109bbe.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/665b15e56e1648149c109bbe.source",
+    "applications": [
+      "213535"
+    ],
+    "products": [
+      "EVRYSDI [RISDIPLAM]"
+    ],
+    "candidatePages": [
+      15
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      15
+    ]
+  },
+  {
+    "id": "c890b8a8e2ea4c7cc753a019",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/212904Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 291,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c890b8a8e2ea4c7cc753a019.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c890b8a8e2ea4c7cc753a019.source",
+    "applications": [
+      "212904"
+    ],
+    "products": [
+      "FOTIVDA [TIVOZANIB HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      124
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      124
+    ]
+  },
+  {
+    "id": "85b0ee059a9f29d9b83bcc97",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214231Orig1s000PharmR.pdf",
+    "pdfPages": 45,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/85b0ee059a9f29d9b83bcc97.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/85b0ee059a9f29d9b83bcc97.source",
+    "applications": [
+      "214231"
+    ],
+    "products": [
+      "ZEGALOGUE (AUTOINJECTOR) [DASIGLUCAGON HYDROCHLORIDE]",
+      "ZEGALOGUE [DASIGLUCAGON HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      14
+    ]
+  },
+  {
+    "id": "d8b032f1bdbd00ce58288b36",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214517Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 162,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d8b032f1bdbd00ce58288b36.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d8b032f1bdbd00ce58288b36.source",
+    "applications": [
+      "214517"
+    ],
+    "products": [
+      "HETLIOZ LQ [TASIMELTEON]"
+    ],
+    "candidatePages": [
+      88
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      88
+    ]
+  },
+  {
+    "id": "e47286212da7dc7aaad61071",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 144,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e47286212da7dc7aaad61071.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e47286212da7dc7aaad61071.source",
+    "applications": [
+      "214907"
+    ],
+    "products": [
+      "CYTALUX [PAFOLACIANINE SODIUM]"
+    ],
+    "candidatePages": [
+      12
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      12
+    ]
+  },
+  {
+    "id": "1bbf4361d04bc43c1d052e71",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761181Orig1s000PharmR.pdf",
+    "pdfPages": 81,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/1bbf4361d04bc43c1d052e71.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761181"
+    ],
+    "products": [
+      "EVKEEZA [EVINACUMAB-DGNB]"
+    ],
+    "candidatePages": [
+      35,
+      68
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      35,
+      68
+    ]
+  },
+  {
+    "id": "84ccf2ea4fb6517e36f2efe6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215039Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 186,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/84ccf2ea4fb6517e36f2efe6.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/84ccf2ea4fb6517e36f2efe6.source",
+    "applications": [
+      "215039"
+    ],
+    "products": [
+      "VIJOICE [ALPELISIB]"
+    ],
+    "candidatePages": [
+      38
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      38
+    ]
+  },
+  {
+    "id": "21da3e5599136fb18d9937a0",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215841Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 123,
+    "lowTextPages": 25,
+    "textFile": "/tmp/ind-full-screen/text/21da3e5599136fb18d9937a0.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215841"
+    ],
+    "products": [
+      "LOCAMETZ [GALLIUM GA-68 GOZETOTIDE]"
+    ],
+    "candidatePages": [
+      57
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      57
+    ]
+  },
+  {
+    "id": "77e1aeb361a6108a7b583bfe",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215904Orig1s000PharmR.pdf",
+    "pdfPages": 116,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/77e1aeb361a6108a7b583bfe.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/77e1aeb361a6108a7b583bfe.source",
+    "applications": [
+      "215904"
+    ],
+    "products": [
+      "ZTALMY [GANAXOLONE]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      4
+    ]
+  },
+  {
+    "id": "e635dfd5a52bf7b2ca0b9eda",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761127Orig1s000AdminCorres.pdf",
+    "pdfPages": 30,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/e635dfd5a52bf7b2ca0b9eda.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e635dfd5a52bf7b2ca0b9eda.source",
+    "applications": [
+      "761127"
+    ],
+    "products": [
+      "DAXXIFY [DAXIBOTULINUMTOXINA-LANM]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      4
+    ]
+  },
+  {
+    "id": "0804d0d4c2de0e4dd844378b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/210850Orig1s000PharmR.pdf",
+    "pdfPages": 9,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/0804d0d4c2de0e4dd844378b.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "210850"
+    ],
+    "products": [
+      "SINCALIDE [SINCALIDE]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      7
+    ]
+  },
+  {
+    "id": "3f6180dc96deb2af34da01d8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216834Orig1s000OtherR.pdf",
+    "pdfPages": 139,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/3f6180dc96deb2af34da01d8.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3f6180dc96deb2af34da01d8.source",
+    "applications": [
+      "216834"
+    ],
+    "products": [
+      "ZILBRYSQ [ZILUCOPLAN SODIUM]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      5
+    ]
+  },
+  {
+    "id": "8e587d7ba287dae170961b4e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215151Orig1s000IntegratedR.pdf",
+    "pdfPages": 317,
+    "lowTextPages": 51,
+    "textFile": "/tmp/ind-full-screen/text/8e587d7ba287dae170961b4e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8e587d7ba287dae170961b4e.source",
+    "applications": [
+      "215151"
+    ],
+    "products": [
+      "VOQUEZNA [VONOPRAZAN FUMARATE]"
+    ],
+    "candidatePages": [
+      159
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      159
+    ]
+  },
+  {
+    "id": "06b509521dfc09b4777126b8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215721Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 61,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/06b509521dfc09b4777126b8.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215721"
+    ],
+    "products": [
+      "ZOLPIDEM TARTRATE [ZOLPIDEM TARTRATE]"
+    ],
+    "candidatePages": [
+      47
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      47
+    ]
+  },
+  {
+    "id": "e06ca10bbf53412ef5d30d4e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217927Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 95,
+    "lowTextPages": 11,
+    "textFile": "/tmp/ind-full-screen/text/e06ca10bbf53412ef5d30d4e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e06ca10bbf53412ef5d30d4e.source",
+    "applications": [
+      "217927"
+    ],
+    "products": [
+      "COXANTO [OXAPROZIN]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      14
+    ]
+  },
+  {
+    "id": "227e496b1fe34e8614275f3e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761306Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 261,
+    "lowTextPages": 43,
+    "textFile": "/tmp/ind-full-screen/text/227e496b1fe34e8614275f3e.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761306"
+    ],
+    "products": [
+      "EBGLYSS [LEBRIKIZUMAB-LBKZ]"
+    ],
+    "candidatePages": [
+      61,
+      62,
+      63
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "id": "3a84e3d40c5f04a014b86402",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218139Orig1s000PharmR.pdf",
+    "pdfPages": 21,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/3a84e3d40c5f04a014b86402.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3a84e3d40c5f04a014b86402.source",
+    "applications": [
+      "218139"
+    ],
+    "products": [
+      "TEZRULY [TERAZOSIN HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      14
+    ]
+  },
+  {
+    "id": "5281fa201eeb370647ef5a3c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219616Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 371,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/5281fa201eeb370647ef5a3c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5281fa201eeb370647ef5a3c.source",
+    "applications": [
+      "219616"
+    ],
+    "products": [
+      "AVMAPKI FAKZYNJA CO-PACK (COPACKAGED) [AVUTOMETINIB POTASSIUM; DEFACTINIB HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      81
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      81
+    ]
+  },
+  {
+    "id": "bd166e6832ade836d23a204f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219839Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 289,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/bd166e6832ade836d23a204f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bd166e6832ade836d23a204f.source",
+    "applications": [
+      "219839"
+    ],
+    "products": [
+      "ZEGFROVY [SUNVOZERTINIB]"
+    ],
+    "candidatePages": [
+      117
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      117
+    ]
+  },
+  {
+    "id": "64f8d3dcb68096c40689a63e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219972Orig1s000OtherR.pdf",
+    "pdfPages": 58,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/64f8d3dcb68096c40689a63e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/64f8d3dcb68096c40689a63e.source",
+    "applications": [
+      "219972"
+    ],
+    "products": [
+      "HYRNUO [SEVABERTINIB]"
+    ],
+    "candidatePages": [
+      34
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      34
+    ]
+  },
+  {
+    "id": "dd3f7dc521d0fefba7cff48c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761352Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 305,
+    "lowTextPages": 4,
+    "textFile": "/tmp/ind-full-screen/text/dd3f7dc521d0fefba7cff48c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/dd3f7dc521d0fefba7cff48c.source",
+    "applications": [
+      "761352"
+    ],
+    "products": [
+      "BIZENGRI [ZENOCUTUZUMAB-ZBCO]"
+    ],
+    "candidatePages": [
+      88,
+      89
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      88,
+      89
+    ]
+  },
+  {
+    "id": "685884236a93f736e201f9ed",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220358Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 88,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/685884236a93f736e201f9ed.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/685884236a93f736e201f9ed.source",
+    "applications": [
+      "220358"
+    ],
+    "products": [
+      "BYSANTI [MILSAPERIDONE]"
+    ],
+    "candidatePages": [
+      28
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      28
+    ]
+  },
+  {
+    "id": "17e02db4eca50c8ec50d13f9",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000OtherR.pdf",
+    "pdfPages": 67,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/17e02db4eca50c8ec50d13f9.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "220711"
+    ],
+    "products": [
+      "BEQALZI [SONROTOCLAX]"
+    ],
+    "candidatePages": [
+      41
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      41
+    ]
+  },
+  {
+    "id": "f1ffd46b10d487ee1602c861",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761320Orig1s000PharmR.pdf",
+    "pdfPages": 57,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/f1ffd46b10d487ee1602c861.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f1ffd46b10d487ee1602c861.source",
+    "applications": [
+      "761320"
+    ],
+    "products": [
+      "LYTENAVA [BEVACIZUMAB-VIKG]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": [
+      40
+    ]
+  },
+  {
+    "id": "49405650a2f0bc8e1c2b1969",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214133Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 349,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/49405650a2f0bc8e1c2b1969.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/49405650a2f0bc8e1c2b1969.source",
+    "applications": [
+      "214133"
+    ],
+    "products": [
+      "RECORLEV [LEVOKETOCONAZOLE]"
+    ],
+    "candidatePages": [
+      58
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": [
+      58
+    ]
+  },
+  {
+    "id": "026c21696c358539e7580735",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213793Orig1s000ClinPharmR.pdf",
+    "pdfPages": 106,
+    "lowTextPages": 34,
+    "textFile": "/tmp/ind-full-screen/text/026c21696c358539e7580735.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "213793"
+    ],
+    "products": [
+      "IMCIVREE [SETMELANOTIDE ACETATE]"
+    ],
+    "candidatePages": [
+      20,
+      22,
+      49,
+      58
+    ],
+    "maxScore": 28,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "558be66ce504c213a10c8765",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216196Orig1s000AdminCorres.pdf",
+    "pdfPages": 57,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/558be66ce504c213a10c8765.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/558be66ce504c213a10c8765.source",
+    "applications": [
+      "216196"
+    ],
+    "products": [
+      "AQVESME [MITAPIVAT SULFATE]",
+      "PYRUKYND [MITAPIVAT SULFATE]"
+    ],
+    "candidatePages": [
+      44
+    ],
+    "maxScore": 27,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "cab6622e6671d717c3e0d14e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2010/021426Orig1s007.pdf",
+    "pdfPages": 166,
+    "lowTextPages": 17,
+    "textFile": "/tmp/ind-full-screen/text/cab6622e6671d717c3e0d14e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/cab6622e6671d717c3e0d14e.source",
+    "applications": [
+      "021426"
+    ],
+    "products": [
+      "OMNITROPE [SOMATROPIN]"
+    ],
+    "candidatePages": [
+      11
+    ],
+    "maxScore": 26,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "c48794faf30546484fe42063",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2010/021426Orig1s008.pdf",
+    "pdfPages": 166,
+    "lowTextPages": 17,
+    "textFile": "/tmp/ind-full-screen/text/c48794faf30546484fe42063.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c48794faf30546484fe42063.source",
+    "applications": [
+      "021426"
+    ],
+    "products": [
+      "OMNITROPE [SOMATROPIN]"
+    ],
+    "candidatePages": [
+      11
+    ],
+    "maxScore": 26,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "9d65f06c887442f9dfe3be71",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761358Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 246,
+    "lowTextPages": 25,
+    "textFile": "/tmp/ind-full-screen/text/9d65f06c887442f9dfe3be71.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9d65f06c887442f9dfe3be71.source",
+    "applications": [
+      "761358"
+    ],
+    "products": [
+      "ZYMFENTRA [INFLIXIMAB-DYYB]"
+    ],
+    "candidatePages": [
+      118,
+      119,
+      120
+    ],
+    "maxScore": 24,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "e07337b585808cab5b1a5de5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761369Orig1s000IntegratedR.pdf",
+    "pdfPages": 236,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e07337b585808cab5b1a5de5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e07337b585808cab5b1a5de5.source",
+    "applications": [
+      "761369"
+    ],
+    "products": [
+      "HYMPAVZI [MARSTACIMAB-HNCQ]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 24,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "292522d38231883700cfecad",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214662Orig1s000IntegratedR.pdf",
+    "pdfPages": 306,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/292522d38231883700cfecad.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "214662"
+    ],
+    "products": [
+      "LIVMARLI [MARALIXIBAT CHLORIDE]"
+    ],
+    "candidatePages": [
+      17,
+      118,
+      127,
+      128
+    ],
+    "maxScore": 23,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "8463c722b02c8b82953b1993",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216196Orig1s000IntegratedR.pdf",
+    "pdfPages": 319,
+    "lowTextPages": 33,
+    "textFile": "/tmp/ind-full-screen/text/8463c722b02c8b82953b1993.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8463c722b02c8b82953b1993.source",
+    "applications": [
+      "216196"
+    ],
+    "products": [
+      "AQVESME [MITAPIVAT SULFATE]",
+      "PYRUKYND [MITAPIVAT SULFATE]"
+    ],
+    "candidatePages": [
+      2,
+      19,
+      29,
+      35
+    ],
+    "maxScore": 22,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "f03753566cb9c6e25bfeebac",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216951Orig1s000AdminCorres.pdf",
+    "pdfPages": 54,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/f03753566cb9c6e25bfeebac.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f03753566cb9c6e25bfeebac.source",
+    "applications": [
+      "216951"
+    ],
+    "products": [
+      "JESDUVROQ [DAPRODUSTAT]"
+    ],
+    "candidatePages": [
+      49
+    ],
+    "maxScore": 22,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "331b32986918ba76eca20c7e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761215Orig1s000OtherR.pdf",
+    "pdfPages": 46,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/331b32986918ba76eca20c7e.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761215"
+    ],
+    "products": [
+      "REZVOGLAR [INSULIN GLARGINE-AGLR]"
+    ],
+    "candidatePages": [
+      35
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "fdabb7f8c4b3a2634604a21b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/209471Orig1s000StatR.pdf",
+    "pdfPages": 38,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/fdabb7f8c4b3a2634604a21b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fdabb7f8c4b3a2634604a21b.source",
+    "applications": [
+      "209471"
+    ],
+    "products": [
+      "COMBOGESIC [ACETAMINOPHEN; IBUPROFEN]"
+    ],
+    "candidatePages": [
+      27
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "1af81a1b9b63b684e3572ccd",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/022291Orig1s012.pdf",
+    "pdfPages": 162,
+    "lowTextPages": 9,
+    "textFile": "/tmp/ind-full-screen/text/1af81a1b9b63b684e3572ccd.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "022291"
+    ],
+    "products": [
+      "PROMACTA [ELTROMBOPAG OLAMINE]"
+    ],
+    "candidatePages": [
+      91,
+      92,
+      101
+    ],
+    "maxScore": 18,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b334e984c4347e4416f0f626",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213464Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 297,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b334e984c4347e4416f0f626.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b334e984c4347e4416f0f626.source",
+    "applications": [
+      "213464"
+    ],
+    "products": [
+      "LAMPIT [NIFURTIMOX]"
+    ],
+    "candidatePages": [
+      44,
+      45,
+      46
+    ],
+    "maxScore": 17,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "0b9fad2c477a2aeeb3412e54",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214701Orig1s000AdminCorres.pdf",
+    "pdfPages": 37,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/0b9fad2c477a2aeeb3412e54.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "214701"
+    ],
+    "products": [
+      "GAVRETO [PRALSETINIB]"
+    ],
+    "candidatePages": [
+      11
+    ],
+    "maxScore": 17,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "fd1e7bc0bd82a206abdd71b3",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/211988Orig1s000PharmR.pdf",
+    "pdfPages": 559,
+    "lowTextPages": 191,
+    "textFile": "/tmp/ind-full-screen/text/fd1e7bc0bd82a206abdd71b3.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fd1e7bc0bd82a206abdd71b3.source",
+    "applications": [
+      "211988"
+    ],
+    "products": [
+      "ZYNRELEF KIT [BUPIVACAINE; MELOXICAM]"
+    ],
+    "candidatePages": [
+      205,
+      412
+    ],
+    "maxScore": 17,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5972eb58ee58be8eb5e37afe",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000SumR.pdf",
+    "pdfPages": 51,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/5972eb58ee58be8eb5e37afe.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5972eb58ee58be8eb5e37afe.source",
+    "applications": [
+      "761156"
+    ],
+    "products": [
+      "SOGROYA [SOMAPACITAN-BECO]"
+    ],
+    "candidatePages": [
+      2,
+      26,
+      38
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "1a217a2d3761a8f6aefc74c1",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218037Orig1s000AdminCorres.pdf",
+    "pdfPages": 54,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/1a217a2d3761a8f6aefc74c1.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "218037"
+    ],
+    "products": [
+      "VOYDEYA [DANICOPAN]"
+    ],
+    "candidatePages": [
+      24
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "d32be96003055feff4000707",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000RiskR.pdf",
+    "pdfPages": 15,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d32be96003055feff4000707.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d32be96003055feff4000707.source",
+    "applications": [
+      "761211"
+    ],
+    "products": [
+      "LOARGYS [PEGZILARGINASE-NBLN]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 16,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ce4c69a7b46f589a7d0f232b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213953Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 292,
+    "lowTextPages": 91,
+    "textFile": "/tmp/ind-full-screen/text/ce4c69a7b46f589a7d0f232b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ce4c69a7b46f589a7d0f232b.source",
+    "applications": [
+      "213953"
+    ],
+    "products": [
+      "KYZATREX [TESTOSTERONE UNDECANOATE]"
+    ],
+    "candidatePages": [
+      4,
+      48,
+      74
+    ],
+    "maxScore": 15,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ee15c9b8c3f9a04ca8ebe37d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761315Orig1s000AdminCorres.pdf",
+    "pdfPages": 52,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/ee15c9b8c3f9a04ca8ebe37d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ee15c9b8c3f9a04ca8ebe37d.source",
+    "applications": [
+      "761315"
+    ],
+    "products": [
+      "ALHEMO [CONCIZUMAB-MTCI]"
+    ],
+    "candidatePages": [
+      36
+    ],
+    "maxScore": 15,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ddb9a3c4230afc5a18998452",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/210875Orig1s000ChemR.pdf",
+    "pdfPages": 36,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/ddb9a3c4230afc5a18998452.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ddb9a3c4230afc5a18998452.source",
+    "applications": [
+      "210875"
+    ],
+    "products": [
+      "KYNMOBI [APOMORPHINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      17,
+      23
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "194dbbc73bca79eb450a3053",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/211988Orig1s000ClinPharmR.pdf",
+    "pdfPages": 89,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/194dbbc73bca79eb450a3053.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "211988"
+    ],
+    "products": [
+      "ZYNRELEF KIT [BUPIVACAINE; MELOXICAM]"
+    ],
+    "candidatePages": [
+      4
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "4d31de5db23638e887852b03",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213953Orig1s000SumR.pdf",
+    "pdfPages": 25,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/4d31de5db23638e887852b03.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4d31de5db23638e887852b03.source",
+    "applications": [
+      "213953"
+    ],
+    "products": [
+      "KYZATREX [TESTOSTERONE UNDECANOATE]"
+    ],
+    "candidatePages": [
+      2,
+      3
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "15aba774d0efb2bb137a59f8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000AdminCorres.pdf",
+    "pdfPages": 66,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/15aba774d0efb2bb137a59f8.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215192"
+    ],
+    "products": [
+      "VAFSEO [VADADUSTAT]"
+    ],
+    "candidatePages": [
+      33,
+      53,
+      54
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5b4acf9954aa1e6863e17110",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218037Orig1s000IntegratedR.pdf",
+    "pdfPages": 362,
+    "lowTextPages": 14,
+    "textFile": "/tmp/ind-full-screen/text/5b4acf9954aa1e6863e17110.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5b4acf9954aa1e6863e17110.source",
+    "applications": [
+      "218037"
+    ],
+    "products": [
+      "VOYDEYA [DANICOPAN]"
+    ],
+    "candidatePages": [
+      72
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "15b363ba7a6302aff245f401",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/018342Orig1s015Unireview.pdf",
+    "pdfPages": 126,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/15b363ba7a6302aff245f401.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "018342"
+    ],
+    "products": [
+      "WELLCOVORIN [LEUCOVORIN CALCIUM]"
+    ],
+    "candidatePages": [
+      1
+    ],
+    "maxScore": 14,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "3bf7728ae77a4f41b32cece6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215206Orig1s000IntegratedR.pdf",
+    "pdfPages": 280,
+    "lowTextPages": 25,
+    "textFile": "/tmp/ind-full-screen/text/3bf7728ae77a4f41b32cece6.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3bf7728ae77a4f41b32cece6.source",
+    "applications": [
+      "215206"
+    ],
+    "products": [
+      "QULIPTA [ATOGEPANT]"
+    ],
+    "candidatePages": [
+      120,
+      121
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "d4ca4f2b1e6c6e82c7a31830",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215309Orig1s000AdminCorres.pdf",
+    "pdfPages": 50,
+    "lowTextPages": 13,
+    "textFile": "/tmp/ind-full-screen/text/d4ca4f2b1e6c6e82c7a31830.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d4ca4f2b1e6c6e82c7a31830.source",
+    "applications": [
+      "215309"
+    ],
+    "products": [
+      "OPZELURA [RUXOLITINIB PHOSPHATE]"
+    ],
+    "candidatePages": [
+      46
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "d36413c2fe2492d2b80ae747",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215842Orig1s000IntegratedR.pdf",
+    "pdfPages": 185,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d36413c2fe2492d2b80ae747.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d36413c2fe2492d2b80ae747.source",
+    "applications": [
+      "215842"
+    ],
+    "products": [
+      "RIVFLOZA [NEDOSIRAN SODIUM]"
+    ],
+    "candidatePages": [
+      52
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "55f4396d370ee6dff225efe0",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/215960Orig1s000IntegratedR.pdf",
+    "pdfPages": 484,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/55f4396d370ee6dff225efe0.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/55f4396d370ee6dff225efe0.source",
+    "applications": [
+      "215960"
+    ],
+    "products": [
+      "UTEBZI [TEBIPENEM PIVOXIL HYDROBROMIDE]"
+    ],
+    "candidatePages": [
+      105
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "7acad37e0a0f0b9e8a281f09",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219083Orig1s000AdminCorres.pdf",
+    "pdfPages": 47,
+    "lowTextPages": 4,
+    "textFile": "/tmp/ind-full-screen/text/7acad37e0a0f0b9e8a281f09.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/7acad37e0a0f0b9e8a281f09.source",
+    "applications": [
+      "219083"
+    ],
+    "products": [
+      "MYQORZO [AFICAMTEN]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 13,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "4db0b093f6702ad6e1391cfc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/212045Orig1s000PharmR.pdf",
+    "pdfPages": 150,
+    "lowTextPages": 58,
+    "textFile": "/tmp/ind-full-screen/text/4db0b093f6702ad6e1391cfc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4db0b093f6702ad6e1391cfc.source",
+    "applications": [
+      "212045"
+    ],
+    "products": [
+      "KLOXXADO [NALOXONE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      40,
+      148
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "01e8d1b3a515b8fafc50abb1",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215358Orig1s000,Orig2s000AdminCorres.pdf",
+    "pdfPages": 55,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/01e8d1b3a515b8fafc50abb1.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215358"
+    ],
+    "products": [
+      "SCEMBLIX [ASCIMINIB HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      45
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "50a983e0a287f1fc44c2295a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/021164Orig1s000ChemR.pdf",
+    "pdfPages": 108,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/50a983e0a287f1fc44c2295a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/50a983e0a287f1fc44c2295a.source",
+    "applications": [
+      "021164"
+    ],
+    "products": [
+      "EXXUA [GEPIRONE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      74,
+      85,
+      95,
+      106
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "598698f03312b1340ef1677d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/218276Orig1s000IntegratedR.pdf",
+    "pdfPages": 349,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/598698f03312b1340ef1677d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/598698f03312b1340ef1677d.source",
+    "applications": [
+      "218276"
+    ],
+    "products": [
+      "FABHALTA [IPTACOPAN HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      93
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "420e4f8b723ebbe52bda7f7f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/211448Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 94,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/420e4f8b723ebbe52bda7f7f.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/420e4f8b723ebbe52bda7f7f.source",
+    "applications": [
+      "211448"
+    ],
+    "products": [
+      "MEZOFY [ARIPIPRAZOLE]"
+    ],
+    "candidatePages": [
+      2
+    ],
+    "maxScore": 12,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "3269ee553861a3239ad63e15",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204957Orig1s000PharmR.pdf",
+    "pdfPages": 84,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/3269ee553861a3239ad63e15.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "204957"
+    ],
+    "products": [
+      "ACETAMINOPHEN [ACETAMINOPHEN]"
+    ],
+    "candidatePages": [
+      81
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "47c9ad3631ec8253d49c6887",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761174Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 172,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/47c9ad3631ec8253d49c6887.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/47c9ad3631ec8253d49c6887.source",
+    "applications": [
+      "761174"
+    ],
+    "products": [
+      "JEMPERLI [DOSTARLIMAB-GXLY]"
+    ],
+    "candidatePages": [
+      36
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "c627d711516d552880427dc2",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761164Orig1s000PharmR.pdf",
+    "pdfPages": 44,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/c627d711516d552880427dc2.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c627d711516d552880427dc2.source",
+    "applications": [
+      "761164"
+    ],
+    "products": [
+      "ENJAYMO [SUTIMLIMAB-JOME]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "dff8e606809981c25d4fd1b3",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761184Orig1s000OtherR.pdf",
+    "pdfPages": 185,
+    "lowTextPages": 86,
+    "textFile": "/tmp/ind-full-screen/text/dff8e606809981c25d4fd1b3.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/dff8e606809981c25d4fd1b3.source",
+    "applications": [
+      "761184"
+    ],
+    "products": [
+      "NGENLA [SOMATROGON-GHLA]"
+    ],
+    "candidatePages": [
+      182
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5e8f5bbc5d62907326b16bfc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/210136Orig1s000MedR.pdf",
+    "pdfPages": 246,
+    "lowTextPages": 16,
+    "textFile": "/tmp/ind-full-screen/text/5e8f5bbc5d62907326b16bfc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5e8f5bbc5d62907326b16bfc.source",
+    "applications": [
+      "210136"
+    ],
+    "products": [
+      "BRIXADI [BUPRENORPHINE]"
+    ],
+    "candidatePages": [
+      28,
+      152
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "775ecc8152ff39750d65e760",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213976Orig1s000AdminCorres.pdf",
+    "pdfPages": 66,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/775ecc8152ff39750d65e760.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/775ecc8152ff39750d65e760.source",
+    "applications": [
+      "213976"
+    ],
+    "products": [
+      "EOHILIA [BUDESONIDE]"
+    ],
+    "candidatePages": [
+      57
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ce19153df989ba93b319b46a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216158Orig1s000AdminCorres.pdf",
+    "pdfPages": 49,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/ce19153df989ba93b319b46a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ce19153df989ba93b319b46a.source",
+    "applications": [
+      "216158"
+    ],
+    "products": [
+      "COBENFY [TROSPIUM CHLORIDE; XANOMELINE TARTRATE]"
+    ],
+    "candidatePages": [
+      26
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "1af1f369403385dc687a2634",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216482Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 102,
+    "lowTextPages": 27,
+    "textFile": "/tmp/ind-full-screen/text/1af1f369403385dc687a2634.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "216482"
+    ],
+    "products": [
+      "MYHIBBIN [MYCOPHENOLATE MOFETIL]"
+    ],
+    "candidatePages": [
+      48,
+      49
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5dd8f11935b990eb84dc9974",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216483Orig1s000IntegratedR.pdf",
+    "pdfPages": 212,
+    "lowTextPages": 14,
+    "textFile": "/tmp/ind-full-screen/text/5dd8f11935b990eb84dc9974.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5dd8f11935b990eb84dc9974.source",
+    "applications": [
+      "216483"
+    ],
+    "products": [
+      "PIVYA [PIVMECILLINAM HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      92,
+      102
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b59169d4dd0e92aab827a952",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218764Orig1s000AdminCorres.pdf",
+    "pdfPages": 55,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b59169d4dd0e92aab827a952.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b59169d4dd0e92aab827a952.source",
+    "applications": [
+      "218764"
+    ],
+    "products": [
+      "JASCAYD [NERANDOMILAST]"
+    ],
+    "candidatePages": [
+      12
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "69716e07534edfc0c5c48330",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219474Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 319,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/69716e07534edfc0c5c48330.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/69716e07534edfc0c5c48330.source",
+    "applications": [
+      "219474"
+    ],
+    "products": [
+      "ADQUEY [DIFAMILAST]"
+    ],
+    "candidatePages": [
+      176
+    ],
+    "maxScore": 11,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "4b3250c7690d89911fb4a4f4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/021368Orig1s020.pdf",
+    "pdfPages": 750,
+    "lowTextPages": 180,
+    "textFile": "/tmp/ind-full-screen/text/4b3250c7690d89911fb4a4f4.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4b3250c7690d89911fb4a4f4.source",
+    "applications": [
+      "021368"
+    ],
+    "products": [
+      "CIALIS [TADALAFIL]"
+    ],
+    "candidatePages": [
+      13
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "754c5c88f27996ddb1becce1",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209529Orig1s000ClinPharmR.pdf",
+    "pdfPages": 75,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/754c5c88f27996ddb1becce1.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/754c5c88f27996ddb1becce1.source",
+    "applications": [
+      "209529"
+    ],
+    "products": [
+      "VESICARE LS [SOLIFENACIN SUCCINATE]"
+    ],
+    "candidatePages": [
+      3,
+      4
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "52b43e2d921d2273d74fc76e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213793Orig1s000MedR.pdf",
+    "pdfPages": 197,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/52b43e2d921d2273d74fc76e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/52b43e2d921d2273d74fc76e.source",
+    "applications": [
+      "213793"
+    ],
+    "products": [
+      "IMCIVREE [SETMELANOTIDE ACETATE]"
+    ],
+    "candidatePages": [
+      33,
+      89,
+      140
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "bfa0582ba7036b66328cc9cc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/125522Orig2s000MedR.pdf",
+    "pdfPages": 83,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/bfa0582ba7036b66328cc9cc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bfa0582ba7036b66328cc9cc.source",
+    "applications": [
+      "125522"
+    ],
+    "products": [
+      "REPATHA [EVOLOCUMAB]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5546a23593a80e558f21e4fb",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214429Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 277,
+    "lowTextPages": 18,
+    "textFile": "/tmp/ind-full-screen/text/5546a23593a80e558f21e4fb.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5546a23593a80e558f21e4fb.source",
+    "applications": [
+      "214429"
+    ],
+    "products": [
+      "FEXINIDAZOLE [FEXINIDAZOLE]"
+    ],
+    "candidatePages": [
+      57,
+      58
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "4a8de1fed2a374bf54bdd47a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214846Orig1s000PharmR.pdf",
+    "pdfPages": 92,
+    "lowTextPages": 20,
+    "textFile": "/tmp/ind-full-screen/text/4a8de1fed2a374bf54bdd47a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4a8de1fed2a374bf54bdd47a.source",
+    "applications": [
+      "214846"
+    ],
+    "products": [
+      "MYFEMBREE [ESTRADIOL; NORETHINDRONE ACETATE; RELUGOLIX]"
+    ],
+    "candidatePages": [
+      27
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "6b5e64d045e82e4369dd4bc4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/204803Orig1s000PharmR.pdf",
+    "pdfPages": 298,
+    "lowTextPages": 19,
+    "textFile": "/tmp/ind-full-screen/text/6b5e64d045e82e4369dd4bc4.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/6b5e64d045e82e4369dd4bc4.source",
+    "applications": [
+      "204803"
+    ],
+    "products": [
+      "POSIMIR [BUPIVACAINE]"
+    ],
+    "candidatePages": [
+      9
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b846b4ea9d0ba8629456a492",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214032Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 59,
+    "lowTextPages": 7,
+    "textFile": "/tmp/ind-full-screen/text/b846b4ea9d0ba8629456a492.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b846b4ea9d0ba8629456a492.source",
+    "applications": [
+      "214032"
+    ],
+    "products": [
+      "ILLUCCIX [GALLIUM GA-68 GOZETOTIDE]"
+    ],
+    "candidatePages": [
+      23
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "a8163c288c738ad0e99ed432",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214801Orig1s000AdminCorres.pdf",
+    "pdfPages": 54,
+    "lowTextPages": 6,
+    "textFile": "/tmp/ind-full-screen/text/a8163c288c738ad0e99ed432.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a8163c288c738ad0e99ed432.source",
+    "applications": [
+      "214801"
+    ],
+    "products": [
+      "LYTGOBI [FUTIBATINIB]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "a48258fc2361423a3a875ded",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215092Orig1s000PharmR.pdf",
+    "pdfPages": 196,
+    "lowTextPages": 19,
+    "textFile": "/tmp/ind-full-screen/text/a48258fc2361423a3a875ded.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a48258fc2361423a3a875ded.source",
+    "applications": [
+      "215092"
+    ],
+    "products": [
+      "OMLONTI [OMIDENEPAG ISOPROPYL]"
+    ],
+    "candidatePages": [
+      110
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "f2acedf5298e674e9d3a19f1",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000OtherR.pdf",
+    "pdfPages": 97,
+    "lowTextPages": 14,
+    "textFile": "/tmp/ind-full-screen/text/f2acedf5298e674e9d3a19f1.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f2acedf5298e674e9d3a19f1.source",
+    "applications": [
+      "761261"
+    ],
+    "products": [
+      "XENPOZYME [OLIPUDASE ALFA-RPCP]"
+    ],
+    "candidatePages": [
+      39,
+      71
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "72a73a51c036cfecbb4b8dca",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216873Orig1s000IntegratedR.pdf",
+    "pdfPages": 470,
+    "lowTextPages": 17,
+    "textFile": "/tmp/ind-full-screen/text/72a73a51c036cfecbb4b8dca.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/72a73a51c036cfecbb4b8dca.source",
+    "applications": [
+      "216873"
+    ],
+    "products": [
+      "OJJAARA [MOMELOTINIB DIHYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      337
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "4be4ac6f42ae96d772a85428",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761339Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 323,
+    "lowTextPages": 91,
+    "textFile": "/tmp/ind-full-screen/text/4be4ac6f42ae96d772a85428.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4be4ac6f42ae96d772a85428.source",
+    "applications": [
+      "761339"
+    ],
+    "products": [
+      "VEOPOZ [POZELIMAB-BBFG]"
+    ],
+    "candidatePages": [
+      174
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "11b557d61c80a8aaa4424d0f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000IntegratedR.pdf",
+    "pdfPages": 579,
+    "lowTextPages": 31,
+    "textFile": "/tmp/ind-full-screen/text/11b557d61c80a8aaa4424d0f.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215192"
+    ],
+    "products": [
+      "VAFSEO [VADADUSTAT]"
+    ],
+    "candidatePages": [
+      161
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "abea17708e6d8e3f7f886650",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217686Orig1s000IntegratedR.pdf",
+    "pdfPages": 289,
+    "lowTextPages": 33,
+    "textFile": "/tmp/ind-full-screen/text/abea17708e6d8e3f7f886650.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/abea17708e6d8e3f7f886650.source",
+    "applications": [
+      "217686"
+    ],
+    "products": [
+      "TRYVIO [APROCITENTAN]"
+    ],
+    "candidatePages": [
+      64
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "82fd9ac4a97d579bcb148a9b",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/217186Orig1s000MedR.pdf",
+    "pdfPages": 188,
+    "lowTextPages": 12,
+    "textFile": "/tmp/ind-full-screen/text/82fd9ac4a97d579bcb148a9b.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/82fd9ac4a97d579bcb148a9b.source",
+    "applications": [
+      "217186"
+    ],
+    "products": [
+      "CREXONT [CARBIDOPA; LEVODOPA]"
+    ],
+    "candidatePages": [
+      18,
+      19
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "50de20007e22ff96e087b5d9",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/217673Orig1s000IntegratedR.pdf",
+    "pdfPages": 345,
+    "lowTextPages": 14,
+    "textFile": "/tmp/ind-full-screen/text/50de20007e22ff96e087b5d9.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/50de20007e22ff96e087b5d9.source",
+    "applications": [
+      "217673"
+    ],
+    "products": [
+      "BRINSUPRI [BRENSOCATIB]"
+    ],
+    "candidatePages": [
+      20,
+      111
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "90d185fe33552a5cb7beff20",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218808Orig1s000,218820Orig1s000OtherR.pdf",
+    "pdfPages": 90,
+    "lowTextPages": 16,
+    "textFile": "/tmp/ind-full-screen/text/90d185fe33552a5cb7beff20.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/90d185fe33552a5cb7beff20.source",
+    "applications": [
+      "218808",
+      "218820"
+    ],
+    "products": [
+      "CRENESSITY [CRINECERFONT]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "108cb6219dbf5e30ac4e522c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219070Orig1s000IntegratedR.pdf",
+    "pdfPages": 392,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/108cb6219dbf5e30ac4e522c.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "219070"
+    ],
+    "products": [
+      "PALSONIFY [PALTUSOTINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      177
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "3e9c9991358e03971b25453d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/218145Orig1s000OtherR.pdf",
+    "pdfPages": 136,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/3e9c9991358e03971b25453d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3e9c9991358e03971b25453d.source",
+    "applications": [
+      "218145"
+    ],
+    "products": [
+      "SIMTRIYO [CENTANAFADINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      4,
+      5
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "e3d781e96e1417b1e269218d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/218571Orig1s000IntegratedR.pdf",
+    "pdfPages": 224,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e3d781e96e1417b1e269218d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e3d781e96e1417b1e269218d.source",
+    "applications": [
+      "218571"
+    ],
+    "products": [
+      "CARDAMYST [ETRIPAMIL]"
+    ],
+    "candidatePages": [
+      42
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b57ff22b1618161f564b70e0",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219908Orig1s000AdminCorres.pdf",
+    "pdfPages": 38,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/b57ff22b1618161f564b70e0.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b57ff22b1618161f564b70e0.source",
+    "applications": [
+      "219908"
+    ],
+    "products": [
+      "REVTORPYK [GEDATOLISIB]"
+    ],
+    "candidatePages": [
+      32
+    ],
+    "maxScore": 10,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "9c7ec37cb09a5fab6aa49db7",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209575Orig1s000SumR.pdf",
+    "pdfPages": 44,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/9c7ec37cb09a5fab6aa49db7.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9c7ec37cb09a5fab6aa49db7.source",
+    "applications": [
+      "209575"
+    ],
+    "products": [
+      "NUMBRINO [COCAINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      21
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "633ee8bbabbe50e3b8d8947c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/212887Orig1s000,212888Orig1s000AdminCorres.pdf",
+    "pdfPages": 30,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/633ee8bbabbe50e3b8d8947c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/633ee8bbabbe50e3b8d8947c.source",
+    "applications": [
+      "212887",
+      "212888"
+    ],
+    "products": [
+      "CABENUVA KIT [CABOTEGRAVIR; RILPIVIRINE]",
+      "VOCABRIA [CABOTEGRAVIR SODIUM]"
+    ],
+    "candidatePages": [
+      20
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "1f70f325adb74e196fd398c4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215498Orig1s000Lbl.pdf",
+    "pdfPages": 29,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/1f70f325adb74e196fd398c4.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215498"
+    ],
+    "products": [
+      "BYLVAY [ODEVIXIBAT]"
+    ],
+    "candidatePages": [
+      8
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "47ee4d826a0e3abb74073f45",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213895Orig1s000OtherR.pdf",
+    "pdfPages": 47,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/47ee4d826a0e3abb74073f45.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/47ee4d826a0e3abb74073f45.source",
+    "applications": [
+      "213895"
+    ],
+    "products": [
+      "VANCOMYCIN [VANCOMYCIN]"
+    ],
+    "candidatePages": [
+      16
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "710fa9ccccd47add0612298e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216340Orig1s000AdminCorres.pdf",
+    "pdfPages": 42,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/710fa9ccccd47add0612298e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/710fa9ccccd47add0612298e.source",
+    "applications": [
+      "216340"
+    ],
+    "products": [
+      "KRAZATI [ADAGRASIB]"
+    ],
+    "candidatePages": [
+      5,
+      6,
+      8
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "0ecb4e603357a4e175c79f4f",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216578Orig1s000MedR.pdf",
+    "pdfPages": 264,
+    "lowTextPages": 19,
+    "textFile": "/tmp/ind-full-screen/text/0ecb4e603357a4e175c79f4f.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "216578"
+    ],
+    "products": [
+      "VEOZAH [FEZOLINETANT]"
+    ],
+    "candidatePages": [
+      228
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "73a54501486635b7eff81a5a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/210136Orig1s000AdminCorres.pdf",
+    "pdfPages": 73,
+    "lowTextPages": 21,
+    "textFile": "/tmp/ind-full-screen/text/73a54501486635b7eff81a5a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/73a54501486635b7eff81a5a.source",
+    "applications": [
+      "210136"
+    ],
+    "products": [
+      "BRIXADI [BUPRENORPHINE]"
+    ],
+    "candidatePages": [
+      8
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "fce8b0ac9cff608cb9fec1bc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216490Orig1s000AdminCorres.pdf",
+    "pdfPages": 46,
+    "lowTextPages": 11,
+    "textFile": "/tmp/ind-full-screen/text/fce8b0ac9cff608cb9fec1bc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fce8b0ac9cff608cb9fec1bc.source",
+    "applications": [
+      "216490"
+    ],
+    "products": [
+      "YORVIPATH [PALOPEGTERIPARATIDE]"
+    ],
+    "candidatePages": [
+      27
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "3e77b4d6e4cf9d9ed90c39e8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216962Orig1s000AdminCorres.pdf",
+    "pdfPages": 72,
+    "lowTextPages": 15,
+    "textFile": "/tmp/ind-full-screen/text/3e77b4d6e4cf9d9ed90c39e8.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3e77b4d6e4cf9d9ed90c39e8.source",
+    "applications": [
+      "216962"
+    ],
+    "products": [
+      "VYALEV [FOSCARBIDOPA; FOSLEVODOPA]"
+    ],
+    "candidatePages": [
+      29,
+      35
+    ],
+    "maxScore": 9,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "f639671e7941dfacfa137c65",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209510Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 200,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/f639671e7941dfacfa137c65.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f639671e7941dfacfa137c65.source",
+    "applications": [
+      "209510"
+    ],
+    "products": [
+      "BARHEMSYS [AMISULPRIDE]"
+    ],
+    "candidatePages": [
+      86
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "164e3a4df2173fccb056d319",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212801Orig1s000AdminCorres.pdf",
+    "pdfPages": 35,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/164e3a4df2173fccb056d319.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "212801"
+    ],
+    "products": [
+      "ISTURISA [OSILODROSTAT PHOSPHATE]"
+    ],
+    "candidatePages": [
+      30
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "fd09654a2a23f945a0b1eb4d",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/202049Orig1s000AdminCorres.pdf",
+    "pdfPages": 26,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/fd09654a2a23f945a0b1eb4d.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fd09654a2a23f945a0b1eb4d.source",
+    "applications": [
+      "202049"
+    ],
+    "products": [
+      "BRONCHITOL [MANNITOL]"
+    ],
+    "candidatePages": [
+      19
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b551ccf0e7d7f5e12326c7dc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215498Orig1s000OtherR.pdf",
+    "pdfPages": 106,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/b551ccf0e7d7f5e12326c7dc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b551ccf0e7d7f5e12326c7dc.source",
+    "applications": [
+      "215498"
+    ],
+    "products": [
+      "BYLVAY [ODEVIXIBAT]"
+    ],
+    "candidatePages": [
+      80
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "e6baf7c97c0a84273bfdf8e9",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761177Orig1s000MedR.pdf",
+    "pdfPages": 175,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e6baf7c97c0a84273bfdf8e9.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e6baf7c97c0a84273bfdf8e9.source",
+    "applications": [
+      "761177"
+    ],
+    "products": [
+      "SKYTROFA [LONAPEGSOMATROPIN-TCGD]"
+    ],
+    "candidatePages": [
+      101
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "33e128d0ae45dd35ea91f990",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761177Orig1s000OtherR.pdf",
+    "pdfPages": 185,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/33e128d0ae45dd35ea91f990.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761177"
+    ],
+    "products": [
+      "SKYTROFA [LONAPEGSOMATROPIN-TCGD]"
+    ],
+    "candidatePages": [
+      138
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "35bfb7b404527e5603d975cc",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761177Orig1s000SumR.pdf",
+    "pdfPages": 50,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/35bfb7b404527e5603d975cc.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/35bfb7b404527e5603d975cc.source",
+    "applications": [
+      "761177"
+    ],
+    "products": [
+      "SKYTROFA [LONAPEGSOMATROPIN-TCGD]"
+    ],
+    "candidatePages": [
+      24
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "f1721c20c1ac4b7356c86678",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215760Orig1s000OtherR.pdf",
+    "pdfPages": 110,
+    "lowTextPages": 24,
+    "textFile": "/tmp/ind-full-screen/text/f1721c20c1ac4b7356c86678.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f1721c20c1ac4b7356c86678.source",
+    "applications": [
+      "215760"
+    ],
+    "products": [
+      "CUVRIOR [TRIENTINE TETRAHYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      30
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "f3496b14845b382ee33814e8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217159Orig1s000IntegratedR.pdf",
+    "pdfPages": 297,
+    "lowTextPages": 15,
+    "textFile": "/tmp/ind-full-screen/text/f3496b14845b382ee33814e8.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f3496b14845b382ee33814e8.source",
+    "applications": [
+      "217159"
+    ],
+    "products": [
+      "APHEXDA [MOTIXAFORTIDE ACETATE]"
+    ],
+    "candidatePages": [
+      20
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "1dbb17a3753185487d7b6816",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215430Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 232,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/1dbb17a3753185487d7b6816.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "215430"
+    ],
+    "products": [
+      "AUVELITY [BUPROPION HYDROCHLORIDE; DEXTROMETHORPHAN HYDROBROMIDE]"
+    ],
+    "candidatePages": [
+      40
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "10f3872b4143f080de889da6",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218709Orig1s000IntegratedR.pdf",
+    "pdfPages": 227,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/10f3872b4143f080de889da6.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "218709"
+    ],
+    "products": [
+      "XOLREMDI [MAVORIXAFOR]"
+    ],
+    "candidatePages": [
+      76
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b11ad09dd0b9211f5a7dd56e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216483Orig1s000OtherR.pdf",
+    "pdfPages": 88,
+    "lowTextPages": 16,
+    "textFile": "/tmp/ind-full-screen/text/b11ad09dd0b9211f5a7dd56e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b11ad09dd0b9211f5a7dd56e.source",
+    "applications": [
+      "216483"
+    ],
+    "products": [
+      "PIVYA [PIVMECILLINAM HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      28
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "8c898c32dd6e3fa42d3583ea",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/217186Orig1s000AdminCorres.pdf",
+    "pdfPages": 54,
+    "lowTextPages": 4,
+    "textFile": "/tmp/ind-full-screen/text/8c898c32dd6e3fa42d3583ea.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/8c898c32dd6e3fa42d3583ea.source",
+    "applications": [
+      "217186"
+    ],
+    "products": [
+      "CREXONT [CARBIDOPA; LEVODOPA]"
+    ],
+    "candidatePages": [
+      6
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "f67e6f15fddf6efdc5e3cbf5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219666Orig1s000OtherR.pdf",
+    "pdfPages": 105,
+    "lowTextPages": 9,
+    "textFile": "/tmp/ind-full-screen/text/f67e6f15fddf6efdc5e3cbf5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/f67e6f15fddf6efdc5e3cbf5.source",
+    "applications": [
+      "219666"
+    ],
+    "products": [
+      "SEPHIENCE [SEPIAPTERIN]"
+    ],
+    "candidatePages": [
+      46
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "3db698cf0ac3b9ab514dc132",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219685Orig1s000IntegratedR.pdf",
+    "pdfPages": 324,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/3db698cf0ac3b9ab514dc132.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/3db698cf0ac3b9ab514dc132.source",
+    "applications": [
+      "219685"
+    ],
+    "products": [
+      "WAYRILZ [RILZABRUTINIB]"
+    ],
+    "candidatePages": [
+      20
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ed1f6ad4ea2908a39eb9d0ed",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219713Orig1s000AdminCorres.pdf",
+    "pdfPages": 58,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/ed1f6ad4ea2908a39eb9d0ed.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ed1f6ad4ea2908a39eb9d0ed.source",
+    "applications": [
+      "219713"
+    ],
+    "products": [
+      "IBTROZI [TALETRECTINIB ADIPATE]"
+    ],
+    "candidatePages": [
+      54
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "e4e5ea81b03bde09e028a747",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/761315Orig1s000IntegratedR.pdf",
+    "pdfPages": 342,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/e4e5ea81b03bde09e028a747.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e4e5ea81b03bde09e028a747.source",
+    "applications": [
+      "761315"
+    ],
+    "products": [
+      "ALHEMO [CONCIZUMAB-MTCI]"
+    ],
+    "candidatePages": [
+      120,
+      185
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "27406b0714f02ed69ae1624a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/216964s000MultidisciplineR.pdf",
+    "pdfPages": 334,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/27406b0714f02ed69ae1624a.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "216964"
+    ],
+    "products": [
+      "IDVYNSO [DORAVIRINE; ISLATRAVIR]"
+    ],
+    "candidatePages": [
+      242
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "e8cbaf6f021e5af70afcbcf5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761211Orig1s000IntegratedR.pdf",
+    "pdfPages": 545,
+    "lowTextPages": 39,
+    "textFile": "/tmp/ind-full-screen/text/e8cbaf6f021e5af70afcbcf5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e8cbaf6f021e5af70afcbcf5.source",
+    "applications": [
+      "761211"
+    ],
+    "products": [
+      "LOARGYS [PEGZILARGINASE-NBLN]"
+    ],
+    "candidatePages": [
+      69,
+      159
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "d8d831d84124d4816ed99dce",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761485Orig1s000IntegratedR.pdf",
+    "pdfPages": 307,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/d8d831d84124d4816ed99dce.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/d8d831d84124d4816ed99dce.source",
+    "applications": [
+      "761485"
+    ],
+    "products": [
+      "AVLAYAH [TIVIDENOFUSP ALFA-EKNM]"
+    ],
+    "candidatePages": [
+      127
+    ],
+    "maxScore": 8,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ef573cae33b6a82b4f891050",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/021008Orig1s028.pdf",
+    "pdfPages": 166,
+    "lowTextPages": 27,
+    "textFile": "/tmp/ind-full-screen/text/ef573cae33b6a82b4f891050.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ef573cae33b6a82b4f891050.source",
+    "applications": [
+      "021008"
+    ],
+    "products": [
+      "SANDOSTATIN LAR [OCTREOTIDE ACETATE]"
+    ],
+    "candidatePages": [
+      13
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "0fec4f8033d02b6d260c0984",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/022023Orig1s017.pdf",
+    "pdfPages": 295,
+    "lowTextPages": 7,
+    "textFile": "/tmp/ind-full-screen/text/0fec4f8033d02b6d260c0984.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/0fec4f8033d02b6d260c0984.source",
+    "applications": [
+      "022023"
+    ],
+    "products": [
+      "EMEND [FOSAPREPITANT DIMEGLUMINE]"
+    ],
+    "candidatePages": [
+      36
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "e0dbe964c8e4ad41797bd9a8",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/125514Orig1s014.pdf",
+    "pdfPages": 378,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/e0dbe964c8e4ad41797bd9a8.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/e0dbe964c8e4ad41797bd9a8.source",
+    "applications": [
+      "125514"
+    ],
+    "products": [
+      "KEYTRUDA [PEMBROLIZUMAB]"
+    ],
+    "candidatePages": [
+      112
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "2791c8498f1a5ce9447fd087",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/209899Orig1s000MedR.pdf",
+    "pdfPages": 216,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/2791c8498f1a5ce9447fd087.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "209899"
+    ],
+    "products": [
+      "ZEPOSIA [OZANIMOD HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      178
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "51b9ef387f80bac5e19f515a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213411Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 272,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/51b9ef387f80bac5e19f515a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/51b9ef387f80bac5e19f515a.source",
+    "applications": [
+      "213411"
+    ],
+    "products": [
+      "TUKYSA [TUCATINIB]"
+    ],
+    "candidatePages": [
+      97
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "818e6e6783f24d9e9ac53582",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214701Orig1s000MultidisciplineR.pdf",
+    "pdfPages": 276,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/818e6e6783f24d9e9ac53582.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/818e6e6783f24d9e9ac53582.source",
+    "applications": [
+      "214701"
+    ],
+    "products": [
+      "GAVRETO [PRALSETINIB]"
+    ],
+    "candidatePages": [
+      87,
+      89
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5550fd151f82dd731742da77",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761166Orig1s000RiskR.pdf",
+    "pdfPages": 17,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/5550fd151f82dd731742da77.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5550fd151f82dd731742da77.source",
+    "applications": [
+      "761166"
+    ],
+    "products": [
+      "BESREMI [ROPEGINTERFERON ALFA-2B-NJFT]"
+    ],
+    "candidatePages": [
+      5
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "22922bf597a8b31c38d3337c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761174Orig1s000OtherR.pdf",
+    "pdfPages": 33,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/22922bf597a8b31c38d3337c.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761174"
+    ],
+    "products": [
+      "JEMPERLI [DOSTARLIMAB-GXLY]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "4f9861ee874a9f10bb3fae42",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761411Orig1s000AdminCorres.pdf",
+    "pdfPages": 20,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/4f9861ee874a9f10bb3fae42.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/4f9861ee874a9f10bb3fae42.source",
+    "applications": [
+      "761411"
+    ],
+    "products": [
+      "NIKTIMVO [axatilimab-csfr]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "bf38829589b744d50d44b90c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/213224Orig1s000OtherR.pdf",
+    "pdfPages": 229,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/bf38829589b744d50d44b90c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bf38829589b744d50d44b90c.source",
+    "applications": [
+      "213224"
+    ],
+    "products": [
+      "BYNFEZIA PEN [OCTREOTIDE ACETATE]"
+    ],
+    "candidatePages": [
+      98
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "a936b3179dbda53644b76241",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/219878Orig1s000OtherR.pdf",
+    "pdfPages": 59,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/a936b3179dbda53644b76241.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/a936b3179dbda53644b76241.source",
+    "applications": [
+      "219878"
+    ],
+    "products": [
+      "BAXFENDY [BAXDROSTAT]"
+    ],
+    "candidatePages": [
+      58
+    ],
+    "maxScore": 7,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "c8a728629e64d0ecc017c19e",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/125057Orig1s232.pdf",
+    "pdfPages": 756,
+    "lowTextPages": 402,
+    "textFile": "/tmp/ind-full-screen/text/c8a728629e64d0ecc017c19e.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/c8a728629e64d0ecc017c19e.source",
+    "applications": [
+      "125057"
+    ],
+    "products": [
+      "HUMIRA [ADALIMUMAB]"
+    ],
+    "candidatePages": [
+      655
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "5d4a3117ab8fa3f492633aaa",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000MedR.pdf",
+    "pdfPages": 195,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/5d4a3117ab8fa3f492633aaa.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/5d4a3117ab8fa3f492633aaa.source",
+    "applications": [
+      "761156"
+    ],
+    "products": [
+      "SOGROYA [SOMAPACITAN-BECO]"
+    ],
+    "candidatePages": [
+      47
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "bcbdbeea033270b13f0431ba",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/211964Orig1s000OtherR.pdf",
+    "pdfPages": 115,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/bcbdbeea033270b13f0431ba.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bcbdbeea033270b13f0431ba.source",
+    "applications": [
+      "211964"
+    ],
+    "products": [
+      "QELBREE [VILOXAZINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      18
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "11429ea0a1d7a656205537d4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761166Orig1s000AdminCorres.pdf",
+    "pdfPages": 60,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/11429ea0a1d7a656205537d4.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761166"
+    ],
+    "products": [
+      "BESREMI [ROPEGINTERFERON ALFA-2B-NJFT]"
+    ],
+    "candidatePages": [
+      39
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "2fe80700597076726fbd0f34",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761166Orig1s000OtherR.pdf",
+    "pdfPages": 90,
+    "lowTextPages": 11,
+    "textFile": "/tmp/ind-full-screen/text/2fe80700597076726fbd0f34.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "761166"
+    ],
+    "products": [
+      "BESREMI [ROPEGINTERFERON ALFA-2B-NJFT]"
+    ],
+    "candidatePages": [
+      7
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "fe8bb135af0bc80431bc9cce",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/210526Orig1s000NameR.pdf",
+    "pdfPages": 21,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/fe8bb135af0bc80431bc9cce.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fe8bb135af0bc80431bc9cce.source",
+    "applications": [
+      "210526"
+    ],
+    "products": [
+      "DYANAVEL XR 10 [AMPHETAMINE; AMPHETAMINE ASPARTATE/DEXTROAMPHETAMINE SULFATE]",
+      "DYANAVEL XR 15 [AMPHETAMINE; AMPHETAMINE ASPARTATE/DEXTROAMPHETAMINE SULFATE]",
+      "DYANAVEL XR 20 [AMPHETAMINE; AMPHETAMINE ASPARTATE/DEXTROAMPHETAMINE SULFATE]",
+      "DYANAVEL XR 5 [AMPHETAMINE; AMPHETAMINE ASPARTATE/DEXTROAMPHETAMINE SULFATE]"
+    ],
+    "candidatePages": [
+      8
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "b1d286c728e858eb82062a58",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215152Orig1s000,215153Orig1s000AdminCorres.pdf",
+    "pdfPages": 36,
+    "lowTextPages": 5,
+    "textFile": "/tmp/ind-full-screen/text/b1d286c728e858eb82062a58.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/b1d286c728e858eb82062a58.source",
+    "applications": [
+      "215152",
+      "215153"
+    ],
+    "products": [
+      "VOQUEZNA DUAL PAK [AMOXICILLIN; VONOPRAZAN FUMARATE]",
+      "VOQUEZNA TRIPLE PAK [AMOXICILLIN; CLARITHROMYCIN; VONOPRAZAN FUMARATE]"
+    ],
+    "candidatePages": [
+      16
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "7a7500752a017bac246bce76",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215515Orig1s000PharmR.pdf",
+    "pdfPages": 65,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/7a7500752a017bac246bce76.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/7a7500752a017bac246bce76.source",
+    "applications": [
+      "215515"
+    ],
+    "products": [
+      "AMVUTTRA [VUTRISIRAN SODIUM]"
+    ],
+    "candidatePages": [
+      44
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "7efe9fa1896e5acca384abfa",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215866Orig1s000MedR.pdf",
+    "pdfPages": 336,
+    "lowTextPages": 176,
+    "textFile": "/tmp/ind-full-screen/text/7efe9fa1896e5acca384abfa.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/7efe9fa1896e5acca384abfa.source",
+    "applications": [
+      "215866"
+    ],
+    "products": [
+      "MOUNJARO (AUTOINJECTOR) [TIRZEPATIDE]",
+      "MOUNJARO KWIKPEN [TIRZEPATIDE]",
+      "MOUNJARO [TIRZEPATIDE]"
+    ],
+    "candidatePages": [
+      14
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "3fb8f9dcca69faa2c07bc099",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/202293Orig1s026.pdf",
+    "pdfPages": 162,
+    "lowTextPages": 12,
+    "textFile": "/tmp/ind-full-screen/text/3fb8f9dcca69faa2c07bc099.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "202293"
+    ],
+    "products": [
+      "FARXIGA [DAPAGLIFLOZIN]"
+    ],
+    "candidatePages": [
+      13
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "a6666223471eac353b86e118",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/212690Orig1s006.pdf",
+    "pdfPages": 488,
+    "lowTextPages": 160,
+    "textFile": "/tmp/ind-full-screen/text/a6666223471eac353b86e118.json.gz",
+    "sourceFile": null,
+    "applications": [
+      "212690"
+    ],
+    "products": [
+      "XYWAV [CALCIUM OXYBATE; MAGNESIUM OXYBATE; POTASSIUM OXYBATE; SODIUM OXYBATE]"
+    ],
+    "candidatePages": [
+      35
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "877c774469ea71592e5db535",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216578Orig1s000SumR.pdf",
+    "pdfPages": 47,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/877c774469ea71592e5db535.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/877c774469ea71592e5db535.source",
+    "applications": [
+      "216578"
+    ],
+    "products": [
+      "VEOZAH [FEZOLINETANT]"
+    ],
+    "candidatePages": [
+      12
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "cefa4ab0d13ed4e79ba74ca5",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216490Orig1s000OtherR.pdf",
+    "pdfPages": 111,
+    "lowTextPages": 11,
+    "textFile": "/tmp/ind-full-screen/text/cefa4ab0d13ed4e79ba74ca5.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/cefa4ab0d13ed4e79ba74ca5.source",
+    "applications": [
+      "216490"
+    ],
+    "products": [
+      "YORVIPATH [PALOPEGTERIPARATIDE]"
+    ],
+    "candidatePages": [
+      102
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "fae0063b1abfe33abc961d3a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216593Orig1s000MedR.pdf",
+    "pdfPages": 60,
+    "lowTextPages": 10,
+    "textFile": "/tmp/ind-full-screen/text/fae0063b1abfe33abc961d3a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/fae0063b1abfe33abc961d3a.source",
+    "applications": [
+      "216593"
+    ],
+    "products": [
+      "XROMI [HYDROXYUREA]"
+    ],
+    "candidatePages": [
+      30
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "67f7882d08b7fb4baa55fc0a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217785Orig1s000IntegratedR.pdf",
+    "pdfPages": 613,
+    "lowTextPages": 60,
+    "textFile": "/tmp/ind-full-screen/text/67f7882d08b7fb4baa55fc0a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/67f7882d08b7fb4baa55fc0a.source",
+    "applications": [
+      "217785"
+    ],
+    "products": [
+      "REZDIFFRA [RESMETIROM]"
+    ],
+    "candidatePages": [
+      112
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "998d7d95688b2e895ee6f76c",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/216593Orig2s000MedR.pdf",
+    "pdfPages": 63,
+    "lowTextPages": 2,
+    "textFile": "/tmp/ind-full-screen/text/998d7d95688b2e895ee6f76c.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/998d7d95688b2e895ee6f76c.source",
+    "applications": [
+      "216593"
+    ],
+    "products": [
+      "XROMI [HYDROXYUREA]"
+    ],
+    "candidatePages": [
+      33
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "9e5b64ef778a3f5b1732d98a",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219792Orig1s000OtherR.pdf",
+    "pdfPages": 74,
+    "lowTextPages": 0,
+    "textFile": "/tmp/ind-full-screen/text/9e5b64ef778a3f5b1732d98a.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/9e5b64ef778a3f5b1732d98a.source",
+    "applications": [
+      "219792"
+    ],
+    "products": [
+      "KYGEVVI [DOXECITINE; DOXRIBTIMINE]"
+    ],
+    "candidatePages": [
+      25
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "bc7736f1eff19a001fa721f4",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/214056Orig1s000OtherR.pdf",
+    "pdfPages": 264,
+    "lowTextPages": 119,
+    "textFile": "/tmp/ind-full-screen/text/bc7736f1eff19a001fa721f4.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/bc7736f1eff19a001fa721f4.source",
+    "applications": [
+      "214056"
+    ],
+    "products": [
+      "ONAPGO [APOMORPHINE HYDROCHLORIDE]"
+    ],
+    "candidatePages": [
+      126
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "58915459fab506fcf8c90156",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761326Orig2s000ClinPharmR.pdf",
+    "pdfPages": 95,
+    "lowTextPages": 13,
+    "textFile": "/tmp/ind-full-screen/text/58915459fab506fcf8c90156.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/58915459fab506fcf8c90156.source",
+    "applications": [
+      "761326"
+    ],
+    "products": [
+      "AWIQLI FLEXTOUCH [INSULIN ICODEC]"
+    ],
+    "candidatePages": [
+      2
+    ],
+    "maxScore": 6,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "ca5f2ec0dd7b8238fe1a5557",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215039Orig1s000AdminCorres.pdf",
+    "pdfPages": 42,
+    "lowTextPages": 3,
+    "textFile": "/tmp/ind-full-screen/text/ca5f2ec0dd7b8238fe1a5557.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/ca5f2ec0dd7b8238fe1a5557.source",
+    "applications": [
+      "215039"
+    ],
+    "products": [
+      "VIJOICE [ALPELISIB]"
+    ],
+    "candidatePages": [
+      8
+    ],
+    "maxScore": 5,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "6cd13d2b0477d3f3b2eca542",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761261Orig1s000AdminCorres.pdf",
+    "pdfPages": 41,
+    "lowTextPages": 8,
+    "textFile": "/tmp/ind-full-screen/text/6cd13d2b0477d3f3b2eca542.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/6cd13d2b0477d3f3b2eca542.source",
+    "applications": [
+      "761261"
+    ],
+    "products": [
+      "XENPOZYME [OLIPUDASE ALFA-RPCP]"
+    ],
+    "candidatePages": [
+      39
+    ],
+    "maxScore": 5,
+    "explicitAnchorPages": []
+  },
+  {
+    "id": "389107412e61ca6f6c20d104",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761369Orig1s000AdminCorres.pdf",
+    "pdfPages": 28,
+    "lowTextPages": 1,
+    "textFile": "/tmp/ind-full-screen/text/389107412e61ca6f6c20d104.json.gz",
+    "sourceFile": "/tmp/ind-full-screen/files/389107412e61ca6f6c20d104.source",
+    "applications": [
+      "761369"
+    ],
+    "products": [
+      "HYMPAVZI [MARSTACIMAB-HNCQ]"
+    ],
+    "candidatePages": [
+      17
+    ],
+    "maxScore": 5,
+    "explicitAnchorPages": []
+  }
+]

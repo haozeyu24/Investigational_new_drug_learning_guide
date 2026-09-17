@@ -1,0 +1,428 @@
+{
+  "clinical": {
+    "id": "clinical",
+    "title": "Design the first clinical study",
+    "question": "What can this study teach us, in whom, and under what protections?",
+    "premise": "A promising candidate needs a bounded human investigation with a clear question, interpretable measurements, and instructions for responding to risk.",
+    "inherited": "Candidate pharmacology, exposure predictions, safety findings, and available human experience inform the study.",
+    "context": "The first study under a US IND is not always the first human exposure.",
+    "nodes": [
+      {
+        "id": "choose-question",
+        "label": "Choose the question",
+        "question": "What should we know after this study that we do not know now?",
+        "principle": "Match the study's claim to the evidence its design can generate.",
+        "body": "An early study may characterize safety, human exposure, or biological response. Establishing clinical benefit usually requires a different comparison, duration, and scale. Define the intended conclusion before choosing measurements.",
+        "visual": {
+          "type": "contrast",
+          "items": [
+            {
+              "label": "Early learning",
+              "text": "Characterize human exposure, tolerability, and biological response.",
+              "status": "supported"
+            },
+            {
+              "label": "Definitive efficacy",
+              "text": "Determine whether treatment produces a clinically meaningful benefit using an appropriate comparison.",
+              "status": "open"
+            },
+            {
+              "label": "Unsupported leap",
+              "text": "A study may proceed, therefore its design will prove efficacy.",
+              "status": "challenged"
+            }
+          ]
+        },
+        "decision": "State one primary learning objective and the conclusions this design will not establish."
+      },
+      {
+        "id": "define-participants",
+        "label": "Define the participants",
+        "question": "Who can appropriately enter this investigation?",
+        "principle": "Participant selection joins the biological question to the study's benefit-risk context.",
+        "body": "Choose healthy volunteers or patients based on the intervention and question. Specify relevant disease features, prior treatment, and safety exclusions. A later population or longer exposure may need additional support.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Biological fit",
+              "text": "Does this population let us investigate the intended drug action?",
+              "status": "open"
+            },
+            {
+              "label": "Clinical context",
+              "text": "How do disease severity, existing treatments, and potential benefit affect acceptable risk?",
+              "status": "open"
+            },
+            {
+              "label": "Individual protection",
+              "text": "Which findings or circumstances should exclude someone or require additional precautions?",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Define an eligible population and explain the scientific or safety reason for each important restriction."
+      },
+      {
+        "id": "make-results-interpretable",
+        "label": "Make results interpretable",
+        "question": "Will the observations distinguish the drug's effect from other explanations?",
+        "principle": "A measurement becomes useful when its timing and comparison support an interpretation.",
+        "body": "Connect dose and sampling times to the expected exposure and response. Consider prior-treatment effects, baseline variation, controls, and assessment duration. A biomarker change may answer a pharmacology question without establishing patient benefit.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Observation",
+              "text": "Measure exposure, biological response, or a clinical outcome at defined times.",
+              "status": "supported"
+            },
+            {
+              "label": "Interpretation",
+              "text": "Check whether the design separates treatment effects from competing explanations.",
+              "status": "inferred"
+            },
+            {
+              "label": "Next decision",
+              "text": "Identify which result would change the next study or dose strategy.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Retain measurements that answer the study question or change a safety or development decision."
+      },
+      {
+        "id": "define-actions",
+        "label": "Define action rules",
+        "question": "What finding changes what happens next?",
+        "principle": "Translate foreseeable risks into observations, review responsibilities, and actions.",
+        "body": "Specify what to monitor and when, who reviews the findings, and when dosing or enrollment pauses. Distinguish an individual interruption from a cohort or study pause. Monitoring does not guarantee that every injury is preventable.",
+        "visual": {
+          "type": "timeline",
+          "items": [
+            {
+              "label": "Before dosing",
+              "text": "Confirm eligibility, baseline findings, and required precautions.",
+              "status": "supported"
+            },
+            {
+              "label": "After dosing",
+              "text": "Collect the observations needed to detect and interpret emerging risk.",
+              "status": "open"
+            },
+            {
+              "label": "Before proceeding",
+              "text": "Apply prespecified review and action rules to continue, modify, or pause.",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Write an operating plan that investigators can implement consistently, including the information required before escalation."
+      }
+    ],
+    "cases": [
+      {
+        "id": "oteseconazole-first-study",
+        "name": "Oteseconazole",
+        "kicker": "A bounded first question",
+        "stage": "Initial IND, 2011; retrospective NDA history also describes later Phase 2a advice.",
+        "context": "An oral antifungal entered an initial randomized, blinded, placebo-controlled single-dose study in healthy adults.",
+        "mapFocus": 0,
+        "known": "The protocol specified safety, tolerability, and pharmacokinetics as its early human questions.",
+        "supports": "The design could characterize single-dose human exposure and tolerability within the studied conditions.",
+        "uncertain": "It did not establish clinical benefit. The public history does not reproduce the complete original protocol.",
+        "decision": "FDA identified no initial clinical-hold issues. Later, it called a Phase 2a study exploratory and requested stronger statistical testing for definitive conclusions.",
+        "lesson": "Choose the question first; an early learning study and a definitive efficacy study need different support.",
+        "sources": [
+          {
+            "label": "FDA regulatory history · PDF127",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215888Orig1s000IntegratedR.pdf#page=127"
+          }
+        ]
+      },
+      {
+        "id": "levacetylleucine-study-claim",
+        "name": "Levacetylleucine",
+        "kicker": "Permission and interpretation",
+        "stage": "Pre-IND, 2018, and initial IND, 2019; retrospective NDA history. Not a conventional first-ever-human study of an entirely unfamiliar intervention.",
+        "context": "An open-label study in Niemann–Pick disease type C followed earlier experience with racemic acetylleucine.",
+        "mapFocus": 2,
+        "known": "FDA considered an open-label design potentially useful for proof of concept, but inadequate for interpretable marketing-application efficacy evidence.",
+        "supports": "A limited exploratory investigation could provide short-term safety information and inform further study design.",
+        "uncertain": "Without an adequate comparison, observed changes could not reliably establish treatment benefit. Several details in the public history are redacted.",
+        "decision": "The sponsor acknowledged the exploratory purpose, removed an extension, and limited the study to six weeks. FDA issued a may-proceed letter and recommended further design discussion.",
+        "lesson": "Permission to conduct a study does not establish that its design can prove efficacy.",
+        "sources": [
+          {
+            "label": "FDA initial-IND history · PDF140",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf#page=140"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Define what the study can conclude",
+      "context": "A team proposes a short, uncontrolled study in patients. It will measure safety, drug exposure, and a disease biomarker. Prior therapy may still influence that biomarker. The supporting package addresses the proposed exposure and known risks.",
+      "claim": "If the study can proceed and the biomarker improves, we will have established clinical benefit.",
+      "prompt": "Which revision best connects the design to an appropriate conclusion?",
+      "options": [
+        {
+          "label": "Keep the claim because the package supports exposing participants.",
+          "feedback": "Support for the proposed exposure does not establish that the study can distinguish treatment benefit from other explanations.",
+          "correct": false
+        },
+        {
+          "label": "Define the study as exploratory, address prior-treatment effects, and plan the comparison needed to test benefit.",
+          "feedback": "This preserves useful early learning while matching the claim to what the design can establish. The safety plan and the efficacy interpretation remain separate judgments.",
+          "correct": true
+        },
+        {
+          "label": "Add more biomarkers and keep the same efficacy claim.",
+          "feedback": "More measurements do not remove confounding or provide a missing comparison. Select observations that resolve the question rather than multiplying endpoints.",
+          "correct": false
+        }
+      ],
+      "result": {
+        "claim": "The study can support exploratory human learning within its stated limits.",
+        "support": "Safety, exposure, and biomarker observations answer defined early questions.",
+        "uncertainty": "Prior therapy and the missing comparison limit attribution of benefit.",
+        "next": "Revise the interpretation plan and define the later study needed to test clinical benefit."
+      }
+    },
+    "boundary": {
+      "required": "The IND protocol must describe objectives, participant selection, dose determination, exposure duration, observations, and procedures to minimize risk, with safety-critical details appropriate to the phase.",
+      "recommended": "FDA guidance and program-specific advice can inform study design. A historical protocol is not a universal template.",
+      "judgment": "The team chooses the learning objective, population, measurements, and action rules, and must explain how they fit the evidence and remaining uncertainty.",
+      "source": {
+        "label": "21 CFR 312.23(a)(6) · Protocol requirements",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "FDA · Clinical protocols",
+        "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/ind-applications-clinical-investigations-clinical-protocols"
+      }
+    },
+    "handoff": {
+      "id": "clinical-dose",
+      "label": "Justify the starting dose and escalation",
+      "text": "Use the defined population and study conditions to justify the first dose and the evidence needed before going higher."
+    }
+  },
+  "clinical-dose": {
+    "id": "clinical-dose",
+    "title": "Justify the starting dose and escalation",
+    "question": "Why begin at this dose, and what evidence would justify the next step?",
+    "premise": "The first dose is a prediction with uncertainty. A reassuring starting margin does not justify every later dose or schedule.",
+    "inherited": "Relevant pharmacology, toxicology, exposure measurements, formulation information, and any prior human experience support the dosing rationale.",
+    "context": "Healthy volunteers, advanced cancer, local administration, and first dosing in children require different considerations.",
+    "nodes": [
+      {
+        "id": "choose-framework",
+        "label": "Choose the framework",
+        "question": "Which dose-selection approach fits this population and intervention?",
+        "principle": "Select the clinical context before selecting a calculation.",
+        "body": "Healthy-volunteer MRSD guidance has a defined scope; it does not determine escalation limits. Advanced-cancer and locally administered products require their own context. Prior human experience may inform a new population without eliminating its uncertainties.",
+        "visual": {
+          "type": "contrast",
+          "items": [
+            {
+              "label": "Healthy volunteers",
+              "text": "Consider the scoped MRSD framework and pharmacological activity.",
+              "status": "supported"
+            },
+            {
+              "label": "Advanced cancer",
+              "text": "Consider disease severity, available therapy, and relevant oncology guidance.",
+              "status": "supported"
+            },
+            {
+              "label": "New population",
+              "text": "Ask what prior human experience can support and what does not transfer.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "State the selected framework and explain why it applies to this study."
+      },
+      {
+        "id": "identify-anchor",
+        "label": "Identify the anchor",
+        "question": "Which biological findings meaningfully constrain human dosing?",
+        "principle": "A tested dose, observed effect, and relevant exposure must be interpreted together.",
+        "body": "Identify the relevant species or human system, observed toxicity or pharmacological effect, and exposure conditions. A NOAEL describes the study performed; absent findings do not establish that all higher exposures are harmless.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Observed finding",
+              "text": "What happened at the doses and durations actually tested?",
+              "status": "supported"
+            },
+            {
+              "label": "Human relevance",
+              "text": "Does the system represent the drug's human pharmacology and possible hazards?",
+              "status": "inferred"
+            },
+            {
+              "label": "Evidence limit",
+              "text": "Which effects, exposures, or populations remain uncharacterized?",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Identify the reference finding, its exposure basis, and the uncertainty it leaves."
+      },
+      {
+        "id": "predict-first-dose",
+        "label": "Predict the start",
+        "question": "How does the evidence support the proposed first human exposure?",
+        "principle": "A numerical dose proposal needs explicit assumptions about human exposure and response.",
+        "body": "Use a justified translation method and account for uncertainty. Compare the predicted exposure with relevant safety and pharmacology findings. An animal-equivalent dose or model output is a prediction, not a measured human result.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Measured evidence",
+              "text": "Relevant experimental exposure and biological effects.",
+              "status": "supported"
+            },
+            {
+              "label": "Translation",
+              "text": "Scaling or modeling, species differences, and justified uncertainty allowances.",
+              "status": "inferred"
+            },
+            {
+              "label": "Proposed start",
+              "text": "A bounded first dose with an expected exposure range to test.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Document the starting-dose rationale and identify which human observations will test its assumptions."
+      },
+      {
+        "id": "constrain-escalation",
+        "label": "Constrain and update",
+        "question": "What must be learned before increasing dose or repeating treatment?",
+        "principle": "Starting dose, escalation, and the eventual regimen are separate decisions.",
+        "body": "Assess the upper-dose and repeat-dose support separately. Use observed human PK, biological response, and safety to update the plan. Specify review conditions and actions when exposure or effects differ from predictions.",
+        "visual": {
+          "type": "timeline",
+          "items": [
+            {
+              "label": "Begin within bounds",
+              "text": "Use the justified starting dose and planned precautions.",
+              "status": "supported"
+            },
+            {
+              "label": "Measure and compare",
+              "text": "Compare observed exposure and effects with the prediction.",
+              "status": "open"
+            },
+            {
+              "label": "Decide the next step",
+              "text": "Proceed, modify, or pause using the evidence and specified rules.",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Define what supports going higher, what remains unsupported, and what would change the dosing plan."
+      }
+    ],
+    "cases": [
+      {
+        "id": "ivacaftor-escalation-boundary",
+        "name": "Ivacaftor",
+        "kicker": "A start is not a ceiling",
+        "stage": "Original initial IND review, reproduced in the 2012 NDA package.",
+        "context": "Short repeat-dose animal studies supported a proposed first dose, but did not identify target organs to guide monitoring at higher exposure.",
+        "mapFocus": 3,
+        "known": "The reviewer reported large margins at the proposed 25 mg start, but only about twofold at the proposed 800 mg maximum. Target-organ toxicity remained incompletely characterized.",
+        "supports": "The evidence supported a limited initial clinical plan, with separate consideration of the upper dose.",
+        "uncertain": "No target organ was identified in the short repeat-dose studies. Absence of findings did not characterize the potential toxicity at higher exposures.",
+        "decision": "The reviewer accepted a modified 500 mg maximum and recommended higher-dose nonclinical work to characterize potential target organs. These are historical study-specific numbers.",
+        "lesson": "A large starting margin does not establish an unrestricted escalation path.",
+        "sources": [
+          {
+            "label": "FDA original IND assessment · PDF122",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=122"
+          },
+          {
+            "label": "Healthy-volunteer MRSD guidance: scope · PDF4–5",
+            "url": "https://www.fda.gov/files/drugs/published/Estimating-the-Maximum-Safe-Starting-Dose-in-Initial-Clinical-Trials-for-Therapeutics-in-Adult-Healthy-Volunteers.pdf#page=4"
+          }
+        ]
+      },
+      {
+        "id": "risdiplam-infant-dose",
+        "name": "Risdiplam",
+        "kicker": "Predict, measure, then revise",
+        "stage": "First infant dosing during clinical development, after adult exposure; described retrospectively in the NDA review. Not first-ever-human dosing.",
+        "context": "In infantile-onset spinal muscular atrophy, the team needed to begin dosing a vulnerable population and learn how measured exposure compared with predictions.",
+        "mapFocus": 2,
+        "known": "A conservative physiologically based PK prediction and an additional safety factor informed the first infant's single dose. Human PK was then measured.",
+        "supports": "The observed single-dose PK informed subsequent repeated dosing and exposure targets linked to expected biological response.",
+        "uncertain": "The first observation did not establish long-term safety or clinical benefit. The public account does not reproduce an original FDA approval of the dose calculation.",
+        "decision": "After evaluating single-dose PK and tolerability, the team selected repeat dosing. Internal and independent committees reviewed safety, PK, and PD for further dose decisions.",
+        "lesson": "Use human observations to test a dose prediction before extending the regimen.",
+        "sources": [
+          {
+            "label": "FDA clinical development context · PDF24",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf#page=24"
+          },
+          {
+            "label": "First infant dose and reassessment · PDF73–74",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213535Orig1s000MedR.pdf#page=73"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Separate the starting point from the path",
+      "context": "A candidate's short repeat-dose studies found no adverse effects at the highest doses tested. The proposed human starting dose has a reassuring margin. The planned escalation reaches much higher predicted exposures, where the toxicity profile remains uncertain.",
+      "claim": "The large starting-dose margin supports the entire escalation plan.",
+      "prompt": "Which team decision best reflects the evidence?",
+      "options": [
+        {
+          "label": "Proceed through every planned dose because the animal studies were clean.",
+          "feedback": "The studies characterize tested conditions. They do not establish that higher exposure is harmless or identify what would need monitoring there.",
+          "correct": false
+        },
+        {
+          "label": "Reject the candidate because no target-organ toxicity was found.",
+          "feedback": "An incompletely characterized hazard does not itself require abandoning the molecule. A narrower plan and targeted evidence may address the uncertainty.",
+          "correct": false
+        },
+        {
+          "label": "Assess upper-dose support separately, bound escalation, and define the human observations and additional evidence needed to proceed.",
+          "feedback": "The starting point can be supported while later steps remain uncertain. Define the permitted path from the actual evidence and revise it as human findings accumulate.",
+          "correct": true
+        }
+      ],
+      "result": {
+        "claim": "The evidence may support a bounded initial study, not every planned escalation.",
+        "support": "The proposed starting exposure has a justified relationship to the available findings.",
+        "uncertainty": "Higher-exposure hazards and appropriate monitoring remain incompletely characterized.",
+        "next": "Set a supported escalation boundary and specify the evidence needed before extending it."
+      }
+    },
+    "boundary": {
+      "required": "The protocol must describe dose determination, planned maximum dosage, exposure duration, and procedures to monitor effects and minimize participant risk.",
+      "recommended": "FDA's adult healthy-volunteer MRSD framework primarily addresses systemic starting doses. It does not determine escalation limits or apply unchanged to every patient population.",
+      "judgment": "The team selects relevant evidence, translation methods, uncertainty allowances, and escalation conditions appropriate to the intervention and study.",
+      "source": {
+        "label": "21 CFR 312.23(a)(6) · Dosing and protocol requirements",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "FDA · Starting doses in adult healthy volunteers",
+        "url": "https://www.fda.gov/files/drugs/published/Estimating-the-Maximum-Safe-Starting-Dose-in-Initial-Clinical-Trials-for-Therapeutics-in-Adult-Healthy-Volunteers.pdf#page=4"
+      }
+    },
+    "handoff": {
+      "id": "pre-ind",
+      "label": "Ask a useful pre-IND question",
+      "text": "Bring the study, dosing proposal, supporting evidence, and unresolved question together for a focused discussion."
+    }
+  }
+}

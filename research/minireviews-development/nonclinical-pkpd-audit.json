@@ -1,0 +1,324 @@
+{
+  "topic": "nonclinical-pkpd",
+  "date": "2026-09-17",
+  "selection": "Bounded purposive manual review, combining prior verified cases and fresh queue leads. Not all candidate documents were manually reviewed.",
+  "fixedQueueCounts": {
+    "documents": 462,
+    "candidatePages": 818
+  },
+  "manuallyReadDocuments": 13,
+  "manuallyReadDocumentPages": 27,
+  "freshQueueDocumentsEncountered": 7,
+  "warning": "Queue proximity is retrieval evidence, not IND provenance. A document can be relevant while its candidate hit is boilerplate or a different topic. Retained cases state exact stage.",
+  "documents": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+      "pagesRead": [
+        90,
+        92
+      ],
+      "caseIds": [
+        "nc-ivacaftor-exposure-bridge"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "ec82699d8022625e8d5ded18",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/candidate-ivacaftor-fda-pharm.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf",
+      "pagesRead": [
+        16
+      ],
+      "caseIds": [
+        "nc-cinacalcet-dose-margin"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "900b8c75ac86ac8a8cc7f9e3",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/cinacalcet.pdf",
+      "pageImagesUsed": [
+        "/tmp/ind-action/cinacalcet-16.png"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+      "pagesRead": [
+        140
+      ],
+      "caseIds": [
+        "nc-osimertinib-tk-quality"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "3b4e6624cf594c4ce87343b1",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-part3-sources/osimertinib-pharm.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf",
+      "pagesRead": [
+        16,
+        17
+      ],
+      "caseIds": [
+        "nc-vardenafil-metabolite-tk"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "b1673fc93b00ff45eb259e4c",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/levitra.pdf",
+      "pageImagesUsed": [
+        "/tmp/ind-action/levitra-16.png",
+        "/tmp/ind-action/levitra-17.png"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        168,
+        179,
+        180
+      ],
+      "caseIds": [
+        "pkpd-fosdenopterin"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        6,
+        29,
+        73,
+        212
+      ],
+      "readCandidatePages": [],
+      "documentId": "00708f8645070e6792d19159",
+      "cachedTextFile": "/tmp/ind-full-screen/text/00708f8645070e6792d19159.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        374,
+        375
+      ],
+      "caseIds": [
+        "pkpd-vadadustat"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        127
+      ],
+      "readCandidatePages": [],
+      "documentId": "11b557d61c80a8aaa4424d0f",
+      "cachedTextFile": "/tmp/ind-full-screen/text/11b557d61c80a8aaa4424d0f.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        47
+      ],
+      "caseIds": [
+        "pkpd-tovorafenib"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "236c89c9f7f20187334b249e",
+      "cachedTextFile": "/tmp/ind-full-screen/text/236c89c9f7f20187334b249e.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf",
+      "pagesRead": [
+        67
+      ],
+      "caseIds": [
+        "nc-exp01-lumateperone-human-relevance-update"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "2419343bdfa6193ae401a49a",
+      "cachedTextFile": "/tmp/ind-full-screen/text/2419343bdfa6193ae401a49a.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf",
+      "pagesRead": [
+        198,
+        199,
+        200,
+        212,
+        214,
+        215
+      ],
+      "caseIds": [
+        "nc-exp01-romiplostim-dose-design",
+        "nc-exp01-romiplostim-dose-design"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        56,
+        186,
+        201,
+        211,
+        214
+      ],
+      "readCandidatePages": [
+        214
+      ],
+      "documentId": "2212a1243a7f5b3929c64455",
+      "cachedTextFile": "/tmp/ind-full-screen/text/2212a1243a7f5b3929c64455.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "pageImagesUsed": [
+        "/tmp/nonclinical-expansion-01/romiplostim-198.png",
+        "/tmp/nonclinical-expansion-01/romiplostim-212.png",
+        "/tmp/nonclinical-expansion-01/romiplostim-215.png"
+      ]
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        5,
+        6
+      ],
+      "caseIds": [
+        "pkpd-rezafungin"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        6,
+        7
+      ],
+      "readCandidatePages": [
+        6
+      ],
+      "documentId": "02d9652859669addd0b32607",
+      "cachedTextFile": "/tmp/ind-full-screen/text/02d9652859669addd0b32607.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216196Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        44
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Useful later clinical dose-selection evidence, referred to root clinical-dose review; not added as another nonclinical case. Model extrapolation and inverse observed response are explicit.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        8,
+        21,
+        44
+      ],
+      "readCandidatePages": [
+        44
+      ],
+      "documentId": "558be66ce504c213a10c8765",
+      "cachedTextFile": "/tmp/ind-full-screen/text/558be66ce504c213a10c8765.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/558be66ce504c213a10c8765.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219685Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        101,
+        112,
+        113
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Mechanistic exposure/route comparison is substantive but assigned to nonclinical-safety to preserve topic distinction.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        101
+      ],
+      "readCandidatePages": [
+        101
+      ],
+      "documentId": "3db698cf0ac3b9ab514dc132",
+      "cachedTextFile": "/tmp/ind-full-screen/text/3db698cf0ac3b9ab514dc132.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/3db698cf0ac3b9ab514dc132.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761326Orig2s000SumR.pdf",
+      "pagesRead": [
+        26,
+        27
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Later human insulin-icodec PK/PD and hypoglycemia concern; relevant clinical-dose handoff rather than a new nonclinical experiment.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        27
+      ],
+      "readCandidatePages": [
+        27
+      ],
+      "documentId": "60ef1b4ef877fd76afc82ca2",
+      "cachedTextFile": "/tmp/ind-full-screen/text/60ef1b4ef877fd76afc82ca2.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/60ef1b4ef877fd76afc82ca2.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    }
+  ]
+}

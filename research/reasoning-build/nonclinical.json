@@ -1,0 +1,754 @@
+[
+  {
+    "id": "nonclinical-pharmacology",
+    "title": "Connect drug action to potential benefit",
+    "question": "What supports expecting this candidate to help, and where does that expectation still depend on an assumption?",
+    "handoff": {
+      "id": "nonclinical-pkpd",
+      "label": "Connect dose, exposure, and effect",
+      "text": "Carry the action-to-benefit argument forward; examine the exposure and measurement assumptions on which it depends."
+    },
+    "opening": {
+      "id": "fda-requirements",
+      "label": "FDA requirements",
+      "title": "What must the IND explain?",
+      "intro": "Explain why this candidate is being investigated, what biological effects have been observed, and who will enter the proposed study.",
+      "requirements": [
+        {
+          "title": "Why investigate it?",
+          "text": "Describe the rationale for the drug or study and the indication to be investigated.",
+          "source": {
+            "label": "21 CFR 312.23(a)(3)(iv) · Rationale and indication",
+            "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(3)(iv)"
+          }
+        },
+        {
+          "title": "What does the drug do?",
+          "text": "Describe pharmacological effects and mechanisms of action in animals, alongside disposition information. Identify what remains unknown.",
+          "source": {
+            "label": "21 CFR 312.23(a)(8)(i) · Pharmacology",
+            "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(8)(i)"
+          }
+        },
+        {
+          "title": "Who will be studied?",
+          "text": "Specify participant selection and exclusion criteria appropriate to the study. Phase 1 protocols emphasize safety exclusions.",
+          "source": {
+            "label": "21 CFR 312.23(a)(6) · Study participants",
+            "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(6)"
+          }
+        }
+      ],
+      "reviewFocus": {
+        "title": "For a first Phase 1 study",
+        "text": "FDA’s review focuses on participant safety. In Phases 2 and 3, review also addresses whether the study can adequately evaluate effectiveness and safety.",
+        "source": {
+          "label": "21 CFR 312.22 · Phase-specific review",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
+        }
+      },
+      "limitsTitle": "What need not be fully settled",
+      "limits": [
+        {
+          "title": "The complete mechanism",
+          "open": "You do not have to map every step from drug action to possible clinical benefit.",
+          "text": "A biological effect can be observed even when the full explanation for that effect remains incomplete.",
+          "needed": "Describe known pharmacology and identify unknowns. Provide pharmacology information needed to assess safety or interpret toxicology."
+        },
+        {
+          "title": "A predictive biomarker",
+          "open": "You do not have to identify a molecular marker that predicts responders for every study.",
+          "text": "Participants may be selected using clinical features such as diagnosis, disease stage, or treatment history.",
+          "needed": "Specify selection and exclusion criteria. A particular program may still need a marker for scientific or safety reasons."
+        },
+        {
+          "title": "Proof of clinical benefit",
+          "open": "You do not have to demonstrate efficacy in patients before a first Phase 1 study.",
+          "text": "The proposed benefit can remain a hypothesis. Early human investigation begins testing the drug without assuming that it will help.",
+          "needed": "Present the study rationale, relevant existing evidence, and enough information to assess the risks of the proposed investigation."
+        }
+      ],
+      "limitsSources": [
+        {
+          "label": "FDA Phase 1 guidance · Pharmacology, PDF 12",
+          "url": "https://www.fda.gov/media/71203/download#page=12"
+        },
+        {
+          "label": "21 CFR 312.23(a)(6) · Study participants",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(6)"
+        }
+      ],
+      "takeaway": "This chapter builds the biological rationale. Safety, drug material, and the clinical plan must also support the proposed investigation.",
+      "sources": [
+        {
+          "label": "21 CFR 312.23(a)(3)(iv) · Rationale and indication",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(3)(iv)"
+        },
+        {
+          "label": "21 CFR 312.23(a)(8)(i) · Pharmacology",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(8)(i)"
+        },
+        {
+          "label": "21 CFR 312.23(a)(6) · Study participants",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(6)"
+        },
+        {
+          "label": "21 CFR 312.22 · Phase-specific review",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.22"
+        },
+        {
+          "label": "FDA Phase 1 guidance · Pharmacology, PDF 12",
+          "url": "https://www.fda.gov/media/71203/download#page=12"
+        }
+      ],
+      "limitsIntro": "For an initial Phase 1 study, these are not universal prerequisites. The evidence needed depends on the drug, its risks, and the proposed investigation."
+    },
+    "format": "case-tabs",
+    "takeaway": "Connect what the drug does to a plausible benefit, explain who might benefit, and distinguish a biological response from a better outcome for patients."
+  },
+  {
+    "id": "nonclinical-pkpd",
+    "title": "Connect dose, exposure, and effect",
+    "question": "Which exposure–effect relationships can inform the next human investigation, and what makes that comparison credible?",
+    "premise": "The program already has exposure and response data. The next task is to understand what those observations establish and whether they transfer.",
+    "inherited": "Candidate PK/PD, ADME and toxicokinetics; formulation history; assay limitations; relevant prior human observations.",
+    "context": "The product, route, regimen, biological response and population involved in the proposed comparison.",
+    "nodes": [
+      {
+        "id": "define-measurements",
+        "label": "Identify the measurements",
+        "question": "What was administered, and what did the assay actually measure?",
+        "principle": "A dose or concentration is interpretable only with its experimental context.",
+        "body": "Keep formulation, route, schedule, sampling time and analytes attached to each exposure value. Distinguish quantified observations from predictions, presence-only findings and results below quantification. A change in presentation may reopen an existing comparison.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Administered product",
+              "text": "Formulation, route and schedule define what entered the experiment.",
+              "status": "supported"
+            },
+            {
+              "label": "Measured exposure",
+              "text": "Analyte, sampling and assay limits define what was observed.",
+              "status": "supported"
+            },
+            {
+              "label": "Unmeasured exposure",
+              "text": "A prediction or unquantified analyte needs an explicit limitation.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Retain usable measurements and identify any product or analytical difference that changes their interpretation."
+      },
+      {
+        "id": "exposure-response",
+        "label": "Relate exposure and response",
+        "question": "What relationship is supported across doses and time?",
+        "principle": "Showing biological activity is different from distinguishing doses or regimens.",
+        "body": "Align exposure and response over time, including repeated dosing and the untreated trajectory where relevant. A marker can demonstrate activity yet offer little dose discrimination. Do not infer a cause for a changing response without supporting observations.",
+        "visual": {
+          "type": "contrast",
+          "items": [
+            {
+              "label": "Activity question",
+              "text": "Does treatment change the measured biology?",
+              "status": "open"
+            },
+            {
+              "label": "Regimen question",
+              "text": "Does the measurement distinguish relevant exposures, doses or schedules?",
+              "status": "open"
+            },
+            {
+              "label": "Transfer question",
+              "text": "Will that relationship remain informative in the proposed setting?",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Choose a response measure for the decision it can support, not merely because it belongs to the pathway."
+      },
+      {
+        "id": "human-comparison",
+        "label": "Examine the comparison",
+        "question": "What makes the animal-to-human comparison informative?",
+        "principle": "An exposure margin is an interpreted comparison, not a verdict.",
+        "body": "Name the animal effect level and human reference, including measured versus extrapolated values. Consider schedule, population and analyte differences. Preserve what the numerator means: a LOAEL exposure cannot silently become a NOAEL exposure.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Animal reference",
+              "text": "Exposure belongs to a defined effect level, study and regimen.",
+              "status": "supported"
+            },
+            {
+              "label": "Comparable metric",
+              "text": "Explain which exposure feature supports the proposed comparison.",
+              "status": "inferred"
+            },
+            {
+              "label": "Human reference",
+              "text": "Identify the population and whether exposure was measured or predicted.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Interpret the comparison with its biological meaning and assumptions before using it to support a human investigation."
+      },
+      {
+        "id": "update-model",
+        "label": "Choose the next observation",
+        "question": "Which new observation could change the exposure target or risk interpretation?",
+        "principle": "The next measurement should resolve a consequential uncertainty rather than simply add another parameter.",
+        "body": "Identify the uncertain comparison and what result would change it. Existing data or reanalysis may answer the question; targeted new measurements may be needed. Carry unresolved assumptions into safety interpretation and clinical design.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Current relationship",
+              "text": "The evidence supports a bounded exposure–effect argument.",
+              "status": "supported"
+            },
+            {
+              "label": "Decisive uncertainty",
+              "text": "Identify the assumption that could alter the proposed path.",
+              "status": "open"
+            },
+            {
+              "label": "Next observation",
+              "text": "Specify how a result would strengthen, narrow or challenge the relationship.",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "State what remains uncertain and how the next informative observation would update the development argument."
+      }
+    ],
+    "cases": [
+      {
+        "id": "cinacalcet-exposure",
+        "name": "Cinacalcet",
+        "kicker": "Read the margin’s meaning",
+        "stage": "Original US IND review reproduced in NDA · Proposed Phase 2, prior human data",
+        "context": "The reviewer evaluated proposed patient dosing using prior clinical PK and pharmacodynamic observations alongside animal toxicity exposures. This was not the first administration to any human.",
+        "mapFocus": 2,
+        "known": "The comparison used animal exposures at lowest-observed-adverse-effect levels and an extrapolated human AUC at the proposed maximum dose. Prior human observations included hormone suppression and calcium reductions.",
+        "supports": "A context-specific exposure comparison could inform the proposed investigation together with the nature of the findings and monitoring.",
+        "uncertain": "The human denominator was extrapolated. Animal LOAEL exposures were not NOAELs, and these ratios do not establish a universal safety factor.",
+        "decision": "The reviewer considered the comparison and prior human responses while retaining attention to toxicity and monitoring.",
+        "lesson": "Keep the effect level, human reference and clinical context visible beside the ratio.",
+        "sources": [
+          {
+            "label": "Original IND exposure assessment · PDF 16",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=16"
+          }
+        ]
+      },
+      {
+        "id": "fosdenopterin-dose-marker",
+        "name": "Fosdenopterin",
+        "kicker": "A marker with the wrong job",
+        "stage": "IND study assessment completed after NDA submission · Not the first-dose review",
+        "context": "Studies in MOCS1-deficient mice examined biological responses to treatment. The retained assessment considered whether particular plasma and urinary measurements could inform therapeutic dosing.",
+        "mapFocus": 1,
+        "known": "Plasma S-sulfocysteine and urinary uric acid lacked useful dose discrimination under the tested conditions; brain and liver measurements supplied different information.",
+        "supports": "A disease-related measurement can contribute biological information while being inadequate for choosing among doses.",
+        "uncertain": "The passage does not establish why these measurements lacked dose discrimination or reject every possible future use of them.",
+        "decision": "The sponsor concluded that these plasma and urinary measurements might be inadequate to guide therapeutic dosing; the assessment preserves that limitation.",
+        "lesson": "Define the marker’s intended decision before deciding whether it is useful.",
+        "sources": [
+          {
+            "label": "Assessment provenance · PDF 168",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf#page=168"
+          },
+          {
+            "label": "Pharmacology assessment · PDF 179–180",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf#page=179"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Read the exposure comparison",
+      "context": "In cinacalcet’s original US IND review, animal reference exposures came from LOAELs. Human exposure at the proposed maximum was extrapolated from earlier clinical information. Prior human responses also informed the assessment.",
+      "claim": "This is a measured animal-to-human NOAEL margin establishing a generally safe first-human dose.",
+      "prompt": "Which correction makes the comparison scientifically usable?",
+      "options": [
+        {
+          "label": "Treat the animal reference as a NOAEL because FDA considered it when assessing the proposed clinical doses.",
+          "feedback": "Use in a review does not change the biological meaning of the animal reference. LOAEL and NOAEL are not interchangeable.",
+          "correct": false
+        },
+        {
+          "label": "Keep LOAEL and extrapolated-human labels; interpret the comparison with the findings, prior human responses and proposed investigation.",
+          "feedback": "Correct. These labels change the meaning of the ratio. The original US IND already had human information, and the comparison cannot be turned into a general first-human dose rule.",
+          "correct": true
+        },
+        {
+          "label": "Treat the extrapolated exposure as measured because it was derived from previous human observations.",
+          "feedback": "Prior observations can inform a prediction without making the predicted value an observation. Keep that uncertainty attached to the human reference.",
+          "correct": false
+        }
+      ],
+      "result": {
+        "claim": "The exposure comparison informs this proposed investigation within explicit biological and predictive limits.",
+        "support": "Animal LOAEL exposures, extrapolated human exposure and prior human physiological responses contribute different information.",
+        "uncertainty": "The ratio alone does not establish a risk-free dose or a universal exposure threshold.",
+        "next": "Carry the comparison’s assumptions into the interpretation of potential harm and the clinical dosing rationale."
+      }
+    },
+    "boundary": {
+      "required": "Provide pharmacology/toxicology information adequate to support the proposed investigation, including disposition information if known.",
+      "recommended": "ICH S3A recommends relating animal systemic exposure to dose, time and toxicity through a case-specific, iterative approach.",
+      "judgment": "Choose informative metrics, preserve analytical limits and distinguish measured from predicted quantities. No single exposure ratio replaces the interpretation.",
+      "source": {
+        "label": "21 CFR 312.23(a)(8) · Pharmacology and toxicology",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "ICH S3A · Toxicokinetics, PDF 5–6",
+        "url": "https://www.fda.gov/media/71990/download#page=5"
+      }
+    },
+    "handoff": {
+      "id": "nonclinical-safety",
+      "label": "Identify and interpret potential harm",
+      "text": "Use the exposure–effect argument to interpret the conditions, severity and possible human relevance of observed harm."
+    }
+  },
+  {
+    "id": "nonclinical-safety",
+    "title": "Identify and interpret potential harm",
+    "question": "What do the findings imply for people, and which parts of that interpretation remain uncertain?",
+    "premise": "Safety interpretation starts with existing findings and their conditions. A negative result, plausible mechanism or reassuring ratio cannot substitute for the whole argument.",
+    "inherited": "Prior hazards, negative findings, candidate pharmacology, exposure data, recovery observations and relevant human experience.",
+    "context": "The proposed population, product, route and regimen, interpreted against the conditions of existing observations.",
+    "nodes": [
+      {
+        "id": "describe-finding",
+        "label": "Describe the observation",
+        "question": "What happened, and what did the experiment have a reasonable chance of detecting?",
+        "principle": "Describe the observation before turning it into a safety conclusion.",
+        "body": "Identify the affected function or tissue, tested conditions and relevant controls. Keep negative findings bounded by exposure, timing and assay sensitivity. A broad label such as ‘acceptable safety’ hides information needed for interpretation.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Observed finding",
+              "text": "What changed in the tested system?",
+              "status": "supported"
+            },
+            {
+              "label": "Negative finding",
+              "text": "What was not detected within the experiment’s limits?",
+              "status": "supported"
+            },
+            {
+              "label": "Untested condition",
+              "text": "What remains outside the observation?",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Write the observation and its limits so another reader can distinguish the evidence from your interpretation."
+      },
+      {
+        "id": "interpret-course",
+        "label": "Follow the time course",
+        "question": "How did the finding change with exposure, interruption and recovery?",
+        "principle": "Improvement and complete recovery support different conclusions.",
+        "body": "Place onset, dose changes and post-treatment observations on one timeline. Distinguish less severe findings during lower exposure from resolution after stopping. A residual finding at the last observation remains part of the risk account.",
+        "visual": {
+          "type": "timeline",
+          "items": [
+            {
+              "label": "During treatment",
+              "text": "Record onset and exposure alongside the observed finding.",
+              "status": "supported"
+            },
+            {
+              "label": "After dose change",
+              "text": "Document improvement, persistence or worsening without assuming its cause.",
+              "status": "supported"
+            },
+            {
+              "label": "After treatment",
+              "text": "State what resolved and what remained at the last assessment.",
+              "status": "supported"
+            },
+            {
+              "label": "Beyond observation",
+              "text": "Later recovery or delayed effects remain unobserved.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Match the recovery claim to the observed trajectory, including what the study did not follow long enough to establish."
+      },
+      {
+        "id": "human-relevance",
+        "label": "Examine human relevance",
+        "question": "What supports the proposed explanation and its relevance to people?",
+        "principle": "A plausible mechanism can inform relevance without settling it.",
+        "body": "Separate the observed harm from its proposed cause. Ask whether supporting evidence reaches the affected tissue and clinical context. Species differences, pharmacology and exposure can refine the inference; they do not automatically erase an inconvenient observation.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Observed harm",
+              "text": "The finding remains part of the evidence.",
+              "status": "supported"
+            },
+            {
+              "label": "Causal explanation",
+              "text": "A mechanism needs evidence in the relevant system or tissue.",
+              "status": "inferred"
+            },
+            {
+              "label": "Human relevance",
+              "text": "Consider whether the proposed clinical setting shares the conditions that matter.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Keep a human-relevance explanation provisional wherever the supporting evidence does not establish the necessary link."
+      },
+      {
+        "id": "risk-implication",
+        "label": "Define the trial implication",
+        "question": "What should this interpretation change about the proposed investigation?",
+        "principle": "A risk account should identify an action and the evidence that would change it.",
+        "body": "Connect severity, reversibility and human relevance with a proposed precaution or further question. Monitoring only helps when the finding can be detected and acted on. Preserve uncertainty for clinical planning and update the account when human observations arrive.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Current concern",
+              "text": "State the potential harm and the conditions supporting it.",
+              "status": "supported"
+            },
+            {
+              "label": "Proposed response",
+              "text": "Explain how a precaution or additional evidence addresses that concern.",
+              "status": "inferred"
+            },
+            {
+              "label": "Reassessment trigger",
+              "text": "Specify which observation would change the risk interpretation.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Carry a bounded risk statement and justified proposed response into package assessment and clinical planning."
+      }
+    ],
+    "cases": [
+      {
+        "id": "osimertinib-recovery",
+        "name": "Osimertinib",
+        "kicker": "Improvement is not full recovery",
+        "stage": "IND dog study reproduced in NDA appendix · Original-IND timing not established here",
+        "context": "A one-month dog study included gastrointestinal toxicity, dose interruption and reduction, corneal findings and post-treatment observations. These observations support distinct claims about severity and recovery.",
+        "mapFocus": 1,
+        "known": "Corneal changes partly regressed after dose modification, but opacity was not fully reversible in recovery animals. Gastrointestinal toxicity had prompted interruption and dose reduction.",
+        "supports": "The study shows partial regression under specified changes and residual findings at the end of observation.",
+        "uncertain": "Small groups and no vehicle-control recovery cohort limit interpretation. The passage does not establish the eventual human monitoring schedule.",
+        "decision": "In reading the assessment, preserve partial regression and incomplete recovery separately; do not replace them with a blanket ‘reversible’ conclusion.",
+        "lesson": "Recovery is a claim about an observed trajectory, not a label awarded because a finding improved.",
+        "sources": [
+          {
+            "label": "Dog study assessment · PDF 142, 144–145",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=142"
+          }
+        ]
+      },
+      {
+        "id": "faricimab-relevance",
+        "name": "Faricimab",
+        "kicker": "An explanation still needs evidence",
+        "stage": "Initial IND findings quoted in later BLA review · Bispecific antibody comparator",
+        "context": "Severe ocular inflammation raised a question about animal toxicity and its relevance to intravitreal human dosing. The sponsor proposed an anti-drug-antibody explanation.",
+        "mapFocus": 2,
+        "known": "The reviewer found that evidence for the proposed antibody explanation did not establish it in the eye. Lower proposed clinical dosing was supported; higher dosing was not.",
+        "supports": "The observed lesion and the evidence for its proposed cause required separate judgments.",
+        "uncertain": "The cause of the ocular findings remained unresolved. Preserved excerpts do not reconstruct the complete initial submission or every later decision.",
+        "decision": "The review supported the lower proposed dose and sought lower-dose human information before escalation, retaining the unresolved concern.",
+        "lesson": "Do not convert a plausible animal-specific explanation into established absence of human relevance.",
+        "sources": [
+          {
+            "label": "Retained initial assessment · PDF 26",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26"
+          },
+          {
+            "label": "Development history · PDF 15",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Revise the recovery claim",
+      "context": "In the osimertinib dog study, corneal changes partially regressed after dose interruption and reduction. Corneal opacity was not fully reversible in recovery animals. The study had small groups and no vehicle-control recovery cohort.",
+      "claim": "The eye findings were reversible, so the study establishes that continued dosing poses no persistent ocular concern.",
+      "prompt": "Which interpretation best matches the observed trajectory?",
+      "options": [
+        {
+          "label": "Improvement after dose reduction establishes that the original dosing conditions can be resumed without concern.",
+          "feedback": "Improvement under changed exposure does not establish the acceptability of the original exposure. The residual finding also remains relevant.",
+          "correct": false
+        },
+        {
+          "label": "Residual opacity at the last assessment proves that every affected animal would have permanent injury.",
+          "feedback": "Persistence through the observation period is not proof of lifelong persistence. Match the conclusion to the period and animals actually observed.",
+          "correct": false
+        },
+        {
+          "label": "Partial regression occurred, but residual opacity remained; longer-term recovery and human relevance remain separate questions.",
+          "feedback": "This preserves both improvement and persistence. It neither dismisses the finding nor claims that incomplete recovery within observation establishes permanent damage.",
+          "correct": true
+        }
+      ],
+      "result": {
+        "claim": "Corneal findings partly regressed after dose modification, while opacity remained incompletely reversible within the observed recovery period.",
+        "support": "The treatment changes and subsequent observations show both improvement and residual findings.",
+        "uncertainty": "The study does not establish complete later recovery, permanent injury in every animal or the eventual human monitoring plan.",
+        "next": "Carry the bounded recovery claim into human-relevance assessment and the judgment of what evidence supports the proposed trial."
+      }
+    },
+    "boundary": {
+      "required": "Provide an integrated toxicology summary and information adequate to support the safety of the proposed investigation, with further safety information as development proceeds.",
+      "recommended": "ICH S7A recommends safety-pharmacology studies informed by intended use, relevant systems, prior findings, timing, sensitivity and appropriate controls.",
+      "judgment": "Integrate severity, exposure, recovery and human relevance. Make consequential uncertainty visible rather than treating individual findings as automatic passes or failures.",
+      "source": {
+        "label": "21 CFR 312.23(a)(8) · Toxicology information",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "ICH S7A · Safety pharmacology, PDF 5–7",
+        "url": "https://www.fda.gov/media/72033/download#page=5"
+      }
+    },
+    "handoff": {
+      "id": "nonclinical-package",
+      "label": "Build a credible safety package",
+      "text": "Ask whether the studies, applicability arguments and records can support this risk account for the proposed investigation."
+    }
+  },
+  {
+    "id": "nonclinical-package",
+    "title": "Build a credible safety package",
+    "question": "Can the available studies and records support this proposed investigation—and what remains conditional?",
+    "premise": "A credible package carries applicable evidence forward and explains its limits. Completeness has meaning only in relation to a defined clinical investigation.",
+    "inherited": "Benefit rationale, exposure comparisons, interpreted hazards, prior-product experience, study designs and available reports.",
+    "context": "The proposed product, route, population, regimen, duration and next clinical step.",
+    "nodes": [
+      {
+        "id": "define-investigation",
+        "label": "Define the investigation",
+        "question": "What exactly does this evidence package need to support now?",
+        "principle": "Adequacy is relative to a proposed investigation, not an abstract endpoint called ‘complete.’",
+        "body": "State the product, route, population, dose pattern and duration before evaluating the studies. Evidence supporting a short investigation may leave work for extended treatment or a changed product. Keep the next expansion visible without making it today’s claim.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Product and route",
+              "text": "What will people receive, and where will exposure occur?",
+              "status": "open"
+            },
+            {
+              "label": "Population and regimen",
+              "text": "Who receives it, how often and for how long?",
+              "status": "open"
+            },
+            {
+              "label": "Current investigation",
+              "text": "Which concrete clinical step must the package support?",
+              "status": "open"
+            },
+            {
+              "label": "Future expansion",
+              "text": "Which later change would require reassessment?",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Write a proposed-use statement against which every claim of study adequacy can be assessed."
+      },
+      {
+        "id": "applicable-evidence",
+        "label": "Test evidence applicability",
+        "question": "Which existing conclusions carry forward, and which need a bridge?",
+        "principle": "Reuse is strongest when its applicability is explained rather than assumed.",
+        "body": "Compare the tested product, route, species and exposure with the proposed investigation. Preserve prior evidence that answers the question. A different formulation or exposure site may require a bridge, narrower claim, changed product or new evidence.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Existing conclusion",
+              "text": "What did the prior evidence establish in its original setting?",
+              "status": "supported"
+            },
+            {
+              "label": "Relevant difference",
+              "text": "Identify what changed and why that difference could matter.",
+              "status": "open"
+            },
+            {
+              "label": "Proposed reliance",
+              "text": "Explain which part of the earlier conclusion still supports this investigation.",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Use existing evidence where it applies and address the specific difference that limits further reliance."
+      },
+      {
+        "id": "study-credibility",
+        "label": "Examine study credibility",
+        "question": "Can the study design and available records carry the intended conclusion?",
+        "principle": "A study title or compliance label cannot substitute for an informative design and reviewable evidence.",
+        "body": "Check exposure, timing, relevant endpoints, controls and the records supporting interpretation. Distinguish useful incomplete evidence from an unsupported conclusion. Planned work, an accepted design and a completed adequate report are different states.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Informative design",
+              "text": "Does the experiment address the biological question at the relevant time and exposure?",
+              "status": "open"
+            },
+            {
+              "label": "Reviewable records",
+              "text": "Can the observations, methods and limitations be examined?",
+              "status": "open"
+            },
+            {
+              "label": "Supported conclusion",
+              "text": "The strength of the claim must fit both design and available evidence.",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Match the intended conclusion to what the study actually tested and what its records can substantiate."
+      },
+      {
+        "id": "stage-remaining-work",
+        "label": "Stage remaining work",
+        "question": "What supports the next step, what remains conditional, and when must the argument be revisited?",
+        "principle": "Work deferred to a later decision is not evidence that the underlying question is unnecessary.",
+        "body": "State what supports the proposed investigation and any unresolved conditions. Tie remaining work to the change it must support. A case-specific agreement on reports or timing is not a general waiver, and new findings can reopen earlier conclusions.",
+        "visual": {
+          "type": "timeline",
+          "items": [
+            {
+              "label": "Current support",
+              "text": "Evidence supports a defined investigation within stated limits.",
+              "status": "supported"
+            },
+            {
+              "label": "Pending condition",
+              "text": "Identify unfinished reports, unresolved relevance or another required decision.",
+              "status": "open"
+            },
+            {
+              "label": "Before expansion",
+              "text": "Reassess adequacy when the product, population, exposure or duration changes.",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Produce a trial-specific adequacy argument with explicit conditions and the trigger for the next assessment."
+      }
+    ],
+    "cases": [
+      {
+        "id": "glycopyrrolate-reuse",
+        "name": "Glycopyrrolate inhalation",
+        "kicker": "Reuse systemic knowledge; address the new route",
+        "stage": "Reproduced initial US IND review · Prior approved products and human experience",
+        "context": "The inhaled presentation could draw on established systemic safety information, while local respiratory exposure created a product- and route-specific question.",
+        "mapFocus": 1,
+        "known": "The reviewer considered prior systemic information alongside draft 28-day rat and dog inhalation reports addressing the new route.",
+        "supports": "Existing systemic knowledge and local respiratory evidence could contribute different parts of support for the proposed trial.",
+        "uncertain": "This case does not establish general acceptance of draft reports or the adequacy of every new formulation of an approved ingredient.",
+        "decision": "The reviewer considered the proposed trial reasonably safe to proceed and requested final reports within 120 days.",
+        "lesson": "Reuse what remains applicable; explain and address the new question created by the proposed presentation.",
+        "sources": [
+          {
+            "label": "Initial IND cover and assessment · PDF 31, 33",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31"
+          }
+        ]
+      },
+      {
+        "id": "suvorexant-relevance",
+        "name": "Suvorexant",
+        "kicker": "A completed study can still need a bridge",
+        "stage": "NDA retrospective account of initial IND advice and later IND development",
+        "context": "Initial animal studies supported the first trial, but an excipient present in the animal formulation and absent from the clinical formulation raised a question about relevance.",
+        "mapFocus": 1,
+        "known": "FDA retained concern that the animal-study excipient could affect the safety profile. Later discussions addressed justification or work using the relevant formulation.",
+        "supports": "Initial trial support did not establish unrestricted applicability of the same studies to all later development decisions.",
+        "uncertain": "Key formulation and excipient identities are redacted. The public account does not establish a universal requirement to repeat all toxicology.",
+        "decision": "The sponsor later chose extensive additional studies rather than the requested justification for reuse; distinguish that choice from FDA’s initial trial assessment.",
+        "lesson": "Assess the bridge before deciding whether existing work should be reused, supplemented or replaced.",
+        "sources": [
+          {
+            "label": "Initial and later IND history · PDF 34",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "Reassess a changed proposal",
+      "context": "Illustrative continuation of the glycopyrrolate case: the program has prior systemic safety information and local inhalation studies. A team now proposes substantially longer clinical treatment. No additional study results are supplied in this exercise.",
+      "claim": "Because the initial trial had adequate support, the same package necessarily supports the longer trial.",
+      "prompt": "What is the most useful first update to the adequacy argument?",
+      "options": [
+        {
+          "label": "Confirm that draft reports became final; their final status alone establishes support for the longer treatment.",
+          "feedback": "Final reports improve the available record, but report status does not extend what a study tested. Duration and biological relevance still matter.",
+          "correct": false
+        },
+        {
+          "label": "Keep applicable prior evidence and identify which duration, exposure and local-safety questions must be reassessed for the longer investigation.",
+          "feedback": "Correct. The changed proposal creates a new adequacy question. Reassessment preserves useful evidence while identifying the specific bridge or additional support that may be needed.",
+          "correct": true
+        },
+        {
+          "label": "Rely on the approved ingredient’s systemic history to cover the longer inhaled treatment without revisiting local respiratory exposure.",
+          "feedback": "Systemic experience remains useful, but it does not automatically answer duration-dependent local effects at a new exposure site.",
+          "correct": false
+        }
+      ],
+      "result": {
+        "claim": "Adequacy must be reassessed for the longer proposed investigation without discarding applicable prior evidence.",
+        "support": "Established systemic information and existing inhalation studies remain inputs with defined conditions and durations.",
+        "uncertainty": "The exercise supplies no evidence establishing that the new duration is adequately covered.",
+        "next": "Identify the specific duration and exposure questions, then determine whether existing analysis, a justified bridge or additional evidence can address them."
+      }
+    },
+    "boundary": {
+      "required": "Provide adequate safety information, integrated summaries and reviewable supporting data; for each study subject to GLP, state compliance or explain noncompliance.",
+      "recommended": "ICH M3(R2) links nonclinical scope and timing to the proposed clinical development, with context-dependent approaches and exceptions.",
+      "judgment": "Explain applicability, design adequacy and consequential gaps. A longer study list does not substitute for support of the actual proposed investigation.",
+      "source": {
+        "label": "21 CFR 312.23(a)(8) · Study information and GLP statements",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "ICH M3(R2) · Nonclinical scope and timing",
+        "url": "https://www.fda.gov/media/71542/download"
+      }
+    },
+    "handoff": {
+      "id": "clinical",
+      "label": "The first clinical study",
+      "text": "Translate the supported scope, unresolved risks and conditions into a concrete clinical investigation; revisit the package when that proposal changes."
+    }
+  }
+]

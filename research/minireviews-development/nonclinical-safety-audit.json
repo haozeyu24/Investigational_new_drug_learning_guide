@@ -1,0 +1,305 @@
+{
+  "topic": "nonclinical-safety",
+  "date": "2026-09-17",
+  "selection": "Bounded purposive manual review, combining prior verified cases and fresh queue leads. Not all candidate documents were manually reviewed.",
+  "fixedQueueCounts": {
+    "documents": 557,
+    "candidatePages": 1270
+  },
+  "manuallyReadDocuments": 13,
+  "manuallyReadDocumentPages": 29,
+  "freshQueueDocumentsEncountered": 6,
+  "warning": "Queue proximity is retrieval evidence, not IND provenance. A document can be relevant while its candidate hit is boilerplate or a different topic. Retained cases state exact stage.",
+  "documents": [
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf",
+      "pagesRead": [
+        87,
+        88,
+        89
+      ],
+      "caseIds": [
+        "nc-ivacaftor-safety-pharmacology"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "ec82699d8022625e8d5ded18",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/candidate-ivacaftor-fda-pharm.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf",
+      "pagesRead": [
+        142,
+        144,
+        145
+      ],
+      "caseIds": [
+        "nc-osimertinib-recovery"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "3b4e6624cf594c4ce87343b1",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-part3-sources/osimertinib-pharm.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf",
+      "pagesRead": [
+        15,
+        26
+      ],
+      "caseIds": [
+        "nc-faricimab-inflammation"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        22,
+        50
+      ],
+      "readCandidatePages": [],
+      "documentId": "c63b3cb2567fb4452213cf10",
+      "cachedTextFile": "/tmp/ind-full-screen/text/c63b3cb2567fb4452213cf10.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/c63b3cb2567fb4452213cf10.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/faricimab.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf",
+      "pagesRead": [
+        248,
+        249
+      ],
+      "caseIds": [
+        "nc-baricitinib-monitorability"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "0ad39b55f46d9ee630fed4a8",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-agent/baricitinib.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf",
+      "pagesRead": [
+        58,
+        59,
+        67
+      ],
+      "caseIds": [
+        "nc-exp01-lumateperone-metabolite-limits",
+        "nc-exp01-lumateperone-metabolite-limits"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "2419343bdfa6193ae401a49a",
+      "cachedTextFile": "/tmp/ind-full-screen/text/2419343bdfa6193ae401a49a.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/208573Orig1s000MedR.pdf",
+      "pagesRead": [
+        64,
+        96
+      ],
+      "caseIds": [
+        "nc-venetoclax-translation-limit"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "72ac6de1765f8c6cfd3adfbd",
+      "cachedTextFile": null,
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution",
+      "localPdfUsed": "/tmp/ind-review-library/venetoclax-clinical.pdf"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/213931Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        168,
+        169
+      ],
+      "caseIds": [
+        "safety-tenapanor"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        128
+      ],
+      "readCandidatePages": [],
+      "documentId": "0c59b69077ac80dba590c463",
+      "cachedTextFile": "/tmp/ind-full-screen/text/0c59b69077ac80dba590c463.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220482Orig1s000OtherR.pdf",
+      "pagesRead": [
+        146
+      ],
+      "caseIds": [
+        "safety-cipepofol"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "178baeeb6fde84239568852a",
+      "cachedTextFile": "/tmp/ind-full-screen/text/178baeeb6fde84239568852a.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf",
+      "pagesRead": [
+        46,
+        47
+      ],
+      "caseIds": [
+        "safety-tovorafenib"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        47,
+        48,
+        204
+      ],
+      "readCandidatePages": [
+        47
+      ],
+      "documentId": "236c89c9f7f20187334b249e",
+      "cachedTextFile": "/tmp/ind-full-screen/text/236c89c9f7f20187334b249e.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219685Orig1s000IntegratedR.pdf",
+      "pagesRead": [
+        101,
+        112,
+        113
+      ],
+      "caseIds": [
+        "safety-rilzabrutinib"
+      ],
+      "disposition": "Detailed case retained",
+      "method": "Manual reading of original PDF extraction; scanned pages visually reread from cached page images where text absent",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        2,
+        22
+      ],
+      "readCandidatePages": [],
+      "documentId": "3db698cf0ac3b9ab514dc132",
+      "cachedTextFile": "/tmp/ind-full-screen/text/3db698cf0ac3b9ab514dc132.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/3db698cf0ac3b9ab514dc132.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf",
+      "pagesRead": [
+        11
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Candidate concerns locating component genotoxicity reports and final package adequacy; primarily package credibility, not interpretation of an observed toxic effect.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        5,
+        11
+      ],
+      "readCandidatePages": [
+        11
+      ],
+      "documentId": "2035fc28ce8d09fd219f2800",
+      "cachedTextFile": "/tmp/ind-full-screen/text/2035fc28ce8d09fd219f2800.json.gz",
+      "cachedSourceFile": null,
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761326Orig2s000SumR.pdf",
+      "pagesRead": [
+        26,
+        27
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Human insulin-icodec PD/hypoglycemia concern and separate product-quality deficiency; clinical risk interpretation rather than detailed nonclinical case.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": true,
+      "queueCandidatePages": [
+        26,
+        28
+      ],
+      "readCandidatePages": [
+        26
+      ],
+      "documentId": "60ef1b4ef877fd76afc82ca2",
+      "cachedTextFile": "/tmp/ind-full-screen/text/60ef1b4ef877fd76afc82ca2.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/60ef1b4ef877fd76afc82ca2.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000SumR.pdf",
+      "pagesRead": [
+        10,
+        11,
+        12
+      ],
+      "caseIds": [],
+      "disposition": "Triaged; not expanded in this topic",
+      "reason": "Substantive somapacitan weight-of-evidence decision about further carcinogenicity studies; assigned to package review rather than duplicating it as a harm dataset.",
+      "method": "Manual reading of full cached original PDF page text",
+      "scope": "Listed pages and stage context only; not full-PDF manual review",
+      "appearsInFrozenTopicQueue": false,
+      "queueCandidatePages": [],
+      "readCandidatePages": [],
+      "documentId": "5972eb58ee58be8eb5e37afe",
+      "cachedTextFile": "/tmp/ind-full-screen/text/5972eb58ee58be8eb5e37afe.json.gz",
+      "cachedSourceFile": "/tmp/ind-full-screen/files/5972eb58ee58be8eb5e37afe.source",
+      "selectionBasis": "Known substantive decision from prior verified mapping or fresh topic queue; prioritized scientific interpretation and precise stage attribution"
+    }
+  ]
+}

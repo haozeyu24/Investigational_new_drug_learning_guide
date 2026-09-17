@@ -1,0 +1,176 @@
+[
+  {
+    "id": "nc-exp01-romiplostim-model-relevance",
+    "recordId": "romiplostim-hsars",
+    "drug": "Romiplostim (Nplate), HS-ARS development",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=211",
+    "pdfPages": [
+      211,
+      212
+    ],
+    "sourceStage": "October 12, 2017 Type B guidance meeting under PIND 132396, reproduced in BLA 125268/S-167 approval package (2021); new radiation indication for an already-approved product",
+    "evidenceSummary": "FDA made animal-species adequacy conditional on the nature and clinical significance of differences from humans and review of the full mouse survival/PK/PD reports. The discussion asks whether the timing of irradiation could explain observed sex differences and calls for justification and, if appropriate, accounting for sex effects in the modeling plan.",
+    "decisionOrQuestion": "Which features of the model are biologically relevant, and which may instead reflect the experimental procedure?",
+    "teachingUse": "Use as an advanced model-relevance exercise: separate drug effect, disease injury, sex and procedural timing before extrapolating. Require a stated rationale for the model and a plan to challenge the explanation.",
+    "limitation": "This is Animal Rule development for HS-ARS, not an initial safety package for first human exposure. Some descriptions of sex differences are redacted; do not infer their direction or size. It is agreement on an evidence strategy, not acceptance of the final efficacy conclusion.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-romiplostim-dose-design",
+    "recordId": "romiplostim-hsars",
+    "drug": "Romiplostim (Nplate), HS-ARS development",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-pharmacology",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=212",
+    "pdfPages": [
+      212,
+      214,
+      215
+    ],
+    "sourceStage": "Actual October 2017 pre-IND guidance meeting minutes for HS-ARS under PIND 132396; later reproduced in marketing-supplement package",
+    "evidenceSummary": "FDA says the submission lacked a strategy for translating the efficacious animal regimen into an effective human regimen. It asks for PK/PD results and modeling before the definitive NHP study design. When the sponsor favors the highest feasible dose to maximize efficacy, FDA advises considering lower doses that may provide more human-dose translation options; the sponsor agrees to review the PK/PD data and adjust the survival-study dose if needed.",
+    "decisionOrQuestion": "Will the animal study merely show an effect, or also provide the information needed to choose a human regimen?",
+    "teachingUse": "Contrast maximizing an animal effect with designing an informative exposure–response experiment. Ask learners to set the sequence: preliminary PK/PD → translation model → dose selection → definitive efficacy study.",
+    "limitation": "Historical Animal Rule planning for an already-marketed protein product. The passage does not establish a general animal-dose rule or a final human dose. A prominent study dose is expressed in mg/kg in the original; do not silently convert it to mcg/kg.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-romiplostim-pd-bridge",
+    "recordId": "romiplostim-hsars",
+    "drug": "Romiplostim (Nplate), HS-ARS development",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-pharmacology",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=198",
+    "pdfPages": [
+      198,
+      199,
+      200
+    ],
+    "sourceStage": "September 26, 2018 Type B end-of-Phase-2 meeting, still identified as PIND 132396; actual minutes in BLA supplement package",
+    "evidenceSummary": "The sponsor proposes integrating healthy and irradiated NHP data with healthy-volunteer data in mechanistic PK/PD and survival models. FDA agrees to the framework, recommends evaluating concomitant pegfilgrastim as a covariate, and specifically directs human dose selection toward platelet counts because NHP and human romiplostim doses and systemic concentrations differ substantially.",
+    "decisionOrQuestion": "When species differ in concentration–response relationships, which biological response can support the bridge?",
+    "teachingUse": "Use to build a model-informed dosing case: map exposure to platelets, radiation injury and survival; distinguish agreement with a proposed model from validation of its predictions. Make covariates and combination treatment part of the translation question.",
+    "limitation": "Animal Rule context; this is an agreed modeling approach, not the final model output or proof of predictive performance. The cited minutes do not establish human clinical efficacy in an acute radiation event. Some underlying datasets and proposed analyses are redacted.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-romiplostim-assay-bridge",
+    "recordId": "romiplostim-hsars",
+    "drug": "Romiplostim (Nplate), HS-ARS development",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=201",
+    "pdfPages": [
+      201
+    ],
+    "sourceStage": "September 2018 PIND 132396 meeting: actual assay/data adequacy discussion for dose translation",
+    "evidenceSummary": "Because platelet counts will drive dose selection, FDA requests validation and sample-analysis information in both monkey and human settings. For legacy 2001 studies whose reports may be unavailable, the discussion confirms individual PK/PD data exist, requests laboratories/assays and changes in handling or methods, and requires a validated assay in the pivotal monkey study. The sponsor agrees to provide the requested information.",
+    "decisionOrQuestion": "Can data from different laboratories, eras and species be combined into a quantitative translational model?",
+    "teachingUse": "Create a data-provenance and assay-comparability table. Distinguish availability of individual observations, assay-performance evidence and comparability across studies. Define the specific bridge needed rather than accepting or discarding all historical data at once.",
+    "limitation": "This is a concrete discussion about specified legacy and pivotal studies, not a general waiver of method validation or missing source records. Study identifiers contain inconsistencies within the original minutes; retain the source rather than silently normalizing them.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-romiplostim-endpoint-reconstructability",
+    "recordId": "romiplostim-hsars",
+    "drug": "Romiplostim (Nplate), HS-ARS development",
+    "lessonId": "nonclinical-package",
+    "secondaryLessonIds": [
+      "nonclinical-pharmacology",
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=193",
+    "pdfPages": [
+      193,
+      194,
+      195
+    ],
+    "sourceStage": "September 2018 PIND 132396 meeting: design of pivotal animal efficacy study for HS-ARS",
+    "evidenceSummary": "FDA accepts survival as the primary endpoint and requests ranked secondary endpoints. The sponsor initially plans no histopathology of animals found dead or euthanized; FDA recommends preserving and examining selected tissues to assess infection and internal bleeding. The sponsor supplies a ranked endpoint list and agrees to the tissue assessments, after which FDA agrees with the proposed design.",
+    "decisionOrQuestion": "What additional observations make a survival endpoint interpretable in the disease model?",
+    "teachingUse": "Use a protocol-revision exercise: connect primary outcome, supporting physiology and cause-related tissue findings. Ask learners to justify observations that explain why animals died or survived rather than treating a single endpoint as a complete model.",
+    "limitation": "These are planned studies for Animal Rule efficacy, not general repeat-dose safety toxicology. The record does not show the actual survival results on these pages or prove that infection/bleeding was the mechanism in every animal.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-lumateperone-metabolite-limits",
+    "recordId": "lumateperone",
+    "drug": "Lumateperone (Caplyta)",
+    "lessonId": "nonclinical-safety",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd",
+      "nonclinical-package"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf#page=58",
+    "pdfPages": [
+      58,
+      59
+    ],
+    "sourceStage": "2021 supplemental-NDA retrospective regulatory history of 2014/2016 and 2018 IND interactions; IND 079690 original program and IND 126701 bipolar program",
+    "evidenceSummary": "The history records a recommendation after a six-month repeat-dose study that human plasma levels remain below one tenth of exposure at the rat NOEL of 5 mg/kg/day. It separately describes required PK assessment of circulating aniline metabolites about every two weeks during the first six weeks of a six-month clinical extension.",
+    "decisionOrQuestion": "How is a nonclinical exposure boundary translated into a measurable condition for longer clinical dosing?",
+    "teachingUse": "Connect the animal reference point to the protocol requirement and ask what analyte, exposure metric, assay capability and sampling evidence are still needed to operationalize it. Pair with the later human metabolite findings, without collapsing the timeline.",
+    "limitation": "This is retrospective later-IND history, not the original toxicology review or initial first-human support. The page says NOEL, not NOAEL. It does not fully define the analyte and metric for the one-tenth restriction; do not calculate a numerical threshold from this passage alone.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-lumateperone-human-relevance-update",
+    "recordId": "lumateperone",
+    "drug": "Lumateperone (Caplyta)",
+    "lessonId": "nonclinical-pkpd",
+    "secondaryLessonIds": [
+      "nonclinical-safety"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf#page=67",
+    "pdfPages": [
+      67
+    ],
+    "sourceStage": "2021 supplemental-NDA clinical-pharmacology assessment, following later IND and postmarketing studies; not initial-IND evidence",
+    "evidenceSummary": "The review links two aniline metabolites to neuropathological findings in dogs and reports that both remained below the 0.1 ng/mL quantification limit in human studies with and without the UGT inhibitors valproate or probenecid. This updates the exposure evidence under a plausible metabolic interaction condition.",
+    "decisionOrQuestion": "What does a below-quantification result tell us about species relevance, and which conclusion would overstate it?",
+    "teachingUse": "Use as a bounded follow-up to the earlier IND exposure concern: distinguish not quantifiable from absent, retain the assay threshold and interaction conditions, and ask whether the evidence addresses the specific route to increased metabolite exposure.",
+    "limitation": "The measurements are clinical, reported at marketing-supplement review. They do not recreate the initial risk assessment, establish absence of all metabolites or generalize to every population or interacting medicine.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  },
+  {
+    "id": "nc-exp01-adagrasib-combination-models",
+    "recordId": "adagrasib-cetuximab-crc",
+    "drug": "Adagrasib (Krazati) with cetuximab, colorectal cancer",
+    "lessonId": "nonclinical-pharmacology",
+    "secondaryLessonIds": [
+      "nonclinical-pkpd"
+    ],
+    "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/216340Orig1s005.pdf#page=71",
+    "pdfPages": [
+      71,
+      72
+    ],
+    "sourceStage": "2024 supplemental-NDA nonclinical review for adagrasib plus cetuximab in CRC; original-IND provenance of these particular experiments is not established",
+    "evidenceSummary": "The review evaluates a proposed mechanism-of-action labeling revision using comparative in-vivo studies. Combination activity exceeds either agent in CR2528 and SW1463 models, but in CR6256 the combination does not differ from adagrasib alone during dosing. FDA therefore describes increased antitumor activity in some models, rather than all tested contexts; the figures preserve different regimens and dosing-stop times.",
+    "decisionOrQuestion": "How should heterogeneous model responses limit a combination claim?",
+    "teachingUse": "Compare the monotherapy and combination arms model by model, distinguish activity during dosing from post-treatment regrowth, and write the narrow claim supported by the full set of experiments. Use as supplemental candidate-specific pharmacology reading.",
+    "limitation": "This is a verified marketing-stage mechanism/labeling decision, not verified initial-IND justification. Do not call it evidence that the combination is synergistic, that every KRAS G12C CRC model responds similarly, or that an animal model establishes patient benefit.",
+    "verificationMethod": "Direct extraction and reading of original cached FDA PDF; meeting cover/provenance and adjacent pages inspected. Scanned or diagram-bearing cited passages visually inspected. Inventory hints were used only to locate pages.",
+    "confidence": "verified passage"
+  }
+]

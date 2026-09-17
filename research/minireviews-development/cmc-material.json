@@ -1,0 +1,303 @@
+{
+  "lessonId": "cmc-material",
+  "prepared": "2026-09-17",
+  "reviewType": "Focused interpretive mini-review; bounded purposive source selection, not systematic prevalence estimate",
+  "pageConvention": "One-basedPDFpages; file publication year may differ from enclosed review/meeting date",
+  "guidance": [
+    {
+      "id": "regulation",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23",
+      "section": "312.23(a)(7)",
+      "status": "binding regulation",
+      "scope": "Phase-dependent CMC sufficient foridentity, strength, quality, purity; stability for proposed investigation."
+    },
+    {
+      "id": "phase1-content",
+      "url": "https://www.fda.gov/media/71203/download",
+      "pdfPages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "status": "FDAguidance,1995; recommendations rather than independently binding requirements",
+      "scope": "InitialPhase 1 CMC safety focus, material bridging, preliminary analytical/stability information."
+    },
+    {
+      "id": "phase1-cgmp",
+      "url": "https://www.fda.gov/media/70975/download",
+      "pdfPages": [
+        4,
+        7,
+        10,
+        13,
+        14
+      ],
+      "status": "FDAguidance,2008; explainsstatutoryCGMP andregulatoryPart211 exemption",
+      "scope": "Most Phase 1 products are exempt from Part 211 under 210.2(c), while remaining subject to statutory CGMP. Exemption excludes drugs already made available for Phase 2 or Phase 3 use, or lawfully marketed drugs. Appropriate QC, reliable testing, and stability support through the last administration remain relevant."
+    },
+    {
+      "id": "later-ind",
+      "url": "https://www.fda.gov/media/70822/download",
+      "pdfPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "FDAguidance,2003; recommendations",
+      "scope": "Phase 2/3 small-moleculeCMC development and reporting; excludesproteins/biologics. Preserve development knowledge even if not all details submitted early."
+    }
+  ],
+  "cases": [
+    {
+      "id": "glyco",
+      "drug": "Glycopyrrolate inhalation solution EP-101 / NDA 208437",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=36",
+      "pdfPages": [
+        36,
+        37,
+        70,
+        75,
+        10,
+        21
+      ],
+      "sourceStage": "Initial IND 110663 original review and June 2011 memo reproduced in 2017 NDA; separate 2017 NDA impurity evaluation",
+      "sourceFacts": [
+        "Original review lists active ingredient, sodium chloride, citric acid, sodium hydroxide, hydrochloric acid and water for injection; quantitative composition and device details are largely redacted (36–37).",
+        "May4 2011 request during the initial30 day review sought related-substance acceptance criteria and assay/impurity profiles before and after nebulization (70).",
+        "Clinical lots had impurity levels below proposed limits; no additional nonclinical qualification was needed for proposed14 day Phase 2 study. Future NDA or >12 month expectations were explicitly separate (75).",
+        "2017 review found systemic experience with CPMA did not establish direct inhalation local safety; release/shelf-life limits were reduced (10,21)."
+      ],
+      "limitation": "Numeric limits and composition are redacted. The 2011 memo calls benzoic acid genotoxic, whereas 2017 review says neither impurity had mutagenic structural alerts and both were negative in tests; do not propagate the earlier classification or historical thresholds as current guidance.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "The object of assessment includes preparation and delivery; acceptance is tied to route, actual lot exposure and proposed duration. A systemic metabolite argument does not establish safety of direct airway deposition.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "ivacaftor",
+      "drug": "Ivacaftor / VRT-813077",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=79",
+      "pdfPages": [
+        79,
+        90
+      ],
+      "sourceStage": "OriginalIND 74633 review reproduced within 2012 NDA pharmacology review",
+      "sourceFacts": [
+        "The original IND review reports comparable dog PK for clinical-associated material in PEG/PVP/KOAc and nonclinical-associated material in SLS/methylcellulose/water (PDF 90). Important drug/form identifiers surrounding the vehicle descriptions are redacted."
+      ],
+      "limitation": "Visible vehicle names are not a full clinical recipe or evidence of final commercial-product bridging. The dog comparison alone does not establish all local tolerability, impurities or material attributes.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Exposure comparison can make a specific formulation difference interpretable without requiring physical identity of clinical and nonclinical preparations.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "suvorexant",
+      "drug": "Suvorexant",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34",
+      "pdfPages": [
+        34
+      ],
+      "sourceStage": "NDA 2014 retrospective account of initial IND 101847 MayProceed letter June24 2008 and later 2009 EOP 2",
+      "sourceFacts": [
+        "Initial one-month rat and dog studies supported the proposed initial trial.",
+        "MayProceed letter nevertheless questioned whether a nonclinical excipient absent from the clinical formulation could alter animal safety and relevance.",
+        "At laterEOP 2 FDA allowed justification of earlier vehicle use; sponsor elected two complete toxicology batteries rather than supplying that justification."
+      ],
+      "limitation": "Vehicle identities are redacted. The record does not establish a universal requirement to duplicate toxicology.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "A bridge can be adequate for one limited trial while retaining an unresolved longer-development issue. Distinguish the regulatory question from the sponsor’s chosen solution.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "pennsaid",
+      "drug": "Pennsaid diclofenac/DMSO topical solution",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf#page=45",
+      "pdfPages": [
+        45,
+        46
+      ],
+      "sourceStage": "2009 NDA retrospective initial IND 42773 hold recommendation and 1993–1995 correspondence",
+      "sourceFacts": [
+        "Initial hold was recommended for missing relevant nonclinical toxicity;40 published articles did not resolve deficiencies.",
+        "FDA said DMSO anti-inflammatory activity meant it could not simply be treated as inactive and requested separation of its pharmacodynamic contribution, skin penetration and interactions.",
+        "1995 discussion accepted specified human/skin evidence in place of some initially recommended animal work and allowed trials to proceed."
+      ],
+      "limitation": "Historical product-specific discussion, not a present-day universal classification of DMSO or testing battery.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Functional ingredient roles and route-specific evidence determine what product knowledge can be borrowed. A development plan may change when suitable alternative evidence becomes available.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "halobetasol",
+      "drug": "Halobetasol propionate lotion0.05%",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208183Orig1s000Admincorres.pdf#page=103",
+      "pdfPages": [
+        103,
+        104,
+        105
+      ],
+      "sourceStage": "Contemporaneous December3 2008 memo on originalIND submission, later reproduced in 2015 NDA administrative package",
+      "sourceFacts": [
+        "Prior topical experience plus irritation results and wavelength scans supported the proposed single-dose healthy-volunteer vasoconstrictor study.",
+        "Sponsor intended to select one lotion after that study; FDA distinguished clinical bridging/systemic reliance from additional local-safety and laterNDA questions."
+      ],
+      "limitation": "Acceptance was specific to the short proposed study. Later nonclinical recommendations are historical and cannot be generalized to every reformulated corticosteroid.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "An early trial may select the product formulation; the product definition should be sufficiently precise for that decision without pretending final commercial selection already exists.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "baricitinib",
+      "drug": "Baricitinib",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/207924Orig1s000PharmR.pdf#page=53",
+      "pdfPages": [
+        53,
+        54
+      ],
+      "sourceStage": "2018 NDA retrospective later IND 102204 correspondence 2011–2012 andEOP 2",
+      "sourceFacts": [
+        "Prior pharmacology/ADME/general toxicology used phosphate salt; sponsor moved clinical development to free base.",
+        "FDA initially requested phosphate for rat carcinogenicity or more exposure bridging. After additional rationale, existing bridge was accepted February9 2012.",
+        "EOP 2 requested impurity/intermediate structures, monitoring of impurities/degradants and qualification when applicable duringIND and forNDA."
+      ],
+      "limitation": "Underlying exposure data and impurity structures are not reproduced here. Historical 2008 draft genotoxicity guidance is not current numerical advice.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Change impact and bridge rationale can matter more than repeating an experiment. Impurity knowledge must evolve along with material and process changes.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "minocycline",
+      "drug": "Minocycline topical foam4% / AMZEEQ",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=27",
+      "pdfPages": [
+        27
+      ],
+      "sourceStage": "2019 NDA retrospective 2014 pre-IND,2015 initial IND 122770 and 2016 EOP 2",
+      "sourceFacts": [
+        "PreIND discussed maximal-use PK and dermal safety to bridge systemic nonclinical findings for oral Solodyn.",
+        "Initial adultPK protocol was followed by FDA request for pediatricPK. EOP 2 said adult study alone did not establish the intended bridge and requested pediatric maximal-use PK."
+      ],
+      "limitation": "This page documents requested bridge design, not all resulting PK data or final sufficiency. Pediatric ages differ across the cited interactions.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "A route bridge has a population and use-condition boundary; systemic reliance and local safety are distinct claims.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "atrovent",
+      "drug": "Atrovent HFA ipratropium",
+      "modality": "small molecule inhalation/device",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf#page=38",
+      "pdfPages": [
+        38,
+        39
+      ],
+      "sourceStage": "2004 NDA retrospective 1995 EOP 2,2000 later IND and 2002 pre-NDA; distinct 1994 initialhold history",
+      "sourceFacts": [
+        "1995 CMC meeting addressed valve/canister changes, extraction, impurities and stability protocols.",
+        "AfterPhaseIII, a third-generation valve led to two additional studies (PK and dose ranging); FDA also requested medication delivery, particle-size distribution and plume geometry information.",
+        "PreNDA discussions addressed regulatory specifications and delivery acceptance criteria."
+      ],
+      "limitation": "Initial 1994 hold concerned missingPhase 1 data, not the later valve change. The pages do not provide detailed stability results or full device specifications.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "The delivery device can change the evidentiary identity of an inhaled product after trials have finished; physical delivery evidence and clinical bridge planning must be coordinated.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "acer",
+      "drug": "ACER-001 sodium phenylbutyrate",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000AdminCorres.pdf#page=3",
+      "pdfPages": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "sourceStage": "Contemporaneous April23 2021 pre-NDA meeting underIND 143822",
+      "sourceFacts": [
+        "FDA connected taste-mask coating and dissolution at different pH values with fed-state drug release and possible age differences.",
+        "FDA requested discriminating dissolution methodology and multi-timepoint data; clarified exploratory taste-coating integrity testing was not required routine QC and taste panels would better inform taste-specific patient acceptability claims.",
+        "FDA said proposed pouch dosing was infeasible outside specified weight/BSA ranges and asked for explanation/additional pouch sizes."
+      ],
+      "limitation": "PreNDA advice, with final specifications deferred toNDA review. Weight ranges and coating details are redacted. No final approval outcome inferred.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Product design must support the intended dosing population. An assay needs a defined decision purpose; product understanding, patient acceptability and routine batch release are not interchangeable.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "faricimab",
+      "drug": "Faricimab",
+      "modality": "monoclonal antibody comparator",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=15",
+      "pdfPages": [
+        15,
+        16
+      ],
+      "sourceStage": "2022 BLA retrospective April 2017 TypeC CMC/nonclinical meeting, later IND 119225",
+      "sourceFacts": [
+        "FDA agreed no additional nonclinical studies were needed to qualify7 mMmethionine.",
+        "FDA requested context/historical controls for retinal degeneration in methionine controls and accepted explanation for buffer change to histidine acetate and pH5.5."
+      ],
+      "limitation": "Earlier buffer and some details are redacted. This is later IND, not 2013 originalIND. It is a biologic, so small-molecule guidance cannot be transferred wholesale.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Excipient assessment combines amount, site of administration, formulation rationale and interpretation of controls; a formulation question need not always produce another animal study.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "teplizumab",
+      "drug": "Teplizumab",
+      "modality": "monoclonal antibody comparator",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761183Orig1s010.pdf#page=312",
+      "pdfPages": [
+        312,
+        313,
+        136
+      ],
+      "sourceStage": "Contemporaneous December 2018 EOP 2 IND 100262 minutes; separate laterBLA history summarized in 2026 supplementreview",
+      "sourceFacts": [
+        "FDA rejected draft outline of manufacturing-transfer comparability plan and requested a detailedprotocol; advised CMC discussion after preliminary process data and finalized plan.",
+        "LaterBLAhistory records July 2021 CRL for lackPKcomparability betweenTN10 material and plannedcommercialAGCproduct.2022 resubmission used additionalPK/PD data with higherAGCdoses to matchLillyexposure."
+      ],
+      "limitation": "Do not imply 2018 discussion fully predicted later outcome or that all 2021 CRLissues are reproduced. Biologic comparator; originalINDmaterial package unavailable here.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "A future comparability plan must specify how continuity will be evaluated; same named antibody and facility transfer do not alone establish equivalence.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    }
+  ],
+  "caseCount": 11,
+  "strongProgramCount": 11,
+  "boundary": "Identity, formulation, route, presentation and scientific bridge between materials; process execution and elapsed-time suitability belong to companion reviews.",
+  "manualScreenAudit": "cmc-source-triage.json"
+}

@@ -1,0 +1,12 @@
+{
+  "frozenAt": "2026-09-17T05:31:07.118565+00:00",
+  "snapshotTime": "2026-09-17T05:15:26.667283+00:00",
+  "sha256": {
+    "screen-snapshot.json": "7ad23c034f07126cbfe30aeec2fcdcb418659f72e9259e3639168008a1dc8c1b",
+    "screen-summary.json": "d6826683e3e67260b4ecf6790f2eb60150ecd75798e78744cb36717f1de3fa46",
+    "screen-candidates.jsonl": "3cd1f1af66c7c751fc027a5ecf06ac066df8bc94f9ec604dd4779efcf9877026",
+    "screen-dispositions.json": "347b7d91796d0c5289a197a600cebaa022a254e061028da87d95de92d92adc4d",
+    "screen-manual-queue.json": "4799dd0b335f9e054d9db7c19c3d94309a38cf1c2597c789ae7dc1ce8a86ff98"
+  },
+  "instruction": "Frozen research denominator. Add later snapshots separately; do not overwrite these files."
+}

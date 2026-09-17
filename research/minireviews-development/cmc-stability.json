@@ -1,0 +1,332 @@
+{
+  "lessonId": "cmc-stability",
+  "prepared": "2026-09-17",
+  "reviewType": "Focused interpretive mini-review; bounded purposive source selection, not systematic prevalence estimate",
+  "pageConvention": "One-basedPDFpages; file publication year may differ from enclosed review/meeting date",
+  "guidance": [
+    {
+      "id": "regulation",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23",
+      "section": "312.23(a)(7)",
+      "status": "binding regulation",
+      "scope": "Phase-dependent CMC sufficient foridentity, strength, quality, purity; stability for proposed investigation."
+    },
+    {
+      "id": "phase1-content",
+      "url": "https://www.fda.gov/media/71203/download",
+      "pdfPages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "status": "FDAguidance,1995; recommendations rather than independently binding requirements",
+      "scope": "InitialPhase 1 CMC safety focus, material bridging, preliminary analytical/stability information."
+    },
+    {
+      "id": "phase1-cgmp",
+      "url": "https://www.fda.gov/media/70975/download",
+      "pdfPages": [
+        4,
+        7,
+        10,
+        13,
+        14
+      ],
+      "status": "FDAguidance,2008; explainsstatutoryCGMP andregulatoryPart211 exemption",
+      "scope": "Most Phase 1 products are exempt from Part 211 under 210.2(c), while remaining subject to statutory CGMP. Exemption excludes drugs already made available for Phase 2 or Phase 3 use, or lawfully marketed drugs. Appropriate QC, reliable testing, and stability support through the last administration remain relevant."
+    },
+    {
+      "id": "later-ind",
+      "url": "https://www.fda.gov/media/70822/download",
+      "pdfPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "FDAguidance,2003; recommendations",
+      "scope": "Phase 2/3 small-moleculeCMC development and reporting; excludesproteins/biologics. Preserve development knowledge even if not all details submitted early."
+    },
+    {
+      "id": "q1a",
+      "url": "https://www.fda.gov/media/71707/download",
+      "pdfPages": [
+        4,
+        5
+      ],
+      "status": "ICHQ1 A(R2) adoptedFDAguidance; registrationfocus",
+      "scope": "Registration stability framework; do not turn its commercial package into universal initial IND expectation."
+    }
+  ],
+  "cases": [
+    {
+      "id": "glyco",
+      "drug": "Glycopyrrolate inhalation solution EP-101 / NDA 208437",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=36",
+      "pdfPages": [
+        36,
+        37,
+        70,
+        75,
+        10,
+        21
+      ],
+      "sourceStage": "Initial IND 110663 original review and June 2011 memo reproduced in 2017 NDA; separate 2017 NDA impurity evaluation",
+      "sourceFacts": [
+        "Original review lists active ingredient, sodium chloride, citric acid, sodium hydroxide, hydrochloric acid and water for injection; quantitative composition and device details are largely redacted (36–37).",
+        "May4 2011 request during the initial30 day review sought related-substance acceptance criteria and assay/impurity profiles before and after nebulization (70).",
+        "Clinical lots had impurity levels below proposed limits; no additional nonclinical qualification was needed for proposed14 day Phase 2 study. Future NDA or >12 month expectations were explicitly separate (75).",
+        "2017 review found systemic experience with CPMA did not establish direct inhalation local safety; release/shelf-life limits were reduced (10,21)."
+      ],
+      "limitation": "Numeric limits and composition are redacted. The 2011 memo calls benzoic acid genotoxic, whereas 2017 review says neither impurity had mutagenic structural alerts and both were negative in tests; do not propagate the earlier classification or historical thresholds as current guidance.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "The object of assessment includes preparation and delivery; acceptance is tied to route, actual lot exposure and proposed duration. A systemic metabolite argument does not establish safety of direct airway deposition.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "lenacapavir",
+      "drug": "Lenacapavir injection",
+      "modality": "small molecule depot",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=318",
+      "pdfPages": [
+        318,
+        319,
+        83
+      ],
+      "sourceStage": "2023 public integratedNDA package reproducing 2021 later IND fullholds and first-cycle nonapproval, thenNDA resubmission evaluation",
+      "sourceFacts": [
+        "Borosilicate vials showed incompatibility, surface degradation and glass particles.",
+        "Full clinical holds December20 2021 followed inadequate information to assess injection risk and possible particulate contribution to persistent local reactions.",
+        "Initial alternative-vial proposal lacked comprehensive validated support through expiry. LaterNDA review accepted shelf life supported by long-term data, secondary-packaging photoprotection and in-use evidence in clear vials/syringe."
+      ],
+      "limitation": "Glass particles were a possible contributor, not established cause of every injection-site reaction. Later approval does not show that one packaging change alone resolved every deficiency.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "A container can generate a clinically relevant exposure. Shelf storage and preparation are separate environments needing linked evidence and instructions.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "gvoke",
+      "drug": "Gvoke glucagon proposedIV use",
+      "modality": "peptide comparator",
+      "sourceUrl": "https://download.open.fda.gov/crl/212097-s012_OtherActionLtrs.pdf#page=1",
+      "pdfPages": [
+        1,
+        2,
+        3
+      ],
+      "sourceStage": "2024 supplementalNDA 212097/S012 complete response; cites separateIND 156281 formulation",
+      "sourceFacts": [
+        "FDA found inadequate scientific bridge for proposedIV diagnostic use; formulation differed from listed drug.",
+        "Compatibility studies usedXP-9164 fromIND 156281, not the proposedGvoke vial formulation.",
+        "FDA requested correct-formulation admixture studies including gelling/agglomeration; suggested delivered-content and particle assessment after syringe/needle delivery as part of bridge."
+      ],
+      "limitation": "SupplementalCRL, not initial IND refusal; details of concentrations and some studies are redacted. No final resolution established by this letter.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Applicable evidence must match the formulation and administration transformation. AnIND number on a study does not establish relevance to a different proposed product.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "fiasp",
+      "drug": "Fiasp insulin aspart pump use",
+      "modality": "protein comparator",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/208751Orig1s011.pdf#page=300",
+      "pdfPages": [
+        300,
+        335,
+        336
+      ],
+      "sourceStage": "NDA 208751 supplement package with 2019 intercenter reviews; publicly filed 2026, not originalIND",
+      "sourceFacts": [
+        "Intercenter review could not adequately assess reservoir in-use stability when a referenced test report was missing despite a high-level summary.",
+        "Sponsor low-flow simulation found needle-end and reservoir degradants comparable without occlusion; reviewer found supplemental low-flow adult clinical analyses helpful for pediatric extrapolation.",
+        "Reviewer said labeling should identify adult-data extrapolation because no dedicated pediatric pump clinical study was conducted."
+      ],
+      "limitation": "PDF 300 text encoding was damaged and was checked against rendered page in prior verification;335–336 were re-read as text. Sponsor results are not all independentFDA findings. Device/population extension, not initial IND.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "PDF300 was visually rechecked from rendered FDA page because extracted text has font encoding damage; PDF335–336 text and reviewer context re-read. One-based PDF pages.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Administration endpoints and worst-case use conditions belong in stability reasoning; analytical simulation and clinical extrapolation should remain distinguishable.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "vevye",
+      "drug": "CyclASol/cyclosporine ophthalmic solution / NDA 217469",
+      "modality": "small molecule ophthalmic",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217469Orig1s000AdminCorres.pdf#page=2",
+      "pdfPages": [
+        2,
+        7,
+        8
+      ],
+      "sourceStage": "Contemporaneous March29 2022 pre-NDA meeting underIND 128163",
+      "sourceFacts": [
+        "FDA deferred final specifications toNDA review and requested numerical identification limits/viscosity and other product-specific controls.",
+        "Meeting discussion accepted an unspecified-impurity limit on the basis of low ophthalmic strength rather than sponsor’s proposed total-daily-intake rationale.",
+        "NDA evidence requests included droplet volume across container batches, weight loss, freeze-thaw, container integrity, E&L through expiry and antimicrobial effectiveness initially and at end of shelf life for multidose use."
+      ],
+      "limitation": "LateIND meeting about futureNDA content; not initial IND. Numeric discussion is historical/product-specific and is not a substitute for current applicable guidance.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "The basis for a limit matters even when reviewer and sponsor reach the same number. Stability must include delivery and microbial performance for the actual package.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "ivglyco",
+      "drug": "Glycopyrrolate injection USP prefilled syringe / NDA 214919",
+      "modality": "small molecule combination product",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214919Orig1s000AdminCorres.pdf#page=2",
+      "pdfPages": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "sourceStage": "2021 NDA refusal-to-file and separately labeled additional comments, publicly packaged 2022",
+      "sourceFacts": [
+        "RTF basis included uninterpretable leachables evidence lacking methodology/sample preparation/quantitative data.",
+        "Additional comments questioned no-detect leachables with observed extractables, missing validation and a single timepoint.",
+        "Additional endotoxin comments linked method dilution and specification to maximal hourly adult/pediatric dosing.",
+        "Device comments requested essential performance at expiry and final-finished-product shipping evidence rather than relying on another drug’s syringe study."
+      ],
+      "limitation": "OnlyPDF 2 lists filing deficiencies; PDF 5 onward explicitly includes issues not themselves RTF grounds. These areNDA-stage expectations, not aninitial IND checklist.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Negative results depend on method capability. A concentration limit must be translated into actual clinical exposure; quality through distribution includes dose delivery.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "soluprep",
+      "drug": "SoluPrep chlorhexidine/isopropyl alcohol",
+      "modality": "small molecule topical antiseptic",
+      "sourceUrl": "https://download.open.fda.gov/crl/208288_2018_Orig1s000OtherActionLtrs.pdf#page=2",
+      "pdfPages": [
+        2,
+        3
+      ],
+      "sourceStage": "2018 NDA 208288 complete response, following 2017 interactions",
+      "sourceFacts": [
+        "Rabbit study did not adequately qualify proposed impurity stability specifications for26 mL applicator maximal use; tissue battery and exposure support were insufficient.",
+        "FDA offered adequate qualification/exposure evidence or tighter limits based on relevant approved-product total daily exposure; four26 mL applications/day mattered.",
+        "Franz-cell results were not a substitute for clinicalPK to establish the proposed exposure argument in this case."
+      ],
+      "limitation": "NDA/CRL evidence, not initial IND. Identities/percentages redacted. Options are product-specific and do not mandate a universal maximal-use or animal design.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "The worst permitted late-shelf-life impurity level and maximum intended use together define the exposure a qualification argument must cover.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "dupilumab",
+      "drug": "Dupilumab for asthma",
+      "modality": "monoclonal antibody comparator",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761055Orig1s007.pdf#page=61",
+      "pdfPages": [
+        61
+      ],
+      "sourceStage": "Asthma supplementalBLA 761055/S007 review, public 2020 package",
+      "sourceFacts": [
+        "Stability issue revealed a redacted contaminant; manufacturing change duringEFC13579 removed a redacted constituent to improve stability.",
+        "FDA recommended efficacy sensitivity analysis by material exposure;374 patient subset had no noticeable difference in efficacy estimates compared with ITT."
+      ],
+      "limitation": "Redactions prevent identification of contaminant/constituent or precise process correction. Subset finding does not prove full analytical orPK equivalence.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Critical passages and adjacent provenance re-read from FDA PDF text; scanned pages visually checked where necessary. One-based PDF pages, not printed page numbers.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Quality changes during trials can require checking whether pooled clinical evidence still describes the material to be marketed.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "sesquient",
+      "drug": "Sesquient fosphenytoin sodium injection",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/210864Orig1s000ChemR.pdf#page=5",
+      "pdfPages": [
+        5,
+        22,
+        24,
+        33,
+        34
+      ],
+      "sourceStage": "NDA quality review package containing 2019 nonapproval and 2020 resubmission assessments; pre-IND only mentioned retrospectively",
+      "sourceFacts": [
+        "Inadequate HPLC validation for degradants prevented assessment of stability data and shelf-life establishment; later revalidation and shorter shelf life addressed this issue.",
+        "Dilution data initially covered middle concentrations and saline, whereas labeling proposed range extremes and dextrose also; FDA requested those conditions and suitable method validation.",
+        "Foreign particle observations remained unresolved at the 2019 review. A second laboratory’s different results did not establish the first results were testing contamination. FDA requested root cause, mitigation and evidence of prevention.",
+        "Earlier pre-IND monograph advice is separately labeled non-approvability comment; it is not evidence these NDAdeficiencies occurred atinitial IND."
+      ],
+      "limitation": "Detailed particle identities and process information redacted. PDF 22 describes an intermediate review; final 2020 assessment differs. Do not describe 2019 nonapproval as the permanent program outcome.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Re-read relevant cached FDA PDF page text and adjacent provenance from frozen fresh screening queue; one-based PDF pages.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "A stability conclusion depends on method fitness and condition coverage. Root-cause alternatives require discriminating evidence, not just a favorable repeat test.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "cytalux",
+      "drug": "Cytalux / pafolacianine sodium",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000ChemR.pdf#page=6",
+      "pdfPages": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "sourceStage": "2021 NDA quality review reflecting hypersensitivity/compatibility observations in IND 118215 subjects; initial IND timing not established",
+      "sourceFacts": [
+        "Saline diluent was associated with hypersensitivity reactions in IND subjects; investigation concluded aggregation was most likely responsible.",
+        "FDA review links D5 W-only dilution instructions with aggregation concern; product is heat/light sensitive with frozen storage, thawing, dilution and restricted refrigerated in-use period.",
+        "Review found storage/use issues resolved and accepted commercial shelf life; this does not reconstruct originalINDstability package."
+      ],
+      "limitation": "Causality stated as most likely by source. OriginalIND package not recovered. Some formulation/storage information redacted; do not convertNDA shelf-life intoPhase 1 expectation.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Re-read relevant cached FDA PDF page text and adjacent provenance from frozen fresh screening queue; one-based PDF pages.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "Diluent selection can alter the administered physical species and clinical risk. Storage and preparation must be treated as linked but distinct environments.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    },
+    {
+      "id": "xaciato",
+      "drug": "Xaciato / DARE-BV1 clindamycin phosphate vaginal gel",
+      "modality": "small molecule",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/215650Orig1s000AdminCorres.pdf#page=4",
+      "pdfPages": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "sourceStage": "Contemporaneous January22 2021 pre-NDA meeting underIND 143919; proposed registration stability package",
+      "sourceFacts": [
+        "Sponsor requested6 month long-term plus6 month accelerated registration data with later update; FDA agreed instead to9 month long-term plus6 month accelerated for3 batches at initial NDA and12 month long-term update within30 days.",
+        "FDA requested additional within-tube content uniformity in release/stability specifications.",
+        "Meeting also questioned whether equal benzyl-alcohol amount in a gel and approved cream established equal absorption; not used as primary stability point."
+      ],
+      "limitation": "Product-specific marketing agreement, not universal9 month rule. Some amounts are redacted; no conclusion on final shelf life is drawn.",
+      "evidenceStrength": "strong",
+      "verificationMethod": "Re-read relevant cached FDA PDF page text and adjacent provenance from frozen fresh screening queue; one-based PDF pages.",
+      "confidence": "verified passage",
+      "interpretationForLesson": "An agreed filing schedule can be adapted without making time-based evidence optional. InitialNDA does not mean initial IND.",
+      "interpretationAuthor": "Mini-review author; teaching inference, not a statement attributed to FDA"
+    }
+  ],
+  "caseCount": 11,
+  "strongProgramCount": 11,
+  "boundary": "Chemical, physical, microbial and delivery suitability from manufacture through storage, preparation and administration; no universal commercial shelf-life package forPhase 1.",
+  "manualScreenAudit": "cmc-source-triage.json"
+}

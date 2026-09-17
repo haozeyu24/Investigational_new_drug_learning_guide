@@ -1,0 +1,1492 @@
+{
+  "updated": "2026-09-17T07:01:23+00:00",
+  "originalIndexRows": 7857,
+  "queue": [
+    {
+      "depth": 0,
+      "status": "error",
+      "n": 333
+    },
+    {
+      "depth": 0,
+      "status": "pending",
+      "n": 2511
+    },
+    {
+      "depth": 0,
+      "status": "processing",
+      "n": 1
+    },
+    {
+      "depth": 0,
+      "status": "resolved",
+      "n": 3482
+    },
+    {
+      "depth": 0,
+      "status": "resolved-no-review-links",
+      "n": 9
+    },
+    {
+      "depth": 0,
+      "status": "screened",
+      "n": 843
+    },
+    {
+      "depth": 1,
+      "status": "error",
+      "n": 131
+    },
+    {
+      "depth": 1,
+      "status": "pending",
+      "n": 29150
+    },
+    {
+      "depth": 1,
+      "status": "processing",
+      "n": 2
+    },
+    {
+      "depth": 1,
+      "status": "screened",
+      "n": 7119
+    }
+  ],
+  "screen": [
+    {
+      "screen": null,
+      "n": 32128
+    },
+    {
+      "screen": "keyword-negative-text-only",
+      "n": 1915
+    },
+    {
+      "screen": "keyword-positive",
+      "n": 4175
+    },
+    {
+      "screen": "no-keyword-in-extracted-text-partial-OCR-needed",
+      "n": 1807
+    },
+    {
+      "screen": "package-expanded",
+      "n": 3482
+    },
+    {
+      "screen": "package-no-links-needs-manual-check",
+      "n": 9
+    },
+    {
+      "screen": "unreadable-or-image-only",
+      "n": 65
+    }
+  ],
+  "kind": [
+    {
+      "content_kind": null,
+      "n": 32127
+    },
+    {
+      "content_kind": "html-package",
+      "n": 3491
+    },
+    {
+      "content_kind": "pdf",
+      "n": 7963
+    }
+  ],
+  "totals": {
+    "documents": 43581,
+    "attempted": 11920,
+    "pdfPages": 466526,
+    "readablePages": 388674,
+    "lowTextPages": 77852,
+    "keywordHitPages": 29632,
+    "downloadedBytes": 32317309172
+  },
+  "lessonHints": [
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 86
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 61
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 10
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 56
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 50
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 19
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-material\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 17
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 13
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-package\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-controls\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 12
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-package\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-material\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 21
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 10
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"cmc-stability\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 9
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-package\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 9
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 22
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-pkpd\"]",
+      "n": 19
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\", \"nonclinical-safety\"]",
+      "n": 12
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"clinical-dose\"]",
+      "n": 20
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 68
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 146
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 24
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 12
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\"]",
+      "n": 28
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 10
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 9
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 41
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 85
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 37
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\"]",
+      "n": 30
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 21
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 19
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 12
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-material\"]",
+      "n": 13
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-package\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pharmacology\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"cmc-stability\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 9
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 46
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 83
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 17
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-package\"]",
+      "n": 125
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-pharmacology\"]",
+      "n": 14
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-pkpd\"]",
+      "n": 24
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\", \"nonclinical-safety\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-controls\"]",
+      "n": 20
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"cmc-stability\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-package\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-material\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"cmc-stability\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 12
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-package\"]",
+      "n": 17
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-pharmacology\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 17
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-pkpd\"]",
+      "n": 17
+    },
+    {
+      "lesson_hints": "[\"clinical\", \"nonclinical-safety\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"clinical\"]",
+      "n": 38
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"cmc-stability\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 10
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-package\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-material\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"cmc-stability\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 9
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-controls\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"cmc-stability\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 14
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 16
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-material\"]",
+      "n": 26
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 23
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"cmc-stability\"]",
+      "n": 27
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-package\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 14
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-pkpd\"]",
+      "n": 19
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\", \"nonclinical-safety\"]",
+      "n": 29
+    },
+    {
+      "lesson_hints": "[\"clinical-dose\"]",
+      "n": 80
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 13
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-package\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 9
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 22
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 20
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"cmc-stability\"]",
+      "n": 33
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 19
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-package\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 6
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 25
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\", \"nonclinical-safety\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-material\"]",
+      "n": 55
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"cmc-stability\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 16
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-package\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-pharmacology\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-pkpd\"]",
+      "n": 56
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\", \"nonclinical-safety\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-controls\"]",
+      "n": 30
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"cmc-stability\", \"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"cmc-stability\"]",
+      "n": 30
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-package\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-pharmacology\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 15
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-pkpd\"]",
+      "n": 30
+    },
+    {
+      "lesson_hints": "[\"cmc-material\", \"nonclinical-safety\"]",
+      "n": 16
+    },
+    {
+      "lesson_hints": "[\"cmc-material\"]",
+      "n": 171
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\", \"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\", \"nonclinical-package\"]",
+      "n": 2
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\", \"nonclinical-safety\"]",
+      "n": 5
+    },
+    {
+      "lesson_hints": "[\"cmc-stability\"]",
+      "n": 133
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 3
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-pharmacology\"]",
+      "n": 1
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 11
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-pkpd\"]",
+      "n": 31
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\", \"nonclinical-safety\"]",
+      "n": 4
+    },
+    {
+      "lesson_hints": "[\"nonclinical-package\"]",
+      "n": 30
+    },
+    {
+      "lesson_hints": "[\"nonclinical-pharmacology\", \"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"nonclinical-pharmacology\", \"nonclinical-pkpd\"]",
+      "n": 8
+    },
+    {
+      "lesson_hints": "[\"nonclinical-pharmacology\", \"nonclinical-safety\"]",
+      "n": 7
+    },
+    {
+      "lesson_hints": "[\"nonclinical-pharmacology\"]",
+      "n": 13
+    },
+    {
+      "lesson_hints": "[\"nonclinical-pkpd\", \"nonclinical-safety\"]",
+      "n": 16
+    },
+    {
+      "lesson_hints": "[\"nonclinical-pkpd\"]",
+      "n": 78
+    },
+    {
+      "lesson_hints": "[\"nonclinical-safety\"]",
+      "n": 71
+    },
+    {
+      "lesson_hints": "[]",
+      "n": 4409
+    }
+  ],
+  "freeDiskGiB": 47.3,
+  "interpretation": "Machine text screening only. Keyword negatives and OCR-needed pages are not evidence of absence. Lesson hints are unverified. Stage A is one FDA index stratum, not all FDA records.",
+  "indexRowStatus": [
+    {
+      "status": "error",
+      "indexRows": 337
+    },
+    {
+      "status": "pending",
+      "indexRows": 2785
+    },
+    {
+      "status": "processing",
+      "indexRows": 1
+    },
+    {
+      "status": "resolved",
+      "indexRows": 3831
+    },
+    {
+      "status": "resolved-no-review-links",
+      "indexRows": 9
+    },
+    {
+      "status": "screened",
+      "indexRows": 894
+    }
+  ],
+  "uniqueScreenedPDFHashes": 7916
+}

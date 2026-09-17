@@ -1,0 +1,625 @@
+{
+  "cmc-material": {
+    "id": "cmc-material",
+    "title": "Define the drug people will receive",
+    "question": "Does the evidence describe the preparation people will actually receive?",
+    "premise": "A drug name does not establish that the material tested before has the same relevant properties as the preparation proposed now.",
+    "inherited": "You have a candidate and supporting evidence. Their relevance depends on which material was studied.",
+    "context": "Define the product for this study, including preparation and delivery.",
+    "nodes": [
+      {
+        "id": "supplied-to-administered",
+        "label": "Define the preparation",
+        "question": "What is supplied, and what reaches the participant?",
+        "principle": "The administered preparation connects chemistry, formulation and delivery.",
+        "body": "Describe substance form, composition, strength, route and presentation. Include preparation steps that could change what is delivered. Keep unknown composition explicit.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Drug substance",
+              "text": "Identity and chemical form",
+              "status": "inferred"
+            },
+            {
+              "label": "Drug product",
+              "text": "Composition, strength and presentation",
+              "status": "inferred"
+            },
+            {
+              "label": "Administration",
+              "text": "Preparation, route and delivery",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Write one product definition tied to the proposed study."
+      },
+      {
+        "id": "compare-materials",
+        "label": "Locate the differences",
+        "question": "How does this preparation differ from the material supporting the evidence?",
+        "principle": "Borrowed evidence needs an explicit material comparison.",
+        "body": "Compare clinical material with toxicology material, earlier clinical material or a reference product. A shared active ingredient does not answer every formulation or delivery question.",
+        "visual": {
+          "type": "contrast",
+          "items": [
+            {
+              "label": "Evidence material",
+              "text": "What was tested, and under which conditions?",
+              "status": "supported"
+            },
+            {
+              "label": "Proposed material",
+              "text": "What changes in form, vehicle, route or presentation?",
+              "status": "open"
+            },
+            {
+              "label": "Potential consequence",
+              "text": "Could exposure, local contact or delivered dose change?",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Identify each difference that could alter the meaning of the evidence."
+      },
+      {
+        "id": "bridge-consequence",
+        "label": "Bridge the consequence",
+        "question": "Which comparison would resolve the consequential difference?",
+        "principle": "A bridge tests the implication of a change.",
+        "body": "Choose evidence suited to the uncertainty: exposure, local compatibility or physical delivery. Comparable systemic exposure answers a narrower question than complete product equivalence.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Difference",
+              "text": "A material or presentation changes",
+              "status": "supported"
+            },
+            {
+              "label": "Consequence",
+              "text": "A relevant exposure or performance may change",
+              "status": "open"
+            },
+            {
+              "label": "Bridge evidence",
+              "text": "Measure the consequence the argument depends on",
+              "status": "inferred"
+            },
+            {
+              "label": "Supported scope",
+              "text": "State which uncertainty the comparison resolves",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Select evidence that can support or challenge the proposed bridge."
+      },
+      {
+        "id": "bound-material-claim",
+        "label": "Bound the claim",
+        "question": "What may be carried forward, and what remains unresolved?",
+        "principle": "An acceptable bridge has a stated scope.",
+        "body": "Separate support for this study from support for later formulations, populations or commercial material. Record changes that would reopen the comparison.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Carry forward",
+              "text": "Evidence applicable to the defined preparation",
+              "status": "supported"
+            },
+            {
+              "label": "Keep open",
+              "text": "Attributes or uses the comparison did not establish",
+              "status": "open"
+            },
+            {
+              "label": "Revisit after change",
+              "text": "A new form, route, formulation or device may break the bridge",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "State the material claim, its limits and the next change that requires reassessment."
+      }
+    ],
+    "cases": [
+      {
+        "id": "ivacaftor-material",
+        "name": "Ivacaftor",
+        "kicker": "An exposure comparison with a limited claim",
+        "stage": "Initial IND 74633 review, reproduced in the 2012 NDA",
+        "context": "Dog PK compared clinical-associated and nonclinical-associated materials using different stated vehicles. Important material identifiers are redacted.",
+        "mapFocus": 2,
+        "known": "The review reports comparable dog PK for materials in PEG/PVP/KOAc and SLS/methylcellulose/water vehicles.",
+        "supports": "The comparison supports interpreting systemic exposure across the materials discussed.",
+        "uncertain": "Redacted identifiers prevent reconstruction of the full formulations. Local tolerability and final commercial-product equivalence are not established here.",
+        "decision": "Use this as evidence for a specific exposure bridge, with the material and attribute limits visible.",
+        "lesson": "Different preparations can be connected by relevant evidence without claiming they are identical.",
+        "sources": [
+          {
+            "label": "Original IND comparison · PDF 90",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=90"
+          }
+        ]
+      },
+      {
+        "id": "atrovent-material",
+        "name": "Atrovent HFA",
+        "kicker": "A valve change reopens the comparison",
+        "stage": "Later IND development after Phase 3; described in the 2004 NDA",
+        "context": "The proposed inhaler used a third-generation valve after the Phase 3 program had finished.",
+        "mapFocus": 1,
+        "known": "FDA requested further delivery information, particle-size distribution and plume geometry; additional PK and dose-ranging studies were agreed.",
+        "supports": "The device presentation belonged in the bridge between trial evidence and the proposed product.",
+        "uncertain": "The public history does not provide full valve specifications. The separate initial IND hold concerned missing Phase 1 data.",
+        "decision": "Assess the changed delivery attributes and clinical relevance before carrying earlier inhaler evidence forward.",
+        "lesson": "The active ingredient can stay the same while the evidence needed for the product changes.",
+        "sources": [
+          {
+            "label": "Development history · PDF 38–39",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/021527s000_MedR.pdf#page=38"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "A familiar drug, a new presentation",
+      "context": "Hypothetical: a team changes the delivery device after completing studies. The active ingredient and nominal strength remain unchanged, but delivered-dose performance has not been compared.",
+      "claim": "The earlier evidence fully supports the new presentation because the active ingredient and strength are unchanged.",
+      "prompt": "Which response best repairs the argument?",
+      "options": [
+        {
+          "label": "Carry the evidence forward without further comparison.",
+          "feedback": "The unchanged ingredient and nominal strength do not establish how the new device delivers the preparation.",
+          "correct": false
+        },
+        {
+          "label": "Compare delivery attributes, then choose evidence for consequential differences.",
+          "feedback": "This connects the changed presentation to its possible effect and selects a bridge proportionate to the unresolved question.",
+          "correct": true
+        },
+        {
+          "label": "Repeat every earlier study before examining the change.",
+          "feedback": "A complete repetition is not justified merely by a change. First establish which attributes and conclusions may be affected.",
+          "correct": false
+        }
+      ],
+      "result": {
+        "claim": "Earlier evidence may support the new presentation if consequential delivery differences are adequately bridged.",
+        "support": "The ingredient and nominal strength match; the delivery comparison is still needed.",
+        "uncertainty": "The new device may alter the delivered preparation or dose.",
+        "next": "Compare performance and choose additional evidence for any consequential difference."
+      }
+    },
+    "boundary": {
+      "required": "IND CMC information must support identity, strength, quality and purity at the proposed stage.",
+      "recommended": "FDA recommends explaining differences between clinical and toxicology products and their possible safety implications.",
+      "judgment": "Choose the comparison that resolves the relevant consequence; a formulation difference does not automatically require repeating every study.",
+      "source": {
+        "label": "21 CFR 312.23(a)(7) · CMC information",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "FDA Phase 1 IND guidance · PDF 6–7; cites 21 CFR 312.23(a)(7)",
+        "url": "https://www.fda.gov/media/71203/download#page=6"
+      }
+    },
+    "handoff": {
+      "id": "cmc-controls",
+      "label": "Make this material consistently",
+      "text": "Carry the product definition and material bridge into tests, limits and controls that support consistent clinical supply."
+    }
+  },
+  "cmc-controls": {
+    "id": "cmc-controls",
+    "title": "Make and control consistent material",
+    "question": "Can the process and controls reliably produce material whose relevant properties are understood?",
+    "premise": "A test result supports release only when the method, acceptance rule and manufacturing knowledge address the properties that matter for use.",
+    "inherited": "The clinical preparation is defined, and differences from supporting materials have a stated bridge.",
+    "context": "Turn product and process knowledge into a defensible decision about each clinical batch.",
+    "nodes": [
+      {
+        "id": "trace-variation",
+        "label": "Trace possible variation",
+        "question": "What could change between batches, and why would it matter?",
+        "principle": "Controls begin with a plausible source of consequential variation.",
+        "body": "Consider materials, process steps and resulting attributes. Connect impurities or performance changes to exposure and use. Distinguish an identified hazard from an unresolved signal.",
+        "visual": {
+          "type": "chain",
+          "items": [
+            {
+              "label": "Source of variation",
+              "text": "Material, process step or equipment",
+              "status": "inferred"
+            },
+            {
+              "label": "Product attribute",
+              "text": "Impurity, strength or release performance",
+              "status": "inferred"
+            },
+            {
+              "label": "Consequence",
+              "text": "Potential effect on clinical exposure or safety",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Name the variation to prevent, detect or qualify."
+      },
+      {
+        "id": "give-tests-jobs",
+        "label": "Give tests jobs",
+        "question": "What decision is each test intended to support?",
+        "principle": "A useful method must distinguish what the decision depends on.",
+        "body": "Separate development experiments, patient-acceptability assessments and routine release tests. Show that the chosen method can detect a meaningful difference before interpreting a passing result.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Development",
+              "text": "Understand how formulation or process affects performance",
+              "status": "inferred"
+            },
+            {
+              "label": "Release",
+              "text": "Decide whether this batch meets justified criteria",
+              "status": "inferred"
+            },
+            {
+              "label": "Patient experience",
+              "text": "Assess an acceptability claim with relevant evidence",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Keep tests with a defined purpose and evidence that they can perform it."
+      },
+      {
+        "id": "justify-acceptance",
+        "label": "Justify the limit",
+        "question": "Why is the proposed acceptance rule appropriate for this use?",
+        "principle": "Limits connect measured attributes with a safety or performance basis.",
+        "body": "Distinguish observed batch values from permitted limits. Consider dose, route and duration when interpreting impurity exposure. A favorable result cannot repair a method that misses the relevant change.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Measured attribute",
+              "text": "A result from a suitable method",
+              "status": "supported"
+            },
+            {
+              "label": "Use conditions",
+              "text": "Dose, route and duration",
+              "status": "supported"
+            },
+            {
+              "label": "Acceptance basis",
+              "text": "Evidence supporting the permitted range",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Explain what supports the limit and what further evidence or tighter control is needed."
+      },
+      {
+        "id": "respond-to-change",
+        "label": "Respond to change",
+        "question": "What happens when results or manufacturing changes challenge the control strategy?",
+        "principle": "A control strategy includes investigation and reassessment.",
+        "body": "Investigate failures and unexpected trends. Compare changed material with the evidence supporting use. Revise the method, process, limit or qualification argument when its basis no longer holds.",
+        "visual": {
+          "type": "timeline",
+          "items": [
+            {
+              "label": "Signal",
+              "text": "Failure, trend or planned manufacturing change",
+              "status": "challenged"
+            },
+            {
+              "label": "Investigation",
+              "text": "Distinguish plausible causes with evidence",
+              "status": "open"
+            },
+            {
+              "label": "Response",
+              "text": "Correct the cause and reassess affected claims",
+              "status": "inferred"
+            },
+            {
+              "label": "Continuity",
+              "text": "Document which evidence still applies",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Define the action that follows a failed rule or a consequential change."
+      }
+    ],
+    "cases": [
+      {
+        "id": "vamorolone-controls",
+        "name": "Vamorolone",
+        "kicker": "An impurity signal changes initial permission",
+        "stage": "Initial IND 118942, 2014–2015; described in the 2023 NDA",
+        "context": "The initial submission contained two drug-substance impurities with structural alerts for genotoxicity.",
+        "mapFocus": 0,
+        "known": "FDA placed the IND on partial clinical hold in January 2015. Completed genotoxicity studies were submitted, and the hold was removed in March.",
+        "supports": "Uncertainty about impurities can materially affect whether proposed clinical work may proceed.",
+        "uncertain": "This history does not disclose impurity identities or test results. Hold removal does not establish that every alert was a false positive.",
+        "decision": "Address the impurity uncertainty with relevant evidence; preserve the distinction between a structural alert and an established hazard.",
+        "lesson": "The active substance’s evidence does not automatically cover everything present in the batch.",
+        "sources": [
+          {
+            "label": "Initial IND history · PDF 116",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215239Orig1s000IntegratedR.pdf#page=116"
+          }
+        ]
+      },
+      {
+        "id": "acer-controls",
+        "name": "ACER-001",
+        "kicker": "A test needs the right job",
+        "stage": "Later IND 143822: April 2021 pre-NDA meeting",
+        "context": "The sponsor proposed taste-mask coating testing alongside dissolution controls for sodium phenylbutyrate.",
+        "mapFocus": 1,
+        "known": "FDA requested discriminating dissolution methods and multi-timepoint data. It clarified that exploratory taste-coating integrity testing was not required routine QC.",
+        "supports": "Development understanding, taste acceptability and batch release were separate questions requiring appropriate evidence.",
+        "uncertain": "Final specifications remained an NDA review issue. Coating details are partly redacted.",
+        "decision": "Establish adequate coating controls and a discriminating dissolution method; use patient-relevant evidence for taste-specific acceptability claims.",
+        "lesson": "More tests do not improve control unless they answer a useful question.",
+        "sources": [
+          {
+            "label": "Pre-NDA discussion · PDF 7–8",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/214860Orig1s000AdminCorres.pdf#page=7"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "A passing result that cannot discriminate",
+      "context": "Hypothetical: a candidate dissolution method gives the same result for batches independently shown to release drug differently. The team proposes the method for batch release.",
+      "claim": "All batches pass, so the method establishes consistent release performance.",
+      "prompt": "What is the strongest next decision?",
+      "options": [
+        {
+          "label": "Accept the method because every tested batch passes.",
+          "feedback": "A passing result is uninformative when the method cannot reveal a difference relevant to the intended release decision.",
+          "correct": false
+        },
+        {
+          "label": "Tighten the numerical limit without changing the method.",
+          "feedback": "A narrower rule does not make an insensitive measurement distinguish relevant differences.",
+          "correct": false
+        },
+        {
+          "label": "Establish a method that detects relevant release differences, then justify its acceptance rule.",
+          "feedback": "Method capability comes before interpreting compliance. Development comparisons should show that the test can support the proposed batch decision.",
+          "correct": true
+        }
+      ],
+      "result": {
+        "claim": "The current method does not establish consistent release performance.",
+        "support": "Independent evidence shows differences that the candidate method does not detect.",
+        "uncertainty": "A suitable method and justified acceptance rule remain to be established.",
+        "next": "Evaluate discriminating methods using relevant batch differences, then define the release criterion."
+      }
+    },
+    "boundary": {
+      "required": "Most Phase 1 investigational drugs remain subject to statutory CGMP despite their Part 211 exemption; scope exclusions apply.",
+      "recommended": "FDA recommends appropriate QC responsibilities and reliable laboratory testing for Phase 1 material.",
+      "judgment": "Choose controls proportionate to the product and study; neither an uncontrolled process nor a universal commercial validation package follows from phase-appropriate quality.",
+      "source": {
+        "label": "21 CFR 210.2(c) · Phase 1 scope",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.2"
+      },
+      "recommendationSource": {
+        "label": "FDA Phase 1 CGMP guidance · PDF 4, 7, 10, 13",
+        "url": "https://www.fda.gov/media/70975/download#page=4"
+      }
+    },
+    "handoff": {
+      "id": "cmc-stability",
+      "label": "Preserve suitable material",
+      "text": "Carry the justified attributes and limits into storage, preparation and delivery, where time and handling may change the product."
+    }
+  },
+  "cmc-stability": {
+    "id": "cmc-stability",
+    "title": "Keep the product suitable through dosing",
+    "question": "Does the quality evidence cover the product’s entire journey to administration?",
+    "premise": "Suitability at release does not establish suitability after storage, preparation or delivery. Each transition can change the material or the evidence that applies.",
+    "inherited": "The product has a defined identity and justified controls for clinical supply.",
+    "context": "Follow the preparation from manufacture through the last administration supported by the evidence.",
+    "nodes": [
+      {
+        "id": "map-use-journey",
+        "label": "Map the journey",
+        "question": "Which conditions and times must the evidence cover?",
+        "principle": "A stability claim names its material, conditions and duration.",
+        "body": "Trace storage, shipping, preparation, waiting and delivery. Distinguish unopened shelf life from the period after dilution or transfer. Use the actual proposed clinical procedure.",
+        "visual": {
+          "type": "timeline",
+          "items": [
+            {
+              "label": "Supply",
+              "text": "Container, storage and shipment",
+              "status": "inferred"
+            },
+            {
+              "label": "Preparation",
+              "text": "Thaw, dilute or transfer as applicable",
+              "status": "inferred"
+            },
+            {
+              "label": "In use",
+              "text": "Waiting conditions and duration",
+              "status": "inferred"
+            },
+            {
+              "label": "Administration",
+              "text": "Material delivered through the intended system",
+              "status": "inferred"
+            }
+          ]
+        },
+        "decision": "Specify the supported conditions and duration for each segment."
+      },
+      {
+        "id": "identify-time-failures",
+        "label": "Look beyond assay",
+        "question": "What could make the product unsuitable even if its active content remains acceptable?",
+        "principle": "Stability includes chemical, physical, microbial and delivery performance.",
+        "body": "Select relevant failure modes for this product. A container may contribute particles; dilution may cause aggregation; a device may alter delivery. Test the property whose change would matter.",
+        "visual": {
+          "type": "matrix",
+          "items": [
+            {
+              "label": "Chemical",
+              "text": "Active loss or increasing degradants",
+              "status": "open"
+            },
+            {
+              "label": "Physical",
+              "text": "Particles, precipitation or aggregation",
+              "status": "open"
+            },
+            {
+              "label": "Microbial",
+              "text": "Protection through the proposed storage and use",
+              "status": "open"
+            },
+            {
+              "label": "Delivery",
+              "text": "Dose or performance after handling",
+              "status": "open"
+            }
+          ]
+        },
+        "decision": "Match each plausible failure to evidence collected under relevant conditions."
+      },
+      {
+        "id": "convert-to-instructions",
+        "label": "Set usable boundaries",
+        "question": "What instructions follow, and what would invalidate them?",
+        "principle": "Instructions should preserve the conditions demonstrated by evidence.",
+        "body": "Translate findings into storage, preparation, in-use duration and delivery instructions. A new diluent, container or procedure can reopen the claim. Preserve uncertainty about causes that remain unresolved.",
+        "visual": {
+          "type": "bridge",
+          "items": [
+            {
+              "label": "Evidence",
+              "text": "Performance under tested conditions",
+              "status": "supported"
+            },
+            {
+              "label": "Instruction",
+              "text": "Use conditions the evidence supports",
+              "status": "inferred"
+            },
+            {
+              "label": "Change trigger",
+              "text": "A different container, diluent or delivery procedure",
+              "status": "challenged"
+            }
+          ]
+        },
+        "decision": "State the supported procedure and when reassessment is required."
+      }
+    ],
+    "cases": [
+      {
+        "id": "lenacapavir-stability",
+        "name": "Lenacapavir",
+        "kicker": "The container becomes an exposure",
+        "stage": "Later IND full holds in December 2021; subsequent NDA resubmission review",
+        "context": "Borosilicate vials showed incompatibility with lenacapavir injection, surface degradation and glass particles.",
+        "mapFocus": 1,
+        "known": "FDA lacked information to assess injection risk and possible particulate contribution to persistent local reactions. Later review addressed alternative packaging, light protection and in-use stability.",
+        "supports": "Container compatibility and preparation conditions belonged in the safety and stability assessment.",
+        "uncertain": "Glass particles were a possible contributor to local reactions, not an established cause of every reaction.",
+        "decision": "Investigate the particle exposure and support the proposed presentation through expiry and preparation; do not assume a container substitution alone resolves every concern.",
+        "lesson": "The package can change what is administered, even when the active ingredient is unchanged.",
+        "sources": [
+          {
+            "label": "Later IND holds · PDF 318–319",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=318"
+          },
+          {
+            "label": "Resubmission storage and in-use assessment · PDF 83",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215973%2C215974Orig1s000IntegratedR.pdf#page=83"
+          }
+        ]
+      },
+      {
+        "id": "cytalux-stability",
+        "name": "Cytalux",
+        "kicker": "Dilution changes the physical preparation",
+        "stage": "2021 NDA quality review describing IND experience; initial IND timing not established",
+        "context": "Pafolacianine prepared with saline was associated with hypersensitivity reactions in IND participants.",
+        "mapFocus": 2,
+        "known": "The investigation identified aggregation as the most likely explanation. The reviewed instructions specified 5% dextrose only, with supported storage and preparation conditions.",
+        "supports": "Diluent compatibility can determine whether an administration procedure is supported.",
+        "uncertain": "The causal explanation remains qualified. The NDA review does not disclose the original IND stability package.",
+        "decision": "Use the supported diluent and preparation conditions. Treat a proposed substitution as a new compatibility question.",
+        "lesson": "A preparation instruction is part of the quality argument, not an incidental detail.",
+        "sources": [
+          {
+            "label": "Diluent investigation and instructions · PDF 6, 12",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214907Orig1s000ChemR.pdf#page=6"
+          }
+        ]
+      }
+    ],
+    "exercise": {
+      "title": "A convenient diluent substitution",
+      "context": "Hypothetical: stability evidence supports a product in its vial and after dilution with one specified diluent. A clinical site proposes another diluent. Compatibility after substitution has not been evaluated.",
+      "claim": "The substitute is acceptable because the undiluted vial remains stable.",
+      "prompt": "Which decision follows from the available evidence?",
+      "options": [
+        {
+          "label": "Use the substitute because the vial passed stability testing.",
+          "feedback": "Vial stability does not establish compatibility after a different dilution step. The material and conditions have changed.",
+          "correct": false
+        },
+        {
+          "label": "Keep the supported preparation while evaluating compatibility of the proposed substitute.",
+          "feedback": "This preserves the demonstrated procedure and identifies the evidence needed before extending the claim to different preparation conditions.",
+          "correct": true
+        },
+        {
+          "label": "Extend unopened-vial storage testing to establish the substitute’s compatibility.",
+          "feedback": "More time in the original container does not test the transformation introduced by the new diluent.",
+          "correct": false
+        }
+      ],
+      "result": {
+        "claim": "The existing evidence supports the specified preparation, not the proposed diluent substitution.",
+        "support": "The tested vial and specified diluted preparation remained suitable under their assessed conditions.",
+        "uncertainty": "The substitute may change physical, chemical or other relevant properties.",
+        "next": "Evaluate the alternative preparation before revising administration instructions."
+      }
+    },
+    "boundary": {
+      "required": "IND stability information must support the planned studies; the needed extent depends on the product and investigation.",
+      "recommended": "FDA recommends representative Phase 1 stability work covering manufacture through last administration and protective storage, handling and shipping.",
+      "judgment": "Choose relevant conditions and failure modes. A commercial registration stability package is not a universal initial IND requirement.",
+      "source": {
+        "label": "21 CFR 312.23(a)(7) · CMC information",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      },
+      "recommendationSource": {
+        "label": "FDA Phase 1 CGMP guidance · PDF 13–14; cites 21 CFR 312.23(a)(7)",
+        "url": "https://www.fda.gov/media/70975/download#page=13"
+      }
+    },
+    "handoff": {
+      "id": "clinical-dose",
+      "label": "Make dosing operational",
+      "text": "Carry the supported strength, preparation, delivery conditions and use period into the clinical dosing plan."
+    }
+  }
+}

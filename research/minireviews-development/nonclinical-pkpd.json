@@ -1,0 +1,298 @@
+{
+  "topic": "nonclinical-pkpd",
+  "date": "2026-09-17",
+  "purpose": "Focused research mini-review for future lesson construction; no website changes",
+  "scope": "Purposive selection from earlier verified mappings and current cached FDA corpus. Critical cited passages reread. Does not claim exhaustive search or full-document manual review. Fresh queue audit is recorded separately.",
+  "pageConvention": "One-based PDF file page, not printed page number",
+  "distinctPrograms": 10,
+  "cases": [
+    {
+      "id": "nc-ivacaftor-exposure-bridge",
+      "drug": "Ivacaftor",
+      "title": "The administered dose is not the measured exposure",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=90",
+      "pdfPages": [
+        90,
+        92
+      ],
+      "sourceStage": "Initial IND review, 2006",
+      "sourceFacts": [
+        "The reviewer summarizes oral animal PK, high plasma protein binding, in-vitro cross-species metabolism and distribution, and compares exposure from clinical and nonclinical formulations. A rat experiment compares exposure across vehicles at a common nominal high dose."
+      ],
+      "interpretationForLesson": "Carry formulation and route alongside every exposure result. A targeted formulation comparison supports a specified bridge; similar nominal doses or a single PK comparison cannot establish all aspects of product equivalence.",
+      "uncertainties": [
+        "Several formulation identifiers are redacted. The summary does not supply a complete quantitative human PK prediction. Similar exposure in one comparison does not establish every aspect of product equivalence."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-cinacalcet-dose-margin",
+      "drug": "Cinacalcet hydrochloride",
+      "title": "An exposure margin needs its reference effect and human evidence",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=16",
+      "pdfPages": [
+        16
+      ],
+      "sourceStage": "Original IND review, June 1998, evaluating proposed Phase 2 dosing using prior human data",
+      "sourceFacts": [
+        "Prior human repeated dosing produced dose-related PTH suppression and calcium reductions. The reviewer extrapolates an AUC of approximately 150 ng·h/mL at the proposed 75 mg maximum and compares it with animal LOAEL exposures: AUC margins of 6, 1 and 4 for rat, dog and monkey, respectively, before recommending monitoring."
+      ],
+      "interpretationForLesson": "Label numerator as animal LOAEL exposure, denominator as extrapolated human AUC, and show the prior human PTH/calcium response. The informative question is what conditions and monitoring make this particular comparison usable, not whether a generic multiple is exceeded.",
+      "uncertainties": [
+        "The comparison uses LOAEL values and prior healthy-volunteer information; it is not a universal safety-factor rule, a NOAEL margin, or a first-human starting-dose calculation. Cmax values are partly redacted."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-osimertinib-tk-quality",
+      "drug": "Osimertinib",
+      "title": "A validated method still has analyte-specific limits",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208065Orig1s000PharmR.pdf#page=140",
+      "pdfPages": [
+        140
+      ],
+      "sourceStage": "One-month rat study explicitly reproduced from IND 117879 in an NDA appendix",
+      "sourceFacts": [
+        "Rat Cmax/AUC were generally dose-proportional on Day 1 with a weak sex effect and inconsistent changes by Day 28. The method quantified parent and one metabolite, while a co-eluting peak restricted another metabolite to present/absent reporting; stored analyte concentrations may have declined."
+      ],
+      "interpretationForLesson": "A data table should distinguish quantified parent/metabolite, present-or-absent metabolite, and potentially unstable stored samples. Do not use a reassuring validation headline to erase limitations that affect exposure interpretation.",
+      "uncertainties": [
+        "The appendix does not identify this passage as the entire original IND. Passing assay batches and GLP status do not remove the co-elution or storage-stability limitations."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-vardenafil-metabolite-tk",
+      "drug": "Vardenafil",
+      "title": "Sampling must answer the exposure question",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/21-400_Levitra_Pharmr_P2.pdf#page=16",
+      "pdfPages": [
+        16,
+        17
+      ],
+      "sourceStage": "February 3, 1999 IND review of rodent carcinogenicity protocols; later development",
+      "sourceFacts": [
+        "The reviewer finds a planned single-clock-time concentration measurement inadequate and requests parent plus active M 1 Cmax and AUC at all doses across specified study weeks. Dose selection is linked to human AUC exposure, with qualifications about the available human population and PK."
+      ],
+      "interpretationForLesson": "The chronic-study plan offered one clock-time sample; FDA requested parent and active-metabolite Cmax/AUC across doses and weeks. Teach learners to design sampling around the intended comparison and biological time course, not the convenience of one measurement.",
+      "uncertainties": [
+        "This concerns chronic carcinogenicity protocol planning, not the toxicology package required to initiate the first clinical trial. Several exposure table values are unavailable in the scan."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "pkpd-fosdenopterin",
+      "drug": "Fosdenopterin",
+      "title": "A disease biomarker can be a poor dosing biomarker",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214018Orig1s000IntegratedR.pdf#page=168",
+      "pdfPages": [
+        168,
+        179,
+        180
+      ],
+      "sourceStage": "IND 117502 study assessment completed October 7,2020 after NDA submission; reports submitted 2015–2019, not first-dose review",
+      "sourceFacts": [
+        "MOCS1-deficient mice received multiple doses from postnatal day 1; brain S-sulfocysteine and liver sulfite-oxidase activity showed dose-related changes at day 28.",
+        "The retained assessment reports no obvious dose effect for plasma S-sulfocysteine and urinary uric acid across relevant tested doses; the sponsor concluded these may be inadequate to guide therapeutic dosing.",
+        "Untreated knockout controls died or were euthanized by day 8, limiting later direct comparisons."
+      ],
+      "interpretationForLesson": "Choose the marker for the decision: disease identification, target/pathway response and discrimination among regimens are different tasks. A flat response can remove dosing information even when treatment is biologically active.",
+      "uncertainties": [
+        "Do not equate the sponsor conclusion with a universal rejection of these biomarkers. Public text contains directionally awkward uric-acid descriptions; use the clearly stated lack of dose discrimination without reconciling them by invention."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "pkpd-vadadustat",
+      "drug": "Vadadustat",
+      "title": "The effect time course changes with repeated dosing",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/215192Orig1s000IntegratedR.pdf#page=374",
+      "pdfPages": [
+        374,
+        375
+      ],
+      "sourceStage": "NDA review section explicitly summarizing studies submitted under IND; timing of individual pharmacology studies relative to initial IND not established",
+      "sourceFacts": [
+        "After a single dose in normoxic rats, serum erythropoietin increased by 3 hours, peaked at 6 hours and returned to baseline by 72 hours.",
+        "The reviewer states that the erythropoietin response was blunted with repeated dosing and displays measurements after 1,7 and 14 days."
+      ],
+      "interpretationForLesson": "Plan exposure and effect sampling across repeated treatment. A single-dose response curve cannot silently become the steady-state PD model; changing response does not, by itself, identify its cause.",
+      "uncertainties": [
+        "The cited pages do not prove clinical tolerance, reveal the full PK/PD model, or define a human dosing interval. EPO induction is not itself the final anemia outcome."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "pkpd-tovorafenib",
+      "drug": "Tovorafenib",
+      "title": "Put exposures on a comparable time basis",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000, 218033Orig1s000MultidisciplineR.pdf#page=47",
+      "pdfPages": [
+        47
+      ],
+      "sourceStage": "NDA nonclinical executive summary using proposed marketing regimen and modeled human exposure; initial-IND attribution not established",
+      "sourceFacts": [
+        "The review compares once-weekly human AUC divided over 7 days with animal AUC divided over 2 days because animals were dosed every other day.",
+        "It separately compares off-target and hERG potencies with unbound human Cmax."
+      ],
+      "interpretationForLesson": "AUC per dosing interval, average daily AUC and peak free concentration answer different questions. Show the conversion and retain the original schedule; averaging cannot establish that peak-related effects are equivalent.",
+      "uncertainties": [
+        "The source reports the reviewer’s normalization, not proof that this is the optimal metric for every lesion or endpoint. No new safety-margin calculation is supplied here."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-exp01-lumateperone-human-relevance-update",
+      "drug": "Lumateperone (Caplyta)",
+      "title": "A human metabolite experiment can update an animal concern",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/209500Orig1s005_Redacted.pdf#page=67",
+      "pdfPages": [
+        67
+      ],
+      "sourceStage": "2021 supplemental-NDA clinical-pharmacology assessment, following later IND and postmarketing studies; not initial-IND evidence",
+      "sourceFacts": [
+        "The review links two aniline metabolites to neuropathological findings in dogs and reports that both remained below the 0.1 ng/mL quantification limit in human studies with and without the UGT inhibitors valproate or probenecid. This updates the exposure evidence under a plausible metabolic interaction condition."
+      ],
+      "interpretationForLesson": "The useful translation step tests the specific metabolite concern under a plausible interaction condition. Below quantification is a bounded observation under tested conditions, not absence of metabolism or zero human risk.",
+      "uncertainties": [
+        "The measurements are clinical, reported at marketing-supplement review. They do not recreate the initial risk assessment, establish absence of all metabolites or generalize to every population or interacting medicine."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-exp01-romiplostim-dose-design",
+      "drug": "Romiplostim (Nplate), HS-ARS development",
+      "title": "An informative animal dose can be more useful than a maximal effect",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=212",
+      "pdfPages": [
+        212,
+        214,
+        215
+      ],
+      "sourceStage": "Actual October 2017 pre-IND guidance meeting minutes for HS-ARS under PIND 132396; later reproduced in marketing-supplement package",
+      "sourceFacts": [
+        "FDA says the submission lacked a strategy for translating the efficacious animal regimen into an effective human regimen. It asks for PK/PD results and modeling before the definitive NHP study design. When the sponsor favors the highest feasible dose to maximize efficacy, FDA advises considering lower doses that may provide more human-dose translation options; the sponsor agrees to review the PK/PD data and adjust the survival-study dose if needed."
+      ],
+      "interpretationForLesson": "Use this labeled Animal Rule contrast to distinguish demonstrating animal efficacy from learning a translatable regimen. Preliminary PK/PD and a translation strategy should inform the definitive study.",
+      "uncertainties": [
+        "Historical Animal Rule planning for an already-marketed protein product. The passage does not establish a general animal-dose rule or a final human dose. A prominent study dose is expressed in mg/kg in the original; do not silently convert it to mcg/kg."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "additionalSources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=198",
+          "pdfPages": [
+            198,
+            199,
+            200
+          ]
+        }
+      ],
+      "additionalSourceFacts": [
+        "In subsequent 2018 meeting minutes, FDA agrees to a mechanistic PK/PD/survival modeling framework and directs human dose selection toward platelet counts because monkey and human drug doses/systemic concentrations differ substantially."
+      ],
+      "additionalUncertainty": "Agreement with a modeling framework is not validation of its final predictions or demonstrated human efficacy in radiation injury.",
+      "modality": "biologic / Animal Rule comparator"
+    },
+    {
+      "id": "pkpd-rezafungin",
+      "drug": "Rezafungin",
+      "title": "An exposure-response target depends on the untreated trajectory",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217417Orig1s000AdminCorres.pdf#page=5",
+      "pdfPages": [
+        5,
+        6
+      ],
+      "sourceStage": "Actual pre-NDA preliminary comments under IND 124401; later development, not initial IND",
+      "sourceFacts": [
+        "FDA requests growth information for selected fungal strains in untreated control mice to judge model/strain suitability for drug-activity and PK/PD-target interpretation.",
+        "The same comments reserve final nonclinical package adequacy for NDA review and request information on the intended dosing regimen support."
+      ],
+      "interpretationForLesson": "An effect or exposure target is meaningful relative to what the untreated system would have done. Add control trajectory/model suitability to the PK/PD argument rather than treating fitted target values as self-validating.",
+      "uncertainties": [
+        "These are preliminary comments, not verified final meeting agreements. The pages do not report the control results or establish the final PK/PD target."
+      ],
+      "sourceAuthority": "Historical case-specific FDA assessment; not a general requirement",
+      "verificationMethod": "Fresh-topic queue lead followed by manual reading of full candidate pages and relevant adjacent context from cached original FDA PDF text.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    }
+  ],
+  "guidanceReviewed": [
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23",
+      "status": "current regulation checked2026-09-17",
+      "sections": [
+        "(a)(8)"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71990/download",
+      "status": "final guidance",
+      "title": "ICH S3A",
+      "pagesRead": [
+        5,
+        6
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/72033/download",
+      "status": "final guidance",
+      "title": "ICH S7A",
+      "pagesRead": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71542/download",
+      "status": "final guidance",
+      "title": "ICH M3(R2)",
+      "sectionsRead": [
+        "repeated-dose study duration and context"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/files/drugs/published/S6-%28R1%29-Addendum--Preclinical-Safety-Evaluation-of-Biotechnology---Derived-Pharmaceuticals.pdf",
+      "status": "final guidance",
+      "title": "ICH S6(R1)",
+      "sectionsRead": [
+        "pharmacological species relevance"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-streamlined-nonclinical-studies-and-acceptable-new-approach-methodologies-nams",
+      "status": "FDA resource checked2026-09-17; explicitly distinguishes final and draft references",
+      "sectionsRead": [
+        "study relevance/duration/recovery and draft guidance caveat"
+      ]
+    }
+  ]
+}

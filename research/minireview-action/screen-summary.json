@@ -1,0 +1,17 @@
+{
+  "snapshotTime": "2026-09-17T05:15:26.667283+00:00",
+  "snapshotPDFs": 1412,
+  "uniqueSourceHashes": 1411,
+  "candidatePages": 420,
+  "candidateDocuments": 184,
+  "counts": {
+    "extractedPagesAudited": 118491,
+    "no-matched-text-not-proof-of-absence": 430,
+    "IND-and-pharmacology-present-but-no-proximity-candidate": 252,
+    "image-only-or-unreadable-needs-OCR": 61,
+    "candidate-context-needs-manual-review": 184,
+    "IND-present-no-pharmacology-candidate": 243,
+    "pharmacology-present-no-explicit-IND-provenance-found": 242
+  },
+  "limits": "Automated text/proximity audit only. Candidate wording requires manual provenance and relevance adjudication. Low-text pages remain incompletely assessed; no absence claim."
+}

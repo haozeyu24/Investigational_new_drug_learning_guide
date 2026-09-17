@@ -1,0 +1,304 @@
+{
+  "topic": "nonclinical-package",
+  "date": "2026-09-17",
+  "purpose": "Focused research mini-review for future lesson construction; no website changes",
+  "scope": "Purposive selection from earlier verified mappings and current cached FDA corpus. Critical cited passages reread. Does not claim exhaustive search or full-document manual review. Fresh queue audit is recorded separately.",
+  "pageConvention": "One-based PDF file page, not printed page number",
+  "distinctPrograms": 11,
+  "cases": [
+    {
+      "id": "nc-glycopyrrolate-route-package",
+      "drug": "Glycopyrrolate inhalation solution",
+      "title": "Reuse what applies; test the exposure site that changed",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208437Orig1s000PharmR.pdf#page=31",
+      "pdfPages": [
+        31,
+        33
+      ],
+      "sourceStage": "Reproduced initial IND review, May 2011",
+      "sourceFacts": [
+        "The reviewer accepts reliance on established systemic safety information for prior approved products while assessing new local respiratory toxicity for inhaled glycopyrrolate. Draft 28-day rat and dog inhalation reports support the proposed study, with final reports requested within 120 days."
+      ],
+      "interpretationForLesson": "Map established systemic safety to the proposed product, then identify the new respiratory-local question. The initial review’s acceptance of unsigned draft reports came with a specific final-report obligation; this is conditional adequacy, not a blanket draft-report policy.",
+      "uncertainties": [
+        "The permission and report timing are specific to this IND. This is not evidence that draft reports are always acceptable or that an approved active ingredient makes every new formulation safe."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-pennsaid-formulation-gap",
+      "drug": "Diclofenac sodium topical solution",
+      "title": "A literature stack is not an applicability argument",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/020947s000pharmr.pdf#page=45",
+      "pdfPages": [
+        45,
+        46
+      ],
+      "sourceStage": "NDA retrospective history of initial IND hold recommendation and 1993–1995 follow-up",
+      "sourceFacts": [
+        "A literature-only response did not resolve missing product-specific toxicity information. FDA questioned treating DMSO as inactive and requested absorption, interactions and route-related toxicity information. Later discussions accepted specified human data and cadaver-skin metabolism as substitutes for parts of the earlier proposed animal program."
+      ],
+      "interpretationForLesson": "Explain why the proposed product and route are covered. The retained history moves from inadequate literature to specified human and cadaver-skin evidence accepted for particular gaps; justified alternative evidence must answer the original question.",
+      "uncertainties": [
+        "This is retrospective history with some redactions and case-specific substitutions. It does not establish a universal animal-study waiver or a rule that every excipient is pharmacologically active."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-suvorexant-formulation-relevance",
+      "drug": "Suvorexant",
+      "title": "The tested formulation must support the intended clinical product",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/204569Orig1s000PharmR.pdf#page=34",
+      "pdfPages": [
+        34
+      ],
+      "sourceStage": "NDA retrospective account of initial-IND May Proceed advice and later development",
+      "sourceFacts": [
+        "Initial one-month rat/dog studies supported the first trial, but FDA raised concern that an animal-study excipient could alter the safety profile relative to the clinical formulation. Later discussions requested justification or studies using the relevant formulation; the sponsor performed extensive additional work."
+      ],
+      "interpretationForLesson": "A study can be initially usable yet generate a later formulation relevance problem. Record the reviewer’s concern, the requested justification or relevant-formulation work, and the sponsor’s choice to repeat extensive studies separately.",
+      "uncertainties": [
+        "The identities of key formulations/excipients are redacted. Do not assert a particular excipient mechanism or that all repeated studies were required before the initial IND."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-minocycline-duration-gate",
+      "drug": "Minocycline hydrochloride foam",
+      "title": "Coverage is time-dependent, and design agreement is provisional",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212379Orig1s000MultidisciplineR.pdf#page=148",
+      "pdfPages": [
+        148
+      ],
+      "sourceStage": "End-of-Phase-2 advice preserved inside an appended 2017 IND review",
+      "sourceFacts": [
+        "FDA agrees that a completed 12-week minipig dermal study supports a 12-week Phase 3 trial. The sponsor describes a 39-week study for the extension and NDA, citing prior agreement that animal treatment would remain at least one month ahead of human exposure; FDA reserves adequacy until final-report review."
+      ],
+      "interpretationForLesson": "Show completed 12-week support, ongoing longer work and final-report review as different statuses. A historical rolling-duration arrangement is a case-specific clinical-development decision.",
+      "uncertainties": [
+        "This is later Phase 3/extension planning. The rolling-duration arrangement is product-specific and should not become a general initial-IND rule."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-tofacitinib-design-gap",
+      "drug": "Tofacitinib",
+      "title": "Study names and duration labels can conceal an endpoint gap",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203214Orig1s000PharmR.pdf#page=41",
+      "pdfPages": [
+        41
+      ],
+      "sourceStage": "NDA review retrospectively comparing end-of-Phase-2 advice with later findings",
+      "sourceFacts": [
+        "The reviewer describes apparently adequate late-development support followed by identification of a male-fertility study-design deficiency at NDA review: mating occurred before sufficient male exposure. The history also records earlier concern that an embryofetal study used insufficiently high doses."
+      ],
+      "interpretationForLesson": "Inspect when mating occurred relative to male exposure. A fertility-study title and an apparently long dosing period do not prove the relevant biological window was assessed; prior favorable planning feedback did not prevent later identification of the problem.",
+      "uncertainties": [
+        "These are late-development and NDA findings. Do not imply that the deficiencies prevented the original first clinical study."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-orfadin-legacy-data",
+      "drug": "Nitisinone",
+      "title": "Useful legacy evidence may remain incomplete evidence",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-232_ORFADIN_pharmr_P1.pdf#page=23",
+      "pdfPages": [
+        23
+      ],
+      "sourceStage": "NDA discussion explicitly referring back to IND-review observations on a reused legacy study",
+      "sourceFacts": [
+        "A toxicity/carcinogenicity study was interrupted after the original development program stopped. Later therapeutic development reused stored tissues and incomplete records; the reviewer describes absent QA, limited necropsies and missing interim report, alongside ocular findings and limited recovery."
+      ],
+      "interpretationForLesson": "Trace what was actually retained after study interruption: tissues, records, necropsies and QA. Reuse can preserve information without restoring uncollected observations or supporting an unrestricted negative conclusion.",
+      "uncertainties": [
+        "This page discusses historical evidence limitations; it is not a full initial-IND review or a finding that GLP without QA is generally acceptable."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "nc-faricimab-species-and-duration",
+      "drug": "Faricimab",
+      "title": "Species selection is about informative testing",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761235Orig1s000PharmR.pdf#page=26",
+      "pdfPages": [
+        26,
+        16
+      ],
+      "sourceStage": "Initial-IND species assessment plus later 2017/2018 nonclinical discussions summarized in BLA review",
+      "sourceFacts": [
+        "The initial reviewer considered rabbits unsuitable for planned chronic studies because of severe toxicity at low intravitreal doses and accepted monkey-only chronic work. Later Phase 3 support is distinguished from embryofetal and carcinogenicity questions for the BLA."
+      ],
+      "interpretationForLesson": "Keep the initial species feasibility decision separate from later Phase 3 and BLA needs. A second species with severe low-dose intolerance may not supply a useful chronic study; an accepted one-species strategy remains molecule/context specific.",
+      "uncertainties": [
+        "Acceptance of a single species is specific to this molecule and context. Initial studies and later reproductive or marketing studies must remain visibly separated."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "bispecific antibody comparator"
+    },
+    {
+      "id": "nc-exp01-romiplostim-assay-bridge",
+      "drug": "Romiplostim (Nplate), HS-ARS development",
+      "title": "The measurement method is part of the package",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/125268Orig1s167.pdf#page=201",
+      "pdfPages": [
+        201
+      ],
+      "sourceStage": "September 2018 PIND 132396 meeting: actual assay/data adequacy discussion for dose translation",
+      "sourceFacts": [
+        "Because platelet counts will drive dose selection, FDA requests validation and sample-analysis information in both monkey and human settings. For legacy 2001 studies whose reports may be unavailable, the discussion confirms individual PK/PD data exist, requests laboratories/assays and changes in handling or methods, and requires a validated assay in the pivotal monkey study. The sponsor agrees to provide the requested information."
+      ],
+      "interpretationForLesson": "A translation model based on platelet counts depends on interpretable measurements across studies and species. For legacy reports, FDA requested the available data, laboratories, assays and handling changes, while requiring a validated assay for the pivotal monkey study.",
+      "uncertainties": [
+        "This is a concrete discussion about specified legacy and pivotal studies, not a general waiver of method validation or missing source records. Study identifiers contain inconsistencies within the original minutes; retain the source rather than silently normalizing them."
+      ],
+      "sourceAuthority": "Historical FDA reviewer assessment; case-specific, not a general requirement",
+      "verificationMethod": "Critical pages reread from cached original PDF text; image-only passages visually reread from original page renders. Earlier mapping used only to locate material.",
+      "verificationStatus": "verified passage",
+      "modality": "biologic / Animal Rule comparator"
+    },
+    {
+      "id": "package-levacetylleucine",
+      "drug": "Levacetylleucine",
+      "title": "Missing work can be identified and staged without pretending it is complete",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/219132Orig1s000IntegratedR.pdf#page=140",
+      "pdfPages": [
+        140,
+        142,
+        143
+      ],
+      "sourceStage": "NDA review distinguishes 2019 initial IND history, an IND-reviewed 6-week dog study and later marketing safety needs",
+      "sourceFacts": [
+        "The review identifies an IND-reviewed 6-week dog toxicity study with control and treated recovery animals, TK and no adverse effects at the highest dose.",
+        "At marketing review, several longer-development studies including juvenile, fertility, peri/postnatal and carcinogenicity work were not included; the record describes postmarketing requirements in view of the life-threatening disease and unmet need.",
+        "The original IND history reports an exploratory study limited to 6 weeks; it does not identify every cited nonclinical study as present at original submission."
+      ],
+      "interpretationForLesson": "Use a study-status table to distinguish available evidence, its supported question, missing evidence and its next decision gate. Contextual deferral does not demonstrate absence of the risk being deferred.",
+      "uncertainties": [
+        "The source wording around the list of additional studies is awkward; the review’s explicit PMR sentence supports staging but not a universal omission rule. The 19-fold margin quoted in the NDA uses later human exposure and must not be backdated to 2019."
+      ],
+      "sourceAuthority": "Historical FDA review; case-specific judgment, not a general requirement",
+      "verificationMethod": "Manual reading of original FDA PDF page text retained in the corpus, including surrounding stage/provenance context; no inference from keyword hits alone.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "package-acetaminophen-iv",
+      "drug": "Acetaminophen IV formulation (NDA204957)",
+      "title": "A familiar active ingredient does not qualify an unfamiliar formulation",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204957Orig1s000PharmR.pdf#page=43",
+      "pdfPages": [
+        43
+      ],
+      "sourceStage": "NDA retrospective history of pre-IND advice,2015 initial IND 111161 hold and later non-hold NDA-support comments",
+      "sourceFacts": [
+        "The initial clinical hold is attributed to clinical concern about an excipient associated with kidney injury and mortality; its identity is redacted.",
+        "The sponsor removed that excipient and subsequently received a hold-removal letter.",
+        "Non-hold nonclinical comments for NDA support asked for a repeat-dose IV study matching four-times-daily clinical dosing and local tissue assessment, plus blood compatibility."
+      ],
+      "interpretationForLesson": "Display product change, hold concern and additional non-hold work separately. Changing the formulation can be the appropriate response to a safety concern; the study package must then represent the intended product and regimen.",
+      "uncertainties": [
+        "Do not identify the redacted excipient or imply every listed NDA-support study was a condition to lift the initial hold. The page recounts regulatory history, not the full initial reviewer analysis."
+      ],
+      "sourceAuthority": "Historical case-specific FDA assessment; not a general requirement",
+      "verificationMethod": "Fresh-topic queue lead followed by manual reading of full candidate pages and relevant adjacent context from cached original FDA PDF text.",
+      "verificationStatus": "verified passage",
+      "modality": "small molecule"
+    },
+    {
+      "id": "package-somapacitan",
+      "drug": "Somapacitan",
+      "title": "An omitted study needs a positive rationale",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761156Orig1s000SumR.pdf#page=10",
+      "pdfPages": [
+        10,
+        11,
+        12
+      ],
+      "sourceStage": "BLA review recounting 2014 IND 116327 opening with Phase 3 and subsequent 2014 nonclinical advice; not first-ever human exposure",
+      "sourceFacts": [
+        "FDA history records agreement that no additional studies were needed to define carcinogenic risk, based on human epidemiology, physiological IGF-1 targets, animal evidence and limitations of rodent growth-hormone receptor relevance.",
+        "The rationale also considered absence of increased neoplastic/preneoplastic lesions during the toxicity program and the other product components."
+      ],
+      "interpretationForLesson": "Contrast an unfilled checklist with a reasoned judgment that a study is unlikely to add relevant information. Record the evidence addressing the hazard and the limitations of the proposed test system.",
+      "uncertainties": [
+        "This is a product-specific weight-of-evidence decision about carcinogenic risk, not proof of zero risk or a universal waiver for growth-hormone products."
+      ],
+      "sourceAuthority": "Historical case-specific FDA assessment; not a general requirement",
+      "verificationMethod": "Fresh-topic queue lead followed by manual reading of full candidate pages and relevant adjacent context from cached original FDA PDF text.",
+      "verificationStatus": "verified passage",
+      "modality": "protein biologic comparator"
+    }
+  ],
+  "guidanceReviewed": [
+    {
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23",
+      "status": "current regulation checked2026-09-17",
+      "sections": [
+        "(a)(8)"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71990/download",
+      "status": "final guidance",
+      "title": "ICH S3A",
+      "pagesRead": [
+        5,
+        6
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/72033/download",
+      "status": "final guidance",
+      "title": "ICH S7A",
+      "pagesRead": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/media/71542/download",
+      "status": "final guidance",
+      "title": "ICH M3(R2)",
+      "sectionsRead": [
+        "repeated-dose study duration and context"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/files/drugs/published/S6-%28R1%29-Addendum--Preclinical-Safety-Evaluation-of-Biotechnology---Derived-Pharmaceuticals.pdf",
+      "status": "final guidance",
+      "title": "ICH S6(R1)",
+      "sectionsRead": [
+        "pharmacological species relevance"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/cder-streamlined-nonclinical-studies-and-acceptable-new-approach-methodologies-nams",
+      "status": "FDA resource checked2026-09-17; explicitly distinguishes final and draft references",
+      "sectionsRead": [
+        "study relevance/duration/recovery and draft guidance caveat"
+      ]
+    }
+  ]
+}
