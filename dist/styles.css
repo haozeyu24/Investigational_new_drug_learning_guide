@@ -1934,3 +1934,38 @@ button.brand-attribution:focus-visible{outline:2px solid currentColor;outline-of
 
 /* Draft status belongs to the learning-map section, alongside its title. */
 .map-construction,.map-part h2>.map-construction{display:inline-block;vertical-align:middle;margin-left:12px;padding:4px 9px;border:1px solid #dfc78f;border-radius:5px;background:#fff5dd;color:#805a1b;font-family:'DM Sans',system-ui,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:0;line-height:1.5;white-space:nowrap}
+
+/* A sourced editorial section follows the landing-page learning paths. */
+.portal-why-now{margin-top:70px;padding-top:42px;border-top:1px solid #ffffff29}
+.portal-why-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:end;margin-bottom:28px}
+.portal-why-now .eyebrow{font-size:.72rem;letter-spacing:.12em;color:#e8bf70;margin:0 0 13px}
+.portal-why-heading h2{font-size:clamp(1.65rem,3vw,2.25rem);letter-spacing:-.04em;line-height:1.22;max-width:420px;margin:0}
+.portal-why-heading>p{font-size:.96rem;line-height:1.8;color:#c2d2dd;margin:0}
+.portal-landscape{margin:0;background:#fff;color:#27495c;border:1px solid #e4ecf0;border-radius:12px;overflow:hidden}
+.portal-landscape-label{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:17px 21px;border-bottom:1px solid #e6edf1;font-size:.72rem;line-height:1.6;letter-spacing:.05em;font-weight:600}
+.portal-landscape-label a{flex-shrink:0;letter-spacing:0;font-size:.78rem;font-weight:500;color:#24576d}
+.portal-landscape-image{display:block;margin:16px;line-height:0;aspect-ratio:16/9;overflow:hidden}
+.portal-landscape-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.portal-landscape figcaption{display:flex;justify-content:space-between;gap:14px 24px;align-items:baseline;padding:16px 21px;border-top:1px solid #e6edf1;background:#f4f8fa;font-size:.75rem;line-height:1.7;color:#516978}
+.portal-landscape figcaption a{flex-shrink:0;color:#24576d}
+.portal-figure-links{display:flex;gap:14px;flex-wrap:wrap;flex-shrink:0}
+.portal-landscape-reading{margin:17px 0 40px;color:#b9ccda}
+.portal-landscape-reading>p{font-size:.82rem;line-height:1.8;margin:0;max-width:970px}
+.portal-landscape-reading strong{color:#dfebf3;font-weight:600}
+.portal-landscape-reading details{margin-top:6px}
+.portal-landscape-reading summary{color:#a8c5d8;font-size:.76rem;width:fit-content}
+.portal-landscape-reading details p{color:#b9ccda;font-size:.8rem;max-width:900px;margin:4px 0 0}
+.portal-responsibility{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:end}
+.portal-responsibility h3{font-size:clamp(1.4rem,2.5vw,1.8rem);letter-spacing:-.03em;line-height:1.35;max-width:440px;margin:0}
+.portal-responsibility>p{font-size:.96rem;line-height:1.8;color:#c2d2dd;margin:0}
+.portal-responsibility-steps{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;padding:0;margin:31px 0}
+.portal-responsibility-steps li{min-width:0;border-top:1px solid #6d91a4;padding-top:16px}
+.portal-responsibility-steps li>span{font-family:'Space Grotesk',sans-serif;color:#e8bf70;font-size:.8rem}
+.portal-responsibility-steps h4{font-size:1rem;font-weight:600;line-height:1.5;margin:10px 0 9px;color:#eff5fa}
+.portal-responsibility-steps p{font-size:.88rem;line-height:1.8;color:#b9ccda;margin:0}
+.portal-why-action{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:32px;padding-top:25px;border-top:1px solid #ffffff29}
+.portal-why-action p{font-size:.9rem;line-height:1.7;color:#c2d2dd;margin:0;max-width:425px}
+.portal-why-action .button{background:#e5bc73;border-color:#e5bc73;color:#132e40;font-size:.88rem;font-weight:600;flex-shrink:0;min-height:46px;padding:12px 17px}
+.portal-why-action .button:hover{background:#f0ce94;border-color:#f0ce94}
+@media(max-width:740px){.portal-why-now{margin-top:45px;padding-top:30px}.portal-why-heading,.portal-responsibility{grid-template-columns:1fr;gap:18px}.portal-why-heading h2,.portal-responsibility h3{max-width:540px}.portal-landscape figcaption{display:block}.portal-landscape figcaption a{display:inline-block;margin-top:8px}.portal-responsibility-steps{gap:18px}.portal-why-action{align-items:flex-start;flex-direction:column;gap:16px}.portal-why-action .button{white-space:normal;text-align:left}}
+@media(max-width:500px){.portal-responsibility-steps{grid-template-columns:1fr;gap:23px}.portal-responsibility-steps li{position:relative;padding:16px 0 0 34px}.portal-responsibility-steps li>span{position:absolute;left:0;top:20px}.portal-responsibility-steps h4{margin:0 0 7px}.portal-landscape-label{padding:12px;font-size:.65rem}.portal-landscape-label a{font-size:.72rem}.portal-landscape-image{margin:8px}.portal-landscape figcaption{padding:13px}.portal-landscape-reading{margin-bottom:31px}}
