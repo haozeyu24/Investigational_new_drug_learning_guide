@@ -41,6 +41,7 @@ const CATALOG = {
         {
           "id": "cmc",
           "label": "3B",
+          "underConstruction": true,
           "title": "Drug material and CMC",
           "description": "Define, make, and control the product.",
           "categories": [
@@ -50,6 +51,7 @@ const CATALOG = {
         {
           "id": "clinical",
           "label": "3C",
+          "underConstruction": true,
           "title": "Clinical plan",
           "description": "Design dosing, measurements, and participant protections.",
           "categories": [
@@ -60,6 +62,7 @@ const CATALOG = {
     },
     {
       "id": "clinical-entry",
+      "underConstruction": true,
       "title": "FDA engagement, IND submission, and review",
       "categories": [
         "regulatory",
