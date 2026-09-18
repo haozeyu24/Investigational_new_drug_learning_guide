@@ -1,0 +1,146 @@
+{
+  "nonclinical-pkpd": {
+    "eyebrow": "Dose → exposure → effect",
+    "headline": "Exposure connects a dose to its effects.",
+    "intro": "The amount given does not tell us how much drug reaches the body, how long it remains, or what it does. Connect those observations before using them to inform a human study.",
+    "stages": [
+      {
+        "label": "Dose & schedule",
+        "question": "What did we give?",
+        "text": "Keep the amount, route, formulation, and timing together. They define the treatment being tested."
+      },
+      {
+        "label": "Exposure · PK",
+        "question": "How much drug, where, and for how long?",
+        "text": "Absorption, distribution, metabolism, and excretion shape exposure over time. Measure relevant concentrations; blood levels may not represent levels at the site of action."
+      },
+      {
+        "label": "Effect · PD",
+        "question": "What changes as exposure changes?",
+        "text": "Relate concentrations and timing to biological responses. An effect may begin later, last longer, or stop increasing as exposure rises."
+      },
+      {
+        "label": "Human implications",
+        "question": "What can this relationship inform?",
+        "text": "Use the evidence to inform dose, schedule, and measurements in humans. Combine it with safety findings; animal activity alone does not determine a human starting dose."
+      }
+    ],
+    "distinction": {
+      "beforeLabel": "Carry forward from lead optimization",
+      "before": "ADME and PK/PD helped compare molecules and choose a candidate. Keep the useful measurements and what they already establish.",
+      "nowLabel": "Focus for the proposed study",
+      "now": "Examine how candidate exposure relates to effects, what may differ in humans, and which uncertainties matter for the proposed dosing plan."
+    },
+    "takeaway": "Connect the dose given, the exposure achieved, and the response observed. Then explain what can—and cannot—be carried into humans.",
+    "sources": [
+      {
+        "label": "FDA · Clinical pharmacology: PK, PD, and ADME",
+        "url": "https://www.fda.gov/media/167545/download#page=4"
+      },
+      {
+        "label": "ICH M3(R2) · Pharmacology, PK, and first human dose",
+        "url": "https://www.fda.gov/media/71542/download#page=11"
+      },
+      {
+        "label": "21 CFR 312.23 · Drug disposition and the dosing plan",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      }
+    ]
+  },
+  "nonclinical-safety": {
+    "eyebrow": "Finding → context → consequence",
+    "headline": "A safety finding needs an explanation and a response.",
+    "intro": "The question is not simply whether a test was positive or negative. Understand what happened, under which conditions, and how it should change the proposed human study.",
+    "stages": [
+      {
+        "label": "Identify the finding",
+        "question": "What changed?",
+        "text": "Describe the affected organ or function, severity, and timing. Distinguish a measured change from evidence that it is harmful."
+      },
+      {
+        "label": "Add exposure & time",
+        "question": "Under which conditions?",
+        "text": "Relate the finding to exposure and treatment duration. Examine whether it worsens with repeat dosing or resolves after stopping."
+      },
+      {
+        "label": "Assess human relevance",
+        "question": "Could this matter in people?",
+        "text": "Consider the mechanism, species differences, and expected human exposure. A possible explanation needs supporting evidence."
+      },
+      {
+        "label": "Act on the finding",
+        "question": "What should change?",
+        "text": "Use the interpretation to guide further studies, dosing limits, participant exclusions, or monitoring. Some findings may prevent the proposed study from proceeding."
+      }
+    ],
+    "distinction": {
+      "beforeLabel": "Carry forward from lead optimization",
+      "before": "Early safety screens and tolerability studies helped identify liabilities and compare candidates. Their findings remain part of the evidence.",
+      "nowLabel": "Focus for the proposed study",
+      "now": "Characterize the candidate’s potential harms deeply enough to assess the planned human exposure and define appropriate precautions."
+    },
+    "takeaway": "A negative test is limited reassurance. A concerning result needs context, evidence, and a decision.",
+    "sources": [
+      {
+        "label": "ICH M3(R2) · Toxic effects, exposure, and reversibility",
+        "url": "https://www.fda.gov/media/71542/download#page=8"
+      },
+      {
+        "label": "ICH S7A · Safety pharmacology and human relevance",
+        "url": "https://www.fda.gov/media/72033/download#page=5"
+      },
+      {
+        "label": "21 CFR 312.23 · Risks, precautions, and monitoring",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+      }
+    ]
+  },
+  "nonclinical-package": {
+    "eyebrow": "Study → evidence → readiness",
+    "headline": "Build the safety case for a specific human study.",
+    "intro": "The package brings the findings together. Its scope depends on who will receive the drug, how it will be given, and for how long—not on a universal checklist.",
+    "stages": [
+      {
+        "label": "Define the study",
+        "question": "What are we asking to begin?",
+        "text": "Specify the population, route, schedule, and duration. These choices set the context for judging the evidence."
+      },
+      {
+        "label": "Choose the evidence",
+        "question": "Which questions need answers now?",
+        "text": "Match the studies to the drug and proposed investigation. Use relevant existing evidence; identify gaps that require additional work."
+      },
+      {
+        "label": "Check credibility",
+        "question": "Can the studies support the conclusion?",
+        "text": "Check exposure, methods, traceable results, and applicable Good Laboratory Practice requirements. Explain relevant differences between tested material and material planned for clinical use."
+      },
+      {
+        "label": "Judge readiness",
+        "question": "Does the whole package support this study?",
+        "text": "Integrate the findings, limitations, and precautions. Close consequential gaps or change the plan; identify additional work needed before expanding human exposure."
+      }
+    ],
+    "distinction": {
+      "beforeLabel": "Carry forward from lead optimization",
+      "before": "Discovery evidence helped justify investing in this candidate. Relevant results remain useful; nomination does not make every experiment obsolete.",
+      "nowLabel": "Focus for the proposed study",
+      "now": "Assemble a reviewable, scientifically justified safety assessment for the planned investigation. Study design, documentation, and unresolved findings matter alongside the results."
+    },
+    "takeaway": "Enough evidence for the proposed study does not mean enough evidence for every later study—or for marketing approval.",
+    "sources": [
+      {
+        "label": "21 CFR 312.23(a)(8) · The nonclinical IND package",
+        "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(8)"
+      },
+      {
+        "label": "ICH M3(R2) · Scope and timing of nonclinical studies",
+        "url": "https://www.fda.gov/media/71542/download#page=7"
+      },
+      {
+        "label": "FDA · Phase 1 IND pharmacology and toxicology guidance",
+        "url": "https://www.fda.gov/media/71203/download#page=12"
+      }
+    ]
+  }
+}

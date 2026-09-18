@@ -1,0 +1,51 @@
+{
+  "id": "bridge-evidence",
+  "label": "Bridge the evidence",
+  "title": "From choosing a molecule to explaining why it could help.",
+  "intro": "Studies of a drug’s intended biological effects often begin during discovery. Carry useful evidence forward, check what applies to the nominated candidate, and add work where the biological rationale still depends on an assumption.",
+  "stages": [
+    {"label": "Carry forward", "question": "What is already supported?", "text": "Disease biology, tool-compound findings, and experiments with the candidate."},
+    {"label": "Bridge the gaps", "question": "What still needs to connect?", "text": "The molecule tested, the meaning of its effects, and the human disease context."},
+    {"label": "Make the case", "question": "What can we reasonably expect?", "text": "A plausible benefit, a population hypothesis, and clearly stated uncertainties."}
+  ],
+  "gapTitle": "Three connections to check",
+  "gapIntro": "Use the evidence already available. The work below is chosen for the question that remains; it is not a fixed battery of new studies after nomination.",
+  "gaps": [
+    {
+      "id": "candidate",
+      "label": "Tool → candidate",
+      "have": "A tool compound or genetic perturbation supports the disease biology.",
+      "question": "Does this candidate produce the intended biological effect?",
+      "work": "Where evidence is missing, test the candidate’s functional activity, target engagement when measurable, and relevant selectivity. Tool-compound results cannot automatically establish those properties for a different molecule."
+    },
+    {
+      "id": "action",
+      "label": "Assay signal → biological action",
+      "have": "The candidate is active in a biochemical or cell assay.",
+      "question": "What caused the response, and why could it be useful?",
+      "work": "Use complementary readouts and appropriate controls to distinguish the intended effect from assay interference or nonspecific effects. If the mechanism remains incomplete, characterize the reproducible activity and state what is unknown."
+    },
+    {
+      "id": "relevance",
+      "label": "Model response → human disease",
+      "have": "The candidate changes a disease-related phenotype in selected models.",
+      "question": "Which disease context supports the hypothesis of benefit?",
+      "work": "Examine what responsive systems have in common, include informative nonresponsive systems, and assess relevant human biology where feasible. Activity in several cell lines alone does not identify the patients likely to benefit."
+    }
+  ],
+  "judgment": {
+    "title": "Choose new work by the uncertainty it resolves.",
+    "text": "If candidate studies already answer the question, carry them into the rationale. If the evidence is indirect or contradictory, decide what additional result could change the program’s interpretation or next step.",
+    "scope": "These are principles for sponsor scientific judgment. The FDA requirements are in the preceding tab; not every unresolved efficacy question must be settled before a first Phase 1 study."
+  },
+  "output": {
+    "title": "The biological rationale",
+    "text": "A traceable argument: what the candidate does, why that could help in a defined disease context, and which assumptions remain to be tested.",
+    "boundary": "That biological rationale joins the exposure, safety, drug-material, and clinical-plan evidence supporting the proposed study. It does not establish clinical benefit."
+  },
+  "sources": [
+    {"label": "ICH M3(R2) · Primary pharmacology begins in discovery, §II", "url": "https://www.fda.gov/media/71542/download#page=11"},
+    {"label": "FDA Phase 1 IND guidance · Known pharmacology and remaining uncertainty, §III.G.1", "url": "https://www.fda.gov/media/71203/download#page=12"},
+    {"label": "21 CFR 312.23 · Rationale, pharmacology, and proposed participants", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"}
+  ]
+}

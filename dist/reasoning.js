@@ -1,14 +1,17 @@
 /* A shared reading surface for the nine IND-enabling reasoning chapters. */
 function reasoningGuide(){return level().reasoningGuide;}
 function isReadingChapter(lesson=level()){return lesson?.reasoningGuide?.format==='case-tabs';}
-function reasoningReadingTopics(){const g=reasoningGuide();return [g.opening,g.workedCase,g.lessons];}
-function reasoningReadingIndex(){if(reasoningGuide().readingTopics.some(t=>t.id===state.reasoningTopic))return 2;return Math.max(0,reasoningReadingTopics().findIndex(t=>t.id===state.reasoningTopic));}
+function isConceptChapter(lesson=level()){return Boolean(lesson?.reasoningGuide)&&!isReadingChapter(lesson);}
+function isReadOnlyChapter(lesson=level()){return Boolean(lesson?.reasoningGuide);}
+function reasoningReadingTopics(){const g=reasoningGuide();return [g.opening,g.bridge,g.workedCase,g.lessons];}
+function reasoningReadingIndex(){const g=reasoningGuide(),id=g.readingTopics.some(t=>t.id===state.reasoningTopic)?g.lessons.id:state.reasoningTopic;return Math.max(0,reasoningReadingTopics().findIndex(t=>t.id===id));}
 function reasoningReadingTopic(){return reasoningReadingTopics()[reasoningReadingIndex()];}
-function reasoningPastTopicId(){const topics=reasoningGuide().readingTopics;return topics.find(t=>t.id===state.reasoningPastTopic)?.id||topics.find(t=>t.id===state.reasoningTopic)?.id;}
+function reasoningPastTopics(){const g=reasoningGuide();return [...g.lessons.sequence,...g.readingTopics];}
+function reasoningPastTopicId(){const topics=reasoningPastTopics();return topics.find(t=>t.id===state.reasoningPastTopic)?.id||topics.find(t=>t.id===state.reasoningTopic)?.id;}
 function reasoningSavedPosition(lesson){
  const g=lesson?.reasoningGuide;if(!g)return undefined;
  if(g.format==='case-tabs')return {topic:reasoningReadingTopic().id,...(reasoningPastTopicId()?{pastTopic:reasoningPastTopicId()}:{})};
- return {node:reasoningIndex(),caseId:reasoningCase().id,...(g.opening?{intro:reasoningOpeningActive()}:{})};
+ return g.minimal?{}:{node:reasoningIndex()};
 }
 function reasoningIndex(){const g=reasoningGuide();return Number.isInteger(state.reasoningNode)&&g.nodes[state.reasoningNode]?state.reasoningNode:0;}
 function reasoningCase(){const g=reasoningGuide();return g.cases.find(c=>c.id===state.reasoningCase)||g.cases[0];}
@@ -29,9 +32,22 @@ function reasoningPastTopic(t){
  const e=escapeHtml;
  return `<div class="reasoning-past-content"><p class="reasoning-past-principle">${e(t.principle)}</p>${reasoningReadingCase(t.cases[0])}<details class="reasoning-comparison"><summary><span>Compare with</span><strong>${e(t.cases[1].drug)}</strong><span class="reasoning-comparison-title">${e(t.cases[1].title)}</span></summary>${reasoningReadingCase(t.cases[1])}</details>${t.moreCases.length?`<section class="reasoning-supporting" aria-label="More cases from FDA reviews"><h3>More from the FDA reviews <span>${t.moreCases.length}</span></h3>${t.moreCases.map(reasoningSupportingCase).join('')}</section>`:''}</div>`;
 }
+function reasoningHistoryVisual(v){
+ const e=escapeHtml;
+ return `<figure class="reasoning-history-visual history-${e(v.kind)}"><ol aria-label="${e(v.label)}" role="list">${v.nodes.map(n=>`<li class="history-evidence-${e(n.status)}"><span>${e(n.label)}</span><strong>${e(n.title)}</strong><p>${e(n.text)}</p></li>`).join('')}</ol>${v.note?`<figcaption>${e(v.note)}</figcaption>`:''}</figure>`;
+}
+function reasoningHistoryLesson(c,index,active){
+ const e=escapeHtml;
+ return `<details class="reasoning-history-case" id="past-lesson-${e(c.id)}" data-past-topic="${e(c.id)}" ${active===c.id?'open':''}><summary><span class="history-lesson-number">${String(index+1).padStart(2,'0')}</span><div><h3>${e(c.title)}</h3><p>${e(c.preview)}</p></div><span class="history-drug">${e(c.drug)}</span></summary><div class="reasoning-history-body"><div class="history-provenance"><strong>${e(c.stage)}</strong><span>${e(c.provenance)}</span></div><header><h4>${e(c.question)}</h4><p>${e(c.setup)}</p></header>${reasoningHistoryVisual(c.visual)}<div class="history-decision"><section><h4>${e(c.decision.label)}</h4><p>${e(c.decision.text)}</p></section><aside><h4>${e(c.lesson.label)}</h4><p>${e(c.lesson.text)}</p></aside></div><footer><p>${e(c.limit)}</p>${c.sources.map(indSourceLink).join('')}</footer></div></details>`;
+}
 function reasoningPastLessons(){
- const g=reasoningGuide(),e=escapeHtml;
- return `<section class="reasoning-past-lessons" aria-labelledby="past-lessons-title"><header class="reasoning-learning-heading"><h2 id="past-lessons-title">Lessons from the past</h2><p>Additional cases show how the same reasoning changes across drugs, diseases and stages of development. Open a lesson to explore the evidence.</p></header>${g.readingTopics.map((t,i)=>`<details class="reasoning-past-topic" data-past-topic="${e(t.id)}" ${reasoningPastTopicId()===t.id?'open':''}><summary><span class="reasoning-past-number">${String(i+1).padStart(2,'0')}</span><div><strong>${e(t.label)}</strong><span>${e(t.cases.map(c=>c.drug).join(' · '))}</span></div></summary>${reasoningPastTopic(t)}</details>`).join('')}</section>`;
+ const g=reasoningGuide(),p=g.lessons,e=escapeHtml,saved=reasoningPastTopicId(),active=saved||p.sequence[0].id,archiveOpen=g.readingTopics.some(t=>t.id===saved);
+ return `<section class="reasoning-past-lessons" aria-labelledby="past-lessons-title"><header class="reasoning-learning-heading"><h2 id="past-lessons-title">${e(p.title)}</h2><p>${e(p.intro)}</p></header><nav class="reasoning-history-path" aria-label="Follow three lessons from FDA records">${p.sequence.map((c,i)=>`<button type="button" data-past-lesson="${e(c.id)}" aria-controls="past-lesson-${e(c.id)}"><span aria-hidden="true">${String(i+1).padStart(2,'0')}</span><strong>${e(c.label)}</strong><small>${e(c.drug)}</small></button>`).join('')}</nav>${p.sequence.map((c,i)=>reasoningHistoryLesson(c,i,active)).join('')}<div class="reasoning-history-takeaway"><h3>${e(p.takeaway.title)}</h3><p>${e(p.takeaway.text)}</p><small>${e(p.takeaway.note)}</small></div><details class="reasoning-history-archive" ${archiveOpen?'open':''}><summary><strong>${e(p.archive.label)}</strong><span>${e(p.archive.description)}</span></summary><div class="history-archive-body"><p>${e(p.archive.intro)}</p>${g.readingTopics.map((t,i)=>`<details class="reasoning-past-topic" data-past-topic="${e(t.id)}" ${saved===t.id?'open':''}><summary><span class="reasoning-past-number">${String(i+1).padStart(2,'0')}</span><div><strong>${e(t.label)}</strong><span>${e(t.cases.map(c=>c.drug).join(' · '))}</span></div></summary>${reasoningPastTopic(t)}</details>`).join('')}</div></details></section>`;
+}
+function selectPastLesson(id){
+ if(state.screen!=='lesson'||!isReadingChapter()||reasoningReadingTopic().id!==reasoningGuide().lessons.id||!reasoningGuide().lessons.sequence.some(c=>c.id===id))return;
+ state.reasoningPastTopic=id;render(false);queueStepSave(state.lesson,0);
+ const summary=$(`#past-lesson-${id}>summary`);summary.focus({preventScroll:true});summary.scrollIntoView({block:'nearest',behavior:'instant'});
 }
 function reasoningSourceComparison(c){
  const e=escapeHtml;
@@ -48,11 +64,19 @@ function reasoningIndCase(){
  const c=reasoningGuide().workedCase,e=escapeHtml;
  const discovery=`${reasoningDiscoveryAssays(c.discovery)}<footer><div class="reasoning-publication-caveat"><strong>Caveat: publication timing</strong><p>${e(c.discovery.limit)}</p></div><div class="reasoning-discovery-sources">${indSourceLink(c.discovery.source)}${indSourceLink(c.discovery.approvalSource)}</div></footer>`;
  const comparison=`<p class="reasoning-part-intro">${e(c.comparison.intro)}</p>${reasoningSourceComparison(c.comparison)}`;
- const assessment=`<div class="reasoning-assessment-items">${c.assessment.items.map((x,i)=>`<div${i===1?' class="assessment-request"':''}><h4>${e(x.label)}</h4><p>${e(x.text)}</p></div>`).join('')}</div><footer>${indSourceLink(c.assessment.source)}</footer>`;
- return `<article class="reasoning-ind-case" aria-labelledby="ind-case-title"><header class="reasoning-learning-heading"><span class="reasoning-ind-stage">${e(c.stage)}</span><h2 id="ind-case-title">${e(c.title)}</h2></header><section class="reasoning-ind-start"><figure><img src="${e(c.image)}" alt="${e(c.imageAlt)}"><figcaption><strong>${e(c.drug)}</strong><span>${e(c.identity)}</span></figcaption></figure><div><span class="reasoning-ind-label">The biological question</span><h3>${e(c.question)}</h3><p>${e(c.rationale)}</p></div></section><p class="reasoning-ind-timing">${e(c.timing)}</p>${reasoningCasePart(1,c.discovery.title,'reasoning-discovery-evidence',discovery)}${reasoningCasePart(2,c.comparison.title,'reasoning-compare-evidence',comparison)}${reasoningCasePart(3,c.assessment.title,'reasoning-fda-assessment',assessment)}<p class="reasoning-case-takeaway">${e(c.takeaway)}</p></article>`;
+ return `<article class="reasoning-ind-case" aria-labelledby="ind-case-title"><header class="reasoning-learning-heading"><span class="reasoning-ind-stage">${e(c.stage)}</span><h2 id="ind-case-title">${e(c.title)}</h2></header><section class="reasoning-ind-start"><figure><img src="${e(c.image)}" alt="${e(c.imageAlt)}"><figcaption><strong>${e(c.drug)}</strong><span>${e(c.identity)}</span></figcaption></figure><div><span class="reasoning-ind-label">The biological question</span><h3>${e(c.question)}</h3><p>${e(c.rationale)}</p></div></section><p class="reasoning-ind-timing">${e(c.timing)}</p>${reasoningCasePart(1,c.discovery.title,'reasoning-discovery-evidence',discovery)}${reasoningCasePart(2,c.comparison.title,'reasoning-compare-evidence',comparison)}<p class="reasoning-case-takeaway">${e(c.takeaway)}</p></article>`;
+}
+function reasoningBridge(){
+ const b=reasoningGuide().bridge,e=escapeHtml;
+ return `<article class="reasoning-bridge" aria-labelledby="bridge-title"><header class="reasoning-learning-heading"><h2 id="bridge-title">${e(b.title)}</h2><p>${e(b.intro)}</p></header>
+ <ol class="reasoning-bridge-flow" role="list" aria-label="From discovery evidence to a biological rationale">${b.stages.map((s,i)=>`<li><span class="bridge-stage-number" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><span class="bridge-stage-label">${e(s.label)}</span><h3>${e(s.question)}</h3><p>${e(s.text)}</p></li>`).join('')}</ol>
+ <section class="reasoning-bridge-connections" aria-labelledby="bridge-connections-title"><header><h3 id="bridge-connections-title">${e(b.gapTitle)}</h3><p>${e(b.gapIntro)}</p></header><div class="reasoning-bridge-scroll" tabindex="0" role="region" aria-label="Evidence available, unanswered questions, and possible additional work"><table class="reasoning-bridge-table"><thead><tr><th scope="col">Evidence in hand</th><th scope="col">Question for this candidate</th><th scope="col">Work that could close the gap</th></tr></thead><tbody>${b.gaps.map(g=>`<tr><th scope="row"><span>${e(g.label)}</span><p>${e(g.have)}</p></th><td><strong>${e(g.question)}</strong></td><td><p>${e(g.work)}</p></td></tr>`).join('')}</tbody></table></div></section>
+ <div class="reasoning-bridge-close"><section><h3>${e(b.judgment.title)}</h3><p>${e(b.judgment.text)}</p><p class="bridge-scope">${e(b.judgment.scope)}</p></section><aside><span class="reasoning-kicker">${e(b.output.title)}</span><p>${e(b.output.text)}</p><p class="bridge-boundary">${e(b.output.boundary)}</p></aside></div>
+ <footer class="reasoning-bridge-sources">${b.sources.map(indSourceLink).join('')}</footer></article>`;
 }
 function reasoningReadingContent(){
- return reasoningReadingIndex()===0?reasoningOpening():reasoningReadingIndex()===1?reasoningIndCase():reasoningPastLessons();
+ const g=reasoningGuide(),id=reasoningReadingTopic().id;
+ return id===g.opening.id?reasoningOpening():id===g.bridge.id?reasoningBridge():id===g.workedCase.id?reasoningIndCase():reasoningPastLessons();
 }
 function reasoningReadingView(){
  const l=level(),e=escapeHtml,topics=reasoningReadingTopics(),i=reasoningReadingIndex(),group=LEVELS.filter(x=>x.category===l.category);
@@ -97,7 +121,7 @@ function reasoningDiagram(v){
 function reasoningUnderstanding(){
  const g=reasoningGuide(),i=reasoningIndex(),n=g.nodes[i],e=escapeHtml;
  if(reasoningOpeningActive())return reasoningOpening();
- return `${g.opening?reasoningContext():''}<section class="reasoning-focus" aria-labelledby="reasoning-question"><div class="reasoning-principle"><span class="reasoning-kicker">${String(i+1+(g.opening?1:0)).padStart(2,'0')} / ${String(g.nodes.length+(g.opening?1:0)).padStart(2,'0')}</span><h2 id="reasoning-question">${e(n.question)}</h2><p class="reasoning-principle-line">${e(n.principle)}</p><p class="reasoning-explanation">${e(n.body)}</p></div><div class="reasoning-drawing">${reasoningDiagram(n.visual)}</div><div class="reasoning-carry"><span>Carry forward</span><p>${e(n.decision)}</p></div></section><div class="reasoning-node-controls">${i?`<button class="text-button" data-reasoning-node="${i-1}">← ${e(g.nodes[i-1].label)}</button>`:g.opening?`<button class="text-button" data-reasoning-intro="${e(g.opening.id)}">← ${e(g.opening.label)}</button>`:'<span></span>'}${i<g.nodes.length-1?`<button class="text-button" data-reasoning-node="${i+1}">${e(g.nodes[i+1].label)} →</button>`:`<button class="text-button" data-lesson-step="1">Follow a documented case →</button>`}</div>${reasoningBoundary()}`;
+ return `${g.opening?reasoningContext():''}<section class="reasoning-focus" aria-labelledby="reasoning-question"><div class="reasoning-principle"><span class="reasoning-kicker">${String(i+1+(g.opening?1:0)).padStart(2,'0')} / ${String(g.nodes.length+(g.opening?1:0)).padStart(2,'0')}</span><h2 id="reasoning-question">${e(n.question)}</h2><p class="reasoning-principle-line">${e(n.principle)}</p><p class="reasoning-explanation">${e(n.body)}</p></div><div class="reasoning-drawing">${reasoningDiagram(n.visual)}</div><div class="reasoning-carry"><span>Carry forward</span><p>${e(n.decision)}</p></div></section><div class="reasoning-node-controls">${i?`<button class="text-button" data-reasoning-node="${i-1}">← ${e(g.nodes[i-1].label)}</button>`:g.opening?`<button class="text-button" data-reasoning-intro="${e(g.opening.id)}">← ${e(g.opening.label)}</button>`:'<span></span>'}${i<g.nodes.length-1?`<button class="text-button" data-reasoning-node="${i+1}">${e(g.nodes[i+1].label)} →</button>`:'<span></span>'}</div>${reasoningBoundary()}`;
 }
 function reasoningBoundary(){
  const b=reasoningGuide().boundary,e=escapeHtml;
@@ -116,15 +140,27 @@ function reasoningResult(r){
  const e=escapeHtml;
  return `<div class="reasoning-result"><header><span>Your revised argument</span><p>A conclusion with its evidence and limits attached.</p></header><dl>${[['Claim',r.claim],['Support',r.support],['Uncertainty',r.uncertainty],['Next decision',r.next]].map(([label,text])=>`<div><dt>${label}</dt><dd>${e(text)}</dd></div>`).join('')}</dl></div>`;
 }
-function reasoningLessonView(){
- if(isReadingChapter())return reasoningReadingView();
- const l=level(),g=reasoningGuide(),e=escapeHtml,group=LEVELS.filter(x=>x.category===l.category),number=group.indexOf(l)+1;
- const correct=state.feedback&&QUESTIONS[l.id].options[state.selected]?.[2];
- const content=state.step===0?reasoningUnderstanding():state.step===1?reasoningExamples():reasoningPractice();
- return `<div class="reasoning-chapter"><header class="lesson-header"><div class="lesson-heading"><button class="lesson-map-back" data-action="overview" aria-label="Back to all levels">←</button><div class="lesson-title-block"><span class="lesson-location">${e(lessonLocation(l))}</span><h1>${e(l.title)}</h1></div></div><span class="reasoning-chapter-count">${number} <span>/ ${group.length}</span></span></header>${g.opening?'':`<p class="reasoning-premise">${e(g.premise)}</p>${reasoningContext()}${reasoningRail()}`}<nav class="lesson-step-nav reasoning-views" aria-label="Lesson steps">${['Understand','See examples','Make a decision'].map((label,i)=>`<button type="button" data-lesson-step="${i}" ${state.step===i?'aria-current="step"':''}>${label}</button>`).join('')}</nav><div class="reasoning-surface" id="reasoning-surface">${g.opening&&state.step===0?`${reasoningTopicTabs()}<section id="reasoning-topic-panel">${content}</section>`:content}</div><div class="lesson-controls reasoning-controls">${state.step?button('← Back','back','quiet'):'<span></span>'}${state.step===0&&reasoningOpeningActive()?`<button class="button primary" data-reasoning-node="0">Explore the biology →</button>`:state.step<2?button(state.step===0?'See examples →':'Make a decision →','next'):correct?`<button class="button primary" data-action="complete" ${state.saving?'disabled':''}>${state.saving?'Saving…':'Complete chapter ✓'}</button>`:`<button class="button primary" data-action="check" ${state.selected===null?'disabled':''}>Check my reasoning</button>`}</div><div class="reasoning-footer"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${e(state.saveStatus)}</p><button class="text-button" data-action="sources">Sources &amp; reading ↗</button></div></div>`;
+function reasoningMinimal(){
+ const m=reasoningGuide().minimal,e=escapeHtml,d=m.distinction;
+ return `<article class="reasoning-minimal" aria-labelledby="minimal-title"><header class="minimal-heading"><h2 id="minimal-title">${e(m.headline)}</h2><p>${e(m.intro)}</p></header><ol class="minimal-path" aria-label="The reasoning path" style="--minimal-count:${m.stages.length}">${m.stages.map((s,i)=>`<li><span class="minimal-marker" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><span class="minimal-stage-label">${e(s.label)}</span><h3>${e(s.question)}</h3><p>${e(s.text)}</p></li>`).join('')}</ol><section class="minimal-handoff" aria-label="How the purpose changes after lead optimization"><div><span>${e(d.beforeLabel)}</span><p>${e(d.before)}</p></div><div><span>${e(d.nowLabel)}</span><p>${e(d.now)}</p></div></section><p class="minimal-takeaway">${e(m.takeaway)}</p></article>`;
 }
+function conceptAtEnd(){return Boolean(reasoningGuide().minimal)||reasoningIndex()===reasoningGuide().nodes.length-1;}
+function reasoningConceptView(){
+ const l=level(),g=reasoningGuide(),e=escapeHtml,group=LEVELS.filter(x=>x.category===l.category);
+ return `<div class="reasoning-chapter reasoning-concept-chapter${g.minimal?' reasoning-minimal-chapter':''}"><header class="lesson-header"><div class="lesson-heading"><button class="lesson-map-back" data-action="overview" aria-label="Back to all levels">←</button><div class="lesson-title-block"><span class="lesson-location">${e(lessonLocation(l))}</span><h1>${e(l.title)}</h1></div></div><span class="reasoning-chapter-count">${group.indexOf(l)+1} <span>/ ${group.length}${done(l.id)?' · ✓':''}</span></span></header>${g.minimal?reasoningMinimal():`<p class="reasoning-premise">${e(g.premise)}</p>${reasoningContext()}${reasoningRail()}<div class="reasoning-surface">${reasoningUnderstanding()}</div>`}${conceptAtEnd()?`<div class="lesson-controls reasoning-controls"><span></span><button class="button primary" data-action="complete-concept" ${state.saving?'disabled':''}>${state.saving?'Saving…':done(l.id)?'Chapter complete ✓':'Mark chapter complete ✓'}</button></div>`:''}<div class="reasoning-footer"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${e(state.saveStatus)}</p><button class="text-button" data-action="sources">Sources &amp; reading ↗</button></div></div>`;
+}
+async function completeConceptChapter(){
+ if(state.saving||state.screen!=='lesson'||!isConceptChapter()||!conceptAtEnd())return;
+ const lesson=state.lesson,node=reasoningGuide().minimal?undefined:reasoningIndex();state.saving=true;render(false);
+ saveQueue=saveQueue.then(async()=>{try{
+  applyProgress(await request('/api/complete-concept',{lesson,node,acknowledge:true}));state.saveStatus='Progress saved in this browser';state.saveError=false;
+  if(state.screen==='lesson'&&state.lesson===lesson&&conceptAtEnd()){state.screen='complete';announce('Chapter completed and progress saved.');}
+ }catch(e){state.saveStatus=e.message;state.saveError=true;}state.saving=false;render();});
+ return saveQueue;
+}
+function reasoningLessonView(){return isReadingChapter()?reasoningReadingView():reasoningConceptView();}
 function selectReasoningNode(value){
- if(state.screen!=='lesson'||!level().reasoningGuide||isReadingChapter())return;
+ if(state.screen!=='lesson'||!level().reasoningGuide||isReadingChapter()||reasoningGuide().minimal)return;
  const n=Number(value);if(!Number.isInteger(n)||n<0||n>=reasoningGuide().nodes.length)return;
  state.reasoningNode=n;state.reasoningIntro=false;state.step=0;state.selected=null;state.feedback=false;
  navigateHash(`#small-molecule/${state.lesson}/0`,true);render(false);queueStepSave(state.lesson,0);
@@ -136,21 +172,15 @@ function selectReasoningOpening(id){
  navigateHash(`#small-molecule/${state.lesson}/0`,true);render(false);queueStepSave(state.lesson,0);
  $('[data-reasoning-intro]').focus({preventScroll:true});
 }
-function selectReasoningCase(id){
- if(state.screen!=='lesson'||state.step!==1||!level().reasoningGuide||isReadingChapter())return;
- const c=reasoningGuide().cases.find(x=>x.id===id);if(!c)return;
- state.reasoningCase=id;state.reasoningNode=c.mapFocus;state.reasoningIntro=false;render(false);queueStepSave(state.lesson,1);
- $(`[data-reasoning-case="${id}"]`).focus({preventScroll:true});
-}
 document.addEventListener('click',event=>{
+ const past=event.target.closest('[data-past-lesson]');if(past){selectPastLesson(past.dataset.pastLesson);return;}
  const topic=event.target.closest('[data-reasoning-topic]');if(topic){selectReasoningTopic(topic.dataset.reasoningTopic);return;}
  const intro=event.target.closest('[data-reasoning-intro]');if(intro){selectReasoningOpening(intro.dataset.reasoningIntro);return;}
  const n=event.target.closest('[data-reasoning-node]');if(n){selectReasoningNode(n.dataset.reasoningNode);return;}
- const c=event.target.closest('[data-reasoning-case]');if(c)selectReasoningCase(c.dataset.reasoningCase);
 });
 document.addEventListener('toggle',event=>{
- const group=event.target;if(state.screen!=='lesson'||!isReadingChapter()||reasoningReadingIndex()!==2||!group.matches?.('.reasoning-past-topic'))return;
- const id=group.dataset.pastTopic;if(!reasoningGuide().readingTopics.some(t=>t.id===id))return;
+ const group=event.target;if(state.screen!=='lesson'||!isReadingChapter()||reasoningReadingTopic().id!==reasoningGuide().lessons.id||!(group.matches?.('.reasoning-past-topic')||group.matches?.('.reasoning-history-case')))return;
+ const id=group.dataset.pastTopic;if(!reasoningPastTopics().some(t=>t.id===id))return;
  if(group.open)state.reasoningPastTopic=id;else if(reasoningPastTopicId()===id)state.reasoningPastTopic=undefined;else return;
  queueStepSave(state.lesson,0);
 },true);
@@ -169,7 +199,7 @@ document.addEventListener('keydown',event=>{
   return;
  }
  const n=event.target.closest('.reasoning-rail [data-reasoning-node]');
- if(!n||!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)||!level().reasoningGuide||isReadingChapter())return;
+ if(!n||!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)||!level().reasoningGuide||isReadingChapter()||reasoningGuide().minimal)return;
  event.preventDefault();const count=reasoningGuide().nodes.length,index=Number(n.dataset.reasoningNode);
  selectReasoningNode(event.key==='Home'?0:event.key==='End'?count-1:(index+(event.key==='ArrowRight'?1:-1)+count)%count);
 });

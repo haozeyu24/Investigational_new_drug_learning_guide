@@ -1,0 +1,114 @@
+{
+  "id": "lessons-from-the-past",
+  "label": "Lessons from the past",
+  "title": "Give the clinical study a biological question to answer.",
+  "intro": "Before a study, define what your measurements can establish and why the proposed patients are informative. Then use clinical findings to refine the hypothesis. These three FDA records show that sequence.",
+  "sequence": [
+    {
+      "id": "interpret-effect",
+      "label": "Interpret the drug effect",
+      "drug": "Cinacalcet",
+      "title": "A measurable drug effect is not yet a demonstrated benefit.",
+      "preview": "PTH fell. Had bone disease improved?",
+      "stage": "Original US IND review · 1998",
+      "provenance": "Reproduced in the 2004 approval package. Earlier human studies already existed; this US IND proposed a Phase 2 study.",
+      "question": "What did lowering parathyroid hormone actually establish?",
+      "setup": "Cinacalcet increases the calcium sensitivity of parathyroid cells. In secondary hyperparathyroidism, the rationale was that lowering excess parathyroid hormone (PTH) could improve bone disease.",
+      "visual": {
+        "kind": "evidence",
+        "label": "Separate drug action, measured response, and expected benefit",
+        "nodes": [
+          {"label": "Drug action", "title": "Increase calcium sensitivity", "text": "Change the signal controlling PTH secretion.", "status": "known"},
+          {"label": "Observed response", "title": "PTH decreases", "text": "Reported in rats and earlier healthy-volunteer studies.", "status": "known"},
+          {"label": "Benefit to establish", "title": "Improve bone disease", "text": "An expectation in these review pages, not an established outcome.", "status": "open"}
+        ]
+      },
+      "decision": {
+        "label": "The proposed next study",
+        "text": "Study patients with secondary hyperparathyroidism and measure PTH, calcium, calcitonin, and PK. Calcium mattered for safety as well as pharmacology."
+      },
+      "lesson": {
+        "label": "Use this distinction",
+        "text": "A pharmacodynamic readout can show a drug effect. Separate that observation from the evidence needed to show that patients benefit."
+      },
+      "limit": "These passages do not establish improved bone disease or fracture prevention. An original US IND is not necessarily a first-ever human study.",
+      "sources": [
+        {"label": "FDA · original IND rationale and study plan, PDF 8–9", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=8"}
+      ]
+    },
+    {
+      "id": "plan-patients",
+      "label": "Justify who to study",
+      "drug": "Ensartinib",
+      "title": "Broad enrollment can still have a specific biological hypothesis.",
+      "preview": "Who should enter—and what would their results tell us?",
+      "stage": "Pre-IND advice · 2011",
+      "provenance": "The 2025 approval package reproduces later IND correspondence recounting the 2011 pre-IND advice and early clinical development.",
+      "question": "How can a broad dose-escalation study test a targeted-drug hypothesis?",
+      "setup": "The pre-IND discussion considered possible activity in tumors with ALK or cMET alterations. FDA addressed patient enrollment and pharmacodynamic measurements as separate planning questions.",
+      "visual": {
+        "kind": "paired",
+        "label": "Two complementary questions in the pre-IND advice",
+        "nodes": [
+          {"label": "Patient selection", "title": "Who enters?", "text": "Specify how many patients negative for both ALK and cMET would be enrolled.", "status": "known"},
+          {"label": "PK and pharmacodynamics", "title": "What can we measure?", "text": "Plan PK sampling and identify potential PD endpoints.", "status": "known"}
+        ],
+        "note": "Patient characteristics frame who might benefit. PK and PD measurements help interpret exposure and biological effects after dosing. These are different jobs."
+      },
+      "decision": {
+        "label": "How the study later developed",
+        "text": "The 2014 account describes advanced-solid-tumor dose escalation followed by expansion in ALK-positive non-small cell lung cancer, selected by FISH testing."
+      },
+      "lesson": {
+        "label": "Use this distinction",
+        "text": "A patient hypothesis need not mean restricting every cohort to one marker. Explain what each enrolled group and each measurement will help you learn."
+      },
+      "limit": "The record does not give the requested marker-negative enrollment number. The 2014 expansion design should not be assumed to have been present in the original March 2012 protocol.",
+      "sources": [
+        {"label": "FDA · pre-IND advice and early study design, PDF 49–50", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=50"}
+      ]
+    },
+    {
+      "id": "learn-from-patients",
+      "label": "Refine the hypothesis",
+      "drug": "Crizotinib",
+      "title": "Early findings can change which patients you study next.",
+      "preview": "An ALK-positive signal led to a narrower clinical question.",
+      "stage": "Early Phase 1 and IND amendments · 2005–2009",
+      "provenance": "Development history reconstructed in the 2011 NDA clinical review; this is not the complete original IND submission.",
+      "question": "What should happen when patients reveal a more specific opportunity?",
+      "setup": "Crizotinib entered broad cancer dose escalation as a c-Met/HGFR inhibitor. FDA’s later account links observations in two ALK-positive lung-cancer patients to an ALK-positive extension of the study.",
+      "visual": {
+        "kind": "timeline",
+        "label": "From broad dose escalation to an ALK-positive extension",
+        "nodes": [
+          {"label": "Original study", "title": "Broad cancer enrollment", "text": "Dose escalation in advanced cancers, excluding leukemia.", "status": "known"},
+          {"label": "Early observation", "title": "Two ALK-positive patients", "text": "In the 50 mg cohort, stable disease was reported at 1.5 and 7 months.", "status": "known"},
+          {"label": "October 2007 amendment", "title": "Test ALK-positive NSCLC", "text": "The protocol allowed enrollment of EML4–ALK-positive non-small cell lung cancer.", "status": "known"}
+        ]
+      },
+      "decision": {
+        "label": "What changed",
+        "text": "An ALK-positive extension tested the emerging population hypothesis. A later 2009 amendment also added an ALK-negative cohort."
+      },
+      "lesson": {
+        "label": "Use this distinction",
+        "text": "An early signal can justify a more focused test before it establishes that a marker predicts benefit. Build a plan that can change when the evidence changes."
+      },
+      "limit": "These were stable-disease observations, not objective responses or proof of benefit. The retrospective account does not establish every measurement in the original protocol.",
+      "sources": [
+        {"label": "FDA · early observations and protocol amendments, PDF 37–38", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=37"}
+      ]
+    }
+  ],
+  "takeaway": {
+    "title": "Bring a hypothesis—and a way to learn.",
+    "text": "Know what your measurements can establish. Explain why the proposed patients are informative. Decide what findings would strengthen, narrow, or change the hypothesis.",
+    "note": "These cases illustrate scientific decisions, not a universal biomarker requirement or a complete checklist for an IND."
+  },
+  "archive": {
+    "label": "Explore the full case collection",
+    "description": "26 cases · organized by scientific question",
+    "intro": "For deeper reading: additional drugs, contrasting findings, and later development decisions. Each case identifies its source stage; later approval findings should not be read as initial-IND requirements."
+  }
+}

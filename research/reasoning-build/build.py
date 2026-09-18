@@ -4,6 +4,7 @@ import json
 
 root = Path(__file__).resolve().parents[2]
 chapters = {}
+minimal = json.loads((Path(__file__).parent / 'nonclinical-minimal.json').read_text())
 for name in ('nonclinical', 'cmc', 'clinical'):
     data = json.loads((Path(__file__).parent / (name + '.json')).read_text())
     for chapter in data if isinstance(data, list) else data.values():
@@ -13,8 +14,18 @@ for name in ('nonclinical', 'cmc', 'clinical'):
             for source in ('action-topics-a.json', 'action-topics-b.json'):
                 topics.extend(json.loads((Path(__file__).parent / source).read_text()))
             chapter['readingTopics'] = topics
+            chapter['bridge'] = json.loads((Path(__file__).parent / 'pharmacology-bridge.json').read_text())
+            assert chapter['bridge']['id'] == 'bridge-evidence'
+            assert len(chapter['bridge']['stages']) == 3
+            assert len(chapter['bridge']['gaps']) == 3
             chapter['workedCase'] = json.loads((Path(__file__).parent / 'ivacaftor-ind.json').read_text())
-            chapter['lessons'] = {'id': 'lessons-from-the-past', 'label': 'Lessons from the past'}
+            chapter['lessons'] = json.loads((Path(__file__).parent / 'pharmacology-lessons.json').read_text())
+            sequence = chapter['lessons']['sequence']
+            assert [c['id'] for c in sequence] == ['interpret-effect', 'plan-patients', 'learn-from-patients']
+            for case in sequence:
+                assert case['stage'] and case['provenance'] and case['limit']
+                assert case['visual']['kind'] in ('evidence', 'paired', 'timeline')
+                assert all(s['url'].startswith('https://www.accessdata.fda.gov/') and '#page=' in s['url'] for s in case['sources'])
             worked_case = chapter['workedCase']
             assert len(worked_case['discovery']['assayMap']) == 3
             assert len(worked_case['discovery']['assays']) == 6
@@ -23,7 +34,6 @@ for name in ('nonclinical', 'cmc', 'clinical'):
                 assert assay['source']['url'].startswith('https://')
             assert len(worked_case['comparison']['rows']) == 3
             assert worked_case['comparison']['rationaleNote']
-            assert len(worked_case['assessment']['items']) == 3
             for row in worked_case['comparison']['rows']:
                 assert row['paper']['source']['url'].startswith('https://')
                 assert row['ind']['source']['url'].startswith('https://') and '#page=' in row['ind']['source']['url']
@@ -46,6 +56,10 @@ for name in ('nonclinical', 'cmc', 'clinical'):
             for case in chapter['cases']:
                 assert 0 <= case['mapFocus'] < len(chapter['nodes'])
                 assert all(s['url'].startswith('https://') for s in case['sources'])
+        if chapter['id'] in minimal:
+            chapter['minimal'] = minimal[chapter['id']]
+            assert 3 <= len(chapter['minimal']['stages']) <= 4
+            assert chapter['minimal']['sources']
         chapters[chapter['id']] = chapter
 assert len(chapters) == 9
 script = '// Nine reasoning maps, grounded in the reviewed FDA case library.\nconst REASONING_GUIDES = '
@@ -56,19 +70,15 @@ for (const [id, guide] of Object.entries(REASONING_GUIDES)) {
  if (!lesson) throw new Error('Unknown reasoning chapter: ' + id);
  lesson.reasoningGuide = guide;
  if (guide.title) lesson.title = guide.title;
- lesson.goal = guide.question;
- lesson.takeaway = guide.takeaway || guide.nodes[guide.nodes.length - 1].decision;
- if (guide.format === 'case-tabs') delete lesson.question;
- else lesson.question = {
-  title: guide.exercise.title,
-  prompt: guide.exercise.context + ' ' + guide.exercise.prompt,
-  options: guide.exercise.options.map(o => [o.label, o.feedback, o.correct])
- };
+ lesson.goal = guide.minimal?.headline || guide.question;
+ lesson.takeaway = guide.minimal?.takeaway || guide.takeaway || guide.nodes[guide.nodes.length - 1].decision;
+ delete lesson.question;
  const cases = guide.readingTopics ? guide.readingTopics.flatMap(t => [...t.cases, ...t.moreCases]) : guide.cases;
- const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
- const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
- lesson.sources = sources.filter((s, i) => sources.findIndex(x => x.url === s.url) === i);
+ const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source])] : [];
+ const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.lessons?.sequence || []).flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...(guide.bridge?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
+ const activeSources = guide.minimal ? guide.minimal.sources : sources;
+ lesson.sources = activeSources.filter((s, i) => activeSources.findIndex(x => x.url === s.url) === i);
 }
 '''
 (root / 'dist/reasoning-content.js').write_text(script)
-print('Packaged one worked initial IND, 26 supporting cases and eight reasoning maps (16 cases).')
+print('Packaged nine reading chapters: one developed pharmacology chapter, three minimal nonclinical pages and five concept maps.')

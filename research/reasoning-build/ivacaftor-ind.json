@@ -119,7 +119,7 @@
     "note": "Read the numbers within their assay. Cellular EC₅₀, receptor-binding IC₅₀ and a response at one fixed concentration answer different questions. The 3 nM engineered-cell result, 22 nM F508del-HBE result and 236 nM G551D/F508del-HBE result also come from different biological systems. Forskolin stimulates cAMP signaling to activate CFTR; potentiation is measured on top of that stimulation."
   },
   "comparison": {
-    "title": "What the initial IND review adds",
+    "title": "What the initial IND adds",
     "intro": "Compare the same biological questions in the discovery paper and the FDA review. The review summarizes three submitted pharmacology reports: B227, B228 and B229.",
     "rows": [
       {
@@ -191,27 +191,6 @@
     ],
     "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes.",
     "rationaleNote": "The last column explains the scientific value of the evidence. The reviewed passages do not establish that FDA requested these experiments or that they were newly performed after candidate nomination."
-  },
-  "assessment": {
-    "title": "How FDA assessed the evidence",
-    "items": [
-      {
-        "label": "The reviewer’s interpretation",
-        "text": "The reviewer summarized increased chloride transport in engineered cells and human bronchial cells, and interpreted the mechanism experiments as direct potentiation of channel gating rather than an effect through increased cAMP signaling."
-      },
-      {
-        "label": "Requests or changes in these passages",
-        "text": "We did not identify a request to add or repeat primary pharmacology studies in the reviewed B227–B229 passages. That does not establish what happened in every FDA interaction or mean the whole IND was accepted without changes."
-      },
-      {
-        "label": "What remained unproven",
-        "text": "These experiments did not demonstrate improved lung function or establish which CF populations would benefit from treatment. Results obtained with stimulation or a corrector cannot be treated as proof that ivacaftor alone would work across CF genotypes."
-      }
-    ],
-    "source": {
-      "label": "FDA initial-IND pharmacology assessment · PDF 85–86",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
-    }
   },
   "takeaway": "The biological case rests on the candidate’s activity, an explanation for that activity, and evidence from relevant human tissue. Whether that produces meaningful benefit in patients remains a clinical question.",
   "sources": [

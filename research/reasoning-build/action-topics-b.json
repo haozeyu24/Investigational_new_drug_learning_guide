@@ -13,7 +13,7 @@
         "steps": [
           {
             "label": "Start broadly, with a hypothesis",
-            "text": "The original Phase 1 study investigated a c-Met/HGFR inhibitor in advanced cancers, excluding leukemia. It included pathway-related pharmacodynamic measurements and preliminary antitumor activity."
+            "text": "The original Phase 1 study enrolled advanced cancers, excluding leukemia. FDA’s later account lists c-Met/HGFR pharmacodynamic measurements and preliminary antitumor activity among the amended study’s objectives."
           },
           {
             "label": "Notice a clinical signal",
@@ -28,7 +28,7 @@
         "limit": "This is an NDA reconstruction, not the full original IND. Stable disease in two people did not establish predictive validity or clinical benefit.",
         "sources": [
           {
-            "label": "Original study objectives · PDF 35",
+            "label": "Study objectives in the later account · PDF 35",
             "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=35"
           },
           {
@@ -54,15 +54,15 @@
           },
           {
             "label": "Separate escalation from expansion",
-            "text": "The initial dose-escalation study enrolled advanced solid tumors. Expansion enrollment was limited to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
+            "text": "The 2014 account describes dose escalation in advanced solid tumors and expansion restricted to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
           }
         ],
         "lesson": "Broad enrollment can be planned learning. Say what marker-negative patients will help establish rather than treating their inclusion as incidental.",
-        "limit": "The advice is recounted in later correspondence. It neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
+        "limit": "The account does not establish when expansion criteria were introduced. The advice neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
         "sources": [
           {
-            "label": "Pre-IND advice and initial study · PDF 49–50",
-            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=49"
+            "label": "Pre-IND advice and 2014 study description · PDF 49–50",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=50"
           }
         ]
       }

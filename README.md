@@ -10,6 +10,8 @@ No server or installation is required. The same `dist` files can also be deploye
 
 Saved positions and completed exercises persist across refreshes in the same browser and site. Progress is not synced across devices, domains, or between the local HTML and hosted site. Clearing site data removes it. The welcome opens on every page load without clearing progress.
 
+Returning from a lesson restores the learning map’s previous scroll position and focuses that chapter. If the page was reloaded or the learner moved to a different chapter, the map brings the current chapter into view.
+
 ## Current learning map
 
 The guide now has four parts and 25 main lessons:
@@ -19,7 +21,7 @@ The guide now has four parts and 25 main lessons:
 3. IND-enabling development: an overview, followed by nonclinical evidence, drug material and CMC, and the clinical plan.
 4. FDA engagement, IND submission, and review.
 
-Part 3 has nine chapters: four on nonclinical evidence, three on drug material and CMC, and two on clinical planning. “Connect drug action to potential benefit” has three tabs: FDA requirements, a worked initial-IND case for ivacaftor, and supporting lessons from past programs. The other eight chapters retain their reasoning maps, case comparisons, and decision exercises. Case labels distinguish original IND reviews, later IND discussions, and marketing assessments.
+Part 3 has nine chapters: four on nonclinical evidence, three on drug material and CMC, and two on clinical planning. “Connect drug action to potential benefit” has four tabs: FDA requirements, Bridge the evidence, a worked initial-IND case for ivacaftor, and supporting lessons from past programs. All nine chapters use a reading flow without separate example or decision-exercise screens. The remaining three nonclinical chapters each use one concise page: a main message, a horizontal reasoning path, a discovery-to-IND comparison, and a takeaway. The five CMC and clinical chapters retain their concept maps. Case labels in the developed pharmacology chapter distinguish original IND reviews, later IND discussions, and marketing assessments.
 
 Run the smoke checks from the repository root with Node.js:
 
@@ -27,6 +29,7 @@ Run the smoke checks from the repository root with Node.js:
 node tests/guide-smoke.cjs
 node tests/reasoning-guide.cjs
 node tests/progress-storage.cjs
+node tests/map-navigation.cjs
 node tests/fda-review-library.cjs
 node tests/ind-evidence-map.cjs
 ```
@@ -91,9 +94,9 @@ The GitHub repository is a backup and version history. Opening the guide remains
 
 ### Part 3 evidence development
 
-The opening pharmacology chapter compares ivacaftor’s discovery paper with its initial IND review in three initially collapsed sections: evidence relevant to lead optimization, a side-by-side comparison of activity/mechanism/human-tissue findings, and FDA’s assessment. It distinguishes additional detail in the review from experiments necessarily conducted after nomination. The case stays focused on biological rationale; dose escalation belongs to the clinical and safety discussions. Its 26 other cases remain available under five expandable groups in “Lessons from the past.” Its completion button records a reading acknowledgement; it is not an exercise score. Old principle-tab positions migrate into their matching group, and older links and saved completion remain supported.
+The opening pharmacology chapter compares ivacaftor’s discovery paper with its initial IND review in two initially collapsed sections: evidence relevant to lead optimization and a side-by-side comparison of activity/mechanism/human-tissue findings. It distinguishes additional detail in the review from experiments necessarily conducted after nomination. The case stays focused on biological rationale; dose escalation belongs to the clinical and safety discussions. “Lessons from the past” connects three main cases—cinacalcet, ensartinib and crizotinib—from interpreting a drug effect to planning patients and learning from clinical observations. The existing 26 cases remain in an optional reference collection under five expandable groups. Its completion button records a reading acknowledgement; it is not an exercise score. Old principle-tab positions migrate into their matching group, and older links and saved completion remain supported.
 
-The other eight IND-enabling chapters contain 31 reasoning steps, 16 cases, and eight exercises. Each exercise reveals a revised claim, its support, remaining uncertainty, and next decision. Reading position and selected case are saved alongside existing lesson progress. The discovery chapters retain their established content and presentation.
+The other eight IND-enabling chapters now use reading acknowledgements for completion. The three remaining nonclinical pages cover dose–exposure–effect, interpretation of potential harm, and support for a specific human study. Their concise content is edited in `research/reasoning-build/nonclinical-minimal.json`. The five CMC and clinical chapters retain 19 concept-map steps. Earlier case and exercise drafts remain in the research content, but their separate screens are not exposed. Old example/exercise links and saved positions open the core content, preserving existing completion. The discovery chapters retain their established content and presentation.
 
 Open `dist/ind-evidence-map.html` for the broader verified passage-to-lesson assignments. The focused reviews in `research/minireviews-development/` and `research/minireview-action/` are the editorial foundation for the new chapters. The full FDA search remains incomplete; its latest recorded state is in `research/index-screen/progress.json`.
 

@@ -512,7 +512,7 @@ const REASONING_GUIDES = {
             "steps": [
               {
                 "label": "Start broadly, with a hypothesis",
-                "text": "The original Phase 1 study investigated a c-Met/HGFR inhibitor in advanced cancers, excluding leukemia. It included pathway-related pharmacodynamic measurements and preliminary antitumor activity."
+                "text": "The original Phase 1 study enrolled advanced cancers, excluding leukemia. FDA’s later account lists c-Met/HGFR pharmacodynamic measurements and preliminary antitumor activity among the amended study’s objectives."
               },
               {
                 "label": "Notice a clinical signal",
@@ -527,7 +527,7 @@ const REASONING_GUIDES = {
             "limit": "This is an NDA reconstruction, not the full original IND. Stable disease in two people did not establish predictive validity or clinical benefit.",
             "sources": [
               {
-                "label": "Original study objectives · PDF 35",
+                "label": "Study objectives in the later account · PDF 35",
                 "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=35"
               },
               {
@@ -553,15 +553,15 @@ const REASONING_GUIDES = {
               },
               {
                 "label": "Separate escalation from expansion",
-                "text": "The initial dose-escalation study enrolled advanced solid tumors. Expansion enrollment was limited to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
+                "text": "The 2014 account describes dose escalation in advanced solid tumors and expansion restricted to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
               }
             ],
             "lesson": "Broad enrollment can be planned learning. Say what marker-negative patients will help establish rather than treating their inclusion as incidental.",
-            "limit": "The advice is recounted in later correspondence. It neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
+            "limit": "The account does not establish when expansion criteria were introduced. The advice neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
             "sources": [
               {
-                "label": "Pre-IND advice and initial study · PDF 49–50",
-                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=49"
+                "label": "Pre-IND advice and 2014 study description · PDF 49–50",
+                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=50"
               }
             ]
           }
@@ -746,6 +746,78 @@ const REASONING_GUIDES = {
         ]
       }
     ],
+    "bridge": {
+      "id": "bridge-evidence",
+      "label": "Bridge the evidence",
+      "title": "From choosing a molecule to explaining why it could help.",
+      "intro": "Studies of a drug’s intended biological effects often begin during discovery. Carry useful evidence forward, check what applies to the nominated candidate, and add work where the biological rationale still depends on an assumption.",
+      "stages": [
+        {
+          "label": "Carry forward",
+          "question": "What is already supported?",
+          "text": "Disease biology, tool-compound findings, and experiments with the candidate."
+        },
+        {
+          "label": "Bridge the gaps",
+          "question": "What still needs to connect?",
+          "text": "The molecule tested, the meaning of its effects, and the human disease context."
+        },
+        {
+          "label": "Make the case",
+          "question": "What can we reasonably expect?",
+          "text": "A plausible benefit, a population hypothesis, and clearly stated uncertainties."
+        }
+      ],
+      "gapTitle": "Three connections to check",
+      "gapIntro": "Use the evidence already available. The work below is chosen for the question that remains; it is not a fixed battery of new studies after nomination.",
+      "gaps": [
+        {
+          "id": "candidate",
+          "label": "Tool → candidate",
+          "have": "A tool compound or genetic perturbation supports the disease biology.",
+          "question": "Does this candidate produce the intended biological effect?",
+          "work": "Where evidence is missing, test the candidate’s functional activity, target engagement when measurable, and relevant selectivity. Tool-compound results cannot automatically establish those properties for a different molecule."
+        },
+        {
+          "id": "action",
+          "label": "Assay signal → biological action",
+          "have": "The candidate is active in a biochemical or cell assay.",
+          "question": "What caused the response, and why could it be useful?",
+          "work": "Use complementary readouts and appropriate controls to distinguish the intended effect from assay interference or nonspecific effects. If the mechanism remains incomplete, characterize the reproducible activity and state what is unknown."
+        },
+        {
+          "id": "relevance",
+          "label": "Model response → human disease",
+          "have": "The candidate changes a disease-related phenotype in selected models.",
+          "question": "Which disease context supports the hypothesis of benefit?",
+          "work": "Examine what responsive systems have in common, include informative nonresponsive systems, and assess relevant human biology where feasible. Activity in several cell lines alone does not identify the patients likely to benefit."
+        }
+      ],
+      "judgment": {
+        "title": "Choose new work by the uncertainty it resolves.",
+        "text": "If candidate studies already answer the question, carry them into the rationale. If the evidence is indirect or contradictory, decide what additional result could change the program’s interpretation or next step.",
+        "scope": "These are principles for sponsor scientific judgment. The FDA requirements are in the preceding tab; not every unresolved efficacy question must be settled before a first Phase 1 study."
+      },
+      "output": {
+        "title": "The biological rationale",
+        "text": "A traceable argument: what the candidate does, why that could help in a defined disease context, and which assumptions remain to be tested.",
+        "boundary": "That biological rationale joins the exposure, safety, drug-material, and clinical-plan evidence supporting the proposed study. It does not establish clinical benefit."
+      },
+      "sources": [
+        {
+          "label": "ICH M3(R2) · Primary pharmacology begins in discovery, §II",
+          "url": "https://www.fda.gov/media/71542/download#page=11"
+        },
+        {
+          "label": "FDA Phase 1 IND guidance · Known pharmacology and remaining uncertainty, §III.G.1",
+          "url": "https://www.fda.gov/media/71203/download#page=12"
+        },
+        {
+          "label": "21 CFR 312.23 · Rationale, pharmacology, and proposed participants",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
+    },
     "workedCase": {
       "id": "ivacaftor-ind",
       "label": "Ivacaftor: follow the evidence",
@@ -867,7 +939,7 @@ const REASONING_GUIDES = {
         "note": "Read the numbers within their assay. Cellular EC₅₀, receptor-binding IC₅₀ and a response at one fixed concentration answer different questions. The 3 nM engineered-cell result, 22 nM F508del-HBE result and 236 nM G551D/F508del-HBE result also come from different biological systems. Forskolin stimulates cAMP signaling to activate CFTR; potentiation is measured on top of that stimulation."
       },
       "comparison": {
-        "title": "What the initial IND review adds",
+        "title": "What the initial IND adds",
         "intro": "Compare the same biological questions in the discovery paper and the FDA review. The review summarizes three submitted pharmacology reports: B227, B228 and B229.",
         "rows": [
           {
@@ -940,27 +1012,6 @@ const REASONING_GUIDES = {
         "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes.",
         "rationaleNote": "The last column explains the scientific value of the evidence. The reviewed passages do not establish that FDA requested these experiments or that they were newly performed after candidate nomination."
       },
-      "assessment": {
-        "title": "How FDA assessed the evidence",
-        "items": [
-          {
-            "label": "The reviewer’s interpretation",
-            "text": "The reviewer summarized increased chloride transport in engineered cells and human bronchial cells, and interpreted the mechanism experiments as direct potentiation of channel gating rather than an effect through increased cAMP signaling."
-          },
-          {
-            "label": "Requests or changes in these passages",
-            "text": "We did not identify a request to add or repeat primary pharmacology studies in the reviewed B227–B229 passages. That does not establish what happened in every FDA interaction or mean the whole IND was accepted without changes."
-          },
-          {
-            "label": "What remained unproven",
-            "text": "These experiments did not demonstrate improved lung function or establish which CF populations would benefit from treatment. Results obtained with stimulation or a corrector cannot be treated as proof that ivacaftor alone would work across CF genotypes."
-          }
-        ],
-        "source": {
-          "label": "FDA initial-IND pharmacology assessment · PDF 85–86",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
-        }
-      },
       "takeaway": "The biological case rests on the candidate’s activity, an explanation for that activity, and evidence from relevant human tissue. Whether that produces meaningful benefit in patients remains a clinical question.",
       "sources": [
         {
@@ -987,7 +1038,166 @@ const REASONING_GUIDES = {
     },
     "lessons": {
       "id": "lessons-from-the-past",
-      "label": "Lessons from the past"
+      "label": "Lessons from the past",
+      "title": "Give the clinical study a biological question to answer.",
+      "intro": "Before a study, define what your measurements can establish and why the proposed patients are informative. Then use clinical findings to refine the hypothesis. These three FDA records show that sequence.",
+      "sequence": [
+        {
+          "id": "interpret-effect",
+          "label": "Interpret the drug effect",
+          "drug": "Cinacalcet",
+          "title": "A measurable drug effect is not yet a demonstrated benefit.",
+          "preview": "PTH fell. Had bone disease improved?",
+          "stage": "Original US IND review · 1998",
+          "provenance": "Reproduced in the 2004 approval package. Earlier human studies already existed; this US IND proposed a Phase 2 study.",
+          "question": "What did lowering parathyroid hormone actually establish?",
+          "setup": "Cinacalcet increases the calcium sensitivity of parathyroid cells. In secondary hyperparathyroidism, the rationale was that lowering excess parathyroid hormone (PTH) could improve bone disease.",
+          "visual": {
+            "kind": "evidence",
+            "label": "Separate drug action, measured response, and expected benefit",
+            "nodes": [
+              {
+                "label": "Drug action",
+                "title": "Increase calcium sensitivity",
+                "text": "Change the signal controlling PTH secretion.",
+                "status": "known"
+              },
+              {
+                "label": "Observed response",
+                "title": "PTH decreases",
+                "text": "Reported in rats and earlier healthy-volunteer studies.",
+                "status": "known"
+              },
+              {
+                "label": "Benefit to establish",
+                "title": "Improve bone disease",
+                "text": "An expectation in these review pages, not an established outcome.",
+                "status": "open"
+              }
+            ]
+          },
+          "decision": {
+            "label": "The proposed next study",
+            "text": "Study patients with secondary hyperparathyroidism and measure PTH, calcium, calcitonin, and PK. Calcium mattered for safety as well as pharmacology."
+          },
+          "lesson": {
+            "label": "Use this distinction",
+            "text": "A pharmacodynamic readout can show a drug effect. Separate that observation from the evidence needed to show that patients benefit."
+          },
+          "limit": "These passages do not establish improved bone disease or fracture prevention. An original US IND is not necessarily a first-ever human study.",
+          "sources": [
+            {
+              "label": "FDA · original IND rationale and study plan, PDF 8–9",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=8"
+            }
+          ]
+        },
+        {
+          "id": "plan-patients",
+          "label": "Justify who to study",
+          "drug": "Ensartinib",
+          "title": "Broad enrollment can still have a specific biological hypothesis.",
+          "preview": "Who should enter—and what would their results tell us?",
+          "stage": "Pre-IND advice · 2011",
+          "provenance": "The 2025 approval package reproduces later IND correspondence recounting the 2011 pre-IND advice and early clinical development.",
+          "question": "How can a broad dose-escalation study test a targeted-drug hypothesis?",
+          "setup": "The pre-IND discussion considered possible activity in tumors with ALK or cMET alterations. FDA addressed patient enrollment and pharmacodynamic measurements as separate planning questions.",
+          "visual": {
+            "kind": "paired",
+            "label": "Two complementary questions in the pre-IND advice",
+            "nodes": [
+              {
+                "label": "Patient selection",
+                "title": "Who enters?",
+                "text": "Specify how many patients negative for both ALK and cMET would be enrolled.",
+                "status": "known"
+              },
+              {
+                "label": "PK and pharmacodynamics",
+                "title": "What can we measure?",
+                "text": "Plan PK sampling and identify potential PD endpoints.",
+                "status": "known"
+              }
+            ],
+            "note": "Patient characteristics frame who might benefit. PK and PD measurements help interpret exposure and biological effects after dosing. These are different jobs."
+          },
+          "decision": {
+            "label": "How the study later developed",
+            "text": "The 2014 account describes advanced-solid-tumor dose escalation followed by expansion in ALK-positive non-small cell lung cancer, selected by FISH testing."
+          },
+          "lesson": {
+            "label": "Use this distinction",
+            "text": "A patient hypothesis need not mean restricting every cohort to one marker. Explain what each enrolled group and each measurement will help you learn."
+          },
+          "limit": "The record does not give the requested marker-negative enrollment number. The 2014 expansion design should not be assumed to have been present in the original March 2012 protocol.",
+          "sources": [
+            {
+              "label": "FDA · pre-IND advice and early study design, PDF 49–50",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=50"
+            }
+          ]
+        },
+        {
+          "id": "learn-from-patients",
+          "label": "Refine the hypothesis",
+          "drug": "Crizotinib",
+          "title": "Early findings can change which patients you study next.",
+          "preview": "An ALK-positive signal led to a narrower clinical question.",
+          "stage": "Early Phase 1 and IND amendments · 2005–2009",
+          "provenance": "Development history reconstructed in the 2011 NDA clinical review; this is not the complete original IND submission.",
+          "question": "What should happen when patients reveal a more specific opportunity?",
+          "setup": "Crizotinib entered broad cancer dose escalation as a c-Met/HGFR inhibitor. FDA’s later account links observations in two ALK-positive lung-cancer patients to an ALK-positive extension of the study.",
+          "visual": {
+            "kind": "timeline",
+            "label": "From broad dose escalation to an ALK-positive extension",
+            "nodes": [
+              {
+                "label": "Original study",
+                "title": "Broad cancer enrollment",
+                "text": "Dose escalation in advanced cancers, excluding leukemia.",
+                "status": "known"
+              },
+              {
+                "label": "Early observation",
+                "title": "Two ALK-positive patients",
+                "text": "In the 50 mg cohort, stable disease was reported at 1.5 and 7 months.",
+                "status": "known"
+              },
+              {
+                "label": "October 2007 amendment",
+                "title": "Test ALK-positive NSCLC",
+                "text": "The protocol allowed enrollment of EML4–ALK-positive non-small cell lung cancer.",
+                "status": "known"
+              }
+            ]
+          },
+          "decision": {
+            "label": "What changed",
+            "text": "An ALK-positive extension tested the emerging population hypothesis. A later 2009 amendment also added an ALK-negative cohort."
+          },
+          "lesson": {
+            "label": "Use this distinction",
+            "text": "An early signal can justify a more focused test before it establishes that a marker predicts benefit. Build a plan that can change when the evidence changes."
+          },
+          "limit": "These were stable-disease observations, not objective responses or proof of benefit. The retrospective account does not establish every measurement in the original protocol.",
+          "sources": [
+            {
+              "label": "FDA · early observations and protocol amendments, PDF 37–38",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=37"
+            }
+          ]
+        }
+      ],
+      "takeaway": {
+        "title": "Bring a hypothesis—and a way to learn.",
+        "text": "Know what your measurements can establish. Explain why the proposed patients are informative. Decide what findings would strengthen, narrow, or change the hypothesis.",
+        "note": "These cases illustrate scientific decisions, not a universal biomarker requirement or a complete checklist for an IND."
+      },
+      "archive": {
+        "label": "Explore the full case collection",
+        "description": "26 cases · organized by scientific question",
+        "intro": "For deeper reading: additional drugs, contrasting findings, and later development decisions. Each case identifies its source stage; later approval findings should not be read as initial-IND requirements."
+      }
     }
   },
   "nonclinical-pkpd": {
@@ -1201,6 +1411,54 @@ const REASONING_GUIDES = {
       "id": "nonclinical-safety",
       "label": "Identify and interpret potential harm",
       "text": "Use the exposure–effect argument to interpret the conditions, severity and possible human relevance of observed harm."
+    },
+    "minimal": {
+      "eyebrow": "Dose → exposure → effect",
+      "headline": "Exposure connects a dose to its effects.",
+      "intro": "The amount given does not tell us how much drug reaches the body, how long it remains, or what it does. Connect those observations before using them to inform a human study.",
+      "stages": [
+        {
+          "label": "Dose & schedule",
+          "question": "What did we give?",
+          "text": "Keep the amount, route, formulation, and timing together. They define the treatment being tested."
+        },
+        {
+          "label": "Exposure · PK",
+          "question": "How much drug, where, and for how long?",
+          "text": "Absorption, distribution, metabolism, and excretion shape exposure over time. Measure relevant concentrations; blood levels may not represent levels at the site of action."
+        },
+        {
+          "label": "Effect · PD",
+          "question": "What changes as exposure changes?",
+          "text": "Relate concentrations and timing to biological responses. An effect may begin later, last longer, or stop increasing as exposure rises."
+        },
+        {
+          "label": "Human implications",
+          "question": "What can this relationship inform?",
+          "text": "Use the evidence to inform dose, schedule, and measurements in humans. Combine it with safety findings; animal activity alone does not determine a human starting dose."
+        }
+      ],
+      "distinction": {
+        "beforeLabel": "Carry forward from lead optimization",
+        "before": "ADME and PK/PD helped compare molecules and choose a candidate. Keep the useful measurements and what they already establish.",
+        "nowLabel": "Focus for the proposed study",
+        "now": "Examine how candidate exposure relates to effects, what may differ in humans, and which uncertainties matter for the proposed dosing plan."
+      },
+      "takeaway": "Connect the dose given, the exposure achieved, and the response observed. Then explain what can—and cannot—be carried into humans.",
+      "sources": [
+        {
+          "label": "FDA · Clinical pharmacology: PK, PD, and ADME",
+          "url": "https://www.fda.gov/media/167545/download#page=4"
+        },
+        {
+          "label": "ICH M3(R2) · Pharmacology, PK, and first human dose",
+          "url": "https://www.fda.gov/media/71542/download#page=11"
+        },
+        {
+          "label": "21 CFR 312.23 · Drug disposition and the dosing plan",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
     }
   },
   "nonclinical-safety": {
@@ -1419,6 +1677,54 @@ const REASONING_GUIDES = {
       "id": "nonclinical-package",
       "label": "Build a credible safety package",
       "text": "Ask whether the studies, applicability arguments and records can support this risk account for the proposed investigation."
+    },
+    "minimal": {
+      "eyebrow": "Finding → context → consequence",
+      "headline": "A safety finding needs an explanation and a response.",
+      "intro": "The question is not simply whether a test was positive or negative. Understand what happened, under which conditions, and how it should change the proposed human study.",
+      "stages": [
+        {
+          "label": "Identify the finding",
+          "question": "What changed?",
+          "text": "Describe the affected organ or function, severity, and timing. Distinguish a measured change from evidence that it is harmful."
+        },
+        {
+          "label": "Add exposure & time",
+          "question": "Under which conditions?",
+          "text": "Relate the finding to exposure and treatment duration. Examine whether it worsens with repeat dosing or resolves after stopping."
+        },
+        {
+          "label": "Assess human relevance",
+          "question": "Could this matter in people?",
+          "text": "Consider the mechanism, species differences, and expected human exposure. A possible explanation needs supporting evidence."
+        },
+        {
+          "label": "Act on the finding",
+          "question": "What should change?",
+          "text": "Use the interpretation to guide further studies, dosing limits, participant exclusions, or monitoring. Some findings may prevent the proposed study from proceeding."
+        }
+      ],
+      "distinction": {
+        "beforeLabel": "Carry forward from lead optimization",
+        "before": "Early safety screens and tolerability studies helped identify liabilities and compare candidates. Their findings remain part of the evidence.",
+        "nowLabel": "Focus for the proposed study",
+        "now": "Characterize the candidate’s potential harms deeply enough to assess the planned human exposure and define appropriate precautions."
+      },
+      "takeaway": "A negative test is limited reassurance. A concerning result needs context, evidence, and a decision.",
+      "sources": [
+        {
+          "label": "ICH M3(R2) · Toxic effects, exposure, and reversibility",
+          "url": "https://www.fda.gov/media/71542/download#page=8"
+        },
+        {
+          "label": "ICH S7A · Safety pharmacology and human relevance",
+          "url": "https://www.fda.gov/media/72033/download#page=5"
+        },
+        {
+          "label": "21 CFR 312.23 · Risks, precautions, and monitoring",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
     }
   },
   "nonclinical-package": {
@@ -1633,6 +1939,54 @@ const REASONING_GUIDES = {
       "id": "clinical",
       "label": "The first clinical study",
       "text": "Translate the supported scope, unresolved risks and conditions into a concrete clinical investigation; revisit the package when that proposal changes."
+    },
+    "minimal": {
+      "eyebrow": "Study → evidence → readiness",
+      "headline": "Build the safety case for a specific human study.",
+      "intro": "The package brings the findings together. Its scope depends on who will receive the drug, how it will be given, and for how long—not on a universal checklist.",
+      "stages": [
+        {
+          "label": "Define the study",
+          "question": "What are we asking to begin?",
+          "text": "Specify the population, route, schedule, and duration. These choices set the context for judging the evidence."
+        },
+        {
+          "label": "Choose the evidence",
+          "question": "Which questions need answers now?",
+          "text": "Match the studies to the drug and proposed investigation. Use relevant existing evidence; identify gaps that require additional work."
+        },
+        {
+          "label": "Check credibility",
+          "question": "Can the studies support the conclusion?",
+          "text": "Check exposure, methods, traceable results, and applicable Good Laboratory Practice requirements. Explain relevant differences between tested material and material planned for clinical use."
+        },
+        {
+          "label": "Judge readiness",
+          "question": "Does the whole package support this study?",
+          "text": "Integrate the findings, limitations, and precautions. Close consequential gaps or change the plan; identify additional work needed before expanding human exposure."
+        }
+      ],
+      "distinction": {
+        "beforeLabel": "Carry forward from lead optimization",
+        "before": "Discovery evidence helped justify investing in this candidate. Relevant results remain useful; nomination does not make every experiment obsolete.",
+        "nowLabel": "Focus for the proposed study",
+        "now": "Assemble a reviewable, scientifically justified safety assessment for the planned investigation. Study design, documentation, and unresolved findings matter alongside the results."
+      },
+      "takeaway": "Enough evidence for the proposed study does not mean enough evidence for every later study—or for marketing approval.",
+      "sources": [
+        {
+          "label": "21 CFR 312.23(a)(8) · The nonclinical IND package",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(8)"
+        },
+        {
+          "label": "ICH M3(R2) · Scope and timing of nonclinical studies",
+          "url": "https://www.fda.gov/media/71542/download#page=7"
+        },
+        {
+          "label": "FDA · Phase 1 IND pharmacology and toxicology guidance",
+          "url": "https://www.fda.gov/media/71203/download#page=12"
+        }
+      ]
     }
   },
   "cmc-material": {
@@ -2691,16 +3045,12 @@ for (const [id, guide] of Object.entries(REASONING_GUIDES)) {
  if (!lesson) throw new Error('Unknown reasoning chapter: ' + id);
  lesson.reasoningGuide = guide;
  if (guide.title) lesson.title = guide.title;
- lesson.goal = guide.question;
- lesson.takeaway = guide.takeaway || guide.nodes[guide.nodes.length - 1].decision;
- if (guide.format === 'case-tabs') delete lesson.question;
- else lesson.question = {
-  title: guide.exercise.title,
-  prompt: guide.exercise.context + ' ' + guide.exercise.prompt,
-  options: guide.exercise.options.map(o => [o.label, o.feedback, o.correct])
- };
+ lesson.goal = guide.minimal?.headline || guide.question;
+ lesson.takeaway = guide.minimal?.takeaway || guide.takeaway || guide.nodes[guide.nodes.length - 1].decision;
+ delete lesson.question;
  const cases = guide.readingTopics ? guide.readingTopics.flatMap(t => [...t.cases, ...t.moreCases]) : guide.cases;
- const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
- const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
- lesson.sources = sources.filter((s, i) => sources.findIndex(x => x.url === s.url) === i);
+ const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source])] : [];
+ const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.lessons?.sequence || []).flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...(guide.bridge?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
+ const activeSources = guide.minimal ? guide.minimal.sources : sources;
+ lesson.sources = activeSources.filter((s, i) => activeSources.findIndex(x => x.url === s.url) === i);
 }

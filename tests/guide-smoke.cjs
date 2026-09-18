@@ -81,7 +81,7 @@ function click(key,id){const btn={dataset:{[key]:id}},selector='[data-'+key.repl
  assert(!node('#lesson').innerHTML.includes('THE CONCEPT'));assert(!node('#lesson').innerHTML.includes('class="lesson-meta"'));assert.equal((node('#lesson').innerHTML.match(/<h1>/g)||[]).length,1);
  click('lessonStep','9');assert.equal(run('state.step'),0);
  assert(run("state.progress['discovery-target'].completed"));
- let renders=0;for(const id of run('LEVELS.map(l=>l.id)'))for(let step=0;step<(run('LEVELS.find(l=>l.id==='+JSON.stringify(id)+').reasoningGuide?.format')==='case-tabs'?1:3);step++){
+ let renders=0;for(const id of run('LEVELS.map(l=>l.id)'))for(let step=0;step<(run('Boolean(LEVELS.find(l=>l.id==='+JSON.stringify(id)+').reasoningGuide)')?1:3);step++){
   run(`state.lesson='${id}';state.step=${step};state.hitProgram=undefined;state.hitStage=undefined;state.leadTopic=undefined;state.selected=null;state.feedback=false`);assert(!run('lessonView()').includes('undefined'));renders++;
  }
  run("startLevel('discovery-optimization',1);state.vertexDecisions=undefined");
@@ -208,9 +208,13 @@ console.log('PASS: five lead-optimization topics and four connected dimensions, 
    assert.equal(run('state.progress['+JSON.stringify(l.id)+'].completionKind'),'reading');
   }else{
    run('startLevel('+JSON.stringify(l.id)+',2)');
-   const correct=l.question.options.findIndex(o=>o[2]);
-   run('state.selected='+correct+';state.feedback=true');await run('completeLevel()');
+   assert.equal(run('state.step'),0,'Former exercise links now open the reading chapter');
+   assert.equal(l.question,undefined,'Reading chapters no longer publish exercise questions');
+   if(!l.reasoningGuide.minimal)click('reasoningNode',String(l.reasoningGuide.nodes.length-1));
+   assert(node('#lesson').innerHTML.includes('data-action="complete-concept"'));
+   await run('completeConceptChapter()');
   }
+  assert.equal(run('state.progress['+JSON.stringify(l.id)+'].completionKind'),'reading');
   assert.equal(run('state.screen'),'complete');assert(run('done('+JSON.stringify(l.id)+')'));
  }
  run("startLevel('discovery-leads',0)");click('evidenceStep','1');assert.equal(run('state.evidenceStep'),undefined);
@@ -281,6 +285,6 @@ console.log('PASS: five lead-optimization topics and four connected dimensions, 
 
  for(const id of ['clinical-plan-package','model','toxicology-tk-glp','risk-recovery','substance-product','process-impurities','cmc','stability-product-changes']){run('startLevel('+JSON.stringify(id)+',0)');assert.equal(run('state.lesson'),id);}
  await run('saveQueue');
- console.log('PASS: one reading and eight exercise completion paths, Part 3 sequence, and preserved legacy links; detailed map/case interactions covered in reasoning-guide.cjs.');
+ console.log('PASS: nine explicit reading completion paths, Part 3 sequence, and preserved legacy links; detailed reading interactions covered in reasoning-guide.cjs.');
 
 })().catch(e=>{console.error(e);process.exitCode=1});

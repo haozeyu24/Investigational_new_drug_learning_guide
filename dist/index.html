@@ -1,4 +1,4 @@
-<!-- Local bundle: 8710093bdecc; refresh with python3 dist/refresh-local-html.py -->
+<!-- Local bundle: 25ed882c2af9; refresh with python3 dist/refresh-local-html.py -->
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>First-In-Class.ai — From discovery to humans</title><meta name="description" content="How a development candidate becomes a clinical-stage drug. Interactive learning for experimental and computational scientists."><style data-local-bundle>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
@@ -312,6 +312,29 @@ body.is-overview{background:#24526a;color:#f5f6f7}.is-overview .topbar{backgroun
 @media(max-width:740px){.pi3k-allosteric{grid-template-columns:1fr;gap:22px}.pi3k-strategy-card,.pi3k-allosteric>.pi3k-evidence-card{padding:20px}}
 .target-objective{color:#526579;margin:0 0 28px;font-size:1rem}
 .is-target-understand .lesson-card{background:transparent;border:0;padding:0;box-shadow:none}
+.is-target-understand #lesson{max-width:1200px}
+.target-overview{background:#fff;border:1px solid #d2e0e6;border-radius:12px;overflow:hidden}
+.target-overview-heading{padding:32px 34px 0;max-width:920px}
+.target-overview-heading h2{color:#244658;font-size:clamp(1.5rem,2.5vw,2rem);line-height:1.3;letter-spacing:-.025em;text-wrap:balance;margin:0 0 14px}
+.target-overview-heading>p{font-size:1rem;line-height:1.8;color:#526579;margin:0;max-width:78ch}
+.target-reasoning-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;list-style:none;margin:32px 34px 22px;padding:0}
+.target-reasoning-path>li{position:relative;min-width:0}
+.target-reasoning-path>li:not(:last-child):before{content:"";position:absolute;left:43px;right:-21px;top:16px;border-top:1px solid #b9ced7}
+.target-step-marker{position:relative;display:grid;place-items:center;width:33px;height:33px;border:1px solid #a9c3cf;border-radius:50%;color:#356777;background:#f3f7f8;font-size:.73rem;font-weight:600;margin-bottom:18px}
+.target-reasoning-path>li:last-child .target-step-marker{background:#245c6d;color:#fff;border-color:#245c6d}
+.target-step-label{display:block;font-size:.78rem;color:#356777;font-weight:600;margin-bottom:10px}
+.target-reasoning-path h3{color:#244658;font-size:1.14rem;line-height:1.45;margin:0 0 12px;text-wrap:balance}
+.target-reasoning-path p{color:#526579;font-size:.91rem;line-height:1.8;margin:0}
+p.target-sequence-note{margin:0 34px 26px;font-size:.8rem;line-height:1.7;color:#526579}
+.target-main-takeaway{background:#edf4f6;border-top:1px solid #d2e0e6;color:#244658;font-weight:600;font-size:1rem;line-height:1.75;padding:22px 34px;margin:0;text-wrap:pretty}
+.target-distinctions{border-bottom:1px solid #d2e0e6;padding:19px 4px;margin-top:5px}
+.target-distinctions summary{cursor:pointer;color:#356777;font-size:.87rem;font-weight:500}
+.target-distinctions summary:focus-visible{outline:3px solid #b7852f;outline-offset:6px;border-radius:2px}
+.target-distinctions dl{margin:22px 0 4px;max-width:850px}
+.target-distinctions dl>div+div{margin-top:19px}
+.target-distinctions dt{font-weight:600;color:#244658;font-size:.9rem;margin-bottom:6px}
+.target-distinctions dd{color:#526579;font-size:.89rem;line-height:1.8;margin:0}
+@media(max-width:740px){.target-overview-heading{padding:25px 23px 0}.target-reasoning-path{grid-template-columns:1fr;gap:26px;margin:28px 23px 23px}.target-reasoning-path>li{padding-left:49px}.target-step-marker{position:absolute;top:0;left:0;margin:0}.target-reasoning-path>li:not(:last-child):before{left:16px;top:42px;bottom:-15px;right:auto;border-top:0;border-left:1px solid #b9ced7}.target-step-label{margin-bottom:5px}.target-reasoning-path h3{margin-bottom:7px}.target-sequence-note{margin:0 23px 23px}.target-main-takeaway{padding:21px 23px}.target-distinctions{padding-inline:0}}
 .target-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:start;margin-top:28px}
 .target-principles{min-width:0;padding:28px;background:#fff;border:1px solid #d2e0e6;border-radius:10px}
 .target-principles>.eyebrow{font-size:.72rem;color:#28576b;margin:0 0 10px}
@@ -1981,6 +2004,63 @@ button.brand-attribution:focus-visible{outline:2px solid currentColor;outline-of
 @media(max-width:740px){.portal-learning-paths{margin-top:38px;padding-top:28px}}
 
 /* Calm hierarchy, visible reasoning, a restrained evidence palette. */
+/* The first pass of nonclinical development: one message and one reading path. */
+.reasoning-minimal-chapter{max-width:1200px;margin:0 auto}
+.reasoning-minimal{background:#fff;border:1px solid #d8e3e7;border-radius:14px;overflow:hidden;margin-top:26px}
+.minimal-heading{padding:36px 38px 0;max-width:960px}
+.minimal-heading h2{font-size:clamp(1.6rem,2.5vw,2.15rem);line-height:1.25;letter-spacing:-.035em;color:#203f4d;margin:0 0 16px;text-wrap:balance}
+.minimal-heading>p{color:#526c79;font-size:1rem;line-height:1.8;margin:0;max-width:78ch}
+.minimal-path{display:grid;grid-template-columns:repeat(var(--minimal-count),minmax(0,1fr));gap:28px;list-style:none;margin:36px 38px 32px;padding:0}
+.minimal-path>li{position:relative;min-width:0}
+.minimal-path>li:not(:last-child):before{content:"";position:absolute;top:16px;left:43px;right:-16px;border-top:1px solid #b9cfd6}
+.minimal-marker{position:relative;display:grid;place-items:center;width:33px;height:33px;border:1px solid #a7c3cd;border-radius:50%;font-size:.72rem;font-weight:600;color:#356777;background:#f3f7f8;margin-bottom:18px}
+.minimal-path>li:last-child .minimal-marker{color:#fff;background:#245c6d;border-color:#245c6d}
+.minimal-stage-label{display:block;font-size:.78rem;font-weight:650;color:#356777;margin-bottom:10px}
+.minimal-path h3{color:#203f4d;font-size:1.06rem;line-height:1.45;margin:0 0 10px;text-wrap:balance}
+.minimal-path p{font-size:.87rem;line-height:1.8;color:#526c79;margin:0}
+.minimal-handoff{display:grid;grid-template-columns:1fr 1fr;margin:0 38px;padding:24px 0;border-top:1px solid #d8e3e7;gap:32px}
+.minimal-handoff>div+div{border-left:2px solid #d6a24d;padding-left:28px}
+.minimal-handoff span{display:block;color:#356777;font-size:.78rem;font-weight:650;margin-bottom:8px}
+.minimal-handoff p{font-size:.9rem;line-height:1.8;color:#526c79;margin:0;max-width:58ch}
+.minimal-takeaway{background:#edf4f5;border-top:1px solid #d8e3e7;color:#244e60;font-size:1rem;font-weight:550;line-height:1.75;margin:0;padding:22px 38px;text-wrap:pretty}
+.reasoning-concept-chapter .reasoning-footer .save-status,.reasoning-concept-chapter .reasoning-footer .text-button{color:#526c79}
+@media(max-width:850px){.minimal-path{grid-template-columns:1fr;gap:24px;margin-top:28px}.minimal-path>li{padding-left:49px}.minimal-marker{position:absolute;left:0;top:0;margin:0}.minimal-path>li:not(:last-child):before{left:16px;top:42px;bottom:-13px;right:auto;border-top:0;border-left:1px solid #b9cfd6}.minimal-stage-label{margin-bottom:5px}.minimal-path h3{margin-bottom:6px}.minimal-path p{max-width:70ch}.minimal-handoff{gap:24px}.minimal-handoff>div+div{padding-left:22px}}
+@media(max-width:560px){.minimal-heading{padding:26px 22px 0}.minimal-heading>p{font-size:.93rem}.minimal-path{margin:28px 22px}.minimal-handoff{grid-template-columns:1fr;margin:0 22px;gap:20px}.minimal-handoff>div+div{padding-left:16px}.minimal-takeaway{padding:20px 22px;font-size:.94rem}.reasoning-minimal-chapter .reasoning-controls .button{width:100%}.reasoning-minimal-chapter .reasoning-controls>span{display:none}}
+/* Principles connecting discovery pharmacology to the proposed investigation. */
+.reasoning-bridge-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;list-style:none;padding:25px 28px;margin:0 0 32px;background:#edf3f5;border:1px solid #d7e4e9;border-radius:12px}
+.reasoning-bridge-flow li{position:relative;min-width:0;padding-right:14px}
+.reasoning-bridge-flow li:not(:last-child):after{content:"";position:absolute;top:15px;left:43px;right:-19px;border-top:1px solid #b2cbd5}
+.bridge-stage-number{position:relative;z-index:1;display:grid;place-items:center;width:31px;height:31px;border-radius:50%;border:1px solid #adc8d2;background:#edf3f5;color:#356777;font-size:.72rem;font-weight:650}
+.reasoning-bridge-flow li:last-child .bridge-stage-number{background:#245c6d;border-color:#245c6d;color:#fff}
+.bridge-stage-label{display:block;color:#526c79;font-size:.72rem;font-weight:600;margin:14px 0 8px}
+.reasoning-bridge-flow h3{font-size:1.12rem;line-height:1.4;color:#245568;margin:0 0 10px}
+.reasoning-bridge-flow p{font-size:.87rem;line-height:1.7;color:#526c79;margin:0}
+.reasoning-bridge-connections>header{max-width:920px;margin:0 0 17px}
+.reasoning-bridge-connections h3,.reasoning-bridge-close h3{font-size:1.17rem;line-height:1.45;color:#244e60;margin:0 0 9px}
+.reasoning-bridge-connections>header p{font-size:.9rem;line-height:1.75;color:#5a727e;margin:0}
+.reasoning-bridge-scroll{width:100%;overflow-x:auto;border:1px solid #cfdee5;border-radius:10px;background:#fff}
+.reasoning-bridge-scroll:focus-visible{outline:3px solid #b7852f;outline-offset:4px}
+.reasoning-bridge-table{width:100%;min-width:760px;table-layout:fixed;border-collapse:collapse;text-align:left}
+.reasoning-bridge-table th,.reasoning-bridge-table td{padding:20px 23px;vertical-align:top;text-align:left;border-bottom:1px solid #dce7eb}
+.reasoning-bridge-table thead th{background:#eaf2f5;color:#315b6d;font-size:.77rem;font-weight:600;line-height:1.6;padding-top:15px;padding-bottom:15px}
+.reasoning-bridge-table th:first-child{width:29%}.reasoning-bridge-table th:nth-child(2){width:28%}
+.reasoning-bridge-table tbody th{background:#f7fafb;font-weight:400}
+.reasoning-bridge-table tbody th>span{display:block;color:#245c6d;font-size:.84rem;font-weight:650;margin-bottom:9px}
+.reasoning-bridge-table p{font-size:.88rem;line-height:1.8;margin:0;color:#526c79}
+.reasoning-bridge-table td>strong{font-size:.96rem;line-height:1.7;color:#244e60;font-weight:550}
+.reasoning-bridge-table tr:last-child td,.reasoning-bridge-table tr:last-child th{border-bottom:0}
+.reasoning-bridge-close{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:34px;align-items:start;margin-top:29px}
+.reasoning-bridge-close>section{padding:9px 0}
+.reasoning-bridge-close p{font-size:.91rem;line-height:1.8;color:#4f6b79;margin:0}
+.reasoning-bridge-close .bridge-scope{font-size:.79rem;color:#526c79;margin-top:16px}
+.reasoning-bridge-close aside{padding:23px 25px;background:#eaf2f4;border-left:3px solid #bd9653;border-radius:0 9px 9px 0}
+.reasoning-bridge-close aside .reasoning-kicker{font-size:.69rem;letter-spacing:.055em;color:#5b7784;margin-bottom:10px}
+.reasoning-bridge-close aside>p:first-of-type{font-size:1.02rem;line-height:1.75;color:#264f61;font-weight:500}
+.reasoning-bridge-close .bridge-boundary{font-size:.8rem;line-height:1.75;margin-top:13px;color:#526c79}
+.reasoning-bridge-sources{display:flex;gap:9px 24px;flex-wrap:wrap;margin-top:25px;padding-top:18px;border-top:1px solid #d8e3e7;font-size:.74rem;line-height:1.7}
+.reasoning-bridge-sources a{color:#3a7184}
+@media(max-width:900px){.reasoning-bridge-flow{gap:24px;padding:22px}.reasoning-bridge-flow li{padding-right:0}.reasoning-bridge-close{gap:24px}.reasoning-bridge-table th,.reasoning-bridge-table td{padding:18px}}
+@media(max-width:650px){.reasoning-bridge-flow{grid-template-columns:1fr;gap:23px;padding:23px}.reasoning-bridge-flow li{padding-left:45px}.bridge-stage-number{position:absolute;left:0;top:0}.reasoning-bridge-flow li:not(:last-child):after{left:15px;right:auto;top:32px;bottom:-23px;border-top:0;border-left:1px solid #b2cbd5}.bridge-stage-label{margin-top:0}.reasoning-bridge-flow h3{font-size:1.05rem}.reasoning-bridge-close{grid-template-columns:1fr;gap:16px}.reasoning-bridge-close aside{padding:20px}.reasoning-bridge-sources{display:grid;gap:10px}}
 body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .is-reasoning-lesson #lesson{max-width:1360px;width:100%;padding:30px 38px 42px}
 .reasoning-chapter{--r-ink:#203f4d;--r-muted:#587080;--r-teal:#245c6d;--r-line:#d8e3e7;--r-paper:#fff;--r-amber:#b67c20}
@@ -2107,7 +2187,7 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 @media(max-width:480px){.reasoning-topic-tabs{gap:8px}.reasoning-topic-tabs button{font-size:.78rem;padding:9px 11px;min-height:43px}.reasoning-fda-requirements{grid-template-columns:1fr;gap:25px}.reasoning-fda-requirements li{padding-left:42px;position:relative;border-top:0}.fda-requirement-number{position:absolute;left:0;top:0;margin:0;width:24px;height:24px}.reasoning-fda-requirements p{margin-bottom:6px}}
 
 /* One layer of topics: the principle and its evidence share the same page. */
-.reasoning-reading-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:870px;gap:10px;margin:28px 0 30px}
+.reasoning-reading-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:1080px;gap:10px;margin:28px 0 30px}
 .reasoning-reading-tabs button{min-width:0;align-items:flex-start;text-align:left;line-height:1.45;padding:13px 11px;gap:9px;font-size:.78rem;background:transparent}
 .reasoning-reading-tabs button>span{flex:0 0 22px;height:22px;font-size:.68rem}
 .reasoning-reading-panel{min-width:0}
@@ -2168,6 +2248,60 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 @media(max-width:760px){.reasoning-story>header{display:block;padding:24px}.reasoning-story-stage{padding:0;border-left:0;margin-top:15px;max-width:550px}.reasoning-story-stage strong{display:inline;margin-right:7px}.reasoning-story-steps{margin:10px 24px 23px}.reasoning-story-steps h4{font-size:.93rem}.reasoning-story-steps p{font-size:.85rem}.reasoning-story-lesson{display:block;padding:18px 24px}.reasoning-story-lesson>span{display:block;margin-bottom:5px}.reasoning-story>footer{padding:17px 24px}.reasoning-comparison>summary{flex-wrap:wrap;gap:5px 12px;position:relative;padding-right:45px}.reasoning-comparison>summary:after{position:absolute;right:20px;top:18px}.reasoning-comparison-title{flex-basis:100%}.reasoning-support-case>summary{grid-template-columns:140px 1fr 15px}.reasoning-support-case>div{padding:0 20px 20px 160px}}
 @media(max-width:550px){.reasoning-learning-heading>p{font-size:.94rem}.reasoning-story-steps{grid-template-columns:1fr;gap:24px;margin:4px 24px 24px}.reasoning-story-steps li,.reasoning-story-steps li+li{padding:0 0 0 30px;border-top:0;border-left:1px solid #afc6cf}.reasoning-story-steps li>span,.reasoning-story-steps li+li>span{left:-12px;top:0;padding:0 3px}.reasoning-story-steps p{font-size:.91rem}.reasoning-story-steps h4{margin-bottom:7px}.reasoning-support-case>summary{grid-template-columns:1fr 15px;gap:3px}.reasoning-support-case>summary>span{grid-row:2;grid-column:1}.reasoning-support-case>summary:after{grid-row:1;grid-column:2}.reasoning-support-case>div{padding:4px 20px 20px 4px}.reasoning-reading-controls>.button{font-size:.79rem}.reasoning-reading-controls>.text-button{font-size:.78rem}}
 
+/* Three connected historical decisions; the larger reference collection stays secondary. */
+.reasoning-history-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:27px;margin:0 0 28px;padding:0 0 23px;border-bottom:1px solid var(--r-line)}
+.reasoning-history-path button{position:relative;display:grid;grid-template-columns:30px 1fr;gap:5px 13px;align-items:center;min-width:0;border:0;background:transparent;padding:7px 12px 7px 0;text-align:left;font:inherit;color:var(--r-teal);border-radius:5px;cursor:pointer}
+.reasoning-history-path button:not(:last-child):after{content:'';position:absolute;right:-15px;top:23px;width:7px;height:7px;border-top:1px solid #759aa9;border-right:1px solid #759aa9;transform:rotate(45deg)}
+.reasoning-history-path button>span{display:grid;place-items:center;width:30px;height:30px;grid-row:1/3;border-radius:50%;background:#e3edf0;font-size:.69rem;font-weight:650}
+.reasoning-history-path strong{font-size:.9rem;line-height:1.5;font-weight:600}.reasoning-history-path small{grid-column:2;font-size:.75rem;color:#526e7b}
+.reasoning-history-path button:hover{background:#eaf1f3}.reasoning-history-path button:focus-visible{outline:3px solid #b7852f;outline-offset:3px}
+.reasoning-history-case{border:1px solid #cbdce3;border-radius:11px;background:#fff;margin:12px 0;overflow:hidden;scroll-margin-block:24px}
+.reasoning-history-case>summary{display:flex;align-items:center;gap:20px;list-style:none;padding:24px 27px;cursor:pointer;color:var(--r-ink)}
+.reasoning-history-case>summary::-webkit-details-marker,.reasoning-history-archive>summary::-webkit-details-marker{display:none}
+.reasoning-history-case>summary:after,.reasoning-history-archive>summary:after{content:'';display:block;flex:0 0 7px;height:7px;width:7px;border-right:1.5px solid #527888;border-bottom:1.5px solid #527888;transform:rotate(45deg);margin-left:4px}
+.reasoning-history-case[open]>summary:after,.reasoning-history-archive[open]>summary:after{transform:rotate(225deg)}
+.reasoning-history-case>summary:hover{background:#f6f9fa}
+.reasoning-history-case>summary:focus-visible,.reasoning-history-archive>summary:focus-visible{outline:3px solid #b7852f;outline-offset:-4px}
+.history-lesson-number{font-size:.8rem;color:#426e80;font-weight:600;flex-shrink:0}
+.reasoning-history-case>summary>div{flex:1;min-width:0}.reasoning-history-case h3{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.08rem,1.6vw,1.32rem);font-weight:600;line-height:1.4;letter-spacing:-.02em;margin:0}
+.reasoning-history-case>summary p{font-size:.83rem;line-height:1.65;color:#536d7b;margin:6px 0 0}
+.history-drug{font-size:.79rem;line-height:1.5;white-space:nowrap;color:#315e70;border-left:1px solid var(--r-line);padding-left:23px;min-width:117px}
+.reasoning-history-case[open]>summary{border-bottom:1px solid #dce7eb;background:#f4f8f9}
+.reasoning-history-body{padding:24px 29px 23px}
+.history-provenance{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 20px;margin-bottom:23px;line-height:1.7}
+.history-provenance strong{font-size:.76rem;font-weight:650;color:#355f71}.history-provenance span{font-size:.74rem;color:#586f7c;max-width:780px}
+.reasoning-history-body>header h4{font-size:1.15rem;line-height:1.5;margin:0 0 9px;color:var(--r-ink)}
+.reasoning-history-body>header>p{font-size:.91rem;line-height:1.8;color:#4c6978;margin:0;max-width:920px}
+.reasoning-history-visual{margin:26px 0}
+.reasoning-history-visual>ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;padding:0;margin:0;list-style:none}
+.reasoning-history-visual li{position:relative;min-width:0;padding:21px 23px;background:#f0f6f7;border:1px solid #d3e2e8;border-radius:8px}
+.reasoning-history-visual li:not(:last-child):after{content:'→';position:absolute;right:-26px;width:25px;top:50%;transform:translateY(-50%);text-align:center;font-size:1rem;color:#588091}
+.reasoning-history-visual li>span{font-size:.73rem;line-height:1.6;color:#4e6d7c;display:block;margin-bottom:10px}
+.reasoning-history-visual li>strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:1.12rem;line-height:1.4;font-weight:600;letter-spacing:-.02em;color:#244f62}
+.reasoning-history-visual li>p{font-size:.84rem;line-height:1.75;color:#4d6877;margin:10px 0 0}
+.reasoning-history-visual .history-evidence-open{border:1px dashed #b9914c;background:#fffbf1}.reasoning-history-visual .history-evidence-open>span{color:#80602c}
+.reasoning-history-visual.history-paired>ol{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.history-paired li:not(:last-child):after{display:none}
+.history-paired li>strong{font-size:1.2rem}.reasoning-history-visual figcaption{font-size:.8rem;line-height:1.75;color:#526c79;margin:14px 0 0;max-width:950px}
+.history-timeline>ol{gap:0}.history-timeline li{background:transparent;border:0;border-top:2px solid #b9d0d9;border-radius:0;padding:24px 25px 0 0}
+.history-timeline li:before{content:'';position:absolute;left:0;top:-6px;width:10px;height:10px;border:2px solid #fff;border-radius:50%;background:#568394;box-sizing:border-box}
+.history-timeline li:last-child{padding-right:0}.history-timeline li:not(:last-child):after{display:none}
+.history-decision{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start;border-top:1px solid var(--r-line);padding-top:23px}
+.history-decision h4{font-size:.79rem;line-height:1.5;color:#315f71;margin:0 0 8px;font-weight:650}
+.history-decision p{font-size:.9rem;line-height:1.85;color:#4b6877;margin:0}
+.history-decision aside{border-left:3px solid #a8c6d3;padding-left:20px}.history-decision aside p{color:#2c5668;font-weight:500}
+.reasoning-history-body>footer{margin-top:21px;border-top:1px solid #e2e9ed;padding-top:16px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px}
+.reasoning-history-body>footer p{flex:1 1 580px;font-size:.75rem;line-height:1.75;color:#5b707c;margin:0}
+.reasoning-history-body>footer a{font-size:.75rem;line-height:1.7;color:#326c80;max-width:100%;overflow-wrap:anywhere;text-underline-offset:3px}
+.reasoning-history-takeaway{margin:30px 0;padding:4px 0 4px 23px;border-left:3px solid #b9914c;max-width:970px}
+.reasoning-history-takeaway h3{font-family:'Space Grotesk',sans-serif;font-size:1.27rem;line-height:1.45;letter-spacing:-.025em;color:var(--r-ink);margin:0 0 9px}
+.reasoning-history-takeaway p{font-size:.95rem;line-height:1.8;color:#3e6274;margin:0 0 9px}.reasoning-history-takeaway small{font-size:.76rem;line-height:1.75;color:#596f7b;display:block}
+.reasoning-history-archive{border-top:1px solid var(--r-line);margin-top:32px}
+.reasoning-history-archive>summary{display:flex;align-items:baseline;gap:18px;cursor:pointer;list-style:none;padding:21px 7px;color:#315f71}
+.reasoning-history-archive>summary strong{font-size:.93rem;line-height:1.5;font-weight:550}.reasoning-history-archive>summary>span{font-size:.75rem;color:#5c717e}.reasoning-history-archive>summary:after{margin-left:auto}
+.history-archive-body{padding:3px 8px 20px}.history-archive-body>p{font-size:.84rem;line-height:1.8;color:#56717f;max-width:900px;margin:0 0 19px}
+@media(max-width:900px){.reasoning-history-path{gap:20px}.reasoning-history-path button{gap:4px 9px}.reasoning-history-path strong{font-size:.82rem}.reasoning-history-case>summary{gap:15px;padding:21px}.reasoning-history-body{padding:22px}.history-drug{padding-left:15px;min-width:auto}.reasoning-history-visual li{padding:19px}.history-timeline li{padding:22px 18px 0 0}.history-decision{gap:23px}}
+@media(max-width:650px){.reasoning-history-path{grid-template-columns:1fr;gap:5px;padding-bottom:17px;margin-bottom:20px}.reasoning-history-path button{padding:8px;grid-template-columns:30px 1fr auto;column-gap:12px}.reasoning-history-path button>span{grid-row:1}.reasoning-history-path small{grid-column:3}.reasoning-history-path strong{font-size:.85rem}.reasoning-history-path button:not(:last-child):after{display:none}.reasoning-history-case>summary{display:grid;grid-template-columns:22px 1fr 10px;gap:8px 11px;padding:18px}.reasoning-history-case>summary>div{grid-column:2;grid-row:1}.history-lesson-number{grid-column:1;grid-row:1;align-self:start;margin-top:3px}.reasoning-history-case>summary:after{grid-column:3;grid-row:1}.history-drug{grid-column:2;grid-row:2;border:0;padding:0;font-size:.75rem}.reasoning-history-body{padding:20px 18px}.history-provenance{gap:4px;margin-bottom:18px}.history-provenance span{flex-basis:100%}.reasoning-history-visual>ol,.reasoning-history-visual.history-paired>ol{grid-template-columns:1fr;gap:19px}.reasoning-history-visual li:not(:last-child):after{content:'↓';right:50%;top:auto;bottom:-22px;transform:translateX(50%)}.history-timeline>ol{gap:0}.history-timeline li{border-top:0;border-left:2px solid #b9d0d9;padding:0 0 24px 21px}.history-timeline li:last-child{padding-bottom:0}.history-timeline li:before{left:-6px;top:6px}.history-timeline li:not(:last-child):after{display:none}.history-decision{grid-template-columns:1fr;gap:20px}.history-decision aside{padding-left:16px}.reasoning-history-archive>summary{flex-wrap:wrap;gap:5px 15px;position:relative;padding-right:28px}.reasoning-history-archive>summary>span{flex-basis:100%}.reasoning-history-archive>summary:after{position:absolute;right:7px;top:28px}.history-archive-body{padding-left:0;padding-right:0}}
+
 /* Compare the biological evidence in the discovery paper and initial IND review. */
 .reasoning-ind-stage{display:block;font-size:.73rem;letter-spacing:.035em;color:#527887;margin-bottom:10px}
 .reasoning-ind-start{display:grid;grid-template-columns:230px minmax(0,1fr);gap:36px;align-items:center;border:1px solid var(--r-line);background:#fff;border-radius:12px;padding:25px 32px;margin-bottom:34px}
@@ -2192,8 +2326,8 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-case-part-body{padding:25px;min-width:0}
 .reasoning-case-part-heading>span{font-size:.78rem;font-weight:650;color:#6b8f9b;min-width:22px}
 .reasoning-case-part-heading h3{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.04rem,1.5vw,1.22rem);line-height:1.4;letter-spacing:-.025em;color:var(--r-ink);margin:0}
-.reasoning-assessment-items h4{font-size:.96rem;line-height:1.5;color:var(--r-teal);margin:0 0 10px}
-.reasoning-assessment-items p{font-size:.9rem;line-height:1.8;color:#486775;margin:0}
+
+
 .reasoning-discovery-evidence>.reasoning-case-part-body>footer{margin-top:22px;display:flex;align-items:baseline;gap:24px;justify-content:space-between}
 .reasoning-discovery-evidence>.reasoning-case-part-body>footer p{font-size:.79rem;line-height:1.75;color:#637c88;max-width:790px;margin:0}
 .reasoning-publication-caveat{border-left:3px solid #c39a54;padding-left:15px;min-width:0}
@@ -2220,9 +2354,9 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-source-comparison .comparison-rationale p{margin:0;color:#3c6273}
 .reasoning-rationale-note{padding-left:14px;border-left:2px solid #aac9d6}
 .reasoning-source-note{font-size:.78rem;line-height:1.8;color:#657f8b;max-width:1040px;margin:16px 0 0}
-.reasoning-assessment-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:27px;padding:26px 28px;background:#edf3f5;border:1px solid #d7e4e9;border-radius:10px}
-.reasoning-assessment-items>div+div{border-left:1px solid #cbdee6;padding-left:27px}
-.reasoning-fda-assessment>.reasoning-case-part-body>footer{margin-top:13px;text-align:right}
+
+
+
 .reasoning-case-takeaway{font-size:1.03rem;line-height:1.8;font-weight:550;color:#284f5f;border-left:3px solid #bf9148;padding:4px 0 4px 23px;max-width:1050px;margin:30px 0 0}
 .reasoning-past-topic{border-top:1px solid var(--r-line)}.reasoning-past-topic:last-child{border-bottom:1px solid var(--r-line)}
 .reasoning-past-topic>summary{display:flex;align-items:baseline;gap:21px;padding:22px 8px;list-style:none;cursor:pointer}
@@ -2235,8 +2369,8 @@ body.is-reasoning-lesson{background:#f5f7f8;color:#203f4d}
 .reasoning-past-content{padding:0 0 27px 51px}
 .reasoning-past-principle{font-size:.97rem;line-height:1.8;color:#486b7b;max-width:900px;margin:0 0 23px}
 .reasoning-past-topic>summary:focus-visible{outline:3px solid #b7852f;outline-offset:-3px}
-@media(max-width:1100px){.reasoning-reading-tabs button{flex-basis:230px}.reasoning-ind-start{grid-template-columns:180px 1fr;gap:26px}.reasoning-past-content{padding-left:25px}.reasoning-source-comparison th,.reasoning-source-comparison td{padding:20px 18px}.reasoning-assessment-items{gap:20px;padding:24px}.reasoning-assessment-items>div+div{padding-left:20px}}
-@media(max-width:760px){.reasoning-ind-start{padding:22px;gap:22px;grid-template-columns:145px 1fr}.reasoning-ind-start figure{padding-right:18px}.reasoning-ind-start img{height:90px}.reasoning-past-content{padding-left:0}.reasoning-assessment-items{grid-template-columns:1fr;gap:19px}.reasoning-assessment-items>div+div{border-left:0;padding:19px 0 0;border-top:1px solid var(--r-line)}.reasoning-discovery-evidence>.reasoning-case-part-body>footer{display:block}.reasoning-discovery-sources{text-align:left;margin-top:13px}.reasoning-case-part-heading{gap:9px;padding:18px}.reasoning-case-part-body{padding:20px 18px}.reasoning-case-takeaway{font-size:.95rem}}
+@media(max-width:1100px){.reasoning-reading-tabs button{flex-basis:230px}.reasoning-ind-start{grid-template-columns:180px 1fr;gap:26px}.reasoning-past-content{padding-left:25px}.reasoning-source-comparison th,.reasoning-source-comparison td{padding:20px 18px}}
+@media(max-width:760px){.reasoning-ind-start{padding:22px;gap:22px;grid-template-columns:145px 1fr}.reasoning-ind-start figure{padding-right:18px}.reasoning-ind-start img{height:90px}.reasoning-past-content{padding-left:0}.reasoning-discovery-evidence>.reasoning-case-part-body>footer{display:block}.reasoning-discovery-sources{text-align:left;margin-top:13px}.reasoning-case-part-heading{gap:9px;padding:18px}.reasoning-case-part-body{padding:20px 18px}.reasoning-case-takeaway{font-size:.95rem}}
 @media(max-width:500px){.reasoning-ind-start{grid-template-columns:1fr}.reasoning-ind-start figure{border-right:0;border-bottom:1px solid var(--r-line);padding:0 0 18px;display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;text-align:left}.reasoning-ind-start img{margin:0}.reasoning-ind-start h3{font-size:1.35rem}.reasoning-past-topic>summary{gap:12px}.reasoning-past-topic>summary strong{font-size:1rem}}
 .reasoning-ind-timing{font-size:.79rem;line-height:1.8;color:#68818e;max-width:1040px;margin:-17px 0 30px}
 
@@ -3015,31 +3149,39 @@ const CATALOG = {
       "concept": "Target identification does not mean starting from knowing nothing. A program can begin with an unfamiliar disease mechanism, a genetic association, or an established target that existing drugs do not address well enough. The task is to identify or select a biological target and explain why changing its activity could help in a defined disease context.",
       "takeaway": "Name the target. Specify the intervention. Test whether that intervention changes disease biology for the right reason.",
       "targetGuide": {
-        "validation": "Target validation tests that therapeutic hypothesis in a relevant system. Expression or a computational ranking can suggest a target; independent perturbations, controls, and rescue experiments help establish causality. In phenotypic discovery, the activity finding may come before target identification.",
-        "perturbationNote": "Genetic depletion, partial inhibition, and allosteric modulation are different perturbations. Evidence for one does not automatically validate the others; keep conclusions specific to the model and intervention tested.",
-        "caseTitle": "Three decisions to define",
-        "caseIntro": "A target is the biological entity you want to modulate. A binding site is a location through which a drug can act on that target.",
-        "layers": [
+        "headline": "What should we change—and why might it help?",
+        "intro": "Programs can begin with genetics, disease biology, or a known target. Turn that starting knowledge into a testable therapeutic hypothesis.",
+        "steps": [
           {
-            "label": "Biological target",
-            "question": "What should change?",
-            "example": "Specify the protein, RNA, or other biological entity—and the relevant disease context."
+            "label": "Target identification",
+            "question": "Which target is worth pursuing?",
+            "text": "Identify or select a protein, RNA, or other biological entity whose modulation could matter in the disease context."
           },
           {
-            "label": "Therapeutic hypothesis",
-            "question": "What intervention could help?",
-            "example": "Define the desired change in activity and the expected disease benefit."
+            "label": "Intervention hypothesis",
+            "question": "What change could provide benefit?",
+            "text": "Specify the desired intervention, such as inhibition or activation, and the effect you expect in the relevant disease setting."
           },
           {
-            "label": "Binding site and mechanism",
-            "question": "Where and how can a drug act?",
-            "example": "Identify a feasible way to modulate the target, with the selectivity and exposure the hypothesis requires."
+            "label": "Target validation",
+            "question": "Does the evidence support it?",
+            "text": "Test whether perturbing the target changes disease biology. Use complementary approaches and controls to challenge alternative explanations and examine effects on normal function."
           }
         ],
-        "questions": [
-          "Does the intended perturbation change a disease-relevant phenotype?",
-          "Do independent tests support target attribution rather than an alternative explanation?",
-          "Can the intervention produce a useful effect while preserving essential normal functions?"
+        "sequenceNote": "Revisit these questions as evidence grows. They are a reasoning path, not a fixed experimental sequence.",
+        "distinctions": [
+          {
+            "title": "The target and the binding site",
+            "text": "The target is the biological entity; a binding site is a location through which a molecule can act. A known pocket is not required to begin validation."
+          },
+          {
+            "title": "Genetic evidence and drug evidence",
+            "text": "Removing a protein can differ from partially inhibiting it. Keep conclusions specific to the intervention and model tested."
+          },
+          {
+            "title": "Different starting points",
+            "text": "Target identification can mean selecting an established target. In phenotypic discovery, useful activity may be observed before the target is known."
+          }
         ]
       },
       "exampleTitle": "PI3K inhibition: from a biological clue to a therapeutic strategy",
@@ -12228,7 +12370,7 @@ const REASONING_GUIDES = {
             "steps": [
               {
                 "label": "Start broadly, with a hypothesis",
-                "text": "The original Phase 1 study investigated a c-Met/HGFR inhibitor in advanced cancers, excluding leukemia. It included pathway-related pharmacodynamic measurements and preliminary antitumor activity."
+                "text": "The original Phase 1 study enrolled advanced cancers, excluding leukemia. FDA’s later account lists c-Met/HGFR pharmacodynamic measurements and preliminary antitumor activity among the amended study’s objectives."
               },
               {
                 "label": "Notice a clinical signal",
@@ -12243,7 +12385,7 @@ const REASONING_GUIDES = {
             "limit": "This is an NDA reconstruction, not the full original IND. Stable disease in two people did not establish predictive validity or clinical benefit.",
             "sources": [
               {
-                "label": "Original study objectives · PDF 35",
+                "label": "Study objectives in the later account · PDF 35",
                 "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=35"
               },
               {
@@ -12269,15 +12411,15 @@ const REASONING_GUIDES = {
               },
               {
                 "label": "Separate escalation from expansion",
-                "text": "The initial dose-escalation study enrolled advanced solid tumors. Expansion enrollment was limited to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
+                "text": "The 2014 account describes dose escalation in advanced solid tumors and expansion restricted to ALK-positive non-small cell lung cancer, identified by fluorescence in situ hybridization."
               }
             ],
             "lesson": "Broad enrollment can be planned learning. Say what marker-negative patients will help establish rather than treating their inclusion as incidental.",
-            "limit": "The advice is recounted in later correspondence. It neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
+            "limit": "The account does not establish when expansion criteria were introduced. The advice neither demonstrates benefit in marker-negative patients nor establishes a general requirement to enroll them.",
             "sources": [
               {
-                "label": "Pre-IND advice and initial study · PDF 49–50",
-                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=49"
+                "label": "Pre-IND advice and 2014 study description · PDF 49–50",
+                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=50"
               }
             ]
           }
@@ -12462,6 +12604,78 @@ const REASONING_GUIDES = {
         ]
       }
     ],
+    "bridge": {
+      "id": "bridge-evidence",
+      "label": "Bridge the evidence",
+      "title": "From choosing a molecule to explaining why it could help.",
+      "intro": "Studies of a drug’s intended biological effects often begin during discovery. Carry useful evidence forward, check what applies to the nominated candidate, and add work where the biological rationale still depends on an assumption.",
+      "stages": [
+        {
+          "label": "Carry forward",
+          "question": "What is already supported?",
+          "text": "Disease biology, tool-compound findings, and experiments with the candidate."
+        },
+        {
+          "label": "Bridge the gaps",
+          "question": "What still needs to connect?",
+          "text": "The molecule tested, the meaning of its effects, and the human disease context."
+        },
+        {
+          "label": "Make the case",
+          "question": "What can we reasonably expect?",
+          "text": "A plausible benefit, a population hypothesis, and clearly stated uncertainties."
+        }
+      ],
+      "gapTitle": "Three connections to check",
+      "gapIntro": "Use the evidence already available. The work below is chosen for the question that remains; it is not a fixed battery of new studies after nomination.",
+      "gaps": [
+        {
+          "id": "candidate",
+          "label": "Tool → candidate",
+          "have": "A tool compound or genetic perturbation supports the disease biology.",
+          "question": "Does this candidate produce the intended biological effect?",
+          "work": "Where evidence is missing, test the candidate’s functional activity, target engagement when measurable, and relevant selectivity. Tool-compound results cannot automatically establish those properties for a different molecule."
+        },
+        {
+          "id": "action",
+          "label": "Assay signal → biological action",
+          "have": "The candidate is active in a biochemical or cell assay.",
+          "question": "What caused the response, and why could it be useful?",
+          "work": "Use complementary readouts and appropriate controls to distinguish the intended effect from assay interference or nonspecific effects. If the mechanism remains incomplete, characterize the reproducible activity and state what is unknown."
+        },
+        {
+          "id": "relevance",
+          "label": "Model response → human disease",
+          "have": "The candidate changes a disease-related phenotype in selected models.",
+          "question": "Which disease context supports the hypothesis of benefit?",
+          "work": "Examine what responsive systems have in common, include informative nonresponsive systems, and assess relevant human biology where feasible. Activity in several cell lines alone does not identify the patients likely to benefit."
+        }
+      ],
+      "judgment": {
+        "title": "Choose new work by the uncertainty it resolves.",
+        "text": "If candidate studies already answer the question, carry them into the rationale. If the evidence is indirect or contradictory, decide what additional result could change the program’s interpretation or next step.",
+        "scope": "These are principles for sponsor scientific judgment. The FDA requirements are in the preceding tab; not every unresolved efficacy question must be settled before a first Phase 1 study."
+      },
+      "output": {
+        "title": "The biological rationale",
+        "text": "A traceable argument: what the candidate does, why that could help in a defined disease context, and which assumptions remain to be tested.",
+        "boundary": "That biological rationale joins the exposure, safety, drug-material, and clinical-plan evidence supporting the proposed study. It does not establish clinical benefit."
+      },
+      "sources": [
+        {
+          "label": "ICH M3(R2) · Primary pharmacology begins in discovery, §II",
+          "url": "https://www.fda.gov/media/71542/download#page=11"
+        },
+        {
+          "label": "FDA Phase 1 IND guidance · Known pharmacology and remaining uncertainty, §III.G.1",
+          "url": "https://www.fda.gov/media/71203/download#page=12"
+        },
+        {
+          "label": "21 CFR 312.23 · Rationale, pharmacology, and proposed participants",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
+    },
     "workedCase": {
       "id": "ivacaftor-ind",
       "label": "Ivacaftor: follow the evidence",
@@ -12583,7 +12797,7 @@ const REASONING_GUIDES = {
         "note": "Read the numbers within their assay. Cellular EC₅₀, receptor-binding IC₅₀ and a response at one fixed concentration answer different questions. The 3 nM engineered-cell result, 22 nM F508del-HBE result and 236 nM G551D/F508del-HBE result also come from different biological systems. Forskolin stimulates cAMP signaling to activate CFTR; potentiation is measured on top of that stimulation."
       },
       "comparison": {
-        "title": "What the initial IND review adds",
+        "title": "What the initial IND adds",
         "intro": "Compare the same biological questions in the discovery paper and the FDA review. The review summarizes three submitted pharmacology reports: B227, B228 and B229.",
         "rows": [
           {
@@ -12656,27 +12870,6 @@ const REASONING_GUIDES = {
         "note": "Forskolin stimulates the cAMP pathway; a corrector helps CFTR reach the cell surface. B229’s F508del tissue findings and the discovery paper’s G551D tissue findings concern different CFTR genotypes.",
         "rationaleNote": "The last column explains the scientific value of the evidence. The reviewed passages do not establish that FDA requested these experiments or that they were newly performed after candidate nomination."
       },
-      "assessment": {
-        "title": "How FDA assessed the evidence",
-        "items": [
-          {
-            "label": "The reviewer’s interpretation",
-            "text": "The reviewer summarized increased chloride transport in engineered cells and human bronchial cells, and interpreted the mechanism experiments as direct potentiation of channel gating rather than an effect through increased cAMP signaling."
-          },
-          {
-            "label": "Requests or changes in these passages",
-            "text": "We did not identify a request to add or repeat primary pharmacology studies in the reviewed B227–B229 passages. That does not establish what happened in every FDA interaction or mean the whole IND was accepted without changes."
-          },
-          {
-            "label": "What remained unproven",
-            "text": "These experiments did not demonstrate improved lung function or establish which CF populations would benefit from treatment. Results obtained with stimulation or a corrector cannot be treated as proof that ivacaftor alone would work across CF genotypes."
-          }
-        ],
-        "source": {
-          "label": "FDA initial-IND pharmacology assessment · PDF 85–86",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203188Orig1s000PharmR.pdf#page=85"
-        }
-      },
       "takeaway": "The biological case rests on the candidate’s activity, an explanation for that activity, and evidence from relevant human tissue. Whether that produces meaningful benefit in patients remains a clinical question.",
       "sources": [
         {
@@ -12703,7 +12896,166 @@ const REASONING_GUIDES = {
     },
     "lessons": {
       "id": "lessons-from-the-past",
-      "label": "Lessons from the past"
+      "label": "Lessons from the past",
+      "title": "Give the clinical study a biological question to answer.",
+      "intro": "Before a study, define what your measurements can establish and why the proposed patients are informative. Then use clinical findings to refine the hypothesis. These three FDA records show that sequence.",
+      "sequence": [
+        {
+          "id": "interpret-effect",
+          "label": "Interpret the drug effect",
+          "drug": "Cinacalcet",
+          "title": "A measurable drug effect is not yet a demonstrated benefit.",
+          "preview": "PTH fell. Had bone disease improved?",
+          "stage": "Original US IND review · 1998",
+          "provenance": "Reproduced in the 2004 approval package. Earlier human studies already existed; this US IND proposed a Phase 2 study.",
+          "question": "What did lowering parathyroid hormone actually establish?",
+          "setup": "Cinacalcet increases the calcium sensitivity of parathyroid cells. In secondary hyperparathyroidism, the rationale was that lowering excess parathyroid hormone (PTH) could improve bone disease.",
+          "visual": {
+            "kind": "evidence",
+            "label": "Separate drug action, measured response, and expected benefit",
+            "nodes": [
+              {
+                "label": "Drug action",
+                "title": "Increase calcium sensitivity",
+                "text": "Change the signal controlling PTH secretion.",
+                "status": "known"
+              },
+              {
+                "label": "Observed response",
+                "title": "PTH decreases",
+                "text": "Reported in rats and earlier healthy-volunteer studies.",
+                "status": "known"
+              },
+              {
+                "label": "Benefit to establish",
+                "title": "Improve bone disease",
+                "text": "An expectation in these review pages, not an established outcome.",
+                "status": "open"
+              }
+            ]
+          },
+          "decision": {
+            "label": "The proposed next study",
+            "text": "Study patients with secondary hyperparathyroidism and measure PTH, calcium, calcitonin, and PK. Calcium mattered for safety as well as pharmacology."
+          },
+          "lesson": {
+            "label": "Use this distinction",
+            "text": "A pharmacodynamic readout can show a drug effect. Separate that observation from the evidence needed to show that patients benefit."
+          },
+          "limit": "These passages do not establish improved bone disease or fracture prevention. An original US IND is not necessarily a first-ever human study.",
+          "sources": [
+            {
+              "label": "FDA · original IND rationale and study plan, PDF 8–9",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2004/21-688.pdf_Sensipar_Pharmr_P5.pdf#page=8"
+            }
+          ]
+        },
+        {
+          "id": "plan-patients",
+          "label": "Justify who to study",
+          "drug": "Ensartinib",
+          "title": "Broad enrollment can still have a specific biological hypothesis.",
+          "preview": "Who should enter—and what would their results tell us?",
+          "stage": "Pre-IND advice · 2011",
+          "provenance": "The 2025 approval package reproduces later IND correspondence recounting the 2011 pre-IND advice and early clinical development.",
+          "question": "How can a broad dose-escalation study test a targeted-drug hypothesis?",
+          "setup": "The pre-IND discussion considered possible activity in tumors with ALK or cMET alterations. FDA addressed patient enrollment and pharmacodynamic measurements as separate planning questions.",
+          "visual": {
+            "kind": "paired",
+            "label": "Two complementary questions in the pre-IND advice",
+            "nodes": [
+              {
+                "label": "Patient selection",
+                "title": "Who enters?",
+                "text": "Specify how many patients negative for both ALK and cMET would be enrolled.",
+                "status": "known"
+              },
+              {
+                "label": "PK and pharmacodynamics",
+                "title": "What can we measure?",
+                "text": "Plan PK sampling and identify potential PD endpoints.",
+                "status": "known"
+              }
+            ],
+            "note": "Patient characteristics frame who might benefit. PK and PD measurements help interpret exposure and biological effects after dosing. These are different jobs."
+          },
+          "decision": {
+            "label": "How the study later developed",
+            "text": "The 2014 account describes advanced-solid-tumor dose escalation followed by expansion in ALK-positive non-small cell lung cancer, selected by FISH testing."
+          },
+          "lesson": {
+            "label": "Use this distinction",
+            "text": "A patient hypothesis need not mean restricting every cohort to one marker. Explain what each enrolled group and each measurement will help you learn."
+          },
+          "limit": "The record does not give the requested marker-negative enrollment number. The 2014 expansion design should not be assumed to have been present in the original March 2012 protocol.",
+          "sources": [
+            {
+              "label": "FDA · pre-IND advice and early study design, PDF 49–50",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/218171Orig1s000AdminCorres.pdf#page=50"
+            }
+          ]
+        },
+        {
+          "id": "learn-from-patients",
+          "label": "Refine the hypothesis",
+          "drug": "Crizotinib",
+          "title": "Early findings can change which patients you study next.",
+          "preview": "An ALK-positive signal led to a narrower clinical question.",
+          "stage": "Early Phase 1 and IND amendments · 2005–2009",
+          "provenance": "Development history reconstructed in the 2011 NDA clinical review; this is not the complete original IND submission.",
+          "question": "What should happen when patients reveal a more specific opportunity?",
+          "setup": "Crizotinib entered broad cancer dose escalation as a c-Met/HGFR inhibitor. FDA’s later account links observations in two ALK-positive lung-cancer patients to an ALK-positive extension of the study.",
+          "visual": {
+            "kind": "timeline",
+            "label": "From broad dose escalation to an ALK-positive extension",
+            "nodes": [
+              {
+                "label": "Original study",
+                "title": "Broad cancer enrollment",
+                "text": "Dose escalation in advanced cancers, excluding leukemia.",
+                "status": "known"
+              },
+              {
+                "label": "Early observation",
+                "title": "Two ALK-positive patients",
+                "text": "In the 50 mg cohort, stable disease was reported at 1.5 and 7 months.",
+                "status": "known"
+              },
+              {
+                "label": "October 2007 amendment",
+                "title": "Test ALK-positive NSCLC",
+                "text": "The protocol allowed enrollment of EML4–ALK-positive non-small cell lung cancer.",
+                "status": "known"
+              }
+            ]
+          },
+          "decision": {
+            "label": "What changed",
+            "text": "An ALK-positive extension tested the emerging population hypothesis. A later 2009 amendment also added an ALK-negative cohort."
+          },
+          "lesson": {
+            "label": "Use this distinction",
+            "text": "An early signal can justify a more focused test before it establishes that a marker predicts benefit. Build a plan that can change when the evidence changes."
+          },
+          "limit": "These were stable-disease observations, not objective responses or proof of benefit. The retrospective account does not establish every measurement in the original protocol.",
+          "sources": [
+            {
+              "label": "FDA · early observations and protocol amendments, PDF 37–38",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202570Orig1s000MedR.pdf#page=37"
+            }
+          ]
+        }
+      ],
+      "takeaway": {
+        "title": "Bring a hypothesis—and a way to learn.",
+        "text": "Know what your measurements can establish. Explain why the proposed patients are informative. Decide what findings would strengthen, narrow, or change the hypothesis.",
+        "note": "These cases illustrate scientific decisions, not a universal biomarker requirement or a complete checklist for an IND."
+      },
+      "archive": {
+        "label": "Explore the full case collection",
+        "description": "26 cases · organized by scientific question",
+        "intro": "For deeper reading: additional drugs, contrasting findings, and later development decisions. Each case identifies its source stage; later approval findings should not be read as initial-IND requirements."
+      }
     }
   },
   "nonclinical-pkpd": {
@@ -12917,6 +13269,54 @@ const REASONING_GUIDES = {
       "id": "nonclinical-safety",
       "label": "Identify and interpret potential harm",
       "text": "Use the exposure–effect argument to interpret the conditions, severity and possible human relevance of observed harm."
+    },
+    "minimal": {
+      "eyebrow": "Dose → exposure → effect",
+      "headline": "Exposure connects a dose to its effects.",
+      "intro": "The amount given does not tell us how much drug reaches the body, how long it remains, or what it does. Connect those observations before using them to inform a human study.",
+      "stages": [
+        {
+          "label": "Dose & schedule",
+          "question": "What did we give?",
+          "text": "Keep the amount, route, formulation, and timing together. They define the treatment being tested."
+        },
+        {
+          "label": "Exposure · PK",
+          "question": "How much drug, where, and for how long?",
+          "text": "Absorption, distribution, metabolism, and excretion shape exposure over time. Measure relevant concentrations; blood levels may not represent levels at the site of action."
+        },
+        {
+          "label": "Effect · PD",
+          "question": "What changes as exposure changes?",
+          "text": "Relate concentrations and timing to biological responses. An effect may begin later, last longer, or stop increasing as exposure rises."
+        },
+        {
+          "label": "Human implications",
+          "question": "What can this relationship inform?",
+          "text": "Use the evidence to inform dose, schedule, and measurements in humans. Combine it with safety findings; animal activity alone does not determine a human starting dose."
+        }
+      ],
+      "distinction": {
+        "beforeLabel": "Carry forward from lead optimization",
+        "before": "ADME and PK/PD helped compare molecules and choose a candidate. Keep the useful measurements and what they already establish.",
+        "nowLabel": "Focus for the proposed study",
+        "now": "Examine how candidate exposure relates to effects, what may differ in humans, and which uncertainties matter for the proposed dosing plan."
+      },
+      "takeaway": "Connect the dose given, the exposure achieved, and the response observed. Then explain what can—and cannot—be carried into humans.",
+      "sources": [
+        {
+          "label": "FDA · Clinical pharmacology: PK, PD, and ADME",
+          "url": "https://www.fda.gov/media/167545/download#page=4"
+        },
+        {
+          "label": "ICH M3(R2) · Pharmacology, PK, and first human dose",
+          "url": "https://www.fda.gov/media/71542/download#page=11"
+        },
+        {
+          "label": "21 CFR 312.23 · Drug disposition and the dosing plan",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
     }
   },
   "nonclinical-safety": {
@@ -13135,6 +13535,54 @@ const REASONING_GUIDES = {
       "id": "nonclinical-package",
       "label": "Build a credible safety package",
       "text": "Ask whether the studies, applicability arguments and records can support this risk account for the proposed investigation."
+    },
+    "minimal": {
+      "eyebrow": "Finding → context → consequence",
+      "headline": "A safety finding needs an explanation and a response.",
+      "intro": "The question is not simply whether a test was positive or negative. Understand what happened, under which conditions, and how it should change the proposed human study.",
+      "stages": [
+        {
+          "label": "Identify the finding",
+          "question": "What changed?",
+          "text": "Describe the affected organ or function, severity, and timing. Distinguish a measured change from evidence that it is harmful."
+        },
+        {
+          "label": "Add exposure & time",
+          "question": "Under which conditions?",
+          "text": "Relate the finding to exposure and treatment duration. Examine whether it worsens with repeat dosing or resolves after stopping."
+        },
+        {
+          "label": "Assess human relevance",
+          "question": "Could this matter in people?",
+          "text": "Consider the mechanism, species differences, and expected human exposure. A possible explanation needs supporting evidence."
+        },
+        {
+          "label": "Act on the finding",
+          "question": "What should change?",
+          "text": "Use the interpretation to guide further studies, dosing limits, participant exclusions, or monitoring. Some findings may prevent the proposed study from proceeding."
+        }
+      ],
+      "distinction": {
+        "beforeLabel": "Carry forward from lead optimization",
+        "before": "Early safety screens and tolerability studies helped identify liabilities and compare candidates. Their findings remain part of the evidence.",
+        "nowLabel": "Focus for the proposed study",
+        "now": "Characterize the candidate’s potential harms deeply enough to assess the planned human exposure and define appropriate precautions."
+      },
+      "takeaway": "A negative test is limited reassurance. A concerning result needs context, evidence, and a decision.",
+      "sources": [
+        {
+          "label": "ICH M3(R2) · Toxic effects, exposure, and reversibility",
+          "url": "https://www.fda.gov/media/71542/download#page=8"
+        },
+        {
+          "label": "ICH S7A · Safety pharmacology and human relevance",
+          "url": "https://www.fda.gov/media/72033/download#page=5"
+        },
+        {
+          "label": "21 CFR 312.23 · Risks, precautions, and monitoring",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23"
+        }
+      ]
     }
   },
   "nonclinical-package": {
@@ -13349,6 +13797,54 @@ const REASONING_GUIDES = {
       "id": "clinical",
       "label": "The first clinical study",
       "text": "Translate the supported scope, unresolved risks and conditions into a concrete clinical investigation; revisit the package when that proposal changes."
+    },
+    "minimal": {
+      "eyebrow": "Study → evidence → readiness",
+      "headline": "Build the safety case for a specific human study.",
+      "intro": "The package brings the findings together. Its scope depends on who will receive the drug, how it will be given, and for how long—not on a universal checklist.",
+      "stages": [
+        {
+          "label": "Define the study",
+          "question": "What are we asking to begin?",
+          "text": "Specify the population, route, schedule, and duration. These choices set the context for judging the evidence."
+        },
+        {
+          "label": "Choose the evidence",
+          "question": "Which questions need answers now?",
+          "text": "Match the studies to the drug and proposed investigation. Use relevant existing evidence; identify gaps that require additional work."
+        },
+        {
+          "label": "Check credibility",
+          "question": "Can the studies support the conclusion?",
+          "text": "Check exposure, methods, traceable results, and applicable Good Laboratory Practice requirements. Explain relevant differences between tested material and material planned for clinical use."
+        },
+        {
+          "label": "Judge readiness",
+          "question": "Does the whole package support this study?",
+          "text": "Integrate the findings, limitations, and precautions. Close consequential gaps or change the plan; identify additional work needed before expanding human exposure."
+        }
+      ],
+      "distinction": {
+        "beforeLabel": "Carry forward from lead optimization",
+        "before": "Discovery evidence helped justify investing in this candidate. Relevant results remain useful; nomination does not make every experiment obsolete.",
+        "nowLabel": "Focus for the proposed study",
+        "now": "Assemble a reviewable, scientifically justified safety assessment for the planned investigation. Study design, documentation, and unresolved findings matter alongside the results."
+      },
+      "takeaway": "Enough evidence for the proposed study does not mean enough evidence for every later study—or for marketing approval.",
+      "sources": [
+        {
+          "label": "21 CFR 312.23(a)(8) · The nonclinical IND package",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.23#p-312.23(a)(8)"
+        },
+        {
+          "label": "ICH M3(R2) · Scope and timing of nonclinical studies",
+          "url": "https://www.fda.gov/media/71542/download#page=7"
+        },
+        {
+          "label": "FDA · Phase 1 IND pharmacology and toxicology guidance",
+          "url": "https://www.fda.gov/media/71203/download#page=12"
+        }
+      ]
     }
   },
   "cmc-material": {
@@ -14407,32 +14903,31 @@ for (const [id, guide] of Object.entries(REASONING_GUIDES)) {
  if (!lesson) throw new Error('Unknown reasoning chapter: ' + id);
  lesson.reasoningGuide = guide;
  if (guide.title) lesson.title = guide.title;
- lesson.goal = guide.question;
- lesson.takeaway = guide.takeaway || guide.nodes[guide.nodes.length - 1].decision;
- if (guide.format === 'case-tabs') delete lesson.question;
- else lesson.question = {
-  title: guide.exercise.title,
-  prompt: guide.exercise.context + ' ' + guide.exercise.prompt,
-  options: guide.exercise.options.map(o => [o.label, o.feedback, o.correct])
- };
+ lesson.goal = guide.minimal?.headline || guide.question;
+ lesson.takeaway = guide.minimal?.takeaway || guide.takeaway || guide.nodes[guide.nodes.length - 1].decision;
+ delete lesson.question;
  const cases = guide.readingTopics ? guide.readingTopics.flatMap(t => [...t.cases, ...t.moreCases]) : guide.cases;
- const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source]), guide.workedCase.assessment.source] : [];
- const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
- lesson.sources = sources.filter((s, i) => sources.findIndex(x => x.url === s.url) === i);
+ const comparisonSources = guide.workedCase ? [guide.workedCase.discovery.source, ...guide.workedCase.discovery.assays.map(a => a.source), ...guide.workedCase.comparison.rows.flatMap(r => [r.paper.source, r.ind.source])] : [];
+ const sources = [...(guide.format === 'case-tabs' ? [] : lesson.sources), ...cases.flatMap(c => c.sources), ...(guide.lessons?.sequence || []).flatMap(c => c.sources), ...(guide.workedCase?.sources || []), ...comparisonSources, ...(guide.opening?.sources || []), ...(guide.bridge?.sources || []), ...[guide.boundary?.source, guide.boundary?.recommendationSource].filter(Boolean)];
+ const activeSources = guide.minimal ? guide.minimal.sources : sources;
+ lesson.sources = activeSources.filter((s, i) => activeSources.findIndex(x => x.url === s.url) === i);
 }
 
 ;
 /* A shared reading surface for the nine IND-enabling reasoning chapters. */
 function reasoningGuide(){return level().reasoningGuide;}
 function isReadingChapter(lesson=level()){return lesson?.reasoningGuide?.format==='case-tabs';}
-function reasoningReadingTopics(){const g=reasoningGuide();return [g.opening,g.workedCase,g.lessons];}
-function reasoningReadingIndex(){if(reasoningGuide().readingTopics.some(t=>t.id===state.reasoningTopic))return 2;return Math.max(0,reasoningReadingTopics().findIndex(t=>t.id===state.reasoningTopic));}
+function isConceptChapter(lesson=level()){return Boolean(lesson?.reasoningGuide)&&!isReadingChapter(lesson);}
+function isReadOnlyChapter(lesson=level()){return Boolean(lesson?.reasoningGuide);}
+function reasoningReadingTopics(){const g=reasoningGuide();return [g.opening,g.bridge,g.workedCase,g.lessons];}
+function reasoningReadingIndex(){const g=reasoningGuide(),id=g.readingTopics.some(t=>t.id===state.reasoningTopic)?g.lessons.id:state.reasoningTopic;return Math.max(0,reasoningReadingTopics().findIndex(t=>t.id===id));}
 function reasoningReadingTopic(){return reasoningReadingTopics()[reasoningReadingIndex()];}
-function reasoningPastTopicId(){const topics=reasoningGuide().readingTopics;return topics.find(t=>t.id===state.reasoningPastTopic)?.id||topics.find(t=>t.id===state.reasoningTopic)?.id;}
+function reasoningPastTopics(){const g=reasoningGuide();return [...g.lessons.sequence,...g.readingTopics];}
+function reasoningPastTopicId(){const topics=reasoningPastTopics();return topics.find(t=>t.id===state.reasoningPastTopic)?.id||topics.find(t=>t.id===state.reasoningTopic)?.id;}
 function reasoningSavedPosition(lesson){
  const g=lesson?.reasoningGuide;if(!g)return undefined;
  if(g.format==='case-tabs')return {topic:reasoningReadingTopic().id,...(reasoningPastTopicId()?{pastTopic:reasoningPastTopicId()}:{})};
- return {node:reasoningIndex(),caseId:reasoningCase().id,...(g.opening?{intro:reasoningOpeningActive()}:{})};
+ return g.minimal?{}:{node:reasoningIndex()};
 }
 function reasoningIndex(){const g=reasoningGuide();return Number.isInteger(state.reasoningNode)&&g.nodes[state.reasoningNode]?state.reasoningNode:0;}
 function reasoningCase(){const g=reasoningGuide();return g.cases.find(c=>c.id===state.reasoningCase)||g.cases[0];}
@@ -14453,9 +14948,22 @@ function reasoningPastTopic(t){
  const e=escapeHtml;
  return `<div class="reasoning-past-content"><p class="reasoning-past-principle">${e(t.principle)}</p>${reasoningReadingCase(t.cases[0])}<details class="reasoning-comparison"><summary><span>Compare with</span><strong>${e(t.cases[1].drug)}</strong><span class="reasoning-comparison-title">${e(t.cases[1].title)}</span></summary>${reasoningReadingCase(t.cases[1])}</details>${t.moreCases.length?`<section class="reasoning-supporting" aria-label="More cases from FDA reviews"><h3>More from the FDA reviews <span>${t.moreCases.length}</span></h3>${t.moreCases.map(reasoningSupportingCase).join('')}</section>`:''}</div>`;
 }
+function reasoningHistoryVisual(v){
+ const e=escapeHtml;
+ return `<figure class="reasoning-history-visual history-${e(v.kind)}"><ol aria-label="${e(v.label)}" role="list">${v.nodes.map(n=>`<li class="history-evidence-${e(n.status)}"><span>${e(n.label)}</span><strong>${e(n.title)}</strong><p>${e(n.text)}</p></li>`).join('')}</ol>${v.note?`<figcaption>${e(v.note)}</figcaption>`:''}</figure>`;
+}
+function reasoningHistoryLesson(c,index,active){
+ const e=escapeHtml;
+ return `<details class="reasoning-history-case" id="past-lesson-${e(c.id)}" data-past-topic="${e(c.id)}" ${active===c.id?'open':''}><summary><span class="history-lesson-number">${String(index+1).padStart(2,'0')}</span><div><h3>${e(c.title)}</h3><p>${e(c.preview)}</p></div><span class="history-drug">${e(c.drug)}</span></summary><div class="reasoning-history-body"><div class="history-provenance"><strong>${e(c.stage)}</strong><span>${e(c.provenance)}</span></div><header><h4>${e(c.question)}</h4><p>${e(c.setup)}</p></header>${reasoningHistoryVisual(c.visual)}<div class="history-decision"><section><h4>${e(c.decision.label)}</h4><p>${e(c.decision.text)}</p></section><aside><h4>${e(c.lesson.label)}</h4><p>${e(c.lesson.text)}</p></aside></div><footer><p>${e(c.limit)}</p>${c.sources.map(indSourceLink).join('')}</footer></div></details>`;
+}
 function reasoningPastLessons(){
- const g=reasoningGuide(),e=escapeHtml;
- return `<section class="reasoning-past-lessons" aria-labelledby="past-lessons-title"><header class="reasoning-learning-heading"><h2 id="past-lessons-title">Lessons from the past</h2><p>Additional cases show how the same reasoning changes across drugs, diseases and stages of development. Open a lesson to explore the evidence.</p></header>${g.readingTopics.map((t,i)=>`<details class="reasoning-past-topic" data-past-topic="${e(t.id)}" ${reasoningPastTopicId()===t.id?'open':''}><summary><span class="reasoning-past-number">${String(i+1).padStart(2,'0')}</span><div><strong>${e(t.label)}</strong><span>${e(t.cases.map(c=>c.drug).join(' · '))}</span></div></summary>${reasoningPastTopic(t)}</details>`).join('')}</section>`;
+ const g=reasoningGuide(),p=g.lessons,e=escapeHtml,saved=reasoningPastTopicId(),active=saved||p.sequence[0].id,archiveOpen=g.readingTopics.some(t=>t.id===saved);
+ return `<section class="reasoning-past-lessons" aria-labelledby="past-lessons-title"><header class="reasoning-learning-heading"><h2 id="past-lessons-title">${e(p.title)}</h2><p>${e(p.intro)}</p></header><nav class="reasoning-history-path" aria-label="Follow three lessons from FDA records">${p.sequence.map((c,i)=>`<button type="button" data-past-lesson="${e(c.id)}" aria-controls="past-lesson-${e(c.id)}"><span aria-hidden="true">${String(i+1).padStart(2,'0')}</span><strong>${e(c.label)}</strong><small>${e(c.drug)}</small></button>`).join('')}</nav>${p.sequence.map((c,i)=>reasoningHistoryLesson(c,i,active)).join('')}<div class="reasoning-history-takeaway"><h3>${e(p.takeaway.title)}</h3><p>${e(p.takeaway.text)}</p><small>${e(p.takeaway.note)}</small></div><details class="reasoning-history-archive" ${archiveOpen?'open':''}><summary><strong>${e(p.archive.label)}</strong><span>${e(p.archive.description)}</span></summary><div class="history-archive-body"><p>${e(p.archive.intro)}</p>${g.readingTopics.map((t,i)=>`<details class="reasoning-past-topic" data-past-topic="${e(t.id)}" ${saved===t.id?'open':''}><summary><span class="reasoning-past-number">${String(i+1).padStart(2,'0')}</span><div><strong>${e(t.label)}</strong><span>${e(t.cases.map(c=>c.drug).join(' · '))}</span></div></summary>${reasoningPastTopic(t)}</details>`).join('')}</div></details></section>`;
+}
+function selectPastLesson(id){
+ if(state.screen!=='lesson'||!isReadingChapter()||reasoningReadingTopic().id!==reasoningGuide().lessons.id||!reasoningGuide().lessons.sequence.some(c=>c.id===id))return;
+ state.reasoningPastTopic=id;render(false);queueStepSave(state.lesson,0);
+ const summary=$(`#past-lesson-${id}>summary`);summary.focus({preventScroll:true});summary.scrollIntoView({block:'nearest',behavior:'instant'});
 }
 function reasoningSourceComparison(c){
  const e=escapeHtml;
@@ -14472,11 +14980,19 @@ function reasoningIndCase(){
  const c=reasoningGuide().workedCase,e=escapeHtml;
  const discovery=`${reasoningDiscoveryAssays(c.discovery)}<footer><div class="reasoning-publication-caveat"><strong>Caveat: publication timing</strong><p>${e(c.discovery.limit)}</p></div><div class="reasoning-discovery-sources">${indSourceLink(c.discovery.source)}${indSourceLink(c.discovery.approvalSource)}</div></footer>`;
  const comparison=`<p class="reasoning-part-intro">${e(c.comparison.intro)}</p>${reasoningSourceComparison(c.comparison)}`;
- const assessment=`<div class="reasoning-assessment-items">${c.assessment.items.map((x,i)=>`<div${i===1?' class="assessment-request"':''}><h4>${e(x.label)}</h4><p>${e(x.text)}</p></div>`).join('')}</div><footer>${indSourceLink(c.assessment.source)}</footer>`;
- return `<article class="reasoning-ind-case" aria-labelledby="ind-case-title"><header class="reasoning-learning-heading"><span class="reasoning-ind-stage">${e(c.stage)}</span><h2 id="ind-case-title">${e(c.title)}</h2></header><section class="reasoning-ind-start"><figure><img src="${e(c.image)}" alt="${e(c.imageAlt)}"><figcaption><strong>${e(c.drug)}</strong><span>${e(c.identity)}</span></figcaption></figure><div><span class="reasoning-ind-label">The biological question</span><h3>${e(c.question)}</h3><p>${e(c.rationale)}</p></div></section><p class="reasoning-ind-timing">${e(c.timing)}</p>${reasoningCasePart(1,c.discovery.title,'reasoning-discovery-evidence',discovery)}${reasoningCasePart(2,c.comparison.title,'reasoning-compare-evidence',comparison)}${reasoningCasePart(3,c.assessment.title,'reasoning-fda-assessment',assessment)}<p class="reasoning-case-takeaway">${e(c.takeaway)}</p></article>`;
+ return `<article class="reasoning-ind-case" aria-labelledby="ind-case-title"><header class="reasoning-learning-heading"><span class="reasoning-ind-stage">${e(c.stage)}</span><h2 id="ind-case-title">${e(c.title)}</h2></header><section class="reasoning-ind-start"><figure><img src="${e(c.image)}" alt="${e(c.imageAlt)}"><figcaption><strong>${e(c.drug)}</strong><span>${e(c.identity)}</span></figcaption></figure><div><span class="reasoning-ind-label">The biological question</span><h3>${e(c.question)}</h3><p>${e(c.rationale)}</p></div></section><p class="reasoning-ind-timing">${e(c.timing)}</p>${reasoningCasePart(1,c.discovery.title,'reasoning-discovery-evidence',discovery)}${reasoningCasePart(2,c.comparison.title,'reasoning-compare-evidence',comparison)}<p class="reasoning-case-takeaway">${e(c.takeaway)}</p></article>`;
+}
+function reasoningBridge(){
+ const b=reasoningGuide().bridge,e=escapeHtml;
+ return `<article class="reasoning-bridge" aria-labelledby="bridge-title"><header class="reasoning-learning-heading"><h2 id="bridge-title">${e(b.title)}</h2><p>${e(b.intro)}</p></header>
+ <ol class="reasoning-bridge-flow" role="list" aria-label="From discovery evidence to a biological rationale">${b.stages.map((s,i)=>`<li><span class="bridge-stage-number" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><span class="bridge-stage-label">${e(s.label)}</span><h3>${e(s.question)}</h3><p>${e(s.text)}</p></li>`).join('')}</ol>
+ <section class="reasoning-bridge-connections" aria-labelledby="bridge-connections-title"><header><h3 id="bridge-connections-title">${e(b.gapTitle)}</h3><p>${e(b.gapIntro)}</p></header><div class="reasoning-bridge-scroll" tabindex="0" role="region" aria-label="Evidence available, unanswered questions, and possible additional work"><table class="reasoning-bridge-table"><thead><tr><th scope="col">Evidence in hand</th><th scope="col">Question for this candidate</th><th scope="col">Work that could close the gap</th></tr></thead><tbody>${b.gaps.map(g=>`<tr><th scope="row"><span>${e(g.label)}</span><p>${e(g.have)}</p></th><td><strong>${e(g.question)}</strong></td><td><p>${e(g.work)}</p></td></tr>`).join('')}</tbody></table></div></section>
+ <div class="reasoning-bridge-close"><section><h3>${e(b.judgment.title)}</h3><p>${e(b.judgment.text)}</p><p class="bridge-scope">${e(b.judgment.scope)}</p></section><aside><span class="reasoning-kicker">${e(b.output.title)}</span><p>${e(b.output.text)}</p><p class="bridge-boundary">${e(b.output.boundary)}</p></aside></div>
+ <footer class="reasoning-bridge-sources">${b.sources.map(indSourceLink).join('')}</footer></article>`;
 }
 function reasoningReadingContent(){
- return reasoningReadingIndex()===0?reasoningOpening():reasoningReadingIndex()===1?reasoningIndCase():reasoningPastLessons();
+ const g=reasoningGuide(),id=reasoningReadingTopic().id;
+ return id===g.opening.id?reasoningOpening():id===g.bridge.id?reasoningBridge():id===g.workedCase.id?reasoningIndCase():reasoningPastLessons();
 }
 function reasoningReadingView(){
  const l=level(),e=escapeHtml,topics=reasoningReadingTopics(),i=reasoningReadingIndex(),group=LEVELS.filter(x=>x.category===l.category);
@@ -14521,7 +15037,7 @@ function reasoningDiagram(v){
 function reasoningUnderstanding(){
  const g=reasoningGuide(),i=reasoningIndex(),n=g.nodes[i],e=escapeHtml;
  if(reasoningOpeningActive())return reasoningOpening();
- return `${g.opening?reasoningContext():''}<section class="reasoning-focus" aria-labelledby="reasoning-question"><div class="reasoning-principle"><span class="reasoning-kicker">${String(i+1+(g.opening?1:0)).padStart(2,'0')} / ${String(g.nodes.length+(g.opening?1:0)).padStart(2,'0')}</span><h2 id="reasoning-question">${e(n.question)}</h2><p class="reasoning-principle-line">${e(n.principle)}</p><p class="reasoning-explanation">${e(n.body)}</p></div><div class="reasoning-drawing">${reasoningDiagram(n.visual)}</div><div class="reasoning-carry"><span>Carry forward</span><p>${e(n.decision)}</p></div></section><div class="reasoning-node-controls">${i?`<button class="text-button" data-reasoning-node="${i-1}">← ${e(g.nodes[i-1].label)}</button>`:g.opening?`<button class="text-button" data-reasoning-intro="${e(g.opening.id)}">← ${e(g.opening.label)}</button>`:'<span></span>'}${i<g.nodes.length-1?`<button class="text-button" data-reasoning-node="${i+1}">${e(g.nodes[i+1].label)} →</button>`:`<button class="text-button" data-lesson-step="1">Follow a documented case →</button>`}</div>${reasoningBoundary()}`;
+ return `${g.opening?reasoningContext():''}<section class="reasoning-focus" aria-labelledby="reasoning-question"><div class="reasoning-principle"><span class="reasoning-kicker">${String(i+1+(g.opening?1:0)).padStart(2,'0')} / ${String(g.nodes.length+(g.opening?1:0)).padStart(2,'0')}</span><h2 id="reasoning-question">${e(n.question)}</h2><p class="reasoning-principle-line">${e(n.principle)}</p><p class="reasoning-explanation">${e(n.body)}</p></div><div class="reasoning-drawing">${reasoningDiagram(n.visual)}</div><div class="reasoning-carry"><span>Carry forward</span><p>${e(n.decision)}</p></div></section><div class="reasoning-node-controls">${i?`<button class="text-button" data-reasoning-node="${i-1}">← ${e(g.nodes[i-1].label)}</button>`:g.opening?`<button class="text-button" data-reasoning-intro="${e(g.opening.id)}">← ${e(g.opening.label)}</button>`:'<span></span>'}${i<g.nodes.length-1?`<button class="text-button" data-reasoning-node="${i+1}">${e(g.nodes[i+1].label)} →</button>`:'<span></span>'}</div>${reasoningBoundary()}`;
 }
 function reasoningBoundary(){
  const b=reasoningGuide().boundary,e=escapeHtml;
@@ -14540,15 +15056,27 @@ function reasoningResult(r){
  const e=escapeHtml;
  return `<div class="reasoning-result"><header><span>Your revised argument</span><p>A conclusion with its evidence and limits attached.</p></header><dl>${[['Claim',r.claim],['Support',r.support],['Uncertainty',r.uncertainty],['Next decision',r.next]].map(([label,text])=>`<div><dt>${label}</dt><dd>${e(text)}</dd></div>`).join('')}</dl></div>`;
 }
-function reasoningLessonView(){
- if(isReadingChapter())return reasoningReadingView();
- const l=level(),g=reasoningGuide(),e=escapeHtml,group=LEVELS.filter(x=>x.category===l.category),number=group.indexOf(l)+1;
- const correct=state.feedback&&QUESTIONS[l.id].options[state.selected]?.[2];
- const content=state.step===0?reasoningUnderstanding():state.step===1?reasoningExamples():reasoningPractice();
- return `<div class="reasoning-chapter"><header class="lesson-header"><div class="lesson-heading"><button class="lesson-map-back" data-action="overview" aria-label="Back to all levels">←</button><div class="lesson-title-block"><span class="lesson-location">${e(lessonLocation(l))}</span><h1>${e(l.title)}</h1></div></div><span class="reasoning-chapter-count">${number} <span>/ ${group.length}</span></span></header>${g.opening?'':`<p class="reasoning-premise">${e(g.premise)}</p>${reasoningContext()}${reasoningRail()}`}<nav class="lesson-step-nav reasoning-views" aria-label="Lesson steps">${['Understand','See examples','Make a decision'].map((label,i)=>`<button type="button" data-lesson-step="${i}" ${state.step===i?'aria-current="step"':''}>${label}</button>`).join('')}</nav><div class="reasoning-surface" id="reasoning-surface">${g.opening&&state.step===0?`${reasoningTopicTabs()}<section id="reasoning-topic-panel">${content}</section>`:content}</div><div class="lesson-controls reasoning-controls">${state.step?button('← Back','back','quiet'):'<span></span>'}${state.step===0&&reasoningOpeningActive()?`<button class="button primary" data-reasoning-node="0">Explore the biology →</button>`:state.step<2?button(state.step===0?'See examples →':'Make a decision →','next'):correct?`<button class="button primary" data-action="complete" ${state.saving?'disabled':''}>${state.saving?'Saving…':'Complete chapter ✓'}</button>`:`<button class="button primary" data-action="check" ${state.selected===null?'disabled':''}>Check my reasoning</button>`}</div><div class="reasoning-footer"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${e(state.saveStatus)}</p><button class="text-button" data-action="sources">Sources &amp; reading ↗</button></div></div>`;
+function reasoningMinimal(){
+ const m=reasoningGuide().minimal,e=escapeHtml,d=m.distinction;
+ return `<article class="reasoning-minimal" aria-labelledby="minimal-title"><header class="minimal-heading"><h2 id="minimal-title">${e(m.headline)}</h2><p>${e(m.intro)}</p></header><ol class="minimal-path" aria-label="The reasoning path" style="--minimal-count:${m.stages.length}">${m.stages.map((s,i)=>`<li><span class="minimal-marker" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><span class="minimal-stage-label">${e(s.label)}</span><h3>${e(s.question)}</h3><p>${e(s.text)}</p></li>`).join('')}</ol><section class="minimal-handoff" aria-label="How the purpose changes after lead optimization"><div><span>${e(d.beforeLabel)}</span><p>${e(d.before)}</p></div><div><span>${e(d.nowLabel)}</span><p>${e(d.now)}</p></div></section><p class="minimal-takeaway">${e(m.takeaway)}</p></article>`;
 }
+function conceptAtEnd(){return Boolean(reasoningGuide().minimal)||reasoningIndex()===reasoningGuide().nodes.length-1;}
+function reasoningConceptView(){
+ const l=level(),g=reasoningGuide(),e=escapeHtml,group=LEVELS.filter(x=>x.category===l.category);
+ return `<div class="reasoning-chapter reasoning-concept-chapter${g.minimal?' reasoning-minimal-chapter':''}"><header class="lesson-header"><div class="lesson-heading"><button class="lesson-map-back" data-action="overview" aria-label="Back to all levels">←</button><div class="lesson-title-block"><span class="lesson-location">${e(lessonLocation(l))}</span><h1>${e(l.title)}</h1></div></div><span class="reasoning-chapter-count">${group.indexOf(l)+1} <span>/ ${group.length}${done(l.id)?' · ✓':''}</span></span></header>${g.minimal?reasoningMinimal():`<p class="reasoning-premise">${e(g.premise)}</p>${reasoningContext()}${reasoningRail()}<div class="reasoning-surface">${reasoningUnderstanding()}</div>`}${conceptAtEnd()?`<div class="lesson-controls reasoning-controls"><span></span><button class="button primary" data-action="complete-concept" ${state.saving?'disabled':''}>${state.saving?'Saving…':done(l.id)?'Chapter complete ✓':'Mark chapter complete ✓'}</button></div>`:''}<div class="reasoning-footer"><p id="save-status" class="save-status ${state.saveError?'error':''}" role="status">${e(state.saveStatus)}</p><button class="text-button" data-action="sources">Sources &amp; reading ↗</button></div></div>`;
+}
+async function completeConceptChapter(){
+ if(state.saving||state.screen!=='lesson'||!isConceptChapter()||!conceptAtEnd())return;
+ const lesson=state.lesson,node=reasoningGuide().minimal?undefined:reasoningIndex();state.saving=true;render(false);
+ saveQueue=saveQueue.then(async()=>{try{
+  applyProgress(await request('/api/complete-concept',{lesson,node,acknowledge:true}));state.saveStatus='Progress saved in this browser';state.saveError=false;
+  if(state.screen==='lesson'&&state.lesson===lesson&&conceptAtEnd()){state.screen='complete';announce('Chapter completed and progress saved.');}
+ }catch(e){state.saveStatus=e.message;state.saveError=true;}state.saving=false;render();});
+ return saveQueue;
+}
+function reasoningLessonView(){return isReadingChapter()?reasoningReadingView():reasoningConceptView();}
 function selectReasoningNode(value){
- if(state.screen!=='lesson'||!level().reasoningGuide||isReadingChapter())return;
+ if(state.screen!=='lesson'||!level().reasoningGuide||isReadingChapter()||reasoningGuide().minimal)return;
  const n=Number(value);if(!Number.isInteger(n)||n<0||n>=reasoningGuide().nodes.length)return;
  state.reasoningNode=n;state.reasoningIntro=false;state.step=0;state.selected=null;state.feedback=false;
  navigateHash(`#small-molecule/${state.lesson}/0`,true);render(false);queueStepSave(state.lesson,0);
@@ -14560,21 +15088,15 @@ function selectReasoningOpening(id){
  navigateHash(`#small-molecule/${state.lesson}/0`,true);render(false);queueStepSave(state.lesson,0);
  $('[data-reasoning-intro]').focus({preventScroll:true});
 }
-function selectReasoningCase(id){
- if(state.screen!=='lesson'||state.step!==1||!level().reasoningGuide||isReadingChapter())return;
- const c=reasoningGuide().cases.find(x=>x.id===id);if(!c)return;
- state.reasoningCase=id;state.reasoningNode=c.mapFocus;state.reasoningIntro=false;render(false);queueStepSave(state.lesson,1);
- $(`[data-reasoning-case="${id}"]`).focus({preventScroll:true});
-}
 document.addEventListener('click',event=>{
+ const past=event.target.closest('[data-past-lesson]');if(past){selectPastLesson(past.dataset.pastLesson);return;}
  const topic=event.target.closest('[data-reasoning-topic]');if(topic){selectReasoningTopic(topic.dataset.reasoningTopic);return;}
  const intro=event.target.closest('[data-reasoning-intro]');if(intro){selectReasoningOpening(intro.dataset.reasoningIntro);return;}
  const n=event.target.closest('[data-reasoning-node]');if(n){selectReasoningNode(n.dataset.reasoningNode);return;}
- const c=event.target.closest('[data-reasoning-case]');if(c)selectReasoningCase(c.dataset.reasoningCase);
 });
 document.addEventListener('toggle',event=>{
- const group=event.target;if(state.screen!=='lesson'||!isReadingChapter()||reasoningReadingIndex()!==2||!group.matches?.('.reasoning-past-topic'))return;
- const id=group.dataset.pastTopic;if(!reasoningGuide().readingTopics.some(t=>t.id===id))return;
+ const group=event.target;if(state.screen!=='lesson'||!isReadingChapter()||reasoningReadingTopic().id!==reasoningGuide().lessons.id||!(group.matches?.('.reasoning-past-topic')||group.matches?.('.reasoning-history-case')))return;
+ const id=group.dataset.pastTopic;if(!reasoningPastTopics().some(t=>t.id===id))return;
  if(group.open)state.reasoningPastTopic=id;else if(reasoningPastTopicId()===id)state.reasoningPastTopic=undefined;else return;
  queueStepSave(state.lesson,0);
 },true);
@@ -14593,7 +15115,7 @@ document.addEventListener('keydown',event=>{
   return;
  }
  const n=event.target.closest('.reasoning-rail [data-reasoning-node]');
- if(!n||!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)||!level().reasoningGuide||isReadingChapter())return;
+ if(!n||!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)||!level().reasoningGuide||isReadingChapter()||reasoningGuide().minimal)return;
  event.preventDefault();const count=reasoningGuide().nodes.length,index=Number(n.dataset.reasoningNode);
  selectReasoningNode(event.key==='Home'?0:event.key==='End'?count-1:(index+(event.key==='ArrowRight'?1:-1)+count)%count);
 });
@@ -14606,14 +15128,14 @@ const ALL_LEVELS=[...LEVELS,...(CATALOG.supplementalLevels||[])];
 const CATEGORIES=CATALOG.categories;
 Object.assign(QUESTIONS,Object.fromEntries(ALL_LEVELS.map(l=>[l.id,l.question])));
 const state={screen:'portal',lesson:LEVELS[0].id,step:0,clinicalPhase:'phase1',progress:{},loading:true,saveStatus:'',saveError:false,selected:null,feedback:false,saving:false,stream:'biology',modelEngaged:false,bioavailability:.5,halfLife:4,clipStep:0,clipPlaying:false};
-let saveQueue=Promise.resolve(),clipTimer,resettingProgress=false;
+let saveQueue=Promise.resolve(),clipTimer,resettingProgress=false,overviewReturnPosition=null;
 const ids=LEVELS.map(l=>l.id),allIds=ALL_LEVELS.map(l=>l.id);
 const level=()=>ALL_LEVELS.find(l=>l.id===state.lesson);
 const done=id=>Boolean(state.progress[id]?.completed);
 const countDone=()=>ids.filter(done).length;
 const button=(label,action,kind='primary')=>`<button class="button ${kind}" data-action="${action}">${label}</button>`;
 function announce(s){$('#announcement').textContent=s;}
-function readState(){return {screen:state.screen,lesson:state.lesson,step:state.step,stepName:isReadingChapter()?reasoningReadingTopic().label:['Understand',level().presentation==='approval'?'See examples':'See an example','Try it'][state.step],completedLevels:ids.filter(done),progressLoaded:!state.loading,saveStatus:state.saveStatus,modelEngaged:state.modelEngaged,exposure:{bioavailability:state.bioavailability,halfLife:state.halfLife,...exposureMetrics()}};}
+function readState(){return {screen:state.screen,lesson:state.lesson,step:state.step,stepName:isReadingChapter()?reasoningReadingTopic().label:isConceptChapter()?(reasoningGuide().minimal?'Overview':reasoningGuide().nodes[reasoningIndex()].label):['Understand',level().presentation==='approval'?'See examples':'See an example','Try it'][state.step],completedLevels:ids.filter(done),progressLoaded:!state.loading,saveStatus:state.saveStatus,modelEngaged:state.modelEngaged,exposure:{bioavailability:state.bioavailability,halfLife:state.halfLife,...exposureMetrics()}};}
 const PROGRESS_KEY='first-in-class-progress';
 function progressStorage(){
  try{const storage=window.localStorage;if(storage)return storage;}catch{}
@@ -14635,8 +15157,12 @@ function localRequest(path,body){
   const previous=lessons[body.lesson]||{lesson:body.lesson,step:0,completed:false,updatedAt:0};
   if(path==='/api/progress')lessons[body.lesson]={...previous,step:body.step,updatedAt:Date.now(),...(body.reasoning?{reasoning:body.reasoning}:{})};
   else if(path==='/api/complete'){
-   if(isReadingChapter(ALL_LEVELS.find(l=>l.id===body.lesson))||!QUESTIONS[body.lesson]?.options[body.answer]?.[2])throw new Error('Check the exercise before completing this level.');
+   if(isReadOnlyChapter(ALL_LEVELS.find(l=>l.id===body.lesson))||!QUESTIONS[body.lesson]?.options[body.answer]?.[2])throw new Error('Check the exercise before completing this level.');
    lessons[body.lesson]={...previous,step:2,completed:true,updatedAt:Date.now()};
+  }else if(path==='/api/complete-concept'){
+   const lesson=ALL_LEVELS.find(l=>l.id===body.lesson),guide=lesson?.reasoningGuide;
+   if(!isConceptChapter(lesson)||body.acknowledge!==true||(!guide.minimal&&body.node!==guide.nodes.length-1))throw new Error('Finish the chapter before marking it complete.');
+   lessons[body.lesson]={...previous,step:0,reasoning:guide.minimal?{}:{node:body.node},completed:true,completionKind:'reading',updatedAt:Date.now()};
   }else if(path==='/api/complete-reading'){
    const guide=ALL_LEVELS.find(l=>l.id===body.lesson)?.reasoningGuide;
    if(guide?.format!=='case-tabs'||body.acknowledge!==true||body.topic!==guide.lessons.id)throw new Error('Finish the chapter before marking it complete.');
@@ -14702,7 +15228,7 @@ async function resetLearningProgress(){
   if(storage.getItem(PROGRESS_KEY)!==null)throw new Error('Saved progress could not be removed.');
   state.progress={};state.reasoningPastTopic=undefined;state.reasoningTopic=undefined;state.reasoningIntro=undefined;state.reasoningNode=undefined;state.reasoningCase=undefined;state.lesson=ids[0];state.step=0;state.selected=null;state.feedback=false;state.saving=false;
   state.saveError=false;state.saveStatus='Learning progress reset. Choose a topic to begin.';
-  showOverview();
+  overviewReturnPosition=null;showOverview({restore:false});
   announce('Learning progress reset. No levels completed.');
  }catch{
   if($('#reset-progress-status'))$('#reset-progress-status').textContent='Progress could not be reset because browser storage is unavailable. Your progress has been kept. Please try again.';
@@ -15364,8 +15890,8 @@ function selectHitStage(id){
  const active=$('.hit-stage-nav [data-hit-stage="'+id+'"]');if(active)active.focus({preventScroll:true});
 }
 function targetUnderstanding(){
- const l=level(),g=l.targetGuide;
- return `<p class="eyebrow">THE CONCEPT</p><h2>${escapeHtml(l.title)}</h2><p class="target-objective">Define what to change, how to change it, and what evidence would justify the intervention.</p><div class="target-layout"><section class="target-principles" aria-labelledby="target-principles-title"><p class="eyebrow">UNDERSTAND THE PRINCIPLE</p><h3 id="target-principles-title">Start with what is known</h3><p>${escapeHtml(l.concept)}</p><h3>Validate the therapeutic hypothesis</h3><p>${escapeHtml(g.validation)}</p><div class="target-causality"><span class="eyebrow">FROM HYPOTHESIS TO EVIDENCE</span>${conceptDiagram()}</div><p class="target-perturbation">${escapeHtml(g.perturbationNote)}</p><div class="takeaway"><span>Keep this idea</span><strong>${escapeHtml(l.takeaway)}</strong></div></section><section class="target-case" aria-labelledby="target-case-title"><p class="eyebrow">DEFINE YOUR STRATEGY</p><h3 id="target-case-title">${escapeHtml(g.caseTitle)}</h3><p class="target-case-intro">${escapeHtml(g.caseIntro)}</p>${targetLayers(g.layers,'What to specify')}<div class="target-validation"><h4>What would you need to validate?</h4><ul>${g.questions.map(q=>`<li>${escapeHtml(q)}</li>`).join('')}</ul></div></section></div>`;
+ const l=level(),g=l.targetGuide,e=escapeHtml;
+ return `<article class="target-overview" aria-labelledby="target-main-question"><header class="target-overview-heading"><h2 id="target-main-question">${e(g.headline)}</h2><p>${e(g.intro)}</p></header><ol class="target-reasoning-path" aria-label="From target identification to validation">${g.steps.map((step,i)=>`<li><span class="target-step-marker" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><span class="target-step-label">${e(step.label)}</span><h3>${e(step.question)}</h3><p>${e(step.text)}</p></li>`).join('')}</ol><p class="target-sequence-note">${e(g.sequenceNote)}</p><p class="target-main-takeaway">${e(l.takeaway)}</p></article><details class="target-distinctions"><summary>Keep the distinctions clear</summary><dl>${g.distinctions.map(d=>`<div><dt>${e(d.title)}</dt><dd>${e(d.text)}</dd></div>`).join('')}</dl></details>`;
 }
 function targetLayers(layers,column){return `<table class="target-layers"><caption class="sr-only">Target, therapeutic hypothesis, and binding strategy</caption><thead><tr><th scope="col">Decision</th><th scope="col">${escapeHtml(column)}</th></tr></thead><tbody>${layers.map(row=>`<tr><th scope="row">${escapeHtml(row.label)}<small>${escapeHtml(row.question)}</small></th><td>${escapeHtml(row.example)}</td></tr>`).join('')}</tbody></table>`;}
 const PI3K_CATEGORIES=[['rationale','Biological rationale'],['timeline','Discovery & clinical timeline'],['allosteric','Allosteric inhibitors']];
@@ -15489,11 +16015,22 @@ function portalWhyNow(){return `<section class="portal-why-now" aria-labelledby=
 function portal(){return `<section class="portal">${portalWhyNow()}<section class="portal-learning-paths" aria-labelledby="learning-paths-title"><p class="eyebrow portal-kicker">DISCOVERY → DEVELOPMENT → INVESTIGATIONAL NEW DRUG (IND)</p><h2 id="learning-paths-title">Choose your learning path.</h2><p class="portal-lede">From the first biological question to a proposed human study.</p><div class="portal-paths"><button class="path-card available" data-action="overview"><div class="path-card-heading"><div><h3>Small Molecule</h3><p>Target identification, discovery, development, and the Investigational New Drug (IND) application.</p></div><div class="molecule-lockup" aria-label="Small molecule structure"><img src="assets/small-molecule.png" alt="Small molecule structure"></div></div></button><div class="path-card unavailable" aria-label="Biologics, under construction"><h3>Biologics</h3><p class="construction">Under construction</p><span>Antibodies, proteins, vaccines, and other biological therapies.</span></div></div></section></section>`;}
 function showPortal(){stopClip();if($('#modal').open)$('#modal').close();state.screen='portal';navigateHash('#portal');render();return readState();}
 function render(focus=true){document.body.classList.toggle('is-reasoning-lesson',state.screen==='lesson'&&Boolean(level().reasoningGuide));document.body.classList.toggle('is-ind-intro',state.screen==='lesson'&&level().category==='start'&&(state.step===0||(level().presentation==='approval'&&state.step===1)));document.body.classList.toggle('is-target-lesson',state.screen==='lesson'&&Boolean(level().targetGuide)&&state.step<=1);document.body.classList.toggle('is-target-understand',state.screen==='lesson'&&Boolean(level().targetGuide)&&state.step===0);document.body.classList.toggle('is-hit-lesson',state.screen==='lesson'&&Boolean(level().hitGuide||level().leadGuide||level().transitionGuide||level().evidenceGuide||level().pilotGuide)&&state.step<=1);document.body.classList.toggle('is-overview',state.screen==='overview');document.body.classList.toggle('is-portal',state.screen==='portal');$('#lesson').innerHTML=state.screen==='portal'?portal():state.screen==='overview'?overview():state.screen==='complete'?completionView():lessonView();document.title=(state.screen==='portal'?'Choose a learning path':state.screen==='overview'?'Small Molecule':level().title)+' · First-In-Class.ai';if(focus){$('#lesson').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}}
-function showOverview(){stopClip();if($('#modal').open)$('#modal').close();state.screen='overview';navigateHash('#small-molecule');render();return readState();}
-function startLevel(id,step){if(!allIds.includes(id))throw new Error('Unknown level');if(step!==undefined&&(!Number.isInteger(step)||step<0||step>2))throw new Error('Step must be 0, 1, or 2');stopClip();if($('#modal').open)$('#modal').close();if(state.lesson!==id){state.reasoningPastTopic=state.progress[id]?.reasoning?.pastTopic;state.reasoningTopic=state.progress[id]?.reasoning?.topic;state.reasoningIntro=state.progress[id]?.reasoning?.intro;state.reasoningNode=state.progress[id]?.reasoning?.node;state.reasoningCase=state.progress[id]?.reasoning?.caseId;state.candidateBridgeCase=undefined;state.pilotStep=undefined;state.evidenceStep=undefined;state.transitionTab=undefined;state.leadTopic=undefined;state.leadTier=undefined;state.hitStage=undefined;state.hitProgram=undefined;state.vertexMapNode=undefined;state.vertexExampleTab=undefined;}state.lesson=id;if(isReadingChapter()&&reasoningGuide().readingTopics.some(t=>t.id===state.reasoningTopic)){state.reasoningPastTopic=state.reasoningTopic;state.reasoningTopic=reasoningGuide().lessons.id;}state.step=isReadingChapter()?0:step??(done(id)?0:state.progress[id]?.step??0);state.selected=null;state.feedback=false;state.screen='lesson';navigateHash(`#small-molecule/${id}/${state.step}`);render();queueStepSave(id,state.step);return readState();}
-function moveStep(delta){if(state.screen!=='lesson'||![-1,1].includes(delta))return;if(isReadingChapter()){const topics=reasoningReadingTopics(),next=Math.max(0,Math.min(topics.length-1,reasoningReadingIndex()+delta));selectReasoningTopic(topics[next].id);return;}state.step=Math.min(2,Math.max(0,state.step+delta));state.selected=null;state.feedback=false;navigateHash(`#small-molecule/${state.lesson}/${state.step}`,true);render();queueStepSave(state.lesson,state.step);}
-function checkAnswer(){if(isReadingChapter()||state.selected===null)return;state.feedback=true;render(false);announce(QUESTIONS[state.lesson].options[state.selected][1]);$('#feedback').scrollIntoView({block:'nearest',behavior:'smooth'});}
-async function completeLevel(){if(isReadingChapter()||state.saving||state.screen!=='lesson'||state.step!==2||!state.feedback||!QUESTIONS[state.lesson].options[state.selected]?.[2])return;const lesson=state.lesson,answer=state.selected;state.saving=true;render(false);saveQueue=saveQueue.then(async()=>{try{applyProgress(await request('/api/complete',{lesson,answer}));state.saveStatus='Progress saved in this browser';state.saveError=false;if(state.screen==='lesson'&&state.lesson===lesson&&state.step===2){state.screen='complete';announce('Level completed and progress saved.');}}catch(e){state.saveStatus=e.message;state.saveError=true;}state.saving=false;render();});return saveQueue;}
+function restoreOverviewPosition(id){
+ const card=$(`.topic-card[data-level="${id}"]`);
+ if(!card){$('#lesson').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});return;}
+ if(overviewReturnPosition?.lesson===id){
+  window.scrollTo({top:overviewReturnPosition.top,behavior:'instant'});
+  const bounds=card.getBoundingClientRect?.();
+  // Resizing or opening a lesson through Continue can leave its card outside the saved viewport.
+  if(bounds&&(bounds.top<16||bounds.bottom>window.innerHeight-16))card.scrollIntoView({block:'center',inline:'nearest',behavior:'instant'});
+ }else card.scrollIntoView({block:'center',inline:'nearest',behavior:'instant'});
+ card.focus({preventScroll:true});
+}
+function showOverview({restore=true}={}){const returning=restore&&(state.screen==='lesson'||state.screen==='complete');stopClip();if($('#modal').open)$('#modal').close();state.screen='overview';navigateHash('#small-molecule');render(!returning);if(returning)restoreOverviewPosition(state.lesson);return readState();}
+function startLevel(id,step){if(!allIds.includes(id))throw new Error('Unknown level');if(step!==undefined&&(!Number.isInteger(step)||step<0||step>2))throw new Error('Step must be 0, 1, or 2');if(state.screen==='overview')overviewReturnPosition={lesson:id,top:Math.max(0,window.scrollY||0)};stopClip();if($('#modal').open)$('#modal').close();if(state.lesson!==id){state.reasoningPastTopic=state.progress[id]?.reasoning?.pastTopic;state.reasoningTopic=state.progress[id]?.reasoning?.topic;state.reasoningIntro=state.progress[id]?.reasoning?.intro;state.reasoningNode=state.progress[id]?.reasoning?.node;state.reasoningCase=state.progress[id]?.reasoning?.caseId;state.candidateBridgeCase=undefined;state.pilotStep=undefined;state.evidenceStep=undefined;state.transitionTab=undefined;state.leadTopic=undefined;state.leadTier=undefined;state.hitStage=undefined;state.hitProgram=undefined;state.vertexMapNode=undefined;state.vertexExampleTab=undefined;}state.lesson=id;if(isReadingChapter()&&reasoningGuide().readingTopics.some(t=>t.id===state.reasoningTopic)){state.reasoningPastTopic=state.reasoningTopic;state.reasoningTopic=reasoningGuide().lessons.id;}state.step=isReadOnlyChapter()?0:step??(done(id)?0:state.progress[id]?.step??0);state.selected=null;state.feedback=false;state.screen='lesson';navigateHash(`#small-molecule/${id}/${state.step}`);render();queueStepSave(id,state.step);return readState();}
+function moveStep(delta){if(state.screen!=='lesson'||![-1,1].includes(delta))return;if(isReadingChapter()){const topics=reasoningReadingTopics(),next=Math.max(0,Math.min(topics.length-1,reasoningReadingIndex()+delta));selectReasoningTopic(topics[next].id);return;}if(isConceptChapter()){if(!reasoningGuide().minimal)selectReasoningNode(Math.max(0,Math.min(reasoningGuide().nodes.length-1,reasoningIndex()+delta)));return;}state.step=Math.min(2,Math.max(0,state.step+delta));state.selected=null;state.feedback=false;navigateHash(`#small-molecule/${state.lesson}/${state.step}`,true);render();queueStepSave(state.lesson,state.step);}
+function checkAnswer(){if(isReadOnlyChapter()||state.selected===null)return;state.feedback=true;render(false);announce(QUESTIONS[state.lesson].options[state.selected][1]);$('#feedback').scrollIntoView({block:'nearest',behavior:'smooth'});}
+async function completeLevel(){if(isReadOnlyChapter()||state.saving||state.screen!=='lesson'||state.step!==2||!state.feedback||!QUESTIONS[state.lesson].options[state.selected]?.[2])return;const lesson=state.lesson,answer=state.selected;state.saving=true;render(false);saveQueue=saveQueue.then(async()=>{try{applyProgress(await request('/api/complete',{lesson,answer}));state.saveStatus='Progress saved in this browser';state.saveError=false;if(state.screen==='lesson'&&state.lesson===lesson&&state.step===2){state.screen='complete';announce('Level completed and progress saved.');}}catch(e){state.saveStatus=e.message;state.saveError=true;}state.saving=false;render();});return saveQueue;}
 function updateExposure(){if(!$('#exposure-chart'))return;const m=exposureMetrics();$('#exposure-chart').innerHTML=exposureChart();$('#f-value').textContent=Math.round(state.bioavailability*100)+'%';$('#h-value').textContent=state.halfLife+' h';$('#exposure-metrics').innerHTML=`<span>Initial concentration <strong>${m.initial.toFixed(0)} units</strong></span><span>Total exposure (AUC₀–∞) <strong>${m.auc.toFixed(0)} unit·h</strong></span>`;}
 function setExposure(f,h){if(typeof f!=='number'||!Number.isFinite(f)||f<.1||f>1||Math.abs(f*20-Math.round(f*20))>1e-8)throw new Error('Bioavailability must be 0.10–1.00 in 0.05 increments');if(!Number.isInteger(h)||h<1||h>12)throw new Error('Half-life must be 1–12 hours');state.bioavailability=f;state.halfLife=h;if($('#bioavailability')){$('#bioavailability').value=f*100;$('#half-life').value=h;updateExposure();}return readState();}
 function setModel(value){if(typeof value!=='boolean')throw new Error('engaged must be a boolean');state.modelEngaged=value;if(state.lesson==='model'&&state.step===1)render(false);return readState();}
@@ -15514,7 +16051,7 @@ function drawClip(){const c=CLIP[state.clipStep];$('#clip-stage').innerHTML=`<di
 function scheduleClip(){clipTimer=setTimeout(()=>{if(!state.clipPlaying)return;if(state.clipStep===5){stopClip();drawClip();return;}state.clipStep++;drawClip();scheduleClip();},CLIP[state.clipStep][4]*1000);}
 function playClip(){if(state.clipPlaying){stopClip();drawClip();return;}if(state.clipStep===5)state.clipStep=0;state.clipPlaying=true;drawClip();scheduleClip();}
 document.addEventListener('click',e=>{const tab=e.target.closest('[data-lesson-step]');if(!tab||state.screen!=='lesson')return;const step=Number(tab.dataset.lessonStep);if(Number.isInteger(step)&&step>=0&&step<=2&&step!==state.step)startLevel(state.lesson,step);});
-document.addEventListener('click',e=>{if(e.target.closest('.skip')){e.preventDefault();$('#lesson').focus();return;}const l=e.target.closest('[data-level]');if(l){startLevel(l.dataset.level);return;}const stream=e.target.closest('[data-stream]');if(stream){state.stream=stream.dataset.stream;render(false);return;}const b=e.target.closest('[data-action]');if(!b)return;const actions={portal:showPortal,welcome:()=>{showPortal();welcome(true);},'dismiss-welcome':dismissWelcome,goal:()=>modal("YOUR GOAL",`<h2>${level().title}</h2><p>${level().goal}</p>`),overview:showOverview,'reset-progress':confirmProgressReset,'confirm-reset':resetLearningProgress,'cancel-reset':()=>$('#modal').close(),back:()=>moveStep(-1),next:()=>moveStep(1),check:checkAnswer,complete:completeLevel,'complete-reading':completeReadingChapter,retry:loadProgress,sources,about,curriculum,dossier,ai,copy:copyPrompt,experiment,clip,'reset-exposure':()=>setExposure(.5,4),'clip-play':playClip,'clip-prev':()=>{stopClip();state.clipStep=Math.max(0,state.clipStep-1);drawClip();},'clip-next':()=>{stopClip();state.clipStep=Math.min(5,state.clipStep+1);drawClip();}};actions[b.dataset.action]?.();});
+document.addEventListener('click',e=>{if(e.target.closest('.skip')){e.preventDefault();$('#lesson').focus();return;}const l=e.target.closest('[data-level]');if(l){startLevel(l.dataset.level);return;}const stream=e.target.closest('[data-stream]');if(stream){state.stream=stream.dataset.stream;render(false);return;}const b=e.target.closest('[data-action]');if(!b)return;const actions={portal:showPortal,welcome:()=>{showPortal();welcome(true);},'dismiss-welcome':dismissWelcome,goal:()=>modal("YOUR GOAL",`<h2>${level().title}</h2><p>${level().goal}</p>`),overview:showOverview,'reset-progress':confirmProgressReset,'confirm-reset':resetLearningProgress,'cancel-reset':()=>$('#modal').close(),back:()=>moveStep(-1),next:()=>moveStep(1),check:checkAnswer,complete:completeLevel,'complete-reading':completeReadingChapter,'complete-concept':completeConceptChapter,retry:loadProgress,sources,about,curriculum,dossier,ai,copy:copyPrompt,experiment,clip,'reset-exposure':()=>setExposure(.5,4),'clip-play':playClip,'clip-prev':()=>{stopClip();state.clipStep=Math.max(0,state.clipStep-1);drawClip();},'clip-next':()=>{stopClip();state.clipStep=Math.min(5,state.clipStep+1);drawClip();}};actions[b.dataset.action]?.();});
 document.addEventListener('click',e=>{
  const link=e.target.closest('a[data-new-tab]');
  if(!link||e.defaultPrevented||e.button!==0||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
@@ -15525,6 +16062,8 @@ document.addEventListener('change',e=>{if(e.target.name==='answer'){state.select
 document.addEventListener('input',e=>{if(e.target.id==='bioavailability')setExposure(Number(e.target.value)/100,state.halfLife);if(e.target.id==='half-life')setExposure(state.bioavailability,Number(e.target.value));if(e.target.id==='experiment-note')state.experimentNote=e.target.value;});
 $('#close-modal').addEventListener('click',()=>$('#modal').close());$('#modal').addEventListener('close',stopClip);
 let applyingRoute=false;
+// The app renders each route itself, so browser history must not overwrite its restored map position.
+if('scrollRestoration' in history)history.scrollRestoration='manual';
 function navigateHash(hash,replace=false){if(applyingRoute||location.hash===hash)return;history[replace?'replaceState':'pushState'](null,'',hash);}
 function applyRoute(){
  applyingRoute=true;
@@ -15534,8 +16073,8 @@ function applyRoute(){
   else if(['overview','small-molecule'].includes(parts[0])&&!parts[1])showOverview();
   else {const id=parts[0]==='small-molecule'?parts[1]:parts[0],raw=parts[0]==='small-molecule'?parts[2]:parts[1],step=raw===undefined?undefined:Number(raw);if(allIds.includes(id)&& (step===undefined||(Number.isInteger(step)&&step>=0&&step<=2)))startLevel(id,step);else showPortal();}
  }finally{applyingRoute=false;}
- // Retain old lesson URLs while normalizing this reading chapter to its single view.
- if(state.screen==='lesson'&&isReadingChapter())navigateHash(`#small-molecule/${state.lesson}/0`,true);
+ // Retain old lesson URLs while normalizing reading chapters to their single view.
+ if(state.screen==='lesson'&&isReadOnlyChapter())navigateHash(`#small-molecule/${state.lesson}/0`,true);
 }
 window.addEventListener('hashchange',applyRoute);
 document.addEventListener('click',e=>{const adme=e.target.closest('[data-adme-principle]');if(adme){selectAdmePrinciple(adme.dataset.admePrinciple);return;}const sar=e.target.closest('[data-sar-principle]');if(sar){selectSarPrinciple(sar.dataset.sarPrinciple);return;}const tier=e.target.closest('[data-lead-tier]');if(tier){selectLeadTier(tier.dataset.leadTier);return;}const leadTopic=e.target.closest('[data-lead-topic]');if(leadTopic){selectLeadTopic(leadTopic.dataset.leadTopic);return;}const hitChoice=e.target.closest('[data-hit-program]');if(hitChoice){selectHitProgram(hitChoice.dataset.hitProgram);return;}const hitStage=e.target.closest('[data-hit-stage]');if(hitStage){selectHitStage(hitStage.dataset.hitStage);return;}const category=e.target.closest('[data-pi3k-category]');if(category){selectPi3kCategory(category.dataset.pi3kCategory);return;}const milestone=e.target.closest('[data-pi3k-milestone]');if(milestone)selectPi3kMilestone(milestone.dataset.pi3kMilestone);});

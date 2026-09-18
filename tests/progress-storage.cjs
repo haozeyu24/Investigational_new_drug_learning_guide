@@ -6,7 +6,7 @@ function storageFrom(values=new Map()){
 }
 async function openGuide(protocol,storage,session=storageFrom()){
  const nodes=new Map();
- const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',dataset:{},open:false,focus(){},setAttribute(k,v){this[k]=v},addEventListener(){},showModal(){this.open=true},close(){this.open=false},classList:{toggle(){},add(){},remove(){}}});return nodes.get(s);};
+ const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',dataset:{},open:false,focus(){},scrollIntoView(){},setAttribute(k,v){this[k]=v},addEventListener(){},showModal(){this.open=true},close(){this.open=false},classList:{toggle(){},add(){},remove(){}}});return nodes.get(s);};
  const location={protocol,hash:'#small-molecule'};
  const context=vm.createContext({console,setTimeout,clearTimeout,location,
   history:{pushState(a,b,h){location.hash=h},replaceState(a,b,h){location.hash=h}},

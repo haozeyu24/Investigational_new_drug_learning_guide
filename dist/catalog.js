@@ -694,31 +694,39 @@ const CATALOG = {
       "concept": "Target identification does not mean starting from knowing nothing. A program can begin with an unfamiliar disease mechanism, a genetic association, or an established target that existing drugs do not address well enough. The task is to identify or select a biological target and explain why changing its activity could help in a defined disease context.",
       "takeaway": "Name the target. Specify the intervention. Test whether that intervention changes disease biology for the right reason.",
       "targetGuide": {
-        "validation": "Target validation tests that therapeutic hypothesis in a relevant system. Expression or a computational ranking can suggest a target; independent perturbations, controls, and rescue experiments help establish causality. In phenotypic discovery, the activity finding may come before target identification.",
-        "perturbationNote": "Genetic depletion, partial inhibition, and allosteric modulation are different perturbations. Evidence for one does not automatically validate the others; keep conclusions specific to the model and intervention tested.",
-        "caseTitle": "Three decisions to define",
-        "caseIntro": "A target is the biological entity you want to modulate. A binding site is a location through which a drug can act on that target.",
-        "layers": [
+        "headline": "What should we change—and why might it help?",
+        "intro": "Programs can begin with genetics, disease biology, or a known target. Turn that starting knowledge into a testable therapeutic hypothesis.",
+        "steps": [
           {
-            "label": "Biological target",
-            "question": "What should change?",
-            "example": "Specify the protein, RNA, or other biological entity—and the relevant disease context."
+            "label": "Target identification",
+            "question": "Which target is worth pursuing?",
+            "text": "Identify or select a protein, RNA, or other biological entity whose modulation could matter in the disease context."
           },
           {
-            "label": "Therapeutic hypothesis",
-            "question": "What intervention could help?",
-            "example": "Define the desired change in activity and the expected disease benefit."
+            "label": "Intervention hypothesis",
+            "question": "What change could provide benefit?",
+            "text": "Specify the desired intervention, such as inhibition or activation, and the effect you expect in the relevant disease setting."
           },
           {
-            "label": "Binding site and mechanism",
-            "question": "Where and how can a drug act?",
-            "example": "Identify a feasible way to modulate the target, with the selectivity and exposure the hypothesis requires."
+            "label": "Target validation",
+            "question": "Does the evidence support it?",
+            "text": "Test whether perturbing the target changes disease biology. Use complementary approaches and controls to challenge alternative explanations and examine effects on normal function."
           }
         ],
-        "questions": [
-          "Does the intended perturbation change a disease-relevant phenotype?",
-          "Do independent tests support target attribution rather than an alternative explanation?",
-          "Can the intervention produce a useful effect while preserving essential normal functions?"
+        "sequenceNote": "Revisit these questions as evidence grows. They are a reasoning path, not a fixed experimental sequence.",
+        "distinctions": [
+          {
+            "title": "The target and the binding site",
+            "text": "The target is the biological entity; a binding site is a location through which a molecule can act. A known pocket is not required to begin validation."
+          },
+          {
+            "title": "Genetic evidence and drug evidence",
+            "text": "Removing a protein can differ from partially inhibiting it. Keep conclusions specific to the intervention and model tested."
+          },
+          {
+            "title": "Different starting points",
+            "text": "Target identification can mean selecting an established target. In phenotypic discovery, useful activity may be observed before the target is known."
+          }
         ]
       },
       "exampleTitle": "PI3K inhibition: from a biological clue to a therapeutic strategy",

@@ -4,19 +4,20 @@ const script=html.match(/<script data-local-bundle>\n([\s\S]*?)\n<\/script>/)[1]
 const key='first-in-class-progress',stored=new Map();
 async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',options={}){
  const backing=options.stored||stored, failures={write:false};
- const nodes=new Map(),handlers={};
- const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',dataset:{},open:false,focus(){this.focused=true},scrollIntoView(){},setAttribute(k,v){this[k]=v},addEventListener(){},showModal(){this.open=true},close(){this.open=false},classList:{toggle(){},add(){},remove(){}}});return nodes.get(s);};
+ const nodes=new Map(),handlers={},focusHistory=[];
+ const node=s=>{if(!nodes.has(s))nodes.set(s,{innerHTML:'',dataset:{},open:false,focus(){this.focused=true;focusHistory.push(s)},scrollIntoView(){},setAttribute(k,v){this[k]=v},addEventListener(){},showModal(){this.open=true},close(){this.open=false},classList:{toggle(){},add(){},remove(){}}});return nodes.get(s);};
  const location={protocol:'file:',hash},storage={getItem:k=>backing.get(k)??null,setItem:(k,v)=>{if(failures.write)throw Error('Storage quota exceeded');backing.set(k,v)},removeItem:k=>backing.delete(k)};
  const ctx=vm.createContext({console,setTimeout,clearTimeout,location,history:{pushState(a,b,h){location.hash=h},replaceState(a,b,h){location.hash=h}},window:{localStorage:storage,sessionStorage:storage,addEventListener(){},matchMedia:()=>({matches:false,addEventListener(){}}),scrollTo(){}},document:{querySelector:node,querySelectorAll:()=>[],addEventListener(k,f){(handlers[k]??=[]).push(f)},body:{classList:{toggle(){}}}},fetch(){throw Error('No network needed for the local guide');}});
  const run=s=>vm.runInContext(s,ctx);
  const click=(key,value)=>{const b={dataset:{[key]:value}},selector='[data-'+key.replace(/[A-Z]/g,c=>'-'+c.toLowerCase())+']';for(const f of handlers.click||[])f({target:{closest:s=>s===selector?b:null}});};
- run(script);await run('ready');run('dismissWelcome()');await run('saveQueue');return {run,node,click,handlers,location,failures};
+ run(script);await run('ready');run('dismissWelcome()');await run('saveQueue');return {run,node,click,handlers,location,failures,focusHistory};
 }
 (async()=>{
  const {run,node,click,handlers}=await openGuide();
  const readingId='nonclinical-pharmacology';
- const topicIds=['fda-requirements','ivacaftor-ind','lessons-from-the-past'];
+ const topicIds=['fda-requirements','bridge-evidence','ivacaftor-ind','lessons-from-the-past'];
  const pastIds=['existing-evidence','drug-action','possible-benefit','patient-selection','measured-benefit'];
+ const historyIds=['interpret-effect','plan-patients','learn-from-patients'];
  assert.equal(run('reasoningGuide().format'),'case-tabs');
  assert.equal(JSON.stringify(run('reasoningReadingTopics().map(t=>t.id)')),JSON.stringify(topicIds));
  assert.equal(JSON.stringify(run('reasoningGuide().readingTopics.map(t=>t.id)')),JSON.stringify(pastIds));
@@ -24,7 +25,15 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
  assert(run('reasoningOpeningActive()'));assert(node('#lesson').innerHTML.includes('What must the IND explain?'));
  for(const source of run('reasoningGuide().opening.sources'))assert(run('level().sources.some(s=>s.url==='+JSON.stringify(source.url)+')'));
  const escaped=value=>run('escapeHtml('+JSON.stringify(value)+')');
+ const hasOpen=attrs=>/(?:^|\s)open(?:\s|=|$)/.test(attrs);
+ const archiveAttrs=out=>{const match=out.match(/<details\b([^>]*\breasoning-history-archive\b[^>]*)>/);assert(match,'Optional reference collection uses a native disclosure');return match[1];};
+ const historyCaseAttrs=(out,id)=>{
+  const cases=[...out.matchAll(/<details\b([^>]*\breasoning-history-case\b[^>]*)>/g)];
+  assert.equal(cases.length,3,'Three connected main cases');
+  const match=cases.find(m=>m[1].includes('data-past-topic="'+id+'"'));assert(match,'Main case '+id+' exists');return match[1];
+ };
  const archiveOpenGroup=(out,id)=>{
+  assert(hasOpen(archiveAttrs(out)),'A bookmarked reference group opens its archive parent');
   const label=escaped(run('reasoningGuide().readingTopics.find(t=>t.id==='+JSON.stringify(id)+').label'));
   const groups=[...out.matchAll(/<details\b([^>]*\breasoning-past-topic\b[^>]*)>\s*<summary\b[^>]*>([\s\S]*?)<\/summary>/g)];
   assert.equal(groups.length,5,'Five native disclosure groups contain the historical cases');
@@ -38,29 +47,39 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
   assert.equal(run('readState().stepName'),run('reasoningReadingTopic().label'));
   assert.equal((out.match(/<nav[^>]+reasoning-reading-tabs/g)||[]).length,1);
   const tabNav=out.match(/<nav[^>]+reasoning-reading-tabs[^>]*>([\s\S]*?)<\/nav>/)[1];
-  assert.equal((tabNav.match(/data-reasoning-topic=/g)||[]).length,3,'Exactly three top-level topics');
+  assert.equal((tabNav.match(/data-reasoning-topic=/g)||[]).length,4,'Exactly four top-level topics');
   for(const old of pastIds)assert(!tabNav.includes('data-reasoning-topic="'+old+'"'),'Historical groups are not top-level tabs');
   assert(!/reasoning-views|data-lesson-step|class="reasoning-rail"|name="answer"|Your revised argument/.test(out));
   assert(!/undefined|NaN/.test(out));assert.equal(run('state.step'),0);
   assert(out.includes('data-reasoning-topic="'+id+'" aria-pressed="true"'));
-  assert.equal(out.includes('data-action="complete-reading"'),i===2);
+  assert.equal(out.includes('data-action="complete-reading"'),i===topicIds.length-1);
+  const controls=out.slice(out.indexOf('class="lesson-controls reasoning-controls reasoning-reading-controls"'),out.indexOf('<div class="reasoning-footer"'));
+  const adjacentIds=[...controls.matchAll(/data-reasoning-topic="([^"]+)"/g)].map(m=>m[1]);
+  assert.deepEqual(adjacentIds,[...(i?[topicIds[i-1]]:[]),...(i<topicIds.length-1?[topicIds[i+1]]:[])],'Previous/next controls follow the four-topic order');
   assert(!run("done('nonclinical-pharmacology')"),'Reading navigation must not complete the chapter');
+  if(id==='bridge-evidence'){
+   assert.equal(run('reasoningGuide().bridge.id'),id);
+   assert.equal(run('reasoningReadingTopic().label'),'Bridge the evidence');
+   const panel=out.slice(out.indexOf('<div id="reasoning-reading-panel"'),out.indexOf('<div class="lesson-controls reasoning-controls reasoning-reading-controls"'));
+   assert(/class="[^"]*\breasoning-bridge\b/.test(panel),'Bridge topic displays its own panel');
+   assert(panel.replace(/<[^>]*>/g,'').trim(),'Bridge panel has visible content');
+  }
   if(id==='ivacaftor-ind'){
    const worked=run('reasoningGuide().workedCase');assert.equal(worked.id,id);
    assert.equal(worked.label,'Ivacaftor: follow the evidence');
-   for(const removed of ['reports','firstStudy','review'])assert.equal(worked[removed],undefined,'Replaced field stays removed: '+removed);
+   for(const removed of ['reports','firstStudy','review','assessment'])assert.equal(worked[removed],undefined,'Removed field stays absent: '+removed);
    assert(out.includes('reasoning-ind-case'),'Ivacaftor remains one coherent worked-case surface');
    const workedStart=out.indexOf('<article class="reasoning-ind-case"');assert(workedStart>=0);
    const workedHtml=out.slice(workedStart,out.indexOf('</article>',workedStart)+10);
    const caseParts=[...workedHtml.matchAll(/<details\b([^>]*\breasoning-case-part\b[^>]*)>([\s\S]*?)<\/details>/g)];
-   assert.equal(caseParts.length,3,'Discovery, source comparison and FDA assessment are three native disclosures');
+   assert.equal(caseParts.length,2,'Discovery and source comparison are the two native disclosures');
    const partBodies=caseParts.map((part,index)=>{
     assert(!/(?:^|\s)open(?:\s|=|$)/.test(part[1]),'Each case part starts closed');
     assert(!/(?:^|\s)name\s*=/.test(part[1]),'Case parts can open independently');
     const summary=part[2].match(/^\s*<summary\b[^>]*class="[^"]*\breasoning-case-part-heading\b[^"]*"[^>]*>([\s\S]*?)<\/summary>/);
     assert(summary,'Each disclosure starts with its native summary');
-    const title=[worked.discovery.title,worked.comparison.title,worked.assessment.title][index];
-    assert(summary[1].includes('<h3>'+escaped(title)+'</h3>'),'Summary titles retain discovery, comparison, assessment order');
+    const title=[worked.discovery.title,worked.comparison.title][index];
+    assert(summary[1].includes('<h3>'+escaped(title)+'</h3>'),'Summary titles retain discovery, comparison order');
     const body=part[2].slice(summary[0].length).match(/^\s*<div\b[^>]*class="[^"]*\breasoning-case-part-body\b[^"]*"[^>]*>([\s\S]*)<\/div>\s*$/);
     assert(body,'Disclosure content stays inside its case-part body');
     return body[1];
@@ -149,22 +168,41 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
     assert(cells[2][1].includes(escaped(row.addition.label)),row.id+' shows its rationale label in the fourth column');
     assert(cells[2][1].includes(escaped(row.addition.text)),row.id+' explains scientific relevance in the fourth column');
    }
-   const assessment=worked.assessment;assert.equal(assessment.items.length,3);
-   for(const item of assessment.items){assert(partBodies[2].includes(escaped(item.label)));assert(partBodies[2].includes(escaped(item.text)));}
-   sourceShown(assessment.source,partBodies[2]);
+   assert(!workedHtml.includes('How FDA assessed the evidence'),'The removed FDA assessment section is absent');
    assert(workedHtml.includes(escaped(worked.stage)),'Initial IND provenance remains visible');
    assert(fs.existsSync('dist/'+worked.image),'Worked-case molecular structure exists');assert(workedHtml.includes(escaped(worked.imageAlt)));
    assert(out.includes('target="_blank" rel="noopener noreferrer"'));
   }
   if(id==='lessons-from-the-past'){
+   const sequence=run('reasoningGuide().lessons.sequence');
+   assert.equal(JSON.stringify(sequence.map(c=>c.id)),JSON.stringify(historyIds));
+   assert.equal(JSON.stringify(sequence.map(c=>c.drug)),JSON.stringify(['Cinacalcet','Ensartinib','Crizotinib']));
+   const mainCases=[...out.matchAll(/<details\b([^>]*\breasoning-history-case\b[^>]*)>([\s\S]*?)<\/details>/g)];
+   for(const c of sequence){
+    const rendered=mainCases.find(m=>m[1].includes('data-past-topic="'+c.id+'"'));assert(rendered,c.id+' renders a complete main case');
+    for(const field of ['drug','stage','provenance','question','setup','limit'])assert(rendered[2].includes(escaped(c[field])),c.id+' retains '+field+' in its own disclosure');
+    for(const group of ['decision','lesson'])for(const field of ['label','text'])assert(rendered[2].includes(escaped(c[group][field])),c.id+' renders '+group+' '+field);
+    for(const n of c.visual.nodes)for(const field of ['label','title','text'])assert(rendered[2].includes(escaped(n[field])),c.id+' retains visual '+field);
+    for(const source of c.sources){assert(/#page=\d+/.test(source.url));assert(rendered[2].includes(source.url.replace(/&/g,'&amp;')));assert(run('level().sources.some(s=>s.url==='+JSON.stringify(source.url)+')'));}
+   }
+   assert.match(sequence[0].provenance,/earlier human|prior human/i,'Cinacalcet original US IND is distinguished from first-ever human exposure');
+   assert.match(sequence[1].provenance,/later IND/i,'Ensartinib history is attributed to later correspondence');
+   assert.match(sequence[2].stage,/amendments/i,'Crizotinib findings retain their developing-protocol context');
+   assert.match(sequence[2].limit,/stable.disease.*not objective responses/i,'Stable disease is not relabeled as an objective response');
+   assert(!hasOpen(archiveAttrs(out)),'Reference collection starts collapsed');
+   for(const [index,caseId] of historyIds.entries()){
+    assert.equal(hasOpen(historyCaseAttrs(out,caseId)),index===0,'Only the first main case starts open');
+    assert(out.includes('data-past-lesson="'+caseId+'"'),'Main flow links to '+caseId);
+   }
    assert.equal((out.match(/<details\b[^>]*\breasoning-past-topic\b/g)||[]).length,5);
+   const archiveStart=out.search(/<details\b[^>]*\breasoning-history-archive\b/),archiveHtml=out.slice(archiveStart);
    for(const topic of run('reasoningGuide().readingTopics')){
-    assert.equal(topic.cases.length,2);assert(out.includes(escaped(topic.label)));assert(out.includes(escaped(topic.principle)));
+    assert.equal(topic.cases.length,2);assert(archiveHtml.includes(escaped(topic.label)));assert(archiveHtml.includes(escaped(topic.principle)));
     for(const c of [...topic.cases,...topic.moreCases]){
-     for(const field of ['stage','limit','modality','lesson'])assert(out.includes(escaped(c[field])),c.id+' displays '+field);
-     if(c.steps)for(const step of c.steps)assert(out.includes(escaped(step.text)),c.id+' retains its concrete sequence');
-     if(c.finding)assert(out.includes(escaped(c.finding)),c.id+' retains its finding');
-     for(const source of c.sources){assert(/#page=\d+/.test(source.url));assert(out.includes(source.url.replace(/&/g,'&amp;')));}
+     for(const field of ['stage','limit','modality','lesson'])assert(archiveHtml.includes(escaped(c[field])),c.id+' displays '+field);
+     if(c.steps)for(const step of c.steps)assert(archiveHtml.includes(escaped(step.text)),c.id+' retains its concrete sequence');
+     if(c.finding)assert(archiveHtml.includes(escaped(c.finding)),c.id+' retains its finding');
+     for(const source of c.sources){assert(/#page=\d+/.test(source.url));assert(archiveHtml.includes(source.url.replace(/&/g,'&amp;')));}
      readingCases++;
     }
    }
@@ -177,14 +215,14 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
  // Reading completion is explicit, guarded, and cannot use the former quiz API.
  await run('saveQueue');
  for(const body of [
-  ...['fda-requirements','ivacaftor-ind',...pastIds].map(topic=>({lesson:readingId,topic,acknowledge:true})),
+  ...['fda-requirements','bridge-evidence','ivacaftor-ind',...pastIds].map(topic=>({lesson:readingId,topic,acknowledge:true})),
   {lesson:readingId,topic:'lessons-from-the-past'},
   {lesson:readingId,topic:'lessons-from-the-past',acknowledge:false},
   {lesson:readingId,topic:'lessons-from-the-past',acknowledge:'true'},
   {lesson:'cmc-stability',topic:'lessons-from-the-past',acknowledge:true}
  ])await assert.rejects(run('request("/api/complete-reading",'+JSON.stringify(body)+')'));
  await assert.rejects(run('request("/api/complete",{lesson:"nonclinical-pharmacology",answer:0})'));
- click('reasoningTopic','ivacaftor-ind');await run('completeReadingChapter()');assert.equal(run('state.screen'),'lesson');
+ for(const topic of topicIds.slice(0,-1)){click('reasoningTopic',topic);await run('completeReadingChapter()');assert.equal(run('state.screen'),'lesson');assert(!run("done('nonclinical-pharmacology')"));}
  run('showOverview()');await run('completeReadingChapter()');assert.equal(run('state.screen'),'overview');
  run("startLevel('nonclinical-pharmacology',0)");click('reasoningTopic','lessons-from-the-past');await run('saveQueue');
  assert(!run("done('nonclinical-pharmacology')"));click('action','complete-reading');await run('saveQueue');
@@ -211,7 +249,7 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
  // Native disclosure toggles persist the selected historical group independently of the top tab.
  const disclosureStore=new Map(),disclosure=await openGuide(undefined,{stored:disclosureStore});
  disclosure.click('reasoningTopic','lessons-from-the-past');
- function togglePast(guide,id,open){for(const fn of guide.handlers.toggle||[])fn({target:{dataset:{pastTopic:id},open,matches:s=>s==='.reasoning-past-topic'}});}
+ function togglePast(guide,id,open,kind='reasoning-past-topic'){for(const fn of guide.handlers.toggle||[])fn({target:{dataset:{pastTopic:id},open,matches:s=>s.split(',').some(selector=>selector.trim()==='.'+kind)}});}
  togglePast(disclosure,'patient-selection',true);await disclosure.run('saveQueue');
  assert.equal(disclosure.run('state.reasoningPastTopic'),'patient-selection');
  let disclosureSaved=JSON.parse(disclosureStore.get(key)).find(x=>x.lesson===readingId);
@@ -223,6 +261,40 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
  disclosureSaved=JSON.parse(disclosureStore.get(key)).find(x=>x.lesson===readingId);assert.equal(disclosureSaved.reasoning.pastTopic,undefined,'Closing the saved group clears its bookmark');
  disclosureRefresh.click('reasoningTopic','ivacaftor-ind');await disclosureRefresh.run('saveQueue');
  const workedRefresh=await openGuide(undefined,{stored:disclosureStore});assert.equal(workedRefresh.run('reasoningReadingTopic().id'),'ivacaftor-ind');assert(workedRefresh.node('#lesson').innerHTML.includes('reasoning-ind-case'));
+ // Main-case flow selection and native toggles share the existing saved past-topic position.
+ for(const caseId of historyIds){
+  const historyStore=new Map(),history=await openGuide(undefined,{stored:historyStore});
+  history.click('reasoningTopic','lessons-from-the-past');
+  const focusBefore=history.focusHistory.length;history.click('pastLesson',caseId);await history.run('saveQueue');
+  assert.equal(history.run('state.reasoningPastTopic'),caseId);assert(hasOpen(historyCaseAttrs(history.node('#lesson').innerHTML,caseId)));
+  assert(history.focusHistory.slice(focusBefore).some(selector=>selector.includes(caseId)),'Flow selection focuses its main case');
+  let savedHistory=JSON.parse(historyStore.get(key)).find(x=>x.lesson===readingId);
+  assert.equal(savedHistory.reasoning.topic,'lessons-from-the-past');assert.equal(savedHistory.reasoning.pastTopic,caseId);
+  const restored=await openGuide(undefined,{stored:historyStore});
+  assert.equal(restored.run('state.reasoningPastTopic'),caseId);assert(hasOpen(historyCaseAttrs(restored.node('#lesson').innerHTML,caseId)));
+  assert(!hasOpen(archiveAttrs(restored.node('#lesson').innerHTML)),'Main-case bookmarks do not open the optional archive');
+  for(const invalid of ['unknown','',...pastIds])restored.click('pastLesson',invalid);
+  assert.equal(restored.run('state.reasoningPastTopic'),caseId,'Flow ignores invalid and archive-only IDs');
+  restored.click('reasoningTopic','bridge-evidence');restored.click('pastLesson',historyIds[(historyIds.indexOf(caseId)+1)%3]);
+  assert.equal(restored.run('state.reasoningPastTopic'),caseId,'Flow is inactive outside Lessons from the past');
+  restored.click('reasoningTopic','lessons-from-the-past');
+  togglePast(restored,caseId,false,'reasoning-history-case');await restored.run('saveQueue');
+  assert.equal(restored.run('state.reasoningPastTopic'),undefined,'Closing the bookmarked main case clears its saved position');
+  togglePast(restored,caseId,true,'reasoning-history-case');await restored.run('saveQueue');
+  savedHistory=JSON.parse(historyStore.get(key)).find(x=>x.lesson===readingId);assert.equal(savedHistory.reasoning.pastTopic,caseId,'Native main-case opening persists');
+  restored.run("startLevel('cmc-stability',0)");const beforeOutside=restored.run('state.reasoningPastTopic');restored.click('pastLesson',caseId);
+  assert.equal(restored.run('state.reasoningPastTopic'),beforeOutside,'Other chapters ignore main-case flow actions');
+ }
+ // The inserted bridge topic saves/restores without renumbering existing topic IDs.
+ const bridgeStore=new Map(),bridge=await openGuide(undefined,{stored:bridgeStore});
+ bridge.click('reasoningTopic','bridge-evidence');await bridge.run('saveQueue');
+ assert.equal(JSON.parse(bridgeStore.get(key)).find(x=>x.lesson===readingId).reasoning.topic,'bridge-evidence');
+ const bridgeRefresh=await openGuide(undefined,{stored:bridgeStore});
+ assert.equal(bridgeRefresh.run('reasoningReadingTopic().id'),'bridge-evidence');assert.equal(bridgeRefresh.run('reasoningReadingIndex()'),1);
+ assert(bridgeRefresh.node('#lesson').innerHTML.includes('reasoning-bridge'));assert(!bridgeRefresh.run('done('+JSON.stringify(readingId)+')'));
+ bridgeRefresh.click('reasoningTopic','fda-requirements');bridgeRefresh.click('action','next');assert.equal(bridgeRefresh.run('reasoningReadingTopic().id'),'bridge-evidence');
+ bridgeRefresh.click('action','next');assert.equal(bridgeRefresh.run('reasoningReadingTopic().id'),'ivacaftor-ind');
+ bridgeRefresh.click('action','back');assert.equal(bridgeRefresh.run('reasoningReadingTopic().id'),'bridge-evidence');
  // Earlier map bookmarks receive the opening without losing existing completion.
  for(const topic of [undefined,'removed-topic'])for(const step of [1,2]){
   const legacyStore=new Map([[key,JSON.stringify([{lesson:readingId,step,completed:true,reasoning:{node:3,caseId:'old-case',...(topic?{topic}:{})}}])]]);
@@ -232,52 +304,107 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
  }
  run("startLevel('nonclinical-pharmacology',0)");
  function readingKey(key){let prevented=false;const current=run('reasoningReadingTopic().id');for(const fn of handlers.keydown||[])fn({key,target:{closest:s=>s==='.reasoning-reading-tabs button'?{dataset:{reasoningTopic:current}}:null},preventDefault(){prevented=true}});assert(prevented);}
- for(const [key,index] of [['Home',0],['ArrowRight',1],['End',2],['ArrowRight',0],['ArrowLeft',2]]){readingKey(key);assert.equal(run('reasoningReadingIndex()'),index);}
+ for(const [key,index] of [['Home',0],['ArrowRight',1],['End',3],['ArrowRight',0],['ArrowLeft',3]]){readingKey(key);assert.equal(run('reasoningReadingIndex()'),index);}
  click('reasoningNode','2');click('reasoningCase','obsolete-case');click('lessonStep','2');assert.equal(run('state.step'),0);
  // A failed write cannot claim completion, and retrying can save it normally.
  const failure=await openGuide(undefined,{stored:new Map()});failure.click('reasoningTopic','lessons-from-the-past');await failure.run('saveQueue');failure.failures.write=true;
  await failure.run('completeReadingChapter()');assert.equal(failure.run('state.screen'),'lesson');assert(failure.run('state.saveError'));assert(!failure.run("done('nonclinical-pharmacology')"));
  failure.failures.write=false;await failure.run('completeReadingChapter()');assert.equal(failure.run('state.screen'),'complete');
  const chapters=run("LEVELS.filter(l=>l.reasoningGuide&&l.reasoningGuide.format!=='case-tabs')");assert.equal(chapters.length,8);
- let steps=0,cases=0;
+ const minimalIds=['nonclinical-pkpd','nonclinical-safety','nonclinical-package'];
+ assert.deepEqual(Array.from(chapters.filter(l=>l.reasoningGuide.minimal),l=>l.id),minimalIds,'Three nonclinical chapters have a single overview');
+ const assertReadingOnly=(guide,label)=>{
+  const out=guide.node('#lesson').innerHTML;
+  assert.equal(guide.run('state.step'),0,label+' stays on its reading surface');
+  assert(!/reasoning-views|data-lesson-step=|name="answer"|reasoning-practice|reasoning-case-selector|data-reasoning-case=|data-action="(?:check|complete)"/.test(out),label+' has no outer lesson screens, example selector or exercise');
+  assert(!/undefined|NaN/.test(out),label+' renders without missing values');
+  return out;
+ };
+ let steps=0;
  for(const l of chapters){
-  run(`startLevel(${JSON.stringify(l.id)},0)`);
-  const g=l.reasoningGuide;
-  for(let i=0;i<g.nodes.length;i++){
-   click('reasoningNode',String(i));const out=node('#lesson').innerHTML;
-   assert.equal(run('state.reasoningNode'),i);assert(out.includes(g.opening?'reasoning-topic-tabs':'reasoning-rail'));assert(out.includes(run('escapeHtml(reasoningGuide().nodes['+i+'].question)')));
-   assert(out.includes('aria-current="step"'));assert(!/undefined|NaN/.test(out));
-   if(g.opening){assert(out.indexOf('reasoning-views')<out.indexOf('reasoning-topic-tabs'));assert(!out.includes('class="reasoning-rail"'));}else assert(out.indexOf('reasoning-rail')<out.indexOf('reasoning-views'));
-   for(const c of g.cases)assert(!out.includes('data-reasoning-case="'+c.id+'"'),'Cases remain in their own view');
-   assert(out.includes('FDA expectations &amp; scientific judgment'));steps++;
+  const id=JSON.stringify(l.id),g=l.reasoningGuide;
+  run(`startLevel(${id},0)`);await run('saveQueue');
+  assert.equal(l.question,undefined,'No exercise question is published for '+l.id);
+  assert(run('isConceptChapter()'));assert(run('isReadOnlyChapter()'));
+  assert(!run(`done(${id})`),'Opening '+l.id+' does not mark it complete');
+  let out=assertReadingOnly({run,node},l.id);
+  const finalNode=g.nodes.length-1;
+  // The completion endpoint accepts an explicit acknowledgement only at the final reading position.
+  for(const acknowledge of [undefined,false,'true'])await assert.rejects(run('request("/api/complete-concept",'+JSON.stringify({lesson:l.id,node:finalNode,acknowledge})+')'));
+  for(const answer of [0,1,2])await assert.rejects(run('request("/api/complete",'+JSON.stringify({lesson:l.id,answer})+')'));
+  if(g.minimal){
+   assert(out.includes('reasoning-minimal'));assert(!/reasoning-rail|data-reasoning-node=/.test(out),'Minimal overview exposes no node navigation');
+   assert.equal(run('readState().stepName'),'Overview');
+   assert(out.includes('data-action="complete-concept"'));
+   const before=out;click('reasoningNode','1');click('action','next');click('action','back');
+   assert.equal(node('#lesson').innerHTML,before,'Single-page overview ignores obsolete node and next/back actions');
+  }else{
+   assert(out.includes('class="reasoning-rail"'));
+   assert(!out.includes('data-action="complete-concept"'),'Completion is offered only on the last node');
+   await run('completeConceptChapter()');assert.equal(run('state.screen'),'lesson');assert(!run(`done(${id})`));
+   for(const invalidNode of [undefined,-1,0,g.nodes.length,'bad'])await assert.rejects(run('request("/api/complete-concept",'+JSON.stringify({lesson:l.id,acknowledge:true,node:invalidNode})+')'));
+   for(let i=0;i<g.nodes.length;i++){
+    click('reasoningNode',String(i));out=assertReadingOnly({run,node},l.id);
+    assert.equal(run('reasoningIndex()'),i);assert.equal(run('readState().stepName'),g.nodes[i].label);
+    assert(out.includes(escaped(g.nodes[i].question)));assert(out.includes('aria-current="step"'));
+    assert(out.includes('FDA expectations &amp; scientific judgment'));
+    assert.equal(out.includes('data-action="complete-concept"'),i===finalNode);
+    assert(!run(`done(${id})`),'Reading navigation does not complete '+l.id);steps++;
+   }
+   for(const invalid of ['-1','99','bad'])click('reasoningNode',invalid);
+   assert.equal(run('reasoningIndex()'),finalNode,'Invalid nodes are ignored');
+   click('action','back');assert.equal(run('reasoningIndex()'),finalNode-1);assert.equal(run('state.step'),0);
+   click('action','next');assert.equal(run('reasoningIndex()'),finalNode);assert.equal(run('state.step'),0);
+   click('action','next');assert.equal(run('reasoningIndex()'),finalNode,'Next cannot open an exercise');
   }
-  for(const invalid of ['-1','99','bad'])click('reasoningNode',invalid);
-  assert.equal(run('state.reasoningNode'),g.nodes.length-1,'Invalid map steps are ignored');
-  click('lessonStep','1');assert.equal(run('state.step'),1);
-  for(const c of g.cases){
-   click('reasoningCase',c.id);const out=node('#lesson').innerHTML;
-   assert.equal(run('state.reasoningCase'),c.id);assert.equal(run('state.reasoningNode'),c.mapFocus);
-   assert(out.includes(run('escapeHtml(reasoningCase().stage)')));assert(out.includes(run('escapeHtml(reasoningCase().uncertain)')));
-   assert(out.includes('Decision it informs'));assert(!/undefined|NaN/.test(out));
-   for(const s of c.sources){assert(out.includes(s.url.replace(/&/g,'&amp;')));assert(s.url.includes('#page='),'Case links retain a source page');}
-   assert(out.includes('target="_blank" rel="noopener noreferrer"'));cases++;
-  }
-  click('reasoningCase','unknown');assert.equal(run('state.reasoningCase'),g.cases[1].id);
-  click('lessonStep','2');assert.equal(run('state.step'),2);
-  const correct=g.exercise.options.findIndex(o=>o.correct),wrong=(correct+1)%3;
-  run('state.selected='+wrong+';checkAnswer()');assert(node('#lesson').innerHTML.includes('Reconsider the connection.'));
-  assert(!node('#lesson').innerHTML.includes('Your revised argument'));await run('completeLevel()');assert.equal(run('state.screen'),'lesson');
-  run('state.selected='+correct+';checkAnswer()');assert(node('#lesson').innerHTML.includes('Your revised argument'));
-  for(const field of ['claim','support','uncertainty','next'])assert(node('#lesson').innerHTML.includes(run('escapeHtml(reasoningGuide().exercise.result.'+field+')')));
-  await run('completeLevel()');assert.equal(run('state.screen'),'complete');assert(run('done('+JSON.stringify(l.id)+')'));
+  const caseBefore=run('state.reasoningCase');
+  for(const c of g.cases)click('reasoningCase',c.id);
+  assert.equal(run('state.reasoningCase'),caseBefore,'Legacy example actions are inactive');
+  for(const oldStep of ['1','2']){click('lessonStep',oldStep);assertReadingOnly({run,node},l.id);}
+  run('state.selected=0;state.feedback=true');await run('completeLevel()');
+  assert.equal(run('state.screen'),'lesson');assert(!run(`done(${id})`),'The old quiz action cannot complete a reading chapter');
+  await run('saveQueue');click('action','complete-concept');await run('saveQueue');
+  assert.equal(run('state.screen'),'complete');assert(run(`done(${id})`));
+  const completed=JSON.parse(stored.get(key)).find(x=>x.lesson===l.id);
+  assert.equal(completed.step,0);assert.equal(completed.completionKind,'reading');
  }
- assert.equal(steps,31);assert.equal(cases,16);
+ assert.equal(chapters.filter(l=>!l.reasoningGuide.minimal).length,5,'Five CMC and clinical chapters retain their reading nodes');
+ // Every old example/exercise URL and saved position opens a reading page without losing completion.
+ const allReadingChapters=run('LEVELS.filter(l=>l.reasoningGuide)');assert.equal(allReadingChapters.length,9);
+ for(const l of allReadingChapters)for(const oldStep of [1,2])for(const completed of [false,true]){
+  const id=JSON.stringify(l.id),legacyStore=new Map([[key,JSON.stringify([{lesson:l.id,step:oldStep,completed,reasoning:{node:1,caseId:'obsolete-case'}}])]]);
+  const legacy=await openGuide('#small-molecule/'+l.id+'/'+oldStep,{stored:legacyStore});
+  assertReadingOnly(legacy,l.id+' old route '+oldStep);
+  assert.equal(legacy.location.hash,'#small-molecule/'+l.id+'/0');assert.equal(legacy.run(`done(${id})`),completed);
+  const migrated=JSON.parse(legacyStore.get(key)).find(x=>x.lesson===l.id);
+  assert.equal(migrated.step,0);assert.equal(migrated.completed,completed);
+  if(!l.reasoningGuide.minimal&&l.reasoningGuide.format!=='case-tabs')assert.equal(legacy.run('reasoningIndex()'),1,'Saved reading node survives route migration');
+ }
+ for(const l of allReadingChapters){
+  const savedStore=new Map([[key,JSON.stringify([{lesson:l.id,step:2,completed:false,reasoning:{node:1}}])]]);
+  const resume=await openGuide('#small-molecule',{stored:savedStore});
+  resume.run('startLevel('+JSON.stringify(l.id)+')');await resume.run('saveQueue');
+  assertReadingOnly(resume,l.id+' saved progress');assert.equal(resume.location.hash,'#small-molecule/'+l.id+'/0');
+  assert(!resume.run('done('+JSON.stringify(l.id)+')'),'Resuming a saved exercise does not complete the chapter');
+ }
+ for(const lesson of ['nonclinical-pharmacology','discovery-leads','unknown'])await assert.rejects(run('request("/api/complete-concept",'+JSON.stringify({lesson,acknowledge:true,node:0})+')'));
+ // Storage failure leaves both minimal and multi-node chapters incomplete; explicit retry succeeds.
+ for(const lesson of ['nonclinical-pkpd','cmc-stability']){
+  const failed=await openGuide('#small-molecule/'+lesson+'/0',{stored:new Map()});
+  if(!failed.run('Boolean(reasoningGuide().minimal)'))failed.click('reasoningNode',String(failed.run('reasoningGuide().nodes.length-1')));
+  await failed.run('saveQueue');failed.failures.write=true;
+  await failed.run('completeConceptChapter()');assert.equal(failed.run('state.screen'),'lesson');assert(failed.run('state.saveError'));
+  assert(!failed.run('state.saving'));assert(!failed.run('done('+JSON.stringify(lesson)+')'));
+  assert(failed.node('#lesson').innerHTML.includes('data-action="complete-concept"'),'Failed completion remains retryable');
+  failed.failures.write=false;await failed.run('completeConceptChapter()');assert.equal(failed.run('state.screen'),'complete');
+  assert.equal(failed.run('state.progress['+JSON.stringify(lesson)+'].completionKind'),'reading');
+ }
  run("startLevel('cmc-stability',0)");click('reasoningNode','1');await run('saveQueue');
  let saved=JSON.parse(stored.get(key)).find(x=>x.lesson==='cmc-stability');assert.equal(saved.reasoning.node,1);
  const refreshed=await openGuide('#small-molecule/cmc-stability/0');assert.equal(refreshed.run('state.reasoningNode'),1);assert(refreshed.run("done('cmc-stability')"));
  refreshed.click('lessonStep','1');refreshed.click('reasoningCase',refreshed.run('reasoningGuide().cases[1].id'));await refreshed.run('saveQueue');
- const revisited=await openGuide('#small-molecule/cmc-stability/1');assert.equal(revisited.run('reasoningCase().id'),revisited.run('reasoningGuide().cases[1].id'));
- assert.equal(revisited.run('countDone()'),9,'Reading and exercise completion survive topic and case changes');
+ const revisited=await openGuide('#small-molecule/cmc-stability/1');assert.equal(revisited.run('reasoningIndex()'),1);assertReadingOnly(revisited,'Completed chapter revisit');
+ assert.equal(revisited.run('countDone()'),9,'Reading completion survives topic changes and legacy example links');
  run("startLevel('cmc-stability',0)");click('reasoningNode','0');
  let prevented=false;const btn={dataset:{reasoningNode:'0'}};
  for(const fn of handlers.keydown||[])fn({key:'End',target:{closest:s=>s==='.reasoning-rail [data-reasoning-node]'?btn:null},preventDefault(){prevented=true}});
@@ -285,5 +412,5 @@ async function openGuide(hash='#small-molecule/nonclinical-pharmacology/0',optio
  run("startLevel('discovery-leads',0)");const previous=run('state.reasoningNode');click('reasoningNode','1');assert.equal(run('state.reasoningNode'),previous,'Other chapters ignore map actions');const readingBefore=run('state.reasoningTopic');click('reasoningTopic','drug-action');assert.equal(run('state.reasoningTopic'),readingBefore);
  // Clear through the existing UI path: it clears nested positions as well as completions.
  revisited.run('confirmProgressReset()');await revisited.run('resetLearningProgress()');assert.equal(stored.has(key),false);revisited.run("startLevel('nonclinical-pharmacology',0)");assert(revisited.run('reasoningOpeningActive()'),'Reset restores the opening topic');assert.equal(revisited.run('reasoningReadingTopic().id'),'fda-requirements');assert.equal(revisited.run('countDone()'),0);
- console.log('PASS: three reading tabs, one three-part ivacaftor source comparison, 26 archived cases, legacy topic migration, explicit reading completion, eight exercises, 31 reasoning steps, 16 original cases, legacy routes, storage recovery, keyboard navigation, refresh and reset.');
+ console.log('PASS: four pharmacology tabs, bridge-topic save/restore, ivacaftor source comparison, three connected historical lessons, 26 archived cases, three minimal overviews, '+steps+' CMC/clinical reading nodes, nine explicit reading completions, legacy routes and progress migration, storage failure/retry, keyboard navigation, refresh and reset.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
