@@ -1997,5 +1997,8 @@ button.brand-attribution:focus-visible{outline:2px solid currentColor;outline-of
 
 .portal-learning-paths{margin-top:54px;padding-top:38px;border-top:1px solid #ffffff29}
 .portal-learning-paths>.eyebrow{color:#a8c5da}
+.site-last-updated{display:none;margin:0 0 0 auto;text-align:right;font-size:.75rem;line-height:1.7;color:inherit}
+.is-portal .site-last-updated{display:block;align-self:center}
+.site-last-updated time{white-space:nowrap}
 .portal-learning-paths>h2{font-size:clamp(1.7rem,3vw,2.7rem);letter-spacing:-.06rem;margin:0 0 18px}
 @media(max-width:740px){.portal-learning-paths{margin-top:38px;padding-top:28px}}
